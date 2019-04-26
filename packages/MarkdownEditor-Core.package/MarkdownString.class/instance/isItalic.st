@@ -1,0 +1,4 @@
+testing
+isItalic
+
+	^ italic
