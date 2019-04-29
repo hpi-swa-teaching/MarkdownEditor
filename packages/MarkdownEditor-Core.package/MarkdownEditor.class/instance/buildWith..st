@@ -2,9 +2,10 @@ building
 buildWith: aBuilder
 	
 	| windowSpec |
-	windowSpec := self buildWindowWith: aBuilder specs: {
-		(0@0 corner: 1@1) -> [self buildEditorWith: aBuilder]
-		}.
-	windowSpec label: 'Markdown Editor'.
+	windowSpec := aBuilder pluggableWindowSpec new
+		model: self;
+		children: {self buildEditorWith: aBuilder};
+		label: 'Markdown Editor';
+		yourself.
 	^ aBuilder build: windowSpec
 	
