@@ -1,4 +1,9 @@
 converting
 asText
 
-	^ self children inject: '' into: [:result :mdBlock | result, mdBlock asText]
+	| text |
+	text := self content asText.
+	self attributes do: [:attribute |
+		attribute squeakTextAttributes do: [:textAttribute |
+			text addAttribute: textAttribute from: attribute range start to: attribute range stop]].
+	^ text

@@ -1,4 +1,0 @@
-accessing
-beBold
-
-	bold := true

@@ -1,4 +1,0 @@
-accessing
-beItalic
-
-	italic := true

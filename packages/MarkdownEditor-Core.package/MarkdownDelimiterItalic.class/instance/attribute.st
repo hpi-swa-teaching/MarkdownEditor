@@ -1,0 +1,4 @@
+accessing
+attribute
+
+	^ MarkdownAttributeItalic new

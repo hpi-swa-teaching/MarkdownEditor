@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"attributes",
-		"content" ],
-	"name" : "MarkdownParagraph",
+		"prototypeDelimiters" ],
+	"name" : "MarkdownInlineParser",
 	"pools" : [
 		 ],
-	"super" : "MarkdownBlock",
+	"super" : "Object",
 	"type" : "normal" }

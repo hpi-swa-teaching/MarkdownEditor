@@ -1,15 +1,15 @@
 {
-	"category" : "MarkdownEditor-Core",
+	"category" : "MarkdownEditor-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"attributes",
-		"content" ],
-	"name" : "MarkdownParagraph",
+		"string",
+		"paragaph" ],
+	"name" : "MarkdownParagraphTest",
 	"pools" : [
 		 ],
-	"super" : "MarkdownBlock",
+	"super" : "TestCase",
 	"type" : "normal" }

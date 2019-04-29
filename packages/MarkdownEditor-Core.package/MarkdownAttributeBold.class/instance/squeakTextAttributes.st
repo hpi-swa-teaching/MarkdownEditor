@@ -1,0 +1,4 @@
+accessing
+squeakTextAttributes
+
+	^ {TextEmphasis bold}
