@@ -8,5 +8,5 @@ findClosingDelimiterFor: aMarkdownDelimiter in: aCollectionOfMarkdownTokens ifFo
 		select: [:token | token isDelimiter]
 		thenDo: [:delimiter | 
 			(delimiter content = aMarkdownDelimiter content)
-				ifTrue: [aBlock value: delimiter]]
+				ifTrue: [^ aBlock value: delimiter]]
 	
