@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"range" ],
+		"start",
+		"end" ],
 	"name" : "MarkdownAttribute",
 	"pools" : [
 		 ],

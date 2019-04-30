@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"attributesFromTokens:" : "fgo 4/29/2019 16:23",
+		"attributesFromTokens:" : "fgo 4/30/2019 11:59",
 		"findClosingDelimiterFor:in:ifFound:" : "fgo 4/30/2019 11:47",
 		"initialize" : "fgo 4/29/2019 15:38",
 		"nextTokenFor:" : "fgo 4/29/2019 16:48",

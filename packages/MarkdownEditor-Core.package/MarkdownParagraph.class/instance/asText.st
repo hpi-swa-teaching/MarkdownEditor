@@ -5,5 +5,5 @@ asText
 	text := self content asText.
 	self attributes do: [:attribute |
 		attribute squeakTextAttributes do: [:textAttribute |
-			text addAttribute: textAttribute from: attribute range start to: attribute range stop]].
+			text addAttribute: textAttribute from: attribute start to: attribute end]].
 	^ text

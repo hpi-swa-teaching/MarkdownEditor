@@ -9,9 +9,12 @@ attributesFromTokens: aCollectionOfMarkdownTokens
 			delimiter isActive ifTrue: [
 				self findClosingDelimiterFor: delimiter 
 					in: aCollectionOfMarkdownTokens
-					ifFound: [:closer | |interval|
-						interval := Interval from: delimiter position to: closer position + closer content size - 1.
-						attributes addLast: (delimiter attribute range: interval; yourself).
+					ifFound: [:closer | |attribute|
+						attribute := delimiter attribute.
+						attribute 
+							start: delimiter position; 
+							end: closer position + closer content size - 1.
+						attributes addLast: attribute.
 						closer beInactive.].
 				delimiter beInactive]].
 	^ attributes
