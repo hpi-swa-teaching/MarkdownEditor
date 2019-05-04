@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"attributesFromTokens:" : "fgo 4/30/2019 11:59",
-		"findClosingDelimiterFor:in:ifFound:" : "fgo 4/30/2019 11:47",
-		"initialize" : "fgo 4/29/2019 15:38",
-		"nextTokenFor:" : "fgo 4/29/2019 16:48",
+		"attributesFromTokens:" : "fgo 5/4/2019 16:37",
+		"findClosingDelimiterFor:in:ifFound:" : "fgo 5/4/2019 16:36",
+		"initialize" : "fgo 5/4/2019 16:38",
+		"nextTokenFor:" : "fgo 5/4/2019 16:36",
 		"parse:" : "fgo 4/30/2019 11:32",
-		"prototypeDelimiters" : "fgo 4/29/2019 14:10",
-		"prototypeDelimiters:" : "fgo 4/29/2019 14:10" } }
+		"prototypeTokens" : "fgo 5/4/2019 16:37",
+		"prototypeTokens:" : "fgo 5/4/2019 16:38" } }

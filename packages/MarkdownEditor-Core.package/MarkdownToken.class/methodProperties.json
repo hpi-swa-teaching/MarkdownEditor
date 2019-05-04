@@ -3,12 +3,8 @@
 		 },
 	"instance" : {
 		"<=" : "fgo 4/29/2019 14:56",
-		"beActive" : "fgo 4/29/2019 16:01",
-		"beInactive" : "fgo 4/29/2019 16:01",
-		"content" : "fgo 4/29/2019 14:43",
+		"content" : "fgo 5/4/2019 14:53",
 		"content:" : "fgo 4/29/2019 14:44",
-		"initialize" : "fgo 4/29/2019 16:15",
-		"isActive" : "fgo 4/29/2019 16:01",
 		"isDelimiter" : "fgo 4/29/2019 14:40",
 		"position" : "fgo 4/29/2019 14:21",
 		"position:" : "fgo 4/29/2019 14:21",

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testInitialization" : "fgo 5/4/2019 16:10",
+		"testLeftFlanking" : "fgo 5/4/2019 16:24",
+		"testLength" : "fgo 5/4/2019 16:18",
+		"testLengthCalculation" : "fgo 5/4/2019 15:18",
+		"testLengthRaisesNoMatchError" : "fgo 5/4/2019 15:18",
+		"testLengthRaisesStreamEndError" : "fgo 5/4/2019 15:18",
+		"testMatch" : "fgo 5/4/2019 14:18",
+		"testRightFlanking" : "fgo 5/4/2019 16:29" } }

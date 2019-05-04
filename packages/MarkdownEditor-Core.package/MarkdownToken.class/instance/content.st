@@ -1,4 +1,4 @@
 accessing
 content
 
-	^ self subclassResponsibility
+	^ content

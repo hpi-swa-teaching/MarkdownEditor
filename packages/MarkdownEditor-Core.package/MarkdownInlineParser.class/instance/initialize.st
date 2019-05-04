@@ -2,5 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self prototypeDelimiters: {MarkdownDelimiterItalic new. MarkdownDelimiterBold new.} asSortedCollection.
-	self prototypeDelimiters sortBlock: [:a :b | a precedence > b precedence]
+	self prototypeTokens: {MarkdownDelimiterEmphasis new.} asSortedCollection.
+	self prototypeTokens sortBlock: [:a :b | a precedence > b precedence]

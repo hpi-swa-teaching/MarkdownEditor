@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"prototypeTokens" ],
-	"name" : "MarkdownInlineParser",
+		"leftFlanking",
+		"rightFlanking" ],
+	"name" : "MarkdownDelimiterEmphasis",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownDelimiter",
 	"type" : "normal" }

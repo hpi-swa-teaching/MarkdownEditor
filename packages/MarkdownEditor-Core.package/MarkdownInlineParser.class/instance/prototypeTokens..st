@@ -1,0 +1,4 @@
+accessing-private
+prototypeTokens: aCollectionOfMarkdownTokens
+
+	prototypeTokens := aCollectionOfMarkdownTokens
