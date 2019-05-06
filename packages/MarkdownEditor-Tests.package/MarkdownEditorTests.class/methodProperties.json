@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"closeMarkdownEditorWindows" : "jst 4/26/2019 21:39",
+		"markdownWindows" : "jst 4/26/2019 21:38",
+		"setUp" : "kgr 4/29/2019 13:43",
+		"testBuildEditorWithReturnsSpec" : "kgr 4/29/2019 14:13",
+		"testBuildWithReturnsWindow" : "kgr 4/29/2019 13:44",
+		"testMenuOpenCommand" : "kgr 4/28/2019 17:56",
+		"testTextPersistence" : "kgr 4/29/2019 14:20",
+		"testWindowCreation" : "jst 4/26/2019 21:38" } }
