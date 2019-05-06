@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 calculateLengthFor: aMarkdownReadStream
 
 	| streamCopy count |

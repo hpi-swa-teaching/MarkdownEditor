@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 whitespaceChars
 
 	"Whitespace characters according to GFM spec. :)"

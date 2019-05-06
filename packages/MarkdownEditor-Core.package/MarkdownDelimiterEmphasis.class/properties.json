@@ -11,5 +11,5 @@
 	"name" : "MarkdownDelimiterEmphasis",
 	"pools" : [
 		 ],
-	"super" : "MarkdownDelimiter",
+	"super" : "MarkdownToken",
 	"type" : "normal" }

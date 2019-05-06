@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 decideFlankingFor: aMarkdownReadStream
 
 	self leftFlanking: (self isLeftFlankingFor: aMarkdownReadStream).

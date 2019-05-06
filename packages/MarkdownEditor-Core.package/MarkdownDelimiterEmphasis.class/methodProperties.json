@@ -1,15 +1,18 @@
 {
 	"class" : {
 		"matches:" : "fgo 5/4/2019 14:16",
-		"newFor:" : "fgo 5/4/2019 14:50" },
+		"newFor:" : "fgo 5/4/2019 18:01",
+		"punctuationChars" : "fgo 5/6/2019 13:18",
+		"whitespaceChars" : "fgo 5/6/2019 13:19" },
 	"instance" : {
 		"calculateLengthFor:" : "fgo 5/4/2019 15:17",
 		"decideFlankingFor:" : "fgo 5/4/2019 16:26",
 		"initializeFor:" : "fgo 5/4/2019 16:27",
+		"isDelimiter" : "fgo 5/4/2019 21:08",
 		"isFollowedByAnyOf:in:" : "fgo 5/4/2019 16:27",
 		"isLeftFlanking" : "fgo 5/4/2019 16:12",
 		"isLeftFlankingFor:" : "fgo 5/4/2019 16:27",
-		"isPrecededByAnyOf:in:" : "fgo 5/4/2019 15:46",
+		"isPrecededByAnyOf:in:" : "fgo 5/4/2019 18:04",
 		"isRightFlanking" : "fgo 5/4/2019 16:12",
 		"isRightFlankingFor:" : "fgo 5/4/2019 16:28",
 		"leftFlanking:" : "fgo 5/4/2019 16:12",

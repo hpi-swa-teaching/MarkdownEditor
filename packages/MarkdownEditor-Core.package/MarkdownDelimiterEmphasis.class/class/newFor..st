@@ -1,4 +1,4 @@
 instance creation
-newFor: aStream
+newFor: aMarkdownReadStream
 
-	^ self basicNew initializeFor: aStream
+	^ self basicNew initializeFor: aMarkdownReadStream
