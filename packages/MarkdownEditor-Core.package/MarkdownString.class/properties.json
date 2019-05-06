@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tokenClasses",
-		"tokens" ],
-	"name" : "MarkdownInlineParser",
+		 ],
+	"name" : "MarkdownString",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownToken",
 	"type" : "normal" }

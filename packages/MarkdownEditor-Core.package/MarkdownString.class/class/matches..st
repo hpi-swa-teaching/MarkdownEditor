@@ -1,0 +1,4 @@
+testing
+matches: aString
+
+	^ true

@@ -1,5 +1,0 @@
-accessing-private
-nextTokenFor: aStream
-
-
-	

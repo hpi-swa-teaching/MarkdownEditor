@@ -3,10 +3,13 @@
 		 },
 	"instance" : {
 		"testInitialization" : "fgo 5/4/2019 16:10",
+		"testIsCloser" : "jko 5/6/2019 16:18",
+		"testIsOpener" : "jko 5/6/2019 16:18",
+		"testIsOpenerAndCloser" : "jko 5/6/2019 16:19",
 		"testLeftFlanking" : "fgo 5/4/2019 16:24",
 		"testLength" : "fgo 5/4/2019 16:18",
 		"testLengthCalculation" : "fgo 5/4/2019 15:18",
 		"testLengthRaisesNoMatchError" : "fgo 5/4/2019 15:18",
 		"testLengthRaisesStreamEndError" : "fgo 5/4/2019 15:18",
-		"testMatch" : "fgo 5/4/2019 14:18",
+		"testMatches" : "jko 5/6/2019 14:23",
 		"testRightFlanking" : "fgo 5/4/2019 16:29" } }

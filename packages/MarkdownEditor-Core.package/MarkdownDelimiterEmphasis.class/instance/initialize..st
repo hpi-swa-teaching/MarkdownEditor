@@ -1,5 +1,5 @@
 initialize-release
-initializeFor: aMarkdownReadStream
+initialize: aMarkdownReadStream
 
 	| len |
 	super initialize.

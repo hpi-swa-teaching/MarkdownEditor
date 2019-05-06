@@ -1,0 +1,4 @@
+initialize-release
+initialize: aMarkdownReadStream
+
+	self subclassResponsibility

@@ -1,5 +1,5 @@
 tests
-testMatch
+testMatches
 
 	self assert: (MarkdownDelimiterEmphasis matches: '*').
 	self deny: (MarkdownDelimiterEmphasis matches: '-').

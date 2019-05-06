@@ -1,4 +1,4 @@
 accessing
 precedence
 
-	^ 0
+	^ 1

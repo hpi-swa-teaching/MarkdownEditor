@@ -1,11 +1,14 @@
 {
 	"class" : {
-		 },
+		"<=" : "jko 5/6/2019 14:49",
+		"matches:" : "jko 5/6/2019 14:25",
+		"newFor:" : "jko 5/6/2019 14:34",
+		"precedence" : "jko 5/6/2019 14:45" },
 	"instance" : {
-		"<=" : "fgo 4/29/2019 14:56",
 		"content" : "fgo 5/4/2019 14:53",
 		"content:" : "fgo 4/29/2019 14:44",
+		"initialize:" : "jko 5/6/2019 14:35",
 		"isDelimiter" : "fgo 4/29/2019 14:40",
+		"length" : "jko 5/6/2019 14:36",
 		"position" : "fgo 4/29/2019 14:21",
-		"position:" : "fgo 4/29/2019 14:21",
-		"precedence" : "fgo 4/29/2019 14:23" } }
+		"position:" : "fgo 4/29/2019 14:21" } }
