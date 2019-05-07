@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "jko 5/6/2019 14:11",
-		"testDelimiterCantCloseItself" : "jko 5/6/2019 16:47",
+		"testDelimiterCantCloseItself" : "fgo 5/7/2019 11:54",
 		"testFindOpenerForEmphasisDelimiter" : "jko 5/6/2019 16:02",
-		"testNextTokenIn" : "jko 5/6/2019 14:59",
+		"testNextTokenIn" : "fgo 5/7/2019 11:55",
 		"testOpenCloserLength3Rule" : "jko 5/6/2019 16:44",
-		"testTokenize" : "jko 5/6/2019 15:09" } }
+		"testTokenize" : "fgo 5/7/2019 11:59" } }

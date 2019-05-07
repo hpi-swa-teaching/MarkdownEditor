@@ -3,11 +3,11 @@ testLength
 
 	| delimiter |
 	delimiter := MarkdownDelimiterEmphasis newFor: (MarkdownReadStream on: '*').
-	self assert: delimiter length equals: 1.
+	self assert: 1 equals: delimiter length.
 	delimiter := MarkdownDelimiterEmphasis newFor: (MarkdownReadStream on: '****').
-	self assert: delimiter length equals: 4.
+	self assert: 4 equals: delimiter length.
 	delimiter := MarkdownDelimiterEmphasis newFor: (MarkdownReadStream on: '*****').
-	self assert: delimiter length equals: 5.
+	self assert: 5 equals: delimiter length.
 	delimiter := MarkdownDelimiterEmphasis newFor: (MarkdownReadStream on: '******************************************').
-	self assert: delimiter length equals: 42
+	self assert: 42 equals: delimiter length
 	

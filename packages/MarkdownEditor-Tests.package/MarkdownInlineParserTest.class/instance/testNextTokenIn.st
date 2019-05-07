@@ -5,13 +5,13 @@ testNextTokenIn
 	stream := MarkdownReadStream on: 'Change **at the next stop** please!'.
 	token := inlineParser nextTokenIn: stream.
 	self assert: (token isKindOf: MarkdownString).
-	self assert: token content equals: 'C'.
+	self assert: 'C' equals: token content.
 	self deny: token isDelimiter.
 	
 	stream next: 7.
 	token := inlineParser nextTokenIn: stream.
 	self assert: (token isKindOf: MarkdownDelimiterEmphasis).
-	self assert: token content equals: '**'.
+	self assert:  '**' equals: token content.
 	self assert: token isDelimiter.
 	
 	stream := MarkdownReadStream on: ''.

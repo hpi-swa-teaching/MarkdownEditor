@@ -2,9 +2,9 @@ tests
 testTokenize
 
 	inlineParser tokenize: 'Mini**Metro** *is cool*'.
-	self assert: inlineParser tokens size equals: 21.
-	self assert: inlineParser tokens first content equals: 'M'.
+	self assert: 21 equals: inlineParser tokens size.
+	self assert: 'M' equals: inlineParser tokens first content.
 	self deny: inlineParser tokens first isDelimiter.
-	self assert: inlineParser tokens second content equals: 'i'.
-	self assert: inlineParser tokens last content equals: '*'.
+	self assert: 'i' equals: inlineParser tokens second content.
+	self assert: '*' equals: inlineParser tokens last content.
 	self assert: inlineParser tokens last isDelimiter

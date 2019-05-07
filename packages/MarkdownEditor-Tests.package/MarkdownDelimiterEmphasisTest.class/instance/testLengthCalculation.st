@@ -2,11 +2,11 @@ tests
 testLengthCalculation
 
 	| specialStream |
-	self assert: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '*')) equals: 1.
-	self assert: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '**')) equals: 2.
-	self assert: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '********')) equals: 8.
-	self assert: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '**MINIMETRO')) equals: 2.
+	self assert: 1 equals: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '*')).
+	self assert: 2 equals: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '**')).
+	self assert: 8 equals: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '********')).
+	self assert: 2 equals: (MarkdownDelimiterEmphasis new calculateLengthFor: (MarkdownReadStream on: '**MINIMETRO')).
 	specialStream := MarkdownReadStream on: 'Trains***'.
 	specialStream next: 6.
-	self assert: (MarkdownDelimiterEmphasis new calculateLengthFor: specialStream) equals: 3
+	self assert: 3 equals: (MarkdownDelimiterEmphasis new calculateLengthFor: specialStream)
 	

@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testInitialization" : "fgo 5/4/2019 16:10",
+		"testInitialization" : "fgo 5/7/2019 11:57",
 		"testIsCloser" : "jko 5/6/2019 16:18",
 		"testIsOpener" : "jko 5/6/2019 16:18",
 		"testIsOpenerAndCloser" : "jko 5/6/2019 16:19",
 		"testLeftFlanking" : "fgo 5/4/2019 16:24",
-		"testLength" : "fgo 5/4/2019 16:18",
-		"testLengthCalculation" : "fgo 5/4/2019 15:18",
+		"testLength" : "fgo 5/7/2019 11:58",
+		"testLengthCalculation" : "fgo 5/7/2019 11:58",
 		"testLengthRaisesNoMatchError" : "fgo 5/4/2019 15:18",
 		"testLengthRaisesStreamEndError" : "fgo 5/4/2019 15:18",
 		"testMatches" : "jko 5/6/2019 14:23",

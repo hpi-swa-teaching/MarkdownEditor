@@ -3,5 +3,5 @@ testLast
 
 	| stream |
 	stream := MarkdownReadStream on: 'abc'.
-	self assert: (stream last) equals: Character lf.
+	self assert: Character lf equals: stream last.
 	
