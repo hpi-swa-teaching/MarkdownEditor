@@ -3,5 +3,4 @@ initialize
 
 	super initialize.
 	self tokenClasses: {MarkdownDelimiterEmphasis. MarkdownString.} asSortedCollection.
-	self tokenClasses sortBlock: [:a :b | a precedence > b precedence].
-	self tokens: OrderedCollection new
+	self tokenClasses sortBlock: [:a :b | a precedence > b precedence]

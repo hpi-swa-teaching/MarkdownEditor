@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"attributesFromTokens:" : "fgo 5/4/2019 16:37",
-		"findOpenerFor:ifFound:ifNone:" : "jko 5/6/2019 16:47",
-		"initialize" : "jko 5/6/2019 15:11",
-		"nextTokenIn:" : "jko 5/6/2019 14:51",
+		"findOpenerFor:ifFound:ifNone:" : "kgr 5/9/2019 16:56",
+		"initialize" : "kgr 5/9/2019 15:54",
+		"nextTokenIn:" : "kgr 5/9/2019 16:41",
 		"parse:" : "fgo 5/7/2019 11:21",
 		"tokenClasses" : "jko 5/6/2019 14:43",
 		"tokenClasses:" : "jko 5/6/2019 14:44",

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"matches:" : "fgo 5/4/2019 14:16",
+		"beginsWith:" : "kgr 5/9/2019 16:40",
 		"precedence" : "jko 5/6/2019 14:45",
 		"punctuationChars" : "fgo 5/6/2019 13:18",
 		"whitespaceChars" : "fgo 5/6/2019 13:19" },
@@ -19,4 +19,5 @@
 		"isRightFlanking" : "fgo 5/4/2019 16:12",
 		"isRightFlankingFor:" : "fgo 5/4/2019 16:28",
 		"leftFlanking:" : "fgo 5/4/2019 16:12",
+		"matches:" : "kgr 5/9/2019 17:00",
 		"rightFlanking:" : "fgo 5/4/2019 16:12" } }

@@ -1,17 +1,17 @@
 tests
-testMatches
+testMatchesNot
 
 	| opener openerAndCloser |
 	opener := MarkdownDelimiterEmphasis new
 				leftFlanking: true;
-				content: '***';
+				content: '*';
 				yourself.
 	openerAndCloser := MarkdownDelimiterEmphasis new
 				leftFlanking: true;
 				rightFlanking: true;
-				content: '***';
+				content: '**';
 				yourself.	
-	self assert: (openerAndCloser matches: opener)
+	self deny: (openerAndCloser matches: opener)
 				
 		
 	

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBeginsWith" : "kgr 5/9/2019 16:38",
 		"testInitialization" : "fgo 5/7/2019 11:57",
 		"testIsCloser" : "jko 5/6/2019 16:18",
 		"testIsOpener" : "jko 5/6/2019 16:18",
@@ -11,6 +12,7 @@
 		"testLengthCalculation" : "fgo 5/7/2019 11:58",
 		"testLengthRaisesNoMatchError" : "fgo 5/4/2019 15:18",
 		"testLengthRaisesStreamEndError" : "fgo 5/4/2019 15:18",
-		"testMatches" : "jko 5/6/2019 14:23",
+		"testMatches" : "kgr 5/9/2019 16:53",
+		"testMatchesNot" : "kgr 5/9/2019 16:53",
 		"testPosition" : "fgo 5/7/2019 11:47",
 		"testRightFlanking" : "fgo 5/4/2019 16:29" } }

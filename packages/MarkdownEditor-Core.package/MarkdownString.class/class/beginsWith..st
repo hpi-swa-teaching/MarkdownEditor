@@ -1,0 +1,4 @@
+testing
+beginsWith: aString
+
+	^ true

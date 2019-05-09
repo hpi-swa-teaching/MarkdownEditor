@@ -1,4 +1,4 @@
 testing
-matches: aString
+beginsWith: aString
 
 	^ aString = '*'
