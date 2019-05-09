@@ -1,4 +1,0 @@
-converting
-asText
-
-	^ self subclassResponsibility

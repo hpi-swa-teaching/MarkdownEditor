@@ -1,4 +1,0 @@
-accessing-private
-attributes: aCollectionOfMarkdownAttributes
-
-	attributes := aCollectionOfMarkdownAttributes
