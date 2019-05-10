@@ -3,6 +3,13 @@
 		 },
 	"instance" : {
 		"testBeginsWith" : "kgr 5/9/2019 16:38",
+		"testCut" : "fgo 5/10/2019 15:55",
+		"testCutFromEnd" : "fgo 5/10/2019 16:12",
+		"testCutFromStart" : "fgo 5/10/2019 16:11",
+		"testEmphasisAttributeBold" : "fgo 5/10/2019 15:46",
+		"testEmphasisAttributeBold2" : "fgo 5/10/2019 15:46",
+		"testEmphasisAttributeItalic" : "fgo 5/10/2019 15:34",
+		"testEndPosition" : "fgo 5/10/2019 15:25",
 		"testInitialization" : "fgo 5/7/2019 11:57",
 		"testIsCloser" : "jko 5/6/2019 16:18",
 		"testIsOpener" : "jko 5/6/2019 16:18",
@@ -14,5 +21,5 @@
 		"testLengthRaisesStreamEndError" : "fgo 5/4/2019 15:18",
 		"testMatches" : "kgr 5/9/2019 16:53",
 		"testMatchesNot" : "kgr 5/9/2019 16:53",
-		"testPosition" : "fgo 5/7/2019 11:47",
+		"testPosition" : "fgo 5/10/2019 15:25",
 		"testRightFlanking" : "fgo 5/4/2019 16:29" } }

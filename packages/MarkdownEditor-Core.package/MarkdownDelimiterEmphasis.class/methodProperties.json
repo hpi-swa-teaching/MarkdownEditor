@@ -1,11 +1,17 @@
 {
 	"class" : {
-		"beginsWith:" : "kgr 5/9/2019 16:40",
+		"asterisk" : "fgo 5/10/2019 14:40",
+		"beginsWith:" : "fgo 5/10/2019 14:40",
 		"precedence" : "jko 5/6/2019 14:45",
 		"punctuationChars" : "fgo 5/6/2019 13:18",
 		"whitespaceChars" : "fgo 5/6/2019 13:19" },
 	"instance" : {
-		"calculateLengthFor:" : "fgo 5/4/2019 15:17",
+		"attributeStartingAt:" : "fgo 5/10/2019 15:53",
+		"attributeTypeStartingAt:" : "fgo 5/10/2019 15:53",
+		"boldLength" : "fgo 5/10/2019 15:54",
+		"calculateLengthFor:" : "fgo 5/10/2019 14:40",
+		"cutFromEnd:" : "fgo 5/10/2019 16:14",
+		"cutFromStart:" : "fgo 5/10/2019 16:10",
 		"decideFlankingFor:" : "fgo 5/4/2019 16:26",
 		"initialize:" : "jko 5/6/2019 14:34",
 		"isCloser" : "jko 5/6/2019 16:20",

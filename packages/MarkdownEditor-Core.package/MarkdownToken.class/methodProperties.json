@@ -2,11 +2,12 @@
 	"class" : {
 		"<=" : "jko 5/6/2019 14:49",
 		"beginsWith:" : "kgr 5/9/2019 16:39",
-		"newFor:" : "fgo 5/7/2019 11:50",
+		"newFor:" : "fgo 5/10/2019 15:26",
 		"precedence" : "jko 5/6/2019 14:45" },
 	"instance" : {
 		"content" : "fgo 5/4/2019 14:53",
 		"content:" : "fgo 4/29/2019 14:44",
+		"endPosition" : "fgo 5/10/2019 15:22",
 		"initialize:" : "jko 5/6/2019 14:35",
 		"isDelimiter" : "fgo 4/29/2019 14:40",
 		"length" : "jko 5/6/2019 14:36",

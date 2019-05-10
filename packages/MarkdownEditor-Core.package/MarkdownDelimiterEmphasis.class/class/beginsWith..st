@@ -1,4 +1,4 @@
 testing
 beginsWith: aString
 
-	^ aString = '*'
+	^ aString = self asterisk asString
