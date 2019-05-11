@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"closeMarkdownEditorWindows" : "jst 4/26/2019 21:39",
-		"markdownWindows" : "jst 4/26/2019 21:38",
-		"setUp" : "kgr 4/29/2019 13:43",
+		"setUp" : "jst 5/11/2019 19:40",
+		"tearDown" : "jst 5/11/2019 19:40",
 		"testBuildEditorWithReturnsSpec" : "kgr 4/29/2019 14:13",
 		"testBuildWithReturnsWindow" : "kgr 4/29/2019 13:44",
-		"testMenuOpenCommand" : "kgr 4/28/2019 17:56",
-		"testTextPersistence" : "kgr 4/29/2019 14:20",
-		"testWindowCreation" : "jst 4/26/2019 21:38" } }
+		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
+		"testTextPersistence" : "jst 5/11/2019 20:16",
+		"testWindowCreation" : "jst 5/11/2019 19:49",
+		"testWindowLabel" : "jst 5/11/2019 19:50" } }
