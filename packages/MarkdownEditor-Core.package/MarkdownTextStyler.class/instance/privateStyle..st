@@ -3,4 +3,4 @@ privateStyle: aText
 
 	| text |
 	text := (MarkdownBlockParser new) parse: aText asString.
-	aText setString: text string setRuns: text runs
+	aText runs: text runs

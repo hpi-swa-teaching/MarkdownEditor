@@ -1,4 +1,4 @@
-testing
+text attributes
 attributesFor: aString
 	
 	| headingLevel attributes |

@@ -1,6 +1,6 @@
 testing
-levelOf: aMarkdownHeading
+levelOf: headingString
 
 	| chunks |
-	chunks := aMarkdownHeading subStrings: {Character space. Character cr}.
+	chunks := headingString subStrings: {Character space. Character cr}.
 	^ chunks first size

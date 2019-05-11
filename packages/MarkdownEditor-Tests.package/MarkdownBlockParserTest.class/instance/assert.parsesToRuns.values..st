@@ -1,9 +1,9 @@
 accessing
 assert: markdownString parsesToRuns: runs values: values
 
-	| expectedRuns parsedText|
-	expectedRuns := RunArray new setRuns: runs setValues: values.
+	| parsedText |
 	parsedText := parser parse: markdownString.
-	
-	self assert: markdownString equals: parsedText string;
-		assert: (values collect: [:attributes | attributes asSet]) equals: (parsedText runs values collect: [:attributes | attributes asSet])
+	self
+		assert: markdownString equals: parsedText string;
+		assert: runs equals: parsedText runs runs;
+		assert: (self attributesOf: values) equals: (self attributesOf: parsedText runs values)
