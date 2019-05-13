@@ -1,4 +1,4 @@
-tests - level
+tests - matching
 testMismatchHeadingLevel0
 
 	self deny: (MarkdownHeading matches: '')

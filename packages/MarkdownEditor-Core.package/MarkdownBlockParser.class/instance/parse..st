@@ -1,13 +1,10 @@
 parsing
 parse: aString
 
-	| styledText |
-	styledText := aString asText.
-	aString lineIndicesDo: [:start :endWithoutDelimiters :end | | line |
+	| blocks |
+	blocks := OrderedCollection new.
+	aString lineIndicesDo: [:start :endWithoutDelimiters :end |
+		| line |
 		line := aString copyFrom: start to: end.
-		(MarkdownHeading matches: line)
-			ifTrue: [
-				(MarkdownHeading attributesFor: line) do: [:attribute |
-					styledText
-						addAttribute: attribute from: start to: end]]].
-	^ styledText
+		blocks add: (self findBlockFor: line)].
+	^ blocks inject: Text new into: [:text :block | text append: block asText]

@@ -1,4 +1,6 @@
 tests - attributes
 testLevel6Attributes
 
-	self assert: {TextFontReference toFont: (TextStyle default copy fontOfSize: 19)} asSet equals: (MarkdownHeading attributesFor: '###### level6') asSet
+	self
+		assert: '###### level6'
+		hasAttributes: {TextFontReference toFont: (TextStyle default copy fontOfSize: 19)}

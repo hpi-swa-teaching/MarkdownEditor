@@ -1,5 +1,5 @@
 tests - level
 testFindLevelOfHeadingLevel3
 
-	self assert: (MarkdownHeading levelOf: '###') equals: 3
+	self assert: (MarkdownHeading newFrom: '###') level equals: 3
 	
