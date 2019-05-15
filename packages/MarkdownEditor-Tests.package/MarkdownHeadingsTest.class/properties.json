@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"toolbuilder",
-		"window" ],
-	"name" : "MarkdownEditorTests",
+		 ],
+	"name" : "MarkdownHeadingsTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:parsesToRuns:values:" : "jst 5/11/2019 19:04",
+		"attributesOf:" : "jst 5/11/2019 19:05",
+		"setUp" : "lpf 5/9/2019 15:23",
+		"testEmptyHeading" : "jst 5/11/2019 19:14",
+		"testEmptyHeadingWithFollowingLine" : "jst 5/11/2019 19:14",
+		"testHeadingWithContent" : "jst 5/11/2019 19:16",
+		"testHeadingWithFollowingLine" : "jst 5/11/2019 19:15",
+		"testReturnsUnmodifiedText" : "jst 5/11/2019 19:16" } }
