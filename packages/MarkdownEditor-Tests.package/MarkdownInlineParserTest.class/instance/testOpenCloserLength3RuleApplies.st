@@ -1,5 +1,5 @@
 tests
-testOpenCloserLength3Rule
+testOpenCloserLength3RuleApplies
 	
 	| tokens opener closer foundOpener openCloser |
 	tokens := OrderedCollection new.

@@ -1,8 +1,6 @@
-tests
+tests - state
 testPosition
 
-	| stream token |
-	stream := MarkdownReadStream on: 'Mind the **gap between platform and train**.'.
-	stream next: 9.
-	token := MarkdownDelimiterEmphasis newFor: stream.
+	| token |
+	token := MarkdownDelimiterEmphasis newFor: (self readStreamOn: 'Mind the **gap between platform and train**.' at: 9).
 	self assert: 10 equals: token position

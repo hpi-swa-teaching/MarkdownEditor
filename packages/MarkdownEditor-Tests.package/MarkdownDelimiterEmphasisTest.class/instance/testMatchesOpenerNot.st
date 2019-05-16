@@ -1,5 +1,5 @@
-tests
-testMatchesNot
+tests - matching
+testMatchesOpenerNot
 
 	| opener openerAndCloser |
 	opener := MarkdownDelimiterEmphasis new

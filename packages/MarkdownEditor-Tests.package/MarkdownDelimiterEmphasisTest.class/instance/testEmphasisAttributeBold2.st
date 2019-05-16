@@ -1,4 +1,4 @@
-tests
+tests - attributes
 testEmphasisAttributeBold2
 
 	| opener closer attribute |

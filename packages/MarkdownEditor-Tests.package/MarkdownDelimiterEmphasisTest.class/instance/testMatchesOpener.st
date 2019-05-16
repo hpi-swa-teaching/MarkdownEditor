@@ -1,5 +1,5 @@
-tests
-testMatches
+tests - matching
+testMatchesOpener
 
 	| opener openerAndCloser |
 	opener := MarkdownDelimiterEmphasis new
@@ -12,6 +12,3 @@ testMatches
 				content: '***';
 				yourself.	
 	self assert: (openerAndCloser matches: opener)
-				
-		
-	

@@ -1,17 +1,17 @@
 tests - state
-testIsOpener
+testIsNotOpenerAndCloser
 	
 	| delimiter |
 	delimiter := MarkdownDelimiterEmphasis new 
-		content: '**'; 
+		content: '**'; 	
 		leftFlanking: true; 
 		rightFlanking: false; 
 		yourself.
-	self assert: delimiter isOpener.
+	self deny: delimiter isOpenerAndCloser.
 	
 	delimiter := MarkdownDelimiterEmphasis new 
-		content: '**'; 
-		leftFlanking: true; 
+		content: '**'; 	
+		leftFlanking: false; 
 		rightFlanking: true; 
 		yourself.
-	self assert: delimiter isOpener
+	self deny: delimiter isOpenerAndCloser

@@ -1,11 +1,7 @@
-tests
+tests - recognition
 testBeginsWith
 
 	self assert: (MarkdownDelimiterEmphasis beginsWith: '*').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: '-').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: '!').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: '![').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: '[').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: 'f').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: '').
-	self deny: (MarkdownDelimiterEmphasis beginsWith: ' ').
+	
+	{'-'. '!'. '!['. '['. 'f'. ''. ' '} do: [:string |
+		self deny: (MarkdownDelimiterEmphasis beginsWith: string)]
