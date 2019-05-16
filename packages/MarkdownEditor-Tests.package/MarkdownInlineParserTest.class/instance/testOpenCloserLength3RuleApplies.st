@@ -1,4 +1,4 @@
-tests
+tests - tokenization
 testOpenCloserLength3RuleApplies
 	
 	| tokens opener closer foundOpener openCloser |
@@ -17,8 +17,7 @@ testOpenCloserLength3RuleApplies
 	inlineParser tokens: tokens.
 	
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | foundOpener := o] 
-		ifNone: [self fail].
+		ifFound: [:o | foundOpener := o].
 	self assert: openCloser equals: foundOpener.
 	
 	opener := MarkdownDelimiterEmphasis new content: '****'; leftFlanking: true; rightFlanking: false; yourself.
@@ -32,6 +31,5 @@ testOpenCloserLength3RuleApplies
 	inlineParser tokens: tokens.
 	
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | foundOpener := o] 
-		ifNone: [self fail].
+		ifFound: [:o | foundOpener := o].
 	self assert: opener equals: foundOpener

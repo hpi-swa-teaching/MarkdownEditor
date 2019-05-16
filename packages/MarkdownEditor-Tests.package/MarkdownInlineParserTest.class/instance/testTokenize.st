@@ -1,4 +1,4 @@
-tests
+tests - tokenization
 testTokenize
 
 	inlineParser tokenize: '**Foo*'.

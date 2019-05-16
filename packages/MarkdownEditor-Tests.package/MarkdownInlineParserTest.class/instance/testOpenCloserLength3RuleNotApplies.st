@@ -1,4 +1,4 @@
-tests
+tests - tokenization
 testOpenCloserLength3RuleNotApplies
 	"https://github.github.com/gfm/#example-421"
 	"*foo**bar*"
@@ -34,7 +34,6 @@ testOpenCloserLength3RuleNotApplies
 	inlineParser tokens: tokens.
 	
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | foundOpener := o] 
-		ifNone: [self fail].
+		ifFound: [:o | foundOpener := o].
 	self deny: (openCloser = foundOpener).
 	self assert: opener equals: foundOpener

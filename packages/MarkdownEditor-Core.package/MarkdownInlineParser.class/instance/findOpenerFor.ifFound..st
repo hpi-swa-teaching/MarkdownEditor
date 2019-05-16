@@ -1,5 +1,5 @@
 parsing
-findOpenerFor: aCloser ifFound: foundBlock ifNone: noneBlock
+findOpenerFor: aCloser ifFound: foundBlock
 
 	| previousTokens endIndex |
 	endIndex := (self tokens indexOf: aCloser) - 1.
@@ -9,4 +9,4 @@ findOpenerFor: aCloser ifFound: foundBlock ifNone: noneBlock
 				and: [token isOpener] 
 				and: [aCloser matches: token]]
 		ifFound: [:match | foundBlock value: match]
-		ifNone: noneBlock
+		ifNone: []

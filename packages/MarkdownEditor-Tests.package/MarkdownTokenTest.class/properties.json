@@ -1,15 +1,14 @@
 {
-	"category" : "MarkdownEditor-Core",
+	"category" : "MarkdownEditor-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"position",
-		"content" ],
-	"name" : "MarkdownToken",
+		 ],
+	"name" : "MarkdownTokenTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

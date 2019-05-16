@@ -1,4 +1,4 @@
-tests
+tests - tokenization
 testDelimiterCantCloseItself
 	
 	| tokens opener openCloser foundOpener |
@@ -21,7 +21,6 @@ testDelimiterCantCloseItself
 	inlineParser tokens: tokens.
 	
 	inlineParser findOpenerFor: openCloser 
-		ifFound: [:o | foundOpener := o] 
-		ifNone: [self fail].
+		ifFound: [:o | foundOpener := o].
 	self deny: (openCloser = foundOpener).
 	self assert: opener equals: foundOpener

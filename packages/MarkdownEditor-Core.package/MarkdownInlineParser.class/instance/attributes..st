@@ -1,0 +1,4 @@
+accessing
+attributes: aCollectionOfMarkdownAttributes
+
+	attributes := aCollectionOfMarkdownAttributes

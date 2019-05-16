@@ -1,4 +1,4 @@
-tests
+tests - tokenization
 testNextTokenIn
 	
 	| stream token |

@@ -1,0 +1,4 @@
+accessing
+isBold
+
+	^ self subclassResponsibility

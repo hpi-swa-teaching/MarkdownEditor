@@ -1,4 +1,4 @@
-tests
+tests - tokenization
 testFindOpenerForEmphasisDelimiter
 
 	| tokens opener closer foundOpener |
@@ -20,14 +20,11 @@ testFindOpenerForEmphasisDelimiter
 	inlineParser tokens: tokens.
 	
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | foundOpener := o] 
-		ifNone: [self fail].
+		ifFound: [:o | foundOpener := o].
 	self assert: opener equals: foundOpener.
 	
 	tokens remove: opener.
 	inlineParser tokens: tokens.
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | self fail] 
-		ifNone: [^ self].
-	self fail
+		ifFound: [:o | self fail]
 	
