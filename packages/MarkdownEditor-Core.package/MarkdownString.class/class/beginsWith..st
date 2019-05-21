@@ -1,4 +1,0 @@
-testing
-beginsWith: aString
-
-	^ true

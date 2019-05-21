@@ -4,7 +4,7 @@
 	"instance" : {
 		"readStreamOn:" : "jko 5/16/2019 16:02",
 		"readStreamOn:at:" : "jko 5/16/2019 16:01",
-		"testBeginsWith" : "fgo 5/21/2019 16:35",
+		"testBeginsWithAsterisk" : "jko 5/21/2019 23:17",
 		"testBoldAttributeDelimiterLength" : "fgo 5/21/2019 16:47",
 		"testCalculateLengthRaisesNoMatchError" : "jko 5/16/2019 16:03",
 		"testCalculateLengthRaisesStreamEndError" : "jko 5/16/2019 16:03",
@@ -15,6 +15,7 @@
 		"testCut2FromStart" : "fgo 5/21/2019 15:20",
 		"testDifferentDelimiterLengthsAttributeDelimiterLength" : "fgo 5/21/2019 16:48",
 		"testDifferentDelimitersCreateBoldAttribute" : "fgo 5/21/2019 16:37",
+		"testDoesNotBeginWithOtherCharacter" : "jko 5/21/2019 23:17",
 		"testEmphasisAttributeItalic" : "fgo 5/21/2019 15:37",
 		"testEndPosition" : "jko 5/16/2019 16:04",
 		"testInitializationErrors" : "jko 5/16/2019 16:04",
@@ -36,5 +37,5 @@
 		"testOpeningDelimiterIsOpener" : "fgo 5/21/2019 16:39",
 		"testPosition" : "fgo 5/21/2019 15:20",
 		"testRightFlanking" : "fgo 5/21/2019 15:29",
-		"testSameDelimiterCreateItalicAttribute" : "fgo 5/21/2019 16:38",
-		"testSameDelimitersCreateBoldAttribute" : "fgo 5/21/2019 16:38" } }
+		"testSameDelimitersCreateBoldAttribute" : "fgo 5/21/2019 16:38",
+		"testSameDelimitersCreateItalicAttribute" : "jko 5/21/2019 23:19" } }

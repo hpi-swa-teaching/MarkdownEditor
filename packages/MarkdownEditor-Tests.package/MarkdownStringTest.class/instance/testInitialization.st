@@ -1,12 +1,12 @@
 tests
 testInitialization
 
-	| mdString stream |
+	| markdownString stream |
 	stream := MarkdownReadStream on: 'Trainssssssssss'.
-	mdString := MarkdownString newFor: stream.
-	self assert: 'T' equals: mdString content.
-	self assert: 1 equals: mdString length.
+	markdownString := MarkdownString newFor: stream.
+	self assert: 'T' equals: markdownString content.
+	self assert: 1 equals: markdownString length.
 	stream next: 3.
-	mdString := MarkdownString newFor: stream.
-	self assert: 'i' equals: mdString content.
-	self assert: 1 equals: mdString length
+	markdownString := MarkdownString newFor: stream.
+	self assert: 'i' equals: markdownString content.
+	self assert: 1 equals: markdownString length

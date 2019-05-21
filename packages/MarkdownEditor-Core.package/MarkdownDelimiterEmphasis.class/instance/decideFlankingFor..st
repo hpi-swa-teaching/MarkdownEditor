@@ -1,5 +1,6 @@
 initialize-release
 decideFlankingFor: aMarkdownReadStream
 
-	self leftFlanking: (self decideLeftFlankingFor: aMarkdownReadStream).
-	self rightFlanking: (self decideRightFlankingFor: aMarkdownReadStream).
+	self 
+		leftFlanking: (self decideLeftFlankingFor: aMarkdownReadStream);
+		rightFlanking: (self decideRightFlankingFor: aMarkdownReadStream)

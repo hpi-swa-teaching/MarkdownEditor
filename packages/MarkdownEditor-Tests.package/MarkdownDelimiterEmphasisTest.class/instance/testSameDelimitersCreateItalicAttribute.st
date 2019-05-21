@@ -1,5 +1,5 @@
 tests - attributes
-testSameDelimiterCreateItalicAttribute
+testSameDelimitersCreateItalicAttribute
 
 	| opener closer attribute |
 	opener := MarkdownDelimiterEmphasis new

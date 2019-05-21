@@ -1,5 +1,5 @@
 tests - conversion
-testDelimeterEmphasisAsString
+testDelimiterEmphasisAsString
 
 	| delimiter stream stringToken |
 	stream := MarkdownReadStream on: '**'.

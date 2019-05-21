@@ -3,13 +3,13 @@ decideLeftFlankingFor: aMarkdownReadStream
 
 	| followedByWhitespace followedByPunctuation precededByWhitespaceOrPunctuation |
 	followedByWhitespace := self
-				isFollowedByAnyOf: self class whitespaceChars
+				isFollowedByAnyOf: self whitespaceCharacters
 				in: aMarkdownReadStream.
 	followedByPunctuation := self
-				isFollowedByAnyOf: self class punctuationChars
+				isFollowedByAnyOf: self punctuationCharacters
 				in: aMarkdownReadStream.
 	precededByWhitespaceOrPunctuation := self 
-				isPrecededByAnyOf: self class punctuationChars , self class whitespaceChars 
+				isPrecededByAnyOf: self punctuationCharacters , self whitespaceCharacters
 				in: aMarkdownReadStream.
 	^ followedByWhitespace not
 		and: [followedByPunctuation not
