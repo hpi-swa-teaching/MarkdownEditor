@@ -1,9 +1,7 @@
 tests - parsing
 testParseTwoAttributes
 	
-	| attributes |
-	attributes := inlineParser parse: '***Mini**Metro*'.
-	self assert: 2 equals: attributes size.
-	self assert: (attributes first isKindOf: MarkdownAttributeBold).
-	self assert: (attributes second isKindOf: MarkdownAttributeItalic)
+	| parsedText |
+	parsedText := inlineParser parse: '***Mini**Metro*'.
+	self assert: parsedText hasRuns: {1. 8. 6} values: {{TextEmphasis italic}. {TextEmphasis italic. TextEmphasis bold}. {TextEmphasis italic}}
 	

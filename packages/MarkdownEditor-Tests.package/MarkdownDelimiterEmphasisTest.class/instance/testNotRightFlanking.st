@@ -6,7 +6,8 @@ testNotRightFlanking
 	delimiter := MarkdownDelimiterEmphasis new content: '***'; yourself.
 	
 	stream := self readStreamOn: 'abc *** def' at: 4.
-	self deny: (delimiter isRightFlankingFor: stream).
+	self deny: (delimiter decideRightFlankingFor: stream).
+	
 	stream := self readStreamOn: ' ***'.
-	self deny: (delimiter isRightFlankingFor: stream)
+	self deny: (delimiter decideRightFlankingFor: stream)
 	

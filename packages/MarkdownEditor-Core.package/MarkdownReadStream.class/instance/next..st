@@ -1,11 +1,12 @@
 accessing
 next: anInteger
 
-	| ans endPosition |
+	| nextCharacters endPosition |
 
 	endPosition := position + anInteger  min:  readLimit.
-	ans := collection copyFrom: position+1 to: endPosition.
-	(ans size ~= anInteger) 
-		ifTrue: [ans := ans padded: #right to: anInteger with: Character space].
+	nextCharacters := collection copyFrom: position + 1 to: endPosition.
+	(nextCharacters size ~= anInteger) 
+		"This method is copied from ReadStream and patched."
+		ifTrue: [nextCharacters := nextCharacters padded: #right to: anInteger with: Character space].
 	position := endPosition.
-	^ans
+	^ nextCharacters

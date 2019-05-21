@@ -1,0 +1,1 @@
+I am a stream for reading markdown text. I am special because I return whitespace when accessing me out of my bounds.

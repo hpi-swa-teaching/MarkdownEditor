@@ -1,9 +1,5 @@
-testing-private
-isRightFlankingFor: aMarkdownReadStream
-
-	"1 not preceded by whitespace AND"
-	"   2a not preceded by punct OR"
-	"	2b preceded  by punct and followed by ws or punct"
+initialize-release
+decideRightFlankingFor: aMarkdownReadStream
 
 	| precededByWhitespace precededByPunctuation followedByWhitespaceOrPunctuation |
 	precededByWhitespace := self

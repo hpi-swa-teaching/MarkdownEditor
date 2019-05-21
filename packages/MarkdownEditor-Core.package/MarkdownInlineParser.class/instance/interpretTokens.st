@@ -6,12 +6,9 @@ interpretTokens
 	currentToken := self tokens first.
 	[true] whileTrue: [(currentToken isDelimiter and: [currentToken isCloser]) 
 		ifTrue: [self findOpenerFor: currentToken 
-				ifFound: [:opener | | attribute length |
-					attribute := currentToken attributeStartingAt: opener.
-					self attributes add: attribute.
-					attribute isBold 
-						ifTrue: [length := 2]
-						ifFalse: [length := 1].
+				ifFound: [:opener |  | length |
+					self attributes add: (currentToken attributeStartingAt: opener).
+					length := currentToken attributeDelimiterLengthWith: opener.
 					opener length > length 
 						ifTrue: [self tokens 
 							add: (opener cutFromEnd: length) asStringToken 
@@ -25,6 +22,6 @@ interpretTokens
 								before: currentToken.
 							currentToken := cut]
 						ifFalse: [currentToken := self tokens at: (self tokens indexOf: currentToken) put: currentToken asStringToken]]].
-	currentToken := self tokens 
-		after: currentToken
-		ifAbsent: [^ self]]
+		currentToken := self tokens 
+			after: currentToken
+			ifAbsent: [^ self]]

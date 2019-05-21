@@ -1,10 +1,10 @@
 attributes
-attributeStartingAt: aMarkdownDelimiterEmphasis
+attributeStartingAt: openingMarkdownDelimiterEmphasis
 
-	| attrLen start end attributeClass |
+	| attributeDelimiterLength start end attributeClass |
 
-	attrLen := {self length. aMarkdownDelimiterEmphasis length. self boldLength} min.
-	start := aMarkdownDelimiterEmphasis endPosition - attrLen + 1.
-	end := self position + attrLen - 1.
-	attributeClass := self attributeTypeStartingAt: aMarkdownDelimiterEmphasis.
+	attributeDelimiterLength := (self attributeDelimiterLengthWith: openingMarkdownDelimiterEmphasis).
+	start := openingMarkdownDelimiterEmphasis endPosition - attributeDelimiterLength + 1.
+	end := self startPosition + attributeDelimiterLength - 1.
+	attributeClass := self attributeTypeStartingAt: openingMarkdownDelimiterEmphasis.
 	^ attributeClass from: start to: end

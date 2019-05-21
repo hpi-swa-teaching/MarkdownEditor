@@ -1,4 +1,4 @@
 accessing
 endPosition
 
-	^ self position + self length - 1
+	^ self startPosition + self length - 1

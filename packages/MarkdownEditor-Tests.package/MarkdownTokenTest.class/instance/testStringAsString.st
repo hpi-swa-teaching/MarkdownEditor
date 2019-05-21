@@ -8,4 +8,4 @@ testStringAsString
 	
 	self assert: (stringToken isKindOf: MarkdownString).
 	self assert: string content equals: stringToken content.
-	self assert: string position equals: stringToken position
+	self assert: string startPosition equals: stringToken startPosition

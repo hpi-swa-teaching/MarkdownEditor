@@ -4,10 +4,10 @@ testCut1FromEnd
 	| delimiter cutDelimiter |
 	delimiter := MarkdownDelimiterEmphasis new
 						content: '***';
-						position: 1;
+						startPosition: 21;
 						yourself.
 	cutDelimiter := delimiter cutFromEnd: 1.
 	self assert: '*' equals: cutDelimiter content.
-	self assert: 3 equals: cutDelimiter position.
+	self assert: 23 equals: cutDelimiter startPosition.
 	self assert: '**' equals: delimiter content.
-	self assert: 1 equals: delimiter position
+	self assert: 21 equals: delimiter startPosition

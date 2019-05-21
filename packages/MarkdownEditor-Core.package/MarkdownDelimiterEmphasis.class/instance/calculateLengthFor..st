@@ -6,6 +6,6 @@ calculateLengthFor: aMarkdownReadStream
 	streamCopy := aMarkdownReadStream copy.
 	count := 0.
 	[streamCopy next = self class asterisk] 
-		whileTrue: [ count := count + 1].
+		whileTrue: [count := count + 1].
 	(count = 0) ifTrue: [Error signal: 'No Match'].
 	^ count

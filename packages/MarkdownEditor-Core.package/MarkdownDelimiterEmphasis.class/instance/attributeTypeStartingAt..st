@@ -1,6 +1,6 @@
 attributes
-attributeTypeStartingAt: aMarkdownDelimiterEmphasis
+attributeTypeStartingAt: openingMarkdownDelimiterEmphasis
 
-	((self length >= self boldLength) and: [aMarkdownDelimiterEmphasis length >= self boldLength])
+	((self length >= self boldLength) and: [openingMarkdownDelimiterEmphasis length >= self boldLength])
 		ifTrue: [^ MarkdownAttributeBold]
 		ifFalse: [^ MarkdownAttributeItalic]

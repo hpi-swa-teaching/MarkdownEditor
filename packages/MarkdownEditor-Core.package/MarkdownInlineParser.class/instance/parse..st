@@ -1,7 +1,10 @@
 parsing
-parse: aString
+parse: aStringOrText
 
-	self tokenize: aString.
-	self interpretTokens.
-	^ self attributes
+	^ self 
+		text: aStringOrText asText;
+		tokenize;
+		interpretTokens;
+		attributizeText;
+		text
 	

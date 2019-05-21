@@ -1,17 +1,17 @@
 tests - attributes
-testEmphasisAttributeBold
+testSameDelimitersCreateBoldAttribute
 
 	| opener closer attribute |
 	opener := MarkdownDelimiterEmphasis new
 					content: '**';
-					position: 1;
+					startPosition: 1;
 					yourself.
 	closer := MarkdownDelimiterEmphasis new
 					content: '**';
-					position: 5;
+					startPosition: 5;
 					yourself.
 					
 	attribute := closer attributeStartingAt: opener. 	
 	self assert: (attribute isKindOf: MarkdownAttributeBold).
-	self assert: 1 equals: attribute start.
-	self assert: 6 equals: attribute end
+	self assert: 1 equals: attribute startPosition.
+	self assert: 6 equals: attribute endPosition

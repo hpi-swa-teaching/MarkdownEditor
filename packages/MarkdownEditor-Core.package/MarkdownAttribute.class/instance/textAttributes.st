@@ -1,4 +1,4 @@
-testing
-beginsWith: aString
+accessing
+textAttributes
 
 	^ self subclassResponsibility

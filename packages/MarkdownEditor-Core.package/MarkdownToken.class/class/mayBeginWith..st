@@ -1,4 +1,4 @@
-accessing
-squeakTextAttributes
+testing
+mayBeginWith: aString
 
 	^ self subclassResponsibility

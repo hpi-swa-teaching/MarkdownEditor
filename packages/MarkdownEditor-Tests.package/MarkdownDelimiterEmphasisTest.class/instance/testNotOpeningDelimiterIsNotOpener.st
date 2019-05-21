@@ -1,5 +1,5 @@
 tests - state
-testIsNotOpener
+testNotOpeningDelimiterIsNotOpener
 	
 	| delimiter |
 	delimiter := MarkdownDelimiterEmphasis new 

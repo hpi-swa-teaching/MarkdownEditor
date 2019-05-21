@@ -1,4 +1,4 @@
 accessing
-squeakTextAttributes
+textAttributes
 
 	^ {TextEmphasis italic}

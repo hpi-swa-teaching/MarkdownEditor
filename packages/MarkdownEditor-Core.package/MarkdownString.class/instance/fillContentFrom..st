@@ -1,6 +1,5 @@
 initialize-release
-initialize: aMarkdownReadStream
+fillContentFrom: aMarkdownReadStream
 
-	super initialize.
 	aMarkdownReadStream atEnd ifTrue: [Error signal: 'Stream end reached'].
 	self content: (aMarkdownReadStream peek: 1)

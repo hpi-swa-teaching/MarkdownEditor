@@ -1,7 +1,7 @@
 tests - recognition
 testBeginsWith
 
-	self assert: (MarkdownDelimiterEmphasis beginsWith: '*').
+	self assert: (MarkdownDelimiterEmphasis mayBeginWith: '*').
 	
 	{'-'. '!'. '!['. '['. 'f'. ''. ' '} do: [:string |
 		self deny: (MarkdownDelimiterEmphasis beginsWith: string)]

@@ -1,5 +1,5 @@
-testing-private
-isLeftFlankingFor: aMarkdownReadStream
+initialize-release
+decideLeftFlankingFor: aMarkdownReadStream
 
 	| followedByWhitespace followedByPunctuation precededByWhitespaceOrPunctuation |
 	followedByWhitespace := self

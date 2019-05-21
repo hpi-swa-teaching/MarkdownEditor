@@ -3,5 +3,5 @@ asStringToken
 
 	^ MarkdownString new
 			content: self content;
-			position: self position;
+			startPosition: self startPosition;
 			yourself

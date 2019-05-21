@@ -1,1 +1,1 @@
-I am an attribute for a text and have a range. Start and end are counted inclusively.
+I am an attribute for a text and have a range. StartPosition and endPosition are counted inclusively.

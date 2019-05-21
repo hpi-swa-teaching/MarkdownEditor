@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "fgo 5/21/2019 15:43",
 	"instvars" : [
 		"tokenClasses",
 		"tokens",
-		"attributes" ],
+		"attributes",
+		"text" ],
 	"name" : "MarkdownInlineParser",
 	"pools" : [
 		 ],

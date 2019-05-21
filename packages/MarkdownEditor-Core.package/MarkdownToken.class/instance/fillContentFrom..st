@@ -1,4 +1,4 @@
 initialize-release
-initialize: aMarkdownReadStream
+fillContentFrom: aMarkdownReadStream
 
 	self subclassResponsibility

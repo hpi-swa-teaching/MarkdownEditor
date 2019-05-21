@@ -8,4 +8,4 @@ testDelimeterEmphasisAsString
 	
 	self assert: (stringToken isKindOf: MarkdownString).
 	self assert: delimiter content equals: stringToken content.
-	self assert: delimiter position equals: stringToken position
+	self assert: delimiter startPosition equals: stringToken startPosition
