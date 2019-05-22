@@ -12,6 +12,7 @@
 		"testConvertOpeningDelimiter" : "fgo 5/21/2019 17:15",
 		"testCutClosingDelimiter" : "fgo 5/21/2019 17:21",
 		"testCutOpeningDelimiter" : "fgo 5/21/2019 17:15",
+		"testDelimeterSpansCanNotOverlap" : "jko 5/22/2019 08:46",
 		"testDelimiterCantCloseItself" : "jko 5/16/2019 17:36",
 		"testFindOpenerForEmphasisDelimiter" : "jko 5/16/2019 17:36",
 		"testInterpretTokensBold" : "fgo 5/21/2019 15:37",
@@ -21,7 +22,7 @@
 		"testInterpretTokensCutDelimiters2" : "fgo 5/21/2019 15:37",
 		"testInterpretTokensItalics" : "fgo 5/21/2019 15:38",
 		"testInterpretTokensNormal" : "fgo 5/21/2019 15:25",
-		"testInterpretTokensStringConversion" : "fgo 5/21/2019 15:38",
+		"testInterpretTokensStringConversion" : "jko 5/22/2019 08:53",
 		"testInterpretationsOfNoTokensShouldntCrash" : "fgo 5/22/2019 07:55",
 		"testNextTokenIn" : "jko 5/16/2019 16:20",
 		"testNextTokenStreamEndError" : "jko 5/16/2019 16:20",
@@ -30,4 +31,5 @@
 		"testParseNormal" : "fgo 5/21/2019 16:00",
 		"testParseOneAttribute" : "fgo 5/21/2019 16:01",
 		"testParseTwoAttributes" : "fgo 5/21/2019 16:03",
+		"testRemoveDelimitersBetweenDelimiters" : "jko 5/22/2019 09:01",
 		"testTokenize" : "fgo 5/21/2019 16:11" } }
