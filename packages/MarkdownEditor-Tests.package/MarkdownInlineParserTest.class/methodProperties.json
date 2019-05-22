@@ -22,7 +22,7 @@
 		"testInterpretTokensCutDelimiters2" : "fgo 5/21/2019 15:37",
 		"testInterpretTokensItalics" : "fgo 5/21/2019 15:38",
 		"testInterpretTokensNormal" : "fgo 5/21/2019 15:25",
-		"testInterpretTokensStringConversion" : "jko 5/22/2019 08:53",
+		"testInterpretTokensStringConversion" : "fgo 5/22/2019 13:31",
 		"testInterpretationsOfNoTokensShouldntCrash" : "fgo 5/22/2019 07:55",
 		"testNextTokenIn" : "jko 5/16/2019 16:20",
 		"testNextTokenStreamEndError" : "jko 5/16/2019 16:20",

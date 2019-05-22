@@ -7,12 +7,12 @@ interpretTokens
 	currentToken := self tokens first.
 	[true] whileTrue: [(currentToken isDelimiter and: [currentToken isCloser]) 
 		ifTrue: [self findOpenerFor: currentToken 
-				ifFound: [:opener |  | length |
-					self attributes add: (currentToken attributeStartingAt: opener).
-					self removeDelimitersBetween: opener and: currentToken.
-					length := currentToken attributeDelimiterLengthWith: opener.
-					self cutOpener: opener to: length.
-					currentToken := self cutCloser: currentToken to: length]].
+			ifFound: [:opener |  | length |
+				self attributes add: (currentToken attributeStartingAt: opener).
+				self removeDelimitersBetween: opener and: currentToken.
+				length := currentToken attributeDelimiterLengthWith: opener.
+				self cutOpener: opener to: length.
+				currentToken := self cutCloser: currentToken to: length]].
 		currentToken := self tokens 
 			after: currentToken
 			ifAbsent: [^ self]]

@@ -4,7 +4,6 @@
 	"instance" : {
 		"readStreamOn:" : "jko 5/16/2019 16:02",
 		"readStreamOn:at:" : "jko 5/16/2019 16:01",
-		"testBeginsWithAsterisk" : "jko 5/21/2019 23:17",
 		"testBoldAttributeDelimiterLength" : "fgo 5/21/2019 16:47",
 		"testCalculateLengthRaisesNoMatchError" : "jko 5/16/2019 16:03",
 		"testCalculateLengthRaisesStreamEndError" : "jko 5/16/2019 16:03",
@@ -29,6 +28,7 @@
 		"testLength" : "jko 5/16/2019 16:06",
 		"testLengthCalculation" : "jko 5/16/2019 16:09",
 		"testMatchesOpenerNot" : "jko 5/16/2019 15:40",
+		"testMayBeginWithAsterisk" : "fgo 5/22/2019 13:30",
 		"testNotClosingDelimiterIsNotCloser" : "fgo 5/21/2019 16:39",
 		"testNotLeftFlanking" : "fgo 5/21/2019 15:29",
 		"testNotOpeningDelimiterIsNotOpener" : "fgo 5/21/2019 16:39",
