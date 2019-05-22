@@ -22,6 +22,7 @@
 		"testInterpretTokensItalics" : "fgo 5/21/2019 15:38",
 		"testInterpretTokensNormal" : "fgo 5/21/2019 15:25",
 		"testInterpretTokensStringConversion" : "fgo 5/21/2019 15:38",
+		"testInterpretationsOfNoTokensShouldntCrash" : "fgo 5/22/2019 07:55",
 		"testNextTokenIn" : "jko 5/16/2019 16:20",
 		"testNextTokenStreamEndError" : "jko 5/16/2019 16:20",
 		"testOpenCloserLength3RuleApplies" : "jko 5/16/2019 17:35",

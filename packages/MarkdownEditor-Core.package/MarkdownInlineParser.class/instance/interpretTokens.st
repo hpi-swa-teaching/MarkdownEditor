@@ -3,6 +3,7 @@ interpretTokens
 
 	| currentToken |
 	self attributes: OrderedCollection new.
+	self tokens ifEmpty: [^ self].
 	currentToken := self tokens first.
 	[true] whileTrue: [(currentToken isDelimiter and: [currentToken isCloser]) 
 		ifTrue: [self findOpenerFor: currentToken 
