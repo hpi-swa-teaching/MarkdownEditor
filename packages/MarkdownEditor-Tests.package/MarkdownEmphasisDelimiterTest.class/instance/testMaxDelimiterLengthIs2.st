@@ -1,5 +1,5 @@
 tests - matching
-testDifferentDelimiterLengthsAttributeDelimiterLength
+testMaxDelimiterLengthIs2
 
 	| opener closer |
 	closer := MarkdownEmphasisDelimiter new
@@ -7,5 +7,5 @@ testDifferentDelimiterLengthsAttributeDelimiterLength
 	opener := MarkdownEmphasisDelimiter new
 					content: '****'.
 	
-	self assert: 2 equals: (closer attributeDelimiterLengthWith: opener)
+	self assert: 2 equals: (closer delimiterLengthForAttributeWith: opener)
 	

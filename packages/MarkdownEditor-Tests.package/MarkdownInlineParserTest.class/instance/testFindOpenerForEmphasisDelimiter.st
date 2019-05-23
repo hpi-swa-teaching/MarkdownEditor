@@ -4,13 +4,13 @@ testFindOpenerForEmphasisDelimiter
 	| tokens opener closer foundOpener |
 	opener := MarkdownEmphasisDelimiter new 
 		content: '**'; 
-		leftFlanking: true; 
-		rightFlanking: false; 
+		isLeftFlanking: true; 
+		isRightFlanking: false; 
 		yourself.
 	closer := MarkdownEmphasisDelimiter new 
 		content: '**'; 
-		leftFlanking: false; 
-		rightFlanking: true; 
+		isLeftFlanking: false; 
+		isRightFlanking: true; 
 		yourself.
 		
 	tokens := OrderedCollection new.

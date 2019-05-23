@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAdditionalSpaceAtEndOfStream" : "jko 5/23/2019 12:24",
 		"testLast" : "fgo 5/7/2019 11:53",
-		"testNext" : "fgo 5/7/2019 11:53",
+		"testNoMoreThanOneAdditionalSpaceAtEndOfStream" : "jko 5/23/2019 12:24",
 		"testPeek" : "fgo 5/7/2019 11:54" } }

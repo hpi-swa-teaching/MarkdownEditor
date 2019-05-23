@@ -4,13 +4,13 @@ testDelimiterCantCloseItself
 	| tokens opener openCloser foundOpener |
 	opener := MarkdownEmphasisDelimiter new 
 		content: '*'; 
-		leftFlanking: true; 
-		rightFlanking: false; 
+		isLeftFlanking: true; 
+		isRightFlanking: false; 
 		yourself.
 	openCloser := MarkdownEmphasisDelimiter new 
 		content: '*'; 
-		leftFlanking: true; 
-		rightFlanking: true; 
+		isLeftFlanking: true; 
+		isRightFlanking: true; 
 		yourself.
 	
 	tokens := OrderedCollection new.

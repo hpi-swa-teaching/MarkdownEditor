@@ -3,12 +3,12 @@ testMatchesOpenerNot
 
 	| opener openerAndCloser |
 	opener := MarkdownEmphasisDelimiter new
-				leftFlanking: true;
+				isLeftFlanking: true;
 				content: '*';
 				yourself.
 	openerAndCloser := MarkdownEmphasisDelimiter new
-				leftFlanking: true;
-				rightFlanking: true;
+				isLeftFlanking: true;
+				isRightFlanking: true;
 				content: '**';
 				yourself.	
 	self deny: (openerAndCloser matches: opener)

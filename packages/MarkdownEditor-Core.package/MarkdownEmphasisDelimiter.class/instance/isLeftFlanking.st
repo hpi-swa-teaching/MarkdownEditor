@@ -1,4 +1,4 @@
 testing
 isLeftFlanking
 
-	^ leftFlanking
+	^ isLeftFlanking

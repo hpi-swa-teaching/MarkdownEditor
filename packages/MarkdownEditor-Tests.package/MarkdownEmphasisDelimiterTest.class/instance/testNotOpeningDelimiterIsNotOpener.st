@@ -4,7 +4,7 @@ testNotOpeningDelimiterIsNotOpener
 	| delimiter |
 	delimiter := MarkdownEmphasisDelimiter new 
 		content: '**'; 
-		leftFlanking: false; 
-		rightFlanking: true; 
+		isLeftFlanking: false; 
+		isRightFlanking: true; 
 		yourself.
 	self deny: delimiter isOpener

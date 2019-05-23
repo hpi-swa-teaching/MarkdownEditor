@@ -7,5 +7,5 @@ testItalicAttributeDelimiterLength
 	opener := MarkdownEmphasisDelimiter new
 					content: '*'.
 	
-	self assert: 1 equals: (closer attributeDelimiterLengthWith: opener)
+	self assert: 1 equals: (closer delimiterLengthForAttributeWith: opener)
 	

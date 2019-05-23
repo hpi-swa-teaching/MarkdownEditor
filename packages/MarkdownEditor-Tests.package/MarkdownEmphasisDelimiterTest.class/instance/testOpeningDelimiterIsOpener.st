@@ -4,14 +4,14 @@ testOpeningDelimiterIsOpener
 	| delimiter |
 	delimiter := MarkdownEmphasisDelimiter new 
 		content: '**'; 
-		leftFlanking: true; 
-		rightFlanking: false; 
+		isLeftFlanking: true; 
+		isRightFlanking: false; 
 		yourself.
 	self assert: delimiter isOpener.
 	
 	delimiter := MarkdownEmphasisDelimiter new 
 		content: '**'; 
-		leftFlanking: true; 
-		rightFlanking: true; 
+		isLeftFlanking: true; 
+		isRightFlanking: true; 
 		yourself.
 	self assert: delimiter isOpener
