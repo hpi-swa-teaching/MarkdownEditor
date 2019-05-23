@@ -2,8 +2,8 @@ tests - interpretation
 testCutOpeningDelimiter
 
 	| opener closer |
-	opener := MarkdownDelimiterEmphasis new content: '***'; startPosition: 1; yourself.
-	closer := MarkdownDelimiterEmphasis new content: '**'; startPosition: 4; yourself.
+	opener := MarkdownEmphasisDelimiter new content: '***'; startPosition: 1; yourself.
+	closer := MarkdownEmphasisDelimiter new content: '**'; startPosition: 4; yourself.
 
 	inlineParser tokens: OrderedCollection new.
 	inlineParser tokens addLast: opener.
@@ -11,7 +11,7 @@ testCutOpeningDelimiter
 	inlineParser cutOpener: opener to: 2.
 	
 	self assert: 3 equals: inlineParser tokens size.
-	self assert: (inlineParser tokens first isKindOf: MarkdownDelimiterEmphasis).
+	self assert: (inlineParser tokens first isKindOf: MarkdownEmphasisDelimiter).
 	self assert: 1 equals: inlineParser tokens first content size.
 	self assert: (inlineParser tokens second isKindOf: MarkdownString).
 	self assert: 2 equals: inlineParser tokens second content size

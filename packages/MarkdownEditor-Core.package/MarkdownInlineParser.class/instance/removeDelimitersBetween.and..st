@@ -1,9 +1,9 @@
 parsing
-removeDelimitersBetween: openingMarkdownDelimiterEmphasis and: closingMarkdownDelimiterEmphasis
+removeDelimitersBetween: openingMarkdownEmphasisDelimiter and: closingMarkdownEmphasisDelimiter
 
 	| openIndex closeIndex |
-	openIndex := self tokens indexOf: openingMarkdownDelimiterEmphasis.
-	closeIndex := self tokens indexOf: closingMarkdownDelimiterEmphasis.
+	openIndex := self tokens indexOf: openingMarkdownEmphasisDelimiter.
+	closeIndex := self tokens indexOf: closingMarkdownEmphasisDelimiter.
 	(self tokens copyFrom: openIndex + 1 to: closeIndex - 1) 
 		select: [:token | token isDelimiter]
 		thenDo: [:delimiter |

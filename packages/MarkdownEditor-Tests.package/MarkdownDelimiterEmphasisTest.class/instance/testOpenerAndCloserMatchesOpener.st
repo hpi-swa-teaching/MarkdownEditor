@@ -2,11 +2,11 @@ tests - matching
 testOpenerAndCloserMatchesOpener
 
 	| opener openerAndCloser |
-	opener := MarkdownDelimiterEmphasis new
+	opener := MarkdownEmphasisDelimiter new
 				leftFlanking: true;
 				content: '***';
 				yourself.
-	openerAndCloser := MarkdownDelimiterEmphasis new
+	openerAndCloser := MarkdownEmphasisDelimiter new
 				leftFlanking: true;
 				rightFlanking: true;
 				content: '***';

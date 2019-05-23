@@ -1,10 +1,10 @@
 parsing
-cutCloser: closingMarkdownDelimiterEmphasis to: aLength
+cutCloser: closingMarkdownEmphasisDelimiter to: aLength
 
-	closingMarkdownDelimiterEmphasis length > aLength 
+	closingMarkdownEmphasisDelimiter length > aLength 
 		ifTrue: [^ self tokens 
-			add: (closingMarkdownDelimiterEmphasis cutFromStart: aLength) asStringToken 
-			before: closingMarkdownDelimiterEmphasis]
+			add: (closingMarkdownEmphasisDelimiter cutFromStart: aLength) asStringToken 
+			before: closingMarkdownEmphasisDelimiter]
 		ifFalse: [^ self tokens 
-			at: (self tokens indexOf: closingMarkdownDelimiterEmphasis) 
-			put: closingMarkdownDelimiterEmphasis asStringToken]
+			at: (self tokens indexOf: closingMarkdownEmphasisDelimiter) 
+			put: closingMarkdownEmphasisDelimiter asStringToken]

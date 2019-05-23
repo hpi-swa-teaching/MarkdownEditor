@@ -8,7 +8,7 @@
 	"instvars" : [
 		"leftFlanking",
 		"rightFlanking" ],
-	"name" : "MarkdownDelimiterEmphasis",
+	"name" : "MarkdownEmphasisDelimiter",
 	"pools" : [
 		 ],
 	"super" : "MarkdownToken",

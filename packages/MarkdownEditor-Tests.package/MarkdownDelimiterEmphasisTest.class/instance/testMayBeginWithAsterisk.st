@@ -1,4 +1,4 @@
 tests - recognition
 testMayBeginWithAsterisk
 
-	self assert: (MarkdownDelimiterEmphasis mayBeginWith: '*')
+	self assert: (MarkdownEmphasisDelimiter mayBeginWith: '*')

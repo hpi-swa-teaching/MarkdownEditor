@@ -3,8 +3,8 @@ testOpenCloserLength3RuleApplies
 	
 	| tokens opener closer foundOpener openCloser |
 	tokens := OrderedCollection new.
-	openCloser := MarkdownDelimiterEmphasis new content: '***'; leftFlanking: true; rightFlanking: true; yourself.
-	closer := MarkdownDelimiterEmphasis new content: '******'; leftFlanking: false; rightFlanking: true; yourself.
+	openCloser := MarkdownEmphasisDelimiter new content: '***'; leftFlanking: true; rightFlanking: true; yourself.
+	closer := MarkdownEmphasisDelimiter new content: '******'; leftFlanking: false; rightFlanking: true; yourself.
 	tokens := OrderedCollection new.
 	tokens add: (MarkdownString new content: 'f'; yourself).
 	tokens add: (MarkdownString new content: 'o'; yourself).
@@ -20,8 +20,8 @@ testOpenCloserLength3RuleApplies
 		ifFound: [:o | foundOpener := o].
 	self assert: openCloser equals: foundOpener.
 	
-	opener := MarkdownDelimiterEmphasis new content: '****'; leftFlanking: true; rightFlanking: false; yourself.
-	closer := MarkdownDelimiterEmphasis new content: '**'; leftFlanking: false; rightFlanking: true; yourself.
+	opener := MarkdownEmphasisDelimiter new content: '****'; leftFlanking: true; rightFlanking: false; yourself.
+	closer := MarkdownEmphasisDelimiter new content: '**'; leftFlanking: false; rightFlanking: true; yourself.
 	tokens := OrderedCollection new.
 	tokens add: opener.
 	tokens add: (MarkdownString new content: 'b'; yourself).

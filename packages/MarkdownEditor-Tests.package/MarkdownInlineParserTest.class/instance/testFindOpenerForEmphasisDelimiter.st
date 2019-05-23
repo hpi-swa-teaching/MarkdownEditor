@@ -2,12 +2,12 @@ tests - tokenization
 testFindOpenerForEmphasisDelimiter
 
 	| tokens opener closer foundOpener |
-	opener := MarkdownDelimiterEmphasis new 
+	opener := MarkdownEmphasisDelimiter new 
 		content: '**'; 
 		leftFlanking: true; 
 		rightFlanking: false; 
 		yourself.
-	closer := MarkdownDelimiterEmphasis new 
+	closer := MarkdownEmphasisDelimiter new 
 		content: '**'; 
 		leftFlanking: false; 
 		rightFlanking: true; 

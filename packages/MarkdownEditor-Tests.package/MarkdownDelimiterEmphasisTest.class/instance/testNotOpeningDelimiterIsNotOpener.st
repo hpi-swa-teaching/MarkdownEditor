@@ -2,7 +2,7 @@ tests - state
 testNotOpeningDelimiterIsNotOpener
 	
 	| delimiter |
-	delimiter := MarkdownDelimiterEmphasis new 
+	delimiter := MarkdownEmphasisDelimiter new 
 		content: '**'; 
 		leftFlanking: false; 
 		rightFlanking: true; 

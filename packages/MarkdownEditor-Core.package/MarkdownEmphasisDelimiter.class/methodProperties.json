@@ -4,8 +4,8 @@
 		"mayBeginWith:" : "fgo 5/21/2019 16:36",
 		"precedence" : "jko 5/6/2019 14:45" },
 	"instance" : {
-		"attributeDelimiterLengthWith:" : "fgo 5/21/2019 16:49",
-		"attributeStartingAt:" : "jko 5/21/2019 23:35",
+		"attributeDelimiterLengthWith:" : "lpf 5/23/2019 10:20",
+		"attributeStartingAt:" : "lpf 5/23/2019 10:20",
 		"attributeTypeFor:" : "jko 5/21/2019 23:34",
 		"boldLength" : "fgo 5/10/2019 15:54",
 		"calculateLengthFor:" : "fgo 5/21/2019 16:26",
@@ -24,7 +24,7 @@
 		"isPrecededByAnyOf:in:" : "fgo 5/4/2019 18:04",
 		"isRightFlanking" : "fgo 5/4/2019 16:12",
 		"leftFlanking:" : "fgo 5/4/2019 16:12",
-		"matches:" : "fgo 5/21/2019 16:27",
+		"matches:" : "lpf 5/23/2019 10:27",
 		"punctuationCharacters" : "jko 5/21/2019 23:27",
 		"rightFlanking:" : "fgo 5/4/2019 16:12",
 		"whitespaceCharacters" : "jko 5/21/2019 23:28" } }

@@ -3,11 +3,11 @@ testInterpretTokensCutDelimiterClosesTwice
 
 	| tokens |
 	tokens := OrderedCollection new.
-	tokens add: (MarkdownDelimiterEmphasis new content: '*'; startPosition: 1; leftFlanking: true; rightFlanking: false; yourself).
+	tokens add: (MarkdownEmphasisDelimiter new content: '*'; startPosition: 1; leftFlanking: true; rightFlanking: false; yourself).
 	tokens add: (MarkdownString new content: 'a'; startPosition: 2; yourself).
-	tokens add: (MarkdownDelimiterEmphasis new content: '**'; startPosition: 3; leftFlanking: true; rightFlanking: true; yourself).
+	tokens add: (MarkdownEmphasisDelimiter new content: '**'; startPosition: 3; leftFlanking: true; rightFlanking: true; yourself).
 	tokens add: (MarkdownString new content: 'b'; startPosition: 5; yourself).
-	tokens add: (MarkdownDelimiterEmphasis new content: '***'; startPosition: 6; leftFlanking: false; rightFlanking: true; yourself).
+	tokens add: (MarkdownEmphasisDelimiter new content: '***'; startPosition: 6; leftFlanking: false; rightFlanking: true; yourself).
 	inlineParser tokens: tokens.
 	inlineParser interpretTokens.
 	self assert: 2 equals: inlineParser attributes size.

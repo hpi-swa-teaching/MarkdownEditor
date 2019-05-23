@@ -2,7 +2,7 @@ tests - cutting
 testCut2FromStart
 
 	| delimiter cutDelimiter |
-	delimiter := MarkdownDelimiterEmphasis new
+	delimiter := MarkdownEmphasisDelimiter new
 						content: '***';
 						startPosition: 1;
 						yourself.

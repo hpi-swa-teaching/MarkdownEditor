@@ -2,4 +2,4 @@ tests - recognition
 testDoesNotBeginWithOtherCharacter
 
 	{'-'. '!'. '!['. '['. 'f'. ''. ' '} do: [:string |
-		self deny: (MarkdownDelimiterEmphasis mayBeginWith: string)]
+		self deny: (MarkdownEmphasisDelimiter mayBeginWith: string)]

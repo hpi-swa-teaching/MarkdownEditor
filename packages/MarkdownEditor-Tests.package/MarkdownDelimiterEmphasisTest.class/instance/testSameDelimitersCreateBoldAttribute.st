@@ -2,11 +2,11 @@ tests - attributes
 testSameDelimitersCreateBoldAttribute
 
 	| opener closer attribute |
-	opener := MarkdownDelimiterEmphasis new
+	opener := MarkdownEmphasisDelimiter new
 					content: '**';
 					startPosition: 1;
 					yourself.
-	closer := MarkdownDelimiterEmphasis new
+	closer := MarkdownEmphasisDelimiter new
 					content: '**';
 					startPosition: 5;
 					yourself.

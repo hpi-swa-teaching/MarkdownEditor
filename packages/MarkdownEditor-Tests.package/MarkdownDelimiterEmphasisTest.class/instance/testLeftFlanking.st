@@ -3,7 +3,7 @@ testLeftFlanking
 
 	| stream delimiter |
 	"Don't use it that way. Content is set just for testing."
-	delimiter := MarkdownDelimiterEmphasis new content: '***'; yourself.
+	delimiter := MarkdownEmphasisDelimiter new content: '***'; yourself.
 	
 	self assert: (delimiter decideLeftFlankingFor: (self readStreamOn: '***abc')).
 	
@@ -17,6 +17,4 @@ testLeftFlanking
 	
 	stream := self readStreamOn: ')***.' at: 1.
 	self assert: (delimiter decideLeftFlankingFor: stream)
-	
-
 	

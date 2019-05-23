@@ -2,9 +2,9 @@ tests - matching
 testBoldAttributeDelimiterLength
 
 	| opener closer |
-	closer := MarkdownDelimiterEmphasis new
+	closer := MarkdownEmphasisDelimiter new
 					content: '**'.
-	opener := MarkdownDelimiterEmphasis new
+	opener := MarkdownEmphasisDelimiter new
 					content: '**'.
 	
 	self assert: 2 equals: (closer attributeDelimiterLengthWith: opener)

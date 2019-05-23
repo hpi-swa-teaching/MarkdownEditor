@@ -10,7 +10,7 @@ testNextTokenIn
 	
 	stream next: 7.
 	token := inlineParser nextTokenIn: stream.
-	self assert: (token isKindOf: MarkdownDelimiterEmphasis).
+	self assert: (token isKindOf: MarkdownEmphasisDelimiter).
 	self assert:  '**' equals: token content.
 	self assert: token isDelimiter
 	

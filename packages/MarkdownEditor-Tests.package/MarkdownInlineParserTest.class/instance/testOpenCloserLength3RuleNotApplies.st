@@ -5,17 +5,17 @@ testOpenCloserLength3RuleNotApplies
 	
 	| tokens opener closer foundOpener openCloser |
 	
-	opener := MarkdownDelimiterEmphasis new 
+	opener := MarkdownEmphasisDelimiter new 
 		content: '*'; 
 		leftFlanking: true; 
 		rightFlanking: false; 
 		yourself.
-	openCloser := MarkdownDelimiterEmphasis new 
+	openCloser := MarkdownEmphasisDelimiter new 
 		content: '**'; 
 		leftFlanking: true; 
 		rightFlanking: true; 
 		yourself.
-	closer := MarkdownDelimiterEmphasis new 
+	closer := MarkdownEmphasisDelimiter new 
 		content: '*'; 
 		leftFlanking: false; 
 		rightFlanking: true; 

@@ -1,9 +1,9 @@
 tests - conversion
-testDelimiterEmphasisAsString
+testEmphasisDelimiterAsString
 
 	| delimiter stream stringToken |
 	stream := MarkdownReadStream on: '**'.
-	delimiter := MarkdownDelimiterEmphasis newFor: stream.
+	delimiter := MarkdownEmphasisDelimiter newFor: stream.
 	stringToken := delimiter asStringToken.
 	
 	self assert: (stringToken isKindOf: MarkdownString).

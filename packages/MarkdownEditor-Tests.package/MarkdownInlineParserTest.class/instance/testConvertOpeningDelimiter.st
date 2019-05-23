@@ -2,8 +2,8 @@ tests - interpretation
 testConvertOpeningDelimiter
 
 	| opener closer |
-	opener := MarkdownDelimiterEmphasis new content: '**'; startPosition: 1; yourself.
-	closer := MarkdownDelimiterEmphasis new content: '**'; startPosition: 3; yourself.
+	opener := MarkdownEmphasisDelimiter new content: '**'; startPosition: 1; yourself.
+	closer := MarkdownEmphasisDelimiter new content: '**'; startPosition: 3; yourself.
 
 	inlineParser tokens: OrderedCollection new.
 	inlineParser tokens addLast: opener.

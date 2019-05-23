@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBeginsWith" : "fgo 5/21/2019 16:36",
 		"testEndPosition" : "fgo 5/10/2019 15:25",
 		"testInitialization" : "jko 5/21/2019 23:20",
 		"testMayBeginWithAnyCharacter" : "fgo 5/22/2019 13:30",
