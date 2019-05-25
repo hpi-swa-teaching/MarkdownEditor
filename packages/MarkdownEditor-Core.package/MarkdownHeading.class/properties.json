@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content" ],
+		 ],
 	"name" : "MarkdownHeading",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownBlock",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-tests
+tests - text
 testEmptyHeadingWithFollowingLine
 
 	self
