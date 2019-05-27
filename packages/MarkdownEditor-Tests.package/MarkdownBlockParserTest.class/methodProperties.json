@@ -6,6 +6,8 @@
 		"attributesOf:" : "jst 5/11/2019 19:05",
 		"setUp" : "lpf 5/23/2019 16:11",
 		"testBlockStructureHeading" : "lpf 5/23/2019 16:13",
+		"testBlockStructureParagraphWithHeading" : "jko 5/27/2019 15:37",
+		"testBlockStructureTwoHeadings" : "jko 5/27/2019 15:49",
 		"testBlockStructureWithMultilineParagraph" : "lpf 5/23/2019 16:32",
 		"testBlockStructureWithParagraph" : "lpf 5/23/2019 16:19",
 		"testBlockStructureWithTwoParagraphs" : "lpf 5/23/2019 16:30",
@@ -14,4 +16,7 @@
 		"testEmptyHeadingWithFollowingLine" : "lpf 5/23/2019 16:28",
 		"testHeadingWithContent" : "jst 5/11/2019 19:16",
 		"testHeadingWithFollowingLine" : "jst 5/11/2019 19:15",
+		"testProcessLineCreatesHeading" : "jko 5/27/2019 14:35",
+		"testProcessLineCreatesParagraph" : "jko 5/27/2019 14:30",
+		"testProcessLineExtendsParagraph" : "jko 5/27/2019 14:57",
 		"testReturnsUnmodifiedText" : "jst 5/11/2019 19:16" } }
