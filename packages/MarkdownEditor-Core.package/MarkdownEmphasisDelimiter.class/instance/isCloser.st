@@ -1,0 +1,4 @@
+testing
+isCloser
+
+	^ self isRightFlanking

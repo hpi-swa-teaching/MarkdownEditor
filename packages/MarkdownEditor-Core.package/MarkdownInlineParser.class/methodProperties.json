@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"attributes" : "jko 5/16/2019 17:07",
+		"attributes:" : "jko 5/16/2019 17:08",
+		"attributizeText" : "fgo 5/21/2019 16:13",
+		"clean" : "jko 5/23/2019 14:44",
+		"cutCloser:to:" : "lpf 5/23/2019 10:27",
+		"cutOpener:to:" : "lpf 5/23/2019 10:28",
+		"findOpenerFor:ifFound:" : "jko 5/16/2019 17:34",
+		"initialize" : "jko 5/23/2019 14:44",
+		"interpretTokens" : "jko 5/23/2019 14:45",
+		"nextTokenIn:" : "fgo 5/21/2019 16:36",
+		"parse:" : "jko 5/23/2019 14:44",
+		"process:and:" : "jko 5/23/2019 14:38",
+		"removeDelimitersBetween:and:" : "lpf 5/23/2019 10:28",
+		"text" : "fgo 5/21/2019 15:50",
+		"text:" : "fgo 5/21/2019 15:50",
+		"tokenClasses" : "jko 5/6/2019 14:43",
+		"tokenClasses:" : "jko 5/6/2019 14:44",
+		"tokenize" : "jko 5/23/2019 14:45",
+		"tokens" : "jko 5/6/2019 15:10",
+		"tokens:" : "jko 5/6/2019 15:11" } }

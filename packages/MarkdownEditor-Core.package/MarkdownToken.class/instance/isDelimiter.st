@@ -1,0 +1,4 @@
+testing
+isDelimiter
+
+	^ self subclassResponsibility
