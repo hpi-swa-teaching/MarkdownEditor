@@ -1,9 +1,9 @@
 tests - tokenization
-testOpenCloserAndCloserLengthOneDivisibleBy3
+testFindOpenerForCloserLenghtBothDivisibleBy3
 	
 	| closer openCloser |
 	inlineParser 
-		text: 'foo***bar**' asText;
+		text: 'foo***bar******' asText;
 		tokenize.
 	openCloser := inlineParser tokens fourth.
 	closer := inlineParser tokens eighth.

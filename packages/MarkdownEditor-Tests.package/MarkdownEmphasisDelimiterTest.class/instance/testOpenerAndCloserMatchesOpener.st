@@ -10,5 +10,6 @@ testOpenerAndCloserMatchesOpener
 				isLeftFlanking: true;
 				isRightFlanking: true;
 				content: '***';
-				yourself.	
+				yourself.
+				
 	self assert: (openerAndCloser matches: opener)

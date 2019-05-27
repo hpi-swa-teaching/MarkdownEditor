@@ -1,6 +1,4 @@
 tests
 testWindowLabel
 
-	self
-		assert: 'Markdown Editor'
-		equals: window label
+	self assert: 'Markdown Editor' equals: window label
