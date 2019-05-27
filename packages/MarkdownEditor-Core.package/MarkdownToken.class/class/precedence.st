@@ -1,0 +1,4 @@
+accessing
+precedence
+
+	^ self subclassResponsibility

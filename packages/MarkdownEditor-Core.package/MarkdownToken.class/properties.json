@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fgo 5/21/2019 15:45",
+	"instvars" : [
+		"content",
+		"startPosition" ],
+	"name" : "MarkdownToken",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

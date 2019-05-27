@@ -1,0 +1,1 @@
+I am a token for emphasis. I listen to asterisks.

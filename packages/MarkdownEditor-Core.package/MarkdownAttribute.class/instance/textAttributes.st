@@ -1,0 +1,4 @@
+accessing
+textAttributes
+
+	^ self subclassResponsibility

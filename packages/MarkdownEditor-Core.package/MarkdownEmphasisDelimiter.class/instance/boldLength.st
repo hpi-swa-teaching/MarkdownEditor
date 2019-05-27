@@ -1,0 +1,4 @@
+constants
+boldLength
+
+	^ 2
