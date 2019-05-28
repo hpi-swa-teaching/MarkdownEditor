@@ -1,4 +1,4 @@
-tests
+tests - expandability
 testTextLineIsExtendableWithBlankLine
 
 	| paragraph |

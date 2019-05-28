@@ -1,14 +1,13 @@
 {
-	"category" : "MarkdownEditor-Core",
+	"category" : "MarkdownEditor-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jst 5/27/2019 23:01",
 	"instvars" : [
-		"content",
-		"inlineParser" ],
-	"name" : "MarkdownBlock",
+		"text" ],
+	"name" : "MarkdownInlineParserMock",
 	"pools" : [
 		 ],
 	"super" : "Object",

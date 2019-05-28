@@ -4,6 +4,7 @@
 	"instance" : {
 		"blankLine" : "jko 5/27/2019 15:14",
 		"testAppend" : "jko 5/27/2019 14:53",
+		"testAsTextStylesInline" : "jst 5/27/2019 22:49",
 		"testBlankLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:51",
