@@ -2,5 +2,5 @@ tests - blocks
 testBlockStructureHeadingWithParagraph
 
 	self
-		assert: {'# Heading'. 'Paragraph'}
-		parsesToBlocks: {MarkdownHeading. MarkdownParagraph}
+		assert: {MarkdownHeading. MarkdownParagraph}
+		isParsedStructureOf: '# Heading', Character cr, 'Paragraph'

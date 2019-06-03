@@ -2,5 +2,5 @@ tests - blocks
 testBlockStructureWithParagraph
 
 	self
-		assert: {'Paragraph'}
-		parsesToBlocks: {MarkdownParagraph}
+		assert: {MarkdownParagraph}
+		isParsedStructureOf: 'Paragraph'

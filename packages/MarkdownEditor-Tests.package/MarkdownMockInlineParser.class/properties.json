@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jst 5/27/2019 23:01",
+	"commentStamp" : "jst 6/3/2019 17:44",
 	"instvars" : [
-		"text" ],
-	"name" : "MarkdownInlineParserMock",
+		"memorizedText" ],
+	"name" : "MarkdownMockInlineParser",
 	"pools" : [
 		 ],
 	"super" : "Object",

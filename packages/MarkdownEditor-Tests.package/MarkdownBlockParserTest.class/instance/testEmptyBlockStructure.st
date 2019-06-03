@@ -2,5 +2,5 @@ tests - blocks
 testEmptyBlockStructure
 
 	self
-		assert: {''}
-		parsesToBlocks: {}
+		assert: {}
+		isParsedStructureOf: ''

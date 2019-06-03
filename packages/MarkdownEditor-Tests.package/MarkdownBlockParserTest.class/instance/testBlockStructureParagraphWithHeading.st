@@ -2,5 +2,5 @@ tests - blocks
 testBlockStructureParagraphWithHeading
 
 	self
-		assert: {'Paragraph which is interrupted by'. '# Heading'}
-		parsesToBlocks: {MarkdownParagraph. MarkdownHeading}
+		assert: {MarkdownParagraph. MarkdownHeading}
+		isParsedStructureOf: 'Paragraph which is interrupted by', Character cr, '# Heading'

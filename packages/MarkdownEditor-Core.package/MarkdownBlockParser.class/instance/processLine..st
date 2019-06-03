@@ -6,5 +6,3 @@ processLine: aString
 		ifFalse: [(self isLastBlockExtendableWith: aString)
 			ifTrue: [self blocks last append: aString]
 			ifFalse: [self blocks add: (MarkdownParagraph newFrom: aString)]]
-	
-	

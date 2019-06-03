@@ -1,5 +1,4 @@
 constants
 textLine
 
-	^ 'abcd
-'
+	^ 'abcd', Character cr

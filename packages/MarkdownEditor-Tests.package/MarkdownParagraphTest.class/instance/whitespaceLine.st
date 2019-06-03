@@ -1,5 +1,4 @@
 constants
 whitespaceLine
 
-	^ '    
-'
+	^ '    ', Character cr

@@ -2,17 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"blankLine" : "jko 5/27/2019 15:14",
-		"testAppend" : "jko 5/27/2019 14:53",
-		"testAsTextStylesInline" : "jst 5/27/2019 22:49",
+		"blankLine" : "jst 6/3/2019 16:49",
+		"testAppend" : "jst 6/3/2019 17:04",
 		"testBlankLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:51",
+		"testConvertingToTextUsesInlineParser" : "jst 6/3/2019 18:08",
 		"testTextLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:54",
 		"testTextLineIsExtendableWithTextLine" : "jko 5/27/2019 15:55",
 		"testTextLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:54",
 		"testWhitespaceLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:52",
 		"testWhitespaceLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:53",
 		"testWhitespaceLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:53",
-		"textLine" : "jko 5/27/2019 15:14",
-		"whitespaceLine" : "jko 5/27/2019 15:14" } }
+		"textLine" : "jst 6/3/2019 16:49",
+		"whitespaceLine" : "jst 6/3/2019 16:49" } }

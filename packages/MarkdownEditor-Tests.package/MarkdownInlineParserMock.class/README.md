@@ -1,1 +1,0 @@
-I mock a MarkdownInlineParser by remembering my last parse request. I will return myself as result to enable testing that I was requested for parsing.

@@ -1,11 +1,8 @@
 tests
 testAppend
 
-	| paragraph |
-	paragraph := MarkdownParagraph newFrom: 'Next Station is
-'.
-	paragraph append: 'HPI Main Station.
-'.
-	self assert: 'Next Station is
-HPI Main Station.
-' equals: paragraph content
+	| paragraph expectedContent |
+	paragraph := MarkdownParagraph newFrom: 'Next Station is', Character cr.
+	paragraph append: 'HPI Main Station.', Character cr.
+	expectedContent := 'Next Station is', Character cr, 'HPI Main Station.', Character cr.
+	self assert: expectedContent equals: paragraph content

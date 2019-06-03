@@ -2,5 +2,7 @@ tests - blocks
 testBlockStructureWithTwoParagraphs
 
 	self
-		assert: {'Paragraph followed by blank line'. ''. 'Paragraph'}
-		parsesToBlocks: {MarkdownParagraph. MarkdownParagraph}
+		assert: {MarkdownParagraph. MarkdownParagraph}
+		isParsedStructureOf: 'Paragraph followed by blank line', Character cr,
+								Character cr, 
+								'Paragraph'

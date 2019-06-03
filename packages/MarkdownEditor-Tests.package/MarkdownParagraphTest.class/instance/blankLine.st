@@ -1,5 +1,4 @@
 constants
 blankLine
 
-	^ '
-'
+	^ '', Character cr

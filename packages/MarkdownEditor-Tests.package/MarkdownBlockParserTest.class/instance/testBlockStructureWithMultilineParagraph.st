@@ -2,5 +2,5 @@ tests - blocks
 testBlockStructureWithMultilineParagraph
 
 	self
-		assert: {'Paragraph'. 'with following text line'}
-		parsesToBlocks: {MarkdownParagraph}
+		assert: {MarkdownParagraph}
+		isParsedStructureOf: 'Paragraph', Character cr, 'with following text line'

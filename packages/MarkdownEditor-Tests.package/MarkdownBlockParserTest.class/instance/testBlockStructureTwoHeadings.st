@@ -2,5 +2,5 @@ tests - blocks
 testBlockStructureTwoHeadings
 
 	self
-		assert: {'# First Heading'. '# Second Heading'}
-		parsesToBlocks: {MarkdownHeading. MarkdownHeading}
+		assert: {MarkdownHeading. MarkdownHeading}
+		isParsedStructureOf: '# First Heading', Character cr, '# Second Heading'
