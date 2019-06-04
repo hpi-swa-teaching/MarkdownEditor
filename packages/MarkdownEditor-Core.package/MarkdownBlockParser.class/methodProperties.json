@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"findBlockFor:" : "jst 5/13/2019 15:35",
-		"parse:" : "jst 5/13/2019 16:05" } }
+		"blocks" : "lpf 5/23/2019 16:13",
+		"blocks:" : "lpf 5/23/2019 16:14",
+		"initialize" : "lpf 5/23/2019 16:16",
+		"isLastBlockExtendableWith:" : "jko 5/27/2019 15:46",
+		"parse:" : "jko 5/27/2019 14:32",
+		"processLine:" : "jst 6/3/2019 16:52" } }

@@ -1,4 +1,4 @@
 running
 setUp
 
-	parser := MarkdownBlockParser new
+	blockParser := MarkdownBlockParser new

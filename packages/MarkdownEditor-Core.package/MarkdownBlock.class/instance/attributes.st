@@ -1,0 +1,4 @@
+converting
+attributes
+
+	^ self subclassResponsibility

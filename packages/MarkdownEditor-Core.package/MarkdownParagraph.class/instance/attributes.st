@@ -1,0 +1,4 @@
+extending
+attributes
+
+	^ {}
