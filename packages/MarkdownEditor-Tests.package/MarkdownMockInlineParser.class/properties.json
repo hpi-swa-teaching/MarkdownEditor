@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "jst 6/3/2019 17:44",
 	"instvars" : [
-		"memorizedText" ],
+		"memorizedParsingRequest" ],
 	"name" : "MarkdownMockInlineParser",
 	"pools" : [
 		 ],

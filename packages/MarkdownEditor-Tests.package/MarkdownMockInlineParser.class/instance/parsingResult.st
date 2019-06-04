@@ -1,4 +1,4 @@
 constants
-markerText
+parsingResult
 
 	^ '<Inline Parser Mark>' asText

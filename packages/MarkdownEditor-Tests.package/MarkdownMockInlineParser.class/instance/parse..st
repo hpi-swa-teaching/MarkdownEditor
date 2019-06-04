@@ -1,5 +1,5 @@
 parsing
 parse: aText
 
-	self memorizedText: aText.
-	^ self markerText
+	self memorizedParsingRequest: aText.
+	^ self parsingResult

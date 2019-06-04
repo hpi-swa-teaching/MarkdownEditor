@@ -33,7 +33,7 @@
 		"testParseNormal" : "fgo 5/21/2019 16:00",
 		"testParseOneAttribute" : "fgo 5/21/2019 16:01",
 		"testParseTwoAttributes" : "fgo 5/21/2019 16:03",
-		"testPlainParsingKeepsAttributes" : "jst 6/3/2019 18:05",
+		"testPlainParsingKeepsAttributes" : "jko 6/4/2019 11:23",
 		"testProcessingTwoDelimitersRemovesDelimitersInbetween" : "jko 5/23/2019 14:15",
 		"testProcessingTwoItalicDelimitersCreatesBoldAttribute" : "jko 5/23/2019 14:15",
 		"testProcessingTwoItalicDelimitersCreatesItalicAttribute" : "jko 5/23/2019 14:15",

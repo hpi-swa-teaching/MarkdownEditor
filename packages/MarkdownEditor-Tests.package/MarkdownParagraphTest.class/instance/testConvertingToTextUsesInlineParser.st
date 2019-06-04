@@ -8,5 +8,5 @@ testConvertingToTextUsesInlineParser
 	paragraph inlineParser: mockInlineParser.
 	result := paragraph asText.
 	self
-		assert: mockInlineParser markerText equals: result;
-		assert: markdownString equals: mockInlineParser memorizedText string
+		assert: mockInlineParser parsingResult equals: result;
+		assert: markdownString equals: mockInlineParser memorizedParsingRequest string
