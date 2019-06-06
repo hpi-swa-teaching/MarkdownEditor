@@ -1,0 +1,4 @@
+constants
+blankLine
+
+	^ '', Character cr
