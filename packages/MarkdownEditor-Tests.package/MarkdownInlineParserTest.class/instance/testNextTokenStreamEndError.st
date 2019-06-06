@@ -2,7 +2,6 @@ tests - tokenization
 testNextTokenStreamEndError
 	
 	| stream |
-
 	stream := self readStreamOn: ''.
 	self should: [inlineParser nextTokenIn: stream] raise: Error description: 'Stream end reached'.
 	

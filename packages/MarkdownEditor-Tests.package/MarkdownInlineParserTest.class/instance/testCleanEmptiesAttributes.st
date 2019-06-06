@@ -1,7 +1,8 @@
 tests - cleaning
 testCleanEmptiesAttributes
 
-	inlineParser attributes: {MarkdownAttributeBold new} asOrderedCollection.
-	inlineParser clean.
+	inlineParser 
+		attributes: {MarkdownAttributeBold new} asOrderedCollection;
+		clean.
 	
 	self assert: inlineParser attributes isEmpty

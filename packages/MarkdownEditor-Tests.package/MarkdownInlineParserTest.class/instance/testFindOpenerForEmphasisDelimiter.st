@@ -1,7 +1,7 @@
 tests - tokenization
 testFindOpenerForEmphasisDelimiter
 
-	| tokens opener closer foundOpener |
+	| opener closer |
 	opener := MarkdownEmphasisDelimiter new 
 		content: '**'; 
 		isLeftFlanking: true; 
@@ -13,18 +13,11 @@ testFindOpenerForEmphasisDelimiter
 		isRightFlanking: true; 
 		yourself.
 		
-	tokens := OrderedCollection new.
-	tokens add: opener.
-	tokens add: (MarkdownString new content: 'f'; yourself).
-	tokens add: closer.
-	inlineParser tokens: tokens.
+	inlineParser tokens 
+		addAll: {opener.
+				(MarkdownString new content: 'f'; yourself).
+				closer}.
 	
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | foundOpener := o].
-	self assert: opener equals: foundOpener.
-	
-	tokens remove: opener.
-	inlineParser tokens: tokens.
-	inlineParser findOpenerFor: closer 
-		ifFound: [:o | self fail]
-	
+		ifFound: [:o | ^ self assert: opener equals: o].
+	self fail
