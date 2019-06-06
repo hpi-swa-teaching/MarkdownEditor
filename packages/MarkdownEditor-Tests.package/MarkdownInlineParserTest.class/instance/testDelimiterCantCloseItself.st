@@ -16,7 +16,8 @@ testDelimiterCantCloseItself
 	inlineParser tokens
 		addAll: {opener. 
 				(MarkdownString new content: 'f'; yourself). 
-				openCloser. (MarkdownString new content: 'b'; yourself)}.
+				openCloser. 
+				(MarkdownString new content: 'b'; yourself)}.
 	
 	inlineParser findOpenerFor: openCloser 
 		ifFound: [:o | foundOpener := o].

@@ -1,5 +1,5 @@
 tests - tokenization
-testDontFindOpenerForCloserLengthNoneDivisibleBy3
+testDontFindOpenerForCloserIfBothLengthsIndivisibleBy3
 	
 	| closer |
 	inlineParser 

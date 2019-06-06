@@ -1,5 +1,5 @@
 tests - tokenization
-testDontFindOpenerForEmphasisDelimiter
+testCloserDelimiterWithoutOpener
 
 	| closer |
 	closer := MarkdownEmphasisDelimiter new 

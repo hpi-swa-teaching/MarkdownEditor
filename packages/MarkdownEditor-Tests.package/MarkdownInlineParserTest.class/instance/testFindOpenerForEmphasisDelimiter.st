@@ -1,7 +1,7 @@
 tests - tokenization
 testFindOpenerForEmphasisDelimiter
 
-	| opener closer foundOpener |
+	| opener closer |
 	opener := MarkdownEmphasisDelimiter new 
 		content: '**'; 
 		isLeftFlanking: true; 
@@ -19,5 +19,5 @@ testFindOpenerForEmphasisDelimiter
 				closer}.
 	
 	inlineParser findOpenerFor: closer 
-		ifFound: [:o | foundOpener := o].
-	self assert: opener equals: foundOpener
+		ifFound: [:o | ^ self assert: opener equals: o].
+	self fail
