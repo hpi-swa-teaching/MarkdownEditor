@@ -20,7 +20,7 @@
 		"testDontFindOpenerForCloserIfBothLengthsIndivisibleBy3" : "fgo 6/6/2019 10:17",
 		"testEmphasisParsingKeepsAttributes" : "jst 6/3/2019 18:05",
 		"testFindOpenerForCloserIfBothLengthsDivisibleBy3" : "fgo 6/6/2019 10:17",
-		"testFindOpenerForCloserLengthOneDivisibleBy3" : "kgr 5/27/2019 15:14",
+		"testFindOpenerForCloserIfOnlyOneLengthIsDivisibleBy3" : "fgo 6/6/2019 15:22",
 		"testFindOpenerForEmphasisDelimiter" : "fgo 6/6/2019 10:26",
 		"testInterpretEmptyTokens" : "jko 5/23/2019 15:20",
 		"testInterpretTokensAsItalics" : "kgr 5/27/2019 14:50",

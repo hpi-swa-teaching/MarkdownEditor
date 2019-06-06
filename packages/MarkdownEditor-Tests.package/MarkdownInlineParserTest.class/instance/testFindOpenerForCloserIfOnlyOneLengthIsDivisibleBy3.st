@@ -1,5 +1,5 @@
 tests - tokenization
-testFindOpenerForCloserLengthOneDivisibleBy3
+testFindOpenerForCloserIfOnlyOneLengthIsDivisibleBy3
 	
 	| closer openCloser |
 	inlineParser 
