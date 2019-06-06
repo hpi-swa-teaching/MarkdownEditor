@@ -1,5 +1,4 @@
 # MarkdownEditor [![Build Status][travis_badge]][travis_url] [![Coverage Status][coveralls_badge]][coveralls_url]
-# MarkdownEditor [![Build Status][travis_badge]][travis_url]
 SWT19 - Group 04
 
 
