@@ -1,0 +1,4 @@
+accessing
+smalltalkStyler
+
+	^ smalltalkStyler

@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"attributes" : "jko 5/27/2019 16:07",
-		"isExtendableWith:" : "jko 5/27/2019 15:24" } }
+		"isExtendableWith:" : "jko 5/27/2019 15:24",
+		"isInterruptedBy:" : "jst 6/7/2019 15:00" } }

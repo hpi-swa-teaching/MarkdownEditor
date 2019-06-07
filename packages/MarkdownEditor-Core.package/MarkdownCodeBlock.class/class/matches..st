@@ -7,4 +7,4 @@ matches: aString
 	^ (aString beginsWith: '    ') not
 		and: [infoStringCollection size <= 1]
 		and: [infoStringCollection size = 1 ==> [(lineWithoutBlanks endsWith: '`') not]]
-		and: [lineWithoutBlanks size >= 3]
+		and: [lineWithoutBlanks beginsWith: '```']

@@ -6,7 +6,10 @@
 		"test3BackticksDontClose4Backticks" : "jko 6/7/2019 13:13",
 		"test3BackticksWithWhitespacesDontClose" : "jko 6/7/2019 13:14",
 		"test4BackticksClose3Backticks" : "jko 6/7/2019 13:12",
+		"testAutoClosingCodeContentWithNewline" : "jst 6/7/2019 15:35",
 		"testClosedCodeBlockIsNotExtendable" : "jko 6/7/2019 13:10",
+		"testConvertingToTextUsesTextStyler" : "jst 6/7/2019 15:16",
+		"testEmptyCodeContent" : "jst 6/7/2019 15:31",
 		"testFenceLength3" : "jko 6/7/2019 12:20",
 		"testFenceLength4" : "jko 6/7/2019 12:29",
 		"testIndentation1Closes" : "jko 6/7/2019 13:16",
@@ -23,4 +26,9 @@
 		"testMismatch3BackticksWithInfoStringContainingBackticks" : "jko 6/7/2019 12:11",
 		"testMismatch3BackticksWithWhitespaces" : "jko 6/7/2019 11:38",
 		"testMismatch4Indentation" : "jko 6/7/2019 11:35",
-		"testOpenCodeBlockIsExtendable" : "jko 6/7/2019 13:10" } }
+		"testMismatchText" : "jst 6/7/2019 14:20",
+		"testNormalCodeContent" : "jst 6/7/2019 15:26",
+		"testOnlyOpeningFenceCodeContent" : "jst 6/7/2019 15:39",
+		"testOnlyOpeningFenceWithNewlineCodeContent" : "jst 6/7/2019 15:44",
+		"testOpenCodeBlockIsExtendable" : "jko 6/7/2019 13:10",
+		"testOpenerNotYetClosed" : "jst 6/7/2019 15:37" } }
