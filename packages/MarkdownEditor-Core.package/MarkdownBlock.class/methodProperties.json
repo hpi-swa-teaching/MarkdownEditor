@@ -2,11 +2,14 @@
 	"class" : {
 		"newFrom:" : "lpf 5/23/2019 16:21" },
 	"instance" : {
+		"append:" : "jko 6/7/2019 12:42",
 		"asText" : "jst 5/27/2019 22:50",
 		"attributes" : "jko 5/27/2019 16:06",
 		"content" : "lpf 5/23/2019 16:22",
 		"content:" : "lpf 5/23/2019 16:22",
+		"firstLine" : "jko 6/7/2019 13:21",
 		"initialize" : "jst 5/27/2019 22:51",
 		"inlineParser" : "jst 5/27/2019 22:33",
 		"inlineParser:" : "jst 5/27/2019 22:34",
-		"isExtendableWith:" : "jko 5/27/2019 15:27" } }
+		"isExtendableWith:" : "jko 5/27/2019 15:27",
+		"lastLine" : "jko 5/27/2019 15:23" } }
