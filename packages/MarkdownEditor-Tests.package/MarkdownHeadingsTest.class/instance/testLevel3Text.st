@@ -3,4 +3,4 @@ testLevel3Text
 
 	self 
 		assert: '### level3'
-		asTextHasAttributes: {TextFontReference toFont: (TextStyle default copy fontOfSize: 22). TextEmphasis underlined}
+		asTextHasAttributes: {TextFontReference toFont: (self headingFontSized: 22)}

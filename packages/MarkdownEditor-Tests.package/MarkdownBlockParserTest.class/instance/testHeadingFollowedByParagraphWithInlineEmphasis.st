@@ -4,4 +4,8 @@ testHeadingFollowedByParagraphWithInlineEmphasis
 	self
 		assert: '# Title **bold**', Character cr, 'Line *italic*'
 		parsesToRuns: {8. 8. 1. 5. 8}
-		values: {{TextFontReference toFont: (TextStyle default copy fontOfSize: 26). TextEmphasis underlined}. {TextFontReference toFont: (TextStyle default copy fontOfSize: 26). TextEmphasis underlined. TextEmphasis bold.}. {TextFontReference toFont: (TextStyle default copy fontOfSize: 26). TextEmphasis underlined}. {}. {TextEmphasis italic}}
+		values: {{TextFontReference toFont: (self headingFontSized: 34)}. 
+				{TextFontReference toFont: (self headingFontSized: 34). TextEmphasis bold.}. 
+				{TextFontReference toFont: (self headingFontSized: 34)}. 
+				{}. 
+				{TextEmphasis italic}}

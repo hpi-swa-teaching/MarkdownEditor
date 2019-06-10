@@ -2,8 +2,10 @@
 	"class" : {
 		"matches:" : "fgo 5/21/2019 16:37" },
 	"instance" : {
-		"attributes" : "jst 5/13/2019 16:07",
-		"fontSize" : "jst 5/13/2019 16:06",
+		"attributes" : "kgr 6/10/2019 13:38",
+		"font" : "kgr 6/10/2019 13:39",
+		"fontSize" : "kgr 6/10/2019 13:40",
+		"fontSizes" : "kgr 6/10/2019 13:41",
 		"isExtendableWith:" : "jko 5/27/2019 15:28",
 		"level" : "jst 5/13/2019 15:24",
 		"prefix" : "jst 5/13/2019 15:29" } }
