@@ -1,4 +1,4 @@
 accessing
 firstLine
 	
-	^ self content lines first
+	^ self lines first

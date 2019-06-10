@@ -1,4 +1,9 @@
 converting
 asText
 
-	^ self smalltalkStyler styledTextFor: self codeContent asText
+	| code result |
+	code := self smalltalkStyler styledTextFor: self codeContent asText.
+	result := self firstLine asText, code.
+	self isClosed
+		ifTrue: [result := result, self lastLine asText].
+	^ result

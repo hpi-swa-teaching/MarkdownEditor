@@ -6,4 +6,4 @@ isClosed
 	^ self content lineCount >= 2
 		and: [(self lastLine beginsWith: '    ') not]
 		and: [lastLineWithoutBlanks allSatisfy: [:character | character = $`]]
-		and: [lastLineWithoutBlanks size >= self fenceLength]
+		and: [lastLineWithoutBlanks size >= self openingFenceLength]

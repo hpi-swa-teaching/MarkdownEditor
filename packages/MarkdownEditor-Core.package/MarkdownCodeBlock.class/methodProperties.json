@@ -2,13 +2,13 @@
 	"class" : {
 		"matches:" : "jst 6/7/2019 14:22" },
 	"instance" : {
-		"asText" : "jst 6/7/2019 15:29",
+		"asText" : "jst 6/10/2019 11:25",
 		"attributes" : "jst 6/7/2019 15:48",
-		"codeContent" : "jst 6/7/2019 15:41",
-		"fenceLength" : "jko 6/7/2019 13:20",
+		"codeContent" : "jst 6/10/2019 11:23",
 		"initialize" : "jst 6/7/2019 15:17",
-		"isClosed" : "jst 6/7/2019 15:38",
+		"isClosed" : "jst 6/10/2019 11:29",
 		"isExtendableWith:" : "jko 6/7/2019 12:59",
 		"isInterruptedBy:" : "jst 6/7/2019 14:59",
+		"openingFenceLength" : "jst 6/10/2019 11:29",
 		"smalltalkStyler" : "jst 6/7/2019 15:14",
 		"smalltalkStyler:" : "jst 6/7/2019 15:14" } }

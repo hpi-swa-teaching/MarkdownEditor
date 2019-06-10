@@ -1,8 +1,8 @@
 tests
 testAppend
 
-	| paragraph expectedContent |
-	paragraph := MarkdownBlock newFrom: 'Next Station is', Character cr.
-	paragraph append: 'HPI Main Station.', Character cr.
+	| block expectedContent |
+	block := MarkdownBlock newFrom: 'Next Station is', Character cr.
+	block append: 'HPI Main Station.', Character cr.
 	expectedContent := 'Next Station is', Character cr, 'HPI Main Station.', Character cr.
-	self assert: expectedContent equals: paragraph content
+	self assert: expectedContent equals: block content
