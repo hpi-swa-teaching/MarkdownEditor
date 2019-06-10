@@ -1,5 +1,5 @@
 tests - blocks
-testBlockStructureLongFencedCodeBlock
+testBlockStructureCodeBlockWithLongFences
 
 	self
 		assert: {MarkdownCodeBlock}

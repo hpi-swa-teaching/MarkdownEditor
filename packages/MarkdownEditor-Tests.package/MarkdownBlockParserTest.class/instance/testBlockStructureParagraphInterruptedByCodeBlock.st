@@ -1,5 +1,5 @@
 tests - blocks
-testBlockStructureParagraphWithCodeBlock
+testBlockStructureParagraphInterruptedByCodeBlock
 
 	self
 		assert: {MarkdownParagraph. MarkdownCodeBlock}

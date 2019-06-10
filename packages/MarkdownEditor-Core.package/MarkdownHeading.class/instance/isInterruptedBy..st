@@ -1,4 +1,4 @@
 testing
 isInterruptedBy: aMarkdownBlockClass
 
-	^ false
+	^ self shouldNotImplement

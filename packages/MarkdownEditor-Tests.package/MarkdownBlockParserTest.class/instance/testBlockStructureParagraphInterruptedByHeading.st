@@ -1,5 +1,5 @@
 tests - blocks
-testBlockStructureParagraphWithHeading
+testBlockStructureParagraphInterruptedByHeading
 
 	self
 		assert: {MarkdownParagraph. MarkdownHeading}
