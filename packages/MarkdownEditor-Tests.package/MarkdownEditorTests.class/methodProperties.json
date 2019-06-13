@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "lpf 6/13/2019 11:21",
 		"setUp" : "jst 5/11/2019 19:40",
 		"tearDown" : "jst 5/11/2019 19:40",
+		"testApplyingThemeDoesNotThrowError" : "lpf 6/13/2019 11:21",
 		"testBuildEditorWithReturnsSpec" : "kgr 4/29/2019 14:13",
 		"testBuildWithReturnsWindow" : "kgr 4/29/2019 13:44",
 		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
