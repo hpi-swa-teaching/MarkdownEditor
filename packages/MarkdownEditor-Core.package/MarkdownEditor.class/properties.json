@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"markdown" ],
+		"markdownText" ],
 	"name" : "MarkdownEditor",
 	"pools" : [
 		 ],

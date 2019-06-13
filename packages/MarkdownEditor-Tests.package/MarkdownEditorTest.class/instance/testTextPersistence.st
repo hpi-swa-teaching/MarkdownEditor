@@ -1,9 +1,10 @@
 tests
 testTextPersistence
 
-	| editor |
-	editor := toolbuilder build: (MarkdownEditor new buildEditorWith: toolbuilder).
-	editor
+	| textMorph |
+	textMorph := toolbuilder build: (MarkdownEditor new
+		buildEditorTextMorphWith: toolbuilder).
+	textMorph
 		replaceSelectionWith: 'I like trains.';
 		accept.
-	self assert: (editor text = 'I like trains.')
+	self assert: 'I like trains.' asText equals: textMorph text

@@ -1,4 +1,7 @@
 tests
 testApplyingThemeDoesNotThrowError
-		
-	self shouldnt: [window applyUserInterfaceTheme] raise: Error
+	
+	| textMorph |
+	textMorph := toolbuilder build: (MarkdownEditor new
+		buildEditorTextMorphWith: toolbuilder).
+	self shouldnt: [textMorph applyUserInterfaceTheme] raise: Error
