@@ -1,5 +1,5 @@
 tests
-testBuildWithReturnsWindow
+testBuildingEditorReturnsWindow
 
 	| window |
 	window := MarkdownEditor buildWith: toolbuilder.
