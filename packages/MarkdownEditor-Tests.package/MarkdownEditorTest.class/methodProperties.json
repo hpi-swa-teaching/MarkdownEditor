@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "lpf 6/13/2019 11:21",
+		"setUp" : "jst 5/11/2019 19:40",
+		"tearDown" : "jst 5/11/2019 19:40",
+		"testApplyingThemeDoesNotThrowError" : "lpf 6/13/2019 15:30",
+		"testBuildingEditorReturnsWindow" : "lpf 6/13/2019 15:24",
+		"testBuildingEditorTextMorphReturnsSpec" : "lpf 6/13/2019 15:29",
+		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
+		"testTextPersistence" : "lpf 6/13/2019 15:29",
+		"testWindowCreation" : "jst 5/11/2019 19:49",
+		"testWindowLabel" : "kgr 5/27/2019 15:33" } }
