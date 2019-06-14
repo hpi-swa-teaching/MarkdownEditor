@@ -2,7 +2,7 @@ tests - interpretation
 testDelimiterSpansCanNotOverlap
 
 	inlineParser 
-		text: '**f*o** o*' asText;
+		textToParse: '**f*o** o*' asText;
 		tokenize;
 		interpretTokens.
 	

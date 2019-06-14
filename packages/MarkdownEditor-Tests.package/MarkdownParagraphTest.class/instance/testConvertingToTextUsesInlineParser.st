@@ -1,12 +1,12 @@
 tests
 testConvertingToTextUsesInlineParser
 
-	| markdownString mockInlineParser paragraph result |
+	| markdownString mockInlineStyler paragraph result |
 	markdownString := 'We may include', Character cr, '*emphasis* or', Character cr, '**strong emphasis** in paragraphs'.
-	mockInlineParser := MarkdownMockInlineParser new.
+	mockInlineStyler := MarkdownMockTextStyler new.
 	paragraph := MarkdownParagraph newFrom: markdownString.
-	paragraph inlineParser: mockInlineParser.
+	paragraph styler: mockInlineStyler.
 	result := paragraph asText.
 	self
-		assert: mockInlineParser parsingResult equals: result;
-		assert: markdownString equals: mockInlineParser memorizedParsingRequest string
+		assert: mockInlineStyler stylingResult equals: result;
+		assert: markdownString equals: mockInlineStyler memorizedStylingRequest string

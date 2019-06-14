@@ -2,5 +2,5 @@ private
 privateStyle: aText
 
 	| text |
-	text := (MarkdownBlockParser new) parse: aText asString.
+	text := self parse: aText asText.
 	aText runs: text runs

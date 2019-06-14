@@ -2,7 +2,7 @@ tests - interpretation
 testInterpretTokensCutsBoldDelimiters
 
 	inlineParser 
-		text: '***f**' asText;
+		textToParse: '***f**' asText;
 		tokenize;
 		interpretTokens.
 	

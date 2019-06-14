@@ -10,5 +10,5 @@
 	"name" : "MarkdownBlockParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownTextStyler",
 	"type" : "normal" }

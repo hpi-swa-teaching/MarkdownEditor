@@ -5,7 +5,7 @@ testConvertingToTextUsesTextStyler
 	markdownString := '```', Character cr, 'Code', Character cr, '```'.
 	mockTextStyler := MarkdownMockTextStyler new.
 	codeBlock := MarkdownCodeBlock newFrom: markdownString.
-	codeBlock smalltalkStyler: mockTextStyler.
+	codeBlock styler: mockTextStyler.
 	result := codeBlock asText.
 	self
 		assert: '```', Character cr, mockTextStyler stylingResult, '```' equals: result string;

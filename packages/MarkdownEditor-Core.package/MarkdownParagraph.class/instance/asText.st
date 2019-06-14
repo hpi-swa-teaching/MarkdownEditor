@@ -1,4 +1,4 @@
 converting
 asText
 
-	^ self inlineParser parse: self content
+	^ self styler styledTextFor: self content asText

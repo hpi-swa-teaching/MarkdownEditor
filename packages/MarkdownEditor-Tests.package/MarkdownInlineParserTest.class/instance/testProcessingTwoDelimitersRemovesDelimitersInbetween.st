@@ -3,7 +3,7 @@ testProcessingTwoDelimitersRemovesDelimitersInbetween
 
 	| opener closer delimiterToBeRemoved |
 	inlineParser 
-		text: '**a*b**' asText;
+		textToParse: '**a*b**' asText;
 		tokenize.
 	opener := inlineParser tokens first.
 	delimiterToBeRemoved := inlineParser tokens third.

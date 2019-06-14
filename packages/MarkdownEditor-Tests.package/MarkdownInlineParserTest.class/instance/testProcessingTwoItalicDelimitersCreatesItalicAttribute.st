@@ -2,7 +2,7 @@ tests - interpretation
 testProcessingTwoItalicDelimitersCreatesItalicAttribute
 
 	inlineParser
-		text: '*a*' asText;
+		textToParse: '*a*' asText;
 		tokenize;
 		process: inlineParser tokens first and: inlineParser tokens last.
 	

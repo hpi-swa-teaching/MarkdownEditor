@@ -2,7 +2,7 @@ tests - tokenization
 testTokenize
 	
 	inlineParser 
-		text: '**Foo*' asText;
+		textToParse: '**Foo*' asText;
 		tokenize.
 		
 	self assert: 5 equals: inlineParser tokens size.

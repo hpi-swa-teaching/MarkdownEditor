@@ -4,8 +4,9 @@
 	"instance" : {
 		"blocks" : "lpf 5/23/2019 16:13",
 		"blocks:" : "lpf 5/23/2019 16:14",
+		"clean" : "fgo 6/14/2019 15:32",
 		"determineMatchingBlockClass:" : "jst 6/7/2019 14:55",
-		"initialize" : "lpf 5/23/2019 16:16",
+		"initialize" : "fgo 6/14/2019 15:33",
 		"isLastBlockExtendableWith:andNotInterruptedBy:" : "jst 6/7/2019 15:04",
-		"parse:" : "jko 5/27/2019 14:32",
+		"parse:" : "fgo 6/14/2019 15:33",
 		"processLine:" : "jst 6/7/2019 15:05" } }

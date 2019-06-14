@@ -6,7 +6,7 @@
 		"testBlankLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:51",
-		"testConvertingToTextUsesInlineParser" : "jko 6/4/2019 11:27",
+		"testConvertingToTextUsesInlineParser" : "fgo 6/14/2019 14:53",
 		"testTextLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:54",
 		"testTextLineIsExtendableWithTextLine" : "jko 5/27/2019 15:55",
 		"testTextLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:54",

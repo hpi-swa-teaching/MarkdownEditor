@@ -3,7 +3,7 @@ attributizeText
 
 	self attributes do: [:attribute |
 		attribute textAttributes do: [:textAttribute |
-			self text 
+			self textToParse 
 				addAttribute: textAttribute 
 				from: attribute startPosition 
 				to: attribute endPosition]]

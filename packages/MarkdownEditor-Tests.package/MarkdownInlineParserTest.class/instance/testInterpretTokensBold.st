@@ -2,7 +2,7 @@ tests - interpretation
 testInterpretTokensBold
 
 	inlineParser 
-		text: '**foo**' asText;
+		textToParse: '**foo**' asText;
 		tokenize;
 		interpretTokens.
 	

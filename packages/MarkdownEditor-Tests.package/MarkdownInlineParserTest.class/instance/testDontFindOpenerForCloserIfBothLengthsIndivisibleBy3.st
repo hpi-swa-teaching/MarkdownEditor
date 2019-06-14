@@ -3,7 +3,7 @@ testDontFindOpenerForCloserIfBothLengthsIndivisibleBy3
 	
 	| closer |
 	inlineParser 
-		text: 'foo****bar**' asText;
+		textToParse: 'foo****bar**' asText;
 		tokenize.
 	closer := inlineParser tokens eighth.
 	

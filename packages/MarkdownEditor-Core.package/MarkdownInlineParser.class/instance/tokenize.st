@@ -2,7 +2,7 @@ parsing
 tokenize
 
 	| markdownStream |
-	markdownStream := MarkdownReadStream on: self text asString.
+	markdownStream := MarkdownReadStream on: self textToParse asString.
 	[markdownStream atEnd] whileFalse: [| token |
 		token := self nextTokenIn: markdownStream.
 		self tokens addLast: token.

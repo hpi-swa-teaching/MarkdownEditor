@@ -3,4 +3,4 @@ asText
 
 	| text |
 	text := Text string: self content attributes: self attributes.
-	^ self inlineParser parse: text
+	^ self styler styledTextFor: text

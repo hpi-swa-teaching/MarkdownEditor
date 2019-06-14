@@ -2,6 +2,6 @@ initialize-release
 initialize
 
 	super initialize.
-	self smalltalkStyler: (SHTextStylerST80 new
+	self styler: (SHTextStylerST80 new
 		parseAMethod: true;
 		yourself)

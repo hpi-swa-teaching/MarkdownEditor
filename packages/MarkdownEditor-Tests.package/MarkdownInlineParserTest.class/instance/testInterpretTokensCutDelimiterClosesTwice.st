@@ -2,7 +2,7 @@ tests - interpretation
 testInterpretTokensCutDelimiterClosesTwice
 
 	inlineParser 
-		text: '*a**b***' asText;
+		textToParse: '*a**b***' asText;
 		tokenize;
 		interpretTokens.
 	

@@ -2,7 +2,7 @@ tests - interpretation
 testInterpretTokensWithoutEmphasis
 
 	inlineParser 
-		text: 'foo' asText;
+		textToParse: 'foo' asText;
 		tokenize;
 		interpretTokens.
 	

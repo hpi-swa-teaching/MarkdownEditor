@@ -3,9 +3,9 @@ parse: aStringOrText
 
 	^ self 
 		clean;
-		text: aStringOrText asText;
+		textToParse: aStringOrText asText;
 		tokenize;
 		interpretTokens;
 		attributizeText;
-		text
+		textToParse
 	

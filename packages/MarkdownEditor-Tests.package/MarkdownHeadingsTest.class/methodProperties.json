@@ -4,7 +4,7 @@
 	"instance" : {
 		"assert:asTextHasAttributes:" : "jst 5/13/2019 16:01",
 		"assert:hasAttributes:" : "jst 5/13/2019 15:46",
-		"testConvertingToTextUsesInlineParser" : "jko 6/4/2019 11:27",
+		"testConvertingToTextUsesInlineParser" : "fgo 6/14/2019 14:47",
 		"testFindLevelOfHeadingLevel1" : "jst 5/13/2019 15:37",
 		"testFindLevelOfHeadingLevel2" : "jst 5/13/2019 15:38",
 		"testFindLevelOfHeadingLevel3" : "jst 5/13/2019 15:38",

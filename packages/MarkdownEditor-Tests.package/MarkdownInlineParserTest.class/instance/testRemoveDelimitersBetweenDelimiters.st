@@ -3,7 +3,7 @@ testRemoveDelimitersBetweenDelimiters
 
 	| closer opener |
 	inlineParser 
-		text: '**f*o** o*' asText;
+		textToParse: '**f*o** o*' asText;
 		tokenize.
 	opener := inlineParser tokens first.
 	closer := inlineParser tokens fifth.

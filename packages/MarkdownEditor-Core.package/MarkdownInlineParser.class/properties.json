@@ -9,9 +9,9 @@
 		"tokenClasses",
 		"tokens",
 		"attributes",
-		"text" ],
+		"textToParse" ],
 	"name" : "MarkdownInlineParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownTextStyler",
 	"type" : "normal" }
