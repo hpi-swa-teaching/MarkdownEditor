@@ -4,4 +4,4 @@ testHeadingWithContent
 	self
 		assert: '# Title'
 		parsesToRuns: {7}
-		values: {{TextFontReference toFont: (self headingFontSized: 34)}}
+		values: {{self headingFontSized: 34}}
