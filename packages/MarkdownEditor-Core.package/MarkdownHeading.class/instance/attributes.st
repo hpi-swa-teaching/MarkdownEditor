@@ -1,8 +1,4 @@
 accessing
 attributes
 	
-	| attributes |
-	attributes := OrderedCollection new.
-	attributes add: (TextFontReference toFont: self font).
-	
-	^ attributes
+	^ {TextFontReference toFont: self font} asOrderedCollection
