@@ -1,4 +1,4 @@
 accessing
-styler: aMarkdownTextStyler
+styler: aSHTextStyler
 
-	styler := aMarkdownTextStyler
+	styler := aSHTextStyler

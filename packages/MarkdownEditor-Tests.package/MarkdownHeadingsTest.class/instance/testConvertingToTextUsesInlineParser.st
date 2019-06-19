@@ -1,12 +1,11 @@
 tests
 testConvertingToTextUsesInlineParser
 
-	| markdownString mockInlineStyler heading result |
+	| markdownString mockTextStyler heading |
 	markdownString := '# **Stronger** heading with *emphasis*'.
-	mockInlineStyler := MarkdownMockTextStyler new.
+	mockTextStyler := MarkdownMockTextStyler new.
 	heading := MarkdownHeading newFrom: markdownString.
-	heading styler: mockInlineStyler.
-	result := heading asText.
-	self
-		assert: mockInlineStyler stylingResult equals: result;
-		assert: markdownString equals: mockInlineStyler memorizedStylingRequest string
+	heading styler: mockTextStyler.
+
+	heading asText.
+	self assert: markdownString equals: mockTextStyler memorizedStylingRequest string

@@ -1,4 +1,7 @@
 converting
 asText
 
-	^ self styler styledTextFor: self content asText
+	| text |
+	text := self content asText.
+	self styler privateStyle: text.
+	^ text

@@ -1,4 +1,4 @@
 initialize-release
 clean
 
-	self blocks: OrderedCollection new.
+	self blocks: OrderedCollection new
