@@ -1,4 +1,0 @@
-converting
-attributes
-
-	^ self subclassResponsibility
