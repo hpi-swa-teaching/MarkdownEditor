@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"matches:" : "jst 6/10/2019 12:25" },
+	"instance" : {
+		"asText" : "jst 6/17/2019 18:25",
+		"codeContent" : "jst 6/10/2019 11:23",
+		"initialize" : "jst 6/17/2019 18:19",
+		"isClosed" : "jst 6/10/2019 11:29",
+		"isExtendableWith:" : "jko 6/7/2019 12:59",
+		"isInterruptedBy:" : "jst 6/7/2019 14:59",
+		"openingFenceLength" : "jst 6/10/2019 11:29",
+		"smalltalkStyler" : "jst 6/7/2019 15:14",
+		"smalltalkStyler:" : "jst 6/7/2019 15:14" } }

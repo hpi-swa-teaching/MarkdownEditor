@@ -1,5 +1,5 @@
 tests - blocks
-testBlockStructureWithTwoParagraphs
+testBlockStructureTwoParagraphs
 
 	self
 		assert: {MarkdownParagraph. MarkdownParagraph}
