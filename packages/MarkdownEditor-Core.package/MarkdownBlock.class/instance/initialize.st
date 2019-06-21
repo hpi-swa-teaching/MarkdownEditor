@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	self styler: MarkdownInlineParser new
+	self styler: MarkdownInlineTextStyler new

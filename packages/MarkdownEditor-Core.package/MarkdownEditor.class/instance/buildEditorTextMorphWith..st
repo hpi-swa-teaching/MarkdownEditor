@@ -6,6 +6,6 @@ buildEditorTextMorphWith: aBuilder
 		frame: (0@0 corner: 1@1);
 		setText: #markdownText:;
 		getText: #markdownText;
-		stylerClass: MarkdownBlockParser;
+		stylerClass: MarkdownBlockTextStyler;
 		yourself
 	
