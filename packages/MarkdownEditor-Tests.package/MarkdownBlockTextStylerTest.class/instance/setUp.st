@@ -1,4 +1,4 @@
 running
 setUp
 
-	blockParser := MarkdownBlockParser new
+	blockParser := MarkdownBlockTextStyler new
