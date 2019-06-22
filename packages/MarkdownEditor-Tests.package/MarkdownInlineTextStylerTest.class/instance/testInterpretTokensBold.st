@@ -1,9 +1,11 @@
 tests - interpretation
 testInterpretTokensBold
 
-	inlineParser parse: '**foo**'.
+	inlineTextStyler 
+		tokenize: '**foo**';
+		interpretTokens.
 
-	self assert: 1 equals: inlineParser attributes size.
-	self assert: (inlineParser attributes first isKindOf: MarkdownAttributeBold).
-	self assert: 1 equals: inlineParser attributes first startPosition.
-	self assert: 7 equals: inlineParser attributes first endPosition
+	self assert: 1 equals: inlineTextStyler attributes size.
+	self assert: (inlineTextStyler attributes first isKindOf: MarkdownAttributeBold).
+	self assert: 1 equals: inlineTextStyler attributes first startPosition.
+	self assert: 7 equals: inlineTextStyler attributes first endPosition

@@ -3,7 +3,7 @@ assert: markdownString parsesToRuns: runs values: values
 
 	| text |
 	text := markdownString asText.
-	blockParser privateStyle: text.
+	blockTextStyler privateStyle: text.
 	self
 		assert: markdownString equals: text string;
 		assert: runs equals: text runs runs;

@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"blockParser" ],
+		"blockTextStyler" ],
 	"name" : "MarkdownBlockTextStylerTest",
 	"pools" : [
 		 ],

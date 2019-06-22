@@ -1,6 +1,8 @@
 tests - interpretation
 testInterpretTokensWithoutEmphasis
 
-	inlineParser parse: 'foo'.
+	inlineTextStyler 
+		tokenize: 'foo';
+		interpretTokens.
 	
-	self assert: inlineParser attributes isEmpty
+	self assert: inlineTextStyler attributes isEmpty

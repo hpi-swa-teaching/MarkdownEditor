@@ -1,5 +1,5 @@
 tests - interpretation
 testInterpretEmptyTokens
 	
-	inlineParser interpretTokens.
-	self assert: 0 equals: inlineParser attributes size
+	inlineTextStyler interpretTokens.
+	self assert: 0 equals: inlineTextStyler attributes size

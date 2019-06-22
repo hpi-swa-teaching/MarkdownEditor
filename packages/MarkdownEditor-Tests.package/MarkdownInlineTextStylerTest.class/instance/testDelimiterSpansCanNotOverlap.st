@@ -2,7 +2,7 @@ tests - interpretation
 testDelimiterSpansCanNotOverlap
 
 	| attributes |
-	attributes := inlineParser 
+	attributes := inlineTextStyler 
 		parse: '**f*o** o*'.
 	
 	self assert: 1 equals: attributes size.

@@ -2,9 +2,9 @@ tests - interpretation
 testRemoveDelimitersBetweenDelimiters
 
 	| closer opener |
-	inlineParser tokenize: '**f*o** o*'.
-	opener := inlineParser tokens first.
-	closer := inlineParser tokens fifth.
-	inlineParser removeDelimitersBetween: opener and: closer.
+	inlineTextStyler tokenize: '**f*o** o*'.
+	opener := inlineTextStyler tokens first.
+	closer := inlineTextStyler tokens fifth.
+	inlineTextStyler removeDelimitersBetween: opener and: closer.
 	
-	self assert: (inlineParser tokens third isKindOf: MarkdownString)
+	self assert: (inlineTextStyler tokens third isKindOf: MarkdownString)

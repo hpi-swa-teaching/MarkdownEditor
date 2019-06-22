@@ -8,10 +8,10 @@ testCloserDelimiterWithoutOpener
 		isRightFlanking: true; 
 		yourself.
 		
-	inlineParser tokens 
+	inlineTextStyler tokens 
 		addAll: {(MarkdownString new content: 'f'; yourself).
 				closer}.
 	
-	inlineParser findOpenerFor: closer 
+	inlineTextStyler findOpenerFor: closer 
 		ifFound: [:o | self fail]
 	

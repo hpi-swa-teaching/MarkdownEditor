@@ -2,8 +2,8 @@ tests - tokenization
 testDontFindOpenerForCloserIfBothLengthsIndivisibleBy3
 	
 	| closer |
-	inlineParser tokenize: 'foo****bar**'.
-	closer := inlineParser tokens eighth.
+	inlineTextStyler tokenize: 'foo****bar**'.
+	closer := inlineTextStyler tokens eighth.
 	
-	inlineParser findOpenerFor: closer 
+	inlineTextStyler findOpenerFor: closer 
 		ifFound: [:foundOpener | self fail]

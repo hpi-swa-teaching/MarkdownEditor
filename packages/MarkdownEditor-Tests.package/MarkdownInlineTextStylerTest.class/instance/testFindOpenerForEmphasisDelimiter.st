@@ -13,11 +13,11 @@ testFindOpenerForEmphasisDelimiter
 		isRightFlanking: true; 
 		yourself.
 		
-	inlineParser tokens 
+	inlineTextStyler tokens 
 		addAll: {opener.
 				(MarkdownString new content: 'f'; yourself).
 				closer}.
 	
-	inlineParser findOpenerFor: closer 
+	inlineTextStyler findOpenerFor: closer 
 		ifFound: [:o | ^ self assert: opener equals: o].
 	self fail

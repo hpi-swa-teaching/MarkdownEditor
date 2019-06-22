@@ -1,12 +1,12 @@
 tests - interpretation
 testProcessingTwoItalicDelimitersCreatesItalicAttribute
 
-	inlineParser
+	inlineTextStyler
 		tokenize: '*a*';
-		process: inlineParser tokens first and: inlineParser tokens last.
+		process: inlineTextStyler tokens first and: inlineTextStyler tokens last.
 	
-	self assert: 1 equals: inlineParser attributes size.
+	self assert: 1 equals: inlineTextStyler attributes size.
 	
-	self assert: (inlineParser attributes first isKindOf: MarkdownAttributeItalic).
-	self assert: 1 equals: inlineParser attributes first startPosition.
-	self assert: 3 equals: inlineParser attributes first endPosition
+	self assert: (inlineTextStyler attributes first isKindOf: MarkdownAttributeItalic).
+	self assert: 1 equals: inlineTextStyler attributes first startPosition.
+	self assert: 3 equals: inlineTextStyler attributes first endPosition

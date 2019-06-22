@@ -1,4 +1,4 @@
 running
 setUp
 
-	inlineParser := MarkdownInlineTextStyler new
+	inlineTextStyler := MarkdownInlineTextStyler new

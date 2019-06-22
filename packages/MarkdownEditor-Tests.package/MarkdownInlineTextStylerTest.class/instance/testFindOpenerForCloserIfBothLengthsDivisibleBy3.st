@@ -2,10 +2,10 @@ tests - tokenization
 testFindOpenerForCloserIfBothLengthsDivisibleBy3
 	
 	| closer openCloser |
-	inlineParser tokenize: 'foo***bar******'.
-	openCloser := inlineParser tokens fourth.
-	closer := inlineParser tokens eighth.
+	inlineTextStyler tokenize: 'foo***bar******'.
+	openCloser := inlineTextStyler tokens fourth.
+	closer := inlineTextStyler tokens eighth.
 	
-	inlineParser findOpenerFor: closer 
+	inlineTextStyler findOpenerFor: closer 
 		ifFound: [:foundOpener | ^ self assert: openCloser equals: foundOpener].
 	self fail

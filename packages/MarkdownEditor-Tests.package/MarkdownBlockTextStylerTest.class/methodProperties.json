@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:isParsedStructureOf:" : "jko 6/21/2019 14:15",
-		"assert:parsesToRuns:values:" : "jko 6/21/2019 14:16",
+		"assert:isParsedStructureOf:" : "jko 6/22/2019 17:37",
+		"assert:parsesToRuns:values:" : "jko 6/22/2019 17:37",
 		"attributesOf:" : "jst 5/11/2019 19:05",
 		"headingFontSized:" : "lpf 6/14/2019 15:48",
-		"setUp" : "jko 6/21/2019 15:15",
+		"setUp" : "jko 6/22/2019 17:37",
 		"testBlockStructureCodeBlock" : "jst 6/7/2019 14:47",
 		"testBlockStructureCodeBlockFollowedByParagraph" : "jst 6/10/2019 11:31",
 		"testBlockStructureCodeBlockNotInterruptedByHeading" : "jst 6/7/2019 14:42",

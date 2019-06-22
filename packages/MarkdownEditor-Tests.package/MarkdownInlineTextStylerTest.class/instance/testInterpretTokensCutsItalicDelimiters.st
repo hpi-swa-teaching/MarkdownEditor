@@ -1,11 +1,13 @@
 tests - interpretation
 testInterpretTokensCutsItalicDelimiters
 
-	inlineParser parse: '**f*'.
+	inlineTextStyler 
+		tokenize: '**f*';
+		interpretTokens.
 	
-	self assert: 1 equals: inlineParser attributes size.
-	self assert: 4 equals: inlineParser tokens size.
+	self assert: 1 equals: inlineTextStyler attributes size.
+	self assert: 4 equals: inlineTextStyler tokens size.
 	
-	self assert: (inlineParser attributes first isKindOf: MarkdownAttributeItalic).
-	self assert: 2 equals: inlineParser attributes first startPosition.
-	self assert: 4 equals: inlineParser attributes first endPosition
+	self assert: (inlineTextStyler attributes first isKindOf: MarkdownAttributeItalic).
+	self assert: 2 equals: inlineTextStyler attributes first startPosition.
+	self assert: 4 equals: inlineTextStyler attributes first endPosition

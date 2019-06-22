@@ -1,8 +1,8 @@
 tests - cleaning
 testCleanEmptiesTokens
 
-	inlineParser 
+	inlineTextStyler 
 		tokens: {MarkdownEmphasisDelimiter new} asOrderedCollection;
 		clean.
 	
-	self assert: inlineParser tokens isEmpty
+	self assert: inlineTextStyler tokens isEmpty
