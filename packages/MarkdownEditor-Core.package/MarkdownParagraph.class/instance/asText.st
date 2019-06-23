@@ -1,4 +1,7 @@
 converting
 asText
 
-	^ self inlineParser parse: self content
+	| text |
+	text := self content asText.
+	self styler privateStyle: text.
+	^ text

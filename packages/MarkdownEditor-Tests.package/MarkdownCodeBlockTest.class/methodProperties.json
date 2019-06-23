@@ -10,7 +10,7 @@
 		"testClosedCodeBlockIsNotExtendable" : "jko 6/7/2019 13:10",
 		"testConvertingToTextContainsClosingFences" : "jst 6/10/2019 11:47",
 		"testConvertingToTextContainsOpeningFences" : "jst 6/10/2019 11:48",
-		"testConvertingToTextUsesTextStyler" : "jst 6/17/2019 18:10",
+		"testConvertingToTextUsesTextStyler" : "fgo 6/14/2019 14:27",
 		"testEmptyCodeContent" : "jst 6/7/2019 15:31",
 		"testFenceLength3" : "jst 6/10/2019 11:29",
 		"testFenceLength4" : "jst 6/10/2019 11:29",
