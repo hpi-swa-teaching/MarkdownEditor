@@ -1,5 +1,5 @@
 tests
-testConvertingToTextUsesInlineParser
+testConvertingToTextUsesInlineStyler
 
 	| markdownString mockTextStyler heading |
 	markdownString := '# **Stronger** heading with *emphasis*'.
