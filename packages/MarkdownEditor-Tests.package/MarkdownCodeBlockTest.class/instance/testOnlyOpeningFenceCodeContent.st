@@ -1,4 +1,6 @@
 tests - code content
 testOnlyOpeningFenceCodeContent
 
-	self assert: '' equals: (MarkdownCodeBlock newFrom: '```') codeContent
+	| codeBlock |
+	codeBlock := MarkdownCodeBlock newFrom: '```'.
+	self assert: '' equals: codeBlock codeContent

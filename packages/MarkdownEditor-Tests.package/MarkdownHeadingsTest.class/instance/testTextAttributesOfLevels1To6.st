@@ -1,7 +1,8 @@
 tests
 testTextAttributesOfLevels1To6
 	
-	(Dictionary newFrom: {'# level1'->34. '## level2'->28. '### level3'->22.
-	'#### level4'->19. '##### level5'-> 16. '###### level6'-> 14}) 
-		keysAndValuesDo: [:string :size |
-			self assert: string asTextHasAttributes: {self headingFontSized: size}]
+	(Dictionary newFrom: {'# H1'->34. '## H2'->28. '### H3'->22.
+	'#### H4'->19. '##### H5'->16. '###### H6'->14}) 
+		keysAndValuesDo: [:string :size | | parsedText |
+			parsedText := (MarkdownHeading newFrom: string) asText.
+			self assert: {{self headingFontSized: size}} equals: parsedText runs values]

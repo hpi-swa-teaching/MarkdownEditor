@@ -1,13 +1,6 @@
 tests - state
 testLength
 
-	| delimiter |
-	delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: '*').
-	self assert: 1 equals: delimiter length.
-	
-	delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: '****').
-	self assert: 4 equals: delimiter length.
-	
-	delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: '*****').
-	self assert: 5 equals: delimiter length
-	
+	{'*'->1. '**'->2. '***'->3. '****'->4. '*****'->5} do: [:case | | delimiter |
+		delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: case key).
+		self assert: case value equals: delimiter length]

@@ -1,5 +1,5 @@
 tests - matching
 testMatch1To3Indentations
 
-	#(' #' '  #' '   #') do: [:string |
+	{' #'. '  #'. '   #'} do: [:string |
 		self assert: (MarkdownHeading matches: string)]

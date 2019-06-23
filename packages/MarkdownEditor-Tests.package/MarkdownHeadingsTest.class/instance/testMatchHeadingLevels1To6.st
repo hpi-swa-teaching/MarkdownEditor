@@ -1,6 +1,5 @@
 tests - matching
 testMatchHeadingLevels1To6
 
-	#('#' '##' '###' '####' '#####' '######') do: [:string |
+	{'#'. '##'. '###'. '####'. '#####'. '######'} do: [:string |
 		self assert: (MarkdownHeading matches: string)]
-	

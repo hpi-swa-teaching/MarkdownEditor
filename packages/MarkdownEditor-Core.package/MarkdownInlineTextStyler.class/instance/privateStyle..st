@@ -1,4 +1,4 @@
-parsing
+styling
 privateStyle: aText
 	
 	| attributes |

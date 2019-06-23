@@ -1,4 +1,4 @@
 accessing
 attributes
 	
-	^ {TextFontReference toFont: self font} asOrderedCollection
+	^ {TextFontReference toFont: self font}

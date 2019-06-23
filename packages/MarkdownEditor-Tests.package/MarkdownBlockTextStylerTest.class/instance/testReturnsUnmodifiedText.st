@@ -2,6 +2,6 @@ tests - text
 testReturnsUnmodifiedText
 
 	self
-		assert: 'hallo'
-		parsesToRuns: {5}
+		assertRuns: {21}
 		values: {{}}
+		areStyledResultOf: 'No Markdown used here'

@@ -2,6 +2,6 @@ tests - text
 testHeadingWithContent
 
 	self
-		assert: '# Title'
-		parsesToRuns: {7}
+		assertRuns: {7}
 		values: {{self headingFontSized: 34}}
+		areStyledResultOf: '# Title'
