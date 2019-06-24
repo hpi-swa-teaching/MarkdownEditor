@@ -2,7 +2,6 @@ accessing
 next: anInteger
 
 	| nextCharacters endPosition |
-
 	endPosition := position + anInteger min: readLimit.
 	nextCharacters := collection copyFrom: position + 1 to: endPosition.
 	(nextCharacters size + 1 = anInteger)

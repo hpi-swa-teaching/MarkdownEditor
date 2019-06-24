@@ -1,6 +1,7 @@
 tests - state
 testLength
 
-	{'*'->1. '**'->2. '***'->3. '****'->4. '*****'->5} do: [:case | | delimiter |
-		delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: case key).
-		self assert: case value equals: delimiter length]
+	(Dictionary newFrom: {'*'->1. '**'->2. '***'->3. '****'->4. '*****'->5})
+		keysAndValuesDo: [:string :length | | delimiter |
+			delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: string).
+			self assert: length equals: delimiter length]

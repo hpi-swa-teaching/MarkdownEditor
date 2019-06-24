@@ -1,5 +1,6 @@
 tests - matching
 testMismatchHeadingLevels1To6WithUnspacedText
 
-	{'#H1'. '##H2'. '###H3'. '####H4'. '#####H5'. '######H6'} do: [:string |
+	{'#hashtag'. '##missing space'. '###no heading'. '####just text'. '#####five hashes'.
+	'######long fenced railway gate'} do: [:string |
 		self deny: (MarkdownHeading matches: string)]
