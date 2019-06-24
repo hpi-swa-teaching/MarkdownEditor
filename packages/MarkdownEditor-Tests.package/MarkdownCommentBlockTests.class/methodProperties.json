@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertRuns:values:areStyleOf:" : "jko 6/24/2019 15:36",
+		"attributesOf:" : "jko 6/24/2019 15:42",
+		"testClosedCommentBlockIsNotExtendable" : "jko 6/24/2019 14:42",
+		"testClosingTagInFirstLineCloses" : "jko 6/24/2019 14:51",
+		"testColorFromStartToEnd" : "jko 6/24/2019 15:39",
+		"testCommentEndOfAutoClosedBlock" : "jko 6/24/2019 15:13",
+		"testCommentEndOfClosedBlock" : "jko 6/24/2019 15:15",
+		"testCommentEndOfClosedBlockFollowedByText" : "jko 6/24/2019 15:16",
+		"testCommentStart0To3Indentation" : "jko 6/24/2019 15:10",
+		"testMatch1To3Indentation" : "jko 6/24/2019 13:58",
+		"testMatchOpeningTag" : "jko 6/24/2019 13:54",
+		"testMatchOpeningTagWithText" : "jko 6/24/2019 14:56",
+		"testMismatch4Indentation" : "jko 6/24/2019 13:59",
+		"testMismatchGTAfterOpeningTag" : "jko 6/24/2019 14:31",
+		"testMismatchMinusGTAfterOpeningTag" : "jko 6/24/2019 14:32",
+		"testNormalClosingTag" : "jko 6/24/2019 14:53",
+		"testOpenCommentBlockIsExtendable" : "jko 6/24/2019 14:38",
+		"testOpenerNotYetClosed" : "jko 6/24/2019 14:53",
+		"testTextAfterClosingTag" : "jko 6/24/2019 14:52" } }

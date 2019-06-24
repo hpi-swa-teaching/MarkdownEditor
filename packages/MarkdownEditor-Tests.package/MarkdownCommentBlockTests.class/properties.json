@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jst 6/7/2019 15:47",
+	"commentStamp" : "",
 	"instvars" : [
-		"memorizedStylingRequest" ],
-	"name" : "MarkdownMockTextStyler",
+		 ],
+	"name" : "MarkdownCommentBlockTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

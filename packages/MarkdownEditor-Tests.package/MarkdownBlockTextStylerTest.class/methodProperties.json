@@ -11,6 +11,7 @@
 		"testBlockStructureCodeBlockFollowedByParagraph" : "jst 6/10/2019 11:31",
 		"testBlockStructureCodeBlockNotInterruptedByHeading" : "jst 6/7/2019 14:42",
 		"testBlockStructureCodeBlockWithLongFences" : "jst 6/10/2019 13:28",
+		"testBlockStructureCommentBlock" : "jko 6/24/2019 15:49",
 		"testBlockStructureEmptyCodeBlock" : "jst 6/7/2019 14:47",
 		"testBlockStructureHeading" : "jst 6/3/2019 18:19",
 		"testBlockStructureHeadingFollowedByParagraph" : "jst 6/10/2019 13:27",
