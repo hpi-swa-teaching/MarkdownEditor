@@ -2,6 +2,7 @@ converting
 asText
 
 	| text |
-	text := Text string: self content attributes: self attributes.
+	text := self content asText.
 	self styler privateStyle: text.
+	text addAttribute: self textAttribute.
 	^ text
