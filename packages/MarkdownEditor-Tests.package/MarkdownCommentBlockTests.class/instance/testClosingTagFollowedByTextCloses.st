@@ -1,5 +1,5 @@
 tests - extendability
-testTextAfterClosingTag
+testClosingTagFollowedByTextCloses
 
 	| commentBlock |
 	commentBlock := MarkdownCommentBlock newFrom: '<!-- MiniMetro', Character cr.
