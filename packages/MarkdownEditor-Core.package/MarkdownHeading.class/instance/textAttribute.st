@@ -1,4 +1,4 @@
 accessing
 textAttribute
 	
-	^ TextFontReference toFont: self font
+	^ UnextendableTextFontReference toFont: self font

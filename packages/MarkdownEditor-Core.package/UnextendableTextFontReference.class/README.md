@@ -1,0 +1,1 @@
+I am a TextFontReference but I am not extendable. Therefore I do not cause glitches when being used in environments with different font sizes.
