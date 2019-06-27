@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"memorizedStylingRequest" ],
-	"name" : "MarkdownMockTextStyler",
+		 ],
+	"name" : "UnextendableTextFontReferenceTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,7 +1,7 @@
 accessing
 headingFontSized: pointSize
 
-	^ TextFontReference 
+	^ UnextendableTextFontReference 
 		toFont: (TTCFont
 			familyName: 'BitstreamVeraSans'
 			pointSize: pointSize
