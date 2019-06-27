@@ -2,5 +2,5 @@ tests
 testMayNotBeExtended
 
 	| fontReference |
-	fontReference :=UnextendableTextFontReference new.
+	fontReference := UnextendableTextFontReference new.
 	self deny: fontReference mayBeExtended
