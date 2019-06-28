@@ -1,13 +1,7 @@
 tests - state
 testLength
 
-	| delimiter |
-	delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: '*').
-	self assert: 1 equals: delimiter length.
-	
-	delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: '****').
-	self assert: 4 equals: delimiter length.
-	
-	delimiter := MarkdownEmphasisDelimiter newFor: (self readStreamOn: '*****').
-	self assert: 5 equals: delimiter length
-	
+	(Dictionary newFrom: {'*'->1. '**'->2. '***'->3. '****'->4. '*****'->5})
+		keysAndValuesDo: [:string :expectedLength | | token |
+			token := MarkdownEmphasisDelimiter newFor: string at: 1.
+			self assert: expectedLength equals: token length]

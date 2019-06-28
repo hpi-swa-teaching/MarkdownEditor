@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"<=" : "jko 5/6/2019 14:49",
-		"mayBeginWith:" : "fgo 5/21/2019 16:36",
-		"newFor:" : "fgo 5/21/2019 15:21",
-		"precedence" : "jko 5/6/2019 14:45" },
+		"mayBeginWith:" : "jst 6/26/2019 14:35",
+		"newFor:at:" : "jst 6/26/2019 14:19" },
 	"instance" : {
 		"asStringToken" : "fgo 5/21/2019 15:21",
 		"content" : "fgo 5/4/2019 14:53",
 		"content:" : "fgo 4/29/2019 14:44",
 		"endPosition" : "fgo 5/21/2019 15:21",
-		"fillContentFrom:" : "fgo 5/21/2019 15:17",
+		"extendWith:" : "jst 6/28/2019 15:20",
 		"isDelimiter" : "fgo 4/29/2019 14:40",
+		"isExtendableWith:" : "jst 6/28/2019 15:15",
 		"length" : "jko 5/6/2019 14:36",
+		"locatedBetween:and:" : "jst 6/28/2019 15:40",
 		"startPosition" : "fgo 5/21/2019 15:22",
 		"startPosition:" : "fgo 5/21/2019 15:22" } }

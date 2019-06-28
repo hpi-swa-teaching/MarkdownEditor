@@ -1,13 +1,8 @@
 tests - state
 testNotRightFlanking
 
-	| stream delimiter |
-	"Don't use it that way. Content is set just for testing."
-	delimiter := MarkdownEmphasisDelimiter new content: '***'; yourself.
-	
-	stream := self readStreamOn: 'abc *** def' at: 4.
-	self deny: (delimiter decideRightFlankingFor: stream).
-	
-	stream := self readStreamOn: ' ***'.
-	self deny: (delimiter decideRightFlankingFor: stream)
-	
+	{{Character cr. $a}. {Character space. Character cr}. {$!. $a}}
+		do: [:characters | | token |
+			token := MarkdownEmphasisDelimiter newFor: '***' at: 2.
+			token decideRightFlankingForPreceding: characters first following: characters last.
+			self deny: token isRightFlanking]

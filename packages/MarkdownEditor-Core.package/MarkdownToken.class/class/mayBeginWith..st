@@ -1,4 +1,4 @@
-testing
-mayBeginWith: aString
+accessing
+mayBeginWith: aCharacter
 
 	^ self subclassResponsibility
