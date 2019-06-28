@@ -2,7 +2,7 @@ styling
 buildAttributeRunsFrom: aCollectionOfMarkdownBlocks
 
 	| text |
-	text := Text new.
-	aCollectionOfMarkdownBlocks do: [:block |
-		text append: block asText].
+	text := aCollectionOfMarkdownBlocks
+		inject: Text new
+		into: [:accumulatedText :block | accumulatedText, block asText].
 	^ text runs

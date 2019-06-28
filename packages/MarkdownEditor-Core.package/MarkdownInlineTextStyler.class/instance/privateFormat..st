@@ -1,0 +1,4 @@
+formatting
+privateFormat: aText
+
+	^ aText

@@ -10,5 +10,5 @@
 	"name" : "MarkdownBlockTextStyler",
 	"pools" : [
 		 ],
-	"super" : "MarkdownTextStyler",
+	"super" : "SHTextStyler",
 	"type" : "normal" }
