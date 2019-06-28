@@ -1,5 +1,6 @@
 parsing
 determineMatchingBlockClass: aString
 
-	^ {MarkdownHeading. MarkdownCodeBlock. MarkdownCommentBlock. MarkdownParagraph} detect: [:blockClass |
-		blockClass matches: aString]
+	^ {MarkdownHeading. MarkdownCodeBlock. MarkdownCommentBlock} 
+		detect: [:blockClass | blockClass matches: aString]
+		ifNone: [MarkdownParagraph]

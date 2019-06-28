@@ -1,4 +1,0 @@
-matching
-matches: aString
-
-	^ true
