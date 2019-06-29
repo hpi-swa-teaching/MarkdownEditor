@@ -35,7 +35,7 @@
 		"testProcessingTwoItalicDelimitersCreatesBoldAttribute" : "jko 6/22/2019 17:36",
 		"testProcessingTwoItalicDelimitersCreatesItalicAttribute" : "jko 6/22/2019 17:36",
 		"testRemoveDelimitersBetweenDelimiters" : "jko 6/22/2019 17:36",
-		"testStyleNormal" : "jko 6/22/2019 17:38",
+		"testStyleNormal" : "jst 6/23/2019 14:50",
 		"testStyleOneAttribute" : "jko 6/22/2019 17:38",
 		"testStyleTwoAttributes" : "jko 6/22/2019 17:38",
 		"testTokenize" : "jst 6/26/2019 14:41" } }

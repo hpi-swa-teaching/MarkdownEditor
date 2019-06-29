@@ -1,6 +1,8 @@
-parsing
+styling
 buildAttributeRunsFrom: aCollectionOfMarkdownBlocks
-	
-	^ (aCollectionOfMarkdownBlocks 
-		inject: Text new 
-		into: [:text :block | text append: block asText]) runs
+
+	| text |
+	text := aCollectionOfMarkdownBlocks
+		inject: Text new
+		into: [:accumulatedText :block | accumulatedText, block asText].
+	^ text runs

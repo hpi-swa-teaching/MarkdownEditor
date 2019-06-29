@@ -1,8 +1,8 @@
 tests - parsing
 testStyleNormal
-	
+
 	| text |
-	text :=  'MiniMetro' asText.
+	text := 'MiniMetro' asText.
 	inlineTextStyler privateStyle: text.
 	self
 		assertRuns: {9}

@@ -2,6 +2,6 @@ tests - text
 testEmptyHeadingWithFollowingLine
 
 	self
-		assert: '#', Character cr
-		parsesToRuns: {2}
+		assertRuns: {2}
 		values: {{self headingFontSized: 34}}
+		areStyledResultOf: '#', Character cr

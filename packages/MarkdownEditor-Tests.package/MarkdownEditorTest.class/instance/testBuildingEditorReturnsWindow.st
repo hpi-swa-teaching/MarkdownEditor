@@ -1,4 +1,4 @@
-tests
+tests - window
 testBuildingEditorReturnsWindow
 
 	| window |
