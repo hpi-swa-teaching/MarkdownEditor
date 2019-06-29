@@ -1,5 +1,5 @@
 accessing
-assert: markdownString parsesToRuns: runs values: values
+assertRuns: runs values: values areStyledResultOf: markdownString
 
 	| text |
 	text := markdownString asText.

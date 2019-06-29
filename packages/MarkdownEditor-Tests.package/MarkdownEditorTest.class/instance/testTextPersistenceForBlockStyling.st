@@ -1,5 +1,5 @@
-tests
-testTextPersistence
+tests - block styling
+testTextPersistenceForBlockStyling
 
 	| textMorph |
 	textMorph := toolbuilder build: (MarkdownEditor new

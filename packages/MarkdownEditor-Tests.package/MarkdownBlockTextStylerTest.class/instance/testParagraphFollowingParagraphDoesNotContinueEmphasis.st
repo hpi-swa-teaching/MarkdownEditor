@@ -2,6 +2,6 @@ tests - text with inline
 testParagraphFollowingParagraphDoesNotContinueEmphasis
 
 	self
-		assert: '**not', Character cr, Character cr, 'bold**'
-		parsesToRuns: {13}
+		assertRuns: {13}
 		values: {{}}
+		areStyledResultOf: '**not', Character cr, Character cr, 'bold**'

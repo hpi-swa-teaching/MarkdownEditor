@@ -1,4 +1,4 @@
-parsing
+styling
 add: aCollectionOfMarkdownAttributes to: aText
 
 	aCollectionOfMarkdownAttributes do: [:attribute |

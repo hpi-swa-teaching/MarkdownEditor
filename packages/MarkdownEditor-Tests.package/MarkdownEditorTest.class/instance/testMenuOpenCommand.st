@@ -1,4 +1,4 @@
-tests
+tests - window
 testMenuOpenCommand
 
 	TheWorldMenu unregisterOpenCommand: 'Markdown Editor'.

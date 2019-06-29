@@ -1,6 +1,6 @@
 tests - matching
 testMismatchHeadingLevels1To6WithUnspacedText
 
-	#('#MiniMetro' '##the fastest game' '###on the planet!' '####cool play style'
-	'#####endless fun' '######universal gratitude of passengers') do: [:string | 
+	{'#hashtag'. '##missing space'. '###no heading'. '####text with four hashes'.
+	 '#####text with five hashes'. '######text with six hashes'} do: [:string |
 		self deny: (MarkdownHeading matches: string)]
