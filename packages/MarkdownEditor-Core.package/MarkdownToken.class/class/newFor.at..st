@@ -1,7 +1,7 @@
 instance creation
 newFor: aString at: startPosition
 
-	^ self new 
+	^ self new
 		content: aString;
 		startPosition: startPosition;
-		yourself	
+		yourself

@@ -3,5 +3,5 @@ testExtend
 
 	| token |
 	token := MarkdownEmphasisDelimiter newFor: '*' at: 1.
-	token extendWith: $*.
+	token append: $*.
 	self assert: '**' equals: token content

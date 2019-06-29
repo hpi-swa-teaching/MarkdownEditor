@@ -1,6 +1,6 @@
-parsing
+parsing - tokenization
 tokenize: aString
 
 	self
 		createTokensFrom: aString;
-		postprocessTokens
+		processAdjacentTokens

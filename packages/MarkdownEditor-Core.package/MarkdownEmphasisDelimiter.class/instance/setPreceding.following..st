@@ -1,5 +1,5 @@
 initialize-release
-locatedBetween: precedingCharacter and: followingCharacter
+setPreceding: precedingCharacter following: followingCharacter
 
 	self
 		decideLeftFlankingForPreceding: precedingCharacter following: followingCharacter;

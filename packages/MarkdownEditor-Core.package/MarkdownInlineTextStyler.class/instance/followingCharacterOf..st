@@ -1,4 +1,4 @@
-parsing
+parsing - tokenization
 followingCharacterOf: aMarkdownToken
 
 	| token |

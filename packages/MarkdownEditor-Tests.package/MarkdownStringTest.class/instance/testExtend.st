@@ -3,5 +3,5 @@ testExtend
 
 	| token |
 	token := MarkdownString newFor: 'a' at: 1.
-	token extendWith: $b.
+	token append: $b.
 	self assert: 'ab' equals: token content

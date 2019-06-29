@@ -3,9 +3,8 @@
 		 },
 	"instance" : {
 		"testEndPosition" : "jst 6/26/2019 14:29",
-		"testExtend" : "jst 6/28/2019 15:17",
+		"testExtend" : "jst 6/29/2019 16:10",
 		"testIsExtendableWithAnyCharacaterButAsterisk" : "jst 6/28/2019 15:13",
 		"testIsNotExtendableWithAsterisk" : "jst 6/28/2019 15:13",
-		"testMayBeginWithAnyCharacter" : "jst 6/26/2019 14:36",
 		"testStartPosition" : "jst 6/26/2019 14:28",
 		"testStringAsString" : "jst 6/26/2019 15:11" } }

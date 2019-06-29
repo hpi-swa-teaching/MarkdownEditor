@@ -1,4 +1,4 @@
 extending
-extendWith: aCharacter
+append: aCharacter
 
 	self content: self content, aCharacter
