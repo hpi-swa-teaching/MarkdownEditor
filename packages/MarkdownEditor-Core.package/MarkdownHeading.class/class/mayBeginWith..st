@@ -1,5 +1,5 @@
 testing
-matches: aString
+mayBeginWith: aString
 
 	| chunks |
 	chunks := aString subStrings: {Character space. Character cr}.
