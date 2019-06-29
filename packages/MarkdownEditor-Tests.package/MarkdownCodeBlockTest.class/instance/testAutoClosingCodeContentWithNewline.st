@@ -1,4 +1,6 @@
 tests - code content
 testAutoClosingCodeContentWithNewline
 
-	self assert: 'auto closed' equals: (MarkdownCodeBlock newFrom: '```', Character cr, 'auto closed') codeContent
+	| codeBlock |
+	codeBlock := MarkdownCodeBlock newFrom: '```', Character cr, 'auto closed'.
+	self assert: 'auto closed' equals: codeBlock codeContent

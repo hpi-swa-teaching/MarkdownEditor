@@ -11,5 +11,5 @@
 	"name" : "MarkdownInlineTextStyler",
 	"pools" : [
 		 ],
-	"super" : "MarkdownTextStyler",
+	"super" : "SHTextStyler",
 	"type" : "normal" }
