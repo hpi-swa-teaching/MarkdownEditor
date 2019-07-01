@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "jst 6/29/2019 14:53",
 		"setUp" : "jst 5/11/2019 19:40",
 		"tearDown" : "jst 5/11/2019 19:40",
 		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "jst 6/29/2019 14:39",
-		"testApplyingThemeDoesNotThrowErrorForIniineStyling" : "jst 6/29/2019 11:55",
+		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : " 7/1/2019 13:56:32",
 		"testBuildingEditorReturnsWindow" : "lpf 6/13/2019 15:24",
 		"testBuildingEditorTextMorphReturnsSpec" : "lpf 6/13/2019 15:29",
 		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
