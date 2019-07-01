@@ -1,0 +1,4 @@
+testing
+isInterruptedBy: aMarkdownBlockClass
+
+	^ false
