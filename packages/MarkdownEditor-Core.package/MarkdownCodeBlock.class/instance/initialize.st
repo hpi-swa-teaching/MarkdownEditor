@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	self styler: (SHTextStylerST80 new
-		classOrMetaClass: WeakSmalltalkParser;
+		classOrMetaClass: self class;
 		parseAMethod: true;
 		yourself)

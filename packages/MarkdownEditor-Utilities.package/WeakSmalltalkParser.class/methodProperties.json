@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"shoutParserClass" : "fgo 7/1/2019 13:26" },
+	"instance" : {
+		"initializeInstanceVariables" : "fgo 7/1/2019 10:52",
+		"parseBinary" : "fgo 7/1/2019 10:53",
+		"parseKeyword" : "fgo 7/1/2019 10:53",
+		"parseUnary" : "fgo 7/1/2019 10:53",
+		"resolve:" : "fgo 7/1/2019 10:53" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fgo 6/26/2019 22:40",
+	"instvars" : [
+		 ],
+	"name" : "UnextendableTextFontReference",
+	"pools" : [
+		 ],
+	"super" : "TextFontReference",
+	"type" : "normal" }

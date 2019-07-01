@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"matches:" : "jst 6/10/2019 12:25" },
+		"matches:" : "jst 6/10/2019 12:25",
+		"shoutParserClass" : "fgo 7/1/2019 16:40" },
 	"instance" : {
 		"asText" : "jst 6/25/2019 12:19",
 		"codeContent" : "jst 6/10/2019 11:23",
-		"initialize" : "fgo 7/1/2019 13:28",
+		"initialize" : "fgo 7/1/2019 16:40",
 		"isClosed" : "jst 6/10/2019 11:29",
 		"isExtendableWith:" : "jko 6/7/2019 12:59",
 		"isInterruptedBy:" : "jst 6/7/2019 14:59",
