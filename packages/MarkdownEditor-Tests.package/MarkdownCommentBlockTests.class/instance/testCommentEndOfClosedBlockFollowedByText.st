@@ -1,0 +1,7 @@
+tests - comment
+testCommentEndOfClosedBlockFollowedByText
+
+	| commentBlock |
+	commentBlock := MarkdownCommentBlock newFrom: '<!-- MiniMetro', Character cr.
+	commentBlock append: 'is cool --> More Text'.
+	self assert: 26 equals: commentBlock commentEnd
