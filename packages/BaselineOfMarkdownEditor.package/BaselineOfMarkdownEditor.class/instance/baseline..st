@@ -6,14 +6,15 @@ baseline: spec
 		do: [
 			spec
 				package: 'VB-Regex' with: [
-					spec repository: 'http://www.squeaksource.com/Regex'].
-			spec
+					spec repository: 'http://www.squeaksource.com/Regex'];
+				package: 'Markdown-Utilities';
 				package: 'MarkdownEditor-Core' with: [
+					spec requires: #('MarkdownEditor-Utilities').
 					(#('Squeak5.0') includes: Smalltalk version)
 						ifTrue: [spec requires: #('VB-Regex')]];
-				package: 'MarkdownEditor-Tests' with: [spec requires: #('MarkdownEditor-Core')];
+				package: 'MarkdownEditor-Tests' with: [spec requires: #('MarkdownEditor-Core' 'MarkdwonEditor-Utilities')];
 				yourself.
 			spec
-				group: 'default' with: #('MarkdownEditor-Core');
+				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities');
 				group: 'tests' with: #('MarkdownEditor-Tests')];
 				yourself
