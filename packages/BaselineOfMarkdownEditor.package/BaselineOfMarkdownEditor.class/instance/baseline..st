@@ -7,7 +7,7 @@ baseline: spec
 			spec
 				package: 'VB-Regex' with: [
 					spec repository: 'http://www.squeaksource.com/Regex'];
-				package: 'Markdown-Utilities';
+				package: 'MarkdownEditor-Utilities';
 				package: 'MarkdownEditor-Core' with: [
 					spec requires: #('MarkdownEditor-Utilities').
 					(#('Squeak5.0') includes: Smalltalk version)
