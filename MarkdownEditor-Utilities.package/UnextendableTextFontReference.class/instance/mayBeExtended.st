@@ -1,4 +1,0 @@
-testing
-mayBeExtended
-
-	^ false

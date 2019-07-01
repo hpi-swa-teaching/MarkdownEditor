@@ -1,4 +1,0 @@
-parse support
-initializeInstanceVariables
-
-	instanceVariables := #()

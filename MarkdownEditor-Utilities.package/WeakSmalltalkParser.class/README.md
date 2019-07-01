@@ -1,3 +1,0 @@
-I parse a method without looking up any information about the existance of message selectors, instance variables, global variables, class variables or pool dictionaries. Instead, I treat every message selector I find as one that actually exists and every identifier that could be one of the before-mentioned variable types as a global variable if it is capitalized or an instance variable if it is not.
-
-Taken from: https://github.com/GsSqueak/GsSqueak/tree/master/tools/GemStoneGUI.package/GSGWeakParser.class
