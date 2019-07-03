@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"rangesForSource:" : "fgo 7/3/2019 18:03",
+		"setUp" : "fgo 7/3/2019 17:57",
+		"testUnkownLowecaseSymbolIsInstanceVariable" : "fgo 7/3/2019 18:08",
+		"testUnkownUppercaseSymbolIsInstanceVariable" : "fgo 7/3/2019 19:42" } }

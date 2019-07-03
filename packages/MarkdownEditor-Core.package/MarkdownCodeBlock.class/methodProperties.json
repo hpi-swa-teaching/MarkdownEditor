@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"matches:" : "jst 6/10/2019 12:25",
-		"shoutParserClass" : "fgo 7/1/2019 16:40",
-		"mayBeginWith:" : "jko 6/29/2019 16:20" },
+		"mayBeginWith:" : "jko 6/29/2019 16:20",
+		"shoutParserClass" : "fgo 7/1/2019 16:40" },
 	"instance" : {
 		"asText" : "jst 6/25/2019 12:19",
 		"codeContent" : "jst 6/10/2019 11:23",
