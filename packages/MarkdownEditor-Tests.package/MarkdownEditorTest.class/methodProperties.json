@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "jst 6/29/2019 14:53",
 		"setUp" : "jst 5/11/2019 19:40",
 		"tearDown" : "jst 5/11/2019 19:40",
 		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "jst 6/29/2019 14:39",

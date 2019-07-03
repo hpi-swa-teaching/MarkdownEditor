@@ -1,4 +1,4 @@
 testing
-mayBeginWith: aString
+mayBeginWith: aCharacter
 
-	^ aString = self asterisk asString
+	^ aCharacter = $*
