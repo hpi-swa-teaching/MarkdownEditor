@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testAdditionalSpaceAtEndOfStream" : "jko 5/23/2019 12:24",
-		"testLast" : "kgr 5/27/2019 15:55",
-		"testNoMoreThanOneAdditionalSpaceAtEndOfStream" : "jko 5/23/2019 12:24",
-		"testPeek" : "kgr 5/27/2019 15:56" } }

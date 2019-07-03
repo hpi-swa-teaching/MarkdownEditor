@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEndPosition" : "fgo 5/10/2019 15:25",
-		"testInitialization" : "kgr 5/27/2019 15:56",
-		"testMayBeginWithAnyCharacter" : "fgo 5/22/2019 13:30",
-		"testStartPosition" : "kgr 5/27/2019 15:57" } }
+		"testEndPosition" : "jst 6/26/2019 14:29",
+		"testExtend" : "jst 6/29/2019 16:10",
+		"testIsExtendableWithAnyCharacaterButAsterisk" : "jst 6/28/2019 15:13",
+		"testIsNotExtendableWithAsterisk" : "jst 6/28/2019 15:13",
+		"testStartPosition" : "jst 6/26/2019 14:28",
+		"testStringAsString" : "jst 6/26/2019 15:11" } }
