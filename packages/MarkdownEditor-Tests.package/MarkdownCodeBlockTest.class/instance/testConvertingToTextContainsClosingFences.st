@@ -1,9 +1,10 @@
 tests
 testConvertingToTextContainsClosingFences
 
-	| markdownString codeBlock result |
-	markdownString := '```', Character cr, 'Code', Character cr, '````'.
-	codeBlock := MarkdownCodeBlock newFrom: markdownString.
+	| codeBlock result |
+	codeBlock := MarkdownCodeBlock newFrom: (MarkdownLine newFrom: '```', Character cr).
+	codeBlock
+		append: (MarkdownLine newFrom: 'Code', Character cr);
+		append: (MarkdownLine newFrom: '````').
 	result := codeBlock asText.
-	self
-		assert: (result endsWith: '````')
+	self assert: (result endsWith: '````')

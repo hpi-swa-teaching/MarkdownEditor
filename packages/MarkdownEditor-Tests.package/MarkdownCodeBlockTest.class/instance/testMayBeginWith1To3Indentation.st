@@ -1,7 +1,6 @@
-tests - matching
+tests - recognition
 testMayBeginWith1To3Indentation
 
-	{' ```'. '  ```'. '   ```'} do: [:openingLine |
-		self assert: (MarkdownCodeBlock mayBeginWith: openingLine)]
-
-	
+	{' ```'. '  ```'. '   ```'} do: [:openingString | | line |
+		line := MarkdownLine newFrom: openingString.
+		self assert: (MarkdownCodeBlock mayBeginWith: line)]

@@ -1,8 +1,8 @@
 parsing
-buildBlockStructureFrom: aCollectionOfStrings
+buildBlockStructureFrom: aCollectionOfMarkdownLines
 	
 	| blocks |
 	blocks := OrderedCollection new.
-	aCollectionOfStrings do: [:line |
+	aCollectionOfMarkdownLines do: [:line |
 		self process: line into: blocks].
 	^ blocks

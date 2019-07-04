@@ -1,5 +1,5 @@
 testing
-isExtendableWith: aString
+isExtendableWith: aMarkdownLine
 
-	^ self content lineCount = 1
+	^ self lines size = 1
 		or: [self isClosed not]

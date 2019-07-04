@@ -1,4 +1,4 @@
 extending
-append: aString
+append: aMarkdownLine
 
-	self content: self content, aString
+	self lines add: aMarkdownLine

@@ -1,5 +1,5 @@
 testing
-mayBeginWith: aString
+mayBeginWith: aMarkdownLine
 	
-	^ (aString beginsWith: '    ') not
-		and: [aString withBlanksTrimmed beginsWith: self openingTag]
+	^ aMarkdownLine isIndented not
+		and: [aMarkdownLine asString withBlanksTrimmed beginsWith: self openingTag]
