@@ -1,5 +1,5 @@
 tests
-testUnkownUppercaseSymbolIsInstanceVariable
+testUnkownUppercaseKeywordIsGlobalVariable
 
 	| source parsedRanges |
 	source := 'someMethodName: someArgument', Character cr, 'SomeGlobalVariable'.

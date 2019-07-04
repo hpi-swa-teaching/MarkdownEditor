@@ -1,5 +1,5 @@
 tests
-testUnkownLowecaseSymbolIsInstanceVariable
+testUnkownLowercaseKeywordIsInstanceVariable
 
 	| source parsedRanges |
 	source := 'someMethodName: someArgument', Character cr, 'someInstanceVariable'.

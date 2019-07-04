@@ -6,8 +6,10 @@ baseline: spec
 		do: [
 			spec
 				package: 'MarkdownEditor-Utilities';
-				package: 'MarkdownEditor-Core';
-				package: 'MarkdownEditor-Tests' with: [spec requires: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities')];
+				package: 'MarkdownEditor-Core' with: [
+					spec requires: #('MarkdownEditor-Utilities')];
+				package: 'MarkdownEditor-Tests' with: [
+					spec requires: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities')];
 				yourself.
 			spec
 				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities');
