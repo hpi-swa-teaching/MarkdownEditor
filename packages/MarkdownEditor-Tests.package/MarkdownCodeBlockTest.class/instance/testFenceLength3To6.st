@@ -1,4 +1,4 @@
-tests - fence length
+tests
 testFenceLength3To6
 
 	(Dictionary newFrom: {'```'->3. '```smalltalk'->3.
