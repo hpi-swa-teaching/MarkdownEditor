@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'MarkdownEditor-Core' ]
+      #packages : [ 'MarkdownEditor-Core', 'MarkdownEditor-Utilities' ]
     },
     #packages : [ 'MarkdownEditor-Tests' ]
   }
