@@ -6,7 +6,7 @@
 
 ## Features
 
-The editor works like a normal workspace, but highlights the Markdown as you are typing. You can save the text as usually, copy into and from the window.  
+The editor works like a normal workspace, but highlights the Markdown as you type. You can save the text as usual and also copy into and from the window.  
 It is by no means feature complete. But the aspects we included, are conforming to the [Github Flavored Markdown Specification](https://github.github.com/gfm/). 
 
 - [x] Realtime syntax highlighting
@@ -33,11 +33,12 @@ After that, you can open the Editor via the *"App"*-menu:
 ![Opening Markdown Editor](screenshots/how-to-open.png)
 
 ## Contributing
-During development, we set up some guidelines for coding and how to deal with the development process. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
+During development, we set up some guidelines for coding. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## History
-This is a project developed for the Software Engineering course, summer term 2019.  
+This is a project developed for the Software Engineering course, started during summer term 2019.  
 Developers: Felix Gohla, Kira Grammel, Jonas Kordt, Lara Pfennigschmidt, Jakob Stigloher
+When continuing this project, please feel free to add your names to the list. 😊
 
 <!-- References -->
 [travis_badge]: https://travis-ci.org/hpi-swa-teaching/MarkdownEditor.svg?branch=master
