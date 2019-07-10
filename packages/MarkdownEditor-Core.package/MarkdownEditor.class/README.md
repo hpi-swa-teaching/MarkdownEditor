@@ -1,0 +1,1 @@
+I provide a simple text area for writing Markdown. Your Markdown will be styled as you type.
