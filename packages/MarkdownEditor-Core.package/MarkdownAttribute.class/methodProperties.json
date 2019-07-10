@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"from:to:" : "fgo 5/21/2019 15:36" },
+		"bold" : "fgo 7/10/2019 15:18",
+		"italic" : "fgo 7/10/2019 15:18" },
 	"instance" : {
 		"endPosition" : "fgo 5/21/2019 15:36",
-		"endPosition:" : "fgo 5/21/2019 15:36",
+		"setFrom:to:" : "fgo 7/10/2019 15:16",
 		"startPosition" : "fgo 5/21/2019 15:36",
-		"startPosition:" : "fgo 5/21/2019 15:36",
-		"textAttributes" : "fgo 5/21/2019 16:13" } }
+		"textAttribute" : "fgo 7/10/2019 14:39",
+		"textAttribute:" : "fgo 7/10/2019 14:39" } }

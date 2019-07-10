@@ -2,7 +2,7 @@ tests - cleaning
 testCleanEmptiesAttributes
 
 	inlineTextStyler 
-		attributes: {MarkdownAttributeBold new} asOrderedCollection;
+		attributes: {MarkdownAttribute bold} asOrderedCollection;
 		clean.
 	
 	self assert: inlineTextStyler attributes isEmpty

@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "fgo 5/21/2019 15:40",
+	"commentStamp" : "fgo 7/10/2019 15:23",
 	"instvars" : [
 		"startPosition",
-		"endPosition" ],
+		"endPosition",
+		"textAttribute" ],
 	"name" : "MarkdownAttribute",
 	"pools" : [
 		 ],

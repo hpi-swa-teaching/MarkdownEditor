@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testInstanceCreation" : "fgo 5/21/2019 15:35" } }
+		"testCreateBoldAttribute" : "fgo 7/10/2019 15:05",
+		"testCreateItalicAttribute" : "fgo 7/10/2019 15:06",
+		"testSetRange" : "fgo 7/10/2019 15:14" } }

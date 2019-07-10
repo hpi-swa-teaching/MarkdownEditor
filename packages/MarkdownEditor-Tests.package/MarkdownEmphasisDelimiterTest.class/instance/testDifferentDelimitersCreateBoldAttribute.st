@@ -12,6 +12,6 @@ testDifferentDelimitersCreateBoldAttribute
 					yourself.
 					
 	attribute := closer attributeStartingAt: opener. 	
-	self assert: (attribute isKindOf: MarkdownAttributeBold).
+	self assert: MarkdownAttribute bold textAttribute equals: attribute textAttribute.
 	self assert: 3 equals: attribute startPosition.
 	self assert: 7 equals: attribute endPosition

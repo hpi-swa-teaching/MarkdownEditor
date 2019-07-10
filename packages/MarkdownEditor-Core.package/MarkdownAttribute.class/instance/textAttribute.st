@@ -1,0 +1,4 @@
+accessing
+textAttribute
+
+	^ textAttribute

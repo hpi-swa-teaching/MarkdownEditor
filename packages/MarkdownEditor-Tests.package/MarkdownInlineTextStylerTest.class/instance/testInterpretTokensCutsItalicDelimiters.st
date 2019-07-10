@@ -1,6 +1,7 @@
 tests - interpretation
 testInterpretTokensCutsItalicDelimiters
 
+	| attribute |
 	inlineTextStyler 
 		tokenize: '**f*';
 		interpretTokens.
@@ -8,6 +9,7 @@ testInterpretTokensCutsItalicDelimiters
 	self assert: 1 equals: inlineTextStyler attributes size.
 	self assert: 4 equals: inlineTextStyler tokens size.
 	
-	self assert: (inlineTextStyler attributes first isKindOf: MarkdownAttributeItalic).
-	self assert: 2 equals: inlineTextStyler attributes first startPosition.
-	self assert: 4 equals: inlineTextStyler attributes first endPosition
+	attribute := inlineTextStyler attributes first.
+	self assert: MarkdownAttribute italic textAttribute equals: attribute textAttribute.
+	self assert: 2 equals: attribute startPosition.
+	self assert: 4 equals: attribute endPosition

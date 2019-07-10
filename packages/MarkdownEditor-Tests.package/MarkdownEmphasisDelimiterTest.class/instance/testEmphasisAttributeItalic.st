@@ -12,6 +12,6 @@ testEmphasisAttributeItalic
 					yourself.
 					
 	attribute := closer attributeStartingAt: opener. 	
-	self assert: (attribute isKindOf: MarkdownAttributeItalic).
+	self assert: MarkdownAttribute italic textAttribute equals: attribute textAttribute.
 	self assert: 1 equals: attribute startPosition.
 	self assert: 5 equals: attribute endPosition
