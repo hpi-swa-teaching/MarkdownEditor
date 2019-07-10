@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jst 7/10/2019 15:15",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownCommentBlockTests",
+	"name" : "MarkdownTestCase",
 	"pools" : [
 		 ],
-	"super" : "MarkdownTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

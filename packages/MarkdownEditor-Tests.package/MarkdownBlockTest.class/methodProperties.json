@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAppend" : "jst 6/10/2019 11:34",
 		"testFirstLineWithNewline" : "jst 6/10/2019 11:34",
 		"testFirstLineWithoutNewline" : "jst 6/10/2019 11:14",
 		"testLastLineWithNewline" : "jst 6/10/2019 11:33",
