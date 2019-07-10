@@ -22,7 +22,10 @@
 
         lines := aCollectionOfILTLines
     ```
-3. Put spaces in the interior of local variables declaration.
+
+### Variables
+
+1. Put spaces in the interior of local variables declaration.
     ```smalltalk
     shouldBoard: anILTPassenger
 
@@ -30,6 +33,26 @@
         changesForStation := self stationPathcreator amountOfChangesFor: anILTPassenger.
         changesForTrain := self trainPathcreator amountOfChangesFor: anILTPassenger.
         ^ changesForTrain < changesForStation
+    ```
+2. Put a space after block arguments.
+    ```smalltalk
+    askPassengersToBoard
+
+        self stationPassengers
+            select: [:passenger | self shouldBoard: passenger]
+            thenDo: [:passenger |
+                passenger board: self train from: self station.
+                self station countPassengerTransfer]
+    ```
+3. Try to put block variables in the same line as block arguments.
+    ```smalltalk
+    ifOnSegment: anILTStation do: aBlock
+
+        self lineNodes
+            overlappingPairsDo: [:startNode :endNode | | segment |
+                segment := ILTLineSegment newFrom: startNode to: endNode.
+                (segment contains: anILTStation)
+                    ifTrue: [^ aBlock value: startNode]]
     ```
 
 ### Operators
