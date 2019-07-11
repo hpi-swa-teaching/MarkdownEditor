@@ -3,13 +3,13 @@
 		 },
 	"instance" : {
 		"headingFontSized:" : "fgo 6/26/2019 22:35",
-		"testConvertingToTextUsesInlineStyler" : "fgo 6/23/2019 09:31",
-		"testFindLevelOfHeadingLevels1To6" : "lpf 6/17/2019 19:07",
-		"testMayBeginWith1To3Indentations" : "jko 6/29/2019 16:29",
-		"testMayBeginWithHeadingLevels1To6" : "jko 6/29/2019 16:30",
-		"testMayBeginWithHeadingLevels1To6WithText" : "jko 6/29/2019 16:30",
-		"testMayNotBeginWith4Indentation" : "jko 6/29/2019 16:30",
-		"testMayNotBeginWithHeadingLevel0" : "jko 6/29/2019 16:31",
-		"testMayNotBeginWithHeadingLevel7" : "jko 6/29/2019 16:31",
-		"testMayNotBeginWithHeadingLevels1To6WithUnspacedText" : "jko 6/29/2019 16:32",
-		"testTextAttributesOfLevels1To6" : "jst 6/22/2019 21:41" } }
+		"testConvertingToTextUsesInlineStyler" : "jko 7/4/2019 17:35",
+		"testFindLevelOfHeadingLevels1To6" : "jko 7/4/2019 17:36",
+		"testMayBeginWith1To3Indentations" : "jko 7/4/2019 16:33",
+		"testMayBeginWithHeadingLevels1To6" : "jko 7/4/2019 16:33",
+		"testMayBeginWithHeadingLevels1To6WithText" : "jko 7/4/2019 16:33",
+		"testMayNotBeginWith4Indentation" : "jko 7/4/2019 16:34",
+		"testMayNotBeginWithHeadingLevel0" : "jko 7/4/2019 16:35",
+		"testMayNotBeginWithHeadingLevel7" : "jko 7/4/2019 16:35",
+		"testMayNotBeginWithHeadingLevels1To6WithUnspacedText" : "jko 7/4/2019 16:35",
+		"testTextAttributesOfLevels1To6" : "jko 7/4/2019 17:37" } }

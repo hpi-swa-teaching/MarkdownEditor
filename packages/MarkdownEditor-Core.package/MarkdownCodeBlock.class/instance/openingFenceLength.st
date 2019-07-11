@@ -1,4 +1,4 @@
 accessing
 openingFenceLength
 
-	^ (self firstLine select: [:character | character = $`]) size
+	^ (self firstLine asString select: [:character | character = $`]) size

@@ -1,5 +1,5 @@
 testing
-mayBeginWith: aString
+mayBeginWith: aMarkdownLine
 
-	^ (aString beginsWith: '    ') not
-		and: [aString matchesRegex: ' *```+[^`]*']
+	^ aMarkdownLine isIndented not
+		and: [aMarkdownLine asString matchesRegex: ' *```+[^`]*']

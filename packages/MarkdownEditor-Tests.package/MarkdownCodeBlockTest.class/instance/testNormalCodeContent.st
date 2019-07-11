@@ -2,5 +2,8 @@ tests - code content
 testNormalCodeContent
 
 	| codeBlock |
-	codeBlock := MarkdownCodeBlock newFrom: '```', Character cr, 'code', Character cr, '```'.
+	codeBlock := MarkdownCodeBlock newFrom: (MarkdownLine newFrom: '```', Character cr).
+	codeBlock
+		append: (MarkdownLine newFrom: 'code', Character cr);
+		append: (MarkdownLine newFrom: '```').
 	self assert: 'code', Character cr equals: codeBlock codeContent

@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayNotBeginWith4Indentation
 
-	self deny: (MarkdownCommentBlock mayBeginWith: '    <!--')
+	| line |
+	line := MarkdownLine newFrom: '    <!--'.
+	self deny: (MarkdownCommentBlock mayBeginWith: line)

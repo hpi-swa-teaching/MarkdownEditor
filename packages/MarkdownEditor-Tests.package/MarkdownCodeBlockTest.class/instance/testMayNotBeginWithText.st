@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayNotBeginWithText
 
-	self deny: (MarkdownCodeBlock mayBeginWith: 'No backticks here')
+	| line |
+	line := MarkdownLine newFrom: 'No backticks here'.
+	self deny: (MarkdownCodeBlock mayBeginWith: line)

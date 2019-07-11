@@ -1,4 +1,4 @@
 accessing
 commentStart
 
-	^ self firstLine findString: self openingTag
+	^ self firstLine asString findString: self openingTag

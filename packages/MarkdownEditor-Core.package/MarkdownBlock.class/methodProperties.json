@@ -1,16 +1,15 @@
 {
 	"class" : {
-		"newFrom:" : "lpf 5/23/2019 16:21" },
+		"newFrom:" : "jko 7/4/2019 16:11" },
 	"instance" : {
-		"append:" : "jko 6/7/2019 12:42",
+		"append:" : "jko 7/4/2019 16:17",
 		"asText" : "jst 6/10/2019 12:12",
-		"content" : "lpf 5/23/2019 16:22",
-		"content:" : "lpf 5/23/2019 16:22",
+		"content" : "jko 7/4/2019 16:09",
 		"firstLine" : "jst 6/10/2019 11:18",
 		"initialize" : "jko 6/21/2019 14:22",
-		"isExtendableWith:" : "jko 5/27/2019 15:27",
-		"isInterruptedBy:" : "jst 6/7/2019 14:59",
+		"isExtendableWith:" : "jko 7/4/2019 17:02",
 		"lastLine" : "jst 6/10/2019 11:34",
-		"lines" : "jst 6/10/2019 11:18",
+		"lines" : "jko 7/4/2019 18:03",
+		"lines:" : "jko 7/4/2019 16:12",
 		"styler" : "fgo 6/14/2019 14:29",
 		"styler:" : "jst 6/19/2019 16:05" } }

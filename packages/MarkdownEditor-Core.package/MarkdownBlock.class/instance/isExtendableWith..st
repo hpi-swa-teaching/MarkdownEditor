@@ -1,4 +1,4 @@
 testing
-isExtendableWith: aString
+isExtendableWith: aMarkdownLine
 
 	^ self subclassResponsibility

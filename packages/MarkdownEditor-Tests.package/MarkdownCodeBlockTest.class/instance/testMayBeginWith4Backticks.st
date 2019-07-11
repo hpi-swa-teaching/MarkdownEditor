@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayBeginWith4Backticks
 
-	self assert: (MarkdownCodeBlock mayBeginWith: '````')
+	| line |
+	line := MarkdownLine newFrom: '````'.
+	self assert: (MarkdownCodeBlock mayBeginWith: line)

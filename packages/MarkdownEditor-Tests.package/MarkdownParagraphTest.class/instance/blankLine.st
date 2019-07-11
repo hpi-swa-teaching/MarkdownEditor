@@ -1,4 +1,4 @@
 constants
 blankLine
 
-	^ '', Character cr
+	^ MarkdownLine newFrom: '', Character cr
