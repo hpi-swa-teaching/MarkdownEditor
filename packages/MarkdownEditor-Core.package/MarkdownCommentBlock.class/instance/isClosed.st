@@ -1,4 +1,4 @@
 testing
 isClosed
 
-	^ self lastLine includesSubstring: self closingTag
+	^ self lastLine asString includesSubstring: self closingTag

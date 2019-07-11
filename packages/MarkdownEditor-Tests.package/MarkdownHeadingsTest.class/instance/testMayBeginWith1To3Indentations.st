@@ -1,5 +1,6 @@
-tests - matching
+tests - recognition
 testMayBeginWith1To3Indentations
 
-	{' #'. '  #'. '   #'} do: [:string |
-		self assert: (MarkdownHeading mayBeginWith: string)]
+	{' #'. '  #'. '   #'} do: [:string | | line |
+		line := MarkdownLine newFrom: string.
+		self assert: (MarkdownHeading mayBeginWith: line)]

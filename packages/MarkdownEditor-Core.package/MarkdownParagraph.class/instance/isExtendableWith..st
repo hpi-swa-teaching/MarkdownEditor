@@ -1,6 +1,5 @@
 testing
-isExtendableWith: aString
+isExtendableWith: aMarkdownLine
 
-	self lastLine withBlanksTrimmed isEmpty
-		ifTrue: [^ aString withBlanksTrimmed isEmpty]
-		ifFalse: [^ true]
+	^ self lastLine containsOnlyWhitespaces ==> aMarkdownLine containsOnlyWhitespaces
+		and: [aMarkdownLine interruptsParagraph not]

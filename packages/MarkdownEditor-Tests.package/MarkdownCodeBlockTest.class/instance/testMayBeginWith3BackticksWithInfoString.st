@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayBeginWith3BackticksWithInfoString
 
-	self assert: (MarkdownCodeBlock mayBeginWith: '```smalltalk')
+	| line |
+	line := MarkdownLine newFrom: '```smalltalk'.
+	self assert: (MarkdownCodeBlock mayBeginWith: line)

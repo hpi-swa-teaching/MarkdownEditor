@@ -2,5 +2,6 @@ tests - extendability
 testOpenerNotYetClosed
 
 	| commentBlock |
-	commentBlock := MarkdownCommentBlock newFrom: '<!--', Character cr.
+	commentBlock := MarkdownCommentBlock 
+		newFrom: (MarkdownLine newFrom: '<!--', Character cr).
 	self deny: commentBlock isClosed

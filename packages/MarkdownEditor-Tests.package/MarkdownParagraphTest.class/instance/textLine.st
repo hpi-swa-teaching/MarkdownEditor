@@ -1,4 +1,4 @@
 constants
 textLine
 
-	^ 'abcd', Character cr
+	^ MarkdownLine newFrom: 'abcd', Character cr

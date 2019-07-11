@@ -1,4 +1,4 @@
 constants
 whitespaceLine
 
-	^ '    ', Character cr
+	^ MarkdownLine newFrom: '    ', Character cr

@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayBeginWithOpeningTagWithText
 
-	self assert: (MarkdownCommentBlock mayBeginWith: '<!--MiniMetro')
+	| line |
+	line := MarkdownLine newFrom: '<!--MiniMetro'.
+	self assert: (MarkdownCommentBlock mayBeginWith: line)
