@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"test0To3LeadingSpacesAreNotIndented" : "jko 7/4/2019 15:32",
-		"test0To3LeadingSpacesWithTabAreIndented" : "jko 7/4/2019 15:40",
+		"test0To3LeadingSpacesWithTabAreIndented" : "jko 7/11/2019 16:05",
 		"test4LeadingSpacesAreIndented" : "jko 7/4/2019 15:32",
-		"testPotentialBlockClass" : "jst 7/5/2019 11:23" } }
+		"testBlockClasses" : "jko 7/11/2019 16:07" } }

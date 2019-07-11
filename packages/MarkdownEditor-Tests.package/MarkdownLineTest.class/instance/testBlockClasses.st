@@ -1,5 +1,5 @@
 tests - block conversion
-testPotentialBlockClass
+testBlockClasses
 
 	(Dictionary newFrom: {
 	'# Heading'->MarkdownHeading.
@@ -8,4 +8,4 @@ testPotentialBlockClass
 	'Paragraph'->MarkdownParagraph})
 		keysAndValuesDo: [:string :expectedBlockClass | | line |
 			line := MarkdownLine newFrom: string.
-			self assert: expectedBlockClass equals: line potentialBlockClass]
+			self assert: expectedBlockClass equals: line blockClass]

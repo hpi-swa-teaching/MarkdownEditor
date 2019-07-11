@@ -1,4 +1,4 @@
 testing
 interruptsParagraph
 
-	^ self potentialBlockClass ~= MarkdownParagraph
+	^ self blockClass ~= MarkdownParagraph

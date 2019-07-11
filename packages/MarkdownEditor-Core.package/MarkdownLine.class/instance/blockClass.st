@@ -1,5 +1,5 @@
 accessing
-potentialBlockClass
+blockClass
 
 	^ {MarkdownHeading. MarkdownCodeBlock. MarkdownCommentBlock} 
 		detect: [:blockClass | blockClass mayBeginWith: self]

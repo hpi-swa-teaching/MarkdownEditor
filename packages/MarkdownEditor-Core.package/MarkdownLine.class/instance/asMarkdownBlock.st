@@ -1,4 +1,4 @@
 converting
 asMarkdownBlock
 
-	^ self potentialBlockClass newFrom: self
+	^ self blockClass newFrom: self
