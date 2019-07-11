@@ -2,10 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertRuns:values:areStyleOf:" : "jko 6/22/2019 17:28",
-		"attributesOf:" : "fgo 5/21/2019 15:58",
-		"readStreamOn:" : "jko 5/16/2019 16:18",
-		"readStreamOn:at:" : "jko 5/16/2019 16:19",
 		"setUp" : "jko 6/22/2019 17:36",
 		"testCleanEmptiesAttributes" : "jko 6/22/2019 17:36",
 		"testCleanEmptiesTokens" : "jko 6/22/2019 17:36",

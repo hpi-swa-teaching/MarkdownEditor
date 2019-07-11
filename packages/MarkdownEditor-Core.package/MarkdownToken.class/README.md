@@ -1,1 +1,1 @@
-I am a token, a small piece of markdown text.
+I represent a string during inline parsing to identify the inline structure.

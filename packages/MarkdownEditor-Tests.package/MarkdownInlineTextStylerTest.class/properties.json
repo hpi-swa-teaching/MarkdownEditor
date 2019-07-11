@@ -10,5 +10,5 @@
 	"name" : "MarkdownInlineTextStylerTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MarkdownTestCase",
 	"type" : "normal" }

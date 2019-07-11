@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"headingFontSized:" : "fgo 6/26/2019 22:35",
 		"testConvertingToTextUsesInlineStyler" : "jko 7/4/2019 17:35",
 		"testFindLevelOfHeadingLevels1To6" : "jko 7/4/2019 17:36",
 		"testMayBeginWith1To3Indentations" : "jko 7/4/2019 16:33",

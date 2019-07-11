@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertRuns:values:areStyleOf:" : "jko 6/24/2019 15:36",
-		"attributesOf:" : "jko 6/24/2019 15:42",
 		"testClosedCommentBlockIsNotExtendable" : "jko 7/4/2019 17:24",
 		"testClosingTagFollowedByTextCloses" : "jko 7/4/2019 17:25",
 		"testClosingTagInFirstLineCloses" : "jko 7/4/2019 17:29",

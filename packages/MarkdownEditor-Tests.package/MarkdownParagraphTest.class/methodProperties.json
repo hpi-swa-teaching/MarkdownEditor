@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"blankLine" : "jko 7/4/2019 17:02",
+		"testAppend" : "jst 7/11/2019 17:58",
 		"testBlankLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:51",
