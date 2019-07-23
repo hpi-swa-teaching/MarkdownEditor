@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCreateBoldAttribute" : "fgo 7/11/2019 15:33",
-		"testCreateItalicAttribute" : "fgo 7/11/2019 15:34",
-		"testSetRange" : "fgo 7/11/2019 15:34" } }
+		"testCreateBoldEmphasis" : "kgr 7/23/2019 12:07",
+		"testCreateItalicEmphasis" : "kgr 7/23/2019 12:08",
+		"testEqual" : "kgr 7/23/2019 12:04",
+		"testSetRange" : "kgr 7/23/2019 11:49" } }

@@ -1,15 +1,12 @@
 tests - interpretation
 testInterpretTokensCutsBoldDelimiters
 
-	| attribute |
+	| expectedEmphases |
 	inlineTextStyler 
 		tokenize: '***f**';
 		interpretTokens.
 	
-	self assert: 1 equals: inlineTextStyler attributes size.
 	self assert: 4 equals: inlineTextStyler tokens size.
 	
-	attribute := inlineTextStyler attributes first.
-	self assert: MarkdownEmphasis bold textAttribute equals: attribute textAttribute.
-	self assert: 2 equals: attribute startPosition.
-	self assert: 6 equals: attribute endPosition
+	expectedEmphases := {MarkdownEmphasis strongFrom: 2 to: 6}.
+	self assert: expectedEmphases areEmphasesIn: inlineTextStyler attributes

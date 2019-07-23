@@ -1,13 +1,10 @@
 tests - interpretation
 testInterpretTokensBold
 
-	| attribute |
+	| expectedEmphases |
 	inlineTextStyler 
 		tokenize: '**foo**';
 		interpretTokens.
 
-	self assert: 1 equals: inlineTextStyler attributes size.
-	attribute := inlineTextStyler attributes first.
-	self assert: MarkdownEmphasis bold textAttribute equals: attribute textAttribute.
-	self assert: 1 equals: attribute startPosition.
-	self assert: 7 equals: attribute endPosition
+	expectedEmphases := {MarkdownEmphasis strongFrom: 1 to: 7}.
+	self assert: expectedEmphases areEmphasesIn: inlineTextStyler attributes

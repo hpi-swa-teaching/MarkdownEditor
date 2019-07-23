@@ -1,17 +1,11 @@
-tests - attributes
+tests - emphases
 testEmphasisAttributeItalic
 
-	| opener closer attribute |
-	opener := MarkdownEmphasisDelimiter new
-					content: '*';
-					startPosition: 1;
-					yourself.
-	closer := MarkdownEmphasisDelimiter new
-					content: '*';
-					startPosition: 5;
-					yourself.
+	| opener closer emphasis |
+	opener := MarkdownEmphasisDelimiter newFor: '*' at: 1.
+	closer := MarkdownEmphasisDelimiter newFor: '*' at: 5.
 					
-	attribute := closer attributeStartingAt: opener. 	
-	self assert: MarkdownEmphasis italic textAttribute equals: attribute textAttribute.
-	self assert: 1 equals: attribute startPosition.
-	self assert: 5 equals: attribute endPosition
+	emphasis := closer attributeStartingAt: opener. 	
+	self assert: TextEmphasis italic equals: emphasis textAttribute.
+	self assert: 1 equals: emphasis startPosition.
+	self assert: 5 equals: emphasis endPosition

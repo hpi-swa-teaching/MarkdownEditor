@@ -1,7 +1,7 @@
 tests - tokenization
 testDelimiterCantCloseItself
 	
-	| opener openCloser foundOpener |
+	| opener openCloser |
 	opener := MarkdownEmphasisDelimiter new 
 		content: '*'; 
 		isLeftFlanking: true; 
@@ -20,6 +20,7 @@ testDelimiterCantCloseItself
 				(MarkdownString new content: 'b'; yourself)}.
 	
 	inlineTextStyler findOpenerFor: openCloser 
-		ifFound: [:o | foundOpener := o].
-	self deny: (openCloser = foundOpener).
-	self assert: opener equals: foundOpener
+		ifFound: [:foundOpener | 
+			self deny: (openCloser = foundOpener).
+			^ self assert: opener equals: foundOpener].
+	self fail

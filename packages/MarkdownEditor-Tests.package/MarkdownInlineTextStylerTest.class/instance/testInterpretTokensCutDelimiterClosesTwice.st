@@ -1,20 +1,13 @@
 tests - interpretation
 testInterpretTokensCutDelimiterClosesTwice
 
-	| firstAttribute secondAttribute |
+	| expectedEmphases |
 	inlineTextStyler 
 		tokenize: '*a**b***';
 		interpretTokens.
-	
-	self assert: 2 equals: inlineTextStyler attributes size.
+		
 	self assert: 6 equals: inlineTextStyler tokens size.
 	
-	firstAttribute := inlineTextStyler attributes first.
-	self assert: MarkdownEmphasis bold textAttribute equals: firstAttribute textAttribute.
-	self assert: 3 equals: firstAttribute startPosition.
-	self assert: 7 equals: firstAttribute endPosition.
-	
-	secondAttribute := inlineTextStyler attributes second.
-	self assert: MarkdownEmphasis italic textAttribute equals: secondAttribute textAttribute.
-	self assert: 1 equals: secondAttribute startPosition.
-	self assert: 8 equals: secondAttribute endPosition
+	expectedEmphases := {MarkdownEmphasis from: 1 to: 8. 
+		MarkdownEmphasis strongFrom: 3 to: 7}.
+	self assert: expectedEmphases areEmphasesIn: inlineTextStyler attributes

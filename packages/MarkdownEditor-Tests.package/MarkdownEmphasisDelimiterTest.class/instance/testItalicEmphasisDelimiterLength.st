@@ -1,5 +1,5 @@
 tests - matching
-testItalicAttributeDelimiterLength
+testItalicEmphasisDelimiterLength
 
 	| opener closer |
 	closer := MarkdownEmphasisDelimiter new content: '*'; yourself.

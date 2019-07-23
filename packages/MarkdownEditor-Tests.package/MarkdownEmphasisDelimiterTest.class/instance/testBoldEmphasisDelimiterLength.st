@@ -1,5 +1,5 @@
 tests - matching
-testBoldAttributeDelimiterLength
+testBoldEmphasisDelimiterLength
 
 	| opener closer |
 	closer := MarkdownEmphasisDelimiter new content: '**'; yourself.

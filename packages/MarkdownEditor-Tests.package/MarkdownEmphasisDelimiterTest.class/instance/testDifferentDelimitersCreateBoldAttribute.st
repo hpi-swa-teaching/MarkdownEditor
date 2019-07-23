@@ -1,17 +1,11 @@
-tests - attributes
+tests - emphases
 testDifferentDelimitersCreateBoldAttribute
 
-	| opener closer attribute |
-	opener := MarkdownEmphasisDelimiter new
-					content: '****';
-					startPosition: 1;
-					yourself.
-	closer := MarkdownEmphasisDelimiter new
-					content: '***';
-					startPosition: 6;
-					yourself.
+	| opener closer emphasis |
+	opener := MarkdownEmphasisDelimiter newFor: '****' at: 1.
+	closer := MarkdownEmphasisDelimiter newFor: '***' at: 6.
 					
-	attribute := closer attributeStartingAt: opener. 	
-	self assert: MarkdownEmphasis bold textAttribute equals: attribute textAttribute.
-	self assert: 3 equals: attribute startPosition.
-	self assert: 7 equals: attribute endPosition
+	emphasis := closer attributeStartingAt: opener. 	
+	self assert: TextEmphasis bold equals: emphasis textAttribute.
+	self assert: 3 equals: emphasis startPosition.
+	self assert: 7 equals: emphasis endPosition

@@ -1,0 +1,4 @@
+accessing
+assert: aCollectionOfMarkdownEmphases areEmphasesIn: inlineTextStylerAttributes
+
+	self assert: aCollectionOfMarkdownEmphases asBag equals: inlineTextStylerAttributes asBag

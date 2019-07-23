@@ -2,8 +2,8 @@
 	"class" : {
 		"mayBeginWith:" : "jst 6/26/2019 14:35" },
 	"instance" : {
-		"attributeFor:" : "fgo 7/11/2019 15:32",
-		"attributeStartingAt:" : "fgo 7/10/2019 15:21",
+		"attributeFrom:to:delimiterLength:" : "kgr 7/23/2019 13:24",
+		"attributeStartingAt:" : "kgr 7/23/2019 11:37",
 		"boldLength" : "fgo 5/10/2019 15:54",
 		"cutFromEnd:" : "fgo 5/21/2019 15:22",
 		"cutFromStart:" : "fgo 5/21/2019 15:20",
