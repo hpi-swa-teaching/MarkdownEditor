@@ -1,0 +1,1 @@
+I mock a TextStyler by doing nothing when requested to style. For testing purposes, I will remember my last request.

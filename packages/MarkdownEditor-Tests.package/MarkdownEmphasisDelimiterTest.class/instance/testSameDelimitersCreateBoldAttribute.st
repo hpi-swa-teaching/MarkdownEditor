@@ -12,6 +12,6 @@ testSameDelimitersCreateBoldAttribute
 					yourself.
 					
 	attribute := closer attributeStartingAt: opener. 	
-	self assert: MarkdownAttribute bold textAttribute equals: attribute textAttribute.
+	self assert: MarkdownEmphasis bold textAttribute equals: attribute textAttribute.
 	self assert: 1 equals: attribute startPosition.
 	self assert: 6 equals: attribute endPosition

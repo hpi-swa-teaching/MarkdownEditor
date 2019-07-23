@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"bold" : "fgo 7/10/2019 15:18",
-		"italic" : "fgo 7/10/2019 15:18" },
+		"boldFrom:to:" : "fgo 7/11/2019 15:50",
+		"italic" : "fgo 7/10/2019 15:18",
+		"italicFrom:to:" : "fgo 7/11/2019 15:51" },
 	"instance" : {
 		"endPosition" : "fgo 5/21/2019 15:36",
 		"setFrom:to:" : "fgo 7/10/2019 15:16",

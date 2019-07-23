@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jst 7/10/2019 15:54",
 	"instvars" : [
 		"memorizedStylingRequest" ],
 	"name" : "MarkdownMockTextStyler",
