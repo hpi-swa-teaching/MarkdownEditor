@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayNotBeginWith4Indentation
 
-	self deny: (MarkdownHeading mayBeginWith: '    #')
+	| line |
+	line := MarkdownLine newFrom: '    #'.
+	self deny: (MarkdownHeading mayBeginWith: line)

@@ -1,6 +1,7 @@
 tests - extendability
 testOpenCodeBlockIsExtendable
 
-	| codeBlock |
-	codeBlock := MarkdownCodeBlock newFrom: '```', Character cr.
-	self assert: (codeBlock isExtendableWith: 'someCode: withParameters')
+	| codeBlock line |
+	codeBlock := MarkdownCodeBlock newFrom: (MarkdownLine newFrom: '```', Character cr).
+	line := MarkdownLine newFrom: 'someCode: withParameters'.
+	self assert: (codeBlock isExtendableWith: line)

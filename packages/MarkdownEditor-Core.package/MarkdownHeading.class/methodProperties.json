@@ -1,13 +1,12 @@
 {
 	"class" : {
-		"mayBeginWith:" : "jko 6/29/2019 16:21" },
+		"mayBeginWith:" : "jko 7/4/2019 16:36" },
 	"instance" : {
 		"asText" : "jko 6/25/2019 20:40",
 		"font" : "kgr 6/10/2019 13:39",
 		"fontSize" : "kgr 6/10/2019 13:40",
 		"fontSizes" : "kgr 6/10/2019 13:41",
-		"isExtendableWith:" : "jko 5/27/2019 15:28",
-		"isInterruptedBy:" : "jst 6/10/2019 12:10",
+		"isExtendableWith:" : "jko 7/4/2019 17:03",
 		"level" : "jst 5/13/2019 15:24",
 		"prefix" : "jst 5/13/2019 15:29",
 		"textAttribute" : "fgo 6/26/2019 22:38" } }

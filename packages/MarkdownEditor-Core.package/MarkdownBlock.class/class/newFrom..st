@@ -1,6 +1,6 @@
 instance creation
-newFrom: aString
+newFrom: aMarkdownLine
 
 	^ self new
-		content: aString;
+		lines: {aMarkdownLine} asOrderedCollection;
 		yourself

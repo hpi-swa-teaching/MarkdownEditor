@@ -1,8 +1,10 @@
 parsing
-buildBlockStructureFrom: aCollectionOfStrings
-	
+buildBlockStructureFrom: aCollectionOfMarkdownLines
+
 	| blocks |
 	blocks := OrderedCollection new.
-	aCollectionOfStrings do: [:line |
-		self process: line into: blocks].
+	aCollectionOfMarkdownLines do: [:line |
+		(blocks notEmpty and: [blocks last isExtendableWith: line])
+			ifTrue: [blocks last append: line]
+			ifFalse: [blocks add: line asMarkdownBlock]].
 	^ blocks

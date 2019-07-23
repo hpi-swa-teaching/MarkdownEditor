@@ -1,5 +1,5 @@
 tests - recognition
-testIsExtendableWithAnyCharacaterButAsterisk
+testIsExtendableWithAnyCharacterExceptAsterisk
 
 	(Character allByteCharacters copyWithout: $*)
 		do: [:character | | token |

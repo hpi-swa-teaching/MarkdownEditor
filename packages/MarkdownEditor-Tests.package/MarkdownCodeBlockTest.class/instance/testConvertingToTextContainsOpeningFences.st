@@ -1,9 +1,10 @@
 tests
 testConvertingToTextContainsOpeningFences
 
-	| markdownString codeBlock result |
-	markdownString := '```smalltalk', Character cr, 'Code', Character cr, '```'.
-	codeBlock := MarkdownCodeBlock newFrom: markdownString.
-	result := codeBlock asText.
-	self
-		assert: (result beginsWith: '```smalltalk', Character cr)
+	| codeBlock |
+	codeBlock := MarkdownCodeBlock 
+		newFrom: (MarkdownLine newFrom: '```smalltalk', Character cr).
+	codeBlock
+		append: (MarkdownLine newFrom: 'Code', Character cr);
+		append: (MarkdownLine newFrom: '```').
+	self assert: (codeBlock asText beginsWith: '```smalltalk', Character cr)

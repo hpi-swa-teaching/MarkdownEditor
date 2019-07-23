@@ -1,11 +1,11 @@
 tests
 testConvertingToTextUsesInlineStyler
 
-	| markdownString mockTextStyler paragraph |
-	markdownString := 'We may include', Character cr, '*emphasis* or', Character cr, '**strong emphasis** in paragraphs'.
+	| line mockTextStyler paragraph |
+	line := MarkdownLine newFrom: 'Paragraph with **emphasis**', Character cr.
 	mockTextStyler := MarkdownMockTextStyler new.
-	paragraph := MarkdownParagraph newFrom: markdownString.
+	paragraph := MarkdownParagraph newFrom: line.
 	paragraph styler: mockTextStyler.
 
 	paragraph asText.
-	self assert: markdownString equals: mockTextStyler memorizedStylingRequest string
+	self assert: line asString equals: mockTextStyler memorizedStylingRequest string

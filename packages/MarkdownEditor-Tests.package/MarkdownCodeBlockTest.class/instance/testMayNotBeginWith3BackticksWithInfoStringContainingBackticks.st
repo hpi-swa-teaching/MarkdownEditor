@@ -1,4 +1,6 @@
-tests - matching
+tests - recognition
 testMayNotBeginWith3BackticksWithInfoStringContainingBackticks
 
-	self deny: (MarkdownCodeBlock mayBeginWith: '```smallt`alk')
+	| line |
+	line := MarkdownLine newFrom: '```small`talk'.
+	self deny: (MarkdownCodeBlock mayBeginWith: line)

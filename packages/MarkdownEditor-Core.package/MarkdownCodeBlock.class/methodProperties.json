@@ -1,12 +1,11 @@
 {
 	"class" : {
-		"mayBeginWith:" : "jko 6/29/2019 16:20",
+		"mayBeginWith:" : "jko 7/4/2019 16:39",
 		"shoutParserClass" : "fgo 7/1/2019 16:40" },
 	"instance" : {
 		"asText" : "jst 6/25/2019 12:19",
 		"codeContent" : "jst 6/10/2019 11:23",
 		"initialize" : "fgo 7/1/2019 16:40",
-		"isClosed" : "jst 6/10/2019 11:29",
-		"isExtendableWith:" : "jko 6/7/2019 12:59",
-		"isInterruptedBy:" : "jst 6/7/2019 14:59",
-		"openingFenceLength" : "jst 6/10/2019 11:29" } }
+		"isClosed" : "jko 7/4/2019 17:04",
+		"isExtendableWith:" : "jst 7/4/2019 19:24",
+		"openingFenceLength" : "jko 7/4/2019 16:19" } }
