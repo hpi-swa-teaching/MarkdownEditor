@@ -1,5 +1,5 @@
 tests - emphases
-testSameDelimitersCreateItalicAttribute
+testSameDelimitersCreateItalicEmphasis
 
 	| opener closer emphasis |
 	opener := MarkdownEmphasisDelimiter newFor: '*' at: 1.

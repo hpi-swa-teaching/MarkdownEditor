@@ -8,7 +8,7 @@
 		"testCut1FromStart" : "kgr 5/27/2019 15:35",
 		"testCut2FromEnd" : "kgr 5/27/2019 15:35",
 		"testCut2FromStart" : "kgr 5/27/2019 15:35",
-		"testDifferentDelimitersCreateBoldAttribute" : "kgr 7/23/2019 13:08",
+		"testDifferentDelimitersCreateBoldEmphasis" : "fgo 7/24/2019 10:09",
 		"testEmphasisAttributeItalic" : "kgr 7/23/2019 13:12",
 		"testEmphasisDelimiterAsString" : "jst 6/26/2019 15:08",
 		"testEndPosition" : "jst 6/26/2019 14:25",
@@ -31,6 +31,6 @@
 		"testOpenerAndCloserMatchesOpener" : "kgr 5/27/2019 15:42",
 		"testOpeningDelimiterIsOpener" : "jko 5/23/2019 12:43",
 		"testRightFlanking" : "jst 6/28/2019 14:33",
-		"testSameDelimitersCreateBoldAttribute" : "kgr 7/23/2019 13:07",
-		"testSameDelimitersCreateItalicAttribute" : "kgr 7/23/2019 13:12",
+		"testSameDelimitersCreateBoldEmphasis" : "fgo 7/24/2019 10:10",
+		"testSameDelimitersCreateItalicEmphasis" : "fgo 7/24/2019 10:10",
 		"testStartPosition" : "jst 6/26/2019 14:26" } }

@@ -1,5 +1,5 @@
 tests - emphases
-testSameDelimitersCreateBoldAttribute
+testSameDelimitersCreateBoldEmphasis
 
 	| opener closer emphasis |
 	opener := MarkdownEmphasisDelimiter newFor: '**' at: 1.
