@@ -3,8 +3,6 @@
 		 },
 	"instance" : {
 		"assert:areEmphasesIn:" : "kgr 7/23/2019 12:16",
-		"assertRuns:values:areStyleOf:" : "jko 6/22/2019 17:28",
-		"attributesOf:" : "fgo 5/21/2019 15:58",
 		"setUp" : "jko 6/22/2019 17:36",
 		"testCleanEmptiesAttributes" : "kgr 7/23/2019 11:44",
 		"testCleanEmptiesTokens" : "jko 6/22/2019 17:36",

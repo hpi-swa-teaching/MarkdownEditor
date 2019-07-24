@@ -1,4 +1,4 @@
-comparing
+*MarkdownEditor-Tests
 = aMarkdownEmphasis
 
 	^ self endPosition = aMarkdownEmphasis endPosition
