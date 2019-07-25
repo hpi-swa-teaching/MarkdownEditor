@@ -2,7 +2,7 @@ tests - interpretation
 testCutOpeningDelimiter
 
 	| opener |
-	opener := MarkdownEmphasisDelimiter new content: '***'; startPosition: 1; yourself.
+	opener := MarkdownEmphasisDelimiter newFor: '***' at: 1.
 
 	inlineTextStyler tokens addLast: opener.
 	inlineTextStyler cutOpener: opener to: 2.

@@ -2,7 +2,7 @@ tests - interpretation
 testConvertClosingDelimiter
 
 	| closer convertedCloser |
-	closer := MarkdownEmphasisDelimiter new content: '**'; startPosition: 1; yourself.
+	closer := MarkdownEmphasisDelimiter newFor: '**' at: 1.
 
 	inlineTextStyler tokens addLast: closer.
 	convertedCloser := inlineTextStyler cutCloser: closer to: 2.

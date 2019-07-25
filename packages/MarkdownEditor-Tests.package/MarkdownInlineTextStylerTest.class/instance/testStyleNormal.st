@@ -1,4 +1,4 @@
-tests - parsing
+tests - styling
 testStyleNormal
 
 	| text |

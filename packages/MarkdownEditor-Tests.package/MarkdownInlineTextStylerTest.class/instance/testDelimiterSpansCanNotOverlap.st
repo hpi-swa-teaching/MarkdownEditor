@@ -1,9 +1,9 @@
 tests - interpretation
 testDelimiterSpansCanNotOverlap
 
-	| attributes |
-	attributes := inlineTextStyler 
+	inlineTextStyler 
 		parse: '**f*o** o*'.
-	
-	self assert: 1 equals: attributes size.
-	self assert: (attributes first isKindOf: MarkdownAttributeBold)
+
+	self
+		assert: {MarkdownEmphasis strongFrom: 1 to: 7}
+		areEmphasesIn: inlineTextStyler emphases
