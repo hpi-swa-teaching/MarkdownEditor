@@ -1,8 +1,8 @@
 styling
-add: aCollectionOfMarkdownAttributes to: aText
+add: aCollectionOfMarkdownEmphases to: aText
 
-	aCollectionOfMarkdownAttributes do: [:attribute |
-		aText 
-			addAttribute: attribute textAttribute 
-			from: attribute startPosition 
-			to: attribute endPosition]
+	aCollectionOfMarkdownEmphases do: [:emphasis |
+		aText
+			addAttribute: emphasis textAttribute
+			from: emphasis startPosition
+			to: emphasis endPosition]

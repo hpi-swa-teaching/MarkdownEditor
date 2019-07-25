@@ -2,5 +2,5 @@ initialize-release
 clean
 
 	self
-		attributes: OrderedCollection new;
+		emphases: OrderedCollection new;
 		tokens: OrderedCollection new

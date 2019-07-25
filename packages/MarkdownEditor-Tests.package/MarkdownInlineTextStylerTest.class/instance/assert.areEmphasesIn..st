@@ -1,4 +1,4 @@
 accessing
-assert: aCollectionOfMarkdownEmphases areEmphasesIn: inlineTextStylerAttributes
+assert: expectedEmphases areEmphasesIn: inlineTextStylerEmphases
 
-	self assert: aCollectionOfMarkdownEmphases asBag equals: inlineTextStylerAttributes asBag
+	self assert: expectedEmphases asBag equals: inlineTextStylerEmphases asBag

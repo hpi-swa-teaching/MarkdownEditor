@@ -1,5 +1,5 @@
-tests - parsing
-testPreviousAttributesGetRemoved
+tests - styling
+testPreviousEmphasesGetRemoved
 
 	| text |
 	text := Text string: 'I have attributes from my caller' attribute: TextEmphasis underlined.

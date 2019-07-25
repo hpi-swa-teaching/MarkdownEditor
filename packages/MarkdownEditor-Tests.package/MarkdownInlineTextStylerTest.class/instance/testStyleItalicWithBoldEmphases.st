@@ -1,5 +1,5 @@
-tests - parsing
-testStyleTwoAttributes
+tests - styling
+testStyleItalicWithBoldEmphases
 
 	| text |
 	text := '***Mini**Metro*' asText.

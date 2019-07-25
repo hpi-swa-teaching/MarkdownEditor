@@ -5,4 +5,4 @@ testInterpretTokensWithoutEmphasis
 		tokenize: 'foo';
 		interpretTokens.
 	
-	self assert: inlineTextStyler attributes isEmpty
+	self assert: inlineTextStyler emphases isEmpty

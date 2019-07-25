@@ -5,5 +5,5 @@ parse: aString
 		clean;
 		tokenize: aString;
 		interpretTokens.
-	^ self attributes
+	^ self emphases
 	

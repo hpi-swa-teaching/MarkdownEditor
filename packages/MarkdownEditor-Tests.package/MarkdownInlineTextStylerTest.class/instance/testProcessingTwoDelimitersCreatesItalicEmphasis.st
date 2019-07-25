@@ -1,5 +1,5 @@
 tests - interpretation
-testProcessingTwoItalicDelimitersCreatesItalicAttribute
+testProcessingTwoDelimitersCreatesItalicEmphasis
 
 	inlineTextStyler
 		tokenize: '*a*';
@@ -7,4 +7,4 @@ testProcessingTwoItalicDelimitersCreatesItalicAttribute
 	
 	self 
 		assert: {MarkdownEmphasis from: 1 to: 3}
-		areEmphasesIn: inlineTextStyler attributes
+		areEmphasesIn: inlineTextStyler emphases

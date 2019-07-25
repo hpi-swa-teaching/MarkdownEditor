@@ -1,5 +1,5 @@
 tests - interpretation
-testProcessingTwoItalicDelimitersCreatesBoldAttribute
+testProcessingTwoDelimitersCreatesBoldEmphasis
 
 	inlineTextStyler
 		tokenize: '**a**';
@@ -7,4 +7,4 @@ testProcessingTwoItalicDelimitersCreatesBoldAttribute
 	
 	self 
 		assert: {MarkdownEmphasis strongFrom: 1 to: 5}
-		areEmphasesIn: inlineTextStyler attributes
+		areEmphasesIn: inlineTextStyler emphases

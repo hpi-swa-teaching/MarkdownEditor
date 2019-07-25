@@ -7,4 +7,4 @@ testInterpretTokensBold
 
 	self 
 		assert: {MarkdownEmphasis strongFrom: 1 to: 7}
-		areEmphasesIn: inlineTextStyler attributes
+		areEmphasesIn: inlineTextStyler emphases

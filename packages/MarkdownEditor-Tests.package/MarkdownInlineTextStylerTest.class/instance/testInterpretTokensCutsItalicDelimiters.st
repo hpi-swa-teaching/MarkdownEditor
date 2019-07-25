@@ -9,4 +9,4 @@ testInterpretTokensCutsItalicDelimiters
 	
 	self 
 		assert: {MarkdownEmphasis from: 2 to: 4}
-		areEmphasesIn: inlineTextStyler attributes
+		areEmphasesIn: inlineTextStyler emphases

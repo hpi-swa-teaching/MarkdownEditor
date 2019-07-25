@@ -7,5 +7,5 @@ testInterpretTokensAsItalics
 	
 	self 
 		assert: {MarkdownEmphasis from: 1 to: 5}
-		areEmphasesIn: inlineTextStyler attributes
+		areEmphasesIn: inlineTextStyler emphases
 	

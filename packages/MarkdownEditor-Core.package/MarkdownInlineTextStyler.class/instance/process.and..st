@@ -2,8 +2,8 @@ parsing
 process: opener and: closer
 
 	| length |
-	self attributes add: (closer attributeStartingAt: opener).
+	self emphases add: (closer emphasisStartingAt: opener).
 	self removeDelimitersBetween: opener and: closer.
-	length := closer delimiterLengthForAttributeWith: opener.
+	length := closer delimiterLengthForEmphasisWith: opener.
 	self cutOpener: opener to: length.
 	^ self cutCloser: closer to: length
