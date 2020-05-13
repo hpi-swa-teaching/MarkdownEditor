@@ -4,10 +4,10 @@ parseKeyword
     self parseBinary.
 	keyword := ''.
 	rangeIndices := #().
-	[self isKeyword]
+	[self currentTokenType == #keyword]
 		whileTrue: [
 			keyword := keyword, currentToken. 
-			self rangeType: #keyword.
+			self addRangeType: #keyword.
 			"remember where this keyword token is in ranges"
 			rangeIndices := rangeIndices copyWith: ranges size.
 			self scanNext.

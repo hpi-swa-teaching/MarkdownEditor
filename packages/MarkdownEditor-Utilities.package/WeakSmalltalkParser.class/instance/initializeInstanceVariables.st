@@ -1,4 +1,5 @@
 parse support
 initializeInstanceVariables
 
-	instanceVariables := #()
+	instanceVariables := #().
+	super initializeInstanceVariables
