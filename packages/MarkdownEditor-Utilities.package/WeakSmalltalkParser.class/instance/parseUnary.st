@@ -2,7 +2,7 @@ parse
 parseUnary
 	| unary type |
 	
-    [self isName]
+    [self currentTokenType == #name]
         whileTrue: [
 			unary := currentToken.
 			type := #unary.

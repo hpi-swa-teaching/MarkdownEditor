@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializeInstanceVariables" : "fgo 7/1/2019 10:52",
-		"parseBinary" : "fgo 7/1/2019 10:53",
-		"parseKeyword" : "fgo 7/1/2019 10:53",
-		"parseUnary" : "fgo 7/1/2019 10:53",
+		"initializeInstanceVariables" : "hsl 5/13/2020 20:35",
+		"parseBinary" : "hsl 5/13/2020 20:35",
+		"parseKeyword" : "hsl 5/13/2020 20:36",
+		"parseUnary" : "hsl 5/13/2020 20:36",
 		"resolve:" : "fgo 7/1/2019 10:53" } }

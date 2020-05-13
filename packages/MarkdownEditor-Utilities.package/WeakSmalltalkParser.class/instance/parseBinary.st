@@ -2,7 +2,7 @@ parse
 parseBinary 
 	| binary type |
 	self parseUnary.
-	[self isBinary] 
+	[self currentTokenType == #binary] 
 		whileTrue: [
 			binary := currentToken.
 			type := #binary.
