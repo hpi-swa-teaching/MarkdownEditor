@@ -5,5 +5,6 @@ parse: aString
 		clean;
 		tokenize: aString;
 		interpretTokens.
+	Transcript show: emphases; cr.
 	^ self emphases
 	

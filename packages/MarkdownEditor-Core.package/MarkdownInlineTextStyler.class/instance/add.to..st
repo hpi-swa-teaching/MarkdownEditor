@@ -5,4 +5,9 @@ add: aCollectionOfMarkdownEmphases to: aText
 		aText
 			addAttribute: emphasis textAttribute
 			from: emphasis startPosition
+			to: emphasis endPosition.
+		
+		aText
+			addAttribute: emphasis colorAttribute
+			from: emphasis startPosition
 			to: emphasis endPosition]

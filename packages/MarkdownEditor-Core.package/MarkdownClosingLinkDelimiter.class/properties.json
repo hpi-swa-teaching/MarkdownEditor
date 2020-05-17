@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "fgo 5/21/2019 15:43",
+	"commentStamp" : "hsl 5/17/2020 12:50",
 	"instvars" : [
-		"tokens",
-		"links",
-		"emphases" ],
-	"name" : "MarkdownInlineTextStyler",
+		 ],
+	"name" : "MarkdownClosingLinkDelimiter",
 	"pools" : [
 		 ],
-	"super" : "SHTextStyler",
+	"super" : "MarkdownToken",
 	"type" : "normal" }

@@ -10,7 +10,7 @@
 		"endPosition",
 		"textAttribute",
 		"colorAttribute" ],
-	"name" : "MarkdownEmphasis",
+	"name" : "MarkdownLink",
 	"pools" : [
 		 ],
 	"super" : "Object",
