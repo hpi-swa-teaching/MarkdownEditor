@@ -1,6 +1,6 @@
 parse
 parseBinary 
-	| binary type |
+	"| binary type |
 	self parseUnary.
 	[self isBinary] 
 		whileTrue: [
@@ -8,4 +8,12 @@ parseBinary
 			type := #binary.
 			self scanPast: type. 	
 			self parseTerm.
-            	self parseUnary]
+            	self parseUnary]"
+	self parseUnary.
+	[ self currentTokenType == #binary ] 
+		whileTrue: [
+			self scanPast: #binary.
+			self
+				parseTerm;
+				parseUnary ]
+			
