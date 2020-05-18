@@ -8,6 +8,7 @@
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "7/1/2019 15:19:29",
 		"testBuildingEditorReturnsWindow" : "lpf 6/13/2019 15:24",
 		"testBuildingEditorTextMorphReturnsSpec" : "lpf 6/13/2019 15:29",
+		"testMenuBarExists" : "MK 5/14/2020 13:04",
 		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
 		"testTextPersistenceForBlockStyling" : "jst 6/29/2019 14:39",
 		"testTextPersistenceForInlineStyling" : "jst 6/29/2019 14:37",
