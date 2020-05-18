@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-latest, macos-latest ]
-        smalltalk: [ Squeak64-5.3, Squeak64-5.2, Squeak64-5.1 ]
+        smalltalk: [ Squeak64-5.3, Squeak64-5.2 ]
         experimental: [false]
         include:
           - smalltalk: Squeak64-trunk
