@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClosingDelimiterIsCloser" : "hsl 5/19/2020 23:16",
+		"testClosingLinkDelimiterAsString" : "hsl 5/19/2020 18:18",
+		"testCut1FromEnd" : "hsl 5/19/2020 18:21",
+		"testCut1FromStart" : "hsl 5/19/2020 18:23",
+		"testCut2FromEnd" : "hsl 5/19/2020 18:30",
+		"testCut2FromStart" : "hsl 5/19/2020 23:16",
+		"testEndPosition" : "hsl 5/19/2020 19:44",
+		"testExtend" : "hsl 5/19/2020 19:30",
+		"testIsExtendableWithBracket" : "hsl 5/19/2020 19:39",
+		"testIsNotExtendableWithText" : "hsl 5/19/2020 19:40",
+		"testLength" : "hsl 5/19/2020 19:45",
+		"testLinkAttributes" : "hsl 5/19/2020 23:17",
+		"testMayBeginWithBracket" : "hsl 5/19/2020 19:40",
+		"testMayNotBeginWithOtherCharacter" : "hsl 5/19/2020 19:41",
+		"testOpeningLinkDelimiterAsString" : "hsl 5/19/2020 18:17",
+		"testStartPosition" : "hsl 5/19/2020 19:45" } }

@@ -2,9 +2,11 @@
 	"class" : {
 		"from:to:" : "hsl 5/19/2020 14:41" },
 	"instance" : {
+		"=" : "hsl 5/19/2020 23:35",
 		"colorAttribute" : "hsl 5/17/2020 18:33",
 		"colorAttribute:" : "hsl 5/17/2020 18:33",
 		"endPosition" : "hsl 5/17/2020 18:28",
+		"hash" : "hsl 5/19/2020 23:37",
 		"setFrom:to:" : "hsl 5/17/2020 16:07",
 		"startPosition" : "hsl 5/17/2020 18:28",
 		"textAttribute" : "hsl 5/17/2020 18:27",

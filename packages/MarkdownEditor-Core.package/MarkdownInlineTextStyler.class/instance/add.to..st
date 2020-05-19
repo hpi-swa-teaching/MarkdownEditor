@@ -1,13 +1,13 @@
 styling
-add: aCollectionOfMarkdownEmphases to: aText
+add: aCollectionOfMarkdownInlineElements to: aText
 
-	aCollectionOfMarkdownEmphases do: [:emphasis |
+	aCollectionOfMarkdownInlineElements do: [:element |
 		aText
-			addAttribute: emphasis textAttribute
-			from: emphasis startPosition
-			to: emphasis endPosition.
+			addAttribute: element textAttribute
+			from: element startPosition
+			to: element endPosition.
 		
 		aText
-			addAttribute: emphasis colorAttribute
-			from: emphasis startPosition
-			to: emphasis endPosition]
+			addAttribute: element colorAttribute
+			from: element startPosition
+			to: element endPosition]

@@ -6,5 +6,5 @@ parse: aString
 		tokenize: aString;
 		interpretTokens.
 		
-	^ self emphases
+	^ self inlineElements
 	

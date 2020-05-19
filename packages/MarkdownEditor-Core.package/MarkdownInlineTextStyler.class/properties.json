@@ -9,7 +9,7 @@
 		"content",
 		"tokens",
 		"links",
-		"emphases" ],
+		"inlineElements" ],
 	"name" : "MarkdownInlineTextStyler",
 	"pools" : [
 		 ],

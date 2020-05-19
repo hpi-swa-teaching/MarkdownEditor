@@ -2,6 +2,5 @@ initialize-release
 clean
 
 	self
-		emphases: OrderedCollection new;
-		links: OrderedCollection new;
+		inlineElements: OrderedCollection new;
 		tokens: OrderedCollection new

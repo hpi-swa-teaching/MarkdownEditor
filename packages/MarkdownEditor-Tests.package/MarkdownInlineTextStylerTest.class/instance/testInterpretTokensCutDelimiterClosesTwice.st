@@ -9,4 +9,4 @@ testInterpretTokensCutDelimiterClosesTwice
 	
 	self 
 		assert: {MarkdownEmphasis from: 1 to: 8. MarkdownEmphasis strongFrom: 3 to: 7}
-		areEmphasesIn: inlineTextStyler emphases
+		areInlineElementsIn: inlineTextStyler inlineElements

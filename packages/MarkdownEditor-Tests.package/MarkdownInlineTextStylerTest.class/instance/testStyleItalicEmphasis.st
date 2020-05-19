@@ -6,5 +6,5 @@ testStyleItalicEmphasis
 	inlineTextStyler privateStyle: text.
 	self
 		assertRuns: {11}
-		values: {{TextEmphasis italic}}
+		values: {{TextEmphasis italic . TextColor black}}
 		areStyleOf: text
