@@ -9,7 +9,8 @@
 		"startPosition",
 		"endPosition",
 		"textAttribute",
-		"colorAttribute" ],
+		"colorAttribute",
+		"url" ],
 	"name" : "MarkdownLink",
 	"pools" : [
 		 ],

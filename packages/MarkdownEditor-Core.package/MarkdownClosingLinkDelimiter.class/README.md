@@ -1,3 +1,3 @@
-I am a token for links. I listen to closing brackets.
+I am a token for links. I listen to closing square brackets.
 
 Instance Variables

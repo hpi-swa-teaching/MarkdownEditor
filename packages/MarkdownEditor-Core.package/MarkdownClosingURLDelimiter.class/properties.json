@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "hsl 5/19/2020 11:07",
+	"commentStamp" : "hsl 5/19/2020 11:05",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownOpeningLinkDelimiter",
+	"name" : "MarkdownClosingURLDelimiter",
 	"pools" : [
 		 ],
 	"super" : "MarkdownToken",

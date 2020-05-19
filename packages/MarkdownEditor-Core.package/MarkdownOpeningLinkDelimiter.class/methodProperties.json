@@ -2,9 +2,8 @@
 	"class" : {
 		"mayBeginWith:" : "hsl 5/17/2020 12:33" },
 	"instance" : {
-		"cutFromEnd:" : "hsl 5/17/2020 18:23",
 		"isCloser" : "hsl 5/17/2020 13:26",
 		"isDelimiter" : "hsl 5/17/2020 13:03",
-		"isExtendableWith:" : "hsl 5/17/2020 12:53",
+		"isExtendableWith:" : "hsl 5/19/2020 14:36",
 		"isOpener" : "hsl 5/17/2020 13:26",
 		"setPreceding:following:" : "hsl 5/17/2020 13:15" } }
