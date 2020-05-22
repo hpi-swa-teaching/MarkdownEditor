@@ -4,5 +4,5 @@
 	"instance" : {
 		"rangesForSource:" : "fgo 7/3/2019 18:03",
 		"setUp" : "fgo 7/3/2019 17:57",
-		"testUnkownLowercaseKeywordIsInstanceVariable" : "fgo 7/4/2019 15:32",
-		"testUnkownUppercaseKeywordIsGlobalVariable" : "fgo 7/4/2019 15:32" } }
+		"testUnkownLowercaseKeywordIsInstanceVariable" : "mas 5/17/2020 22:04",
+		"testUnkownUppercaseKeywordIsGlobalVariable" : "mas 5/17/2020 22:04" } }
