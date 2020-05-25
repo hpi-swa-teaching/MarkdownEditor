@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testClosingDelimiterIsCloser" : "hsl 5/19/2020 23:16",
+		"testClosingDelimiterIsDelimiter" : "MK 5/25/2020 15:44",
 		"testClosingLinkDelimiterAsString" : "hsl 5/19/2020 18:18",
 		"testCut1FromEnd" : "hsl 5/19/2020 18:21",
 		"testCut1FromStart" : "hsl 5/19/2020 18:23",
@@ -16,5 +17,7 @@
 		"testLinkAttributes" : "hsl 5/19/2020 23:17",
 		"testMayBeginWithBracket" : "hsl 5/19/2020 19:40",
 		"testMayNotBeginWithOtherCharacter" : "hsl 5/19/2020 19:41",
+		"testOpeningDelimiterIsDelimiter" : "MK 5/25/2020 15:44",
+		"testOpeningDelimiterIsOpener" : "MK 5/25/2020 15:47",
 		"testOpeningLinkDelimiterAsString" : "hsl 5/19/2020 18:17",
 		"testStartPosition" : "hsl 5/19/2020 19:45" } }
