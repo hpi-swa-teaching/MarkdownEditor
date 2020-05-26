@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "fgo 5/21/2019 15:43",
 	"instvars" : [
+		"content",
 		"tokens",
-		"emphases" ],
+		"links",
+		"inlineElements" ],
 	"name" : "MarkdownInlineTextStyler",
 	"pools" : [
 		 ],

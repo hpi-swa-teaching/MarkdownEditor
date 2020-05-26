@@ -2,4 +2,4 @@ tests - interpretation
 testInterpretEmptyTokens
 	
 	inlineTextStyler interpretTokens.
-	self assert: inlineTextStyler emphases isEmpty
+	self assert: inlineTextStyler inlineElements isEmpty

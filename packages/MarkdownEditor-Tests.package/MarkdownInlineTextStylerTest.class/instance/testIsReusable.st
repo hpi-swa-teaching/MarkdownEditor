@@ -8,11 +8,11 @@ testIsReusable
 	inlineTextStyler privateStyle: textOfFirstRun.
 	self
 		assertRuns: {17}
-		values: {{TextEmphasis bold}}
+		values: {{TextEmphasis bold . TextColor black}}
 		areStyleOf: textOfFirstRun.
 		
 	inlineTextStyler privateStyle: textOfSecondRun.
 	self
 		assertRuns: {15}
-		values: {{TextEmphasis italic}}
+		values: {{TextEmphasis italic . TextColor black}}
 		areStyleOf: textOfSecondRun

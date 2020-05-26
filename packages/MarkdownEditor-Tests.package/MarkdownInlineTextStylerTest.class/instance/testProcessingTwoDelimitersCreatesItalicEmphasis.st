@@ -7,4 +7,4 @@ testProcessingTwoDelimitersCreatesItalicEmphasis
 	
 	self 
 		assert: {MarkdownEmphasis from: 1 to: 3}
-		areEmphasesIn: inlineTextStyler emphases
+		areInlineElementsIn: inlineTextStyler inlineElements

@@ -1,8 +1,8 @@
 {
-	"class" : {
+	  "class" : {
 		 },
-	"instance" : {
-		"initializeInstanceVariables" : "mas 5/17/2020 21:24",
+	  "instance" : {
+    "initializeInstanceVariables" : "mas 5/17/2020 21:24",
 		"parseBinary" : "mas 5/18/2020 17:28",
 		"parseKeyword" : "mas 5/18/2020 17:28",
 		"parseUnary" : "mas 5/18/2020 17:28",

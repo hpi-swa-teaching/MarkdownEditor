@@ -2,7 +2,7 @@ parse support
 initializeInstanceVariables
 
 	instanceVariables := #().
-	allowUnderscoreAssignments := Scanner allowUnderscoreAsAssignment.
+  allowUnderscoreAssignments := Scanner allowUnderscoreAsAssignment.
 	allowUnderscoreSelectors := Scanner prefAllowUnderscoreSelectors.
 	allowBlockArgumentAssignment := Scanner allowBlockArgumentAssignment.
 	sourcePosition := 1.

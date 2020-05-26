@@ -1,7 +1,6 @@
 parse
 parseKeyword 
-		
-	| keyword rangeIndices |
+  | keyword rangeIndices |
 	self parseBinary.
 	self currentTokenType == #keyword ifFalse: [ ^self ].
 	
@@ -22,4 +21,3 @@ parseKeyword
 					scanNext;
 					parseTerm;
 					parseBinary ]
-	

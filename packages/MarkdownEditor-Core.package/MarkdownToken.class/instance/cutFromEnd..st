@@ -1,4 +1,4 @@
-attributes
+attribute
 cutFromEnd: aLength
 
 	| cutDelimiter |

@@ -7,4 +7,4 @@ testProcessingTwoDelimitersCreatesBoldEmphasis
 	
 	self 
 		assert: {MarkdownEmphasis strongFrom: 1 to: 5}
-		areEmphasesIn: inlineTextStyler emphases
+		areInlineElementsIn: inlineTextStyler inlineElements
