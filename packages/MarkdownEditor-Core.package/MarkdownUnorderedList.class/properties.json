@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownUnorderedList",
+	"pools" : [
+		 ],
+	"super" : "MarkdownBlock",
+	"type" : "normal" }

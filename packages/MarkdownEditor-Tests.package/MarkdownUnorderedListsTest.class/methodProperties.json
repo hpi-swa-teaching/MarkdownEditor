@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testMayBeginWithCorrectIndentation" : "cg 5/27/2020 13:03",
+		"testMayBeginWithCorrectIndentationWithText" : "cg 5/27/2020 13:02",
+		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",
+		"testMayNotBeginWithUnspacedText" : "cg 5/27/2020 13:01" } }
