@@ -18,7 +18,8 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] Bold & Italics
 - [x] Smalltalk code blocks
 - [x] HTML comment blocks
-- [ ] Lists
+- [x] Unordered lists
+- [ ] Ordered
 - [ ] URLs
 - [ ] Images
 - [ ] Highlight escaped characters
