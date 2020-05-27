@@ -1,0 +1,1 @@
+A MarkdownEditorMenuBar is the menu-bar which is displayed above the textfield in the editor.

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMayBeginWithCorrectIndentation" : "cg 5/27/2020 13:03",
-		"testMayBeginWithCorrectIndentationWithText" : "cg 5/27/2020 13:02",
+		"testMayBeginWithCorrectIndentation" : "MK 5/27/2020 14:14",
+		"testMayBeginWithCorrectIndentationWithText" : "MK 5/27/2020 14:14",
 		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",
 		"testMayNotBeginWithUnspacedText" : "cg 5/27/2020 13:01" } }
