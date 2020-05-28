@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MK 5/26/2020 11:18",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownEditorMenuBar",
+	"name" : "MarkdownUnorderedList",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownBlock",
 	"type" : "normal" }
