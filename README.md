@@ -19,7 +19,7 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] Smalltalk code blocks
 - [x] HTML comment blocks
 - [x] Unordered lists
-- [ ] Ordered
+- [ ] Ordered lists
 - [ ] URLs
 - [ ] Images
 - [ ] Highlight escaped characters
