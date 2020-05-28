@@ -2,7 +2,7 @@ parse
 parseBinary 
 
 	self parseUnary.
-  [ self currentTokenType == #binary ] 
+  	[ self currentTokenType == #binary ] 
 		whileTrue: [
 			self scanPast: #binary.
 			self
