@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testConvertingToTextUsesInlineStyler" : "jko 7/4/2019 17:35",
+		"testConvertingToTextUsesInlineStyler" : "MAS 6/1/2020 19:46",
 		"testFindLevelOfHeadingLevels1To6" : "jko 7/4/2019 17:36",
 		"testMayBeginWith1To3Indentations" : "jko 7/4/2019 16:33",
 		"testMayBeginWithHeadingLevels1To6" : "jko 7/4/2019 16:33",
@@ -11,4 +11,4 @@
 		"testMayNotBeginWithHeadingLevel0" : "jko 7/4/2019 16:35",
 		"testMayNotBeginWithHeadingLevel7" : "jko 7/4/2019 16:35",
 		"testMayNotBeginWithHeadingLevels1To6WithUnspacedText" : "jko 7/4/2019 16:35",
-		"testTextAttributesOfLevels1To6" : "jko 7/4/2019 17:37" } }
+		"testTextAttributesOfLevels1To6" : "MAS 6/1/2020 19:47" } }

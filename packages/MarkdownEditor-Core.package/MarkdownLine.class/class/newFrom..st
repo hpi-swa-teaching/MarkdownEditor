@@ -1,6 +1,4 @@
 instance creation
 newFrom: aString
 
-	^ self new 
-		content: aString;
-		yourself
+	^ self newFrom: aString with: MarkdownStyleSettings default.
