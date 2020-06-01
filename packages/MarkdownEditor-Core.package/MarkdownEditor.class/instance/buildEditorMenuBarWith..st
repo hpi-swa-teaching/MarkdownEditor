@@ -1,7 +1,7 @@
 as yet unclassified
-buildWith: aBuilder
+buildEditorMenuBarWith: aBuilder
 
-	^ aBuilder pluggablePanelSpec new
+	^  aBuilder pluggablePanelSpec new
 		layout: #horizontal;
 		children: {
 			aBuilder pluggableButtonSpec new
