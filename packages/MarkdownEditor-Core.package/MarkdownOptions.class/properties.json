@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"fontSizeLabel" ],
+		"onSave",
+		"currentStyleSettings",
+		"fontSizeLabel",
+		"fontSizeSlider" ],
 	"name" : "MarkdownOptions",
 	"pools" : [
 		 ],

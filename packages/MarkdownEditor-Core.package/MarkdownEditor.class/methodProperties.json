@@ -4,8 +4,14 @@
 		"initialize" : "lpf 6/13/2019 12:23",
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
-		"buildEditorTextMorphWith:" : "jko 6/25/2019 20:37",
-		"buildWith:" : "MK 5/11/2020 14:33",
+		"blockTextStyler" : "azi 6/1/2020 16:17",
+		"blockTextStyler:" : "azi 6/1/2020 16:17",
+		"buildEditorMenuBarWith:" : "azi 6/1/2020 16:11",
+		"buildEditorTextMorphWith:" : "azi 6/1/2020 15:57",
+		"buildWith:" : "azi 6/1/2020 16:17",
 		"markdownText" : "lpf 6/13/2019 15:26",
-		"markdownText:" : "lpf 6/13/2019 15:27",
+		"markdownText:" : "azi 6/1/2020 17:33",
+		"menuBarHeight" : "azi 6/1/2020 16:13",
+		"openSettings" : "azi 6/1/2020 17:14",
+		"refreshText" : "azi 6/1/2020 17:21",
 		"windowTitle" : "MK 5/11/2020 19:00" } }

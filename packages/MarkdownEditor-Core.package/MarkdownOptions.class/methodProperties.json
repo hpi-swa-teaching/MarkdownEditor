@@ -2,7 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"currentStyleSettings" : "azi 6/1/2020 16:36",
+		"currentStyleSettings:" : "azi 6/1/2020 16:40",
 		"fontSizeLabel" : "azi 6/1/2020 15:29",
 		"fontSizeLabel:" : "azi 6/1/2020 15:32",
-		"initialize" : "azi 6/1/2020 15:32",
+		"fontSizeSlider" : "azi 6/1/2020 16:30",
+		"fontSizeSlider:" : "azi 6/1/2020 16:30",
+		"handleSave" : "azi 6/1/2020 16:45",
+		"initialize" : "azi 6/1/2020 16:31",
+		"onSave" : "azi 6/1/2020 16:23",
+		"onSave:" : "azi 6/1/2020 16:23",
 		"sliderTest:" : "azi 6/1/2020 15:32" } }
