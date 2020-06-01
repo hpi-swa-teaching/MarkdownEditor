@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MarkdownUnorderedListItem",
+		"line",
+		"styler" ],
+	"name" : "MarkdownListItem",
 	"pools" : [
 		 ],
-	"super" : "MarkdownListItem",
+	"super" : "Object",
 	"type" : "normal" }

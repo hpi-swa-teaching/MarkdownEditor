@@ -1,11 +1,11 @@
-as yet unclassified
+converting
 asText
 
 	 | text |	
 	 text := '' asText.
 	 self lines do: [:line | 
 		| item |
-		item := MarkdownUnorderedListItem newFrom: line.
+		item := self makeNewListItemFrom: line.
 		item styler: self styler.
 		text append: item asText].
 		 ^ text

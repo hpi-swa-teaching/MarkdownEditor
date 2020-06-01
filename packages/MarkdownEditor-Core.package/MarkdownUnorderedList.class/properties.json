@@ -10,5 +10,5 @@
 	"name" : "MarkdownUnorderedList",
 	"pools" : [
 		 ],
-	"super" : "MarkdownBlock",
+	"super" : "MarkdownList",
 	"type" : "normal" }

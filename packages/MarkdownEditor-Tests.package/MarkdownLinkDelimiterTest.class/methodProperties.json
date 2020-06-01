@@ -15,9 +15,11 @@
 		"testIsNotExtendableWithText" : "hsl 5/19/2020 19:40",
 		"testLength" : "hsl 5/19/2020 19:45",
 		"testLinkAttributes" : "hsl 5/19/2020 23:17",
+		"testMatches" : "hsl 5/28/2020 10:58",
 		"testMayBeginWithBracket" : "hsl 5/19/2020 19:40",
 		"testMayNotBeginWithOtherCharacter" : "hsl 5/19/2020 19:41",
 		"testOpeningDelimiterIsDelimiter" : "MK 5/25/2020 15:44",
 		"testOpeningDelimiterIsOpener" : "MK 5/25/2020 15:47",
 		"testOpeningLinkDelimiterAsString" : "hsl 5/19/2020 18:17",
+		"testPrecedingFollowing" : "hsl 5/28/2020 13:17",
 		"testStartPosition" : "hsl 5/19/2020 19:45" } }

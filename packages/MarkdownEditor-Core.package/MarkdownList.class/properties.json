@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownUnorderedListItem",
+	"name" : "MarkdownList",
 	"pools" : [
 		 ],
-	"super" : "MarkdownListItem",
+	"super" : "MarkdownBlock",
 	"type" : "normal" }

@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownUnorderedListItem",
+	"name" : "MarkdownOrderedListItem",
 	"pools" : [
 		 ],
 	"super" : "MarkdownListItem",

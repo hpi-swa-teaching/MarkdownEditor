@@ -1,4 +1,4 @@
-as yet unclassified
+font
 textAttribute
 
  	^ UnextendableTextFontReference toFont: self font
