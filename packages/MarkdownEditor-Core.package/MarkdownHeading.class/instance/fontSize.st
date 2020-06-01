@@ -1,4 +1,4 @@
 accessing
 fontSize
 	
-	^ self styleSettings at: self level
+	^ self styleSettings headingFontSizes at: self level

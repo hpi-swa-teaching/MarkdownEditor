@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"closeMarkdownOptions" : "MAS 6/1/2020 18:22",
 		"currentStyleSettings" : "azi 6/1/2020 16:36",
-		"currentStyleSettings:" : "azi 6/1/2020 16:40",
+		"currentStyleSettings:" : "MAS 6/1/2020 18:11",
 		"fontSizeLabel" : "azi 6/1/2020 15:29",
 		"fontSizeLabel:" : "azi 6/1/2020 15:32",
 		"fontSizeSlider" : "azi 6/1/2020 16:30",
 		"fontSizeSlider:" : "azi 6/1/2020 16:30",
-		"handleSave" : "azi 6/1/2020 16:45",
-		"initialize" : "azi 6/1/2020 16:31",
+		"handleSave" : "MAS 6/1/2020 18:22",
+		"handleSliderChange:" : "MAS 6/1/2020 18:19",
+		"initialize" : "MAS 6/1/2020 18:22",
 		"onSave" : "azi 6/1/2020 16:23",
-		"onSave:" : "azi 6/1/2020 16:23",
-		"sliderTest:" : "azi 6/1/2020 15:32" } }
+		"onSave:" : "azi 6/1/2020 16:23" } }
