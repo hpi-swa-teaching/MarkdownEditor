@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content",
-		"styleSettings" ],
-	"name" : "MarkdownLine",
+		"fontSizeLabel" ],
+	"name" : "MarkdownOptions",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SystemWindow",
 	"type" : "normal" }

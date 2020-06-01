@@ -11,15 +11,15 @@ buildWith: aBuilder
 				action: 'MarkdownEditor new' asSymbol;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'Save';
+				label: 'save';
 				model: self;
 				enabled: false;
 				action: #showNextTip;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'Options';
+				label: 'options';
 				model: self;
-				action: #close;
-				enabled: false;
+				action: #openSettings;
+				enabled: true;
 				yourself };
 		yourself

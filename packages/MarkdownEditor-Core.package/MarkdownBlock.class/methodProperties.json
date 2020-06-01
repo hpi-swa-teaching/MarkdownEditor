@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFrom:" : "jko 7/4/2019 16:11" },
+		"newFrom:" : "azi 6/1/2020 15:42" },
 	"instance" : {
 		"append:" : "jko 7/4/2019 16:17",
 		"asText" : "jst 6/10/2019 12:12",
@@ -11,5 +11,7 @@
 		"lastLine" : "jst 6/10/2019 11:34",
 		"lines" : "jko 7/4/2019 18:03",
 		"lines:" : "jko 7/4/2019 16:12",
+		"styleSettings" : "azi 6/1/2020 15:42",
+		"styleSettings:" : "azi 6/1/2020 15:42",
 		"styler" : "fgo 6/14/2019 14:29",
 		"styler:" : "jst 6/19/2019 16:05" } }
