@@ -1,7 +1,8 @@
 as yet unclassified
-openSettings
+openOptions
 
-	MarkdownOptions new 
+	self textMorph accept.
+	MarkdownOptions new
 		currentStyleSettings: self blockTextStyler styleSettings;
 		onSave: [:aStyleSettings | self blockTextStyler styleSettings: aStyleSettings. self refreshText]; 
 		openInWorld.

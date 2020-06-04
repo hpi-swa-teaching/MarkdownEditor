@@ -1,3 +1,4 @@
 accessing
 blockTextStyler
-	^ blockTextStyler
+	
+	^ self textMorph styler
