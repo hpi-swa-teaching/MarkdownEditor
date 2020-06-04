@@ -3,7 +3,8 @@ handleSave
 
 	| newStyleSettings |
 	newStyleSettings := self currentStyleSettings deepCopy.
-	newStyleSettings headingFontSizes at: 1 put: self fontSizeSlider getNumericValue asInteger.
+	
+	1 to: 6 do: [:headerLevel | newStyleSettings headingFontSizes at: headerLevel put: (self fontSizeSliders at: headerLevel) getNumericValue asInteger. ].
 	
 	self onSave value: newStyleSettings.
 	self closeMarkdownOptions.

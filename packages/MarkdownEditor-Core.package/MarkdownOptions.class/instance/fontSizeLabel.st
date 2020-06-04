@@ -1,3 +1,0 @@
-accessing
-fontSizeLabel
-	^ fontSizeLabel

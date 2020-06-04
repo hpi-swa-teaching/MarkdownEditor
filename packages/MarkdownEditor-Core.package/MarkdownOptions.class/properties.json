@@ -8,8 +8,8 @@
 	"instvars" : [
 		"onSave",
 		"currentStyleSettings",
-		"fontSizeLabel",
-		"fontSizeSlider" ],
+		"fontSizeLabels",
+		"fontSizeSliders" ],
 	"name" : "MarkdownOptions",
 	"pools" : [
 		 ],
