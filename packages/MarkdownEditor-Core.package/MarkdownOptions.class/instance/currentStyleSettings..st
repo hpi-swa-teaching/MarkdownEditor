@@ -1,6 +1,7 @@
 accessing
 currentStyleSettings: aStyleSettings
 	currentStyleSettings := aStyleSettings.
+	self newStyleSettings: aStyleSettings deepCopy.
 	
 	1 to: 6 do: [:headerLevel | 
 		(self fontSizeSliders at: headerLevel) adjustToValue: (aStyleSettings headingFontSizes at: headerLevel).
