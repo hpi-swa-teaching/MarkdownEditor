@@ -2,5 +2,7 @@ accessing
 currentStyleSettings: aStyleSettings
 	currentStyleSettings := aStyleSettings.
 	
-	self fontSizeSlider adjustToValue: (aStyleSettings headingFontSizes at: 1).
-	self fontSizeLabel contents: ((aStyleSettings headingFontSizes at: 1) asInteger asString).
+	1 to: 6 do: [:headerLevel | 
+		(self fontSizeSliders at: headerLevel) adjustToValue: (aStyleSettings headingFontSizes at: headerLevel).
+		(self fontSizeLabels at: headerLevel) contents: ((aStyleSettings headingFontSizes at: headerLevel) asInteger asString).].
+	
