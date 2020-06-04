@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"toolbuilder",
+		"window" ],
+	"name" : "MarkdownEditorMenuBarTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
