@@ -7,7 +7,7 @@
 	"commentStamp" : "jst 7/10/2019 15:42",
 	"instvars" : [
 		"markdownText",
-		"blockTextStyler" ],
+		"textMorph" ],
 	"name" : "MarkdownEditor",
 	"pools" : [
 		 ],

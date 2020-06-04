@@ -19,7 +19,7 @@ buildEditorMenuBarWith: aBuilder
 			aBuilder pluggableButtonSpec new
 				label: 'options';
 				model: self;
-				action: #openSettings;
+				action: #openOptions;
 				enabled: true;
 				yourself };
 		yourself
