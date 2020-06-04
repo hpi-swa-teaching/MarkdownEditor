@@ -5,12 +5,12 @@ initializeActions
 		position: self position + (250@300); 
 		label: 'Cancel'; 
 		target: self; 
-		actionSelector: #closeMarkdownOptions; 
+		actionSelector: #handleCancel; 
 		yourself).
 	
 	self addMorph: (PluggableButtonMorph new 
 		position: self position + (300@300); 
-		label: 'Save'; 
+		label: 'Apply'; 
 		target: self; 
-		actionSelector: #handleSave; 
+		actionSelector: #handleApply; 
 		yourself).

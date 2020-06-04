@@ -5,7 +5,7 @@ testCloseMarkdownOptions
 	
 	options := MarkdownOptions new
 		currentStyleSettings: MarkdownStyleSettings default;
-		onSave: [].
+		onChange: [].
 	options openInWorld.
 	self assert: (World submorphs includes: options).
 	options closeMarkdownOptions.

@@ -5,7 +5,7 @@ testCreateMarkdownOptions
 	
 	options := MarkdownOptions new
 		currentStyleSettings: MarkdownStyleSettings default;
-		onSave: [].
+		onChange: [].
 	self assert: options label = 'Markdown Editor - Options'.
 	self assert: MarkdownStyleSettings default = options currentStyleSettings.
 	"Transcript show: options submorphs."

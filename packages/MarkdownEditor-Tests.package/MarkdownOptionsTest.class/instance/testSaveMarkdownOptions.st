@@ -6,6 +6,6 @@ testSaveMarkdownOptions
 	savedData := nil.
 	options := MarkdownOptions new
 		currentStyleSettings: MarkdownStyleSettings default;
-		onSave: [:aStyleSettings | savedData := aStyleSettings].
-	options handleSave.
+		onChange: [:aStyleSettings | savedData := aStyleSettings].
+	options handleApply.
 	self assert: savedData = MarkdownStyleSettings default.
