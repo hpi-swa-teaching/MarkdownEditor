@@ -1,16 +1,16 @@
 initialize-release
 initializeActions
 
-	self addMorph: (PluggableButtonMorph new 
-		position: self position + (250@300); 
+	self contentMorph scroller addMorph: (PluggableButtonMorph new 
+		position: self contentMorph scroller position + (250@300); 
 		label: 'Cancel'; 
 		target: self; 
 		actionSelector: #handleCancel; 
 		yourself).
 	
-	self addMorph: (PluggableButtonMorph new 
-		position: self position + (300@300); 
+	self contentMorph scroller addMorph: (PluggableButtonMorph new 
+		position: self contentMorph scroller position + (300@300); 
 		label: 'Apply'; 
 		target: self; 
-		actionSelector: #handleApply; 
+		actionSelector: #closeMarkdownOptions; 
 		yourself).

@@ -24,8 +24,8 @@ initializeHeaderSettings
 			yourself).].
 		
 	1 to: 6 do: [:headerLevel | 
-		self addMorph: (TextMorph new contents: 'H', headerLevel; position: self position + (50@(headerLevel * 30)); lock; yourself). 
-		self addMorph: (self fontSizeSliders at: headerLevel).
-		self addMorph: (self fontSizeLabels at: headerLevel).].
+		self contentMorph scroller addMorph: (TextMorph new contents: 'H', headerLevel; position: self position + (50@(headerLevel * 30)); lock; yourself). 
+		self contentMorph scroller addMorph: (self fontSizeSliders at: headerLevel).
+		self contentMorph scroller addMorph: (self fontSizeLabels at: headerLevel).].
 	
 	"self addMorph: (ColorPickerMorph new position: self position + (250@10); yourself)."
