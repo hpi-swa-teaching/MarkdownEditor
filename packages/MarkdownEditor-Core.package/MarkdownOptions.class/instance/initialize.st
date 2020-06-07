@@ -2,6 +2,9 @@ initialize-release
 initialize
 
 	super initialize.
-	labelString := 'Markdown Editor - Options'.
+	self contentMorph: ScrollPane new.
+
 	self initializeHeaderSettings.
 	self initializeActions.
+	
+	self addMorph: contentMorph frame: (0@0 corner: 1@1).
