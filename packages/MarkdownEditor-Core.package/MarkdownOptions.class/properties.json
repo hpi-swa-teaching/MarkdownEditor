@@ -11,6 +11,7 @@
 		"newStyleSettings",
 		"fontSizeLabels",
 		"fontSizeSliders",
+		"fontColorPickers",
 		"onChange" ],
 	"name" : "MarkdownOptions",
 	"pools" : [

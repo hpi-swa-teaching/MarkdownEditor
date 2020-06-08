@@ -1,3 +1,3 @@
 accessing
-headingFontSizes: anObject
-	headingFontSizes := anObject
+headingFontSizes: aCollection
+	headingFontSizes := aCollection
