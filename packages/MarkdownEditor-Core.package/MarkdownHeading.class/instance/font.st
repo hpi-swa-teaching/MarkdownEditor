@@ -1,7 +1,10 @@
 accessing
 font
 
-	^ TTCFont
+	| font |
+	font := TTCFont
 		familyName: 'BitstreamVeraSans'
 		pointSize: self fontSize
-		emphasis: TextEmphasis normal emphasisCode
+		emphasis: TextEmphasis normal emphasisCode.
+		
+	^ font

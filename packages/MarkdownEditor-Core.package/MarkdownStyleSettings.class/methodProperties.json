@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"default" : "MAS 6/1/2020 17:54" },
+		"default" : "MK 6/8/2020 09:36" },
 	"instance" : {
 		"=" : "azi 6/4/2020 12:16",
+		"headingColors" : "MK 6/8/2020 09:34",
+		"headingColors:" : "MK 6/8/2020 09:34",
 		"headingFontSizes" : "MAS 6/1/2020 17:53",
-		"headingFontSizes:" : "MAS 6/1/2020 17:53" } }
+		"headingFontSizes:" : "MK 6/8/2020 09:34" } }
