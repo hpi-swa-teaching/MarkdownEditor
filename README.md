@@ -19,7 +19,7 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] HTML comment blocks
 - [x] Unordered lists
 - [ ] Ordered lists
-- [ ] URLs
+- [x] URLs
 - [ ] Images
 - [ ] Highlight escaped characters
 
@@ -40,8 +40,9 @@ After that, you can open the Editor via the *"App"*-menu:
 During development, we set up some guidelines for coding. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## History
-This is a project developed for the Software Engineering course, started during summer term 2019.  
-Developers: Felix Gohla, Kira Grammel, Jonas Kordt, Lara Pfennigschmidt, Jakob Stigloher  
+This is a project developed for the Software Engineering course, started during summer term 2019 - continued during
+summer term 2020.  
+Developers: Felix Gohla, Kira Grammel, Clara Granzow, Maximilian Kleissl, Henok Lachmann, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Jakob Stigloher, Adrian Ziupka  
 When continuing this project, please feel free to add your names to the list. 😊
 
 <!-- References -->
