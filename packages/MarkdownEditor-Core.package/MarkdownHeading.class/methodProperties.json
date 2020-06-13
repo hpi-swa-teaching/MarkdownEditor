@@ -1,13 +1,13 @@
 {
 	"class" : {
+		"defaultFontColors" : "azi 6/13/2020 03:51",
+		"defaultFontSizes" : "azi 6/12/2020 00:55",
+		"labels" : "azi 6/12/2020 14:18",
 		"mayBeginWith:" : "jko 7/4/2019 16:36" },
 	"instance" : {
-		"asText" : "MK 6/8/2020 10:51",
-		"colorAttribute" : "MK 6/8/2020 10:46",
-		"font" : "MK 6/8/2020 10:48",
-		"fontColor" : "MK 6/8/2020 10:28",
-		"fontSize" : "MAS 6/1/2020 17:55",
+		"asText" : "azi 6/12/2020 14:12",
+		"fontColor" : "azi 6/12/2020 13:38",
+		"fontSize" : "azi 6/12/2020 13:13",
 		"isExtendableWith:" : "jko 7/4/2019 17:03",
 		"level" : "jst 5/13/2019 15:24",
-		"prefix" : "jst 5/13/2019 15:29",
-		"textAttribute" : "MK 6/8/2020 10:51" } }
+		"prefix" : "jst 5/13/2019 15:29" } }

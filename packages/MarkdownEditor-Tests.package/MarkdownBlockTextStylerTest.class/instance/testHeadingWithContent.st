@@ -6,5 +6,5 @@ testHeadingWithContent
 	blockTextStyler privateStyle: text.
 	self
 		assertRuns: {7}
-		values: {{self headingFontSized: 34}}
+		values: {{TextColor color: Color black. self fontSized: 34}}
 		areStyleOf: text

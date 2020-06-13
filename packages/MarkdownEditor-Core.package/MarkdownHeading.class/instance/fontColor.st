@@ -1,4 +1,4 @@
 accessing
 fontColor
 	
-	^ self styleSettings headingColors at: self level
+	^ self styleSettings fontColors at: (self class labels at: self level)

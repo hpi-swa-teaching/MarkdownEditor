@@ -4,15 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "azi 6/13/2020 03:22",
 	"instvars" : [
 		"contentMorph",
 		"currentStyleSettings",
 		"newStyleSettings",
-		"fontSizeLabels",
-		"fontSizeSliders",
-		"fontColorPickers",
-		"onChange" ],
+		"onChange",
+		"blockStylerMorphs" ],
 	"name" : "MarkdownOptions",
 	"pools" : [
 		 ],

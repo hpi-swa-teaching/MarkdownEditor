@@ -1,3 +1,0 @@
-accessing
-headingColors
-	^ headingColors

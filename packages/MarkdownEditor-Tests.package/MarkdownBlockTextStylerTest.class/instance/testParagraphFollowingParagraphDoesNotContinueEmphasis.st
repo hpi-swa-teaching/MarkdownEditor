@@ -6,5 +6,5 @@ testParagraphFollowingParagraphDoesNotContinueEmphasis
 	blockTextStyler privateStyle: text.
 	self
 		assertRuns: {13}
-		values: {{}}
+		values: {{TextColor color: Color black. self fontSized: 14}}
 		areStyleOf: text

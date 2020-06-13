@@ -1,7 +1,7 @@
 instance creation
-newFrom: aString with: aStyleSetting
+newFrom: aString with: aStyleSettings
 
 	^ self new 
 		content: aString;
-		styleSettings: aStyleSetting;
+		styleSettings: aStyleSettings;
 		yourself

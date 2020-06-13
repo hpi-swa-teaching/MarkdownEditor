@@ -1,14 +1,15 @@
 {
 	"class" : {
 		"closingTag" : "jko 6/27/2019 21:41",
+		"defaultFontColors" : "azi 6/12/2020 13:10",
+		"labels" : "azi 6/12/2020 00:22",
 		"mayBeginWith:" : "jko 7/4/2019 16:46",
 		"openingTag" : "jko 6/27/2019 21:40" },
 	"instance" : {
-		"asText" : "jko 6/28/2019 23:54",
+		"asText" : "azi 6/12/2020 16:18",
 		"closingTag" : "jko 6/29/2019 00:16",
 		"commentEnd" : "jko 7/1/2019 10:45",
 		"commentStart" : "jko 7/4/2019 17:30",
 		"isClosed" : "jko 7/4/2019 16:19",
 		"isExtendableWith:" : "jko 7/4/2019 17:03",
-		"openingTag" : "jko 6/29/2019 00:16",
-		"textAttribute" : "jko 6/28/2019 23:54" } }
+		"openingTag" : "jko 6/29/2019 00:16" } }
