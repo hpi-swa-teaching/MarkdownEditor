@@ -2,7 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCancelChaningMarkdownOptions" : "MAS 6/7/2020 18:13",
-		"testChangeHeadingSize" : "MAS 6/7/2020 18:00",
+		"blockStylerOf:for:" : "azi 6/13/2020 04:45",
+		"testApplyChanges" : "azi 6/13/2020 06:47",
+		"testBlockStylerAdjustments" : "azi 6/13/2020 06:12",
+		"testCancelChanges" : "azi 6/13/2020 07:06",
+		"testChangeCommentFontColor" : "azi 6/13/2020 06:27",
+		"testChangeHeadingFontColors" : "azi 6/13/2020 06:43",
+		"testChangeHeadingFontSizes" : "azi 6/13/2020 06:39",
+		"testChangeParagraphFontSize" : "azi 6/13/2020 06:30",
 		"testCloseMarkdownOptions" : "azi 6/4/2020 14:59",
-		"testCreateMarkdownOptions" : "MAS 6/7/2020 18:03" } }
+		"testCreateMarkdownOptions" : "azi 6/13/2020 05:18" } }

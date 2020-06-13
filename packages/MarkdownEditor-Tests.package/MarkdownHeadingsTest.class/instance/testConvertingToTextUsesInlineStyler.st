@@ -2,7 +2,7 @@ tests
 testConvertingToTextUsesInlineStyler
 
 	| line mockTextStyler heading |
-	line := (MarkdownLine newFrom: '# **Stronger** heading with *emphasis*').
+	line := (MarkdownLine newFrom: '# **Stronger** heading with *emphasis*' with: MarkdownStyleSettings default).
 	mockTextStyler := MarkdownMockTextStyler new.
 	heading := MarkdownHeading newFrom: line.
 	heading styler: mockTextStyler.

@@ -1,6 +1,6 @@
-as yet unclassified
+comparing
 = anObject
 
 	self == anObject ifTrue: [ ^ true ].
 	self species == anObject species ifFalse: [ ^ false ].
-	^ self headingFontSizes = anObject headingFontSizes
+	^ self fontSizes = anObject fontSizes and: [self fontColors = anObject fontColors]

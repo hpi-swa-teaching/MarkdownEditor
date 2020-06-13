@@ -5,7 +5,7 @@
 		"testClosedCommentBlockIsNotExtendable" : "jko 7/4/2019 17:24",
 		"testClosingTagFollowedByTextCloses" : "jko 7/4/2019 17:25",
 		"testClosingTagInFirstLineCloses" : "jko 7/4/2019 17:29",
-		"testColorFromStartToEnd" : "jko 7/4/2019 17:29",
+		"testColorFromStartToEnd" : "azi 6/13/2020 04:29",
 		"testCommentEndOfAutoClosedBlock" : "jko 7/4/2019 17:30",
 		"testCommentEndOfClosedBlock" : "jko 7/4/2019 17:30",
 		"testCommentEndOfClosedBlockFollowedByText" : "jko 7/4/2019 17:31",

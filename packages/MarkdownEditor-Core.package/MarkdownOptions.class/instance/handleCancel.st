@@ -1,5 +1,6 @@
-as yet unclassified
+event handling
 handleCancel
 
-	self onChange value: self currentStyleSettings.
+	self makeChangeTo: self currentStyleSettings.
+	self currentStyleSettings: self currentStyleSettings.
 	self closeMarkdownOptions.

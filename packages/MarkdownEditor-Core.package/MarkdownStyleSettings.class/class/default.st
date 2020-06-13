@@ -1,7 +1,15 @@
 as yet unclassified
 default
 
+	| fontSizes fontColors |
+	fontSizes := Dictionary new.
+	fontColors := Dictionary new.
+	MarkdownEditor blockClasses do:
+		[:blockClass | blockClass labels doWithIndex: 
+			[:label :index | fontSizes at: label put: (blockClass defaultFontSizes at: index).
+						     fontColors at: label put: (blockClass defaultFontColors at: index)]].
+	
 	^ self new 
-		headingFontSizes: (Dictionary newFrom: {1->34. 2->28. 3->22. 4->19. 5->16. 6->14});
-		headingColors: (Dictionary newFrom: {1->Color red. 2->Color black. 3->Color blue. 4-> Color black. 5->Color green. 6->Color red})
+		fontSizes: fontSizes;
+		fontColors: fontColors;
 		yourself.
