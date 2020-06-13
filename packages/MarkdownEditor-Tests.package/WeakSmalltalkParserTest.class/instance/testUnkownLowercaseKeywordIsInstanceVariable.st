@@ -1,10 +1,9 @@
 tests
 testUnkownLowercaseKeywordIsInstanceVariable
 
-	"Temporarily disabled until we understand what this test actually asserts"
-	"| source parsedRanges |
+	| source parsedRanges |
 	source := 'someMethodName: someArgument', Character cr, 'someInstanceVariable'.
 	parsedRanges := self rangesForSource: source.
 	self assert: #instVar equals: parsedRanges last type.
 	self assert: 30 equals: parsedRanges last start.
-	self assert: 49 equals: parsedRanges last end"
+	self assert: 49 equals: parsedRanges last end
