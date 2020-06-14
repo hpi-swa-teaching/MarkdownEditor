@@ -7,13 +7,16 @@ convertUnorderedList: anUnorderedList
 	 anUnorderedList lines do: [:line | 
 		| item |
 		item := MarkdownUnorderedListItem newFrom: line.
+		item styler: anUnorderedList styler.
 		[lastLevel < item level] whileTrue: [
 			lastLevel := lastLevel + 1.
 			html append:  '<ul>', Character cr].
 		[lastLevel > item level] whileTrue: [
 			lastLevel := lastLevel - 1.
 			html append: '</ul>', Character cr.].
-		html append: '<li>',item content, '</li>', Character cr.].
+		html append: '<li>',item contentAsText, '</li>', Character cr.
+		Transcript show: item contentAsText].
+	 [lastLevel > 0] whileTrue: [
+		lastLevel := lastLevel - 1.
+		html append: '</ul>', Character cr].
 	 ^ html
-
-	"	^ '<ul>', anUnorderedList content, '</ul>', Character cr"
