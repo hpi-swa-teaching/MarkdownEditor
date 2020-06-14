@@ -3,7 +3,7 @@ convertInlines: aText
 
 	| html currentIsItalic nextIsItalic lastIsItalic currentIsBold nextIsBold lastIsBold skipCount |
 	
-	html := ' '.
+	html := ''.
 	currentIsItalic := false.
 	nextIsItalic := false.
 	lastIsItalic := false.
