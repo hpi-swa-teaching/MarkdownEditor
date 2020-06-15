@@ -1,4 +1,4 @@
 testing
 isExtendableWith: aMarkdownLine
 
-	^ self class mayBeginWith: aMarkdownLine
+	^ (self class mayBeginWith: aMarkdownLine) or: aMarkdownLine containsOnlyWhitespaces
