@@ -7,7 +7,8 @@
 	"commentStamp" : "jst 7/10/2019 15:46",
 	"instvars" : [
 		"lines",
-		"styler" ],
+		"styler",
+		"hasUpdatedLine" ],
 	"name" : "MarkdownBlock",
 	"pools" : [
 		 ],
