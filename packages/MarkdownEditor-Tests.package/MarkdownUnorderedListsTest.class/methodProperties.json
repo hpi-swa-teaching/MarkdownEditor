@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testExtendableWith" : "MK 6/18/2020 11:40",
 		"testMayBeginWithCorrectIndentation" : "MK 5/27/2020 14:14",
 		"testMayBeginWithCorrectIndentationWithText" : "MK 5/27/2020 14:14",
 		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",
