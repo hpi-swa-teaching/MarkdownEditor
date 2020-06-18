@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCITemporary" : "MAS 6/18/2020 14:55" } }
+		"assertAll:areEqualTo:" : "MK 6/18/2020 16:48",
+		"lint:" : "MK 6/18/2020 16:54",
+		"testLongMethods" : "MK 6/18/2020 16:54",
+		"testLongMethodsWithoutEmptyLines" : "MK 6/18/2020 16:57",
+		"testNoDotAfterReturnConsistency" : "MK 6/18/2020 16:54",
+		"testObjects" : "MK 6/18/2020 16:57",
+		"testVariableNotReferenced" : "MK 6/18/2020 17:04" } }
