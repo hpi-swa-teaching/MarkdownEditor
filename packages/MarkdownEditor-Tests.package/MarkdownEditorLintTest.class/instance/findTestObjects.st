@@ -1,5 +1,5 @@
 Utils
-testObjects
+findTestObjects
 
 	^ testObjects ifNil: [
 		| objects |
