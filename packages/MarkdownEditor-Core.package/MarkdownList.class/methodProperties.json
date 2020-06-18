@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asText" : "cg 6/16/2020 12:59",
+		"asText" : "hsl 6/18/2020 02:47",
+		"initialize" : "hsl 6/18/2020 02:42",
 		"isExtendableWith:" : "cg 6/15/2020 02:48",
+		"items" : "hsl 6/18/2020 02:22",
+		"items:" : "hsl 6/18/2020 02:21",
 		"makeNewListItemFrom:" : "hsl 6/1/2020 12:05" } }

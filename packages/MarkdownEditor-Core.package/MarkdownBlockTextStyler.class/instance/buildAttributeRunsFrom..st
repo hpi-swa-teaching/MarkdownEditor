@@ -7,5 +7,6 @@ buildAttributeRunsFrom: aCollectionOfMarkdownBlocks
 		into: [:accumulatedText :block | 
 			accumulatedText, block asText].
 	(self needToUpdate: aCollectionOfMarkdownBlocks) ifTrue: [
-		view model changeEditorTextTo: text].
+		view model changeEditorTextTo: text.
+		"view model markdownText: text]."].
 	^ text runs

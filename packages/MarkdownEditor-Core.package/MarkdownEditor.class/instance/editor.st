@@ -1,5 +1,5 @@
 accessing
 editor
 
-	^ self dependents detect: [ :each | each isKindOf:  PluggableTextMorphPlus ]
+	^ self dependents detect: [ :each | each isKindOf: PluggableTextMorphPlus ]
 	

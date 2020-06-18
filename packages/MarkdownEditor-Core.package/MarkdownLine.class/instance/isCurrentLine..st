@@ -1,3 +1,4 @@
 accessing
-isCurrentLine: anObject
-	isCurrentLine := anObject
+isCurrentLine: aBoolean
+
+	isCurrentLine := aBoolean

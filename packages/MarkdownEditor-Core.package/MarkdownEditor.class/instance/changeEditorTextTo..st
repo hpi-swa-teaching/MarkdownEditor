@@ -1,6 +1,4 @@
 accessing
 changeEditorTextTo: aText
 
-	self editor setText: aText asString
-
-	
+	self editor setText: aText asString.
