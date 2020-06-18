@@ -15,7 +15,7 @@ process: opener and: closer
 										thenDo: [:delimiter |
 											self tokens at: (self tokens indexOf: delimiter) put: delimiter asStringToken]]].
 			self cutOpener: opener to: length.
-			^ self cutCloser: closer to: length.]
+			^ self cutCloser: closer to: length]
 	ifFalse: [ (opener class = MarkdownEmphasisDelimiter and: [closer class = MarkdownEmphasisDelimiter])
 				ifTrue: [	self inlineElements add: (closer emphasisStartingAt: opener).
 						self removeDelimitersBetween: opener and: closer.

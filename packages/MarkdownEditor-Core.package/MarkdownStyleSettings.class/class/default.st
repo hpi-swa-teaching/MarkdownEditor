@@ -12,4 +12,4 @@ default
 	^ self new 
 		fontSizes: fontSizes;
 		fontColors: fontColors;
-		yourself.
+		yourself
