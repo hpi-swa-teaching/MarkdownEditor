@@ -7,5 +7,6 @@ buildEditorTextMorphWith: aBuilder
 		setText: #markdownText:;
 		getText: #markdownText;
 		stylerClass: MarkdownBlockTextStyler;
+		name: #textMorph;
 		yourself
 	

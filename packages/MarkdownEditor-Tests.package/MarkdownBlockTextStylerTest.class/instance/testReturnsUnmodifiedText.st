@@ -6,5 +6,5 @@ testReturnsUnmodifiedText
 	blockTextStyler privateStyle: text.
 	self
 		assertRuns: {21}
-		values: {{}}
+		values: {{TextColor color: Color black. self fontSized: 14}}
 		areStyleOf: text

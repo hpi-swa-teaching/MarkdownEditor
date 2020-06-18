@@ -1,0 +1,18 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "azi 6/13/2020 03:22",
+	"instvars" : [
+		"contentMorph",
+		"currentStyleSettings",
+		"newStyleSettings",
+		"onChange",
+		"blockStylerMorphs" ],
+	"name" : "MarkdownOptions",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

@@ -8,4 +8,4 @@ asText
 		item := MarkdownUnorderedListItem newFrom: line.
 		item styler: self styler.
 		text append: item asText].
-		 ^ text
+	 ^ text

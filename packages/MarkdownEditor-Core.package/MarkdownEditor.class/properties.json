@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "jst 7/10/2019 15:42",
 	"instvars" : [
-		"markdownText" ],
+		"markdownText",
+		"textMorph",
+		"optionsMenu" ],
 	"name" : "MarkdownEditor",
 	"pools" : [
 		 ],

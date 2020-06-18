@@ -6,5 +6,5 @@ testHeadingWithFollowingLineDoesNotContinueEmphasis
 	blockTextStyler privateStyle: text.
 	self
 		assertRuns: {14. 6}
-		values: {{self headingFontSized: 34}. {}}
+		values: {{TextColor color: Color black. self fontSized: 34}. {TextColor color: Color black. self fontSized: 14}}
 		areStyleOf: text
