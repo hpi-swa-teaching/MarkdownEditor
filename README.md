@@ -1,6 +1,7 @@
 # MarkdownEditor 
 
-[![CI][github_actions_badge]][github_actions_url]
+[![CI-Test][github_actions_test_badge]][github_actions_url]
+[![CI-Lint][github_actions_lint_badge]][github_actions_url]
 [![Coverage Status][coveralls_badge]][coveralls_url]
 
 **MarkdownEditor** is a tool enabling Squeak users to write Markdown in Squeak with highlighting. The Editor is designed to *focus on the Markdown you write*, no other distractions.
@@ -52,5 +53,6 @@ When continuing this project, please feel free to add your names to the list. ðŸ
 <!-- References -->
 [coveralls_badge]: https://coveralls.io/repos/github/hpi-swa-teaching/MarkdownEditor/badge.svg?branch=master
 [coveralls_url]: https://coveralls.io/github/hpi-swa-teaching/MarkdownEditor
-[github_actions_badge]: https://github.com/hpi-swa-teaching/MarkdownEditor/workflows/CI/badge.svg?branch=master
+[github_actions_test_badge]: https://github.com/hpi-swa-teaching/MarkdownEditor/workflows/CI-Test/badge.svg?branch=master
+[github_actions_lint_badge]: https://github.com/hpi-swa-teaching/MarkdownEditor/workflows/CI-Lint/badge.svg?branch=master
 [github_actions_url]: https://github.com/hpi-swa-teaching/MarkdownEditor/actions
