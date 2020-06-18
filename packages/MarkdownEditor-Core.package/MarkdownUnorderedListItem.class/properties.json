@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "MK 6/18/2020 11:10",
 	"instvars" : [
-		"line",
-		"styler" ],
+		 ],
 	"name" : "MarkdownUnorderedListItem",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownListItem",
 	"type" : "normal" }

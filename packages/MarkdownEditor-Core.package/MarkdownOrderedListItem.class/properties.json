@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MK 6/18/2020 11:08",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownUnorderedList",
+	"name" : "MarkdownOrderedListItem",
 	"pools" : [
 		 ],
-	"super" : "MarkdownList",
+	"super" : "MarkdownListItem",
 	"type" : "normal" }

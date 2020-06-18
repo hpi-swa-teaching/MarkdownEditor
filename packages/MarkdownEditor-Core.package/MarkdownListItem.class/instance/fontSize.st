@@ -1,4 +1,4 @@
-as yet unclassified
+level
 fontSize
 
 	 self level > 3 ifTrue: [^ self fontSizes at: 3].

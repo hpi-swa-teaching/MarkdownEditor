@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 newFrom: aMarkdownLine
 
 	^ self new line: aMarkdownLine; 
