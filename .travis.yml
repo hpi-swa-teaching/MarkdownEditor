@@ -1,0 +1,9 @@
+language: smalltalk
+sudo: false
+
+smalltalk:
+  - Squeak-trunk
+
+matrix:
+  allow_failures:
+    - smalltalk: Squeak-trunk
