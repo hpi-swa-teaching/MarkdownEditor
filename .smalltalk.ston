@@ -11,7 +11,6 @@ SmalltalkCISpec {
     #coverage : {
       #packages : [ 'MarkdownEditor-Core', 'MarkdownEditor-Utilities' ]
     },
-    #packages : [ 'MarkdownEditor-Tests' ],
     #exclude : {
       #classes : [ #MarkdownEditorLintTest ]
     }
