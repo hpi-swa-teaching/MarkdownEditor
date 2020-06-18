@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"labels" : "hsl 6/18/2020 15:37",
+		"mayBeginWith:" : "hsl 6/18/2020 15:20" },
 	"instance" : {
 		"asText" : "hsl 6/18/2020 13:16",
 		"initialize" : "hsl 6/18/2020 13:17",
