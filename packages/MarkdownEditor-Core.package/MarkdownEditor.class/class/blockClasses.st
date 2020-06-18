@@ -1,4 +1,10 @@
 as yet unclassified
 blockClasses
 
-	^  MarkdownBlock subclasses
+	| classes |
+	classes := OrderedCollection new.
+	MarkdownBlock subclassesDo: [:subclass | 
+		subclass subclasses isEmpty
+			ifTrue: [classes add: subclass]
+			ifFalse: [classes addAll: subclass subclasses]].
+	^  classes
