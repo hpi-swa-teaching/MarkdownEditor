@@ -1,11 +1,11 @@
 Utils
 lint: aLinterRule
 
-	|testRunner |
+	|testRunner testObjects |
 	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
+	testObjects := self findTestObjects.
+	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
 
-	testRunner runOnTests: {aLinterRule} andTestObjects: self testObjects.
-
-	^ (self testObjects
+	^ (testObjects
 		collect: [ :testObject | testObject resultOf: aLinterRule ])
 		collect: [ :result | result value ]

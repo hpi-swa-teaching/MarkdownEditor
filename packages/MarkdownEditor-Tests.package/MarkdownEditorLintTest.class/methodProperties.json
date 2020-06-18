@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"assertAll:areEqualTo:" : "MK 6/18/2020 16:48",
-		"lint:" : "MK 6/18/2020 16:54",
+		"findTestObjects" : "MK 6/18/2020 17:09",
+		"lint:" : "MK 6/18/2020 17:10",
 		"testLongMethods" : "MK 6/18/2020 16:54",
 		"testLongMethodsWithoutEmptyLines" : "MK 6/18/2020 16:57",
 		"testNoDotAfterReturnConsistency" : "MK 6/18/2020 16:54",
-		"testObjects" : "MK 6/18/2020 16:57",
 		"testVariableNotReferenced" : "MK 6/18/2020 17:04" } }
