@@ -6,4 +6,5 @@
 		"testMayBeginWithCorrectIndentation" : "MK 5/27/2020 14:14",
 		"testMayBeginWithCorrectIndentationWithText" : "MK 5/27/2020 14:14",
 		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",
-		"testMayNotBeginWithUnspacedText" : "cg 5/27/2020 13:01" } }
+		"testMayNotBeginWithUnspacedText" : "cg 5/27/2020 13:01",
+		"testTextAttributesOfLevels1To4" : "MK 6/18/2020 12:32" } }
