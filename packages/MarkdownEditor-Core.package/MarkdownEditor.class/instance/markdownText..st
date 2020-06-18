@@ -2,4 +2,5 @@ accessing
 markdownText: aText
 
 	markdownText := aText.
-	self changed: #markdownText
+	"Transcript show: aText; cr."
+	self refreshText. "self changed: #markdownText"

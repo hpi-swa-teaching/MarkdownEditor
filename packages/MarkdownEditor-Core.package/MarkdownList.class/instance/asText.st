@@ -10,3 +10,4 @@ asText
 		text append: item asText.
 		self items add: item].
 		 ^ text
+

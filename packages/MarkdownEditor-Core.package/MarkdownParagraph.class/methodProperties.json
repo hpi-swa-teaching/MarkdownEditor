@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"labels" : "azi 6/12/2020 00:23",
+		"mayBeginWith:" : "azi 6/11/2020 19:00" },
 	"instance" : {
-		"asText" : "jst 6/19/2019 15:41",
+		"asText" : "azi 6/12/2020 16:18",
 		"isExtendableWith:" : "jko 7/4/2019 17:43" } }

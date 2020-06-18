@@ -1,12 +1,13 @@
 {
 	"class" : {
+		"defaultFontColors" : "azi 6/13/2020 03:51",
+		"defaultFontSizes" : "azi 6/12/2020 00:55",
+		"labels" : "azi 6/12/2020 14:18",
 		"mayBeginWith:" : "jko 7/4/2019 16:36" },
 	"instance" : {
-		"asText" : "jko 6/25/2019 20:40",
-		"font" : "kgr 6/10/2019 13:39",
-		"fontSize" : "kgr 6/10/2019 13:40",
-		"fontSizes" : "fgo 7/23/2019 13:53",
+		"asText" : "azi 6/12/2020 14:12",
+		"fontColor" : "azi 6/12/2020 13:38",
+		"fontSize" : "azi 6/12/2020 13:13",
 		"isExtendableWith:" : "jko 7/4/2019 17:03",
 		"level" : "jst 5/13/2019 15:24",
-		"prefix" : "jst 5/13/2019 15:29",
-		"textAttribute" : "fgo 6/26/2019 22:38" } }
+		"prefix" : "jst 5/13/2019 15:29" } }

@@ -1,6 +1,5 @@
 identifier testing
 resolve: aString
-
 	aString = #self ifTrue: [ ^#self ].
 	aString = #true ifTrue: [ ^#true ].
 	aString = #false ifTrue: [ ^#false ].

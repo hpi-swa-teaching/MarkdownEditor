@@ -1,7 +1,6 @@
 # MarkdownEditor 
 
 [![CI][github_actions_badge]][github_actions_url]
-[![Build Status][travis_badge]][travis_url]
 [![Coverage Status][coveralls_badge]][coveralls_url]
 
 **MarkdownEditor** is a tool enabling Squeak users to write Markdown in Squeak with highlighting. The Editor is designed to *focus on the Markdown you write*, no other distractions.
@@ -20,7 +19,7 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] HTML comment blocks
 - [x] Unordered lists
 - [ ] Ordered lists
-- [ ] URLs
+- [x] URLs
 - [ ] Images
 - [ ] Highlight escaped characters
 
@@ -40,14 +39,17 @@ After that, you can open the Editor via the *"App"*-menu:
 ## Contributing
 During development, we set up some guidelines for coding. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Travis
+As of now there are issues with reporting the coverage from Github-Actions to Coveralls, which is why we still have 
+Travis configured to report the coverage from there. Travis should be removed as soon as these problems are resolved. 
+
 ## History
-This is a project developed for the Software Engineering course, started during summer term 2019.  
-Developers: Felix Gohla, Kira Grammel, Jonas Kordt, Lara Pfennigschmidt, Jakob Stigloher  
+This is a project developed for the Software Engineering course, started during summer term 2019 - continued during
+summer term 2020.  
+Developers: Felix Gohla, Kira Grammel, Clara Granzow, Maximilian Kleissl, Henok Lachmann, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Jakob Stigloher, Adrian Ziupka  
 When continuing this project, please feel free to add your names to the list. 😊
 
 <!-- References -->
-[travis_badge]: https://travis-ci.org/hpi-swa-teaching/MarkdownEditor.svg?branch=master
-[travis_url]: https://travis-ci.org/hpi-swa-teaching/MarkdownEditor
 [coveralls_badge]: https://coveralls.io/repos/github/hpi-swa-teaching/MarkdownEditor/badge.svg?branch=master
 [coveralls_url]: https://coveralls.io/github/hpi-swa-teaching/MarkdownEditor
 [github_actions_badge]: https://github.com/hpi-swa-teaching/MarkdownEditor/workflows/CI/badge.svg?branch=master

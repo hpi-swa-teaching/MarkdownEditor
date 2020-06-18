@@ -6,9 +6,9 @@ testHeadingFollowedByParagraphWithInlineEmphasis
 	blockTextStyler privateStyle: text.
 	self
 		assertRuns: {8. 8. 1. 5. 8}
-		values: {{self headingFontSized: 34}.
-				{self headingFontSized: 34. TextEmphasis bold. TextColor black}.
-				{self headingFontSized: 34}.
-				{}.
-				{TextEmphasis italic . TextColor black}}
+		values: {{TextColor black. self fontSized: 34}.
+				{TextColor black. self fontSized: 34. TextEmphasis bold}.
+				{TextColor black. self fontSized: 34}.
+				{TextColor black. self fontSized: 14}.
+				{TextColor black. self fontSized: 14. TextEmphasis italic}}
 		areStyleOf: text

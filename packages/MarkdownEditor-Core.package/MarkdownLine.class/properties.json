@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MK 6/18/2020 11:10",
 	"instvars" : [
-		"content" ],
+		"content",
+		"styleSettings" ],
 	"name" : "MarkdownLine",
 	"pools" : [
 		 ],

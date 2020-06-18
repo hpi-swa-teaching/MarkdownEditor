@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "azi 6/13/2020 03:20",
+	"instvars" : [
+		"fontSizes",
+		"fontColors" ],
+	"name" : "MarkdownStyleSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

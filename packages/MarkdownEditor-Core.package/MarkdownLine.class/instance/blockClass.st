@@ -1,6 +1,6 @@
 accessing
 blockClass
 
-	^ {MarkdownHeading. MarkdownCodeBlock. MarkdownCommentBlock. MarkdownUnorderedList. MarkdownOrderedList } 
+	^ MarkdownEditor blockClasses 
 		detect: [:blockClass | blockClass mayBeginWith: self]
 		ifNone: [MarkdownParagraph]

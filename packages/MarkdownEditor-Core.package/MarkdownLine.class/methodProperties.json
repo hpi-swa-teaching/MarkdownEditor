@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newFrom:" : "jko 7/4/2019 15:29" },
+		"newFrom:" : "azi 6/13/2020 03:31",
+		"newFrom:with:" : "azi 6/13/2020 03:29" },
 	"instance" : {
 		"asMarkdownBlock" : "jko 7/11/2019 16:07",
 		"asString" : "jko 7/4/2019 16:18",
@@ -12,4 +13,6 @@
 		"fourSpaces" : "jko 7/4/2019 15:47",
 		"indentationLevel" : "cg 5/27/2020 12:52",
 		"interruptsParagraph" : "jko 7/11/2019 16:07",
-		"isIndented" : "jko 7/11/2019 16:02" } }
+		"isIndented" : "jko 7/11/2019 16:02",
+		"styleSettings" : "azi 6/1/2020 15:34",
+		"styleSettings:" : "azi 6/1/2020 15:34" } }

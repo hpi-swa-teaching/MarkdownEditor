@@ -1,9 +1,9 @@
 {
-	  "class" : {
+	"class" : {
 		 },
-	  "instance" : {
-    "initializeInstanceVariables" : "mas 5/17/2020 21:24",
-		"parseBinary" : "mas 5/18/2020 17:28",
-		"parseKeyword" : "mas 5/18/2020 17:28",
-		"parseUnary" : "mas 5/18/2020 17:28",
-		"resolve:" : "fgo 7/1/2019 10:53" } }
+	"instance" : {
+		"initializeInstanceVariables" : "MAS 5/28/2020 11:10",
+		"parseBinary" : "MAS 5/28/2020 11:10",
+		"parseIdentifier" : "MAS 5/28/2020 11:09",
+		"parseKeyword" : "MAS 5/28/2020 11:10",
+		"parseUnary" : "MAS 5/28/2020 11:10" } }
