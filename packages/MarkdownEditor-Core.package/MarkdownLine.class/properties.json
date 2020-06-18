@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content",
-		"isCurrentLine",
-		"previousLine" ],
+		"content" ],
 	"name" : "MarkdownLine",
 	"pools" : [
 		 ],

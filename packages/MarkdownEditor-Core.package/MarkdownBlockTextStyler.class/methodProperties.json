@@ -2,12 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildAttributeRunsFrom:" : "hsl 6/18/2020 02:37",
-		"buildBlockStructureFrom:" : "hsl 6/17/2020 19:29",
-		"createLines:" : "hsl 6/17/2020 20:00",
-		"currentCursorPosition" : "cg 6/15/2020 01:08",
-		"needToUpdate:" : "cg 6/16/2020 12:56",
-		"parse:" : "hsl 6/17/2020 19:05",
+		"buildAttributeRunsFrom:" : "jst 6/28/2019 14:06",
+		"buildBlockStructureFrom:" : "jst 7/4/2019 19:20",
+		"createLines:" : "jko 7/4/2019 16:13",
+		"parse:" : "jko 6/21/2019 14:20",
 		"privateFormat:" : "jst 6/28/2019 14:02",
-		"privateStyle:" : "hsl 6/18/2020 02:48",
+		"privateStyle:" : "jko 6/22/2019 17:42",
 		"reset" : "jst 6/28/2019 14:03" } }

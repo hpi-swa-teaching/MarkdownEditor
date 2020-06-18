@@ -2,4 +2,4 @@ initialize
 initialize
 
 	super initialize.
-	items := OrderedCollection new
+	self items: OrderedCollection new
