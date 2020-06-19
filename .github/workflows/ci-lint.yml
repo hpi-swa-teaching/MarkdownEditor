@@ -16,4 +16,5 @@ jobs:
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.lint.ston
+        shell: bash
         timeout-minutes: 15
