@@ -1,4 +1,4 @@
 Disharmonies
 testNoDataClass
 
-	self assertAllZero: (self lint: #dataClass:)
+	self assertAllFalse: (self lint: #dataClass:)
