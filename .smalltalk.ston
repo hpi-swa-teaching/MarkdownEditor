@@ -7,6 +7,9 @@ SmalltalkCISpec {
       #load : [ 'tests' ]
     }
   ],
+  #preLoading : [
+    'scripts/preLoading.st'
+  ],
   #testing : {
     #coverage : {
       #packages : [ 'MarkdownEditor-Core', 'MarkdownEditor-Utilities' ]
