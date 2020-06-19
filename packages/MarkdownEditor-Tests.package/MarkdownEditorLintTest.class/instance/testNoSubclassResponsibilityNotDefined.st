@@ -1,4 +1,4 @@
 Bugs
 testNoSubclassResponsibilityNotDefined
 
-	self assertAll: (self lint: #smallLintSubclassResponsibilityNotDefined) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintSubclassResponsibilityNotDefined)

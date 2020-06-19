@@ -1,4 +1,4 @@
 Coding Styles
 testLongMethods
 
-	self assertAll: (self lint: #longMethods:) areEqualTo: 0
+	self assertAllZero: (self lint: #longMethods:)

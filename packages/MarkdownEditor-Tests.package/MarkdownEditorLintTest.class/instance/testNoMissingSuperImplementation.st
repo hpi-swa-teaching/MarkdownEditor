@@ -1,4 +1,4 @@
 Bugs
 testNoMissingSuperImplementation
 
-	self assertAll: (self lint: #smallLintMethodModifierOverride) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintMethodModifierOverride)

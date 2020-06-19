@@ -1,4 +1,4 @@
 Bugs
 testNoSuperclassCallRequired
 
-	self assertAll: (self lint: #smallLintMethodModifierSuper) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintMethodModifierSuper)
