@@ -1,4 +1,4 @@
 Disharmonies
 testNoBrainClass
 
-	self assertAllZero: (self lint: #brainClass:)
+	self assertAllFalse: (self lint: #brainClass:)
