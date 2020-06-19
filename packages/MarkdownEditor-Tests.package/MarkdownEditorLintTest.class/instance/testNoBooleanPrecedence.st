@@ -1,4 +1,4 @@
 Bugs
 testNoBooleanPrecedence
 
-	self assertAll: (self lint: #smallLintBooleanPrecedence) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintBooleanPrecedence)

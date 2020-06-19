@@ -1,4 +1,4 @@
 Bugs
 testNoVariableUsedButNotDefinedAnywhere
 
-	self assertAll: (self lint: #smallLintVariableNotDefined) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintVariableNotDefined)

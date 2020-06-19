@@ -1,4 +1,4 @@
 Bugs
 testNoOverridesAFinalMethod
 
-	self assertAll: (self lint: #smallLintMethodModifierFinal) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintMethodModifierFinal)

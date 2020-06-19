@@ -1,4 +1,4 @@
 Bugs
 testNoSendsUnknownMessageToGlobal
 
-	self assertAll: (self lint: #smallLintSendsUnknownMessageToGlobal) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintSendsUnknownMessageToGlobal)

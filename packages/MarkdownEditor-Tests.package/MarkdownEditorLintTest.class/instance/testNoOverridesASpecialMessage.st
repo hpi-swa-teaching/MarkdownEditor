@@ -1,4 +1,4 @@
 Bugs
 testNoOverridesASpecialMessage
 
-	self assertAll: (self lint: #smallLintOverridesSpecialMessage) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintOverridesSpecialMessage)

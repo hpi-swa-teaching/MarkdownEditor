@@ -1,4 +1,4 @@
 Unnecessary Code
 testVariableNotReferenced
 
-	self assertAll: (self lint: #smallLintUnreferencedVariables) areEqualTo: 0
+	self assertAllZero: (self lint: #smallLintUnreferencedVariables)
