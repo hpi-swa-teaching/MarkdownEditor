@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertAll:areEqualTo:" : "MK 6/18/2020 16:48",
+		"assertAllFalse:" : "mas 6/19/2020 21:42",
+		"assertAllZero:" : "MK 6/19/2020 19:20",
+		"findTestObjects" : "mas 6/19/2020 21:21",
+		"lint:" : "MK 6/18/2020 17:10",
+		"testLongMethodsWithoutEmptyLines" : "MK 6/19/2020 19:20",
+		"testNoBooleanPrecedence" : "MK 6/19/2020 19:18",
+		"testNoBrainClass" : "mas 6/19/2020 21:44",
+		"testNoComplexMethods" : "MK 6/19/2020 19:23",
+		"testNoDataClass" : "mas 6/19/2020 21:43",
+		"testNoGodClass" : "mas 6/19/2020 21:43",
+		"testNoMessagesSentButNotImplemented" : "MK 6/19/2020 19:18",
+		"testNoMissingSuperImplementation" : "MK 6/19/2020 19:19",
+		"testNoOverridesAFinalMethod" : "MK 6/19/2020 19:19",
+		"testNoOverridesASpecialMessage" : "MK 6/19/2020 19:19",
+		"testNoRefusedParentBequest" : "MK 6/19/2020 19:30",
+		"testNoSendsUnknownMessageToGlobal" : "MK 6/19/2020 19:19",
+		"testNoSubclassResponsibilityNotDefined" : "MK 6/19/2020 19:20",
+		"testNoSuperclassCallRequired" : "MK 6/19/2020 19:19",
+		"testNoVariableUsedButNotDefinedAnywhere" : "MK 6/19/2020 19:19",
+		"testVariableNotReferenced" : "MK 6/19/2020 19:20" } }
