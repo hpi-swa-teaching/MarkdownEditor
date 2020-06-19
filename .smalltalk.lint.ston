@@ -4,8 +4,12 @@ SmalltalkCISpec {
       #baseline : 'MarkdownEditor',
       #platforms : [ #squeak ],
       #directory : 'packages',
-      #load : [ 'tests' ]
+      #load : [ 'tests' ],
+      #useLatestMetacello : true
     }
+  ],
+  #preLoading : [
+    'scripts/preLoading.st'
   ],
   #testing : {
     #classes : [ #MarkdownEditorLintTest ]
