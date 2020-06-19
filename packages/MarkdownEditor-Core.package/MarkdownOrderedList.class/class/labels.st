@@ -1,4 +1,4 @@
 as yet unclassified
 labels
 
-	^ {'MarkdownOrderedList'}
+	^ {'List ordered'}
