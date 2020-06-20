@@ -5,6 +5,7 @@
 		"testClosingDelimiterIsCloser" : "hsl 5/19/2020 23:16",
 		"testClosingDelimiterIsDelimiter" : "MK 5/25/2020 15:44",
 		"testClosingLinkDelimiterAsString" : "hsl 5/19/2020 18:18",
+		"testClosingSetPrecedingFollowingReturnsSelf" : "MK 6/20/2020 08:42",
 		"testCut1FromEnd" : "hsl 5/19/2020 18:21",
 		"testCut1FromStart" : "hsl 5/19/2020 18:23",
 		"testCut2FromEnd" : "hsl 5/19/2020 18:30",
@@ -21,5 +22,6 @@
 		"testOpeningDelimiterIsDelimiter" : "MK 5/25/2020 15:44",
 		"testOpeningDelimiterIsOpener" : "MK 5/25/2020 15:47",
 		"testOpeningLinkDelimiterAsString" : "hsl 5/19/2020 18:17",
+		"testOpeningSetPrecedingFollowingReturnsSelf" : "MK 6/20/2020 08:43",
 		"testPrecedingFollowing" : "hsl 5/28/2020 13:17",
 		"testStartPosition" : "hsl 5/19/2020 19:45" } }
