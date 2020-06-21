@@ -5,19 +5,19 @@ buildEditorMenuBarWith: aBuilder
 		layout: #horizontal;
 		children: {
 			aBuilder pluggableButtonSpec new
-				label: 'new';
+				label: 'New';
 				model: self;
 				enabled: true;
-				action: 'MarkdownEditor new' asSymbol;
+				action: #createNewInstancel;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'save';
+				label: 'Convert to Html';
 				model: self;
-				enabled: false;
-				action: #showNextTip;
+				enabled: true;
+				action: #convertToHtml;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'options';
+				label: 'Options';
 				model: self;
 				action: #openOptions;
 				enabled: true;

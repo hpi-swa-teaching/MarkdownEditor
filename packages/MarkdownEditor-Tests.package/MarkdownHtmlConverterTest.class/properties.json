@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"htmlConverter" ],
+	"name" : "MarkdownHtmlConverterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

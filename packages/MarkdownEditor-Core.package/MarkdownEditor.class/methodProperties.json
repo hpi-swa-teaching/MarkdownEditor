@@ -6,9 +6,11 @@
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
 		"blockTextStyler" : "azi 6/4/2020 11:00",
-		"buildEditorMenuBarWith:" : "azi 6/4/2020 11:02",
+		"buildEditorMenuBarWith:" : "MK 6/21/2020 17:51",
 		"buildEditorTextMorphWith:" : "azi 6/1/2020 15:57",
 		"buildWith:" : "azi 6/12/2020 01:28",
+		"convertToHTML" : "MK 6/21/2020 17:48",
+		"createNewInstance" : "MK 6/21/2020 17:51",
 		"markdownText" : "lpf 6/13/2019 15:26",
 		"markdownText:" : "azi 6/1/2020 17:33",
 		"menuBarHeight" : "azi 6/1/2020 16:13",
