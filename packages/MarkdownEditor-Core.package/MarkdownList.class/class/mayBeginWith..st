@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 mayBeginWith: aMarkdownLine
  	^ false
