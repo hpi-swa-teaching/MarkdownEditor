@@ -14,7 +14,7 @@ buildEditorMenuBarWith: aBuilder
 				label: 'Convert to Html';
 				model: self;
 				enabled: true;
-				action: #convertToHtml;
+				action: #convertToHTML;
 				yourself.
 			aBuilder pluggableButtonSpec new
 				label: 'Options';
