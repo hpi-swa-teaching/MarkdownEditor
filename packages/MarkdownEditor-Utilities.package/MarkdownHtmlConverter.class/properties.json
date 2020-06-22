@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MK 6/21/2020 17:44",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownHtmlConverter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

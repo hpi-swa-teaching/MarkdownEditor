@@ -1,0 +1,15 @@
+as yet unclassified
+testConvertComplexParagraph
+
+	| paragraph html expectedResult |
+	
+	paragraph := self createBlockFrom: 'nothing *italic* **bold** **bold*bold-and-italic***', Character cr, '*italic**italic-and-bold***'.
+	html := htmlConverter convertParagraph: paragraph.
+	
+	expectedResult := 
+		'<p>nothing <em>italic</em> <strong>bold</strong> <strong>bold<em>bold-and-italic</em></strong>', 
+		Character cr, 
+		'<em>italic<strong>italic-and-bold</strong></em></p>', 
+		Character cr.
+	
+	self assert: (expectedResult = html).
