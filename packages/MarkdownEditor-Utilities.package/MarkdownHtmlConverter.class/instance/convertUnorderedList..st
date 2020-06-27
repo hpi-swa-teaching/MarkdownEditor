@@ -3,7 +3,7 @@ convertUnorderedList: anUnorderedList
 
 	 | html lastLevel itemAsHtml|	
 	 lastLevel := 0.
-	 html := '' asText.
+	 html := ''.
 	 anUnorderedList lines do: [:line | 
 		| item |
 		item := MarkdownUnorderedListItem newFrom: line.
@@ -11,12 +11,12 @@ convertUnorderedList: anUnorderedList
 		itemAsHtml := self convertInlines: item contentAsText.
 		[lastLevel < item level] whileTrue: [
 			lastLevel := lastLevel + 1.
-			html append:  '<ul>', Character cr].
+			html := html, '<ul>', Character cr].
 		[lastLevel > item level] whileTrue: [
 			lastLevel := lastLevel - 1.
-			html append: '</ul>', Character cr.].
-		html append: '<li>',itemAsHtml, '</li>', Character cr.].
+			html := html, '</ul>', Character cr.].
+		html := html, '<li>',itemAsHtml, '</li>', Character cr.].
 	 [lastLevel > 0] whileTrue: [
 		lastLevel := lastLevel - 1.
-		html append: '</ul>', Character cr].
+		html := html, '</ul>', Character cr].
 	 ^ html

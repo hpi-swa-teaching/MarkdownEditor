@@ -2,7 +2,7 @@ as yet unclassified
 testConvertOrderedList
 	"not implemented yet"
 
-	| block html expectedHtml |
+	| block html |
 	
 	block :=self createBlockFrom: '1. Level 1'.
 	block append: (MarkdownLine newFrom: '2. Level1').
@@ -13,12 +13,6 @@ testConvertOrderedList
 		block append: (MarkdownLine newFrom: '	5. Level 2').
 		block append: (MarkdownLine newFrom: '3. Level 1').
 	
-	html := htmlConverter convert: {block}.
-	expectedHtml :='<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-Ordered List</body>
-</html>'.
+	html := htmlConverter convertOrderedList: block.
 
-	self assert: (expectedHtml = html).
+	self assert: ('Ordered List' = html).
