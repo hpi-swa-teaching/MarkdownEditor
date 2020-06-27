@@ -1,9 +1,15 @@
 as yet unclassified
-convert: aBlockList
+convert: aBlockList with: aStyleSettings
 
 	| html |
 
-	html := '<!DOCTYPE html>', Character cr, '<html>', Character cr, '<head></head>', Character cr,'<body>', Character cr.
+	html := 
+'<!DOCTYPE html>
+<html>
+<head>
+	', (self convertStyleSettings: aStyleSettings), '
+</head>
+<body>', Character cr.
 
 	aBlockList do: [:block | 
 		html := html, (block convertWith: self)].

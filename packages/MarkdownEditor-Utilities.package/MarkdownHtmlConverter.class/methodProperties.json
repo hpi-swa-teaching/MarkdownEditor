@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"convert:" : "MK 6/21/2020 17:45",
-		"convertCodeBlock:" : "MK 6/21/2020 17:45",
+		"convert:with:" : "hsl 6/27/2020 15:49",
+		"convertCodeBlock:" : "hsl 6/27/2020 16:25",
+		"convertColorToRGBA:" : "hsl 6/27/2020 16:38",
 		"convertCommentBlock:" : "MK 6/21/2020 17:45",
 		"convertHeading:" : "MK 6/21/2020 17:45",
 		"convertInlines:" : "MK 6/21/2020 17:45",
 		"convertOrderedList:" : "MK 6/21/2020 17:46",
 		"convertParagraph:" : "MK 6/21/2020 17:46",
-		"convertUnorderedList:" : "MK 6/21/2020 17:46" } }
+		"convertStyleSettings:" : "hsl 6/27/2020 15:50",
+		"convertUnorderedList:" : "hsl 6/27/2020 16:19" } }

@@ -12,12 +12,8 @@ testConvertUnorderedList
 		block append: (MarkdownLine newFrom: '	- Level 2').
 		block append: (MarkdownLine newFrom: '- Level 1').
 	
-	html := htmlConverter convert: {block}.
-	expectedHtml := '<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-<ul>
+	html := htmlConverter convertUnorderedList: block.
+	expectedHtml := '<ul>
 <li>Level 1</li>
 <li>Level1</li>
 <ul>
@@ -31,7 +27,6 @@ testConvertUnorderedList
 </ul>
 <li>Level 1</li>
 </ul>
-</body>
-</html>'.
+'.
 
 	self assert: (expectedHtml = html).

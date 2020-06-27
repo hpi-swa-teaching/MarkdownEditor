@@ -1,19 +1,11 @@
 as yet unclassified
 testConvertCodeBlock
 
-	| block html expectedHtml |
+	| codeBlock html |
 	
-	block :=self createBlockFrom: '```'.
-	block append: (MarkdownLine newFrom: 'Some Code').
-	block append: (MarkdownLine newFrom: '```').
+	codeBlock :=self createBlockFrom: '```'.
+ 	codeBlock append: (MarkdownLine newFrom: 'Some Code').
+ 	codeBlock append: (MarkdownLine newFrom: '```').
+	html := htmlConverter convertCodeBlock: codeBlock.
 	
-	html := htmlConverter convert: {block}.
-	expectedHtml := '<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-<code>Some Code</code>
-</body>
-</html>'.
-
-	self assert: (expectedHtml = html).
+	self assert: ('<code>Some Code</code>', Character cr = html).

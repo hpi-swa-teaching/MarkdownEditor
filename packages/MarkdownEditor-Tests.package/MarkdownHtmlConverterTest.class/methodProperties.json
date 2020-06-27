@@ -5,12 +5,14 @@
 		"createBlockFrom:" : "MK 6/21/2020 17:39",
 		"setUp" : "MK 6/21/2020 17:40",
 		"testConvertBasicParagraph" : "MK 6/21/2020 17:41",
-		"testConvertBlockList" : "MK 6/21/2020 18:22",
+		"testConvertBlockList" : "hsl 6/27/2020 16:23",
 		"testConvertBoldParagraph" : "MK 6/21/2020 17:41",
-		"testConvertCodeBlock" : "MK 6/21/2020 18:21",
+		"testConvertCodeBlock" : "hsl 6/27/2020 16:21",
 		"testConvertCommentBlock" : "MK 6/21/2020 17:41",
 		"testConvertComplexParagraph" : "MK 6/21/2020 17:41",
 		"testConvertHeadings" : "MK 6/21/2020 17:42",
 		"testConvertItalicParagraph" : "MK 6/21/2020 17:42",
-		"testConvertOrderedList" : "MK 6/21/2020 18:30",
-		"testConvertUnorderedList" : "MK 6/21/2020 18:25" } }
+		"testConvertOrderedList" : "hsl 6/27/2020 16:08",
+		"testConvertStyleSettings" : "hsl 6/27/2020 16:49",
+		"testConvertToRGBA" : "hsl 6/27/2020 16:38",
+		"testConvertUnorderedList" : "hsl 6/27/2020 16:17" } }
