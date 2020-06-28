@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testColorIsBlack" : "MK 6/28/2020 12:12",
 		"testCreateBoldEmphasis" : "kgr 7/23/2019 12:07",
 		"testCreateItalicEmphasis" : "kgr 7/23/2019 12:08",
 		"testDifferentEmphasisType" : "jst 7/25/2019 14:44",
 		"testEndPositionsAreUnequal" : "jst 7/25/2019 14:44",
 		"testEqual" : "jst 7/25/2019 14:41",
+		"testSetColor" : "MK 6/28/2020 12:13",
 		"testSetRange" : "kgr 7/23/2019 11:49",
 		"testStartPositionsAreUnequal" : "jst 7/25/2019 14:43" } }

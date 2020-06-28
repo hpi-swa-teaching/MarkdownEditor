@@ -1,4 +1,4 @@
-as yet unclassified
+test - begin
 testMayNotBeginWithUnspacedText
 
 	 {'-hashtag'. ' -missing space'. '  -no list'}  do: [:each | 

@@ -1,4 +1,4 @@
-as yet unclassified
+test - begin
 testMayBeginWithCorrectIndentation
 
 	 {'- '. '	- '. '		- '} do: [:item | 

@@ -1,4 +1,4 @@
-as yet unclassified
+test - begin
 testMayBeginWithCorrectIndentationWithText
 
 	 {'- L1'. '	- L2'. '		- L3'} do: [:item | 
