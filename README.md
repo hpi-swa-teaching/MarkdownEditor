@@ -19,8 +19,9 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] Smalltalk code blocks
 - [x] HTML comment blocks
 - [x] Unordered lists
-- [ ] Ordered lists
+- [x] Ordered lists
 - [x] URLs
+- [x] Blockquotes
 - [ ] Images
 - [ ] Highlight escaped characters
 

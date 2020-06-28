@@ -7,8 +7,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ ubuntu-latest, macos-latest ]
-        smalltalk: [ Squeak64-5.3, Squeak64-trunk ]
+        os: [ ubuntu-latest ]
+        smalltalk: [ Squeak64-5.3 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
