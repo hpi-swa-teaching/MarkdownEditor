@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"canChangeFontColor" : "azi 6/28/2020 15:54",
+		"canChangeFontSize" : "azi 6/28/2020 15:54",
+		"defaultFontColors" : "azi 6/28/2020 14:23",
+		"defaultFontSizes" : "azi 6/28/2020 14:24",
+		"labels" : "azi 6/28/2020 15:31" },
+	"instance" : {
+		"addAttributesTo:" : "azi 6/28/2020 15:56",
+		"addAttributesTo:from:to:" : "azi 6/28/2020 16:25",
+		"colorAttribute" : "azi 6/28/2020 14:25",
+		"font" : "azi 6/28/2020 14:25",
+		"fontColor" : "azi 6/28/2020 14:26",
+		"fontSize" : "azi 6/28/2020 14:26",
+		"styleSettings" : "azi 6/28/2020 14:26",
+		"styleSettings:" : "azi 6/28/2020 14:26",
+		"textAttribute" : "azi 6/28/2020 14:25" } }

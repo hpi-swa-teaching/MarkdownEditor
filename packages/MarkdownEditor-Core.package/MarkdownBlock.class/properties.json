@@ -7,10 +7,9 @@
 	"commentStamp" : "jst 7/10/2019 15:46",
 	"instvars" : [
 		"lines",
-		"styleSettings",
 		"styler" ],
 	"name" : "MarkdownBlock",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownStyleElement",
 	"type" : "normal" }

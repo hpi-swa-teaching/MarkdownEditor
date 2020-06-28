@@ -6,7 +6,7 @@ convertUnorderedList: anUnorderedList
 	 html := ''.
 	 anUnorderedList lines do: [:line | 
 		| item |
-		item := MarkdownUnorderedListItem newFrom: line.
+		item := MarkdownUnorderedListItem newFrom: line with: anUnorderedList styleSettings.
 		item styler: anUnorderedList styler.
 		itemAsHtml := self convertInlines: item contentAsText.
 		[lastLevel < item level] whileTrue: [

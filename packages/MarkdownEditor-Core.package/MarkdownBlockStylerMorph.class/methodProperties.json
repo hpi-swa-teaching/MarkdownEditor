@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"for:" : "azi 6/12/2020 02:55" },
+		"for:with:and:" : "azi 6/28/2020 16:13" },
 	"instance" : {
 		"addLabelMorph" : "azi 6/12/2020 16:02",
 		"adjustTo:" : "azi 6/12/2020 02:44",
@@ -12,7 +12,7 @@
 		"fontSizeSlider:" : "azi 6/12/2020 01:52",
 		"handleColorPickerChangeTo:with:" : "azi 6/12/2020 15:21",
 		"handleSliderChangeTo:" : "azi 6/12/2020 16:01",
-		"initialize" : "azi 6/12/2020 15:13",
+		"initializeWith:and:" : "azi 6/28/2020 17:09",
 		"sliderLabel" : "azi 6/12/2020 01:52",
 		"sliderLabel:" : "azi 6/12/2020 01:52",
 		"styleSettings" : "azi 6/12/2020 01:52",

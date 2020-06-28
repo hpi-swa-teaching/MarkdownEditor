@@ -8,4 +8,4 @@ testConvertingToTextUsesInlineStyler
 	blockquote styler: mockTextStyler.
 
 	blockquote asText.
-	self assert: line asString equals: mockTextStyler memorizedStylingRequest string
+	self assert: line asString equals: mockTextStyler memorizedStylingRequest string.
