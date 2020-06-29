@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testExtendableWith" : "MK 6/28/2020 12:14",
+		"testListCategoryEqualsListItemCategory" : "azi 6/29/2020 15:43",
 		"testMayBeginWithCorrectIndentation" : "MK 5/27/2020 14:14",
 		"testMayBeginWithCorrectIndentationWithText" : "MK 5/27/2020 14:14",
 		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",

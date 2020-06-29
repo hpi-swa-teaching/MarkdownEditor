@@ -2,4 +2,4 @@ as yet unclassified
 openOptions
 
 	self textMorph accept.
-	self optionsMenu open.
+	^ self optionsMenu open
