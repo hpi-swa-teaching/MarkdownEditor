@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "hsl 5/17/2020 22:59",
 	"instvars" : [
-		"startPosition",
-		"endPosition",
-		"textAttribute",
-		"colorAttribute",
 		"url" ],
 	"name" : "MarkdownLink",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownInlineElement",
 	"type" : "normal" }

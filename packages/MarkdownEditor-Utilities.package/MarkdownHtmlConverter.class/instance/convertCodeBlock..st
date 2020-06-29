@@ -7,4 +7,4 @@ convertCodeBlock: aCodeBlock
 	closingTag := '</code>'.
 	content := aCodeBlock codeContent.
 
-	^ openingTag, content, closingTag, Character cr.
+	^ openingTag, Character cr, content, closingTag, Character cr.
