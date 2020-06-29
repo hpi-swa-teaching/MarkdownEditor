@@ -10,4 +10,4 @@ add: aCollectionOfMarkdownInlineElements to: aText
 		aText
 			addAttribute: element colorAttribute
 			from: element startPosition
-			to: element endPosition]
+			to: element endPosition].

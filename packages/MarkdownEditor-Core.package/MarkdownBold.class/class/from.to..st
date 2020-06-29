@@ -1,5 +1,5 @@
-instance creation
-strongFrom: startPosition to: endPosition
+as yet unclassified
+from: startPosition to: endPosition
 
 	^ self new
 		textAttribute: TextEmphasis bold;

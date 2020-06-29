@@ -4,7 +4,7 @@ convertParagraph: aParagraph
 	| html |
 	
 	html := '<p>'.
-	html := html, (self convertInlines: aParagraph asText).
+	html := html, (self convertInlines: aParagraph).
 	html := html, '</p>', Character cr.
 	
 	^ html.

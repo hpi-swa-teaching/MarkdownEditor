@@ -1,4 +1,4 @@
-MarkdownEditor-Tests
+as yet unclassified
 hash
 
 	^ ((self startPosition hash bitXor: self endPosition hash)

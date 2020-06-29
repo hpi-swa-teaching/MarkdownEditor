@@ -8,7 +8,7 @@ convertList: aList withTag: aTag
 		| item |
 		item := aList makeNewListItemFrom: line.
 		item styler: aList styler.
-		itemAsHtml := self convertInlines: item contentAsText.
+		itemAsHtml := self convertInlines: item.
 		[lastLevel < item level] whileTrue: [
 			lastLevel := lastLevel + 1.
 			html := html, '<', aTag, '>', Character cr].
