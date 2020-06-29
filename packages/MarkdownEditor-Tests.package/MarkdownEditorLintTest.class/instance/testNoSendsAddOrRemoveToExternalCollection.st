@@ -1,0 +1,4 @@
+Intention Revealing
+testNoSendsAddOrRemoveToExternalCollection
+
+	self assertAllZero: (self lint: #smallLintCollectionMessagesToExternalObject)
