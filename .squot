@@ -1,6 +1,6 @@
 OrderedDictionary {
+	'packages\/BaselineOfMarkdownEditor.package' : #SquotCypressCodeSerializer,
 	'packages\/MarkdownEditor-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/MarkdownEditor-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfMarkdownEditor.package' : #SquotCypressCodeSerializer,
 	'packages\/MarkdownEditor-Utilities.package' : #SquotCypressCodeSerializer
 }
