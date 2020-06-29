@@ -1,6 +1,6 @@
-initialize-release
+initialize
 initializeActions
-
+		
 	self addMorph: (PluggableButtonMorph new 
 		position: self position + (490@370); 
 		label: 'Cancel'; 
