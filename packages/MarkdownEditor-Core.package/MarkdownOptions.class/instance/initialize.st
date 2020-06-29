@@ -1,4 +1,4 @@
-initialize-release
+initialize
 initialize
 
 	super initialize.
@@ -7,6 +7,7 @@ initialize
 	self addMorph: contentMorph frame: (0@0 corner: 1@1).
 	
 	self initializeBlockStylerMorphs.
+	self initializeTabs.
 	self initializeActions.
 	
 	

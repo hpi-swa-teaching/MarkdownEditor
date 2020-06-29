@@ -11,5 +11,5 @@
 	"name" : "MarkdownListItem",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownStyleElement",
 	"type" : "normal" }

@@ -4,5 +4,5 @@ asText
 	
 	 text := self line content asText.
 	 self styler privateStyle: text.
-	 text addAttribute: self textAttribute.
+	 self addAttributesTo: text.
 	 ^ text

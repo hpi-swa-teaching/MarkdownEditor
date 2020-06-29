@@ -1,4 +1,4 @@
 as yet unclassified
-defaultFontSize
+defaultFontSizes
 
 	^ {10}

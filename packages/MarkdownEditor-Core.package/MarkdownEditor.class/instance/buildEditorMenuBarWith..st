@@ -8,7 +8,7 @@ buildEditorMenuBarWith: aBuilder
 				label: 'New';
 				model: self;
 				enabled: true;
-				action: #createNewInstancel;
+				action: #createNewInstance;
 				yourself.
 			aBuilder pluggableButtonSpec new
 				label: 'Convert to Html';

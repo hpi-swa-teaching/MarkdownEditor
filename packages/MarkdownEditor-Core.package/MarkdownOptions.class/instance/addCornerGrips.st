@@ -1,0 +1,4 @@
+resizing
+addCornerGrips
+
+	"disable resizing"

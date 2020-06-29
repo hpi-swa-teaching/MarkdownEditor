@@ -6,9 +6,11 @@
 		"testApplyChanges" : "azi 6/13/2020 06:47",
 		"testBlockStylerAdjustments" : "azi 6/13/2020 06:12",
 		"testCancelChanges" : "azi 6/13/2020 07:06",
+		"testCancelChangesOnClosing" : "azi 6/29/2020 16:51",
 		"testChangeCommentFontColor" : "azi 6/13/2020 06:27",
 		"testChangeHeadingFontColors" : "azi 6/13/2020 06:43",
 		"testChangeHeadingFontSizes" : "azi 6/13/2020 06:39",
 		"testChangeParagraphFontSize" : "azi 6/13/2020 06:30",
 		"testCloseMarkdownOptions" : "azi 6/4/2020 14:59",
-		"testCreateMarkdownOptions" : "azi 6/13/2020 05:18" } }
+		"testCreateMarkdownOptions" : "azi 6/29/2020 15:45",
+		"testDefaultPlaceholderLabel" : "azi 6/28/2020 16:45" } }

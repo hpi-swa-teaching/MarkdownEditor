@@ -7,5 +7,5 @@ testTextAttributesOfLevels1To4
 			parsedText := (MarkdownUnorderedList newFrom: line) asText.
 			self 
 				assertRuns: {4}
-				values: {{self fontSized: size}}
+				values: {{TextColor color: Color black. self fontSized: size}}
 				areStyleOf: parsedText.] 

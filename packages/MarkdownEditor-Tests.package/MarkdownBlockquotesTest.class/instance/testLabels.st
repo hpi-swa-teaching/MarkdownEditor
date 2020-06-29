@@ -1,3 +1,4 @@
 tests
 testLabels
-	self assert: MarkdownBlockquote labels equals: {'Blockquote'} 
+
+	self assert: MarkdownBlockquote labels equals: {'Blockquote'}. 

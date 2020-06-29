@@ -10,4 +10,4 @@ testConvertingToTextUsesInlineStylerWithMultipleLines
 	blockquote append: line2.
 
 	blockquote asText.
-	self assert: line asString, line2 asString equals: mockTextStyler memorizedStylingRequest string
+	self assert: line asString, line2 asString equals: mockTextStyler memorizedStylingRequest string.

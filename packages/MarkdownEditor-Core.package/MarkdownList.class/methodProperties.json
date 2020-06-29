@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"labels" : "hsl 6/18/2020 15:37",
-		"mayBeginWith:" : "hsl 6/18/2020 15:20" },
+		"blockCategory" : "azi 6/29/2020 02:29",
+		"defaultFontColors" : "azi 6/28/2020 14:53",
+		"defaultFontSizes" : "azi 6/28/2020 14:53",
+		"mayBeginWith:" : "azi 6/28/2020 15:46" },
 	"instance" : {
 		"asText" : "hsl 6/18/2020 13:16",
 		"initialize" : "hsl 6/18/2020 13:17",

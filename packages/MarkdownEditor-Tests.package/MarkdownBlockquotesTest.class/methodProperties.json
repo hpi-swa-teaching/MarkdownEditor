@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testConvertingToTextUsesInlineStyler" : "MK 6/21/2020 20:36",
-		"testConvertingToTextUsesInlineStylerWithMultipleLines" : "MK 6/21/2020 21:08",
-		"testDefaultColorIsBlue" : "MK 6/21/2020 21:11",
-		"testDefaultFontSizeIs10" : "MK 6/21/2020 21:11",
-		"testExtandableWith" : "MK 6/21/2020 21:09",
-		"testLabels" : "MK 6/21/2020 21:12",
-		"testMayBeginWith" : "MK 6/21/2020 20:38",
-		"testMayNotBeginWith" : "MK 6/21/2020 20:39" } }
+		"testConvertingToTextUsesInlineStyler" : "azi 6/28/2020 15:43",
+		"testConvertingToTextUsesInlineStylerWithMultipleLines" : "azi 6/28/2020 15:43",
+		"testDefaultColorIsBlue" : "azi 6/28/2020 15:43",
+		"testDefaultFontSizeIs10" : "azi 6/28/2020 15:43",
+		"testExtandableWith" : "azi 6/28/2020 15:44",
+		"testLabels" : "azi 6/28/2020 15:44",
+		"testMayBeginWith" : "azi 6/28/2020 15:44",
+		"testMayNotBeginWith" : "azi 6/28/2020 15:44" } }
