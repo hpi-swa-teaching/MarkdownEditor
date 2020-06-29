@@ -4,10 +4,10 @@
 	"instance" : {
 		"testColorIsBlack" : "cg 6/29/2020 21:52",
 		"testCreateBoldEmphasis" : "cg 6/29/2020 21:53",
-		"testCreateItalicEmphasis" : "kgr 7/23/2019 12:08",
+		"testCreateItalicEmphasis" : "cg 6/29/2020 23:43",
 		"testDifferentEmphasisType" : "cg 6/29/2020 21:53",
-		"testEndPositionsAreUnequal" : "jst 7/25/2019 14:44",
-		"testEqual" : "jst 7/25/2019 14:41",
+		"testEndPositionsAreUnequal" : "cg 6/29/2020 23:45",
+		"testEqual" : "cg 6/29/2020 23:45",
 		"testSetColor" : "cg 6/29/2020 21:54",
 		"testSetRange" : "kgr 7/23/2019 11:49",
-		"testStartPositionsAreUnequal" : "jst 7/25/2019 14:43" } }
+		"testStartPositionsAreUnequal" : "cg 6/29/2020 23:46" } }
