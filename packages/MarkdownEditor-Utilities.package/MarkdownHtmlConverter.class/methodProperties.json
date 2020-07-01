@@ -8,9 +8,7 @@
 		"convertCodeBlock:" : "cg 6/29/2020 18:49",
 		"convertColorToRGBA:" : "hsl 6/27/2020 16:38",
 		"convertCommentBlock:" : "MK 6/21/2020 17:45",
-		"convertEmphasis:" : "cg 6/29/2020 21:43",
 		"convertHeading:" : "cg 6/29/2020 22:18",
-		"convertInlines2:" : "cg 6/29/2020 19:06",
 		"convertInlines:" : "hsl 6/30/2020 18:22",
 		"convertItalic:" : "cg 6/29/2020 22:01",
 		"convertLink:" : "cg 6/29/2020 21:42",
@@ -18,5 +16,4 @@
 		"convertOrderedList:" : "cg 6/29/2020 17:58",
 		"convertParagraph:" : "cg 6/29/2020 22:21",
 		"convertStyleSettings:" : "hsl 6/27/2020 15:50",
-		"convertUnorderedList:" : "cg 6/29/2020 17:57",
-		"inlineElementsFrom:" : "cg 6/29/2020 19:09" } }
+		"convertUnorderedList:" : "cg 6/29/2020 17:57" } }

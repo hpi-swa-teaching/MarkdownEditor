@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testConvertToHTML" : "hsl 7/1/2020 12:05",
 		"testCreateEmptyLink" : "MK 5/25/2020 15:36",
 		"testCreateUnemptyLink" : "MK 5/25/2020 15:28",
 		"testEndPositionsAreUnequal" : "hsl 5/19/2020 22:34",

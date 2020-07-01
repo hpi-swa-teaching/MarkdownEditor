@@ -4,7 +4,9 @@
 	"instance" : {
 		"testEndPosition" : "jst 6/26/2019 14:29",
 		"testExtend" : "jst 6/29/2019 16:10",
+		"testIsCloser" : "hsl 7/1/2020 12:36",
 		"testIsExtendableWithAnyCharacterExceptAsterisk" : "hsl 5/19/2020 23:40",
 		"testIsNotExtendableWithAsterisk" : "jst 6/28/2019 15:13",
+		"testIsOpener" : "hsl 7/1/2020 12:35",
 		"testStartPosition" : "jst 6/26/2019 14:28",
 		"testStringAsString" : "jst 6/26/2019 15:11" } }

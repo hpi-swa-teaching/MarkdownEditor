@@ -8,6 +8,7 @@
 		"test4BackticksClose3Backticks" : "jko 7/4/2019 17:08",
 		"testAutoClosingCodeContentWithNewline" : "jko 7/4/2019 16:24",
 		"testClosedCodeBlockIsNotExtendable" : "jko 7/4/2019 17:07",
+		"testConvertToHTML" : "hsl 7/1/2020 12:17",
 		"testConvertingToTextContainsClosingFences" : "jst 7/4/2019 18:38",
 		"testConvertingToTextContainsOpeningFences" : "jst 7/4/2019 18:37",
 		"testConvertingToTextUsesTextStyler" : "jko 7/4/2019 16:25",
