@@ -1,0 +1,4 @@
+constants
+maximumLevel
+
+	^ 3

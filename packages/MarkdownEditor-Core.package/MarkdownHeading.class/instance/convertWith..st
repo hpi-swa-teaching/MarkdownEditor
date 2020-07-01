@@ -1,4 +1,4 @@
-as yet unclassified
+export
 convertWith: aConverter
 
 	^ aConverter convertHeading: self

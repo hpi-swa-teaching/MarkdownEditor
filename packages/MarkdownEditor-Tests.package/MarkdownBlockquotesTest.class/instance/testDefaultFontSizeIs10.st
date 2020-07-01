@@ -1,3 +1,4 @@
 tests
 testDefaultFontSizeIs10
-	self assert: MarkdownBlockquote defaultFontSize equals: {10} 
+
+	self assert: MarkdownBlockquote defaultFontSizes equals: {10}. 

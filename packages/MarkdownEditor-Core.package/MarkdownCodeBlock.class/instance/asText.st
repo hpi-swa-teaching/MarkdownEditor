@@ -8,4 +8,5 @@ asText
 	result := self firstLine asText, code.
 	self isClosed
 		ifTrue: [result := result, self lastLine asText].
+	self addAttributesTo: result.
 	^ result

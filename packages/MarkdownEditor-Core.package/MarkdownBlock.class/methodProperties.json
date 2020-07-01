@@ -1,28 +1,18 @@
 {
 	"class" : {
-		"defaultFontColors" : "azi 6/12/2020 13:11",
-		"defaultFontSizes" : "azi 6/12/2020 00:50",
-		"labels" : "hsl 6/18/2020 15:26",
 		"mayBeginWith:" : "hsl 6/18/2020 15:12",
 		"newFrom:" : "azi 6/1/2020 15:42" },
 	"instance" : {
 		"append:" : "jko 7/4/2019 16:17",
 		"asText" : "jst 6/10/2019 12:12",
-		"colorAttribute" : "azi 6/12/2020 16:16",
 		"content" : "jko 7/4/2019 16:09",
 		"convertWith:" : "cg 6/29/2020 21:31",
 		"croppedContent" : "cg 6/29/2020 22:24",
 		"firstLine" : "jst 6/10/2019 11:18",
-		"font" : "MK 6/19/2020 18:44",
-		"fontColor" : "azi 6/12/2020 00:40",
-		"fontSize" : "azi 6/12/2020 00:39",
 		"initialize" : "azi 6/12/2020 12:57",
 		"isExtendableWith:" : "jko 7/4/2019 17:02",
 		"lastLine" : "jst 6/10/2019 11:34",
 		"lines" : "jko 7/4/2019 18:03",
 		"lines:" : "jko 7/4/2019 16:12",
-		"styleSettings" : "azi 6/1/2020 15:42",
-		"styleSettings:" : "azi 6/1/2020 15:42",
 		"styler" : "fgo 6/14/2019 14:29",
-		"styler:" : "jst 6/19/2019 16:05",
-		"textAttribute" : "azi 6/12/2020 16:17" } }
+		"styler:" : "jst 6/19/2019 16:05" } }

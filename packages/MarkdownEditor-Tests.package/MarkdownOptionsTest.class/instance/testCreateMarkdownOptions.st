@@ -7,7 +7,7 @@ testCreateMarkdownOptions
 		currentStyleSettings: MarkdownStyleSettings default;
 		onChange: [].
 	
-	self assert: MarkdownStyleSettings default = options currentStyleSettings.
+	self assert: (MarkdownStyleSettings default = options currentStyleSettings).
 	buttons := options submorphs select: [:morph | morph isKindOf: PluggableButtonMorph].
 	
 	self assert: buttons size = 2.
