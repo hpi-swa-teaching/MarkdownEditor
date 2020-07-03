@@ -28,6 +28,7 @@
 		"testInterpretTokensWithoutEmphasis" : "hsl 5/19/2020 22:46",
 		"testIsReusable" : "hsl 5/19/2020 23:13",
 		"testLinks" : "hsl 7/1/2020 12:44",
+		"testPrecedingTokenOf" : "MK 7/3/2020 14:18",
 		"testPreviousEmphasesGetRemoved" : "jst 7/25/2019 14:34",
 		"testProcessingTwoDelimitersCreatesBoldEmphasis" : "cg 6/29/2020 21:56",
 		"testProcessingTwoDelimitersCreatesItalicEmphasis" : "cg 6/29/2020 23:49",
