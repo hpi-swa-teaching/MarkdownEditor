@@ -6,5 +6,5 @@ testProcessingTwoDelimitersCreatesBoldEmphasis
 		process: inlineTextStyler tokens first and: inlineTextStyler tokens last.
 	
 	self 
-		assert: {MarkdownEmphasis strongFrom: 1 to: 5}
+		assert: {MarkdownBold from: 1 to: 5}
 		areInlineElementsIn: inlineTextStyler inlineElements

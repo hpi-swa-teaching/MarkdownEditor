@@ -1,0 +1,4 @@
+extending
+croppedContent
+
+	^ self content

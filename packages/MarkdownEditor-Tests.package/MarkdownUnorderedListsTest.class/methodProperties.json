@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExtendableWith" : "MK 6/28/2020 12:14",
-		"testListCategoryEqualsListItemCategory" : "azi 6/29/2020 15:43",
+		"testConvertWith" : "hsl 7/1/2020 12:00",
+		"testExtendableWith" : "hsl 7/1/2020 03:11",
+		"testListCategoryEqualsListItemCategory" : " 7/2/2020 12:57:53",
 		"testMayBeginWithCorrectIndentation" : "MK 5/27/2020 14:14",
 		"testMayBeginWithCorrectIndentationWithText" : "MK 5/27/2020 14:14",
 		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",

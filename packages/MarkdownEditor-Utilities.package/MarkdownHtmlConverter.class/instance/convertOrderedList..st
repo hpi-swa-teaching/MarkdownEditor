@@ -1,4 +1,4 @@
 as yet unclassified
 convertOrderedList: anOrderedList
 
-	^ 'Ordered List'
+	^ self convertList: anOrderedList withTag: 'ol'

@@ -6,5 +6,5 @@ testProcessingTwoDelimitersCreatesItalicEmphasis
 		process: inlineTextStyler tokens first and: inlineTextStyler tokens last.
 	
 	self 
-		assert: {MarkdownEmphasis from: 1 to: 3}
+		assert: {MarkdownItalic from: 1 to: 3}
 		areInlineElementsIn: inlineTextStyler inlineElements

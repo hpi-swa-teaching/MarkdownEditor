@@ -6,6 +6,6 @@ testInterpretTokensAsItalics
 		interpretTokens.
 	
 	self 
-		assert: {MarkdownEmphasis from: 1 to: 5}
+		assert: {MarkdownItalic from: 1 to: 5}
 		areInlineElementsIn: inlineTextStyler inlineElements
 	

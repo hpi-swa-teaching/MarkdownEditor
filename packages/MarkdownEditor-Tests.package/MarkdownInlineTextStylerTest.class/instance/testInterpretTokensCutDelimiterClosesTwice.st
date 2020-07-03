@@ -8,5 +8,5 @@ testInterpretTokensCutDelimiterClosesTwice
 	self assert: 6 equals: inlineTextStyler tokens size.
 	
 	self 
-		assert: {MarkdownEmphasis from: 1 to: 8. MarkdownEmphasis strongFrom: 3 to: 7}
+		assert: {MarkdownItalic from: 1 to: 8. MarkdownBold from: 3 to: 7}
 		areInlineElementsIn: inlineTextStyler inlineElements

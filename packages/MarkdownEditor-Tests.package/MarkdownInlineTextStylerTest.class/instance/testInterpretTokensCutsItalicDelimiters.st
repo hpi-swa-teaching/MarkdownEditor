@@ -8,5 +8,5 @@ testInterpretTokensCutsItalicDelimiters
 	self assert: 4 equals: inlineTextStyler tokens size.
 	
 	self 
-		assert: {MarkdownEmphasis from: 2 to: 4}
+		assert: {MarkdownItalic from: 2 to: 4}
 		areInlineElementsIn: inlineTextStyler inlineElements
