@@ -3,7 +3,8 @@ testConvertToHtml
 
 	| editor windows |
 	editor := MarkdownEditor new.
-	ToolBuilder open: editor.
+	window delete.
+	window := ToolBuilder open: editor.
 	editor markdownText: 'Hallo'.
 	editor convertToHTML.
 	windows := (World submorphs select: [:morph | morph isKindOf: MarkdownHtmlExportView]). 
@@ -51,3 +52,4 @@ testConvertToHtml
 <p>Hallo</p>
 </body>
 </html>'.
+	windows first delete
