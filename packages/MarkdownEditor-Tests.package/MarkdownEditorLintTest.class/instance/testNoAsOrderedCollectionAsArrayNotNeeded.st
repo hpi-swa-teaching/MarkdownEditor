@@ -1,0 +1,4 @@
+Miscellaneous
+testNoAsOrderedCollectionAsArrayNotNeeded
+
+	self assertAllZero: (self lint: #smallLintAsOrderedCollectionNotNeeded)

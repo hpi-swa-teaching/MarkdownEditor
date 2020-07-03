@@ -1,0 +1,4 @@
+Miscellaneous
+testNoVariableIsOnlyAssignedASingleLiteralValue
+
+	self assertAllZero: (self lint: #smallLintVariableAssignedLiteral)
