@@ -4,8 +4,7 @@
 	"instance" : {
 		"testConvertWith" : "hsl 7/1/2020 12:00",
 		"testExtendableWith" : "hsl 7/1/2020 03:11",
-		"testItemAsText" : "hsl 7/1/2020 11:57",
-		"testLabels" : "hsl 7/1/2020 12:28",
+		"testListCategoryEqualsListItemCategory" : " 7/2/2020 12:57:53",
 		"testMayBeginWithCorrectIndentation" : "MK 5/27/2020 14:14",
 		"testMayBeginWithCorrectIndentationWithText" : "MK 5/27/2020 14:14",
 		"testMayBeginWithWrongIndentation" : "cg 5/27/2020 13:02",

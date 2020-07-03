@@ -1,4 +1,4 @@
-as yet unclassified
+conversion
 convertWith: aConverter
 
 	^ aConverter convertUnorderedList: self
