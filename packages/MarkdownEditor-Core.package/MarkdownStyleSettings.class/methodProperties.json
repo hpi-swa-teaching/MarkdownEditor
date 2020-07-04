@@ -2,7 +2,8 @@
 	"class" : {
 		"default" : "MK 6/18/2020 15:11",
 		"maxFontSize" : "azi 6/12/2020 02:58",
-		"minFontSize" : "azi 6/12/2020 02:58" },
+		"minFontSize" : "azi 6/12/2020 02:58",
+		"newFrom:" : "azi 7/4/2020 13:24" },
 	"instance" : {
 		"=" : "azi 6/13/2020 03:18",
 		"fontColors" : "azi 6/12/2020 00:27",

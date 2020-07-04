@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 refreshText
 
 	self changed: #markdownText.

@@ -1,4 +1,4 @@
-as yet unclassified
+open / save
 createNewInstance
 
-	MarkdownEditor open
+	self class open

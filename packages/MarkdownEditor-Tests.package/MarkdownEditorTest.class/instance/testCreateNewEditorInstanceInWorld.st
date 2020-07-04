@@ -1,11 +1,12 @@
 tests - window
 testCreateNewEditorInstanceInWorld
 
-	| editor window windows |
+	| editor windowsBefore windowsAfter |
 	
+	windowsBefore := (World submorphs select: [:morph | morph model isKindOf: MarkdownEditor]). 
 	editor := MarkdownEditor new.
 	window := toolbuilder open: editor.
 	editor createNewInstance.
-	windows := (World submorphs select: [:morph | morph model isKindOf: MarkdownEditor]). 
-	self assert: (windows size = 3).
-	windows do: [:window_ | window_ delete]
+	windowsAfter := (World submorphs select: [:morph | morph model isKindOf: MarkdownEditor]). 
+	self assert: (windowsAfter size - windowsBefore size = 2).
+	windowsAfter do: [:window_ | window_ delete]

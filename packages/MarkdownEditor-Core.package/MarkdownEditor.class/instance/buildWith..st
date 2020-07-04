@@ -9,6 +9,9 @@ buildWith: aBuilder
 	self textMorph: (aBuilder widgetAt: #textMorph).
 	self optionsMenu: ((MarkdownOptions labelled: 'Markdown Editor - Options')
 		currentStyleSettings: self blockTextStyler styleSettings;
-		onChange: [:aStyleSettings | self blockTextStyler styleSettings: aStyleSettings. self refreshText]).
+		onChange: [:aStyleSettings | self blockTextStyler styleSettings: aStyleSettings. 
+									  self saveTextInModel.
+									  self refreshText]).
+	self currentFilePath: ''.
 	 
 	^ window

@@ -1,5 +1,5 @@
-as yet unclassified
+open / save
 openOptions
 
-	self textMorph accept.
+	self saveTextInModel.
 	^ self optionsMenu open

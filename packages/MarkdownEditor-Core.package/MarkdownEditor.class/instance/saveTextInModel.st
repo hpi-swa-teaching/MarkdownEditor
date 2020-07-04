@@ -1,0 +1,4 @@
+updating
+saveTextInModel
+
+	self textMorph acceptTextInModel
