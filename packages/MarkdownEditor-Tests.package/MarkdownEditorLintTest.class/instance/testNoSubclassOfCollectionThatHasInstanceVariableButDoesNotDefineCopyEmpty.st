@@ -1,0 +1,4 @@
+Possible bugs
+testNoSubclassOfCollectionThatHasInstanceVariableButDoesNotDefineCopyEmpty
+
+	self assertAllZero: (self lint: #smallLintCollectionCopyEmpty)
