@@ -8,4 +8,4 @@ convertBlockquote: aBlockquote
 	content := aBlockquote croppedContent.
 	content := self convertInlines: aBlockquote.
 
-	^ openingTag, Character cr, content, closingTag, Character cr.
+	^ openingTag, Character cr, content, closingTag, Character cr
