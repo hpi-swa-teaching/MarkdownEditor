@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 colorAttribute
 
 	^ TextColor color: self fontColor

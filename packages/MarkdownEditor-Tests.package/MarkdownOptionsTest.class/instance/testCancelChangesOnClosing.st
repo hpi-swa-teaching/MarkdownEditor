@@ -3,7 +3,7 @@ testCancelChangesOnClosing
 
 	| options paragraphBlock styleSettings |
 	
-	options := MarkdownOptions new
+	options := MarkdownSettings new
 		currentStyleSettings: MarkdownStyleSettings default;
 		onChange: [:newStyleSettings | styleSettings := newStyleSettings].
 		

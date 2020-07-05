@@ -7,7 +7,7 @@ buildWith: aBuilder
 		(LayoutFrame fractions: (0 @ 0 corner: 1 @ 1) offsets: (0 @ (self menuBarHeight) corner: 0 @ 0)) -> [self buildEditorTextMorphWith: aBuilder]}.
 	window := aBuilder build: windowSpec.
 	self textMorph: (aBuilder widgetAt: #textMorph).
-	self optionsMenu: ((MarkdownOptions labelled: 'Markdown Editor - Options')
+	self settingsMenu: ((MarkdownSettings labelled: 'Markdown Editor - Settings')
 		currentStyleSettings: self blockTextStyler styleSettings;
 		onChange: [:aStyleSettings | self blockTextStyler styleSettings: aStyleSettings. self refreshText]).
 	 

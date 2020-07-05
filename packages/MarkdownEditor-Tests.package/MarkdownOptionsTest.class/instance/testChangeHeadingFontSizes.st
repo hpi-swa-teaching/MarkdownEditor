@@ -3,7 +3,7 @@ testChangeHeadingFontSizes
 
 	| options h1Block h4Block styleSettings |
 	
-	options := MarkdownOptions new
+	options := MarkdownSettings new
 		currentStyleSettings: MarkdownStyleSettings default;
 		onChange: [:newStyleSettings | styleSettings := newStyleSettings].
 		

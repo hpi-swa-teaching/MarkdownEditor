@@ -1,3 +1,4 @@
 accessing
-textMorph: anObject
-	textMorph := anObject
+textMorph: aTextMorph
+
+	textMorph := aTextMorph

@@ -1,4 +1,4 @@
-extending
+accessing
 croppedContent
 
 	^ self content

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "azi 6/28/2020 16:03",
 	"instvars" : [
-		"styleSettings" ],
+		"styleSettings",
+		"styler" ],
 	"name" : "MarkdownStyleElement",
 	"pools" : [
 		 ],

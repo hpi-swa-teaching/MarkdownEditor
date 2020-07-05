@@ -1,3 +1,4 @@
 accessing
-classCategory: anObject
-	classCategory := anObject
+classCategory: aClassCategory
+
+	classCategory := aClassCategory

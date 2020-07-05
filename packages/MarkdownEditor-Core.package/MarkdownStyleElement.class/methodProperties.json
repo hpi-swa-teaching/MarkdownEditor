@@ -8,10 +8,15 @@
 	"instance" : {
 		"addAttributesTo:" : "azi 6/28/2020 15:56",
 		"addAttributesTo:from:to:" : "azi 6/28/2020 16:25",
+		"asText" : "cg 7/5/2020 12:59",
 		"colorAttribute" : "azi 6/28/2020 14:25",
+		"content" : "cg 7/5/2020 13:05",
+		"croppedContent" : "cg 7/5/2020 13:06",
 		"font" : "azi 6/28/2020 14:25",
 		"fontColor" : "azi 6/28/2020 14:26",
 		"fontSize" : "azi 6/28/2020 14:26",
-		"styleSettings" : "azi 6/28/2020 14:26",
-		"styleSettings:" : "azi 6/28/2020 14:26",
+		"styleSettings" : "cg 7/5/2020 12:55",
+		"styleSettings:" : "cg 7/5/2020 12:55",
+		"styler" : "cg 7/5/2020 13:04",
+		"styler:" : "cg 7/5/2020 13:04",
 		"textAttribute" : "azi 6/28/2020 14:25" } }

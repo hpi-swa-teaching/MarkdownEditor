@@ -1,3 +1,4 @@
 accessing
-fontColorPicker: anObject
-	fontColorPicker := anObject
+fontColorPicker: aColorPicker
+
+	fontColorPicker := aColorPicker

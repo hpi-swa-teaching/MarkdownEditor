@@ -1,3 +1,4 @@
 accessing
-sliderLabel: anObject
-	sliderLabel := anObject
+sliderLabel: aLabel
+
+	sliderLabel := aLabel

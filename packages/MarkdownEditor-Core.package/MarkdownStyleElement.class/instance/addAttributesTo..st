@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addAttributesTo: aText
 
 	self class canChangeFontSize ifTrue: [aText addAttribute: self textAttribute].

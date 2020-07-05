@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildEditorMenuBarWith: aBuilder
 
 	^  aBuilder pluggablePanelSpec new
@@ -17,9 +17,9 @@ buildEditorMenuBarWith: aBuilder
 				action: #convertToHTML;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'Options';
+				label: 'Settings';
 				model: self;
-				action: #openOptions;
+				action: #openSettings;
 				enabled: true;
 				yourself };
 		yourself

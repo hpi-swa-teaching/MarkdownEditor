@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 fontSize
 	
 	^ self styleSettings fontSizes at: self class labels first

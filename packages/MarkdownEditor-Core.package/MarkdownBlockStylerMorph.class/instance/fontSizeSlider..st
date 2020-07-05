@@ -1,3 +1,4 @@
 accessing
-fontSizeSlider: anObject
-	fontSizeSlider := anObject
+fontSizeSlider: aSlider
+
+	fontSizeSlider := aSlider
