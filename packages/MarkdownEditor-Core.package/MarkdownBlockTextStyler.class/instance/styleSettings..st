@@ -1,3 +1,4 @@
 accessing
-styleSettings: anObject
-	styleSettings := anObject
+styleSettings: aStyleSettings
+
+	styleSettings := aStyleSettings

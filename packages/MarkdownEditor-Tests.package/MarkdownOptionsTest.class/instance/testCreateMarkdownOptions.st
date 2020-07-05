@@ -3,7 +3,7 @@ testCreateMarkdownOptions
 	
 	| options buttons |
 
-	options := MarkdownOptions new
+	options := MarkdownSettings new
 		currentStyleSettings: MarkdownStyleSettings default;
 		onChange: [].
 	

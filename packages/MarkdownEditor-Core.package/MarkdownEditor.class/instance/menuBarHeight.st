@@ -1,4 +1,4 @@
-as yet unclassified
+building
 menuBarHeight
 
 	^ 2 * Preferences standardButtonFont height

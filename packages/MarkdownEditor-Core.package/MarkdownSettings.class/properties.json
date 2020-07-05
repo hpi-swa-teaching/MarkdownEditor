@@ -12,7 +12,7 @@
 		"newStyleSettings",
 		"onChange",
 		"blockStylerMorphs" ],
-	"name" : "MarkdownOptions",
+	"name" : "MarkdownSettings",
 	"pools" : [
 		 ],
 	"super" : "SystemWindow",
