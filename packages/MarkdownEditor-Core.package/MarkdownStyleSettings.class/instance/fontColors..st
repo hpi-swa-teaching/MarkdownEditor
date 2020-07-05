@@ -1,4 +1,3 @@
 accessing
-fontColors: aColor
-
-	fontColors := aColor
+fontColors: anObject
+	fontColors := anObject

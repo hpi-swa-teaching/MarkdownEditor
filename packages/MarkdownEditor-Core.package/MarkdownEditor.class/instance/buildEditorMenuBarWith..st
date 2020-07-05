@@ -17,7 +17,7 @@ buildEditorMenuBarWith: aBuilder
 				action: #convertToHTML;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'Settings';
+				label: 'Options';
 				model: self;
 				action: #openSettings;
 				enabled: true;

@@ -1,8 +1,8 @@
 as yet unclassified
-testContentAsText
+testCroppedContent
 
 	 | line item |
 	 line := MarkdownLine newFrom: '- Item with **emphasis**' , Character cr.
 	 item := MarkdownUnorderedListItem newFrom: line.
 	 
-	 self assert: item contentAsText = 'Item with **emphasis**'
+	 self assert: item croppedContent = 'Item with **emphasis**'

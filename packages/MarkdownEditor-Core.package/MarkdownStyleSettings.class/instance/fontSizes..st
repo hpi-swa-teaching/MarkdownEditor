@@ -1,4 +1,3 @@
 accessing
-fontSizes: aSize
-
-	fontSizes := aSize
+fontSizes: anObject
+	fontSizes := anObject

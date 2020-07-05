@@ -1,0 +1,4 @@
+accessing
+croppedContent
+	
+	self subclassResponsibility

@@ -1,4 +1,3 @@
 accessing
-inlineElements: aCollectionOfInlineElements
-
-	inlineElements := aCollectionOfInlineElements
+inlineElements: anObject
+	inlineElements := anObject
