@@ -8,6 +8,24 @@ menubarContent: aBuilder
 				action: #createNewInstance;
 				yourself.
 			aBuilder pluggableButtonSpec new
+				label: 'Open';
+				model: self;
+				enabled: true;
+				action: #openFile;
+				yourself.
+			aBuilder pluggableButtonSpec new
+				label: 'Save';
+				model: self;
+				enabled: true;
+				action: #saveText;
+				yourself.
+			aBuilder pluggableButtonSpec new
+				label: 'Save As';
+				model: self;
+				enabled: true;
+				action: #saveAsFile;
+				yourself.
+			aBuilder pluggableButtonSpec new
 				label: 'Convert to Html';
 				model: self;
 				enabled: true;

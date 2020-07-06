@@ -1,5 +1,5 @@
-update
+open / save
 openSettings
 
-	self textMorph accept.
+	self saveTextInModel.
 	^ self settingsMenu open

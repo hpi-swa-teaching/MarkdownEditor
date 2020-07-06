@@ -1,0 +1,4 @@
+open / save
+fileEnding
+
+	^ 'mde'
