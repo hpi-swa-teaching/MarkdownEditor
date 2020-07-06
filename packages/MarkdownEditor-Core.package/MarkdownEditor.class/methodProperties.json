@@ -6,7 +6,7 @@
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
 		"blockTextStyler" : "azi 6/4/2020 11:00",
-		"buildEditorMenuBarWith:" : "cg 7/5/2020 11:57",
+		"buildEditorMenuBarWith:" : "MK 7/5/2020 20:19",
 		"buildEditorTextMorphWith:" : "azi 6/1/2020 15:57",
 		"buildWith:" : "cg 7/5/2020 12:20",
 		"convertToHTML" : "mas 6/28/2020 13:08",
@@ -14,6 +14,7 @@
 		"markdownText" : "lpf 6/13/2019 15:26",
 		"markdownText:" : "cg 7/5/2020 12:20",
 		"menuBarHeight" : "azi 6/1/2020 16:13",
+		"menubarContent:" : "MK 7/5/2020 20:18",
 		"openSettings" : "cg 7/5/2020 12:02",
 		"refreshText" : "azi 6/1/2020 17:21",
 		"settingsMenu" : "cg 7/5/2020 12:01",

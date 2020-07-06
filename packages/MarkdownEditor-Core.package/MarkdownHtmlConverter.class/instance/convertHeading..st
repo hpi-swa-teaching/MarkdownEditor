@@ -8,4 +8,4 @@ convertHeading: aHeading
 	content := aHeading content copyFrom: (aHeading level + 2) to: (aHeading content size).
 	content := self convertInlines: aHeading.
 
-	^ openingTag, content, closingTag, Character cr.
+	^ openingTag, content, closingTag, Character cr
