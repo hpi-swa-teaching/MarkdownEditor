@@ -1,0 +1,16 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"initializeCalled",
+		"openCalled",
+		"suffixes" ],
+	"name" : "MarkdownFileChooserMock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -11,7 +11,7 @@ menubarContent: aBuilder
 				label: 'Open';
 				model: self;
 				enabled: true;
-				action: #openFile;
+				action: [self openFile: FileChooser new];
 				yourself.
 			aBuilder pluggableButtonSpec new
 				label: 'Save';
@@ -23,7 +23,7 @@ menubarContent: aBuilder
 				label: 'Save As';
 				model: self;
 				enabled: true;
-				action: #saveAsFile;
+				action: [self saveAsFile: self fileSaverDialog];
 				yourself.
 			aBuilder pluggableButtonSpec new
 				label: 'Convert to Html';
