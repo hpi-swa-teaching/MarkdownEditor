@@ -15,4 +15,6 @@ testSaveAndOpen
 	window := toolbuilder open: editor.
 	editor openStream: (FileStream fileNamed: 'testSaveAndOpenTestFile.mde').
 	self assert: (editor markdownText) equals: 'Hallo'.
-	self assert: (editor settingsMenu currentStyleSettings fontColors at: 'Blockquote') equals: Color green
+	self assert: (editor settingsMenu currentStyleSettings fontColors at: 'Blockquote') equals: Color green.
+	
+	FileDirectory default deleteFileNamed: 'testSaveAndOpenTestFile.mde'
