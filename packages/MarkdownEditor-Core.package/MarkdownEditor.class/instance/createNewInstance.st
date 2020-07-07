@@ -1,4 +1,4 @@
 building
 createNewInstance
 
-	MarkdownEditor open
+	self class open
