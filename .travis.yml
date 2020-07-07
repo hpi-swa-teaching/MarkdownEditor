@@ -1,9 +1,9 @@
 language: smalltalk
 sudo: false
 
-smalltalk:
-  - Squeak-trunk
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install libpulse-dev
 
-matrix:
-  allow_failures:
-    - smalltalk: Squeak-trunk
+smalltalk:
+  - Squeak64-5.3
