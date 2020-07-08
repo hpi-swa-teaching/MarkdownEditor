@@ -1,0 +1,1 @@
+I embody a nestable Markdown inline element.
