@@ -1,1 +1,1 @@
-I convert markdown code to html.
+I convert markdown code to HTML.
