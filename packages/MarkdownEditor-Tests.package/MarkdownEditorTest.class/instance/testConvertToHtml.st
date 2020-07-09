@@ -52,7 +52,7 @@ testConvertToHtml
 			color: rgba(0, 0, 255, 1.0); 
 		}
 
-		p {
+		code {
 			font-size: 14px;
 		}
 

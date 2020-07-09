@@ -52,7 +52,7 @@ testConvertStyleSettings
 			color: rgba(255, 0, 0, 1.0); 
 		}
 
-		p {
+		code {
 			font-size: 14px;
 		}
 

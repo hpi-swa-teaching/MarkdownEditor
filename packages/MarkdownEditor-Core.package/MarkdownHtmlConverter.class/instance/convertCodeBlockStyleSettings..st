@@ -3,7 +3,7 @@ convertCodeBlockStyleSettings: aStyleSettings
 	| codeBlock |
 	
 	codeBlock := '
-		p {
+		code {
 			font-size: ', (aStyleSettings fontSizes at: MarkdownCodeBlock labels first), 'px;
 		}', Character cr.
 	
