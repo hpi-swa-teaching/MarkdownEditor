@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addCornerGrips" : "azi 6/29/2020 01:04",
-		"addStylerMorphsFor:" : "azi 6/29/2020 02:46",
+		"addStylerMorphsFor:" : "mas 7/9/2020 15:41",
 		"blockCategories" : "azi 6/29/2020 01:50",
 		"blockStylerMorphs" : "cg 7/5/2020 11:46",
 		"blockStylerMorphs:" : "cg 7/5/2020 11:47",
@@ -18,7 +18,7 @@
 		"initialize" : "MK 7/6/2020 14:41",
 		"initializeActions" : "azi 6/28/2020 20:09",
 		"initializeBlockStylerMorphs" : "MK 7/6/2020 14:42",
-		"initializeTabs" : "azi 6/29/2020 02:48",
+		"initializeTabs" : "mas 7/9/2020 15:34",
 		"makeChangeTo:" : "azi 6/11/2020 19:23",
 		"newStyleSettings" : "cg 7/5/2020 11:45",
 		"newStyleSettings:" : "cg 7/5/2020 11:44",
