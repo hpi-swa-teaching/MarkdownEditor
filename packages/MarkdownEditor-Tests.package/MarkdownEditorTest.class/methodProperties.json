@@ -8,7 +8,7 @@
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "mas 5/18/2020 17:27",
 		"testBuildingEditorReturnsWindow" : "lpf 6/13/2019 15:24",
 		"testBuildingEditorTextMorphReturnsSpec" : "lpf 6/13/2019 15:29",
-		"testConvertToHtml" : "MK 7/3/2020 19:55",
+		"testConvertToHtml" : "MK 7/9/2020 16:27",
 		"testCreateNewEditorInstanceInWorld" : "MK 7/6/2020 14:43",
 		"testCurrentFilePath" : "MK 7/6/2020 16:33",
 		"testFileEnding" : "MK 7/6/2020 16:31",
