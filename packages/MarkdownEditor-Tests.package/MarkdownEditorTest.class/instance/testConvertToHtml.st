@@ -8,7 +8,7 @@ testConvertToHtml
 	editor markdownText: 'Hallo'.
 	editor convertToHTML.
 	windows := (World submorphs select: [:morph | morph isKindOf: MarkdownHtmlExportView]). 
-	self assert: (windows first submorphs first text) equals: '<!DOCTYPE html>
+	self assert: (windows first submorphs first text) equals:  '<!DOCTYPE html>
 <html>
 <head>
 	<style>
@@ -46,7 +46,46 @@ testConvertToHtml
 			font-size: 14px;
 			color: rgba(0, 0, 0, 1.0); 
 		}
-	</style>
+
+		blockquote {
+			font-size: 10px;
+			color: rgba(0, 0, 255, 1.0); 
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		ol {
+			font-size: 14px;
+			color: rgba(0, 0, 0, 1.0); 
+		}
+
+		ol ol {
+			font-size: 12px;
+			color: rgba(0, 0, 0, 1.0); 
+		}
+
+		ol ol ol {
+			font-size: 10px;
+			color: rgba(0, 0, 0, 1.0); 
+		}
+
+		ul {
+			font-size: 14px;
+			color: rgba(0, 0, 0, 1.0); 
+		}
+
+		ul ul {
+			font-size: 12px;
+			color: rgba(0, 0, 0, 1.0); 
+		}
+
+		ul ul ul {
+			font-size: 10px;
+			color: rgba(0, 0, 0, 1.0); 
+		}
+</style>
 </head>
 <body>
 <p>Hallo</p>
