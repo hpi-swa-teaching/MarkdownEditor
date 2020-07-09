@@ -1,18 +1,14 @@
-as yet unclassified
+convertStyle
 convertStyleSettings: aStyleSettings
-	| heading paragraph |
+	| css |
 	
-	heading := ''.
-	MarkdownHeading labels do: [:label |  heading := heading, '
-		h', label last asString, ' {
-			font-size: ', (aStyleSettings fontSizes at: label), 'px;
-			color: ', (self convertColorToRGBA: (aStyleSettings fontColors at: label)), '; 
-		}', Character cr].
+	css := '<style>'.
+	css := css,  (self convertHeadingStyleSettings: aStyleSettings).
+	css := css, ( self convertParagraphStyleSettings: aStyleSettings).
+	css := css, (self convertBlockquoteStyleSettings: aStyleSettings).
+	css := css, (self convertCodeBlockStyleSettings: aStyleSettings).
+	css := css, (self convertOrderedListStyleSettings: aStyleSettings).
+	css := css, (self convertUnorderedListStyleSettings: aStyleSettings).
+	css := css, '</style>'.
 	
-	paragraph := '
-		p {
-			font-size: ', (aStyleSettings fontSizes at: MarkdownParagraph labels first), 'px;
-			color: ', (self convertColorToRGBA: (aStyleSettings fontColors at: MarkdownParagraph labels first)), '; 
-		}', Character cr.
-	
-	^ '<style>', heading, paragraph, '	</style>'
+	^ css
