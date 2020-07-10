@@ -2,7 +2,7 @@ converting
 asText
 	 | text |
 	
-	 text := self line content asText.
+	 text := self lines first content asText.
 	 self styler privateStyle: text.
 	 self addAttributesTo: text.
 	 ^ text
