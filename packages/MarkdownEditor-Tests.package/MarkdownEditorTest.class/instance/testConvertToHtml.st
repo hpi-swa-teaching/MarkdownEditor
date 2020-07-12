@@ -1,14 +1,13 @@
 tests - window
 testConvertToHtml
 
-	| editor windows |
+	| editor expectedHtml exportView |
 	editor := MarkdownEditor new.
-	window delete.
-	window := ToolBuilder open: editor.
-	editor markdownText: 'Hallo'.
-	editor convertToHTML.
-	windows := (World submorphs select: [:morph | morph isKindOf: MarkdownHtmlExportView]). 
-	self assert: (windows first submorphs first text) equals:  '<!DOCTYPE html>
+	ToolBuilder open: editor.
+	editor markdownText: 'Hallo'; convertToHTML.
+	exportView := (World submorphs select: [:morph | morph isKindOf: MarkdownHtmlExportView]) first. 
+	
+	expectedHtml := '<!DOCTYPE html>
 <html>
 <head>
 	<style>
@@ -91,4 +90,6 @@ testConvertToHtml
 <p>Hallo</p>
 </body>
 </html>'.
-	windows first delete
+	
+	self assert: (exportView submorphs first text) equals: expectedHtml.
+	exportView delete
