@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertItalic: aMarkdownItalic
 
 	^ '<em>', aMarkdownItalic content, '</em>'

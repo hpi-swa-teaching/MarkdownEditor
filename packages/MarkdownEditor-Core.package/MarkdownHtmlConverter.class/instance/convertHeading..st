@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertHeading: aHeading
 
 	| openingTag closingTag content |

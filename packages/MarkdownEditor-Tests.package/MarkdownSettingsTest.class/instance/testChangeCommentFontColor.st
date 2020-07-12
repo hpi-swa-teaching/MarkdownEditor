@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeCommentFontColor
 
 	| options commentBlock styleSettings |

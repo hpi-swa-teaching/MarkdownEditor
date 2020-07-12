@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 hash
 
 	^ ((self startPosition hash bitXor: self endPosition hash)

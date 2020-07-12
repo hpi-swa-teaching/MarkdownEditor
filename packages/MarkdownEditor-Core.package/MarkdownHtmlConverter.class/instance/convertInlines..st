@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertInlines: aMarkdownBlock
 	
 	| startIndex html inlineElements index |

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeHeadingFontSizes
 
 	| options h1Block h4Block styleSettings |

@@ -1,4 +1,4 @@
-as yet unclassified
+creating
 for: aClassLabel with: canChangeFontSize and: canChangeFontColor and: aClassCategory
 
 	^ self new

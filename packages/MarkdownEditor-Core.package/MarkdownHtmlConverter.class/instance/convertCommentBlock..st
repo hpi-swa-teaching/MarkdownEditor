@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertCommentBlock: aCommentBlock
 
 	^ aCommentBlock content

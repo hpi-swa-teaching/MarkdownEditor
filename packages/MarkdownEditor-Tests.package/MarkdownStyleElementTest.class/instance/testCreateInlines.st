@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCreateInlines
 
 	| block inlineElements bold cursive |

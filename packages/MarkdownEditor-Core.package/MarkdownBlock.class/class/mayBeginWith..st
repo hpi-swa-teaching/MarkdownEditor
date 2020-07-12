@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 mayBeginWith: aMarkdownLine
 
 	^ self subclassResponsibility

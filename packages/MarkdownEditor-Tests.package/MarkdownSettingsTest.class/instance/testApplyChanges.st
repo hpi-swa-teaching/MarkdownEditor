@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testApplyChanges
 
 	| options paragraphBlock styleSettings |

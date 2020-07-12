@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeHeadingFontColors
 
 	| options h1Block h4Block styleSettings |

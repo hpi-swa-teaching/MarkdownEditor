@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = aMarkdownLink
 
 	^ self endPosition = aMarkdownLink endPosition

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initializeAsDialogBox
 
 	self initializeCalled: true

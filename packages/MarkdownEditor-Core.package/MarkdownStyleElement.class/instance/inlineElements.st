@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 inlineElements
 
 	self styler privateStyle: self croppedContent asText.

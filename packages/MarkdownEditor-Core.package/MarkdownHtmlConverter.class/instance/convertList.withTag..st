@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertList: aList withTag: aTag
 
 	 | html lastLevel itemAsHtml|	
