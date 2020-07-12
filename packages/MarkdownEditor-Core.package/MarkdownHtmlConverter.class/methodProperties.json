@@ -12,7 +12,7 @@
 		"convertCommentBlock:" : "MK 6/21/2020 17:45",
 		"convertHeading:" : "MK 7/5/2020 20:10",
 		"convertHeadingStyleSettings:" : "MK 7/9/2020 14:43",
-		"convertInlines:" : "hsl 7/3/2020 12:17",
+		"convertInlines:" : "hsl 7/12/2020 14:28",
 		"convertItalic:" : "cg 6/29/2020 22:01",
 		"convertLink:" : "cg 6/29/2020 21:42",
 		"convertList:withTag:" : "cg 6/29/2020 22:20",
@@ -23,4 +23,6 @@
 		"convertStyleSettings:" : "MK 7/9/2020 15:23",
 		"convertUnorderedList:" : "cg 6/29/2020 17:57",
 		"convertUnorderedListStyleSettings:" : "MK 7/9/2020 15:42",
+		"createNested" : "hsl 7/12/2020 13:53",
+		"createNestedHTML:" : "hsl 7/12/2020 14:05",
 		"labelAsCssDescriptor:" : "MK 7/9/2020 16:11" } }

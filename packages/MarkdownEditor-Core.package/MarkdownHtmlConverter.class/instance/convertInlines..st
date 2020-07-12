@@ -1,42 +1,32 @@
 as yet unclassified
 convertInlines: aMarkdownBlock
 	
-	| startIndex html inlineElements element nested index nestedMarkdown nestedHTML parent start stop |
+	| startIndex html inlineElements index |
 	
 	aMarkdownBlock styler privateStyle: aMarkdownBlock croppedContent asText.
 	startIndex := 1.
 	html := ''.
-	inlineElements := aMarkdownBlock styler inlineElements sort: [ :elem1 :elem2 | elem1 startPosition <= elem2 startPosition].
-	nested := Stack new.
+	inlineElements := aMarkdownBlock sortedInlineElements.
 	index := 1.
-	nestedMarkdown := nil.
 	
 	[index <= inlineElements size] 
-	whileTrue: [ 
-		element := inlineElements at: index.
-		element startPosition = startIndex 
-			ifFalse: [html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: element startPosition - 1)].
-		nested push: element.
-		[index < inlineElements size and: [(inlineElements at: index + 1) endPosition < element endPosition]]
-			whileTrue: [nested push: (inlineElements removeAt: index + 1)].
-			
-		1 to: nested size do: [: i | 
-			nestedMarkdown ifNil: [ nestedMarkdown := nested pop ]
-							   ifNotNil: [
-								parent := nested pop.
-								parent content: (StringUtil replaceFrom: start - parent startPosition + 1 - parent indicator size to: stop - parent startPosition + 1 - parent indicator size in: parent content with: nestedHTML).
-								nestedMarkdown := parent].
-							
-			start := nestedMarkdown startPosition.
-			stop := nestedMarkdown endPosition.
-			nestedHTML := nestedMarkdown convertWith: self].
+		whileTrue: [
+			| element nestedHTML nested offset |
+			offset := 1.
+			nested := self createNested.
+			element := inlineElements at: index.
+			html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: element startPosition - 1).
+			nested add: element.
+			[index < (inlineElements size - (offset - 1)) and: [(inlineElements at: index + offset) endPosition < element endPosition]]
+				whileTrue: [nested add: (inlineElements at: index + offset).
+							offset := offset + 1].
 		
-		html := html, nestedHTML.
-		startIndex := stop + 1.
-		index := index + 1.
-		nestedMarkdown := nil].
+			nestedHTML := self createNestedHTML: nested.
+		
+			html := html, nestedHTML first.
+			startIndex := nestedHTML last + 1.
+			index := index + offset].
 	
-	startIndex <= aMarkdownBlock croppedContent size ifTrue: [
-		html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: aMarkdownBlock croppedContent size)].
+	html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: aMarkdownBlock croppedContent size).
 		
 	^ html
