@@ -1,4 +1,4 @@
-as yet unclassified
+parse
 parseIdentifier
 	"currentToken is either a name of an existing variable, a prefix of a variable or an undefined identifier. Return the appropriate range type for it."
 

@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convert: aBlockList with: aStyleSettings
 
 	| html |

@@ -1,5 +1,5 @@
 creation
 newFrom: aMarkdownLine
 
-	^ self new line: aMarkdownLine; 
+	^ self new lines: {aMarkdownLine} asOrderedCollection; 
 		yourself

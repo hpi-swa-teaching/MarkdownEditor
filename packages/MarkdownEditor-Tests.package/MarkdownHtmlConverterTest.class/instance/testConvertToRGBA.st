@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConvertToRGBA
 
 	| color convertedColor |

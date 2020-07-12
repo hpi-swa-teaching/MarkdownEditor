@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConvertComplexParagraph
 
 	| paragraph html expectedResult |

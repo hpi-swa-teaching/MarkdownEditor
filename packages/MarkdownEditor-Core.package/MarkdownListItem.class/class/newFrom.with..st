@@ -2,6 +2,6 @@ creation
 newFrom: aMarkdownLine with: aStyleSettings
 
 	^ self new 
-		line: aMarkdownLine; 
+		lines: {aMarkdownLine} asOrderedCollection; 
 		styleSettings: aStyleSettings;
 		yourself

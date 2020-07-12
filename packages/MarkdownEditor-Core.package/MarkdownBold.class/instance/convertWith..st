@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertWith: aConverter
 
 	^ aConverter convertBold: self

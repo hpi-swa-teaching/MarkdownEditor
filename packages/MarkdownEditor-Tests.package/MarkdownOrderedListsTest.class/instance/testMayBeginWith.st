@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMayBeginWith
 
 	self assert: (MarkdownList mayBeginWith: '-') not.

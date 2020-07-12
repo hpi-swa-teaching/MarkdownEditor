@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testConvertBlockList
 
 	| blocks html expectedHtml |

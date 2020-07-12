@@ -1,6 +1,6 @@
 level
 level
 
- 	^ self line indentationLevel + 1
+ 	^ self lines first indentationLevel + 1
 
 

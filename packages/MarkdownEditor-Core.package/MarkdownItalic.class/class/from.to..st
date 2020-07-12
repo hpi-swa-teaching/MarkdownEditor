@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 from: startPosition to: endPosition
 
 	^ self new

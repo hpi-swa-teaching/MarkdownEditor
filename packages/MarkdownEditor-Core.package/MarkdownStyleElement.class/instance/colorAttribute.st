@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 colorAttribute
 
 	^ TextColor color: self fontColor

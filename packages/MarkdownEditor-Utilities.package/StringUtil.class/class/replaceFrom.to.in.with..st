@@ -1,4 +1,4 @@
-as yet unclassified
+replacing
 replaceFrom: aStart to: aStop in: aString with: aReplacement
 	
 	(aStart > 0 and: [aStop <= aString size]) 
