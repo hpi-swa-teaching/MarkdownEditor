@@ -32,7 +32,7 @@ menubarContent: aBuilder
 				action: #convertToHTML;
 				yourself.
 			aBuilder pluggableButtonSpec new
-				label: 'Options';
+				label: 'Settings';
 				model: self;
 				action: #openSettings;
 				enabled: true;
