@@ -1,6 +1,4 @@
 extending
 croppedContent
 
-	| index |
-	index := self content indexOf: Character space.
-	^ (self content copyFrom: index + 1 to: (self content size)) asText
+	^ self content copyFrom:  (self level + 2) to: (self content size)

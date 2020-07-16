@@ -1,12 +1,12 @@
 converting
-convertInlines: aMarkdownBlock
+convertInlines: aStyleElement
 	
 	| startIndex html inlineElements index |
 	
-	aMarkdownBlock styler privateStyle: aMarkdownBlock croppedContent asText.
+	aStyleElement styler privateStyle: aStyleElement croppedContent asText.
 	startIndex := 1.
 	html := ''.
-	inlineElements := aMarkdownBlock sortedInlineElements.
+	inlineElements := aStyleElement sortedInlineElements.
 	index := 1.
 	
 	[index <= inlineElements size] 
@@ -15,7 +15,7 @@ convertInlines: aMarkdownBlock
 			offset := 1.
 			nested := self createNested.
 			element := inlineElements at: index.
-			html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: element startPosition - 1).
+			html := html, (aStyleElement croppedContent copyFrom: startIndex to: element startPosition - 1).
 			nested add: element.
 			[index < (inlineElements size - (offset - 1)) and: [(inlineElements at: index + offset) endPosition < element endPosition]]
 				whileTrue: [nested add: (inlineElements at: index + offset).
@@ -27,6 +27,6 @@ convertInlines: aMarkdownBlock
 			startIndex := nestedHTML last + 1.
 			index := index + offset].
 	
-	html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: aMarkdownBlock croppedContent size).
+	html := html, (aStyleElement croppedContent copyFrom: startIndex to: aStyleElement croppedContent size).
 		
 	^ html

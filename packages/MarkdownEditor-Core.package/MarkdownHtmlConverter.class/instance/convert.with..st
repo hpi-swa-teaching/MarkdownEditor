@@ -4,16 +4,18 @@ convert: aBlockList with: aStyleSettings
 	| html |
 
 	html := 
-'<!DOCTYPE html>
-<html>
-<head>
-	', (self convertStyleSettings: aStyleSettings), '
-</head>
+'<head>
+', (self indentString: (self convertStyleSettings: aStyleSettings)), 
+'</head>
 <body>', Character cr.
 
 	aBlockList do: [:block | 
-		html := html, (block convertWith: self)].
+		html := html, (self indentString: (block convertWith: self))].
 	
-	html := html, '</body>', Character cr, '</html>'.
+	^
+'<!DOCTYPE html>
+<html>
+', (self indentString: (html, '</body>', Character cr)),
+'</html>'
 	
-	^ html
+	
