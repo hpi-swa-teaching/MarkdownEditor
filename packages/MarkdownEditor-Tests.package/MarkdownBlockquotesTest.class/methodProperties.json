@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testConvertToHTML" : "hsl 7/1/2020 11:44",
+		"testConvertToHTML" : "cg 7/16/2020 13:55",
 		"testConvertingToTextUsesInlineStyler" : "MK 6/21/2020 20:36",
 		"testConvertingToTextUsesInlineStylerWithMultipleLines" : "MK 6/21/2020 21:08",
 		"testCroppedContent" : "hsl 7/1/2020 02:36",

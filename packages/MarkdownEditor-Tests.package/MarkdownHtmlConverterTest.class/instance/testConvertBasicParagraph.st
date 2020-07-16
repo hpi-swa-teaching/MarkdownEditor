@@ -6,4 +6,8 @@ testConvertBasicParagraph
 	paragraph := self createBlockFrom: 'test'.
 	html := htmlConverter convertParagraph: paragraph.
 	
-	self assert: ('<p>test</p>', Character cr = html).
+	self assert: (
+'<p>
+	test
+</p>
+' = html).

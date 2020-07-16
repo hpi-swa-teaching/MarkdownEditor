@@ -8,4 +8,8 @@ testConvertCodeBlock
  	codeBlock append: (MarkdownLine newFrom: '```').
 	html := htmlConverter convertCodeBlock: codeBlock.
 	
-	self assert: (('<code>', Character cr,'Some Code</code>', Character cr) = html).
+	self assert: (
+'<code>
+	Some Code
+</code>
+'= html).
