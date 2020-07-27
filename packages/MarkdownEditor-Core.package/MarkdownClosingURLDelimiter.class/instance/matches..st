@@ -1,4 +1,6 @@
 testing
-matches: aMarkdownOpeningDelimiter
+matches: aMarkdownToken
 
-	 ^ aMarkdownOpeningDelimiter class = MarkdownOpeningURLDelimiter
+	^ aMarkdownToken isDelimiter
+		and: [aMarkdownToken isOpener]
+		and: [aMarkdownToken class = MarkdownOpeningURLDelimiter]

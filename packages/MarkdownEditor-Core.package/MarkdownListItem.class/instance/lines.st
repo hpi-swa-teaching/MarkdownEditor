@@ -1,4 +1,0 @@
-accessing
-lines
-
-	^ line
