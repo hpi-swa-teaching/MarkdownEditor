@@ -1,7 +1,7 @@
 converting
 convert: aBlockList with: aStyleSettings
 
-	| html |
+	| html blocksHtml |
 
 	html := 
 '<!DOCTYPE html>
@@ -11,9 +11,11 @@ convert: aBlockList with: aStyleSettings
 </head>
 <body>', Character cr.
 
-	aBlockList do: [:block | 
-		html := html, (block convertWith: self)].
+	blocksHtml := String streamContents: [:htmlStream | 
+	  aBlockList doWithIndex: [:block :index | 
+		htmlStream nextPutAll: (block convertWith: self)].
+	  htmlStream contents].
 	
-	html := html, '</body>', Character cr, '</html>'.
+	html := html, blocksHtml, '</body>', Character cr, '</html>'.
 	
 	^ html

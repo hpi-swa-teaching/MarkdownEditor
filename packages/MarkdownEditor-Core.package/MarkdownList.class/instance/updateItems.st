@@ -1,4 +1,4 @@
-accessing
+update
 updateItems
 	
 	self items: (self lines collect: [:line |

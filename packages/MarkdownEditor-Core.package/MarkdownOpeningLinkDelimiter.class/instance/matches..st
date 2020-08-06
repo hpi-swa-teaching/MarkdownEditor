@@ -1,4 +1,4 @@
-initialize-release
+testing
 matches: aMarkdownToken
 
 	^ aMarkdownToken isDelimiter

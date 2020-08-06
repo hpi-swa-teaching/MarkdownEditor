@@ -1,4 +1,4 @@
-MarkdownEditor-Tests
+initialize
 initialize
 
-	colorAttribute := TextColor blue
+	self colorAttribute: TextColor blue

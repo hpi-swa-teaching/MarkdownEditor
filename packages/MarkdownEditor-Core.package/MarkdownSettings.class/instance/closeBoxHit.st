@@ -2,4 +2,4 @@ event handling
 closeBoxHit
 
 	super closeBoxHit.
-	self handleCancel.
+	self handleCancel

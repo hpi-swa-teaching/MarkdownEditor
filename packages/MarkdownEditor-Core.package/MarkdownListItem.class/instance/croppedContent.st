@@ -1,4 +1,4 @@
-accessing
+export
 croppedContent
 	
 	self subclassResponsibility

@@ -1,4 +1,4 @@
-accessing
+constants
 minFontSize
 
 	^ 10

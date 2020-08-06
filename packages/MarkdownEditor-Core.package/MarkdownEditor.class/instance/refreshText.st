@@ -1,4 +1,4 @@
 update
 refreshText
 
-	self changed: #markdownText.
+	self changed: #markdownText

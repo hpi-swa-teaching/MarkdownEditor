@@ -1,5 +1,5 @@
 accessing
 setFrom: anInteger to: anotherInteger
 
-	startPosition := anInteger.
-	endPosition := anotherInteger
+	self startPosition: anInteger.
+	self endPosition: anotherInteger

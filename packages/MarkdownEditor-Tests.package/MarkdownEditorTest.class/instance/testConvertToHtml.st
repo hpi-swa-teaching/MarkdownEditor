@@ -5,7 +5,7 @@ testConvertToHtml
 	editor := MarkdownEditor new.
 	ToolBuilder open: editor.
 	editor markdownText: 'Hallo'; convertToHTML.
-	exportView := (World submorphs select: [:morph | morph isKindOf: MarkdownHtmlExportView]) first. 
+	exportView := World submorphs detect: [:morph | morph isKindOf: MarkdownHtmlExportView]. 
 	
 	expectedHtml := '<!DOCTYPE html>
 <html>

@@ -1,4 +1,4 @@
-attributes
+attribute
 emphasisFrom: start to: end delimiterLength: aLength
 	
 	aLength = 1

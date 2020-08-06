@@ -1,4 +1,4 @@
-changing
+styling
 addAttributesTo: aText
 
 	self class canChangeFontSize ifTrue: [aText addAttribute: self textAttribute].
