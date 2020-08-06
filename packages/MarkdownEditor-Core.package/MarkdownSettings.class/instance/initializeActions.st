@@ -13,4 +13,4 @@ initializeActions
 		label: 'Apply'; 
 		target: self; 
 		actionSelector: #handleApply; 
-		yourself).
+		yourself)

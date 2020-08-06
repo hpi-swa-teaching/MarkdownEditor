@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:to:" : "MK 7/5/2020 21:00",
+		"add:to:" : "mas 8/6/2020 10:34",
 		"clean" : "hsl 5/19/2020 22:42",
 		"content" : "hsl 5/19/2020 15:11",
 		"content:" : "hsl 5/19/2020 15:11",
@@ -27,8 +27,8 @@
 		"privateStyle:" : "jko 6/25/2019 22:04",
 		"process:and:" : "hsl 7/28/2020 13:38",
 		"processAdjacentTokens" : "jst 6/29/2019 16:11",
-		"processEmphasis:and:" : "MK 7/5/2020 20:44",
-		"processLink:and:" : "MK 7/5/2020 20:44",
+		"processEmphasis:and:" : "mas 8/6/2020 10:37",
+		"processLink:and:" : "mas 8/6/2020 10:37",
 		"processOpeningURLDelimiter:" : "azi 8/6/2020 08:04",
 		"removeDelimitersBetween:and:" : "MK 7/27/2020 11:10",
 		"reset" : "jst 6/28/2019 14:03",
