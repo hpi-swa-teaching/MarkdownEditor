@@ -3,11 +3,8 @@ asText
 
 	 | text |	
 	 text := '' asText.
-	 self lines do: [:line | 
-		| item |
-		item := self makeNewListItemFrom: line.
-		item styler: self styler.
-		text append: item asText.
-		self items add: item].
+	 self updateItems.
+	 self items do: [:item | 
+		text append: item asText].
 		 ^ text
 

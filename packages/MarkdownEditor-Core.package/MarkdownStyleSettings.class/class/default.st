@@ -1,15 +1,10 @@
-accessing
+constants
 default
 
-	| fontSizes fontColors |
-	fontSizes := Dictionary new.
-	fontColors := Dictionary new.
-	MarkdownEditor blockClasses do:
-		[:blockClass | blockClass labels doWithIndex: 
-			[:label :index | fontSizes at: label put: (blockClass defaultFontSizes at: index).
-						     fontColors at: label put: (blockClass defaultFontColors at: index)]].
+	| dictionaries |
+	dictionaries := self createDefaultDictionaries.
 	
 	^ self new 
-		fontSizes: fontSizes;
-		fontColors: fontColors;
+		fontSizes: dictionaries first;
+		fontColors: dictionaries second;
 		yourself

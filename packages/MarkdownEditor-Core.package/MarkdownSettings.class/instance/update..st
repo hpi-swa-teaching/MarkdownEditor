@@ -1,4 +1,4 @@
-updating
+update
 update: aParameter
 
-	self makeChangeTo: self newStyleSettings.
+	self makeChangeTo: self newStyleSettings

@@ -1,4 +1,4 @@
 Bugs
 testNoMessagesSentButNotImplemented
 
-	self assertAllZero: (self lint: #smallLintSentNotImplemented)
+	self assertAllZero: (self lint: #smallLintUndeclaredReference)

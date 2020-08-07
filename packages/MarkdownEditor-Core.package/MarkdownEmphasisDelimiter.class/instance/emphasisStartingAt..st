@@ -1,4 +1,4 @@
-attributes
+attribute
 emphasisStartingAt: openingEmphasisDelimiter
 
 	| delimiterLength start end |

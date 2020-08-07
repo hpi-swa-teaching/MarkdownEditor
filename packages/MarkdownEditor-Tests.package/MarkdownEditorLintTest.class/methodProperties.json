@@ -36,7 +36,7 @@
 		"testNoInstanceVariableNotReadAndWritten" : "MK 6/28/2020 12:18",
 		"testNoLiteralArrayContainsComma" : "MK 7/3/2020 22:36",
 		"testNoLiteralArrayContainsSuspiciousTrueFalseOrNil" : "MK 7/3/2020 22:36",
-		"testNoMessagesSentButNotImplemented" : "MK 6/19/2020 19:18",
+		"testNoMessagesSentButNotImplemented" : "MK 7/27/2020 10:01",
 		"testNoMethodEquivalentDefinedInSuperclass" : "MK 6/28/2020 12:18",
 		"testNoMethodHasNoTimestamp" : "MK 7/3/2020 22:15",
 		"testNoMethodJustSendsSuperMessage" : "MK 6/28/2020 12:19",

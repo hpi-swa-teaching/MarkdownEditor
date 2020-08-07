@@ -1,1 +1,2 @@
-I convert markdown code to HTML.
+I convert markdown code to HTML (see comment).
+Note: Implemented in a double dispatch manner. That is why the converter has this much knowledge of the different blocks, but it also causes the linter to complain about a violation of the Law of Demeter. This design is intented.

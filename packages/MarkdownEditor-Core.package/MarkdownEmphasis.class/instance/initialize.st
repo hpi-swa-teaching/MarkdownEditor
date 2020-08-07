@@ -1,4 +1,4 @@
-initialize-release
+initialize
 initialize
 
-	colorAttribute := TextColor black
+	self colorAttribute: TextColor black

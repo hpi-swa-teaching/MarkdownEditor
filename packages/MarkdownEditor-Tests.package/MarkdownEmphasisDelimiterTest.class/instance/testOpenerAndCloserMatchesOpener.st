@@ -4,6 +4,7 @@ testOpenerAndCloserMatchesOpener
 	| opener openerAndCloser |
 	opener := MarkdownEmphasisDelimiter new
 				isLeftFlanking: true;
+				isRightFlanking: false;
 				content: '***';
 				yourself.
 	openerAndCloser := MarkdownEmphasisDelimiter new

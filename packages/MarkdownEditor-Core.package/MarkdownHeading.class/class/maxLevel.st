@@ -1,0 +1,4 @@
+constants
+maxLevel
+
+	^ 6

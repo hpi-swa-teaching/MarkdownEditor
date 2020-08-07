@@ -1,4 +1,4 @@
-accessing
+constants
 windowTitle
 	
 	^ 'Markdown Editor'

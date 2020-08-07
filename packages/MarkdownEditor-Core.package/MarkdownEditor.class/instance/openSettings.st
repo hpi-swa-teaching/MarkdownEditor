@@ -1,4 +1,4 @@
-open / save
+settings
 openSettings
 
 	self saveTextInModel.

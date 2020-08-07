@@ -1,4 +1,4 @@
 accessing
 defaultFontColors
 
-	^ MarkdownListItem defaultFontColors
+	^ {Color black. Color black. Color black}

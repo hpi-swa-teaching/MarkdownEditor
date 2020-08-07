@@ -5,4 +5,5 @@ indentationLevel
 	
 	 text := self content copyReplaceAll: Character tab asString with: self fourSpaces.
 	 text := text , '$'.
-	 ^ (text asString size - text withBlanksTrimmed asString size) / 4
+	
+	 ^ (text asString size - text withBlanksTrimmed asString size) / self fourSpaces size

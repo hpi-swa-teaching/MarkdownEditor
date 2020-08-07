@@ -1,4 +1,4 @@
-extending
+export
 croppedContent
 
 	| index |

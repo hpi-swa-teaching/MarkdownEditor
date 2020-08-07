@@ -1,4 +1,4 @@
 accessing
 defaultFontSizes
 
-	^ MarkdownListItem defaultFontSizes
+	^ {14. 12. 10}

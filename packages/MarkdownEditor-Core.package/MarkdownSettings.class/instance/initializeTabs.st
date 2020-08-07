@@ -1,11 +1,13 @@
 initialize
 initializeTabs
 
-	| tabMorph |
-	tabMorph := (PluggableTabBarMorph on: self)
+	| newTabMorph |
+	newTabMorph := (PluggableTabBarMorph on: self)
 		extent: 200@25;
 		color: Color gray;
 		yourself.
-	self blockCategories do: [:category | tabMorph addTab: category withAction: [self showStylerMorphsFor: category]].
-	self tabMorph: tabMorph.
-	self contentMorph scroller addMorph: (tabMorph position: 20@10).
+	self blockCategories do: [:category | newTabMorph 
+			addTab: category 
+			withAction: [self showStylerMorphsFor: category]].
+	self tabMorph: newTabMorph.
+	self contentMorph scroller addMorph: (newTabMorph position: 20@10)

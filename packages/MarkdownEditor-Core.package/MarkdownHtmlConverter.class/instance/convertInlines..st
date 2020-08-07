@@ -15,9 +15,11 @@ convertInlines: aMarkdownBlock
 			offset := 1.
 			nested := self createNested.
 			element := inlineElements at: index.
-			html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: element startPosition - 1).
+			html := html, (aMarkdownBlock croppedContent 
+				copyFrom: startIndex to: element startPosition - 1).
 			nested add: element.
-			[index < (inlineElements size - (offset - 1)) and: [(inlineElements at: index + offset) endPosition < element endPosition]]
+			[index < (inlineElements size - (offset - 1)) and: 
+			[(inlineElements at: index + offset) endPosition < element endPosition]]
 				whileTrue: [nested add: (inlineElements at: index + offset).
 							offset := offset + 1].
 		
@@ -27,6 +29,7 @@ convertInlines: aMarkdownBlock
 			startIndex := nestedHTML last + 1.
 			index := index + offset].
 	
-	html := html, (aMarkdownBlock croppedContent copyFrom: startIndex to: aMarkdownBlock croppedContent size).
+	html := html, (aMarkdownBlock croppedContent 
+		copyFrom: startIndex to: aMarkdownBlock croppedContent size).
 		
 	^ html

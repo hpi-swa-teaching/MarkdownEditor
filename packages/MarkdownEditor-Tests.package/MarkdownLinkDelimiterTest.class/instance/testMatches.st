@@ -6,3 +6,4 @@ testMatches
 	openingDelimiter := MarkdownOpeningLinkDelimiter new.
 	
 	self assert: (closingDelimiter matches: openingDelimiter).
+	self assert: (openingDelimiter matches: closingDelimiter)

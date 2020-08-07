@@ -9,4 +9,3 @@ buildEditorTextMorphWith: aBuilder
 		stylerClass: MarkdownBlockTextStyler;
 		name: #textMorph;
 		yourself
-	

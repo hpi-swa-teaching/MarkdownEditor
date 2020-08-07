@@ -1,4 +1,4 @@
-initialize-release
+attribute
 setPreceding: precedingCharacter following: followingCharacter
 
 	self

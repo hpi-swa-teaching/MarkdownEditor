@@ -1,4 +1,4 @@
-testing
+export
 convertWith: aConverter
 
 	^ aConverter convertBlockquote: self

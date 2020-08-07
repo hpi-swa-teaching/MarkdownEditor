@@ -1,10 +1,4 @@
 converting
 convertParagraph: aParagraph
 
-	| html |
-	
-	html := '<p>'.
-	html := html, (self convertInlines: aParagraph).
-	html := html, '</p>', Character cr.
-	
-	^ html
+	^ '<p>', (self convertInlines: aParagraph), '</p>', Character cr

@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"default" : "MK 6/18/2020 15:11",
+		"createDefaultDictionaries" : "azi 8/6/2020 07:19",
+		"default" : "azi 8/6/2020 07:19",
 		"maxFontSize" : "azi 6/12/2020 02:58",
 		"minFontSize" : "azi 6/12/2020 02:58",
 		"newFrom:" : "MK 7/6/2020 15:15" },
 	"instance" : {
-		"=" : "azi 6/13/2020 03:18",
 		"fontColors" : "azi 6/12/2020 00:27",
 		"fontColors:" : "azi 6/12/2020 00:27",
 		"fontSizes" : "azi 6/12/2020 00:27",
