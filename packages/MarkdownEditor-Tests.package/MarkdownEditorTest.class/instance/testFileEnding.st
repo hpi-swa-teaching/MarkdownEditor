@@ -3,4 +3,4 @@ testFileEnding
 
 	| editor |
 	editor := MarkdownEditor new.
-	self assert: editor fileEnding equals: 'mde'
+	self assert: editor fileEnding equals: 'md'
