@@ -1,4 +1,4 @@
 constants
 type
 
-	^ 'EmphasisDelimiter'
+	self subclassResponsibility

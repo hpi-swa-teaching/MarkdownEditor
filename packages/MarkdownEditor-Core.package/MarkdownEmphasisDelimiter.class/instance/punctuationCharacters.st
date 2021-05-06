@@ -1,4 +1,4 @@
 constants
 punctuationCharacters
 
-	^ #($! $" $# $$ $% $& $' $( $) $* $+ $, $- $. $/ $: $; $< $= $> $? $@ $[ $] $\ $^ $_ $` ${ $} $| $~)
+	self subclassResponsibility

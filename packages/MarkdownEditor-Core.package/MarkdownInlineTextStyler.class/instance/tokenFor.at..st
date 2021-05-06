@@ -2,7 +2,7 @@ parsing - tokenization
 tokenFor: aCharacter at: position
 
 	| matchingTokenClass |
-	matchingTokenClass := {MarkdownEmphasisDelimiter. MarkdownOpeningLinkDelimiter. 
+	matchingTokenClass := {MarkdownStrikeDelimiter. MarkdownItalicBoldDelimiter. MarkdownOpeningLinkDelimiter. 
 			MarkdownClosingLinkDelimiter. MarkdownOpeningURLDelimiter. 
 			MarkdownClosingURLDelimiter}
 		detect: [:tokenClass | tokenClass mayBeginWith: aCharacter]
