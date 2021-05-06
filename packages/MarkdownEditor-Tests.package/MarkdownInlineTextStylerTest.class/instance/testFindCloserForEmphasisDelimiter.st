@@ -2,12 +2,12 @@ tests - tokenization
 testFindCloserForEmphasisDelimiter
 
 	| opener closer |
-	opener := MarkdownEmphasisDelimiter new 
+	opener := MarkdownItalicBoldDelimiter new 
 		content: '**'; 
 		isLeftFlanking: true; 
 		isRightFlanking: false; 
 		yourself.
-	closer := MarkdownEmphasisDelimiter new 
+	closer := MarkdownItalicBoldDelimiter new 
 		content: '**'; 
 		isLeftFlanking: false; 
 		isRightFlanking: true; 
