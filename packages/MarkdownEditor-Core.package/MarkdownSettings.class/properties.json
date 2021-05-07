@@ -3,14 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"UniqueInstance" ],
 	"commentStamp" : "azi 6/13/2020 03:22",
 	"instvars" : [
 		"contentMorph",
 		"tabMorph",
 		"currentStyleSettings",
 		"newStyleSettings",
-		"onChange",
 		"blockStylerMorphs" ],
 	"name" : "MarkdownSettings",
 	"pools" : [

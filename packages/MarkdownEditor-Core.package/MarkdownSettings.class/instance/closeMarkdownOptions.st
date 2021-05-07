@@ -1,4 +1,4 @@
 event handling
 closeMarkdownOptions
 	
-	self abandon.
+	self abandon
