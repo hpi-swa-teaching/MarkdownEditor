@@ -3,11 +3,12 @@ testApplyChanges
 
 	| options paragraphBlock styleSettings |
 	
-	options := MarkdownSettings new
-		currentStyleSettings: MarkdownStyleSettings default;
-		onChange: [:newStyleSettings | styleSettings := newStyleSettings].
+	options := MarkdownSettings UniqueInstance.
 		
 	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 17.
+	(self blockStylerOf: options for: 'Paragraph') handleColorPickerChangeTo: Color black with: nil.
+	styleSettings := editor blockTextStyler styleSettings.
+	
 	paragraphBlock := MarkdownParagraph 
 		newFrom: (MarkdownLine newFrom: 'i like', Character cr with: styleSettings).
 	paragraphBlock append: (MarkdownLine newFrom: 'patterns' with: styleSettings).
