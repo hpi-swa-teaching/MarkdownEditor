@@ -1,4 +1,5 @@
 event handling
 register: aMarkdownEditor
 
-	self UniqueInstance register: aMarkdownEditor
+	self UniqueInstance register: aMarkdownEditor.
+	Transcript show: 'Regirster'.

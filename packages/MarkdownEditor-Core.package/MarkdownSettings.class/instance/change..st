@@ -1,7 +1,7 @@
 event handling
 change: aStyleSettings
 
-	self dependents
-		do: [:dependent | 
-			dependent blockTextStyler styleSettings: aStyleSettings.
-			dependent saveTextInModel]
+	(self dependents select: [:dependent | dependent class = MarkdownEditor])
+		do: [:editor | 
+			editor blockTextStyler styleSettings: aStyleSettings.
+			editor saveTextInModel]
