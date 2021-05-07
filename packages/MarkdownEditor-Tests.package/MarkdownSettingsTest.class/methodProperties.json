@@ -10,6 +10,9 @@
 		"testCancelChangesOnClosing" : "JE 5/7/2021 14:30",
 		"testChangeCommentFontSizeColor" : "JE 5/7/2021 14:06",
 		"testChangeHeadingFontSizesColors" : "JE 5/7/2021 14:03",
+		"testChangeMultipleEditors" : "JE 5/7/2021 14:54",
 		"testChangeParagraphFontSizeColor" : "JE 5/7/2021 14:00",
 		"testCloseMarkdownOptions" : "JE 5/7/2021 13:22",
-		"testCreateMarkdownOptions" : "JE 5/7/2021 13:22" } }
+		"testCreateMarkdownOptions" : "JE 5/7/2021 13:22",
+		"testLoadSettings" : "JE 5/7/2021 14:49",
+		"testMultipleEditors" : "JE 5/7/2021 14:53" } }
