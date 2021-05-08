@@ -2,7 +2,9 @@
 	"class" : {
 		"from:to:" : "MK 7/27/2020 11:39" },
 	"instance" : {
+		"addTo:" : "C.H. 5/8/2021 10:23",
 		"convertWith:" : "cg 6/29/2020 22:36",
+		"evalBlock" : "C.H. 5/8/2021 10:39",
 		"initialize" : "azi 8/6/2020 07:57",
 		"url" : "hsl 5/19/2020 15:23",
 		"url:" : "hsl 5/19/2020 15:23" } }
