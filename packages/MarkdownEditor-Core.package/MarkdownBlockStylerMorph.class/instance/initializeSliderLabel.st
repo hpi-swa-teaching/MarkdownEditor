@@ -5,6 +5,6 @@ initializeSliderLabel
 		position: 195@20; 
 		height: 20; 
 		width: 20; 
-		color: MarkdownStyleSettings themeFontColor;
+		color: self themeFontColor;
 		lock; 
 		yourself)
