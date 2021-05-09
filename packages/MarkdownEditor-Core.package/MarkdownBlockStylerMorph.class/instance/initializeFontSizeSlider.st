@@ -1,10 +1,12 @@
 initialize
 initializeFontSizeSlider
 
-	self fontSizeSlider: (SimpleSliderMorph new target: self; 
+	self fontSizeSlider: (SimpleSliderMorph new sliderColor: self themeFontColor;
+		target: self; 
 		actionSelector: #handleSliderChangeTo:; 
 		minVal: MarkdownStyleSettings minFontSize; 
 		maxVal: MarkdownStyleSettings maxFontSize; 
 		position: 90@10; 
 		orientation: #horizontal; 
-		height: 40; width: 100; yourself)
+		height: 40; width: 100; 
+		yourself).

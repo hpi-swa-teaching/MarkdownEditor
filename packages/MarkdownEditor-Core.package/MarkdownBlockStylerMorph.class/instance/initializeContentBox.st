@@ -1,5 +1,5 @@
 initialize
-initializeColor
+initializeContentBox
 
 	self color: Color transparent;
 		width: 450;
