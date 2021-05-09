@@ -15,4 +15,10 @@
 		"testCloseMarkdownOptions" : "JE 5/7/2021 13:22",
 		"testCreateMarkdownOptions" : "JE 5/7/2021 13:22",
 		"testLoadSettings" : "JE 5/7/2021 14:49",
-		"testMultipleEditors" : "JE 5/7/2021 14:53" } }
+		"testMultipleEditors" : "JE 5/7/2021 14:53",
+		"testBlockStylerAdjustments" : "cg 7/5/2020 11:52",
+		"testChangeCommentFontColor" : "cg 7/5/2020 11:53",
+		"testChangeHeadingFontColors" : "cg 7/5/2020 11:53",
+		"testChangeHeadingFontSizes" : "cg 7/5/2020 11:53",
+		"testChangeParagraphFontSize" : "cg 7/5/2020 11:53",
+		"testSliderLabelColor" : "jh 5/9/2021 10:32"} }

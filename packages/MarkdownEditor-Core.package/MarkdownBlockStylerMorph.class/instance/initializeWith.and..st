@@ -1,7 +1,7 @@
 initialize
 initializeWith: canChangeFontSize and: canChangeFontColor
 
-	self initializeColor.
+	self initializeContentBox.
 	self initializeFontColorPicker.
 	self initializeSliderLabel.
 	self initializeFontSizeSlider.
