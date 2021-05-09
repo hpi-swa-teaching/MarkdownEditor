@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MDSlider",
+	"pools" : [
+		 ],
+	"super" : "SimpleSliderMorph",
+	"type" : "normal" }
