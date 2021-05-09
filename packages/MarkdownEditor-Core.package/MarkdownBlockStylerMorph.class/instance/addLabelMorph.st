@@ -7,4 +7,5 @@ addLabelMorph
 		position: 0@20; 
 		contents: self classLabel; 
 		lock; 
+		color: self themeFontColor;
 		yourself). 
