@@ -8,4 +8,4 @@ initializeFontSizeSlider
 		position: 90@10; 
 		orientation: #horizontal; 
 		height: 40; width: 100; 
-		yourself).
+		yourself)
