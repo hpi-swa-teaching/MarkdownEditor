@@ -1,8 +1,8 @@
 clickable
-evalBlock
+openUrl
 
 	^[| mime image |
-		mime := self url asUrl retrieveContents.
+		mime := (Url absoluteFromFileNameOrUrlString: self url) retrieveContents.
 		mime isHTML 
 			ifFalse: [
 				image := Form fromBinaryStream: mime contentStream.
