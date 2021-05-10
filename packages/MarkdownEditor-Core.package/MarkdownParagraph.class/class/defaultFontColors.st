@@ -1,0 +1,4 @@
+accessing
+defaultFontColors
+
+	^ {MarkdownStyleSettings themeFontColor}

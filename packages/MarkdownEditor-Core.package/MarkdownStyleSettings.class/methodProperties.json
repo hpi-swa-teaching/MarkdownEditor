@@ -4,7 +4,11 @@
 		"default" : "azi 8/6/2020 07:19",
 		"maxFontSize" : "azi 6/12/2020 02:58",
 		"minFontSize" : "azi 6/12/2020 02:58",
-		"newFrom:" : "MK 7/6/2020 15:15" },
+		"newFrom:" : "MK 7/6/2020 15:15",
+		"themeButtonMorphColor" : "jh 5/10/2021 10:03",
+		"themeButtonMorphTextColor" : "jh 5/10/2021 10:04",
+		"themeFontColor" : "jh 5/10/2021 09:58",
+		"themeTitleFontColor" : "jh 5/10/2021 10:17" },
 	"instance" : {
 		"fontColors" : "jh 5/8/2021 21:19",
 		"fontColors:" : "jh 5/8/2021 21:19",
