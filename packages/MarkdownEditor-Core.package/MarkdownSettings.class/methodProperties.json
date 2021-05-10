@@ -19,7 +19,7 @@
 		"initializeActions" : "mas 8/6/2020 10:42",
 		"initializeBlockStylerMorphs" : "mas 8/6/2020 10:50",
 		"initializeBlockStylerMorphsFor:" : "mas 8/6/2020 10:49",
-		"initializeTabs" : "jh 5/8/2021 21:59",
+		"initializeTabs" : "jh 5/10/2021 10:05",
 		"makeChangeTo:" : "azi 6/11/2020 19:23",
 		"newStyleSettings" : "cg 7/5/2020 11:45",
 		"newStyleSettings:" : "cg 7/5/2020 11:44",
@@ -30,6 +30,4 @@
 		"showStylerMorphsFor:" : "azi 6/29/2020 02:17",
 		"tabMorph" : "cg 7/5/2020 11:49",
 		"tabMorph:" : "cg 7/5/2020 11:49",
-		"themeButtonMorphColor" : "jh 5/9/2021 14:10",
-		"themeButtonMorphTextColor" : "jh 5/9/2021 14:10",
 		"update:" : "azi 8/6/2020 07:00" } }

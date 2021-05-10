@@ -2,7 +2,7 @@
 	"class" : {
 		"for:with:and:and:" : "azi 6/29/2020 02:13" },
 	"instance" : {
-		"addLabelMorph" : "jh 5/8/2021 22:05",
+		"addLabelMorph" : "jh 5/10/2021 09:59",
 		"adjustTo:" : "azi 6/12/2020 02:44",
 		"attachMorphsWith:and:" : "MK 7/27/2020 12:12",
 		"classCategory" : "cg 7/5/2020 12:11",
@@ -17,11 +17,10 @@
 		"handleSliderChangeTo:" : "azi 6/12/2020 16:01",
 		"initializeContentBox" : "jh 5/8/2021 21:13",
 		"initializeFontColorPicker" : "MK 7/27/2020 12:04",
-		"initializeFontSizeSlider" : "jh 5/9/2021 17:32",
-		"initializeSliderLabel" : "jh 5/8/2021 20:52",
+		"initializeFontSizeSlider" : "jh 5/10/2021 09:59",
+		"initializeSliderLabel" : "jh 5/10/2021 09:59",
 		"initializeWith:and:" : "jh 5/8/2021 21:13",
 		"sliderLabel" : "cg 7/5/2020 12:13",
 		"sliderLabel:" : "cg 7/5/2020 12:13",
 		"styleSettings" : "cg 7/5/2020 12:13",
-		"styleSettings:" : "cg 7/5/2020 12:13",
-		"themeFontColor" : "jh 5/9/2021 10:26" } }
+		"styleSettings:" : "cg 7/5/2020 12:13" } }
