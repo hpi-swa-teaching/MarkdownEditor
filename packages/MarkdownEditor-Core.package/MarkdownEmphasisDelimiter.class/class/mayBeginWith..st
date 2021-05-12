@@ -1,4 +1,4 @@
 testing
 mayBeginWith: aCharacter
 
-	^ aCharacter = $*
+	self subclassResponsibility

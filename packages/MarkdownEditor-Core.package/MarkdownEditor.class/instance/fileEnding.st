@@ -1,4 +1,4 @@
 open / save
 fileEnding
 
-	^ 'mde'
+	^ 'md'

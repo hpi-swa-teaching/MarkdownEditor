@@ -1,0 +1,4 @@
+testing
+mayBeginWith: aCharacter
+
+	^ aCharacter = $*

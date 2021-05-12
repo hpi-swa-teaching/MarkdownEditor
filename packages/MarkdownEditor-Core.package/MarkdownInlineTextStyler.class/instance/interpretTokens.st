@@ -7,7 +7,9 @@ interpretTokens
 	[(currentToken isDelimiter and: [currentToken isCloser]) 
 		ifTrue: [self 
 			findOpenerFor: currentToken 
-			ifFound: [:opener | currentToken := self process: opener and: currentToken]].
+			ifFound: [:opener| | token |
+				token := self process: opener and: currentToken.
+				token ifNotNil: [currentToken := token]]].
 	currentToken = self tokens last
 		ifFalse: [currentToken := self tokens after: currentToken]
 		ifTrue: [^ self]] repeat

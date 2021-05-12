@@ -2,8 +2,8 @@ tests - emphases
 testDifferentDelimitersCreateBoldEmphasis
 
 	| opener closer emphasis |
-	opener := MarkdownEmphasisDelimiter newFor: '****' at: 1.
-	closer := MarkdownEmphasisDelimiter newFor: '***' at: 6.
+	opener := MarkdownItalicBoldDelimiter newFor: '****' at: 1.
+	closer := MarkdownItalicBoldDelimiter newFor: '***' at: 6.
 					
 	emphasis := closer emphasisStartingAt: opener. 	
 	self assert: TextEmphasis bold equals: emphasis textAttribute.
