@@ -1,7 +1,6 @@
 test - open / close
 testSaveAsFile
 
-	| editor |
 	window delete.
 	editor := MarkdownEditor new.
 	window := toolbuilder open: editor.

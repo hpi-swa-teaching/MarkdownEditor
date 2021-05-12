@@ -1,13 +1,14 @@
 tests
-testChangeCommentFontColor
+testChangeCommentFontSizeColor
 
 	| options commentBlock styleSettings |
 	
-	options := MarkdownSettings new
-		currentStyleSettings: MarkdownStyleSettings default;
-		onChange: [:newStyleSettings | styleSettings := newStyleSettings].
+	options := MarkdownSettings UniqueInstance.
 
 	(self blockStylerOf: options for: 'Comment') handleColorPickerChangeTo: Color green with: nil.
+	(self blockStylerOf: options for: 'Comment') handleSliderChangeTo: 14.
+	styleSettings := editor blockTextStyler styleSettings.
+	
 	commentBlock := MarkdownCommentBlock 
 		newFrom: (MarkdownLine newFrom: '<!-- Gray', Character cr with: styleSettings).
 	commentBlock append: (MarkdownLine newFrom: 'trains -->' with: styleSettings).

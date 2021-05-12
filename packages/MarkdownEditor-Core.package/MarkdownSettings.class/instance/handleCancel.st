@@ -1,6 +1,6 @@
 event handling
 handleCancel
 
-	self makeChangeTo: self currentStyleSettings.
+	self change: self currentStyleSettings.
 	self currentStyleSettings: self currentStyleSettings.
-	self closeMarkdownOptions.
+	self closeMarkdownOptions

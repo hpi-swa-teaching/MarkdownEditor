@@ -1,7 +1,6 @@
 test - open / close
 testSaveAndOpen
 
-	| editor |
 	window delete.
 	FileStream fileNamed: 'testSaveAndOpenTestFile.md'.
 	editor := MarkdownEditor new.

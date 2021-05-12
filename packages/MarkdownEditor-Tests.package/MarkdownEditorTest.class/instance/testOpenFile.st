@@ -1,11 +1,8 @@
 test - open / close
 testOpenFile
 
-	| editor fileChooser |
+	| fileChooser |
 
-	window delete.
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
 	FileDirectory default deleteFileNamed: 'testOpenFile.md'.
 	
 	editor markdownText: '# Heading'.
