@@ -3,12 +3,12 @@ testMatchesOpenerNot
 
 	"Opener does not match the openerAndCloser because their length in sum is divisible by 3 and their individual length is not."
 	| opener openerAndCloser |
-	opener := MarkdownEmphasisDelimiter new
+	opener := MarkdownItalicBoldDelimiter new
 				isLeftFlanking: true;
 				isRightFlanking: false;
 				content: '*';
 				yourself.
-	openerAndCloser := MarkdownEmphasisDelimiter new
+	openerAndCloser := MarkdownItalicBoldDelimiter new
 				isLeftFlanking: true;
 				isRightFlanking: true;
 				content: '**';

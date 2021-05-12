@@ -1,7 +1,7 @@
 testing
 matches: aMarkdownEmphasisDelimiter
 
-	 ^ aMarkdownEmphasisDelimiter type = 'EmphasisDelimiter' 
+	 ^ aMarkdownEmphasisDelimiter type = self type
 		and: [((self isOpener and: [aMarkdownEmphasisDelimiter isCloser])
 		or: [self isCloser and: [aMarkdownEmphasisDelimiter isOpener]])
 		and: [(self isOpenerAndCloser or: [aMarkdownEmphasisDelimiter isOpenerAndCloser])

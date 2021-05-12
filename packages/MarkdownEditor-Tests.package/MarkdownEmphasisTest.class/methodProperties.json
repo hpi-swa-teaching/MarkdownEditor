@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testColorIsBlack" : "cg 6/29/2020 21:52",
+		"testColorIsBlack" : "F.S 5/6/2021 15:39",
 		"testCreateBoldEmphasis" : "cg 6/29/2020 21:53",
 		"testCreateItalicEmphasis" : "cg 6/29/2020 23:43",
-		"testDifferentEmphasisType" : "cg 6/29/2020 21:53",
-		"testEndPositionsAreUnequal" : "cg 6/29/2020 23:45",
-		"testEqual" : "cg 6/29/2020 23:45",
-		"testSetColor" : "cg 6/29/2020 21:54",
+		"testCreateStrikeEmphasis" : "F.S 5/6/2021 15:39",
+		"testDifferentEmphasisType" : "F.S 5/6/2021 15:41",
+		"testEndPositionsAreUnequal" : "F.S 5/6/2021 15:45",
+		"testEqual" : "F.S 5/6/2021 15:46",
+		"testSetColor" : "F.S 5/6/2021 15:44",
 		"testSetRange" : "kgr 7/23/2019 11:49",
-		"testStartPositionsAreUnequal" : "cg 6/29/2020 23:46" } }
+		"testStartPositionsAreUnequal" : "F.S 5/6/2021 15:47" } }

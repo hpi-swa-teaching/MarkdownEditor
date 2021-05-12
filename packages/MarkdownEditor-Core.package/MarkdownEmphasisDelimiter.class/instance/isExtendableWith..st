@@ -1,4 +1,4 @@
 testing
 isExtendableWith: aCharacter
 
-	 ^ aCharacter = $*
+	self subclassResponsibility

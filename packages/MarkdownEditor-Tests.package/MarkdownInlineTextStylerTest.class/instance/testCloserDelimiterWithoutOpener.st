@@ -2,7 +2,7 @@ tests - tokenization
 testCloserDelimiterWithoutOpener
 
 	| closer |
-	closer := MarkdownEmphasisDelimiter new 
+	closer := MarkdownItalicBoldDelimiter new 
 		content: '**'; 
 		isLeftFlanking: false; 
 		isRightFlanking: true; 

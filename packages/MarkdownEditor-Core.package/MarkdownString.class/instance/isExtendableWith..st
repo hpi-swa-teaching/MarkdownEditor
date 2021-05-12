@@ -1,7 +1,8 @@
 testing
 isExtendableWith: aCharacter
 
-	^ ((MarkdownEmphasisDelimiter mayBeginWith: aCharacter) 
+	^ ((MarkdownItalicBoldDelimiter mayBeginWith: aCharacter) 
+		or: [MarkdownStrikeDelimiter mayBeginWith: aCharacter]
 		or: [MarkdownOpeningLinkDelimiter mayBeginWith: aCharacter] 
 		or: [MarkdownClosingLinkDelimiter mayBeginWith: aCharacter]
 		or: [MarkdownOpeningURLDelimiter mayBeginWith: aCharacter]
