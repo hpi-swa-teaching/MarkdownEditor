@@ -1,4 +1,4 @@
 contentLoading
 loadText
 
-	^TextMorph string: self mime content size: 10
+	^TextMorph string: self mime content size: self fontSize

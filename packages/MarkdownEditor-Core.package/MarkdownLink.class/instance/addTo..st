@@ -3,6 +3,8 @@ addTo: aText
 
 	super addTo: aText.
 
-	aText addAttribute:  (PluggableTextAttribute evalBlock: self openUrl)
-   		from: self startPosition
-   		to: self endPosition
+	self validateUrl 
+		ifTrue:
+		[aText addAttribute:  (PluggableTextAttribute evalBlock: self openUrl)
+   			from: self startPosition
+   			to: self endPosition]
