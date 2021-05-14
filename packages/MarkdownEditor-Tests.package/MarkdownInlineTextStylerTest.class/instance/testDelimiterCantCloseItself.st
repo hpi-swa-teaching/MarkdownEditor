@@ -2,12 +2,12 @@ tests - tokenization
 testDelimiterCantCloseItself
 	
 	| opener openCloser |
-	opener := MarkdownEmphasisDelimiter new 
+	opener := MarkdownItalicBoldDelimiter new 
 		content: '*'; 
 		isLeftFlanking: true; 
 		isRightFlanking: false; 
 		yourself.
-	openCloser := MarkdownEmphasisDelimiter new 
+	openCloser := MarkdownItalicBoldDelimiter new 
 		content: '*'; 
 		isLeftFlanking: true; 
 		isRightFlanking: true; 

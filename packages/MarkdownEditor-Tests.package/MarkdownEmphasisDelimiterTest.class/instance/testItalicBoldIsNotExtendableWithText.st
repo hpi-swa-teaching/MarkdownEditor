@@ -1,5 +1,5 @@
 tests - recognition
-testIsNotExtendableWithText
+testItalicBoldIsNotExtendableWithText
 
 	| token |
 	token := MarkdownItalicBoldDelimiter newFor: '*' at: 1.

@@ -1,4 +1,4 @@
 tests - recognition
-testMayBeginWithAsterisk
+testItalicBoldMayBeginWithAsterisk
 
 	self assert: (MarkdownItalicBoldDelimiter mayBeginWith: $*)

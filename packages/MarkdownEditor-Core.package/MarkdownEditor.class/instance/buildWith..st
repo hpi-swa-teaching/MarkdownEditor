@@ -5,6 +5,6 @@ buildWith: aBuilder
 	windowSpec := self buildWindowWith: aBuilder specs: (self windowSpecsFor: aBuilder).
 	window := aBuilder build: windowSpec.
 	self textMorph: (aBuilder widgetAt: #textMorph).
-	self createSettings.
+	self registerSettings.
 	 
 	^ window

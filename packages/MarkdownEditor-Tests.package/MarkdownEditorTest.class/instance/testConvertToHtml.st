@@ -1,9 +1,8 @@
 tests - window
 testConvertToHtml
 
-	| editor expectedHtml exportView |
-	editor := MarkdownEditor new.
-	ToolBuilder open: editor.
+	| expectedHtml exportView |
+	editor blockTextStyler styleSettings: MarkdownStyleSettings default.
 	editor markdownText: 'Hallo'; convertToHTML.
 	exportView := World submorphs detect: [:morph | morph isKindOf: MarkdownHtmlExportView]. 
 	
