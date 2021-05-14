@@ -3,9 +3,7 @@ testCreateMarkdownOptions
 	
 	| options buttons |
 
-	options := MarkdownSettings new
-		currentStyleSettings: MarkdownStyleSettings default;
-		onChange: [].
+	options := MarkdownSettings UniqueInstance.
 	buttons := options submorphs select: [:morph | morph isKindOf: PluggableButtonMorph].
 	
 	self assert: buttons size = 2.
