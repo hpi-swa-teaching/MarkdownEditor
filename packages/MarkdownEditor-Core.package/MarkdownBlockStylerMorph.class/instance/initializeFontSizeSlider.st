@@ -9,4 +9,4 @@ initializeFontSizeSlider
 		orientation: #horizontal; 
 		height: 40; width: 100; 
 		yourself).
-	self fontSizeSlider mdslider color: MarkdownStyleSettings themeFontColor
+	"self fontSizeSlider mdslider color: MarkdownStyleSettings themeFontColor"

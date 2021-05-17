@@ -9,6 +9,7 @@ initialize
 	self initializeBlockStylerMorphs.
 	self initializeTabs.
 	self initializeActions.
-	self currentStyleSettings: MarkdownStyleSettings default
+	self currentStyleSettings: MarkdownStyleSettings default.
+	self adoptToTheme.
 	
 	
