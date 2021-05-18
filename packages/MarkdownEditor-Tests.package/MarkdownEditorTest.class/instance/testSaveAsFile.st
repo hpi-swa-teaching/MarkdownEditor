@@ -1,9 +1,6 @@
 test - open / close
 testSaveAsFile
 
-	window delete.
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
 	FileDirectory default deleteFileNamed: 'testSaveAsFile.md'.
 	
 	editor markdownText: '# Heading'.
