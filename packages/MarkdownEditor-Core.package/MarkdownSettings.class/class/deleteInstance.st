@@ -1,0 +1,4 @@
+accessing
+deleteInstance
+
+	UniqueInstance := nil.
