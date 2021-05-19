@@ -3,5 +3,5 @@ buildScrollPane: aBuilder
 
 	^aBuilder pluggableScrollPaneSpec new
 		model: self;
-		children: #contentMorph;
+		children: #showContent;
 		yourself

@@ -1,4 +1,4 @@
 contentLoading
 loadBasis
 
-	^TextMorph string: 'Sorry, this document type is not supported!' size: self fontSize * 2
+	^TextMorph string: self unsupportedDocumentMessage size: self fontSize * 2
