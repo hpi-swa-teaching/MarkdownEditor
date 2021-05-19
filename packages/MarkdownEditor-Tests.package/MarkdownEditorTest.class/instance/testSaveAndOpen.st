@@ -1,17 +1,15 @@
 test - open / close
 testSaveAndOpen
 
-	window delete.
-	FileStream fileNamed: 'testSaveAndOpenTestFile.md'.
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
-	editor markdownText: 'Hallo'.
-	editor currentFilePath: 'testSaveAndOpenTestFile.md'.
-	editor saveText.
-	window delete.
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
-	editor openStream: (FileStream fileNamed: 'testSaveAndOpenTestFile.md').
-	self assert: (editor markdownText) equals: 'Hallo'.
+	| file content |
+	file := MarkdownMockFile new.
+	content := '# Hello World'.
+
+	editor markdownText: content.
+	editor putTextOn: file.
 	
-	FileDirectory default deleteFileNamed: 'testSaveAndOpenTestFile.md'
+	window delete.
+	editor := MarkdownEditor new.
+	window := toolbuilder open: editor.
+	editor openStream: file.
+	self assert: (editor markdownText) equals: content

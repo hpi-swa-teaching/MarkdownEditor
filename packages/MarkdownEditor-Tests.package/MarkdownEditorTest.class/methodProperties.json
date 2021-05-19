@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JE 5/7/2021 14:43",
-		"tearDown" : "jst 5/11/2019 19:40",
+		"setUp" : "JE 5/19/2021 12:38",
+		"tearDown" : "JE 5/19/2021 12:38",
 		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "jst 6/29/2019 14:39",
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "mas 5/18/2020 17:27",
 		"testBuildingEditorReturnsWindow" : "JE 5/7/2021 14:43",
@@ -16,8 +16,8 @@
 		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
 		"testOpenFile" : "JE 5/18/2021 17:42",
 		"testOpenMarkdownOptions" : "JE 5/7/2021 14:45",
-		"testSaveAndOpen" : "JE 5/12/2021 17:35",
-		"testSaveAsFile" : "JE 5/18/2021 17:37",
+		"testSave" : "JE 5/19/2021 12:37",
+		"testSaveAndOpen" : "JE 5/19/2021 12:31",
 		"testTextPersistenceForBlockStyling" : "jst 6/29/2019 14:39",
 		"testTextPersistenceForInlineStyling" : "MAS 5/9/2020 21:45",
 		"testWindowCreation" : "jst 5/11/2019 19:49",

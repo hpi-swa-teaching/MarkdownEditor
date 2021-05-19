@@ -1,4 +1,4 @@
 accessing
 contentsOfEntireFile
 
-	^ self class defaultContent
+	^ self content
