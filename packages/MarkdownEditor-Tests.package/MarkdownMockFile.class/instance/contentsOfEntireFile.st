@@ -1,0 +1,4 @@
+accessing
+contentsOfEntireFile
+
+	^ self content

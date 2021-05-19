@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content" ],
+	"name" : "MarkdownMockFile",
+	"pools" : [
+		 ],
+	"super" : "MultiByteFileStream",
+	"type" : "normal" }
