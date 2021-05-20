@@ -1,5 +1,5 @@
 tests - recognition
-testIsExtendableWithAsterisk
+testItalicBoldIsExtendableWithAsterisk
 
 	| token |
 	token := MarkdownItalicBoldDelimiter newFor: '*' at: 1.

@@ -1,5 +1,5 @@
 tests - state
-testRightFlanking
+testItalicBoldRightFlanking
 
 	{{$a. $a}. {$a. Character space}. {$". Character cr}. {$%. $?}}
 		do: [:characters | | token |

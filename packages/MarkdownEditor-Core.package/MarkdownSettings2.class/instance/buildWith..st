@@ -8,4 +8,7 @@ buildWith: aBuilder
 	self contentMorph: (aBuilder widgetAt: #content ifAbsent: []).
 	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
 	
+	self window label: 'Markdown Editor - Settings'.
+	self showStylerMorphsFor: 'General'.
+	
 	^ window
