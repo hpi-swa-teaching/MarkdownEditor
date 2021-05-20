@@ -1,0 +1,4 @@
+accessing
+editors: anOrderdCollectionOfMarkdownEditors
+
+	editors := anOrderdCollectionOfMarkdownEditors

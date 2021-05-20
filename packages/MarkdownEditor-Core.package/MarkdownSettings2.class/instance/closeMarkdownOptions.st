@@ -1,5 +1,5 @@
 event handling
 closeMarkdownOptions
 	
-	self windowMorph delete.
-	self windowMorph: #noWindow
+	self window delete.
+	self window: #noWindow
