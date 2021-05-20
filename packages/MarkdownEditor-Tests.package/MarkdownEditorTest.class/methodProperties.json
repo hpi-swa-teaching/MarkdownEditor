@@ -12,6 +12,7 @@
 		"testCreateNewEditorInstanceInWorld" : "JE 5/7/2021 14:44",
 		"testCurrentFilePath" : "JE 5/26/2021 13:17",
 		"testFileEnding" : "JE 5/26/2021 13:16",
+		"testMenuBarExists" : "MK 5/14/2020 13:04",
 		"testMenuOpenCommand" : "JE 5/26/2021 13:16",
 		"testOpenFile" : "JE 5/18/2021 17:42",
 		"testOpenMarkdownOptions" : "JE 5/7/2021 14:45",
