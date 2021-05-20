@@ -1,0 +1,19 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UniqueInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"blockStylerMorphs",
+		"contentMorph",
+		"currentStyleSettings",
+		"editor",
+		"newStyleSettings",
+		"windowMorph" ],
+	"name" : "MarkdownSettings2",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

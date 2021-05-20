@@ -2,7 +2,7 @@
 	"class" : {
 		"for:with:and:and:" : "azi 6/29/2020 02:13" },
 	"instance" : {
-		"adaptToTheme" : "jh 5/18/2021 16:22",
+		"adaptToTheme" : "jh 5/20/2021 09:59",
 		"addLabelMorph" : "jh 5/10/2021 09:59",
 		"adjustTo:" : "azi 6/12/2020 02:44",
 		"attachMorphsWith:and:" : "MK 7/27/2020 12:12",
@@ -17,7 +17,7 @@
 		"handleColorPickerChangeTo:with:" : "jh 5/18/2021 14:33",
 		"handleSliderChangeTo:" : "azi 6/12/2020 16:01",
 		"initializeContentBox" : "jh 5/8/2021 21:13",
-		"initializeFontColorPicker" : "jh 5/18/2021 14:33",
+		"initializeFontColorPicker" : "jh 5/19/2021 14:10",
 		"initializeFontSizeSlider" : "jh 5/18/2021 16:07",
 		"initializeSliderLabel" : "jh 5/18/2021 16:07",
 		"initializeWith:and:" : "jh 5/8/2021 21:13",
