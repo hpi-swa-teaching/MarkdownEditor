@@ -1,4 +1,4 @@
 settings
 registerSettings
 
-	MarkdownSettings register: self
+	MarkdownSettings2 register: self
