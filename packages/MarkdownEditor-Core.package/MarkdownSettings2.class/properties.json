@@ -9,9 +9,9 @@
 		"blockStylerMorphs",
 		"contentMorph",
 		"currentStyleSettings",
-		"editor",
+		"editors",
 		"newStyleSettings",
-		"windowMorph" ],
+		"window" ],
 	"name" : "MarkdownSettings2",
 	"pools" : [
 		 ],
