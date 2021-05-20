@@ -1,4 +1,4 @@
-tabs
+accessing
 blockCategories
 
 	^ {'General'. 'Headings'. 'Lists'}

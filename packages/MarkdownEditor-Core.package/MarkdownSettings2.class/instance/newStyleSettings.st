@@ -1,0 +1,4 @@
+accessing
+newStyleSettings
+
+	^ newStyleSettings
