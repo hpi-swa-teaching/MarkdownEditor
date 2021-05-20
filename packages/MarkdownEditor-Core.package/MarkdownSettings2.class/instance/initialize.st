@@ -3,8 +3,8 @@ initialize
 
 	super initialize.
 	self blockStylerMorphs: OrderedCollection new.
-	self editor: OrderedCollection new.
-	self windowMorph: #noWindow.
+	self editors: OrderedCollection new.
+	self window: #noWindow.
 	
 	self initializeBlockStylerMorphs.
 	self currentStyleSettings: MarkdownStyleSettings default

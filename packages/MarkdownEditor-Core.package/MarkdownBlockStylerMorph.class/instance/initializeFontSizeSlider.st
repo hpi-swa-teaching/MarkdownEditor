@@ -1,7 +1,7 @@
 initialize
 initializeFontSizeSlider
 
-	self fontSizeSlider: (MDSlider new target: self; 
+	self fontSizeSlider: (MarkdownSlider new target: self; 
 		actionSelector: #handleSliderChangeTo:; 
 		minVal: MarkdownStyleSettings minFontSize; 
 		maxVal: MarkdownStyleSettings maxFontSize; 

@@ -6,6 +6,6 @@ buildWith: aBuilder
 	windowSpec name: #windowMorph.
 	window := aBuilder build: windowSpec.
 	self contentMorph: (aBuilder widgetAt: #content ifAbsent: []).
-	self windowMorph: (aBuilder widgetAt: #windowMorph ifAbsent: []).
+	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
 	
 	^ window
