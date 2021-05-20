@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"imageMock" : "LL 5/19/2021 16:25",
+		"exampleImageJpg" : "C.H. 5/19/2021 19:33",
+		"getMimeNamed:withType:" : "C.H. 5/20/2021 12:17",
 		"testLoadBasis" : "LL 5/19/2021 16:00",
-		"testLoadImage" : "LL 5/19/2021 16:31",
+		"testLoadImage" : "C.H. 5/19/2021 19:33",
 		"testLoadText1" : "LL 5/19/2021 15:59",
 		"testLoadText2" : "LL 5/19/2021 16:00" } }

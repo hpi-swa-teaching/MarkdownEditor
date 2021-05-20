@@ -3,6 +3,6 @@ asText
 
 	| text |
 	text := self content asText.
-	self styler privateStyle: text.
 	self addAttributesTo: text.
+	self styler privateStyle: text.
 	^ text
