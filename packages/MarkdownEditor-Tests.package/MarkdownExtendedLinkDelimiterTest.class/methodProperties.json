@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClosingDelimiterIsCloser" : "C.H. 5/21/2021 12:37",
+		"testClosingDelimiterIsDelimiter" : "C.H. 5/21/2021 12:38",
+		"testClosingLinkDelimiterAsString" : "C.H. 5/21/2021 12:28",
+		"testClosingSetPrecedingFollowingReturnsSelf" : "C.H. 5/21/2021 12:38",
+		"testCut1FromEnd" : "C.H. 5/21/2021 12:29",
+		"testCut1FromStart" : "hsl 5/19/2020 18:23",
+		"testCut2FromEnd" : "hsl 5/19/2020 18:30",
+		"testCut2FromStart" : "hsl 5/19/2020 23:16",
+		"testEndPosition" : "C.H. 5/21/2021 12:39",
+		"testExtend" : "C.H. 5/21/2021 12:30",
+		"testIsExtendableWithBracket" : "C.H. 5/21/2021 12:32",
+		"testIsNotExtendableWithText" : "C.H. 5/21/2021 12:33",
+		"testLength" : "C.H. 5/21/2021 12:40",
+		"testLinkAttributes" : "C.H. 5/21/2021 12:31",
+		"testMatches" : "C.H. 5/21/2021 12:41",
+		"testMayBeginWithBracket" : "C.H. 5/21/2021 12:33",
+		"testMayNotBeginWithOtherCharacter" : "C.H. 5/21/2021 12:34",
+		"testOpeningDelimiterIsDelimiter" : "C.H. 5/21/2021 12:41",
+		"testOpeningDelimiterIsOpener" : "C.H. 5/21/2021 12:41",
+		"testOpeningLinkDelimiterAsString" : "C.H. 5/21/2021 12:28",
+		"testOpeningSetPrecedingFollowingReturnsSelf" : "C.H. 5/21/2021 12:42",
+		"testPrecedingFollowing" : "C.H. 5/21/2021 12:42",
+		"testStartPosition" : "C.H. 5/21/2021 12:42",
+		"testType" : "C.H. 5/21/2021 12:43" } }

@@ -1,6 +1,6 @@
 parsing
 interpretTokens
-
+	
 	| currentToken |
 	self tokens ifEmpty: [^ self].
 	currentToken := self tokens first.

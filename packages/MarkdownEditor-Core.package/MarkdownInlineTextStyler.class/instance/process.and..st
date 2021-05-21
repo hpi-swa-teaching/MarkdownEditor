@@ -1,6 +1,8 @@
 parsing
 process: opener and: closer
-
+	
+	(opener type = 'SimpleLinkDelimiter' and: [closer type = 'SimpleLinkDelimiter'])
+		ifTrue: [^ self processSimpleLink: opener and: closer].
 	(opener type = 'LinkDelimiter' and: [closer type = 'LinkDelimiter']) 
 		ifTrue: [	^ self processLink: opener and: closer].
 	(opener type = 'ItalicBoldDelimiter' and: [closer type = 'ItalicBoldDelimiter'])
