@@ -2,7 +2,7 @@ tests - cutting
 testCut1FromStart
 
 	| delimiter cutDelimiter |
-	delimiter := MarkdownClosingLinkDelimiter new
+	delimiter := MarkdownClosingSimpleLinkDelimiter new
 						content: ']]]';
 						startPosition: 21;
 						yourself.

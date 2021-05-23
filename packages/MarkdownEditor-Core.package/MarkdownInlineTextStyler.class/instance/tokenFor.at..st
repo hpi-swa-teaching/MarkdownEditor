@@ -2,7 +2,6 @@ parsing - tokenization
 tokenFor: aCharacter at: position
 	
 	| matchingTokenClass |
-	self halt.
 	matchingTokenClass := {MarkdownStrikeDelimiter. MarkdownItalicBoldDelimiter. MarkdownOpeningLinkDelimiter. 
 			MarkdownClosingLinkDelimiter. MarkdownOpeningURLDelimiter. 
 			MarkdownClosingURLDelimiter. MarkdownOpeningSimpleLinkDelimiter. MarkdownClosingSimpleLinkDelimiter}

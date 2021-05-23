@@ -2,8 +2,8 @@ tests - state
 testMatches
 
 	| openingDelimiter closingDelimiter |
-	closingDelimiter := MarkdownClosingExtendedLinkDelimiter new.
-	openingDelimiter := MarkdownOpeningExtendedLinkDelimiter new.
+	closingDelimiter := MarkdownClosingSimpleLinkDelimiter new.
+	openingDelimiter := MarkdownOpeningSimpleLinkDelimiter new.
 	
 	self assert: (closingDelimiter matches: openingDelimiter).
 	self assert: (openingDelimiter matches: closingDelimiter)

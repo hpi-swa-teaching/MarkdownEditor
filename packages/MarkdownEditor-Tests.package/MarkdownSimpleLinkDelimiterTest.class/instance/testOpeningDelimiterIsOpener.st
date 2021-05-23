@@ -2,12 +2,12 @@ tests - state
 testOpeningDelimiterIsOpener
 	
 	| delimiter |
-	delimiter := MarkdownOpeningExtendedLinkDelimiter new 
+	delimiter := MarkdownOpeningSimpleLinkDelimiter new 
 		content: '[['; 
 		yourself.
 	self assert: delimiter isOpener.
 	
-	delimiter := MarkdownClosingExtendedLinkDelimiter new 
+	delimiter := MarkdownClosingSimpleLinkDelimiter new 
 		content: ']]';
 		yourself.
 	self deny: delimiter isOpener

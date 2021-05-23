@@ -2,8 +2,8 @@ tests - links
 testLinkAttributes
 
 	| opener closer link |
-	opener := MarkdownOpeningExtendedLinkDelimiter newFor: '[[[[' at: 1.
-	closer := MarkdownClosingExtendedLinkDelimiter newFor: ']]]' at: 6.
+	opener := MarkdownOpeningSimpleLinkDelimiter newFor: '[[[[' at: 1.
+	closer := MarkdownClosingSimpleLinkDelimiter newFor: ']]]' at: 6.
 					
 	link := closer linkStartingAt: opener. 	
 	self assert: TextEmphasis underlined equals: link textAttribute.

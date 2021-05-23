@@ -2,8 +2,8 @@ tests - state
 testPrecedingFollowing
 
 	| delimiter |
-	delimiter := MarkdownClosingExtendedLinkDelimiter new.
+	delimiter := MarkdownClosingSimpleLinkDelimiter new.
 	self assert: ((delimiter setPreceding: $x following: $y) = delimiter).
 	
-	delimiter := MarkdownOpeningExtendedLinkDelimiter new.
+	delimiter := MarkdownOpeningSimpleLinkDelimiter new.
 	self assert: ((delimiter setPreceding: $x following: $y) = delimiter)

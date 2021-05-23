@@ -1,8 +1,8 @@
 tests - conversion
-testOpeningLinkDelimiterAsString
+testClosingLinkDelimiterAsString
 
 	| token convertedToken |
-	token := MarkdownOpeningExtendedLinkDelimiter newFor: '<' at: 1.
+	token := MarkdownClosingSimpleLinkDelimiter newFor: '>' at: 1.
 	convertedToken := token asStringToken.
 	
 	self assert: (convertedToken isKindOf: MarkdownString).

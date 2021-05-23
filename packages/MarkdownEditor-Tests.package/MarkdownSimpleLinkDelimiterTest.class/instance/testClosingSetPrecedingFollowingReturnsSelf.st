@@ -1,6 +1,6 @@
 tests - state
-testOpeningSetPrecedingFollowingReturnsSelf
+testClosingSetPrecedingFollowingReturnsSelf
 
 	| delimiter |
-	delimiter := MarkdownOpeningExtendedLinkDelimiter new.
+	delimiter := MarkdownClosingSimpleLinkDelimiter new.
 	self assert: (delimiter setPreceding: $? following: $?) equals: delimiter

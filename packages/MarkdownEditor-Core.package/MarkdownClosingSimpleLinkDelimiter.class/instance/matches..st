@@ -3,4 +3,4 @@ matches: aMarkdownToken
 
 	^ aMarkdownToken isDelimiter
 		and: [aMarkdownToken isOpener]
-		and: [aMarkdownToken class = MarkdownOpeningLinkDelimiter]
+		and: [aMarkdownToken class = MarkdownOpeningSimpleLinkDelimiter]

@@ -2,5 +2,5 @@ tests - state
 testOpeningDelimiterIsDelimiter
 	
 	| delimiter |
-	delimiter := MarkdownOpeningExtendedLinkDelimiter new. 
+	delimiter := MarkdownOpeningSimpleLinkDelimiter new. 
 	self assert: delimiter isDelimiter.
