@@ -6,9 +6,5 @@ windowSpecsFor: aBuilder
 				-> [self buildMenuBarWith: aBuilder].
 		
 		(LayoutFrame fractions: (0 @ 0 corner: 1 @ 1) 
-				offsets: (0 @ (self menuBarHeight) corner: 0 @ (1 - self menuBarHeight))) 
-				-> [self buildContentWith: aBuilder].
-		
-		(LayoutFrame fractions: (0 @ 1 corner: 1 @ 1) 
-				offsets: (0 @ (1 - self menuBarHeight) corner: 0 @ 0)) 
-				-> [self buildApplyBarWith: aBuilder]}
+				offsets: (0 @ (self menuBarHeight) corner: 0 @ 0)) 
+				-> [self buildContentWith: aBuilder]}

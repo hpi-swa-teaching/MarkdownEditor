@@ -7,6 +7,7 @@ buildWith: aBuilder
 	window := aBuilder build: windowSpec.
 	self contentMorph: (aBuilder widgetAt: #content ifAbsent: []).
 	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
+	self configureCloseButton.
 	
 	self window label: 'Markdown Editor - Settings'.
 	self showStylerMorphsFor: 'General'.

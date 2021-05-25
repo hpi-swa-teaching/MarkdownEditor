@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+<<<<<<< HEAD
 		"blockStylerOf:for:" : "azi 6/13/2020 04:45",
 		"setUp" : "JE 5/7/2021 14:27",
 		"tearDown" : "JE 5/7/2021 14:28",
@@ -14,6 +15,19 @@
 		"testChangeParagraphFontSizeColor" : "JE 5/7/2021 14:00",
 		"testCloseMarkdownOptions" : "JE 5/7/2021 13:22",
 		"testCreateMarkdownOptions" : "JE 5/7/2021 13:22",
+=======
+		"blockStylerOf:for:" : "jh 5/21/2021 09:34",
+		"setUp" : "jh 5/25/2021 12:24",
+		"tearDown" : "jh 5/25/2021 15:21",
+		"testApplyChanges" : "jh 5/25/2021 12:28",
+		"testCancelChanges" : "jh 5/25/2021 12:31",
+		"testCancelChangesOnClosing" : "jh 5/25/2021 15:27",
+		"testChangeCommentFontSizeColor" : "jh 5/25/2021 12:34",
+		"testChangeHeadingFontSizesColors" : "jh 5/25/2021 12:38",
+		"testChangeMultipleEditors" : "jh 5/25/2021 12:40",
+		"testChangeParagraphFontSizeColor" : "jh 5/25/2021 12:42",
+		"testCloseMarkdownOptions" : "jh 5/21/2021 10:00",
+		"testCreateMarkdownOptions" : "jh 5/25/2021 15:53",
+>>>>>>> added markdown color chooser
 		"testLoadSettings" : "JE 5/7/2021 14:49",
-		"testMultipleEditors" : "JE 5/7/2021 14:53",
-		"testSliderLabelColor" : "jh 5/9/2021 10:32" } }
+		"testMultipleEditors" : "JE 5/7/2021 14:53" } }
