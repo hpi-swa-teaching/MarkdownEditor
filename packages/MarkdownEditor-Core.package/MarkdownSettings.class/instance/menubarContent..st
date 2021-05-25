@@ -18,4 +18,8 @@ menubarContent: aBuilder
 			model: self;
 			enabled: true;
 			action: [self showStylerMorphsFor: 'Lists'];
+<<<<<<< HEAD
 			yourself }
+=======
+			yourself}
+>>>>>>> color chooser adapts to theme

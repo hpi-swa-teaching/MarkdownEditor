@@ -1,4 +1,4 @@
 accessing
-advancedColorPicker: anObject
+advancedColorPicker: aColorPickerMorph
 
-	advancedColorPicker := anObject.
+	advancedColorPicker := aColorPickerMorph.
