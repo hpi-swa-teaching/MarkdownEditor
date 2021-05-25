@@ -1,4 +1,4 @@
 accessing
 deleteInstance
 
-	UniqueInstance := nil.
+	UniqueInstance := nil

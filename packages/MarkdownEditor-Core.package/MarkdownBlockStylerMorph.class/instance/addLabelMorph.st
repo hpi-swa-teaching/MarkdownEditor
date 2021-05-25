@@ -7,5 +7,4 @@ addLabelMorph
 		position: 0@20; 
 		contents: self classLabel; 
 		lock; 
-		color: MarkdownStyleSettings themeFontColor;
 		yourself). 

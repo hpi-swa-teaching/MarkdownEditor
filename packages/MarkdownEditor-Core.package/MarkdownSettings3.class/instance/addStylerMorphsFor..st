@@ -1,4 +1,4 @@
-content
+tabs
 addStylerMorphsFor: aCategory
 
 	| blockStylerMorphsToAdd |
@@ -8,4 +8,4 @@ addStylerMorphsFor: aCategory
 	blockStylerMorphsToAdd doWithIndex: [:blockStylerMorph :index |
 		| positionedMorph |
 		positionedMorph := blockStylerMorph position: 20@(index * blockStylerMorph height).
-		self contentMorph scroller addMorphBack: positionedMorph]
+		self contentMorph scroller addMorphBack: positionedMorph].

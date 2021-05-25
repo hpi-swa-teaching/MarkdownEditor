@@ -6,9 +6,10 @@ testApplyChanges
 	options := MarkdownSettings UniqueInstance.
 		
 	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 17.
-	(self blockStylerOf: options for: 'Paragraph') handleColorPickerChangeTo: Color black with: nil.
+	(self blockStylerOf: options for: 'Paragraph') fontColorPicker adjustTo: Color black.
 	styleSettings := editor blockTextStyler styleSettings.
 	
+	styleSettings fontColors at: 'Paragraph' put: Color black.	
 	paragraphBlock := MarkdownParagraph 
 		newFrom: (MarkdownLine newFrom: 'i like', Character cr with: styleSettings).
 	paragraphBlock append: (MarkdownLine newFrom: 'patterns' with: styleSettings).

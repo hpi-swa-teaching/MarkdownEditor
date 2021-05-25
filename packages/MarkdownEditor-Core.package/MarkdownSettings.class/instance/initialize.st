@@ -3,13 +3,9 @@ initialize
 
 	super initialize.
 	self blockStylerMorphs: OrderedCollection new.
-	self contentMorph: ScrollPane new.
-	self addMorph: self contentMorph frame: (0@0 corner: 1@1).
+	self editors: OrderedCollection new.
+	self window: #noWindow.
 	
 	self initializeBlockStylerMorphs.
-	self initializeTabs.
-	self initializeActions.
-	self currentStyleSettings: MarkdownStyleSettings default.
-	self adoptToTheme.
-	
+	self currentStyleSettings: MarkdownStyleSettings default
 	
