@@ -1,4 +1,4 @@
 accessing
 newStyleSettings: aStyleSettings
 
-	newStyleSettings := aStyleSettings
+	newStyleSettings := aStyleSettings.
