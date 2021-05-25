@@ -7,5 +7,5 @@ addStylerMorphsFor: aCategory
 
 	blockStylerMorphsToAdd doWithIndex: [:blockStylerMorph :index |
 		| positionedMorph |
-		positionedMorph := blockStylerMorph position: 20@(index * blockStylerMorph height).
+		positionedMorph := blockStylerMorph position: 20@(index - 0.5 * blockStylerMorph height).
 		self contentMorph scroller addMorphBack: positionedMorph]

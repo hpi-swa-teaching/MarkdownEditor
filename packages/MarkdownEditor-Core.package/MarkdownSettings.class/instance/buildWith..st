@@ -8,5 +8,6 @@ buildWith: aBuilder
 	self contentMorph: (aBuilder widgetAt: #content ifAbsent: []).
 	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
 	self configureCloseButton.
+	self showStylerMorphsFor: 'General'.
 	
 	^ window

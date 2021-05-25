@@ -5,5 +5,6 @@ adaptToTheme
 				do: [:sub | sub color: MarkdownStyleSettings themeFontColor].
 	self fontSizeSlider mdslider color: MarkdownStyleSettings themeFontColor.
 	self fontSizeSlider color: MarkdownStyleSettings themeButtonMorphColor.
-	self fontColorPicker color: Color transparent
+	self fontColorPicker adaptToTheme.
+	"self fontColorPicker handleColorChangeTo: (MarkdownStyleSettings default at: self classLabel)"
 	

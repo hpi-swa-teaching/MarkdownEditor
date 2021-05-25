@@ -2,18 +2,19 @@
 	"class" : {
 		"newFor:" : "jh 5/23/2021 16:22" },
 	"instance" : {
+		"adaptToTheme" : "jh 5/25/2021 16:58",
 		"adjustTo:" : "jh 5/25/2021 12:25",
 		"advancedColorPicker" : "jh 5/23/2021 15:53",
-		"advancedColorPicker:" : "jh 5/23/2021 15:53",
+		"advancedColorPicker:" : "jh 5/25/2021 16:23",
 		"blockStyler" : "jh 5/23/2021 15:53",
 		"blockStyler:" : "jh 5/23/2021 15:53",
 		"defaultColors" : "jh 5/25/2021 11:26",
 		"handleColorChangeTo:" : "jh 5/25/2021 11:33",
 		"initializeAdvancedColorPicker" : "jh 5/25/2021 11:46",
 		"initializeColorBoxAt:with:" : "jh 5/25/2021 11:35",
-		"initializeColorBoxes" : "jh 5/24/2021 15:43",
+		"initializeColorBoxes" : "jh 5/25/2021 16:44",
 		"initializeContentBox" : "jh 5/24/2021 13:27",
-		"initializeSimpleColorPicker" : "jh 5/25/2021 11:33",
+		"initializeSimpleColorPicker" : "jh 5/25/2021 16:43",
 		"initializeWith:" : "jh 5/25/2021 11:46",
 		"simpleColorChoosers" : "jh 5/24/2021 15:43",
 		"simpleColorChoosers:" : "jh 5/24/2021 15:43" } }
