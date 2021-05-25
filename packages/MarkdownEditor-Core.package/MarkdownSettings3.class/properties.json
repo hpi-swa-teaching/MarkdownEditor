@@ -4,16 +4,15 @@
 		 ],
 	"classvars" : [
 		"UniqueInstance" ],
-	"commentStamp" : "",
+	"commentStamp" : "azi 6/13/2020 03:22",
 	"instvars" : [
-		"blockStylerMorphs",
 		"contentMorph",
+		"tabMorph",
 		"currentStyleSettings",
-		"editors",
 		"newStyleSettings",
-		"window" ],
-	"name" : "MarkdownSettings2",
+		"blockStylerMorphs" ],
+	"name" : "MarkdownSettings3",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "SystemWindow",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 accessing
 UniqueInstance
 
-	^ UniqueInstance ifNil: [UniqueInstance := self labelled: 'Markdown Editor - Settings']
+	^ UniqueInstance ifNil: [UniqueInstance := self new]
