@@ -4,10 +4,12 @@ testCancelChanges
 	| options paragraphBlock styleSettings |
 	
 	options := MarkdownSettings UniqueInstance.
+	MarkdownSettings open.
 		
 	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 11.
-	(self blockStylerOf: options for: 'Paragraph') handleColorPickerChangeTo: Color brown with: nil.
+	(self blockStylerOf: options for: 'Paragraph') fontColorPicker adjustTo: Color brown.
 	styleSettings := editor blockTextStyler styleSettings.
+	styleSettings fontColors at: 'Paragraph' put: Color brown.	
 	
 	paragraphBlock := MarkdownParagraph 
 		newFrom: (MarkdownLine newFrom: 'i like', Character cr with: styleSettings).

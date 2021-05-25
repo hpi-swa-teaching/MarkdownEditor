@@ -8,7 +8,7 @@ testChangeMultipleEditors
 	window2 := toolbuilder open: editor2.
 	
 	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 18.
-	(self blockStylerOf: options for: 'Paragraph') handleColorPickerChangeTo: Color green with: nil.
+	(self blockStylerOf: options for: 'Paragraph') fontColorPicker adjustTo: Color green.
 	
 	styleSettings := editor blockTextStyler styleSettings.
 	styleSettings2 := editor2 blockTextStyler styleSettings.

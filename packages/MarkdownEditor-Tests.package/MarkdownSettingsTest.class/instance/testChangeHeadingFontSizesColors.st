@@ -7,9 +7,11 @@ testChangeHeadingFontSizesColors
 		
 	(self blockStylerOf: options for: 'Heading 1') handleSliderChangeTo: 42.
 	(self blockStylerOf: options for: 'Heading 4') handleSliderChangeTo: 12.
-	(self blockStylerOf: options for: 'Heading 1') handleColorPickerChangeTo: Color brown with: nil.
-	(self blockStylerOf: options for: 'Heading 4') handleColorPickerChangeTo: Color yellow with: nil.
+	(self blockStylerOf: options for: 'Heading 1') fontColorPicker adjustTo: Color brown.
+	(self blockStylerOf: options for: 'Heading 4') fontColorPicker adjustTo: Color yellow.
 	styleSettings := editor blockTextStyler styleSettings.
+	styleSettings fontColors at: 'Heading 1' put: Color brown.
+	styleSettings fontColors at: 'Heading 4' put: Color yellow.
 	
 	h1Block := MarkdownHeading
 		newFrom: (MarkdownLine newFrom: '# observer', Character cr with: styleSettings).

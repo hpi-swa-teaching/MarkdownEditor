@@ -18,4 +18,4 @@ menubarContent: aBuilder
 			model: self;
 			enabled: true;
 			action: [self showStylerMorphsFor: 'Lists'];
-			yourself }
+			yourself}
