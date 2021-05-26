@@ -1,4 +1,4 @@
-accessing
-indicator
+constants
+indicatorLength
 
 	self subclassResponsibility
