@@ -7,4 +7,4 @@ testSave
 	editor markdownText: content.
 	editor putTextOn: file.
 	
-	self assert: (file content) equals: content
+	self assert: content equals: (file content)
