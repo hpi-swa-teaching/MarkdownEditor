@@ -4,7 +4,6 @@ yellowButtonMenuItems
 	| entries |
 	entries := OrderedCollection withAll:
 		{
-			#-.
 			{'new' translated.			#createNewInstance}.
 			{'open...' translated.		#openFileDialog}.
 			{'save' translated.		#saveText}.

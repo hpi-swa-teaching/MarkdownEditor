@@ -1,4 +1,5 @@
 test - open / close
 testFileEnding
 
-	self assert: editor fileEnding equals: 'md'
+	self assert: 'md' equals: editor fileEnding.
+	self assert: (editor defaultFilename endsWith: editor fileEnding) 

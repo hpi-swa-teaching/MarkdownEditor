@@ -6,7 +6,6 @@
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
 		"blockTextStyler" : "azi 6/4/2020 11:00",
-		"buildEditorMenuBarWith:" : "MK 7/5/2020 20:19",
 		"buildEditorTextMorphWith:" : "F.S 5/26/2021 11:11",
 		"buildWith:" : "JE 5/7/2021 12:14",
 		"convertToHTML" : "mas 6/28/2020 13:08",
@@ -18,8 +17,6 @@
 		"initialize" : "azi 8/6/2020 06:56",
 		"markdownText" : "lpf 6/13/2019 15:26",
 		"markdownText:" : "cg 7/5/2020 12:20",
-		"menuBarHeight" : "mas 8/6/2020 10:28",
-		"menubarContent:" : "F.S 5/26/2021 11:22",
 		"openFile:" : "mas 7/7/2020 12:42",
 		"openFileDialog" : "F.S 5/26/2021 11:21",
 		"openSettings" : "JE 5/7/2021 11:47",
@@ -33,7 +30,7 @@
 		"saveTextInModel" : "MK 7/6/2020 14:40",
 		"textMorph" : "cg 7/5/2020 12:21",
 		"textMorph:" : "cg 7/5/2020 12:21",
-		"windowSpecsFor:" : "azi 8/6/2020 07:32",
+		"windowSpecsFor:" : "F.S 5/26/2021 11:35",
 		"windowTitle" : "MK 5/11/2020 19:00",
 		"yellowButtonMenu:" : "F.S 5/26/2021 11:10",
-		"yellowButtonMenuItems" : "F.S 5/26/2021 11:27" } }
+		"yellowButtonMenuItems" : "F.S 5/26/2021 12:12" } }

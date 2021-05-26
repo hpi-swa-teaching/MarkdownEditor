@@ -11,8 +11,7 @@
 		"testConvertToHtml" : "JE 5/7/2021 14:43",
 		"testCreateNewEditorInstanceInWorld" : "JE 5/7/2021 14:44",
 		"testCurrentFilePath" : "JE 5/7/2021 14:44",
-		"testFileEnding" : "JE 5/12/2021 14:05",
-		"testMenuBarExists" : "MK 5/14/2020 13:04",
+		"testFileEnding" : "F.S 5/26/2021 11:44",
 		"testMenuOpenCommand" : "jst 5/11/2019 19:56",
 		"testOpenFile" : "JE 5/18/2021 17:42",
 		"testOpenMarkdownOptions" : "JE 5/7/2021 14:45",
@@ -21,4 +20,5 @@
 		"testTextPersistenceForBlockStyling" : "jst 6/29/2019 14:39",
 		"testTextPersistenceForInlineStyling" : "MAS 5/9/2020 21:45",
 		"testWindowCreation" : "jst 5/11/2019 19:49",
-		"testWindowLabel" : "kgr 5/27/2019 15:33" } }
+		"testWindowLabel" : "kgr 5/27/2019 15:33",
+		"testYellowButtonMenuExists" : "F.S 5/26/2021 12:13" } }
