@@ -10,5 +10,5 @@ testOpenFile
 	self assert: (fileChooser initializeCalled = true).
 	self assert: (fileChooser suffixes = {'md'}).
 	self assert: (fileChooser openCalled = true).
-	self assert: editor markdownText equals: MarkdownMockFile defaultContent.
-	self assert: editor currentFilePath equals: MarkdownMockFile defaultName
+	self assert: MarkdownMockFile defaultContent equals: editor markdownText.
+	self assert: MarkdownMockFile defaultName equals: editor currentFilePath
