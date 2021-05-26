@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testLoadBasis" : "LL 5/12/2021 21:36",
-		"testLoadImage" : "LL 5/12/2021 22:07",
-		"testLoadText" : "LL 5/12/2021 21:32" } }
+		"imageMock" : "LL 5/19/2021 16:25",
+		"testLoadBasis" : "LL 5/19/2021 16:00",
+		"testLoadImage" : "LL 5/19/2021 16:31",
+		"testLoadText1" : "LL 5/19/2021 15:59",
+		"testLoadText2" : "LL 5/19/2021 16:00" } }

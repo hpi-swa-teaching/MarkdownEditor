@@ -1,5 +1,5 @@
 contentLoading
-contentMorph
+showContent
 
 	[^{self loadImage}] 
 	on: Error 

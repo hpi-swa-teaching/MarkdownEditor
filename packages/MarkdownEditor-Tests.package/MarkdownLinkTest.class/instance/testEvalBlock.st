@@ -6,4 +6,3 @@ testEvalBlock
 	text :=  'test' asText.
 	link addTo: text.
 	self assert: (text runs first last class == PluggableTextAttribute).
-	self assert: (text runs first last actOnClickFor: 3 ~= nil)
