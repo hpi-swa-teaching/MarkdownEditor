@@ -1,4 +1,4 @@
-tests
+tests - blocks
 testConvertCodeBlock
 
 	| codeBlock html |

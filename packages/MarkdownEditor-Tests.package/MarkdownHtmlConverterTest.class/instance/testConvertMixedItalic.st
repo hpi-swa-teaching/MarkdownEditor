@@ -1,4 +1,4 @@
-tests
+tests - inline
 testConvertMixedItalic
 
 	| paragraph html result |

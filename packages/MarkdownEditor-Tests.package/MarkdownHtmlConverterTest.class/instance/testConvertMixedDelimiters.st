@@ -1,4 +1,4 @@
-tests
+tests - inline
 testConvertMixedDelimiters
 
 	| paragraph html result |
@@ -10,6 +10,6 @@ testConvertMixedDelimiters
 	
 	paragraph := self createBlockFrom: '**bold _bold & italic_ bold**'.
 	html := htmlConverter convertParagraph: paragraph.
-	self assert: result equals: html.
+	self assert: result equals: html
 
 	

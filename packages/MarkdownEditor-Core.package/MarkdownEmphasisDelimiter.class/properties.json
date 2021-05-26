@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "fgo 5/21/2019 15:45",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"isLeftFlanking",
-		"isRightFlanking" ],
+		"isRightFlanking",
+		"delimiter" ],
 	"name" : "MarkdownEmphasisDelimiter",
 	"pools" : [
 		 ],

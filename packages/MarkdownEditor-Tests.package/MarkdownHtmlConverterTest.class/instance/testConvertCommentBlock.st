@@ -1,4 +1,4 @@
-tests
+tests - blocks
 testConvertCommentBlock
 
 	| comment html |

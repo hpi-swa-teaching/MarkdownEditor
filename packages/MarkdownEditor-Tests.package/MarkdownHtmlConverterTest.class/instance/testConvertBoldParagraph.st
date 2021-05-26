@@ -1,4 +1,4 @@
-tests
+tests - inline
 testConvertBoldParagraph
 
 	| paragraph html result |

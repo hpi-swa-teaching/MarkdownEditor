@@ -1,4 +1,4 @@
-tests
+tests - blocks
 testConvertHeadings
 
 	| heading html |
