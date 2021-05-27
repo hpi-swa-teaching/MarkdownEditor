@@ -7,4 +7,6 @@ buildBlockStructureFrom: aCollectionOfMarkdownLines
 		(blocks notEmpty and: [blocks last isExtendableWith: line])
 			ifTrue: [blocks last append: line]
 			ifFalse: [blocks add: line asMarkdownBlock]].
+	Transcript clear.
+	Transcript show: blocks.
 	^ blocks

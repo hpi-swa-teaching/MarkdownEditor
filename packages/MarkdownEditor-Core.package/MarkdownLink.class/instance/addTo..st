@@ -2,7 +2,7 @@ clickable
 addTo: aText
 
 	super addTo: aText.
-
-	aText addAttribute:  (PluggableTextAttribute evalBlock: self openUrl)
+	self text: PluggableTextAttribute new.
+	aText addAttribute:  (self text evalBlock: self openUrl)
    		from: self startPosition
    		to: self endPosition

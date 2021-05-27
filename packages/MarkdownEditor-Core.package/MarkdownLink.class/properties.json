@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "hsl 7/8/2020 11:02",
 	"instvars" : [
-		"url" ],
+		"url",
+		"text" ],
 	"name" : "MarkdownLink",
 	"pools" : [
 		 ],
