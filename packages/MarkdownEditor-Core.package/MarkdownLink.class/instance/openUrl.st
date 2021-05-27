@@ -6,6 +6,6 @@ openUrl
 			ifNotNil: [
 				
 				url := self getAbsoluteUrlFromPath: model currentFilePath.
-				[self halt.mime := url retrieveContents] on: Error do: [].
+				[mime := url retrieveContents] on: Error do: [].
 				mime 
 					ifNotNil: [MarkdownUrlContentDisplay openWithMime: mime]]]
