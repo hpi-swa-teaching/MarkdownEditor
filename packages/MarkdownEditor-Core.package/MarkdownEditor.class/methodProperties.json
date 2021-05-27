@@ -6,14 +6,22 @@
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
 		"blockTextStyler" : "azi 6/4/2020 11:00",
+<<<<<<< HEAD
 		"buildEditorTextMorphWith:" : "F.S 5/26/2021 11:11",
 		"buildWith:" : "JE 5/7/2021 12:14",
+=======
+		"buildEditorMenuBarWith:" : "MK 7/5/2020 20:19",
+		"buildEditorTextMorphWith:" : "azi 8/6/2020 07:28",
+		"buildWith:" : "jh 5/27/2021 09:42",
+		"configureCloseButton" : "jh 5/27/2021 09:36",
+>>>>>>> added close button to markdown settings window
 		"convertToHTML" : "mas 6/28/2020 13:08",
 		"createNewInstance" : "MK 7/6/2020 14:33",
 		"currentFilePath" : "MK 7/6/2020 14:38",
 		"currentFilePath:" : "MK 7/6/2020 14:37",
 		"defaultFilename" : "F.S 5/26/2021 11:24",
 		"fileEnding" : "JE 5/5/2021 17:51",
+		"handleClose" : "jh 5/27/2021 10:07",
 		"initialize" : "azi 8/6/2020 06:56",
 		"markdownText" : "lpf 6/13/2019 15:26",
 		"markdownText:" : "cg 7/5/2020 12:20",
@@ -30,7 +38,14 @@
 		"saveTextInModel" : "MK 7/6/2020 14:40",
 		"textMorph" : "cg 7/5/2020 12:21",
 		"textMorph:" : "cg 7/5/2020 12:21",
+<<<<<<< HEAD
 		"windowSpecsFor:" : "F.S 5/26/2021 11:35",
 		"windowTitle" : "MK 5/11/2020 19:00",
 		"yellowButtonMenu:" : "F.S 5/26/2021 11:10",
 		"yellowButtonMenuItems" : "F.S 5/26/2021 12:12" } }
+=======
+		"window" : "jh 5/27/2021 09:41",
+		"window:" : "jh 5/27/2021 09:41",
+		"windowSpecsFor:" : "azi 8/6/2020 07:32",
+		"windowTitle" : "MK 5/11/2020 19:00" } }
+>>>>>>> added close button to markdown settings window

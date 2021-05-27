@@ -4,7 +4,7 @@ initializeColorBoxAt: aPoint with: aColor
 	^ SimpleButtonMorph new
 			color: aColor;
 			label: '';
-			actionSelector: #handleColorChangeTo:;
+			actionSelector: #adjustTo:;
 			arguments: {aColor};
 			target: self;
 			borderColor: aColor;
