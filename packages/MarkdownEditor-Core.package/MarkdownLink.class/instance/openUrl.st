@@ -1,9 +1,11 @@
 clickable
 openUrl
 
-	^[:model || mime |
-		url
+	^[:model || mime  url|
+		self url
 			ifNotNil: [
-				[mime := self getMimeFrom: model] on: Error do: [^nil].
+				
+				url := self getAbsoluteUrlFromPath: model currentFilePath.
+				[self halt.mime := url retrieveContents] on: Error do: [].
 				mime 
 					ifNotNil: [MarkdownUrlContentDisplay openWithMime: mime]]]

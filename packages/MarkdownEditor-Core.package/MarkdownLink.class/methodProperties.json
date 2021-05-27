@@ -4,9 +4,8 @@
 	"instance" : {
 		"addTo:" : "LL 5/18/2021 23:26",
 		"convertWith:" : "cg 6/29/2020 22:36",
-		"getMime" : "C.H. 5/27/2021 14:57",
-		"getMimeFrom:" : "C.H. 5/27/2021 15:12",
+		"getAbsoluteUrlFromPath:" : "C.H. 5/27/2021 22:01",
 		"initialize" : "azi 8/6/2020 07:57",
-		"openUrl" : "C.H. 5/27/2021 15:10",
+		"openUrl" : "C.H. 5/27/2021 22:05",
 		"url" : "hsl 5/19/2020 15:23",
 		"url:" : "hsl 5/19/2020 15:23" } }
