@@ -2,5 +2,5 @@ open / save
 saveText
 
 	self currentFilePath isEmpty
-		ifTrue: [self saveAsFile: (FileSaverDialog openOnInitialFilename: 'swt.', self fileEnding)]
+		ifTrue: [self saveAsFile: (FileSaverDialog openOnInitialFilename: self defaultFilename)]
 		ifFalse: [self putTextOn: (FileStream oldFileNamed: self currentFilePath)]
