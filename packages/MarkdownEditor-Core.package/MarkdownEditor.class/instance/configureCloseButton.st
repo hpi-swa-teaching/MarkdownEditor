@@ -1,4 +1,4 @@
-morphic ui
+as yet unclassified
 configureCloseButton
 
 	| box |
@@ -7,5 +7,5 @@ configureCloseButton
 	box := (self window createBox: SystemWindow closeBoxImage)
 			setBalloonText: 'close this window' translated.
 	self window labelArea addMorphFront: box.
-	box actionSelector: #handleCancel.
+	box actionSelector: #handleClose.
 	box target: self

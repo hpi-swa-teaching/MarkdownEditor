@@ -3,5 +3,5 @@ newFor: aBlockStyler
 
 	^self new
 		blockStyler: aBlockStyler;
-		initializeWith: aBlockStyler;
+		initializeMe;
 		yourself
