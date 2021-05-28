@@ -1,7 +1,7 @@
 parsing
 processOpeningURLDelimiter: nextToken
 	
-	"sets the url and end position of the last inlineElement aka the MarkdownLink added in the processLink: and: method just before"
+	"set the url and end-position of the last MarkdownInlineElement which is the MarkdownLink added in the method process:and: just before"
 	| urlCloser |
 	nextToken class = MarkdownOpeningURLDelimiter ifTrue: [
 		urlCloser := self findCloserFor: nextToken ifFound: [:closingBracket | closingBracket].
