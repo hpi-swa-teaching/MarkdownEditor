@@ -1,4 +1,4 @@
-as yet unclassified
+settings
 handleClose
 
 	MarkdownSettings UniqueInstance ifWindowPresent: [MarkdownSettings close].

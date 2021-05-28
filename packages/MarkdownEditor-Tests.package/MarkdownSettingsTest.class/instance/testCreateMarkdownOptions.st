@@ -4,7 +4,6 @@ testCreateMarkdownOptions
 	| options buttons |
 
 	options := MarkdownSettings UniqueInstance.
-	Transcript show: options dependents;cr.
 	buttons := options dependents select: [:morph | morph isKindOf: PluggableButtonMorph].
 	
 	self assert: buttons size = 5.

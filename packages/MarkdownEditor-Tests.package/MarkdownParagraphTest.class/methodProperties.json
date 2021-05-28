@@ -8,6 +8,7 @@
 		"testBlankLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:50",
 		"testBlankLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:51",
 		"testConvertingToTextUsesInlineStyler" : "azi 6/13/2020 04:07",
+		"testDefaultFontColorIsThemeTextColor" : "jh 5/27/2021 20:41",
 		"testTextLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:54",
 		"testTextLineIsExtendableWithTextLine" : "jko 5/27/2019 15:55",
 		"testTextLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:54",

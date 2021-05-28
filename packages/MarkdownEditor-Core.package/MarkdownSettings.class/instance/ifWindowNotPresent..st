@@ -1,4 +1,4 @@
 accessing
 ifWindowNotPresent: aBlock
 
-	^ (self window = #noWindow) ifTrue: aBlock
+	^ (self window = #noWindow) ifTrue: [aBlock value]
