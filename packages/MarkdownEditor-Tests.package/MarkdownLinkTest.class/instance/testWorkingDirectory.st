@@ -1,17 +1,16 @@
 tests
 testWorkingDirectory
 
-	| link  |
-	link := (MarkdownLink from: 1 to: 4) url: ''.
-	self assert: 
-		(link getAbsoluteUrlFromPath: MarkdownEditor new currentFilePath) pathForFile = 
-		FileDirectory default asUrl pathForFile.
+	| link delimiter path |
+	link := (MarkdownLink from: 1 to: 4) url: 'testWorkingDir'.
+	self assert: (link getAbsoluteUrlFromPath: '') pathForFile 
+		equals: FileDirectory default asUrl pathForFile, 'testWorkingDir'.
 	
+	delimiter := FileDirectory pathNameDelimiter asString.
+	path := FileDirectory default pathName, delimiter, 'testWorkingDir', delimiter.
 	link url: 'testtest.jpg'.
-	self assert: 
-			(link getAbsoluteUrlFromPath: FileDirectory default pathName, '\testWorkingDir\test.md') pathForFile 
-		equals:
-			FileDirectory default pathName, '\testWorkingDir\testtest.jpg'.
+	self assert: (link getAbsoluteUrlFromPath: path, 'test.md') pathForFile 
+		equals: path, 'testtest.jpg'.
 		
 	
 	
