@@ -9,8 +9,9 @@ testWorkingDirectory
 	
 	link url: 'testtest.jpg'.
 	self assert: 
-		(link getAbsoluteUrlFromPath: 'C:\testTestFolder\testFolder\testWorkingDir\test.md') pathForFile = 
-		'C:\testTestFolder\testFolder\testWorkingDir\testtest.jpg'.
+			(link getAbsoluteUrlFromPath: FileDirectory default pathName, '\testWorkingDir\test.md') pathForFile 
+		equals:
+			FileDirectory default pathName, '\testWorkingDir\testtest.jpg'.
 		
 	
 	
