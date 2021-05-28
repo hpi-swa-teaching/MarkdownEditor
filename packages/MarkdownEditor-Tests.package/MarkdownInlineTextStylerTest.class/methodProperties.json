@@ -10,6 +10,7 @@
 		"testConvertClosingDelimiter" : "kgr 7/23/2019 13:17",
 		"testConvertOpeningDelimiter" : "kgr 7/23/2019 13:17",
 		"testCreateLink" : "cg 7/3/2020 15:44",
+		"testCreateSimpleLink" : "C.H. 5/23/2021 13:14",
 		"testCutClosingDelimiter" : "kgr 7/23/2019 13:17",
 		"testCutOpeningDelimiter" : "kgr 7/23/2019 13:17",
 		"testDelimiterCantCloseItself" : "F.S 5/6/2021 16:34",

@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownOpeningSimpleLinkDelimiter",
+	"pools" : [
+		 ],
+	"super" : "MarkdownToken",
+	"type" : "normal" }

@@ -15,8 +15,9 @@
 		"testConvertItalicParagraph" : "MK 6/21/2020 17:42",
 		"testConvertLink" : "hsl 7/1/2020 03:35",
 		"testConvertOrderedList" : "cg 6/30/2020 00:09",
+		"testConvertStrikeParagraph" : "F.S 5/26/2021 14:44",
 		"testConvertStyleSettings" : "MK 7/9/2020 16:27",
 		"testConvertToRGBA" : "hsl 6/27/2020 16:38",
 		"testConvertUnorderedList" : "hsl 6/27/2020 16:17",
 		"testCreateNested" : "hsl 7/12/2020 15:23",
-		"testCreateNestedHTML" : "hsl 7/12/2020 15:41" } }
+		"testCreateNestedHTML" : "F.S 5/26/2021 15:14" } }

@@ -1,7 +1,7 @@
 as yet unclassified
 openWithMime: aMimeDocument
 
-	ToolBuilder open: 
+	^ToolBuilder open: 
 		(self new 
 			mime: aMimeDocument;
 			yourself).
