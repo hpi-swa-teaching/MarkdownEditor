@@ -9,6 +9,8 @@ testWorkingDirectory
 	
 	link url: 'testtest.jpg'.
 	self assert: 
-		(link getAbsoluteUrlFromPath: 'C:\Users\conrad\OneDrive - Universität Potsdam\Dokumente\HPI\SWT\SWT2021\SWT2021.app\Contents\Resources\testWorkingDir\test.md') pathForFile = 
-		'C:\Users\conrad\OneDrive - Universität Potsdam\Dokumente\HPI\SWT\SWT2021\SWT2021.app\Contents\Resources\testWorkingDir\testtest.jpg'.
+		(link getAbsoluteUrlFromPath: 'C:\testTestFolder\testFolder\testWorkingDir\test.md') pathForFile = 
+		'C:\testTestFolder\testFolder\testWorkingDir\testtest.jpg'.
+		
+	
 	
