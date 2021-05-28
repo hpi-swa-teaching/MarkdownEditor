@@ -1,4 +1,4 @@
-as yet unclassified
+changing
 adaptToTheme
 
 	self color: Color transparent.

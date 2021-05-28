@@ -1,3 +1,4 @@
 accessing
-blockStyler: anObject
-	blockStyler := anObject
+blockStyler: aBlockStylerMorph
+
+	blockStyler := aBlockStylerMorph

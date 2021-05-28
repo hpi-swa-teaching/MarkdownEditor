@@ -23,6 +23,7 @@
 		"testItalicBoldNotLeftFlanking" : "jh 5/7/2021 10:34",
 		"testItalicBoldNotRightFlanking" : "jh 5/7/2021 10:35",
 		"testItalicBoldRightFlanking" : "jh 5/7/2021 10:36",
+		"testItalicBoldType" : "F.S 5/26/2021 14:45",
 		"testItalicEmphasisDelimiterLength" : "F.S 5/6/2021 15:33",
 		"testLeftFlankingItalicBold" : "jh 5/7/2021 10:32",
 		"testLeftFlankingStrike" : "jh 5/7/2021 10:33",
@@ -47,4 +48,4 @@
 		"testStrikeNotLeftFlanking" : "jh 5/7/2021 10:34",
 		"testStrikeNotRightFlanking" : "jh 5/7/2021 10:35",
 		"testStrikeRightFlanking" : "jh 5/7/2021 10:36",
-		"testType" : "F.S 5/6/2021 15:37" } }
+		"testStrikeType" : "F.S 5/26/2021 14:45" } }

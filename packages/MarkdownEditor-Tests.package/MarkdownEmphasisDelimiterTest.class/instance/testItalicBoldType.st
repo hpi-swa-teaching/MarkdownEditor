@@ -1,5 +1,5 @@
 tests - extending
-testType
+testItalicBoldType
 
 	| token |
 	token := MarkdownItalicBoldDelimiter newFor: '*' at: 1.

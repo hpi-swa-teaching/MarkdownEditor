@@ -1,3 +1,4 @@
 accessing
-openCalled: anObject
-	openCalled := anObject
+openCalled: aBoolean
+
+	openCalled := aBoolean
