@@ -1,4 +1,4 @@
 testing
 = aMarkdownBlock
 
-	^self content = aMarkdownBlock content.
+	^self hashCode = aMarkdownBlock hashCode.

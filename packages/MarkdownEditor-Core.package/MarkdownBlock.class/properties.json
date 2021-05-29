@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "jst 7/10/2019 15:46",
 	"instvars" : [
-		 ],
+		"text",
+		"hashCode" ],
 	"name" : "MarkdownBlock",
 	"pools" : [
 		 ],
