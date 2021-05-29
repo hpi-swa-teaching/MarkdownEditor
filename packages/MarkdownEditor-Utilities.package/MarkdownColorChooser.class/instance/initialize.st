@@ -1,7 +1,8 @@
 initialize
-initializeMe
+initialize
 
-	self initializeContentBox.
+	super initialize.
+	self color: Color transparent.
 	self initializeAdvancedColorPicker.
 	self initializeSimpleColorPicker.
 	

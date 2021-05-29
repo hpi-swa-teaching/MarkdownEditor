@@ -1,12 +1,10 @@
 tests
 testChangeCommentFontSizeColor
 
-	| options commentBlock styleSettings |
-	
-	options := MarkdownSettings UniqueInstance.
+	| commentBlock styleSettings |
 
-	(self blockStylerOf: options for: 'Comment') fontColorPicker adjustTo: Color green.
-	(self blockStylerOf: options for: 'Comment') handleSliderChangeTo: 14.
+	(self blockStylerOf: settings for: 'Comment') fontColorPicker adjustTo: Color green.
+	(self blockStylerOf: settings for: 'Comment') handleSliderChangeTo: 14.
 	styleSettings := editor blockTextStyler styleSettings.
 	styleSettings fontColors at: 'Comment' put: Color green.
 	

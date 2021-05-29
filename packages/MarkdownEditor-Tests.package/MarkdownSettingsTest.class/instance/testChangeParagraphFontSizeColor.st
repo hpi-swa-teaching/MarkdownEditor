@@ -1,12 +1,10 @@
 tests
 testChangeParagraphFontSizeColor
 
-	| options paragraphBlock styleSettings|
+	| paragraphBlock styleSettings|
 	
-	options := MarkdownSettings UniqueInstance.
-		
-	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 17.
-	(self blockStylerOf: options for: 'Paragraph') fontColorPicker adjustTo: Color green.
+	(self blockStylerOf: settings for: 'Paragraph') handleSliderChangeTo: 17.
+	(self blockStylerOf: settings for: 'Paragraph') fontColorPicker adjustTo: Color green.
 	styleSettings := editor blockTextStyler styleSettings.
 	styleSettings fontColors at: 'Paragraph' put: Color green.
 	

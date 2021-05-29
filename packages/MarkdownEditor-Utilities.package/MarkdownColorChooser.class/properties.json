@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"advancedColorPicker",
-		"blockStyler",
 		"simpleColorChoosers" ],
 	"name" : "MarkdownColorChooser",
 	"pools" : [

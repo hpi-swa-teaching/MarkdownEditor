@@ -3,4 +3,6 @@ open
 
 	self change: self currentStyleSettings.
 	
-	self isWindowPresent ifFalse: [ToolBuilder open: UniqueInstance]
+	self ifWindowNotPresent: [ToolBuilder open: UniqueInstance].
+	
+	^ self window
