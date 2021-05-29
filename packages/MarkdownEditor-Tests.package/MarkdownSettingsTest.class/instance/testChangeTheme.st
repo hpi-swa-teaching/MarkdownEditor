@@ -1,4 +1,4 @@
-tests
+tests - appearance
 testChangeTheme
 
 	| theme1 theme2 allignment closeBox |

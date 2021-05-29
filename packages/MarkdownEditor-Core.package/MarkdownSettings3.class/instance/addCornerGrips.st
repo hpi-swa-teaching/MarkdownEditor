@@ -1,4 +1,0 @@
-resizing
-addCornerGrips
-
-	"disable resizing"

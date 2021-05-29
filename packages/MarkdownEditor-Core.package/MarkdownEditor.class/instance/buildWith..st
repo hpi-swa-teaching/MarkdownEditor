@@ -7,7 +7,8 @@ buildWith: aBuilder
 	window := aBuilder build: windowSpec.
 	self textMorph: (aBuilder widgetAt: #textMorph).
 	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
-	self configureCloseButton;
-		registerSettings.
+	self registerSettings;
+		configureCloseButton.
+	self window setProperty: #noUserInterfaceTheme toValue: true.
 	 
 	^ window

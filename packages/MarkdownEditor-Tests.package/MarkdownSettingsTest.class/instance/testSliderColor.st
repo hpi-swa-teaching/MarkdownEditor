@@ -1,8 +1,8 @@
 tests - appearance
-testSliderLabelColor
+testSliderColor
 
 	settings blockStylerMorphs 
 		do:[:blockStyler | 
-			self assert: ((blockStyler sliderLabel color) 
+			self assert: ((blockStyler fontSizeSlider mdslider color) 
 				= (UserInterfaceTheme current properties at: (DialogWindow ->#textColor)))]
 	
