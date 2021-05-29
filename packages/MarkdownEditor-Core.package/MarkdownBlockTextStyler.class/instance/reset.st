@@ -1,5 +1,5 @@
 initialize
 reset
 
-	self blocks: OrderedCollection new.
+	self blocks: Set new.
 	^ self

@@ -1,4 +1,4 @@
 accessing
 blocks
-	blocks ifNil: [blocks := OrderedCollection new].
+	blocks ifNil: [blocks := Set new].
 	^ blocks
