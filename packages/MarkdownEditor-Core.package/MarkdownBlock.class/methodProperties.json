@@ -3,10 +3,16 @@
 		"mayBeginWith:" : "hsl 6/18/2020 15:12",
 		"newFrom:" : "azi 6/1/2020 15:42" },
 	"instance" : {
+		"=" : "C.H. 5/28/2021 17:31",
 		"append:" : "jko 7/4/2019 16:17",
-		"asText" : "jst 6/10/2019 12:12",
+		"asText" : "C.H. 5/28/2021 18:10",
+		"contains:" : "C.H. 5/28/2021 17:05",
 		"convertWith:" : "cg 6/29/2020 21:31",
 		"firstLine" : "jst 6/10/2019 11:18",
-		"initialize" : "azi 8/6/2020 06:58",
+		"generateText" : "C.H. 5/28/2021 17:59",
+		"hash" : "C.H. 5/28/2021 17:47",
+		"initialize" : "C.H. 5/28/2021 19:41",
 		"isExtendableWith:" : "jko 7/4/2019 17:02",
-		"lastLine" : "jst 6/10/2019 11:34" } }
+		"lastLine" : "jst 6/10/2019 11:34",
+		"text" : "C.H. 5/28/2021 17:54",
+		"text:" : "C.H. 5/28/2021 17:54" } }
