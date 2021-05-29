@@ -5,4 +5,4 @@ initialize
 	
 	self initializeCalled: false.
 	self openCalled: false.
-	self suffixes: nil
+	self setSuffixes: nil

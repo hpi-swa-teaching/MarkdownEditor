@@ -10,7 +10,6 @@
 		"testCommentEndOfClosedBlock" : "jko 7/4/2019 17:30",
 		"testCommentEndOfClosedBlockFollowedByText" : "jko 7/4/2019 17:31",
 		"testCommentStart0To3Indentation" : "jko 7/4/2019 17:32",
-		"testDefaultColorIsLightGray" : "jh 5/27/2021 20:39",
 		"testMayBeginWith1To3Indentation" : "jko 7/4/2019 16:46",
 		"testMayBeginWithOpeningTag" : "jko 7/4/2019 16:45",
 		"testMayBeginWithOpeningTagWithText" : "jko 7/4/2019 16:45",

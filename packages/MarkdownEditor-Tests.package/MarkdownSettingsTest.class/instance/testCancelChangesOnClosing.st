@@ -1,13 +1,12 @@
 tests
 testCancelChangesOnClosing
 
-	| options paragraphBlock styleSettings oldStyleSettings|
+	| paragraphBlock styleSettings oldStyleSettings|
 	
-	options := MarkdownSettings UniqueInstance.
-	oldStyleSettings := MarkdownSettings UniqueInstance currentStyleSettings.
+	oldStyleSettings := settings currentStyleSettings.
 		
-	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 17.
-	(self blockStylerOf: options for: 'Paragraph') fontColorPicker adjustTo: Color green.
+	(self blockStylerOf: settings for: 'Paragraph') handleSliderChangeTo: 17.
+	(self blockStylerOf: settings for: 'Paragraph') fontColorPicker adjustTo: Color green.
 	
 	styleSettings := editor blockTextStyler styleSettings.
 	

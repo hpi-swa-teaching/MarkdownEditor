@@ -11,7 +11,7 @@ createNestedHTML: aNested
 		[:nestedMarkdown :i |
 			i ~= 1 ifTrue: [
 				| foo |
-				foo := nestedMarkdown startPosition - 1 + nestedMarkdown indicator size.
+				foo := nestedMarkdown startPosition - 1 + nestedMarkdown indicatorLength.
 				nestedMarkdown content: (StringUtil replaceFrom: start - foo 
 													to: stop - foo 
 													in: nestedMarkdown content 

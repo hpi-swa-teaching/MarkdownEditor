@@ -1,4 +1,4 @@
 accessing
 setSuffixes: anObject
 
-	self suffixes: anObject
+	suffixes := anObject

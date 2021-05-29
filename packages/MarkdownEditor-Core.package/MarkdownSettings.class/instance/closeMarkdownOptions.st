@@ -2,4 +2,5 @@ event handling
 closeMarkdownOptions
 	
 	self window delete.
-	self window: #noWindow
+	Transcript show: 'closed'.
+	self window: self noWindow

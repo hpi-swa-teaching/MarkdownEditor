@@ -1,7 +1,6 @@
 running
 tearDown
 
-	MarkdownSettings UniqueInstance window = #noWindow ifFalse:[
-		MarkdownSettings UniqueInstance closeMarkdownOptions].
+	MarkdownSettings close.
 	window delete.
 	MarkdownSettings UniqueInstance currentStyleSettings: originalSettings.

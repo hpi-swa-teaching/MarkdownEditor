@@ -8,4 +8,5 @@ buildEditorTextMorphWith: aBuilder
 		getText: #markdownText;
 		stylerClass: MarkdownBlockTextStyler;
 		name: #textMorph;
+		menu: #yellowButtonMenu:;
 		yourself

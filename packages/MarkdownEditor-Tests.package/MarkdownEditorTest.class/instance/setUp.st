@@ -1,6 +1,6 @@
 running
 setUp
 
-	editor := MarkdownEditor new.
-	toolbuilder := ToolBuilder default.
-	window := toolbuilder open: editor.
+	window := MarkdownEditor open.
+	editor := window model.
+	toolbuilder := ToolBuilder default

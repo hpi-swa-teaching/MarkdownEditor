@@ -1,0 +1,4 @@
+constants
+indicatorLength
+
+	self subclassResponsibility

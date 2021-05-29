@@ -3,7 +3,7 @@ testConvertStyleSettings
 
 	| styleSettings expectedCss convertedStyle |
 	
-	styleSettings := MarkdownStyleSettings default.
+	styleSettings := self styleSettingsForHtmlTests.
 	styleSettings fontSizes: (styleSettings fontSizes at: 'Heading 3' put: 46; yourself).
 	styleSettings fontColors: (styleSettings fontColors at: 'Paragraph' put: Color red; yourself).
 	styleSettings fontSizes: (styleSettings fontSizes at: 'Unord. List 3+' put: 46; yourself).

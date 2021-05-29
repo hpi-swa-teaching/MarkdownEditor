@@ -4,4 +4,6 @@ testOpenMarkdownOptions
 	| optionsMenu |
 	
 	optionsMenu := editor openSettings.
-	self assert: (World submorphs includes: optionsMenu window).
+
+	self assert: (World submorphs includes: optionsMenu).
+	optionsMenu delete

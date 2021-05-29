@@ -1,4 +1,4 @@
 accessing
 ifWindowNotPresent: aBlock
 
-	^ (self window = #noWindow) ifTrue: [aBlock value]
+	(self window hasProperty: #noWindow) ifTrue: [aBlock value]

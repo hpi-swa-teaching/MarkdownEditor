@@ -1,4 +1,4 @@
 event handling
 close
 
-	^ self UniqueInstance handleCancel
+	self UniqueInstance handleCancel

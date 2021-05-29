@@ -6,4 +6,3 @@ adaptToTheme
 	self fontSizeSlider mdslider color: MarkdownStyleSettings themeFontColor.
 	self fontSizeSlider color: MarkdownStyleSettings themeButtonMorphColor.
 	self fontColorPicker adaptToTheme
-	

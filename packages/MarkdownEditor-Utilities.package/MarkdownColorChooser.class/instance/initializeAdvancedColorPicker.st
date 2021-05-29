@@ -6,6 +6,6 @@ initializeAdvancedColorPicker
 			setProperty: #noDraggingThisPicker toValue: true;
 			selector: #changed:;
 			position: 310@0;
-			height: self height - 10;
+			height: 60;
 			width: 190;
 			yourself)
