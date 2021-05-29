@@ -1,0 +1,4 @@
+constants
+indicatorLength
+
+	^ 2

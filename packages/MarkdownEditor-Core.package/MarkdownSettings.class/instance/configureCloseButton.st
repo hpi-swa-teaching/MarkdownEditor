@@ -1,10 +1,9 @@
 morphic ui
 configureCloseButton
 
-	| box |
-	
 	self window deleteCloseBox.
-	"box := (self window createBox: SystemWindow closeBoxImage)
-			setBalloonText: 'close this window' translated.
-	self connect: box signal: #mouseDown: to: self selector: #handleCancel. 
-	self window labelArea addMorphFront: box"
+	self closeBox: ((self window createBox: SystemWindow closeBoxImage)
+			setBalloonText: 'close this window' translated; name: 'closeBox').
+	self window labelArea addMorphFront: self closeBox.
+	self closeBox actionSelector: #handleCancel.
+	self closeBox target: self

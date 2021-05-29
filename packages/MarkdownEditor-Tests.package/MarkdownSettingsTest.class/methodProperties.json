@@ -12,6 +12,7 @@
 		"testChangeHeadingFontSizesColors" : "jh 5/29/2021 12:45",
 		"testChangeMultipleEditors" : "jh 5/29/2021 12:46",
 		"testChangeParagraphFontSizeColor" : "jh 5/29/2021 12:46",
+		"testChangeTheme" : "mf 5/29/2021 14:31",
 		"testCloseMarkdownOptions" : "jh 5/29/2021 12:48",
 		"testCreateMarkdownOptions" : "jh 5/29/2021 12:48",
 		"testLoadSettings" : "jh 5/29/2021 12:48",
@@ -19,4 +20,5 @@
 		"testNoWindowIsDefaultMorph" : "jh 5/29/2021 12:55",
 		"testOpenWindowIfNotPresent" : "jh 5/29/2021 12:49",
 		"testSettingsWindowLabel" : "jh 5/29/2021 13:11",
+		"testSliderLabelColor" : "jh 5/9/2021 10:32",
 		"testUnregisterEditor" : "jh 5/29/2021 13:11" } }

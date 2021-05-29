@@ -11,7 +11,8 @@
 		"currentStyleSettings",
 		"editors",
 		"newStyleSettings",
-		"window" ],
+		"window",
+		"closeBox" ],
 	"name" : "MarkdownSettings",
 	"pools" : [
 		 ],

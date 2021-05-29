@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"openWithMime:" : "C.H. 5/28/2021 11:41" },
+	"instance" : {
+		"applyUserInterfaceTheme" : "mf 5/29/2021 19:49",
+		"borderGap" : "mf 5/29/2021 15:02",
+		"buildScrollPane:" : "mf 5/29/2021 15:02",
+		"buildWith:" : "mf 5/29/2021 20:00",
+		"fontSize" : "mf 5/29/2021 15:02",
+		"invalidSourceMessage" : "mf 5/29/2021 15:02",
+		"loadBasis" : "mf 5/29/2021 20:02",
+		"loadImage" : "mf 5/29/2021 15:01",
+		"loadText" : "mf 5/29/2021 20:02",
+		"mime" : "mf 5/29/2021 15:02",
+		"mime:" : "mf 5/29/2021 15:02",
+		"showContent" : "mf 5/29/2021 15:05",
+		"unsupportedDocumentMessage" : "mf 5/29/2021 15:02",
+		"window" : "mf 5/29/2021 19:54",
+		"window:" : "mf 5/29/2021 19:54",
+		"windowTitle" : "mf 5/29/2021 15:01" } }

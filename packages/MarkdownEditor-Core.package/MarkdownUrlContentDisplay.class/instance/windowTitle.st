@@ -1,0 +1,4 @@
+constants
+windowTitle
+
+	^ 'Content Viewer'
