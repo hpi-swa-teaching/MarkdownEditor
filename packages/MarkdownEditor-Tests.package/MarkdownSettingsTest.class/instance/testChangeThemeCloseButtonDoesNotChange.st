@@ -1,5 +1,5 @@
 tests - appearance
-testChangeTheme
+testChangeThemeCloseButtonDoesNotChange
 
 	| theme1 theme2 allignment closeBox |
 	allignment := (settings window submorphs select: [:s | s class = AlignmentMorph]) first.

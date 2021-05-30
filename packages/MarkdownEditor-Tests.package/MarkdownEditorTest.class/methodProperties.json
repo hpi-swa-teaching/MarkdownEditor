@@ -20,6 +20,7 @@
 		"testSaveAndOpen" : "JE 5/19/2021 12:31",
 		"testTextPersistenceForBlockStyling" : "JE 5/26/2021 13:14",
 		"testTextPersistenceForInlineStyling" : "MAS 5/9/2020 21:45",
+		"testThemeChangedFontColorChanges" : "jh 5/30/2021 16:16",
 		"testWindowClose" : "jh 5/29/2021 12:27",
 		"testWindowCreation" : "JE 5/26/2021 13:14",
 		"testWindowLabel" : "JE 5/26/2021 13:14",
