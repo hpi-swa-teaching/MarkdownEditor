@@ -1,20 +1,21 @@
 {
 	"class" : {
-		"openWithMime:" : "C.H. 5/28/2021 11:41" },
+		"openWithMime:" : "mf 5/30/2021 13:54" },
 	"instance" : {
-		"applyUserInterfaceTheme" : "mf 5/29/2021 19:49",
+		"adaptTextColorToTheme:" : "mf 5/30/2021 13:58",
+		"applyUserInterfaceTheme" : "mf 5/30/2021 13:58",
 		"borderGap" : "mf 5/29/2021 15:02",
 		"buildScrollPane:" : "mf 5/29/2021 15:02",
 		"buildWith:" : "mf 5/29/2021 20:00",
+		"contentText" : "mf 5/30/2021 13:51",
+		"contentText:" : "mf 5/30/2021 13:52",
 		"fontSize" : "mf 5/29/2021 15:02",
 		"invalidSourceMessage" : "mf 5/29/2021 15:02",
-		"loadBasis" : "mf 5/29/2021 20:02",
+		"loadBasis" : "mf 5/30/2021 13:59",
 		"loadImage" : "mf 5/29/2021 15:01",
-		"loadText" : "mf 5/29/2021 20:02",
+		"loadText" : "mf 5/30/2021 14:00",
 		"mime" : "mf 5/29/2021 15:02",
 		"mime:" : "mf 5/29/2021 15:02",
-		"showContent" : "mf 5/29/2021 15:05",
+		"showContent" : "mf 5/30/2021 13:56",
 		"unsupportedDocumentMessage" : "mf 5/29/2021 15:02",
-		"window" : "mf 5/29/2021 19:54",
-		"window:" : "mf 5/29/2021 19:54",
 		"windowTitle" : "mf 5/29/2021 15:01" } }
