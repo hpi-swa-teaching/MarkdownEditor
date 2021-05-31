@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testClosingDelimiterIsCloser" : "hsl 5/19/2020 23:16",
+		"testClosingDelimiterIsCloser" : "C.H. 5/21/2021 11:58",
 		"testClosingDelimiterIsDelimiter" : "MK 5/25/2020 15:44",
 		"testClosingLinkDelimiterAsString" : "hsl 5/19/2020 18:18",
 		"testClosingSetPrecedingFollowingReturnsSelf" : "MK 6/28/2020 12:13",
@@ -15,7 +15,7 @@
 		"testIsExtendableWithBracket" : "hsl 5/19/2020 19:39",
 		"testIsNotExtendableWithText" : "hsl 5/19/2020 19:40",
 		"testLength" : "hsl 5/19/2020 19:45",
-		"testLinkAttributes" : "hsl 5/19/2020 23:17",
+		"testLinkAttributes" : "C.H. 5/21/2021 12:04",
 		"testMatches" : "mas 8/6/2020 12:04",
 		"testMayBeginWithBracket" : "hsl 5/19/2020 19:40",
 		"testMayNotBeginWithOtherCharacter" : "hsl 5/19/2020 19:41",
