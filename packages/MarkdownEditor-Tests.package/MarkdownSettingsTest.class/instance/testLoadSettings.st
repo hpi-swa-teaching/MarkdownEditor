@@ -4,6 +4,6 @@ testLoadSettings
 	| styleSettings |
 	
 	styleSettings := editor blockTextStyler styleSettings.
-	self assert: styleSettings equals: settings currentStyleSettings
+	self assert: styleSettings = settings currentStyleSettings
 		
 	
