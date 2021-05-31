@@ -1,4 +1,4 @@
 accessing
-fontSizes: anObject
+fontSizes: aDictionary
 
-	fontSizes := anObject
+	fontSizes := aDictionary

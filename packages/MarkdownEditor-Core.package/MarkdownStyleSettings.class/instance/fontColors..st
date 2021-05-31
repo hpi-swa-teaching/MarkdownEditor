@@ -1,4 +1,4 @@
 accessing
-fontColors: anObject
+fontColors: aDictionary
 
-	fontColors := anObject
+	fontColors := aDictionary

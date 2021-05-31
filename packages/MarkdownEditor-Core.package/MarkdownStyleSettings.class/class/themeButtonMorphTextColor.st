@@ -1,4 +1,4 @@
 colors
 themeButtonMorphTextColor
 
-	^ UserInterfaceTheme current properties at: (PluggableButtonMorph->#textColor)
+	^ UserInterfaceTheme current properties at: (PluggableButtonMorph -> #textColor)
