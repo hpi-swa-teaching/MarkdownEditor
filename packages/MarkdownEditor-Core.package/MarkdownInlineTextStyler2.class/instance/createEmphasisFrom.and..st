@@ -1,0 +1,9 @@
+parsing
+createEmphasisFrom: opener and: closer
+
+	| emphasis |
+	emphasis := closer emphasisStartingAt: opener.
+	emphasis ifNil: [^ nil].
+	emphasis content: (self content copyFrom: opener endPosition + 1 
+									 to: closer startPosition - 1).
+	^ emphasis
