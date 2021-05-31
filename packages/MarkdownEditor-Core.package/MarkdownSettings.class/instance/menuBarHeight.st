@@ -1,7 +1,4 @@
-accessing
+constants
 menuBarHeight
 
-	| scalingFactor |
-	
-	scalingFactor := 2.
-	^ scalingFactor * Preferences standardButtonFont height
+	^ 2 * Preferences standardButtonFont height

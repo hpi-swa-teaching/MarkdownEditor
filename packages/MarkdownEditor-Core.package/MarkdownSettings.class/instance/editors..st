@@ -1,4 +1,4 @@
 accessing
-editors: anOrderdCollectionOfMarkdownEditors
+editors: markdownEditors
 
-	editors := anOrderdCollectionOfMarkdownEditors
+	editors := markdownEditors

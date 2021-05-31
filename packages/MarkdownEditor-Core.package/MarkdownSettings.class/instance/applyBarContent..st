@@ -1,15 +1,15 @@
 building
-applybarContent: aBuilder
+applyBarContent: aBuilder
 			
 	^ {aBuilder pluggableButtonSpec new
 			label: 'Apply';
 			model: self;
 			enabled: true;
 			action: #handleApply;
-			yourself .
+			yourself.
 		aBuilder pluggableButtonSpec new
 			label: 'Cancel';
 			model: self;
 			enabled: true;
 			action: #handleCancel;
-			yourself  }
+			yourself }

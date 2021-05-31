@@ -1,7 +1,7 @@
 building
 buildApplyBarWith: aBuilder
 
-	^  aBuilder pluggablePanelSpec new
-		layout: #horizontal;
-		children: (self applybarContent: aBuilder);
-		yourself
+	^ aBuilder pluggablePanelSpec new
+		 layout: #horizontal;
+		 children: (self applyBarContent: aBuilder);
+		 yourself

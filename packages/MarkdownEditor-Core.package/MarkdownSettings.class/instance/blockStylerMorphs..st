@@ -1,4 +1,4 @@
 accessing
 blockStylerMorphs: aBlockStylerMorph
 
-	blockStylerMorphs := aBlockStylerMorph.
+	blockStylerMorphs := aBlockStylerMorph

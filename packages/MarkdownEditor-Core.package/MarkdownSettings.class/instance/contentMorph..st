@@ -1,4 +1,4 @@
 accessing
 contentMorph: aScrollPane
 
-	contentMorph := aScrollPane.
+	contentMorph := aScrollPane
