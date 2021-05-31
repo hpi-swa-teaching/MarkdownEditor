@@ -1,4 +1,4 @@
 testing
 mayBeginWith: aCharacter
 
-	^ aCharacter = $*
+	^ (aCharacter = $*) or: [aCharacter = $_]

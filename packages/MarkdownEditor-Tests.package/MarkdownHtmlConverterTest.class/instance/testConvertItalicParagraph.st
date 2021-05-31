@@ -1,9 +1,13 @@
-tests
+tests - inline
 testConvertItalicParagraph
 
-	| paragraph html |
+	| paragraph html result |
 	
+	result := '<p><em>test</em></p>', Character cr.
 	paragraph := self createBlockFrom: '*test*'.
 	html := htmlConverter convertParagraph: paragraph.
+	self assert: result equals: html.
 	
-	self assert: ('<p><em>test</em></p>', Character cr = html).
+	paragraph := self createBlockFrom: '_test_'.
+	html := htmlConverter convertParagraph: paragraph.
+	self assert: result equals: html

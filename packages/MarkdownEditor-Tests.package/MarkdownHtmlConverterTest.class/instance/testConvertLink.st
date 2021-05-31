@@ -1,4 +1,4 @@
-tests
+tests - inline
 testConvertLink
 
 	| link |
