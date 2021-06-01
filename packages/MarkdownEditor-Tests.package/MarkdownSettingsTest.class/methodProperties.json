@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"blockStylerOf:for:" : "jh 5/21/2021 09:34",
-		"setUp" : "jh 5/29/2021 12:45",
+		"blockStylerOf:for:" : "jh 6/1/2021 21:35",
+		"setUp" : "jh 6/1/2021 21:34",
 		"tearDown" : "jh 5/29/2021 11:30",
-		"testApplyChanges" : "jh 5/29/2021 12:44",
+		"testApplyChanges" : "jh 6/1/2021 21:33",
 		"testCancelChanges" : "JE 6/1/2021 10:43",
 		"testCancelChangesOnClosing" : "jh 5/29/2021 12:44",
 		"testChangeCommentFontSizeColor" : "jh 5/29/2021 12:45",
