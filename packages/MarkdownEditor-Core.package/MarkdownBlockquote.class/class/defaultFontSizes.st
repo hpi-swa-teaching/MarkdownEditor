@@ -1,4 +1,4 @@
-constants
+accessing
 defaultFontSizes
 
 	^ {10}

@@ -1,6 +1,6 @@
 changing
 update: aColor
 
-	self styleSettings fontColors at: self classLabel put: aColor.
+	self styleSettings fontColors at: self classLabel text put: aColor.
 	self changed: self
 	
