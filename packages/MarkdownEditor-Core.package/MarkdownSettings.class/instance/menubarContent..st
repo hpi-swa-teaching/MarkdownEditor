@@ -1,21 +1,14 @@
 building
 menubarContent: aBuilder
-			
-	^ {aBuilder pluggableButtonSpec new
-			label: 'General';
+
+	| spec |
+	
+	spec := OrderedCollection new.
+	self blockCategories do: [:item | spec add: (aBuilder pluggableButtonSpec new
+			label: item;
 			model: self;
 			enabled: true;
-			action: [self showStylerMorphsFor: 'General'];
-			yourself.
-		aBuilder pluggableButtonSpec new
-			label: 'Headings';
-			model: self;
-			enabled: true;
-			action: [self showStylerMorphsFor: 'Headings'];
-			yourself.
-		aBuilder pluggableButtonSpec new
-			label: 'Lists';
-			model: self;
-			enabled: true;
-			action: [self showStylerMorphsFor: 'Lists'];
-			yourself}
+			action: [self showStylerMorphsFor: item];
+			yourself)
+			].
+	^ spec
