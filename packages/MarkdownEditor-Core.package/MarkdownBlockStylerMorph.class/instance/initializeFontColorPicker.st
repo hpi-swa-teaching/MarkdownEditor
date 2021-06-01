@@ -3,8 +3,8 @@ initializeFontColorPicker
 
 	self fontColorPicker: (
 		MarkdownColorChooser new
-		position: self position;
-		width: self width;
+		position: 250 @ 0;
+		width: self width / 2;
 		height: self height;
 		yourself).
 	self fontColorPicker addDependent: self

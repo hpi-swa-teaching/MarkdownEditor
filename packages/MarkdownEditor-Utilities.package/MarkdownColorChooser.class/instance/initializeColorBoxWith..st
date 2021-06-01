@@ -1,5 +1,5 @@
 initialize
-initializeColorBoxAt: aPoint with: aColor
+initializeColorBoxWith: aColor
 
 	^ SimpleButtonMorph new
 			color: aColor;
@@ -8,7 +8,6 @@ initializeColorBoxAt: aPoint with: aColor
 			arguments: {aColor};
 			target: self;
 			borderColor: aColor;
-			width: 15;
-			height: 15;
-			position: aPoint;
+			width: self simpleColorChoosersSize;
+			height: self simpleColorChoosersSize;
 			yourself
