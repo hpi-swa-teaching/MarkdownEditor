@@ -1,8 +1,9 @@
 tests
 testCancelChanges
 
-	| paragraphBlock styleSettings |
-		
+	| paragraphBlock styleSettings oldSettings |
+	
+	oldSettings := editor blockTextStyler styleSettings.
 	(self blockStylerOf: settings for: 'Paragraph') handleSliderChangeTo: 11.
 	(self blockStylerOf: settings for: 'Paragraph') fontColorPicker adjustTo: Color brown.
 	styleSettings := editor blockTextStyler styleSettings.
@@ -20,5 +21,5 @@ testCancelChanges
 	paragraphBlock styleSettings: styleSettings. "not needed in project because of block text styler"
 	self 
 		assertRuns: {20}
-		values: {{TextColor color: (originalSettings fontColors at: 'Paragraph'). self fontSized: (originalSettings fontSizes at: 'Paragraph')}}
+		values: {{TextColor color: (oldSettings fontColors at: 'Paragraph'). self fontSized: (oldSettings fontSizes at: 'Paragraph')}}
 		areStyleOf: paragraphBlock asText.
