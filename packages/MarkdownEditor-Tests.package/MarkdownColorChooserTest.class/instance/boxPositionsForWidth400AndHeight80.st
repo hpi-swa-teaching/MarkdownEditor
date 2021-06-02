@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 boxPositionsForWidth400AndHeight80
 
 	^ {0 @ 17.

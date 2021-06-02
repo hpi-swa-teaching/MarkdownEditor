@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNumberOfSimpleChoosersIs6
 
-	self assert: chooser totalSimpleColorChooser = 6
+	self assert: 6 equals: chooser totalSimpleColorChooser

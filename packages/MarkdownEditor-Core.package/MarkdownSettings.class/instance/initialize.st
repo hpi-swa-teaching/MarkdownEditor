@@ -2,10 +2,9 @@ initialize
 initialize
 
 	super initialize.
-	self blockStylerMorphs: OrderedCollection new.
-	self editors: OrderedCollection new.
-	self window: self noWindow.
-	
-	self initializeBlockStylerMorphs.
-	self currentStyleSettings: MarkdownStyleSettings default
+	editors := OrderedCollection new.
+	self blockStylerMorphs: OrderedCollection new;
+		window: self noWindow;
+		initializeBlockStylerMorphs;
+		currentStyleSettings: MarkdownStyleSettings default
 	

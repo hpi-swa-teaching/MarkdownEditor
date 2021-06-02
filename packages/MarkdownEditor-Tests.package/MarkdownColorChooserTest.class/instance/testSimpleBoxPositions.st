@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSimpleBoxPositions
 
 	| positions |
@@ -9,6 +9,4 @@ testSimpleBoxPositions
 	positions := OrderedCollection new.
 	simpleChoosers do: [:box | positions add: box position].
 	
-	Transcript show: self boxPositionsForWidth250AndHeight70 class.
-	
-	self assert: positions = self boxPositionsForWidth250AndHeight70
+	self assert: self boxPositionsForWidth250AndHeight70 equals: positions
