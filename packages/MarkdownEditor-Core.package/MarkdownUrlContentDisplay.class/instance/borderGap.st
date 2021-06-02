@@ -1,4 +1,4 @@
 constants
 borderGap
 
-	^10@34
+	^ 10 @ 34

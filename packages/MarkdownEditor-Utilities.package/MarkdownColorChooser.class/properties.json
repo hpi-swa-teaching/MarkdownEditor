@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"advancedColorPicker",
+		"simpleColorChoosers" ],
+	"name" : "MarkdownColorChooser",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

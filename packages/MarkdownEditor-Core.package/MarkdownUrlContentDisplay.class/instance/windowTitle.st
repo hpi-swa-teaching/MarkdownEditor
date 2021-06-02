@@ -1,4 +1,4 @@
 constants
 windowTitle
 
-	^'Content Viewer'
+	^ 'Content Viewer'

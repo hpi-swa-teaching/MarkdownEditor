@@ -1,7 +1,8 @@
 initialize
 attachMorphsWith: canChangeFontSize and: canChangeFontColor
 		
+	self addMorph: self classLabel.
 	canChangeFontSize ifTrue: [
-		self addMorph: self fontSizeSlider.
-		self addMorph: self sliderLabel].
-	canChangeFontColor ifTrue: [self addMorph: self fontColorPicker].
+		self addMorphFront: self fontSizeSlider.
+		self addMorphFront: self sliderLabel].
+	canChangeFontColor ifTrue: [self addMorphBack: self fontColorPicker]

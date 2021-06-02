@@ -1,0 +1,4 @@
+constants
+simpleColorChoosersSize
+
+	^ 15

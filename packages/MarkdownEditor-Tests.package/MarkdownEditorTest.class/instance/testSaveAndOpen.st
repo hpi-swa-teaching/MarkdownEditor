@@ -8,7 +8,7 @@ testSaveAndOpen
 	editor markdownText: content.
 	editor putTextOn: file.
 	
-	window delete.
+	editor handleClose.
 	editor := MarkdownEditor new.
 	window := toolbuilder open: editor.
 	editor openStream: file.

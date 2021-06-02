@@ -1,6 +1,7 @@
 event handling
 open
 
-	self tabMorph performActiveTabAction.
-	self openInWorld.
-	^ self
+	self change: self currentStyleSettings.
+	self ifWindowNotPresent: [ToolBuilder open: UniqueInstance].
+	
+	^ self window

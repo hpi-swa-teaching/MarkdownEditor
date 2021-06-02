@@ -12,6 +12,13 @@ jobs:
         os: [ ubuntu-latest, macos-latest ]
         smalltalk: [ Squeak64-5.3 ]
         experimental: [false]
+        include:
+          - smalltalk: Squeak64-trunk
+            os: ubuntu-latest
+            experimental: true
+          - smalltalk: Squeak64-trunk
+            os: macos-latest
+            experimental: true
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2

@@ -1,10 +1,9 @@
 tests
 testLoadSettings
 
-	| options styleSettings |
+	| styleSettings |
 	
-	options := MarkdownSettings UniqueInstance.
 	styleSettings := editor blockTextStyler styleSettings.
-	self assert: styleSettings equals: options currentStyleSettings
+	self assert: styleSettings = settings currentStyleSettings
 		
 	
