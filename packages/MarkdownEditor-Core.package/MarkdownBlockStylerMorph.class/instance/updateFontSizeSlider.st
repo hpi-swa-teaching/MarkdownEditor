@@ -6,4 +6,3 @@ updateFontSizeSlider
 		height: self height - (2 * self offset);
 		right: self sliderLabel left - self offset;
 		top: self offset
-		

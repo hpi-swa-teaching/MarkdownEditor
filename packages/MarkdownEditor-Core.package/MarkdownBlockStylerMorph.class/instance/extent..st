@@ -8,4 +8,3 @@ extent: newExtent
 	self updateFontColorPicker.
 	self updateLabels.
 	self updateFontSizeSlider
-	
