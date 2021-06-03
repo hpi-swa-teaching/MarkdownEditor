@@ -1,4 +1,4 @@
-tests - blocks
+tests
 testConvertBasicParagraph
 
 	| paragraph html |

@@ -1,4 +1,4 @@
-tests - blocks
+tests
 testConvertBlockList
 
 	| blocks html expectedHtml |

@@ -1,4 +1,4 @@
-tests - blocks
+tests
 testConvertOrderedList
 	"not implemented yet"
 

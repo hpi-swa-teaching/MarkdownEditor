@@ -1,11 +1,10 @@
 parsing
 buildBlockStructureFrom: aCollectionOfMarkdownLines
 
-	| newBlocks |
-	newBlocks := OrderedCollection new.
+	| blocks |
+	blocks := OrderedCollection new.
 	aCollectionOfMarkdownLines do: [:line |
-		(newBlocks notEmpty and: [newBlocks last isExtendableWith: line])
-			ifTrue: [newBlocks last append: line]
-			ifFalse: [newBlocks add: line asMarkdownBlock]].
-	
-	^ newBlocks
+		(blocks notEmpty and: [blocks last isExtendableWith: line])
+			ifTrue: [blocks last append: line]
+			ifFalse: [blocks add: line asMarkdownBlock]].
+	^ blocks

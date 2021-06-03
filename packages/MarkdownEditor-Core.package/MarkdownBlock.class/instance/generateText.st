@@ -1,4 +1,0 @@
-converting
-generateText
-
-	^self subclassResponsibility.

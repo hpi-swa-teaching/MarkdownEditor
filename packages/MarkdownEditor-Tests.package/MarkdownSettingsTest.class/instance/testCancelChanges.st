@@ -15,11 +15,11 @@ testCancelChanges
 	self 
 		assertRuns: {20}
 		values: {{TextColor color: Color brown. self fontSized: 11}}
-		areStyleOf: paragraphBlock generateText.
+		areStyleOf: paragraphBlock asText.
 	options handleCancel.
 	styleSettings := editor blockTextStyler styleSettings.
 	paragraphBlock styleSettings: styleSettings. "not needed in project because of block text styler"
 	self 
 		assertRuns: {20}
 		values: {{TextColor color: (originalSettings fontColors at: 'Paragraph'). self fontSized: (originalSettings fontSizes at: 'Paragraph')}}
-		areStyleOf: paragraphBlock generateText.
+		areStyleOf: paragraphBlock asText.

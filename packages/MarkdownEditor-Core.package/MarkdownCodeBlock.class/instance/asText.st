@@ -1,5 +1,5 @@
 converting
-generateText
+asText
 
 	| result |
 	result := self firstLine asText, self codeContentAsText.

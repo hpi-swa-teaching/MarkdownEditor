@@ -1,4 +1,4 @@
-tests - color
+tests
 testConvertToRGBA
 
 	| color convertedColor |

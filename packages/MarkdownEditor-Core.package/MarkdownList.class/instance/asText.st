@@ -1,5 +1,5 @@
 converting
-generateText
+asText
 
 	 | text |	
 	 text := '' asText.

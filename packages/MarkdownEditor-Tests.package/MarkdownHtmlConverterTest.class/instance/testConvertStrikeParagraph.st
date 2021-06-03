@@ -1,4 +1,4 @@
-tests - inline
+tests
 testConvertStrikeParagraph
 
 	| paragraph html |

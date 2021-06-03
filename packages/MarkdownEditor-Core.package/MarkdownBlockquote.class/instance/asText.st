@@ -1,5 +1,5 @@
 converting
-generateText
+asText
 
 	| text |
 	text := self content asText.

@@ -14,7 +14,7 @@ testCancelChangesOnClosing
 	self 
 		assertRuns: {20}
 		values: {{TextColor color: Color green. self fontSized: 17}}
-		areStyleOf: paragraphBlock generateText.
+		areStyleOf: paragraphBlock asText.
 
 	options closeBoxHit.
 	styleSettings := editor blockTextStyler styleSettings.
@@ -22,4 +22,4 @@ testCancelChangesOnClosing
 	self 
 		assertRuns: {20}
 		values: {{TextColor color: (originalSettings fontColors at: 'Paragraph'). self fontSized: (originalSettings fontSizes at: 'Paragraph')}}
-		areStyleOf: paragraphBlock generateText.
+		areStyleOf: paragraphBlock asText.

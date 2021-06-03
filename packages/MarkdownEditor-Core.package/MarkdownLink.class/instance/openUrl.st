@@ -7,5 +7,4 @@ openUrl
 				url := self getAbsoluteUrlFromPath: model currentFilePath.
 				mime := url retrieveContents.
 				mime
-					ifNotNil: [MarkdownUrlContentDisplay openWithMime: mime. 
-						self addImageFromMime: mime to: model]]]
+					ifNotNil: [MarkdownUrlContentDisplay openWithMime: mime]]]
