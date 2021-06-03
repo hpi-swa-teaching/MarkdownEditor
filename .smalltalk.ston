@@ -18,7 +18,8 @@ SmalltalkCISpec {
       }
     },
     #exclude : {
-      #classes : [ #MarkdownEditorLintTest ]
+      #classes : [ #MarkdownEditorLintTest ],
+      #categories: [ 'open / save - I/O' ]
     }
   }
 }
