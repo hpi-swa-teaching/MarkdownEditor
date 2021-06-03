@@ -1,4 +1,4 @@
-open / save
+open / save - I/O
 saveAsFile: aFilePath
 
 	aFilePath ifNotNil: [

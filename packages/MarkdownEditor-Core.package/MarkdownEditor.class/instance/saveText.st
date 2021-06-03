@@ -1,4 +1,4 @@
-open / save
+open / save - I/O
 saveText
 
 	self currentFilePath isEmpty
