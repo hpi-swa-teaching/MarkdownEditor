@@ -1,4 +1,4 @@
-tests
+tests - blocks
 testConvertUnorderedList
 
 	| block html expectedHtml |

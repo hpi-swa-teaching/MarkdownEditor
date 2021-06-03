@@ -1,4 +1,4 @@
-tests
+tests - blocks
 testConvertBlockquote
 
 	| blockquote html |

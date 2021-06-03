@@ -1,4 +1,4 @@
 testing
 isExtendableWith: aCharacter
 
-	^ aCharacter = $*
+	^ aCharacter = self delimiter
