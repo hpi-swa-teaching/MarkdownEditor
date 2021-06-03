@@ -12,7 +12,10 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'MarkdownEditor-Core', 'MarkdownEditor-Utilities' ]
+      #packages : [ 'MarkdownEditor-Core', 'MarkdownEditor-Utilities' ],
+      #exclude: {
+        #categories: [ 'open / save - I/O' ]
+      }
     },
     #exclude : {
       #classes : [ #MarkdownEditorLintTest ]
