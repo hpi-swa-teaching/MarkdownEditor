@@ -12,9 +12,10 @@ baseline: spec
 				"MarkdownEditor setup"
 				package: 'MarkdownEditor-Utilities';
 				package: 'MarkdownEditor-Core' with: [
-					spec requires: #('MarkdownEditor-Utilities')];
+					spec requires: #('MarkdownEditor-Utilities' 'MarkdownEditor-Parsing')];
 				package: 'MarkdownEditor-Tests' with: [
-					spec requires: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'SwaLint')].
+					spec requires: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'SwaLint')];
+				package: 'MarkdownEditor-Parsing'.
 				
 			spec
 				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities');
