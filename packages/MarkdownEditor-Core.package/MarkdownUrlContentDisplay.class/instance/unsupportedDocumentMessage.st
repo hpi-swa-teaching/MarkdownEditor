@@ -1,4 +1,4 @@
 constants
 unsupportedDocumentMessage
 
-	^'Sorry, this document type is not supported!'
+	^ 'Sorry, this document type is not supported!'

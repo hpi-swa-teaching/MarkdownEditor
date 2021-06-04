@@ -1,10 +1,10 @@
 tests
 testCloseMarkdownOptions
 
-	| options |
+	| settingsWindow |
 	
-	options := MarkdownSettings UniqueInstance.
-	options openInWorld.
-	self assert: (World submorphs includes: options).
-	options closeMarkdownOptions.
-	self deny: (World submorphs includes: options).
+	settingsWindow := settings window.
+	self assert: (World submorphs includes: settingsWindow).
+	
+	settings closeMarkdownOptions.
+	self deny: (World submorphs includes: settingsWindow)

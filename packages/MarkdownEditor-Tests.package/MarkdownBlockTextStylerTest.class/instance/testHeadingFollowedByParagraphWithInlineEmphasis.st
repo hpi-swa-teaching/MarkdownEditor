@@ -1,14 +1,15 @@
 tests - text with inline
 testHeadingFollowedByParagraphWithInlineEmphasis
 
-	| text |
+	| text expectedColor |
 	text := ('# Title **bold**', Character cr, 'Line *italic*') asText.
 	blockTextStyler privateStyle: text.
+	expectedColor := MarkdownStyleSettings themeTitleFontColor. 
 	self
 		assertRuns: {8. 8. 1. 5. 8}
-		values: {{TextColor black. self fontSized: 34}.
-				{TextColor black. self fontSized: 34. TextEmphasis bold}.
-				{TextColor black. self fontSized: 34}.
-				{TextColor black. self fontSized: 14}.
-				{TextColor black. self fontSized: 14. TextEmphasis italic}}
+		values: {{TextColor color: expectedColor. self fontSized: 34}.
+				{TextColor color: expectedColor. self fontSized: 34. TextEmphasis bold}.
+				{TextColor color: expectedColor. self fontSized: 34}.
+				{TextColor color: expectedColor. self fontSized: 14}.
+				{TextColor color: expectedColor. self fontSized: 14. TextEmphasis italic}}
 		areStyleOf: text

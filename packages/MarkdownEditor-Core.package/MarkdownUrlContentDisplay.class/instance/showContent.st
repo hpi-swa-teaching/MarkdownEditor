@@ -1,8 +1,8 @@
 contentLoading
 showContent
 
-	[^{self loadImage}] 
+	[^ {self loadImage}] 
 	on: Error 
-	do: [[^{self loadText}]
+	do: [[^ {self loadText}]
 		on: Error
-		do: [^{self loadBasis}]]
+		do: [^ {self loadBasis}]]

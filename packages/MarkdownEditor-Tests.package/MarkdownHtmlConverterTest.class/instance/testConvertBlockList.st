@@ -1,4 +1,4 @@
-tests
+tests - blocks
 testConvertBlockList
 
 	| blocks html expectedHtml |
@@ -9,7 +9,7 @@ testConvertBlockList
 	blocks add: (self createBlockFrom: '<!-- My Comment -->', Character cr).
 	blocks add: (self createBlockFrom: 'My Paragraph').
 
-	html := htmlConverter convert: blocks with: MarkdownStyleSettings default.
+	html := htmlConverter convert: blocks with: self styleSettingsForHtmlTests.
 	expectedHtml :=  '<!DOCTYPE html>
 <html>
 <head>

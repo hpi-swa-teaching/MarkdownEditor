@@ -8,7 +8,8 @@
 	"instvars" : [
 		"markdownText",
 		"textMorph",
-		"currentFilePath" ],
+		"currentFilePath",
+		"window" ],
 	"name" : "MarkdownEditor",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 accessing
-lines: anOrderedCollectionOfMarkdownLines
+lines: markdownLines
 
-	lines := anOrderedCollectionOfMarkdownLines
+	lines := markdownLines

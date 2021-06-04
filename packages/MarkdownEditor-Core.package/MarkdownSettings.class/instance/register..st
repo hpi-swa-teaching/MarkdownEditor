@@ -1,5 +1,5 @@
 event handling
 register: aMarkdownEditor
 
-	self addDependent: aMarkdownEditor.
+	self editors add: aMarkdownEditor.
 	self change: self currentStyleSettings

@@ -1,7 +1,7 @@
 build
 buildScrollPane: aBuilder
 
-	^aBuilder pluggableScrollPaneSpec new
+	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
 		hScrollBarPolicy: #whenNeeded;
 		vScrollBarPolicy: #whenNeeded;
