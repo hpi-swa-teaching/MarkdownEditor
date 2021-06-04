@@ -18,5 +18,5 @@ baseline: spec
 				package: 'MarkdownEditor-Parsing'.
 				
 			spec
-				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities');
+				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'MarkdownEditor-Parsing');
 				group: 'tests' with: #('MarkdownEditor-Tests')].
