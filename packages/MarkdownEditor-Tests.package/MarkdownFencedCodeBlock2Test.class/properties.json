@@ -1,15 +1,14 @@
 {
-	"category" : "MarkdownEditor-Parsing",
+	"category" : "MarkdownEditor-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content",
-		"isOpen" ],
-	"name" : "MarkdownBlock2",
+		 ],
+	"name" : "MarkdownFencedCodeBlock2Test",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

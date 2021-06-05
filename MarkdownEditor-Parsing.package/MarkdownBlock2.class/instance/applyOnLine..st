@@ -1,4 +1,4 @@
 nil
-remainsOpenIn: aMakdownLine
+applyOnLine: aMakdownLine
 	
 	^self subclassResponsibility

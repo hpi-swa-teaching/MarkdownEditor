@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testApplyOnLine" : "C.H. 6/5/2021 16:50",
+		"testHeadingLevel" : "C.H. 6/5/2021 11:56",
+		"testInvalidHeading" : "C.H. 6/5/2021 12:00",
+		"testList:" : "C.H. 6/5/2021 11:47",
+		"testOptionalClosingSequence" : "C.H. 6/5/2021 16:41",
+		"testRemovingSpaces" : "C.H. 6/5/2021 12:28",
+		"testValidIndention" : "C.H. 6/5/2021 12:30" } }

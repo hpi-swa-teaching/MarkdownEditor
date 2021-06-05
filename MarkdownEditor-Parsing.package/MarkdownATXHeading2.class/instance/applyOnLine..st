@@ -1,4 +1,4 @@
 as yet unclassified
-remainsOpenIn: aString
-
+applyOnLine: aString
+ 	
 	^ false
