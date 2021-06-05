@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownSetextHeading2",
+	"pools" : [
+		 ],
+	"super" : "LeafBlock",
+	"type" : "normal" }

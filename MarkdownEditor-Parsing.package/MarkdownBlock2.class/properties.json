@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content" ],
+	"name" : "MarkdownBlock2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
