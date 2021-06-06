@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"delimiters",
-		"inlineText" ],
-	"name" : "RealMarkdownParser",
+		 ],
+	"name" : "MarkdownStrikeDelimiter2",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownEmphasisDelimiter2",
 	"type" : "normal" }

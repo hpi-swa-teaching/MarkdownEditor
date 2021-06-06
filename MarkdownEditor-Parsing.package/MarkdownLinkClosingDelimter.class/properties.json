@@ -1,5 +1,5 @@
 {
-	"category" : "MarkdownEditor-Core",
+	"category" : "MarkdownEditor-Parsing",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownHeadingToken",
+	"name" : "MarkdownLinkClosingDelimter",
 	"pools" : [
 		 ],
-	"super" : "AnObsoleteMarkdownToken2",
+	"super" : "MarkdownDelimiter",
 	"type" : "normal" }

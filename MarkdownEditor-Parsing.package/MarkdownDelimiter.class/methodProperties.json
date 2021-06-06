@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"allDelimiters" : "mf 6/6/2021 18:25" },
+	"instance" : {
+		"basicCount" : "mf 6/6/2021 17:18",
+		"beActive" : "mf 6/6/2021 17:29",
+		"beUnactive" : "mf 6/6/2021 17:29",
+		"isActive" : "mf 6/6/2021 17:27",
+		"isPotentialCloser" : "mf 6/6/2021 17:22",
+		"isPotentialOpener" : "mf 6/6/2021 17:08",
+		"isPotentialOpenerAndCloser" : "mf 6/6/2021 17:11",
+		"symbol" : "mf 6/6/2021 17:08",
+		"toggleActive" : "mf 6/6/2021 17:29" } }
