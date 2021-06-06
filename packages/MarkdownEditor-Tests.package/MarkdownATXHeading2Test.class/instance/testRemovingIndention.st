@@ -1,5 +1,5 @@
 tests - creation
-testRemovingSpaces
+testRemovingIndention
 	
 	| testList |
 	testList := {{'#                  foo                     '. 1. 'foo'}. 

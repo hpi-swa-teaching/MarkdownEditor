@@ -7,5 +7,6 @@ newFrom: aString
 		ifTrue: [^self new
 				level: ((matcher subexpressions: 2) first size);
 				content: (StringUtil unescape: {$#} in: ((matcher subexpressions: 3) first));
+				isOpen: false;
 				yourself].
 	^ nil

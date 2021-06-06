@@ -1,8 +1,15 @@
-as yet unclassified
-testDefault
+tests - lineAdding
+testDefault 
 
-	| testList |
-	testList := {{'```'. ''. 0. '```'}.
-				{'~~~'. ''. 0. '~~~'}.
-				{'~~~~~~~~~~'. ''. 0. '~~~~~~~~~~'}}.
-	self testList: testList.
+	| testList testBlock |
+	testBlock := MarkdownFencedCodeBlock2 newFrom: '```'.
+	testList := {{'test'. true. 'test'. true}.
+	{'test'. true. 'test', Character cr, 'test'. true}.
+	{'```'. true. 'test', Character cr, 'test'. false}}.
+	self testList: testList onBlock: testBlock.
+	
+	testBlock := MarkdownFencedCodeBlock2 newFrom: '~~~'.
+	testList := {{'test'. true. 'test'. true}.
+	{'test'. true. 'test', Character cr, 'test'. true}.
+	{'~~~'. true. 'test', Character cr, 'test'. false}}.
+	self testList: testList onBlock: testBlock.
