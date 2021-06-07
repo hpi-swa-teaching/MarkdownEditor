@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"innerLine",
 		"children" ],
 	"name" : "ContainerBlock",
 	"pools" : [

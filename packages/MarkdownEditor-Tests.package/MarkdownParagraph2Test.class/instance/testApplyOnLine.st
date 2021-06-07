@@ -1,7 +1,7 @@
 tests - lineAdding
 testApplyOnLine
 
-	| heading |
-	heading := MarkdownATXHeading2 new.
-	self assert: false equals: (heading applyOnLine: 'test').
-	self assert: nil equals: heading content.
+	| paragraph |
+	paragraph := MarkdownParagraph2 new content: 'test'.
+	paragraph applyOnLine: '         **test**  '.
+	self assert: 'test**test**' equals: paragraph content
