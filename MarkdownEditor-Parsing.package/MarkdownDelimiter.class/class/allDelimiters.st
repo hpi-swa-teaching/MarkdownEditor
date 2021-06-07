@@ -1,0 +1,8 @@
+as yet unclassified
+allDelimiters
+
+	^ {$*. $~. $[. $]}
+
+	
+
+	
