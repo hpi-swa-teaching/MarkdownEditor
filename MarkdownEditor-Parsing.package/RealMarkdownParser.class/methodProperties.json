@@ -2,11 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createLinkFrom:" : "jh 6/8/2021 09:03",
 		"delimiters" : "mf 6/6/2021 16:49",
 		"delimiters:" : "mf 6/6/2021 16:49",
-		"inlineText" : "mf 6/6/2021 18:58",
-		"inlineText:" : "mf 6/6/2021 18:59",
+		"initialize" : "jh 6/7/2021 17:07",
+		"inlineContainer" : "jh 6/6/2021 20:39",
+		"inlineContainer:" : "jh 6/6/2021 20:39",
+		"links" : "jh 6/7/2021 17:06",
+		"links:" : "jh 6/7/2021 17:06",
 		"parse:" : "C.H. 5/31/2021 11:58",
-		"parseInlineElementsFrom:" : "mf 6/6/2021 18:57",
-		"processLinksAndImages" : "mf 6/6/2021 19:02",
-		"searchForLinkFrom:" : "mf 6/6/2021 19:32" } }
+		"parseInlineElementsFrom:" : "jh 6/7/2021 17:02",
+		"process:without:" : "jh 6/8/2021 08:55",
+		"processEmphasisFor:" : "jh 6/7/2021 16:54" } }

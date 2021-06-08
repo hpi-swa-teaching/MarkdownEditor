@@ -2,4 +2,11 @@
 	"class" : {
 		"newFrom:" : "mf 6/6/2021 16:02" },
 	"instance" : {
-		 } }
+		"append:" : "jh 6/7/2021 08:22",
+		"beClosed" : "jh 6/6/2021 21:54",
+		"beOpen" : "jh 6/6/2021 21:54",
+		"content" : "jh 6/6/2021 21:52",
+		"content:" : "jh 6/6/2021 21:53",
+		"initialize" : "jh 6/6/2021 21:54",
+		"isClosed" : "jh 6/6/2021 21:54",
+		"type" : "jh 6/6/2021 22:06" } }

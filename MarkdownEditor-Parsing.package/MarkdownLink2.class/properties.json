@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"url" ],
 	"name" : "MarkdownLink2",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineElement2",
+	"super" : "ContainerBlock",
 	"type" : "normal" }

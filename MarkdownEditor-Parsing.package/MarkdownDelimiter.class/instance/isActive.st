@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 isActive
 
-	^ active
-		ifNil: [active := true]
+	^ active ifNil: [active := true] 

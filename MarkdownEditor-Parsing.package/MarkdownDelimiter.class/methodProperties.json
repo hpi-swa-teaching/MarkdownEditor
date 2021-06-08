@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"allDelimiters" : "mf 6/6/2021 18:25" },
+		"delimiterTypes" : "jh 6/7/2021 10:07",
+		"newFrom:" : "jh 6/7/2021 09:55",
+		"symbol" : "jh 6/7/2021 10:01",
+		"typeOf:" : "jh 6/7/2021 09:58" },
 	"instance" : {
-		"basicCount" : "mf 6/6/2021 17:18",
-		"beActive" : "mf 6/6/2021 17:29",
-		"beUnactive" : "mf 6/6/2021 17:29",
-		"isActive" : "mf 6/6/2021 17:27",
-		"isPotentialCloser" : "mf 6/6/2021 17:22",
-		"isPotentialOpener" : "mf 6/6/2021 17:08",
-		"isPotentialOpenerAndCloser" : "mf 6/6/2021 17:11",
-		"symbol" : "mf 6/6/2021 17:08",
-		"toggleActive" : "mf 6/6/2021 17:29" } }
+		"append:" : "jh 6/7/2021 09:48",
+		"beActive" : "jh 6/6/2021 21:59",
+		"count" : "jh 6/6/2021 21:40",
+		"count:" : "jh 6/6/2021 21:40",
+		"inlineIndex" : "jh 6/7/2021 10:44",
+		"inlineIndex:" : "jh 6/7/2021 10:44",
+		"isActive" : "jh 6/6/2021 21:41",
+		"type" : "jh 6/7/2021 10:09" } }

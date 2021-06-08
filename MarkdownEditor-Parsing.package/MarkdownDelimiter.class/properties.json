@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"active" ],
+		"active",
+		"count",
+		"inlineIndex" ],
 	"name" : "MarkdownDelimiter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownInlineElement2",
 	"type" : "normal" }

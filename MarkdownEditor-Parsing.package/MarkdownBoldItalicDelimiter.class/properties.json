@@ -10,5 +10,5 @@
 	"name" : "MarkdownBoldItalicDelimiter",
 	"pools" : [
 		 ],
-	"super" : "MarkdownEmphasisDelimiter2",
+	"super" : "MarkdownDelimiter",
 	"type" : "normal" }

@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jh 6/7/2021 09:37",
 	"instvars" : [
-		 ],
+		"content",
+		"closed" ],
 	"name" : "MarkdownInlineElement2",
 	"pools" : [
 		 ],

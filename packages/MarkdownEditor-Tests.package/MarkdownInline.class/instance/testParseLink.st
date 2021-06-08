@@ -1,8 +1,9 @@
 as yet unclassified
 testParseLink
 	
-	| parser output expectedOutput |
-	parser := RealMarkdownParser new.
-	output := parser parseInlineElementsFrom: 'Hello [hallo](https://hpi.de)'.
-	expectedOutput := OrderedCollection newFrom: {MarkdownString2 newFrom: 'Hello '. MarkdownLink2 newFrom: '[hallo](https://hpi.de)'}.
+	| output expectedOutput link |
+	output := parser parseInlineElementsFrom: '[hello](www.hpi.de)'.
+	link := MarkdownLink2 new.
+	link description: 'hello'; url: 'www.hpi.de'.
+	expectedOutput := OrderedCollection newFrom: {link beClosed}.
 	self assert: expectedOutput equals: output

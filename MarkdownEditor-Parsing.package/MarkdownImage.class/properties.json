@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"path" ],
 	"name" : "MarkdownImage",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineElement2",
+	"super" : "ContainerBlock",
 	"type" : "normal" }
