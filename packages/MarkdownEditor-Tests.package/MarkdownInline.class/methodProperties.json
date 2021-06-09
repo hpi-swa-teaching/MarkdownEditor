@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "jh 6/6/2021 21:05",
+		"testBuildDelimiterStack" : "jh 6/9/2021 16:18",
+		"testBuildDelimiterStackWithText" : "jh 6/9/2021 16:18",
 		"testParseLink" : "jh 6/8/2021 16:41",
 		"testParseLinkWithLineBreak" : "jh 6/8/2021 17:10",
 		"testParseLinkWithOutUrl" : "jh 6/8/2021 16:44",

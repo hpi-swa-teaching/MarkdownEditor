@@ -2,16 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createLinkFrom:" : "jh 6/9/2021 13:25",
+		"calculateBalancedBracketCollectionFrom:" : "jh 6/9/2021 14:29",
+		"createLinkFrom:" : "jh 6/9/2021 14:12",
 		"delimiters" : "mf 6/6/2021 16:49",
 		"delimiters:" : "mf 6/6/2021 16:49",
-		"initialize" : "jh 6/7/2021 17:07",
+		"firstPhaseProcessInlineFrom:" : "jh 6/9/2021 16:18",
+		"initialize" : "jh 6/9/2021 15:53",
 		"inlineContainer" : "jh 6/6/2021 20:39",
 		"inlineContainer:" : "jh 6/6/2021 20:39",
-		"links" : "jh 6/7/2021 17:06",
-		"links:" : "jh 6/7/2021 17:06",
+		"markdownSpecialCharacters" : "jh 6/9/2021 12:11",
 		"parse:" : "C.H. 5/31/2021 11:58",
-		"parseInlineElementsFrom:" : "jh 6/9/2021 13:16",
-		"process:without:" : "jh 6/9/2021 13:22",
+		"parseInlineElementsFrom:" : "jh 6/9/2021 16:18",
 		"processEmphasisFor:" : "jh 6/9/2021 13:27",
-		"processLinksAt:in:" : "jh 6/8/2021 17:20" } }
+		"processEmphasisFrom:" : "jh 6/9/2021 16:06",
+		"processInnerEmphasisFrom:" : "jh 6/9/2021 15:11",
+		"processLinksFrom:" : "jh 6/9/2021 14:39",
+		"processTextFrom:" : "jh 6/9/2021 13:28" } }

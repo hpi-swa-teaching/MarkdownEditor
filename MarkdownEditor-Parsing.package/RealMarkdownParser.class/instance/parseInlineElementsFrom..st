@@ -1,10 +1,6 @@
-parsing - inline
+new inline parsing
 parseInlineElementsFrom: aRawString
 
-	| possibleLinks str|
-
-	str := aRawString.
-	possibleLinks := aRawString allRegexMatches: '\[[^\]]*\]\([^\)]*\)'.
-	self process: aRawString without: possibleLinks.
+	self firstPhaseProcessInlineFrom: aRawString.
 
 	^ self inlineContainer
