@@ -1,10 +1,11 @@
 tests - text
 testHeadingWithFollowingLine
 
-	| text |
+	| text expectedColor |
 	text := ('# Title', Character cr, 'line') asText.
 	blockTextStyler privateStyle: text.
+	expectedColor := MarkdownStyleSettings themeTitleFontColor. 
 	self
 		assertRuns: {8. 4}
-		values: {{TextColor color: Color black. self fontSized: 34}. {TextColor color: Color black. self fontSized: 14}}
+		values: {{TextColor color: expectedColor. self fontSized: 34}. {TextColor color: expectedColor. self fontSized: 14}}
 		areStyleOf: text

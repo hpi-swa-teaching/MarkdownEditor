@@ -3,3 +3,4 @@ openSettings
 
 	self saveTextInModel.
 	^ MarkdownSettings open
+	

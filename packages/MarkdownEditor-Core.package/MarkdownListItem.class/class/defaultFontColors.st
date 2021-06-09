@@ -1,4 +1,4 @@
-accessing
+constants
 defaultFontColors
 
 	^ MarkdownList defaultFontColors

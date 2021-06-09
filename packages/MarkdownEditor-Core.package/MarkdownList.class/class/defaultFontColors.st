@@ -1,4 +1,6 @@
-accessing
+constants
 defaultFontColors
 
-	^ {Color black. Color black. Color black}
+	^ {MarkdownStyleSettings themeTitleFontColor. 
+		MarkdownStyleSettings themeTitleFontColor. 
+		MarkdownStyleSettings themeTitleFontColor}

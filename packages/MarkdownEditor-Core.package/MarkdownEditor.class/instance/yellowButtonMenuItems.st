@@ -9,6 +9,10 @@ yellowButtonMenuItems
 			{'save' translated.		#saveText}.
 			{'save as...' translated.	#saveAsFileDialog}.
 			#-.
+			{'italic' translated.	   #applyItalic}.
+			{'bold' translated.		   #applyBold}.
+			{'strikeout' translated. #applyStrikeout}.
+			#-.
 			{'convert to html' translated. #convertToHTML}.
 			#-.
 			{'appearance...' translated. #openSettings}

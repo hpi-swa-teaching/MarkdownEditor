@@ -7,9 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"toolbuilder",
+		"toolbuilderSettings",
 		"window",
 		"editor",
-		"originalSettings" ],
+		"originalSettings",
+		"settings" ],
 	"name" : "MarkdownSettingsTest",
 	"pools" : [
 		 ],

@@ -1,0 +1,16 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"simpleChoosers",
+		"advancedPicker",
+		"chooser" ],
+	"name" : "MarkdownColorChooserTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

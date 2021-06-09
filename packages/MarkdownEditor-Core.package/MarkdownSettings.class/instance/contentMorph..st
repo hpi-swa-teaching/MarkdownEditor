@@ -1,4 +1,4 @@
 accessing
-contentMorph: aMorph
+contentMorph: aScrollPane
 
-	contentMorph := aMorph
+	contentMorph := aScrollPane

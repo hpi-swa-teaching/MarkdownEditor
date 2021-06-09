@@ -1,4 +1,4 @@
 constants
 borderGap
 
-	^20 asPoint
+	^ 10 @ 34

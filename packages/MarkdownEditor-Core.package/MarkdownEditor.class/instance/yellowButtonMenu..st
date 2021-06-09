@@ -1,6 +1,4 @@
 yellowButtonMenu
 yellowButtonMenu: aMenu
 
-	aMenu addList: self yellowButtonMenuItems.
-	^aMenu
-	
+	^ aMenu addList: self yellowButtonMenuItems; yourself
