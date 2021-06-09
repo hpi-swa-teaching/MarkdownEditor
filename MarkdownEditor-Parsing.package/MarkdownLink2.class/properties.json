@@ -10,5 +10,5 @@
 	"name" : "MarkdownLink2",
 	"pools" : [
 		 ],
-	"super" : "ContainerBlock",
+	"super" : "MarkdownInlineContainterBlock",
 	"type" : "normal" }

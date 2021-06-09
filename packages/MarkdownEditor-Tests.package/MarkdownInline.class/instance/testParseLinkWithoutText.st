@@ -1,9 +1,9 @@
-as yet unclassified
+tests - links
 testParseLinkWithoutText
 	
-	| expectedOutput link |
-	parser parseInlineElementsFrom: '[](hpi.de)'.
+	| expectedOutput link output |
+	output := parser parseInlineElementsFrom: '[](hpi.de)'.
 	link := MarkdownLink2 newFrom: 'hpi.de'.
 	link children add: (MarkdownString2 newFrom: '').
 	expectedOutput := OrderedCollection newFrom: {link}.
-	self assert: expectedOutput equals: parser inlineContainer
+	self assert: expectedOutput equals: output

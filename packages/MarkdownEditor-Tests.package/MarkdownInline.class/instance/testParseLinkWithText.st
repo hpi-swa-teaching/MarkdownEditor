@@ -1,4 +1,4 @@
-as yet unclassified
+tests - links
 testParseLinkWithText
 	
 	| expectedOutput link |

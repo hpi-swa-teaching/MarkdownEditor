@@ -1,4 +1,0 @@
-accessing
-beOpen
-
-	closed := false

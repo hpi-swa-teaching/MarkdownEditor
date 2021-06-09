@@ -1,4 +1,4 @@
 parsing - inline
-processEmphasisFor: aMarkdownString
+processEmphasisFor: aRawString
 
-	^ MarkdownString2 newFrom: aMarkdownString
+	^ MarkdownString2 newFrom: aRawString

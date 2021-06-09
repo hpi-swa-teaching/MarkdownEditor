@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createLinkFrom:" : "jh 6/8/2021 09:03",
+		"createLinkFrom:" : "jh 6/9/2021 13:25",
 		"delimiters" : "mf 6/6/2021 16:49",
 		"delimiters:" : "mf 6/6/2021 16:49",
 		"initialize" : "jh 6/7/2021 17:07",
@@ -11,6 +11,7 @@
 		"links" : "jh 6/7/2021 17:06",
 		"links:" : "jh 6/7/2021 17:06",
 		"parse:" : "C.H. 5/31/2021 11:58",
-		"parseInlineElementsFrom:" : "jh 6/7/2021 17:02",
-		"process:without:" : "jh 6/8/2021 08:55",
-		"processEmphasisFor:" : "jh 6/7/2021 16:54" } }
+		"parseInlineElementsFrom:" : "jh 6/9/2021 13:16",
+		"process:without:" : "jh 6/9/2021 13:22",
+		"processEmphasisFor:" : "jh 6/9/2021 13:27",
+		"processLinksAt:in:" : "jh 6/8/2021 17:20" } }

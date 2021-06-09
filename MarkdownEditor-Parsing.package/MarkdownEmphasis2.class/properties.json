@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"children" ],
+		 ],
 	"name" : "MarkdownEmphasis2",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineElement2",
+	"super" : "MarkdownInlineContainterBlock",
 	"type" : "normal" }

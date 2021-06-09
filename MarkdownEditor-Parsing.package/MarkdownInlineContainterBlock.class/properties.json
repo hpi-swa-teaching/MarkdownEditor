@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MarkdownLinkDelimiter2",
+		"children" ],
+	"name" : "MarkdownInlineContainterBlock",
 	"pools" : [
 		 ],
-	"super" : "MarkdownDelimiter",
+	"super" : "MarkdownInlineElement2",
 	"type" : "normal" }

@@ -6,3 +6,5 @@ parseInlineElementsFrom: aRawString
 	str := aRawString.
 	possibleLinks := aRawString allRegexMatches: '\[[^\]]*\]\([^\)]*\)'.
 	self process: aRawString without: possibleLinks.
+
+	^ self inlineContainer
