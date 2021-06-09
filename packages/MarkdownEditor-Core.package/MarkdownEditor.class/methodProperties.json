@@ -5,9 +5,13 @@
 		"initialize" : "lpf 6/13/2019 12:23",
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
+		"applyBold" : "F.S 6/9/2021 10:46",
+		"applyInlineOnSelectionWith:" : "F.S 6/9/2021 11:16",
+		"applyItalic" : "F.S 6/9/2021 10:44",
+		"applyStrikeout" : "F.S 6/9/2021 10:46",
 		"applyUserInterfaceTheme" : "jh 5/30/2021 15:58",
 		"blockTextStyler" : "azi 6/4/2020 11:00",
-		"buildEditorTextMorphWith:" : "F.S 5/26/2021 11:11",
+		"buildEditorTextMorphWith:" : "F.S 6/9/2021 10:53",
 		"buildWith:" : "jh 5/31/2021 17:44",
 		"configureCloseButton" : "jh 5/27/2021 09:36",
 		"convertToHTML" : "mas 6/28/2020 13:08",
@@ -37,5 +41,5 @@
 		"window:" : "jh 5/27/2021 09:41",
 		"windowSpecsFor:" : "F.S 5/26/2021 11:35",
 		"windowTitle" : "MK 5/11/2020 19:00",
-		"yellowButtonMenu:" : "F.S 5/26/2021 11:10",
-		"yellowButtonMenuItems" : "F.S 5/26/2021 12:12" } }
+		"yellowButtonMenu:" : "F.S 6/9/2021 10:53",
+		"yellowButtonMenuItems" : "F.S 6/9/2021 10:52" } }

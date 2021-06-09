@@ -1,5 +1,5 @@
 tests - inline styling
-testApplyingThemeDoesNotThrowErrorForInlineStyling
+testApplyThemeDoesNotThrowErrorForInlineStyling
 
 	| textMorph |
 	textMorph := toolbuilder build: (MarkdownEditor new
