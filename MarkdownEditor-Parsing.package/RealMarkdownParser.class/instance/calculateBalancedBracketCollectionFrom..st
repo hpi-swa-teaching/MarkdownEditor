@@ -8,7 +8,7 @@ calculateBalancedBracketCollectionFrom: aRawString
 		doWithIndex: [:c :i | 
 			c caseOf: {
 			[$[] -> [openBracketStack push: i].
-			[$]] -> [openBracketStack isEmpty ifFalse:[balancedBracketCollection add: openBracketStack pop @ i]].
-	} otherwise: []
-	].
+			[$]] -> [openBracketStack isEmpty
+						ifFalse:[balancedBracketCollection add: openBracketStack pop @ i]].
+			} otherwise: []].
 	^ balancedBracketCollection

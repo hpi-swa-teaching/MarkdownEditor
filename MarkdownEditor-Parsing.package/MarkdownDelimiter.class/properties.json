@@ -8,7 +8,9 @@
 	"instvars" : [
 		"type",
 		"index",
-		"count" ],
+		"count",
+		"potentialOpener",
+		"potentialCloser" ],
 	"name" : "MarkdownDelimiter",
 	"pools" : [
 		 ],

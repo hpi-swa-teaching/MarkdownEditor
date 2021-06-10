@@ -1,4 +1,4 @@
 new inline parsing
 markdownSpecialCharacters
 
-	^ CharacterSet newFrom: '*['
+	^ CharacterSet newFrom: '*[!'

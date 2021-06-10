@@ -1,4 +1,4 @@
 accessing
-type: anObject
+type: aSymbol
 
-	type := anObject.
+	type := aSymbol

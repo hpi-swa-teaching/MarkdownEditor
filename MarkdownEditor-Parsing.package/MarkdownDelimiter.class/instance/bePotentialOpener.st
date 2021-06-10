@@ -1,0 +1,4 @@
+accessing
+bePotentialOpener
+
+	potentialOpener := true

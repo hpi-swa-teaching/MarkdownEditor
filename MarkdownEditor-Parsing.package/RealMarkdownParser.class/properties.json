@@ -7,8 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"delimiters",
-		"inlineContainer",
-		"links" ],
+		"inlineContainer" ],
 	"name" : "RealMarkdownParser",
 	"pools" : [
 		 ],
