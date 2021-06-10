@@ -1,4 +1,4 @@
 running
 setUp
 
-	parser := RealMarkdownParser new.
+	parser := MarkdownInlineParser new.

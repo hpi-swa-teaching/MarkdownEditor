@@ -10,5 +10,5 @@
 	"name" : "MarkdownListItem2",
 	"pools" : [
 		 ],
-	"super" : "ContainerBlock",
+	"super" : "MarkdownContainerBlock",
 	"type" : "normal" }

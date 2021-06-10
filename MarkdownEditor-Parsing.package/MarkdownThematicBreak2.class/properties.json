@@ -10,5 +10,5 @@
 	"name" : "MarkdownThematicBreak2",
 	"pools" : [
 		 ],
-	"super" : "LeafBlock",
+	"super" : "MarkdownLeafBlock",
 	"type" : "normal" }

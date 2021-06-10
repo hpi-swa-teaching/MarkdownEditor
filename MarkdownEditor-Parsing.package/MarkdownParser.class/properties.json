@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MarkdownHTMLBlock2",
+		"document" ],
+	"name" : "MarkdownParser",
 	"pools" : [
 		 ],
-	"super" : "MarkdownLeafBlock",
+	"super" : "Object",
 	"type" : "normal" }
