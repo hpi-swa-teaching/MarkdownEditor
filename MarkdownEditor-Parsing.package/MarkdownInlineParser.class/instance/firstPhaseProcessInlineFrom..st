@@ -5,7 +5,8 @@ firstPhaseProcessInlineFrom: aRawString
 	aRawString ifEmpty: [^ self].
 	
 	aRawString first caseOf: {
-		[$*] -> [str := self processEmphasisFrom: aRawString]. 
-		[$[] -> [str := self processLinksFrom: aRawString]}
-		otherwise: [str := self processTextFrom: aRawString].
-	self firstPhaseProcessInlineFrom: str.
+		[$*] -> [str := self addToDelimitersFrom: aRawString]. 
+		[$[] -> [str := self processLinksFrom: aRawString].
+		[$!] -> [str := self processImageFrom: aRawString]}
+		otherwise: [str := self processStringFrom: aRawString].
+	self firstPhaseProcessInlineFrom: str
