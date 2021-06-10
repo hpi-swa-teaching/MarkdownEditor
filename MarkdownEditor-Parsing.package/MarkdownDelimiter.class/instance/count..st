@@ -1,4 +1,4 @@
 accessing
 count: aNumber
 
-	count := aNumber.
+	count := aNumber

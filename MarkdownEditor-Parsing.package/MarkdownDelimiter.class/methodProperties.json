@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"newFrom:" : "jh 6/9/2021 16:07",
 		"newFrom:with:" : "jh 6/9/2021 16:08" },
 	"instance" : {
-		"=" : "jh 6/9/2021 16:10",
+		"=" : "mf 6/10/2021 12:44",
+		"bePotentialCloser" : "mf 6/10/2021 14:35",
+		"bePotentialOpener" : "mf 6/10/2021 14:36",
 		"count" : "jh 6/9/2021 16:07",
-		"count:" : "jh 6/9/2021 16:07",
-		"index" : "jh 6/9/2021 16:02",
-		"index:" : "jh 6/9/2021 16:02",
+		"count:" : "mf 6/10/2021 12:42",
+		"index" : "mf 6/10/2021 12:42",
+		"index:" : "mf 6/10/2021 12:42",
+		"isPotentialCloser" : "mf 6/10/2021 14:35",
+		"isPotentialOpener" : "mf 6/10/2021 14:36",
 		"type" : "jh 6/9/2021 15:48",
-		"type:" : "jh 6/9/2021 15:48" } }
+		"type:" : "mf 6/10/2021 12:42" } }
