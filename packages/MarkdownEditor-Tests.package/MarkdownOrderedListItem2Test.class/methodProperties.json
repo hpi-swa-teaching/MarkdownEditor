@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testApplyDefault" : "LL 6/10/2021 16:03",
+		"testClosingFenceToShort" : "LL 6/10/2021 15:59",
+		"testDefault" : "LL 6/10/2021 16:03",
+		"testEmpty" : "LL 6/10/2021 16:03",
+		"testIndention" : "LL 6/10/2021 16:03",
+		"testInvalid" : "LL 6/10/2021 16:03",
+		"testInvalidClosingFence" : "LL 6/10/2021 16:01",
+		"testList:" : "LL 6/10/2021 16:00",
+		"testList:onBlock:" : "LL 6/10/2021 16:00",
+		"testNumber" : "LL 6/10/2021 16:01",
+		"testRemovingIndention" : "LL 6/10/2021 16:01" } }

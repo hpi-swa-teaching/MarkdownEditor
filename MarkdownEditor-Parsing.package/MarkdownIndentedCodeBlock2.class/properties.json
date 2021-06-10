@@ -10,5 +10,5 @@
 	"name" : "MarkdownIndentedCodeBlock2",
 	"pools" : [
 		 ],
-	"super" : "LeafBlock",
+	"super" : "MarkdownLeafBlock",
 	"type" : "normal" }

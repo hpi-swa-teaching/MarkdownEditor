@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"delimiters",
-		"inlineContainer",
-		"links" ],
-	"name" : "RealMarkdownParser",
+		 ],
+	"name" : "MarkdownDocument",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownContainerBlock",
 	"type" : "normal" }

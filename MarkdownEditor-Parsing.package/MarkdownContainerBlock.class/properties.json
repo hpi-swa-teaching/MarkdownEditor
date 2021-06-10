@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MarkdownHTMLBlock2",
+		"innerLine",
+		"children" ],
+	"name" : "MarkdownContainerBlock",
 	"pools" : [
 		 ],
-	"super" : "MarkdownLeafBlock",
+	"super" : "MarkdownBlock2",
 	"type" : "normal" }

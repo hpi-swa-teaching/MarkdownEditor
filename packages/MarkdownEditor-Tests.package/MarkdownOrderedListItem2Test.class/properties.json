@@ -1,5 +1,5 @@
 {
-	"category" : "MarkdownEditor-Parsing",
+	"category" : "MarkdownEditor-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MarkdownDokument",
+	"name" : "MarkdownOrderedListItem2Test",
 	"pools" : [
 		 ],
-	"super" : "ContainerBlock",
+	"super" : "TestCase",
 	"type" : "normal" }
