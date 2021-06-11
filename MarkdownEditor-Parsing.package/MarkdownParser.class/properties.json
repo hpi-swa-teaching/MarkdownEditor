@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"document" ],
+		"document",
+		"lastMatchedBlock",
+		"firstUnmatchedBlock" ],
 	"name" : "MarkdownParser",
 	"pools" : [
 		 ],

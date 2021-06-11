@@ -1,9 +1,12 @@
-as yet unclassified
+parsing
 closeOpenBlocks: aString startingAt: aMarkdownBlock
 
 	| remains |
 	(remains := aMarkdownBlock applyOnLine: aString)
-	ifNil: [^ aString].
-	(remains == '') ifTrue: [^ ''].
+	ifNil: [self firstUnmatchedBlock: aMarkdownBlock. ^ aString].
+	(remains == '') ifTrue: [^ nil].
 	aMarkdownBlock children do: [:child |
-        child isOpen ifTrue: [^self closeOpenBlocks: remains startingAt: child]]
+        	child isOpen ifTrue: [
+			self lastMatchedBlock: aMarkdownBlock.
+			^ self closeOpenBlocks: remains startingAt: child]].
+	^ aString

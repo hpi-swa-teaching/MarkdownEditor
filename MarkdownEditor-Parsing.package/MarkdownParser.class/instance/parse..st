@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parse: aString 
 	self document: MarkdownDocument new.
 	aString

@@ -2,5 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"closeOpenBlocks:startingAt:" : "LL 6/10/2021 17:40",
+		"addTextToLastOpenBlock:" : "LL 6/11/2021 15:09",
+		"blockChecklist" : "LL 6/11/2021 14:55",
+		"closeOpenBlocks:startingAt:" : "LL 6/11/2021 14:31",
+		"createNewBlocks:" : "LL 6/11/2021 14:57",
+		"firstUnmatchedBlock" : "LL 6/11/2021 13:51",
+		"firstUnmatchedBlock:" : "LL 6/11/2021 13:51",
+		"lastMatchedBlock" : "LL 6/11/2021 12:29",
+		"lastMatchedBlock:" : "LL 6/11/2021 12:29",
 		"parse:" : "LL 6/10/2021 17:35" } }
