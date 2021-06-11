@@ -16,10 +16,12 @@
 		"parse:" : "C.H. 5/31/2021 11:58",
 		"parseInlineElementsFrom:" : "mf 6/10/2021 16:37",
 		"processEmphasisFor:" : "jh 6/9/2021 13:27",
+		"processEmphasisFrom:" : "jh 6/9/2021 16:06",
 		"processImageFrom:" : "mf 6/10/2021 16:38",
 		"processInnerEmphasisFrom:" : "jh 6/9/2021 15:11",
 		"processLinksFrom:" : "mf 6/10/2021 16:38",
 		"processStringFrom:" : "mf 6/10/2021 16:39",
 		"processStrongEmphasisFrom:to:" : "mf 6/10/2021 16:39",
+		"processTextFrom:" : "jh 6/9/2021 13:28",
 		"secondPhaseProcessInlineFrom:" : "mf 6/10/2021 16:39",
 		"updateDelimiterIndexWith:to:" : "mf 6/10/2021 16:39" } }
