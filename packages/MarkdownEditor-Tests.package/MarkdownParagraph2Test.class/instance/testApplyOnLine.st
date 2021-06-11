@@ -1,7 +1,13 @@
 tests - lineAdding
 testApplyOnLine
 
-	| paragraph |
+	| paragraph methodResult |
 	paragraph := MarkdownParagraph2 new content: 'test'.
-	paragraph applyOnLine: '         **test**  '.
-	self assert: 'test**test**' equals: paragraph content
+	methodResult := paragraph applyOnLine: '         **test**  '.
+	self assert: '' equals: methodResult. 
+	self assert: 'test**test**' equals: paragraph content.
+	
+	paragraph := MarkdownParagraph2 new content: 'test'.
+	methodResult := paragraph applyOnLine: '   '.
+	self assert: nil equals: methodResult. 
+	self assert: 'test' equals: paragraph content.
