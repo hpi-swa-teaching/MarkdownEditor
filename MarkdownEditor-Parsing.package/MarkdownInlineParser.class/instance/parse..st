@@ -1,5 +1,11 @@
 as yet unclassified
-parse: aText
+parse: aRawString
 
-	self halt.
-	Transcript show: aText.
+	firstPhase := MarkdownInlineParserPhase1 new.
+	firstPhase parse: aRawString.
+	
+	secondPhase := MarkdownInlineParserPhase2 newFrom: firstPhase.
+	secondPhase parse.
+	
+	^ secondPhase inlineElements
+	

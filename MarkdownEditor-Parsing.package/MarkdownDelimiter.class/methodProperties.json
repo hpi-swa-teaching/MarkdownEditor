@@ -1,15 +1,22 @@
 {
 	"class" : {
-		"newFrom:with:" : "jh 6/9/2021 16:08" },
+		"newFrom:" : "jh 6/12/2021 12:58" },
 	"instance" : {
-		"=" : "mf 6/10/2021 12:44",
+		"=" : "jh 6/12/2021 18:12",
+		"asMarkdownString" : "jh 6/12/2021 14:16",
+		"beNotPotentialCloser" : "jh 6/12/2021 18:08",
 		"bePotentialCloser" : "mf 6/10/2021 14:35",
-		"bePotentialOpener" : "mf 6/10/2021 14:36",
+		"bePotentialOpener" : "jh 6/11/2021 07:30",
+		"beValid" : "jh 6/12/2021 12:57",
 		"count" : "jh 6/9/2021 16:07",
 		"count:" : "mf 6/10/2021 12:42",
+		"decreaseCountBy:" : "jh 6/11/2021 16:50",
 		"index" : "mf 6/10/2021 12:42",
 		"index:" : "mf 6/10/2021 12:42",
+		"initialize" : "jh 6/12/2021 12:58",
 		"isPotentialCloser" : "mf 6/10/2021 14:35",
-		"isPotentialOpener" : "mf 6/10/2021 14:36",
+		"isPotentialOpener" : "jh 6/11/2021 07:30",
+		"isValid" : "jh 6/12/2021 12:58",
+		"setOpenClosePropertyFrom:" : "jh 6/11/2021 11:54",
 		"type" : "jh 6/9/2021 15:48",
 		"type:" : "mf 6/10/2021 12:42" } }

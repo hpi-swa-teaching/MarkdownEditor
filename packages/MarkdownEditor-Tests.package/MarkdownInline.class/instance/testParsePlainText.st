@@ -1,7 +1,7 @@
-as yet unclassified
+tests - emphasis
 testParsePlainText
 
-	| expectedOutput |
-	parser parseInlineElementsFrom: 'Hello World!'.
-	expectedOutput := OrderedCollection newFrom: {MarkdownString2 newFrom: 'Hello World!'.}.
-	self assert: expectedOutput equals: parser inlineContainer
+	| expectedOutput output |
+	output := parser parse: 'Hello World'.
+	expectedOutput := LinkedList newFrom: {MarkdownString2 newFrom: 'Hello World'.}.
+	self assert: expectedOutput equals: output

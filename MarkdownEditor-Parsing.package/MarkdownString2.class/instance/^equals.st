@@ -1,4 +1,5 @@
 accessing
 = anotherString
 
-	^ self content = anotherString content
+	^ (self class = anotherString class)
+		and: [self content = anotherString content]

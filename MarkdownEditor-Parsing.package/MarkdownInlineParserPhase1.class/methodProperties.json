@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDelimiterFrom:" : "jh 6/12/2021 12:32",
+		"addImageFrom:" : "jh 6/12/2021 13:34",
+		"addLinkFrom:" : "jh 6/12/2021 12:49",
+		"addStringFrom:" : "jh 6/12/2021 12:32",
+		"calculateBalancedBracketCollectionFrom:" : "jh 6/9/2021 14:29",
+		"delimiters" : "mf 6/6/2021 16:49",
+		"delimiters:" : "jh 6/11/2021 20:19",
+		"initialize" : "jh 6/12/2021 17:11",
+		"inlineElements" : "jh 6/11/2021 19:22",
+		"inlineElements:" : "jh 6/11/2021 19:24",
+		"markdownSpecialCharacters" : "mf 6/10/2021 16:37",
+		"parse:" : "jh 6/12/2021 17:23",
+		"previousChar" : "jh 6/12/2021 12:32",
+		"previousChar:" : "jh 6/12/2021 12:32",
+		"processEmphasisFor:" : "jh 6/9/2021 13:27",
+		"processImageFrom:" : "jh 6/12/2021 18:41",
+		"processLinksFrom:" : "jh 6/12/2021 12:42",
+		"processPossibleDelimitersFrom:" : "jh 6/12/2021 18:31",
+		"processStringFrom:" : "jh 6/11/2021 07:46" } }

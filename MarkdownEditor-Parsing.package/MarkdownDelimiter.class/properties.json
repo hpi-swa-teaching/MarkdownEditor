@@ -9,8 +9,9 @@
 		"type",
 		"index",
 		"count",
+		"potentialCloser",
 		"potentialOpener",
-		"potentialCloser" ],
+		"valid" ],
 	"name" : "MarkdownDelimiter",
 	"pools" : [
 		 ],

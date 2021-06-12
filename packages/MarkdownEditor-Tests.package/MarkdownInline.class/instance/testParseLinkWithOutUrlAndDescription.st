@@ -1,9 +1,9 @@
 tests - links
 testParseLinkWithOutUrlAndDescription
 	
-	| expectedOutput link |
-	parser parseInlineElementsFrom: '[]()'.
+	| expectedOutput link output |
+	output := parser parse: '[]()'.
 	link := MarkdownLink2 newFrom: ''.
 	link children add: (MarkdownString2 newFrom: '').
-	expectedOutput := OrderedCollection newFrom: {link}.
-	self assert: expectedOutput equals: parser inlineContainer
+	expectedOutput := LinkedList newFrom: {link}.
+	self assert: expectedOutput equals: output

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser" ],
+		"parser",
+		"firstPhase",
+		"secondPhase" ],
 	"name" : "MarkdownInline",
 	"pools" : [
 		 ],

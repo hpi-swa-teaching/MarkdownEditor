@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"delimiters",
-		"inlineContainer",
-		"links" ],
+		"firstPhase",
+		"secondPhase" ],
 	"name" : "MarkdownInlineParser",
 	"pools" : [
 		 ],
