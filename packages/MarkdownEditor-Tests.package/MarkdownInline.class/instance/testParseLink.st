@@ -4,7 +4,7 @@ testParseLink
 	| output expectedOutput link |
 	output := parser parse: '[hello](www.hpi.de)'.
 	link := MarkdownLink2 new.
-	link url: 'www.hpi.de'.
+	link path: 'www.hpi.de'.
 	link children add: (MarkdownString2 newFrom: 'hello').
 	expectedOutput := LinkedList newFrom: {link}.
 	self assert: expectedOutput equals: output

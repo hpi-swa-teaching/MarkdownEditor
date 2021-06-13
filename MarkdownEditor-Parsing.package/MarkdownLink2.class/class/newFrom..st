@@ -2,5 +2,5 @@ as yet unclassified
 newFrom: anUrl
 
 	^ self new
-		url: anUrl;
+		path: anUrl;
 		yourself
