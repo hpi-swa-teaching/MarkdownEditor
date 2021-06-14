@@ -1,4 +1,4 @@
 constants
 blockChecklist
 
-	^{MarkdownThematicBreak2. MarkdownFencedCodeBlock2. MarkdownATXHeading2. MarkdownBlockquote2}
+	^{MarkdownBlankLine2. MarkdownThematicBreak2. MarkdownFencedCodeBlock2. MarkdownATXHeading2. MarkdownBlockquote2}

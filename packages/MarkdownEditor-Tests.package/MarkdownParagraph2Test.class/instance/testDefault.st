@@ -2,7 +2,7 @@ tests - creation
 testDefault
 	
 	| testList |
-	testList := {{'test'. 'test'}.
+	testList := {{'t'. 't'}.
 				{' test'. 'test'}.
 				{'   test'. 'test'}.
 				{' t e s t '. 't e s t'}}.

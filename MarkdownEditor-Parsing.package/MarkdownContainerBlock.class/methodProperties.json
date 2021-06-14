@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asStringWithIndent:" : "C.H. 6/14/2021 16:32",
 		"children" : "C.H. 5/31/2021 11:51",
 		"children:" : "C.H. 5/31/2021 11:51",
+		"close" : "C.H. 6/12/2021 17:13",
 		"initialize" : "jh 6/8/2021 08:58",
 		"innerLine" : "LL 6/7/2021 18:15",
 		"innerLine:" : "LL 6/7/2021 18:15" } }

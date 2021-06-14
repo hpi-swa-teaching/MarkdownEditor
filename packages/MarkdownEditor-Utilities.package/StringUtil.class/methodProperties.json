@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"removeNLeadingSpaces:from:" : "C.H. 6/5/2021 11:06",
+		"removeOuterSpacesOf:" : "C.H. 6/12/2021 21:33",
 		"replaceFrom:to:in:with:" : "hsl 6/30/2020 18:21",
 		"unescape:in:" : "C.H. 6/5/2021 16:31" },
 	"instance" : {

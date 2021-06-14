@@ -1,7 +1,8 @@
 parsing
 addTextToLastOpenBlock: aString
-
+	
+	| lastOpenBlock |
 	aString ifNil: [^nil].
-	self firstUnmatchedBlock isOpen 
-		ifTrue: [self firstUnmatchedBlock addText: aString]
-		ifFalse: [self lastMatchedBlock children add: (MarkdownParagraph2 newFrom: aString)]
+	(lastOpenBlock := self lastOpenBlock) 
+		ifNotNil: [lastOpenBlock content: lastOpenBlock content, aString]
+		ifNil: [self lastMatchedBlock children add: (MarkdownParagraph2 newFrom: aString)]
