@@ -3,13 +3,12 @@
 		 },
 	"instance" : {
 		"testApplyDefault" : "C.H. 6/11/2021 11:54",
-		"testClosingFenceToShort" : "LL 6/10/2021 15:59",
-		"testDefault" : "LL 6/10/2021 16:03",
-		"testEmpty" : "LL 6/10/2021 16:03",
+		"testApplyEmptyLine" : "LL 6/15/2021 10:31",
+		"testDefault" : "LL 6/15/2021 10:23",
+		"testEmpty" : "LL 6/15/2021 10:39",
 		"testIndention" : "LL 6/10/2021 16:03",
 		"testInvalid" : "LL 6/10/2021 16:03",
-		"testInvalidClosingFence" : "LL 6/10/2021 16:01",
+		"testInvalidIndention" : "LL 6/15/2021 10:34",
 		"testList:" : "LL 6/10/2021 16:00",
 		"testList:onBlock:" : "LL 6/10/2021 16:00",
-		"testNumber" : "LL 6/10/2021 16:01",
-		"testRemovingIndention" : "LL 6/10/2021 16:01" } }
+		"testNumber" : "LL 6/10/2021 16:01" } }
