@@ -1,4 +1,0 @@
-accessing
-bePotentialCloser
-
-	potentialCloser := true

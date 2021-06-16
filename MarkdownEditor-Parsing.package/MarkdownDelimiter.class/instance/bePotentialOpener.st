@@ -1,4 +1,0 @@
-accessing
-bePotentialOpener
-
-	potentialOpener := true

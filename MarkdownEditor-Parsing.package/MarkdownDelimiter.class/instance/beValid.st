@@ -1,4 +1,0 @@
-accessing
-beValid
-
-	valid := true
