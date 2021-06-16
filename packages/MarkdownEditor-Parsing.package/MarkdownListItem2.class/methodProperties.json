@@ -1,7 +1,15 @@
 {
 	"class" : {
-		 },
+		"newFrom:" : "LL 6/16/2021 15:04",
+		"newOrderedFrom:" : "LL 6/16/2021 15:05",
+		"newUnorderedFrom:" : "LL 6/16/2021 15:05" },
 	"instance" : {
 		"applyOnLine:" : "C.H. 6/4/2021 13:09",
 		"indention" : "JE 6/16/2021 13:16",
-		"indention:" : "JE 6/16/2021 13:16" } }
+		"indention:" : "JE 6/16/2021 13:16",
+		"isOrdered" : "LL 6/16/2021 15:00",
+		"isOrdered:" : "LL 6/16/2021 15:00",
+		"listMarker" : "LL 6/16/2021 15:00",
+		"listMarker:" : "LL 6/16/2021 15:00",
+		"number" : "LL 6/16/2021 15:00",
+		"number:" : "LL 6/16/2021 15:00" } }

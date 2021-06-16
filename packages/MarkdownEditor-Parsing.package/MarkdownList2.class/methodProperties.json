@@ -1,5 +1,14 @@
 {
 	"class" : {
-		 },
+		"newFrom:" : "LL 6/16/2021 15:04" },
 	"instance" : {
-		 } }
+		"addItem:" : "LL 6/16/2021 15:03",
+		"applyOnLine:" : "LL 6/16/2021 15:04",
+		"isLoose" : "LL 6/16/2021 15:03",
+		"isLoose:" : "LL 6/16/2021 15:03",
+		"isOrdered" : "LL 6/16/2021 15:03",
+		"isOrdered:" : "LL 6/16/2021 15:03",
+		"listMarker" : "LL 6/16/2021 15:03",
+		"listMarker:" : "LL 6/16/2021 15:03",
+		"startNumber" : "LL 6/16/2021 15:03",
+		"startNumber:" : "LL 6/16/2021 15:03" } }

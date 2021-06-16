@@ -10,4 +10,5 @@ parse: aString
 					(self closeOpenBlocks: 
 						(aString copyFrom: start to: endWithoutDelimiters)
 								startingAt: self document))].
+	self startInlineParsing.
 	Transcript show: self document asString.

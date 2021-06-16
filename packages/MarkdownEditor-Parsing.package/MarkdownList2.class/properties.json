@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"isOrdered",
+		"isLoose",
+		"listMarker",
+		"startNumber" ],
 	"name" : "MarkdownList2",
 	"pools" : [
 		 ],
