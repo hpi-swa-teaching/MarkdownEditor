@@ -1,4 +1,4 @@
-accessing
+helpers
 setOpenClosePropertyFrom: aString
 
 	(aString first asString matchesRegex: '\S')

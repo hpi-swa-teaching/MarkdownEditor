@@ -1,0 +1,4 @@
+accessing
+currentOpener
+
+	^ currentOpener

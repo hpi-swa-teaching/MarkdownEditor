@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTextToLastOpenBlock:" : "C.H. 6/14/2021 17:06",
+		"blockChecklist" : "C.H. 6/14/2021 17:26",
+		"closeOpenBlocks:startingAt:" : "C.H. 6/14/2021 18:11",
+		"createNewBlocks:" : "C.H. 6/14/2021 17:32",
+		"document" : "C.H. 6/12/2021 17:49",
+		"document:" : "C.H. 6/12/2021 17:49",
+		"firstUnmatchedBlock" : "LL 6/11/2021 13:51",
+		"firstUnmatchedBlock:" : "LL 6/11/2021 13:51",
+		"lastMatchedBlock" : "LL 6/11/2021 12:29",
+		"lastMatchedBlock:" : "LL 6/11/2021 12:29",
+		"lastOpenBlock" : "C.H. 6/14/2021 17:00",
+		"lastOpenBlockStartingFrom:" : "C.H. 6/14/2021 17:07",
+		"parse:" : "C.H. 6/14/2021 17:51" } }

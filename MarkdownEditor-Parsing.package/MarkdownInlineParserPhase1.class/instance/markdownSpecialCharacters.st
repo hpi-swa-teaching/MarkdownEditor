@@ -1,0 +1,4 @@
+helper
+markdownSpecialCharacters
+
+	^ CharacterSet newFrom: '*[!'
