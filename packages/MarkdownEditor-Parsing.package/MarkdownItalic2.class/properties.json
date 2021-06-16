@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownItalic2",
+	"pools" : [
+		 ],
+	"super" : "MarkdownEmphasis2",
+	"type" : "normal" }

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"newFrom:" : "jh 6/12/2021 13:14" },
+	"instance" : {
+		"castRemainingDelimitersFrom:" : "jh 6/12/2021 17:17",
+		"cleanDelimiters" : "jh 6/12/2021 18:50",
+		"cleanUp:" : "jh 6/12/2021 17:17",
+		"cleanUpDelimiter:for:" : "jh 6/13/2021 13:03",
+		"createEmphWith:with:" : "jh 6/12/2021 17:14",
+		"currentCloser" : "jh 6/12/2021 12:52",
+		"currentCloser:" : "jh 6/12/2021 12:52",
+		"currentOpener" : "jh 6/12/2021 12:52",
+		"currentOpener:" : "jh 6/12/2021 12:52",
+		"decideEmphType" : "jh 6/12/2021 13:08",
+		"delimiters" : "mf 6/6/2021 16:49",
+		"delimiters:" : "jh 6/11/2021 20:19",
+		"findCloser" : "jh 6/12/2021 18:09",
+		"findOpener" : "jh 6/12/2021 17:28",
+		"handleNoOpeningDelimiter" : "jh 6/12/2021 13:06",
+		"inlineElements" : "jh 6/11/2021 19:22",
+		"inlineElements:" : "jh 6/11/2021 19:24",
+		"inlineIndexOf:" : "jh 6/12/2021 13:28",
+		"mergeElementsFrom:" : "jh 6/12/2021 17:19",
+		"parse" : "jh 6/12/2021 18:52",
+		"parseInline" : "jh 6/12/2021 18:48",
+		"processEmphasis" : "jh 6/12/2021 13:40" } }

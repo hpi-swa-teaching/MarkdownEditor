@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content" ],
+	"name" : "MarkdownString2",
+	"pools" : [
+		 ],
+	"super" : "MarkdownInlineElement2",
+	"type" : "normal" }

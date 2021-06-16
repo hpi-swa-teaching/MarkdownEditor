@@ -1,0 +1,19 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"index",
+		"count",
+		"potentialCloser",
+		"potentialOpener",
+		"valid" ],
+	"name" : "MarkdownDelimiter",
+	"pools" : [
+		 ],
+	"super" : "MarkdownInlineElement2",
+	"type" : "normal" }
