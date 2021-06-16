@@ -1,11 +1,7 @@
 helpers
 setOpenClosePropertyFrom: aString
 
-	| firstChar lastChar |
-	firstChar := aString first asString.
-	lastChar := aString last asString.
-	
-	(firstChar matchesRegex: '[^\s]')
+	(aString first asString matchesRegex: '\S')
 		ifTrue: [self bePotentialCloser].
-	(lastChar matchesRegex: '[^\s]')
+	(aString last asString matchesRegex: '\S')
 		ifTrue: [self bePotentialOpener]

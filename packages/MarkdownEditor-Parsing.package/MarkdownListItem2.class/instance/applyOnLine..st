@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 applyOnLine: aString
 	
 	"lazy continuation line is also possible but not implementet in this method"

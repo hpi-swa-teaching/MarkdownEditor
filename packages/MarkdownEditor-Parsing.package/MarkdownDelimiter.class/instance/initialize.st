@@ -1,4 +1,4 @@
-initilization
+initialize-release
 initialize
 
 	potentialCloser := false.

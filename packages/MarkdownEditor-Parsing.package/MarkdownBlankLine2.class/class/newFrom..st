@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aString
 	
 	| matcher |
@@ -6,6 +6,6 @@ newFrom: aString
 	(matcher matches: aString)
 	ifTrue: [^self new 
 				content: '';
-				isOpen: false;
+				beClosed;
 				yourself].
 	^ nil 		

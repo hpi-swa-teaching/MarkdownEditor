@@ -1,4 +1,4 @@
-helpers
+comparing
 = anotherDelimiter
 
 	^ (self type = anotherDelimiter type) 

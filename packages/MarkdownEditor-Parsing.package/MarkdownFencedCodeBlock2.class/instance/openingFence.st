@@ -1,3 +1,4 @@
 accessing
 openingFence
+
 	^ openingFence

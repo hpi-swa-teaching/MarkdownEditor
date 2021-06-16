@@ -1,7 +1,7 @@
-as yet unclassified
+applying
 applyOnLine: aString
 	
-	^ nil.
+	^ nil
 	"| matcher |
 	matcher := RxMatcher forString: '\s*(.*[^\s]+)\s*'.
 	(matcher matches: aString)

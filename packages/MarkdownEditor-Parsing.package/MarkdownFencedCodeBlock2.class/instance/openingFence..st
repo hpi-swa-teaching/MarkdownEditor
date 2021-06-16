@@ -1,3 +1,4 @@
 accessing
-openingFence: anObject
-	openingFence := anObject
+openingFence: aCharacter
+
+	openingFence := aCharacter

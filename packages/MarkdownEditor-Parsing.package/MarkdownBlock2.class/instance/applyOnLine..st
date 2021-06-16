@@ -1,4 +1,4 @@
-nil
+applying
 applyOnLine: aMakdownLine
 	
-	^self subclassResponsibility
+	^ self subclassResponsibility

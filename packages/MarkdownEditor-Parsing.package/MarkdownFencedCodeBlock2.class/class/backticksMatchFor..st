@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 backticksMatchFor: aString
 	
 	| matcher |
