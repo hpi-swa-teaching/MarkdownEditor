@@ -1,4 +1,4 @@
-tests - emphasis
+tests - delimiter stack
 testBuildDelimiterStackWithText
 	
 	| expectedOutput |

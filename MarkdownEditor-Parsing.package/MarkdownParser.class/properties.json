@@ -1,0 +1,16 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"document",
+		"lastMatchedBlock",
+		"firstUnmatchedBlock" ],
+	"name" : "MarkdownParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

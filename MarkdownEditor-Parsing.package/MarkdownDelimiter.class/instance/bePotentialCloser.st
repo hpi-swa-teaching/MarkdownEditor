@@ -1,0 +1,4 @@
+accessing
+bePotentialCloser
+
+	potentialCloser := true

@@ -1,0 +1,4 @@
+nil
+remainsOpenIn: aString
+
+	^ false

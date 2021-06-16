@@ -1,0 +1,4 @@
+accessing
+asString
+
+	^ self asStringWithIndent: ''

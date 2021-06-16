@@ -7,6 +7,8 @@
 		"testBuildDelimiterStackWithText" : "jh 6/13/2021 13:28",
 		"testCastingDelimiters" : "jh 6/13/2021 13:29",
 		"testNotADelimiter" : "jh 6/13/2021 13:31",
+		"testParseEmph" : "mf 6/14/2021 18:50",
+		"testParseEmph2" : "mf 6/14/2021 18:54",
 		"testParseImage" : "jh 6/12/2021 18:37",
 		"testParseLink" : "jh 6/13/2021 14:01",
 		"testParseLinkWithEmphasis" : "jh 6/12/2021 18:41",
@@ -20,6 +22,9 @@
 		"testParsePlainTextWithExclamationMark" : "jh 6/13/2021 13:35",
 		"testParseStrongEmph" : "jh 6/12/2021 18:32",
 		"testParseTextNotEmphasised" : "jh 6/12/2021 18:51",
+		"testParseTextWithWhitespace" : "mf 6/14/2021 18:28",
+		"testParseTextWithWhitespace2" : "mf 6/14/2021 18:52",
+		"testParseTextWithWhitespaceAndQuotationMarks" : "mf 6/14/2021 18:40",
 		"testPotentialClosingDelimiter" : "jh 6/12/2021 18:19",
 		"testPotentialClosingOpeningDelimiter" : "jh 6/11/2021 09:30",
 		"testPotentialOpeningDelimiter" : "jh 6/12/2021 18:20" } }

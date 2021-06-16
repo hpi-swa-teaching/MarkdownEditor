@@ -1,0 +1,4 @@
+accessing
+previousChar
+
+	^ previousChar asString
