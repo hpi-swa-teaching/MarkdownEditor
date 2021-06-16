@@ -1,4 +1,0 @@
-nil
-applyOnLine: aString
-
-	^ nil

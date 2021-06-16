@@ -1,4 +1,0 @@
-nil
-remainsOpenIn: aString
-
-	^ false
