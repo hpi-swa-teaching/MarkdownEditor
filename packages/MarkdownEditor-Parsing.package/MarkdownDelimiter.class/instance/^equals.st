@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anotherDelimiter
 
 	^ (self type = anotherDelimiter type) 

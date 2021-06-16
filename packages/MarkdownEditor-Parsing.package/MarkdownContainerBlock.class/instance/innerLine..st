@@ -1,3 +1,4 @@
 accessing
-innerLine: anObject
-	innerLine := anObject
+innerLine: aString
+
+	innerLine := aString

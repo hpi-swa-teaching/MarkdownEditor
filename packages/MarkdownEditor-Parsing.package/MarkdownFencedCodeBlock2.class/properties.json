@@ -8,7 +8,7 @@
 	"instvars" : [
 		"openingFence",
 		"indention",
-		"infoString" ],
+		"info" ],
 	"name" : "MarkdownFencedCodeBlock2",
 	"pools" : [
 		 ],

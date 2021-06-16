@@ -1,3 +1,4 @@
 accessing
-indention: anObject
-	indention := anObject
+indention: aNumber
+
+	indention := aNumber

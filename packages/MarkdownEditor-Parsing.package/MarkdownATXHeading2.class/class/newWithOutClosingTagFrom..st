@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithOutClosingTagFrom: aString
 
 	| matcher |
@@ -9,6 +9,6 @@ newWithOutClosingTagFrom: aString
 		ifTrue: [^ self new
 				level: ((matcher subexpressions: 2) first size);
 				content: (StringUtil unescape: {$#} in: ((matcher subexpressions: 3) at: 1 ifAbsent: ['']));
-				isOpen: false;
+				beClosed;
 				yourself].
 	^ nil

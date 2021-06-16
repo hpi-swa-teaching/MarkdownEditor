@@ -1,3 +1,4 @@
 accessing
-children: anObject
-	children := anObject
+children: aCollection
+
+	children := aCollection

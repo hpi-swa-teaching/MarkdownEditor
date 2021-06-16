@@ -1,4 +1,4 @@
 accessing
 close
 	
-	self isOpen: false.
+	self beClosed

@@ -1,4 +1,4 @@
-nil
+applying
 applyOnLine: aString
 
 	^ nil
