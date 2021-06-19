@@ -2,7 +2,7 @@ parsing
 parse: aString
 	Transcript clear. 
 	self document: MarkdownDocument new.
-	self lastMatchedBlock: self document.
+	self basicLastMatchedBlock: self document.
 	aString
 		lineIndicesDo: [:start :endWithoutDelimiters :end | 			
 			self addTextToLastOpenBlock:
