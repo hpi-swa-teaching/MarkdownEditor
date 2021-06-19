@@ -1,5 +1,5 @@
-tests - emphasis
-testParseTextWithWhitespaceAndQuotationMarks
+tests - punctuation characters
+testParseTextWithPunctuationCharacters
 
 	| expectedOutput output |
 	output := parser parse: 'say*"Hello World"*'.

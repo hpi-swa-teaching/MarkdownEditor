@@ -1,0 +1,4 @@
+helper
+punctuationCharsIncludesLastCharFrom: aPaddedDelimiterRun
+
+	^ self punctuationCharacters includes: aPaddedDelimiterRun last asCharacter
