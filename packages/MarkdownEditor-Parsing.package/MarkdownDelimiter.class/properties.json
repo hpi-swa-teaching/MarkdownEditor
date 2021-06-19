@@ -7,11 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"type",
-		"index",
+		"inlineIndex",
 		"count",
 		"potentialCloser",
 		"potentialOpener",
-		"valid" ],
+		"valid",
+		"originalOpenerAndCloser" ],
 	"name" : "MarkdownDelimiter",
 	"pools" : [
 		 ],

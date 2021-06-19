@@ -1,12 +1,13 @@
 helper
 findOpener
 
-	| openerPosition remainingDelimiters opener |
-	
-	remainingDelimiters := self delimiters copyFrom: 1 to: (self delimiters indexOf: self currentCloser) - 1.
-	openerPosition := remainingDelimiters findLast: [:del | del isPotentialOpener and: [self currentCloser type = del type]].
-	(openerPosition = 0)
-		ifTrue: [^ self handleNoOpeningDelimiter].
-	opener := self delimiters at: openerPosition.
-	opener index:  (self inlineIndexOf: opener).
+	| opener potentialOpenerPosition |
+	potentialOpenerPosition := self findPotentialOpenerPosition.
+	(potentialOpenerPosition = 0)
+		ifTrue: [(self hasBeenExcludedByDivisibleOfThreeRule)
+					ifTrue: [self currentCloser beNotPotentialCloser. 
+							^ MarkdownDelimiter new]
+					ifFalse: [^ self handleNoOpeningDelimiter]].
+	opener := self delimiters at: potentialOpenerPosition.
+	opener inlineIndex:  (self inlineIndexOf: opener).
 	^ opener

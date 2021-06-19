@@ -1,10 +1,8 @@
 parsing
 parse: aRawString
 
-	| str |
+	| symbol |
 	aRawString ifEmpty: [^ self].
-	aRawString first caseOf: {
-		[$*] -> [str := self processPossibleDelimitersFrom: aRawString, ' ']. 
-		[$[] -> [str := self processLinkOrImageFrom: aRawString]}
-		otherwise: [str := self processStringFrom: aRawString].
-	self parse: str
+	symbol := self delimiterTypeProcessing at: (aRawString first)
+		ifAbsent: [#processStringFrom:].
+	self parse: (self perform: symbol withArguments: {aRawString})

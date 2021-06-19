@@ -8,4 +8,4 @@ processLinkOrImageFrom: aRawString
 
 	linkType := self decideLinkType.
 	
-	^ self further: linkType processingWith: balancedBracketCollection and: aRawString
+	^ self process: balancedBracketCollection for: linkType from: aRawString

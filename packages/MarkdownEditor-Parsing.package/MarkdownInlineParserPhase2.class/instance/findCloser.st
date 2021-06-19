@@ -8,5 +8,5 @@ findCloser
 		ifTrue: [^ MarkdownDelimiter new].
 	
 	closer := self delimiters at: closerPosition.
-	closer index: (self inlineIndexOf: closer).
+	closer inlineIndex: (self inlineIndexOf: closer).
 	^ closer

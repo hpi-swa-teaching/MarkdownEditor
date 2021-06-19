@@ -1,4 +1,4 @@
-parsing
+helper
 decideLinkType
 
 	self previousChar = '!'
