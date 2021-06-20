@@ -1,8 +1,8 @@
 tests - delimiters
-testPotentialOpeningDelimiter
+testPotentialOpeningDelimiter2
 
 	| output expectedOutput |
-	output := MarkdownDelimiter newFrom: ' **t'.
+	output := MarkdownDelimiter newFrom: ('', Character cr,'**t').
 	expectedOutput := MarkdownDelimiter new.
 	expectedOutput count: 2;
 		type: $*;

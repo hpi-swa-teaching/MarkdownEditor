@@ -1,4 +1,4 @@
-test - delimiters
+tests - delimiters
 testAllDelimitersOfSameType
 
     | del1 del2 |

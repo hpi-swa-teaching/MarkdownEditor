@@ -1,5 +1,5 @@
 tests - punctuation characters
-testParseTextWithPunctuationCharacters3
+testParseTextWithPunctuationCharacters03
 
 	| expectedOutput output str |
 	output := parser parse: 'text*" Hello World*'.

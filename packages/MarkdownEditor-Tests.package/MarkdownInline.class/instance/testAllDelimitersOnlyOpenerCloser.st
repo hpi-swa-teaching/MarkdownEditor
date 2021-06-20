@@ -1,4 +1,4 @@
-test - delimiters
+tests - delimiters
 testAllDelimitersOnlyOpenerCloser
 
     | del1 del2 del3 |

@@ -1,4 +1,4 @@
-test - delimiters
+tests - delimiters
 testCleanDelimiters
 
     | del1 del2 |

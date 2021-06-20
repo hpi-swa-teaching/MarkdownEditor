@@ -1,4 +1,4 @@
-test - delimiters
+tests - delimiters
 testPotentialClosingOpeningDelimiter
 
 	| output expectedOutput |

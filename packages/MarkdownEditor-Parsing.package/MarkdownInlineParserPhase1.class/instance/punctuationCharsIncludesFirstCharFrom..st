@@ -1,4 +1,0 @@
-helper
-punctuationCharsIncludesFirstCharFrom: aPaddedDelimiterRun
-
-	^ self punctuationCharacters includes: aPaddedDelimiterRun first asCharacter

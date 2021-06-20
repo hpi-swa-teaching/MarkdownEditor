@@ -1,5 +1,5 @@
 tests - punctuation characters
-testParseTextWithPunctuationCharacters5
+testParseTextWithPunctuationCharacters05
 
 	| expectedOutput output str emph |
 	output := parser parse: 'plain text-*(italic)*'.
