@@ -1,0 +1,4 @@
+accessing
+requiredCount
+
+	^ self subclassResponsibility
