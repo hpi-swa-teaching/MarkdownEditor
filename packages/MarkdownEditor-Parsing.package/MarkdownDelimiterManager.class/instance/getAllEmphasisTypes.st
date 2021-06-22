@@ -1,5 +1,5 @@
-as yet unclassified
+handle emphasis
 getAllEmphasisTypes
 
-	self allInlineEmphasises do:	[:emphClass |
-		self emphasisTypes add: (emphClass -> emphClass new)]
+	self allInlineEmphasises do:	[:emphasisClass |
+		self emphasisTypes add: (emphasisClass -> emphasisClass new)]

@@ -1,4 +1,4 @@
 accessing
-emphasisTypes: anOrderedCollection
+emphasisTypes: aDictionary
 	
-	emphasisTypes := anOrderedCollection
+	emphasisTypes := aDictionary

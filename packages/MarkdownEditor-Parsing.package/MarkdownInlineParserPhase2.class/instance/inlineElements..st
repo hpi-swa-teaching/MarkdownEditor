@@ -1,4 +1,4 @@
 accessing
-inlineElements: aCollectionOfMarkdownInlinElements
+inlineElements: aCollectionOfMarkdownInlineElements
 
-	inlineElements := aCollectionOfMarkdownInlinElements
+	inlineElements := aCollectionOfMarkdownInlineElements

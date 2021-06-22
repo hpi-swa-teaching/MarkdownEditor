@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"emphasisTypes",
-		"containerTypes" ],
+		"referenceTypes",
+		"delimiterTypeProcessing" ],
 	"name" : "MarkdownDelimiterManager",
 	"pools" : [
 		 ],

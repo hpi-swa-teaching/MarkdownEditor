@@ -1,5 +1,7 @@
-as yet unclassified
+initialize
 initialize
 	
 	self emphasisTypes: Dictionary new.
-	self getAllEmphasisTypes.
+	self referenceTypes: Dictionary new.
+	self delimiterTypeProcessing: Dictionary new.
+	self getAllEmphasisTypes

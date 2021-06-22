@@ -1,5 +1,5 @@
 tests - emphasis
-testParseEmphStrongAndItalic1
+testParseEmphStrongAndItalic
     
     | output expectedOutput emph emphBold |
     

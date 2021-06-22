@@ -1,7 +1,8 @@
-as yet unclassified
+handle emphasis
 decideEmphasisTypeFrom: anOpeningDelimiter and: aClosingDelimiter
 
-	^ (self emphasisTypes 
-			select: [:emph |
-				emph matchesWith: anOpeningDelimiter 
-				and: aClosingDelimiter]) keys first
+	^ (self emphasisTypes
+		select: [:emphasis |
+				emphasis 
+					matchesWith: anOpeningDelimiter 
+					and: aClosingDelimiter]) keys first

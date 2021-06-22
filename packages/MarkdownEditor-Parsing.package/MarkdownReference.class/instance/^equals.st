@@ -1,4 +1,4 @@
-helpers
+comparing
 = aContainerBlock
 
 	^ (super = aContainerBlock) 

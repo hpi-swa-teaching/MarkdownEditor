@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFrom:" : "jh 6/12/2021 13:14" },
+		"newFrom:" : "mf 6/22/2021 15:50" },
 	"instance" : {
 		"affectedByTheRuleBefore:or:" : "mf 6/19/2021 13:38",
 		"areAllRemainingDelimitersOfSameType" : "mf 6/19/2021 13:55",
@@ -15,8 +15,8 @@
 		"currentOpener" : "jh 6/12/2021 12:52",
 		"currentOpener:" : "mf 6/14/2021 18:17",
 		"decideEmphType" : "jh 6/20/2021 20:41",
-		"delimiterManager" : "jh 6/20/2021 19:09",
-		"delimiterManager:" : "jh 6/20/2021 19:09",
+		"delimiterManager" : "mf 6/22/2021 13:03",
+		"delimiterManager:" : "mf 6/22/2021 13:03",
 		"delimiters" : "mf 6/6/2021 16:49",
 		"delimiters:" : "jh 6/11/2021 20:19",
 		"doesDivisibleByThreeRuleApplyFor:" : "mf 6/19/2021 13:39",
@@ -25,9 +25,8 @@
 		"findPotentialOpenerPosition" : "mf 6/19/2021 13:25",
 		"handleNoOpeningDelimiter" : "mf 6/19/2021 14:15",
 		"hasBeenExcludedByDivisibleOfThreeRule" : "mf 6/19/2021 13:41",
-		"initialize" : "jh 6/20/2021 19:11",
 		"inlineElements" : "jh 6/11/2021 19:22",
-		"inlineElements:" : "jh 6/11/2021 19:24",
+		"inlineElements:" : "mf 6/22/2021 13:04",
 		"inlineIndexOf:" : "mf 6/14/2021 18:20",
 		"mergeElementsFrom:" : "jh 6/12/2021 17:19",
 		"parse" : "mf 6/14/2021 18:21",

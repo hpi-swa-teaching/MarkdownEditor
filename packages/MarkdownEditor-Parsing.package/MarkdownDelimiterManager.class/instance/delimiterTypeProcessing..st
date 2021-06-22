@@ -1,0 +1,4 @@
+accessing
+delimiterTypeProcessing: aDelimiterTypeProcessing
+
+	delimiterTypeProcessing := aDelimiterTypeProcessing

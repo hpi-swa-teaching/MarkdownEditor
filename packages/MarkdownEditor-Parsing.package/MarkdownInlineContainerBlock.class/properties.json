@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"children" ],
-	"name" : "MarkdownInlineContainterBlock",
+	"name" : "MarkdownInlineContainerBlock",
 	"pools" : [
 		 ],
 	"super" : "MarkdownInlineElement2",

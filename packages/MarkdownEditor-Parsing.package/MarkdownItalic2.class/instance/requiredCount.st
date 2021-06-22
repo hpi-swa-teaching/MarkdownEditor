@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 requiredCount
 
 	^ 1
