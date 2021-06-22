@@ -2,8 +2,8 @@ clean up
 cleanDelimiters
 
 	self delimiters ifEmpty: [^ self].
-	self areAllRemainingDelimitersOfSameType
-		ifFalse: [^self delimiters removeAll].
+	self areOnlyDifferentDelimiterTypesLeft
+		ifTrue: [^self delimiters removeAll].
 	self areAllRemainingDelimitersOnlyOpenerOrCloser
 		ifTrue: [^ self delimiters removeAll].
 	self delimiters size <= 1

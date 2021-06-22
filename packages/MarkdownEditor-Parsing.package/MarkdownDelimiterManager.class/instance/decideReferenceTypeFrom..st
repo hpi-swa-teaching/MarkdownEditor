@@ -1,4 +1,4 @@
-handle emphasis
+handle references
 decideReferenceTypeFrom: aPreviousChar
 
 	aPreviousChar = '!'

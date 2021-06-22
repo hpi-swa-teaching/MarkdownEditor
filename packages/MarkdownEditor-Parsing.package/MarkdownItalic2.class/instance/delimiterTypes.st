@@ -1,4 +1,4 @@
 accessing
 delimiterTypes
 
-	^ CharacterSet newFrom: {$*}
+	^ CharacterSet newFrom: {$*. $_}

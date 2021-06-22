@@ -1,0 +1,4 @@
+accessing
+delimiterTypes
+
+	^ self subclassResponsibility
