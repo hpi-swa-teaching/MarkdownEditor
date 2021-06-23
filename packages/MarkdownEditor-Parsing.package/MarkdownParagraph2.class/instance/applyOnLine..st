@@ -1,10 +1,5 @@
 applying
 applyOnLine: aString
 	
+	"Paragraph will only be applied by the parser object"
 	^ nil
-	"| matcher |
-	matcher := RxMatcher forString: '\s*(.*[^\s]+)\s*'.
-	(matcher matches: aString)
-		ifTrue: [self content: self content, ((matcher subexpressions: 2) at: 1 ifAbsent: ['']).
-			^'']
-		ifFalse: [^nil]"

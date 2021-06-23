@@ -5,7 +5,7 @@ newFrom: aString
 	matcher := RxMatcher forString: '\s*'.
 	(matcher matches: aString)
 	ifTrue: [^self new 
-				content: '';
+				addLine: '';
 				beClosed;
 				yourself].
 	^ nil 		

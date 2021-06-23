@@ -8,7 +8,7 @@ newWithOutClosingTagFrom: aString
 	(matcher matches: aString)
 		ifTrue: [^ self new
 				level: ((matcher subexpressions: 2) first size);
-				content: (StringUtil unescape: {$#} in: ((matcher subexpressions: 3) at: 1 ifAbsent: ['']));
+				addLine: (StringUtil unescape: {$#} in: ((matcher subexpressions: 3) at: 1 ifAbsent: ['']));
 				beClosed;
 				yourself].
 	^ nil

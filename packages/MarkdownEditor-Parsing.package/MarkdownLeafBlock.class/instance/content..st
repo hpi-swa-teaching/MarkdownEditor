@@ -1,4 +1,4 @@
 accessing
-content: aString
+content: aCollectionOfStrings
 
-	content := aString
+	content := aCollectionOfStrings

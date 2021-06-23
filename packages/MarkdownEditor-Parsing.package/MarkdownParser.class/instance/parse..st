@@ -11,4 +11,5 @@ parse: aString
 						(aString copyFrom: start to: endWithoutDelimiters)
 								startingAt: self document))].
 	self startInlineParsing.
+	self halt.
 	Transcript show: self document asString.

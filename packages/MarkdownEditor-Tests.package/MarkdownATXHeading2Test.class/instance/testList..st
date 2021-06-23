@@ -7,4 +7,4 @@ testList: anOrderedCollection
 		testTupel size = 1 
 			ifTrue: [self assert: nil equals: heading]
 			ifFalse: [self assert: testTupel second equals: heading level.
-				self assert: testTupel third equals: heading content]]
+				self assert: testTupel third equals: heading content first]]

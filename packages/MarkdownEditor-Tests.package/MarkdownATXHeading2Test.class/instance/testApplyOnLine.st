@@ -4,4 +4,4 @@ testApplyOnLine
 	| heading |
 	heading := MarkdownATXHeading2 new.
 	self assert: nil equals: (heading applyOnLine: 'test').
-	self assert: nil equals: heading content.
+	self assert: true equals: heading content isEmpty.

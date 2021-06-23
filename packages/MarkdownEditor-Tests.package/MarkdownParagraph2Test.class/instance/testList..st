@@ -6,4 +6,5 @@ testList: anOrderedCollection
 		paragraph := MarkdownParagraph2 newFrom: testTupel first.
 		testTupel size = 1 
 			ifTrue: [self assert: nil equals: paragraph]
-			ifFalse: [self assert: testTupel second equals: paragraph content]]
+			ifFalse: [self assert: testTupel second equals: 
+				(paragraph content inject: '' into: [:t :line| t,line])]]
