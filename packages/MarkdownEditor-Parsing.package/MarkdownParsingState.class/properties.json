@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isOpen",
-		"container" ],
-	"name" : "MarkdownBlock2",
+		"document",
+		"container",
+		"lastMatchedContainer",
+		"currentLine",
+		"tip",
+		"allBlocksClosed" ],
+	"name" : "MarkdownParsingState",
 	"pools" : [
 		 ],
 	"super" : "Object",

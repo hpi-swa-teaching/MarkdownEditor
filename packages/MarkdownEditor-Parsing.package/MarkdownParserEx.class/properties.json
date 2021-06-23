@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isOpen",
-		"container" ],
-	"name" : "MarkdownBlock2",
+		"state" ],
+	"name" : "MarkdownParserEx",
 	"pools" : [
 		 ],
 	"super" : "Object",

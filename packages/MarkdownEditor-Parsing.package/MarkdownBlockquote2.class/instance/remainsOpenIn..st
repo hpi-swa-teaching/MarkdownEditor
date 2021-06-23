@@ -1,5 +1,5 @@
 applying
-applyOnLine: aString
+remainsOpenIn: aString
 	
 	"should also remain open if the line is a simple paragraph"
 	| matcher |
