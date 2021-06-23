@@ -2,5 +2,6 @@ helper
 inlineIndexOf: anInlineElement
 
 	self inlineElements
-		doWithIndex: [:el :index | el == anInlineElement 
-				ifTrue: [^index]]
+		doWithIndex: [:element :index | element == anInlineElement 
+				ifTrue: [^ index]]
+			

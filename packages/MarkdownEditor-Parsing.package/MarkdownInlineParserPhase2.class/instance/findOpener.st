@@ -9,5 +9,5 @@ findOpener
 							^ MarkdownDelimiter new]
 					ifFalse: [^ self handleNoOpeningDelimiter]].
 	opener := self delimiters at: potentialOpenerPosition.
-	opener inlineIndex:  (self inlineIndexOf: opener).
+	opener inlineIndex: (self inlineIndexOf: opener).
 	^ opener

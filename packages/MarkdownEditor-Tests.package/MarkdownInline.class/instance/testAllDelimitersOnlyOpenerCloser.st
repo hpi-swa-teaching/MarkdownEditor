@@ -6,14 +6,14 @@ testAllDelimitersOnlyOpenerCloser
     del2 := MarkdownDelimiter newFrom: 't** '.
     del3 := MarkdownDelimiter newFrom: 't**t'.
     
-    secondPhase delimiters: (LinkedList newFrom: {del3. del3}).
+    secondPhase delimiters: (MarkdownLinkedList newFrom: {del3. del3}).
     self assert: false equals: secondPhase areAllRemainingDelimitersOnlyOpenerOrCloser.
     
-    secondPhase delimiters: (LinkedList newFrom: {del1. del1}).
+    secondPhase delimiters: (MarkdownLinkedList newFrom: {del1. del1}).
     self assert: true equals: secondPhase areAllRemainingDelimitersOnlyOpenerOrCloser.
     
-    secondPhase delimiters: (LinkedList newFrom: {del2. del2}).
+    secondPhase delimiters: (MarkdownLinkedList newFrom: {del2. del2}).
     self assert: true equals: secondPhase areAllRemainingDelimitersOnlyOpenerOrCloser.
     
-    secondPhase delimiters: (LinkedList newFrom: {del1. del2}).
+    secondPhase delimiters: (MarkdownLinkedList newFrom: {del1. del2}).
     self assert: false equals: secondPhase areAllRemainingDelimitersOnlyOpenerOrCloser
