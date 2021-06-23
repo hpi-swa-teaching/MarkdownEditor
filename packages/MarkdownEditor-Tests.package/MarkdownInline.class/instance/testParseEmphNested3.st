@@ -12,5 +12,5 @@ testParseEmphNested3
 		add: emphBold;
 		add: (MarkdownString2 newFrom: ')').
     
-    expectedOutput := LinkedList newFrom: {emph}.
+    expectedOutput := MarkdownLinkedList newFrom: {emph}.
     self assert: expectedOutput equals: output

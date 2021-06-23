@@ -9,5 +9,5 @@ testParseEmphNested6
 	
 	emphItalic children add: (MarkdownString2 newFrom: 'foo _bar').
 	
-	expectedOutput := LinkedList newFrom: {emphItalic. (MarkdownString2 newFrom: ' baz_')}.
+	expectedOutput := MarkdownLinkedList newFrom: {emphItalic. (MarkdownString2 newFrom: ' baz_')}.
 	self assert: expectedOutput equals: output

@@ -6,6 +6,6 @@ testParseEmphStrongAlternativeDelimiter4
 	
 	emph := MarkdownBold2 new.
 	emph children add: (MarkdownString2 newFrom: '(world)').
-	expectedOutput := LinkedList newFrom: {(MarkdownString2 newFrom: 'hello-'). emph}.
+	expectedOutput := MarkdownLinkedList newFrom: {(MarkdownString2 newFrom: 'hello-'). emph}.
 	
 	self assert: expectedOutput equals: output

@@ -11,5 +11,5 @@ testParseEmphNested2
     emph children add: (MarkdownString2 newFrom: 'this should be italic').
     emph children add: emphBold.
     
-    expectedOutput := LinkedList newFrom: {emph}.
+    expectedOutput := MarkdownLinkedList newFrom: {emph}.
     self assert: expectedOutput equals: output

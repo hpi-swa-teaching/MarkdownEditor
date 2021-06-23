@@ -6,6 +6,6 @@ testParseEmphItalic
 	
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: 'hello').
-	expectedOutput := LinkedList newFrom: {emph}.
+	expectedOutput := MarkdownLinkedList newFrom: {emph}.
 	
 	self assert: expectedOutput equals: output

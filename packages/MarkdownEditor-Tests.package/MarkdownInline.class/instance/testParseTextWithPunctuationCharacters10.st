@@ -3,7 +3,9 @@ testParseTextWithPunctuationCharacters10
 
 	| expectedOutput output emph |
 	output := parser parse: '"*" hello*'.
+	
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: '" hello').
-	expectedOutput := LinkedList newFrom: {MarkdownString2 newFrom: '"'. emph}.
+	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString2 newFrom: '"'. emph}.
+	
 	self assert: expectedOutput equals: output

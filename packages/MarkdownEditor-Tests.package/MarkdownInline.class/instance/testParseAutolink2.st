@@ -1,0 +1,11 @@
+tests - autolinks
+testParseAutolink2
+	
+	| output expectedOutput link |
+	output := parser parse: 'squeak@hpi.de'.
+	
+	link := MarkdownAutolink new.
+	link path: 'abc://www.hpi.de'.
+	expectedOutput := MarkdownLinkedList newFrom: {link}.
+	
+	self assert: expectedOutput equals: output

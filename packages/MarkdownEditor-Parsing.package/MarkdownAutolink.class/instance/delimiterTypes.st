@@ -1,0 +1,4 @@
+accessing
+delimiterTypes
+
+	^ CharacterSet newFrom: {$<}

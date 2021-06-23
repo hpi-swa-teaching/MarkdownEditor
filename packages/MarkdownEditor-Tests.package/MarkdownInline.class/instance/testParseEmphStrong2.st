@@ -7,6 +7,6 @@ testParseEmphStrong2
 	emph := MarkdownBold2 new.
 	emph children add: (MarkdownString2 newFrom: 'Hello').
 	str := MarkdownString2 newFrom: ' World'.
-	expectedOutput := LinkedList newFrom: {emph. str}.
+	expectedOutput := MarkdownLinkedList newFrom: {emph. str}.
 	
 	self assert: expectedOutput equals: output

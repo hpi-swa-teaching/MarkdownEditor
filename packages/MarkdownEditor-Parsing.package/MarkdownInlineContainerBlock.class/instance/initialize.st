@@ -2,4 +2,4 @@ initialize
 initialize
 
 	super initialize.
-	self children: LinkedList new
+	self children: MarkdownLinkedList new

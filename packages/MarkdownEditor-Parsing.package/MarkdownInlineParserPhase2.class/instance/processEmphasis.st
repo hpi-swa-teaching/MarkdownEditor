@@ -9,7 +9,7 @@ processEmphasis
 	
 	self 
 		inlineElements:	
-			(LinkedList newFrom: 
+			(MarkdownLinkedList newFrom: 
 				(self inlineElements copyReplaceFrom: start to: end with: (LinkedList newFrom: {emph})));
 		cleanUpDelimiter: self currentOpener for: emphType;
 		cleanUpDelimiter: self currentCloser for: emphType

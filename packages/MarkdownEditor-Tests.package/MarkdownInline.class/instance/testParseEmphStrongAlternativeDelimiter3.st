@@ -10,6 +10,6 @@ testParseEmphStrongAlternativeDelimiter3
 	emph children add: (MarkdownString2 newFrom: 'hello, ');
 		add: emph2;
 		add: (MarkdownString2 newFrom: ', squeak').
-	expectedOutput := LinkedList newFrom: {emph}.
+	expectedOutput := MarkdownLinkedList newFrom: {emph}.
 	
 	self assert: expectedOutput equals: output

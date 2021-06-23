@@ -6,6 +6,6 @@ testParseEmphItalicAlternativeDelimiter2
 	
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: 'hello').
-	expectedOutput := LinkedList newFrom: {emph. MarkdownString2 newFrom: 'world'}.
+	expectedOutput := MarkdownLinkedList newFrom: {emph. MarkdownString2 newFrom: 'world'}.
 	
 	self assert: expectedOutput equals: output
