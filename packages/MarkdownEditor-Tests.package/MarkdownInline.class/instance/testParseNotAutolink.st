@@ -1,5 +1,5 @@
 tests - autolinks
-testParseNotAutolink1
+testParseNotAutolink
 	
 	| output expectedOutput |
 	output := parser parse: '<www.hpi.de>'.

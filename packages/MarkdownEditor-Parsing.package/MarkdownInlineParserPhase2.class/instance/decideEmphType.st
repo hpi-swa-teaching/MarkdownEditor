@@ -1,5 +1,8 @@
 helper
 decideEmphType
 
-	^ self delimiterManager 
-		decideEmphasisTypeFrom: self currentOpener and: self currentCloser
+	^ ((MarkdownEmphasis2 subclasses)
+		select: [:emphasis |
+				emphasis 
+					matchesWith: self currentOpener 
+					and: self currentCloser]) first

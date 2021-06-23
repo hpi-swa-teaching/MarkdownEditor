@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"delimiterTypes" : "mf 6/23/2021 15:44",
+		"matchesWith:and:" : "mf 6/23/2021 15:45",
+		"requiredCount" : "mf 6/23/2021 15:46" },
 	"instance" : {
 		"delimiterTypes" : "jh 6/22/2021 19:25",
-		"matchesWith:and:" : "jh 6/22/2021 19:25",
 		"requiredCount" : "jh 6/22/2021 19:25" } }

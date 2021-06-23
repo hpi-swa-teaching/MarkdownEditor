@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"newFrom:" : "mf 6/23/2021 15:00",
+		"newFrom:and:" : "mf 6/23/2021 15:01" },
 	"instance" : {
 		"beEmail" : "jh 6/23/2021 12:20",
 		"beNotEmail" : "jh 6/23/2021 12:20",

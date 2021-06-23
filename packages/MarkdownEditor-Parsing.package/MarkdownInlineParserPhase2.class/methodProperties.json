@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFrom:" : "mf 6/22/2021 15:50" },
+		"newFrom:" : "mf 6/23/2021 15:27" },
 	"instance" : {
 		"affectedByTheRuleBefore:or:" : "mf 6/19/2021 13:38",
 		"areAllRemainingDelimitersOnlyOpenerOrCloser" : "mf 6/19/2021 13:55",
@@ -8,15 +8,13 @@
 		"castRemainingDelimitersFrom:" : "jh 6/23/2021 11:50",
 		"cleanDelimiters" : "jh 6/22/2021 22:32",
 		"cleanUp:" : "jh 6/23/2021 11:50",
-		"cleanUpDelimiter:for:" : "jh 6/20/2021 20:59",
+		"cleanUpDelimiter:for:" : "mf 6/23/2021 15:24",
 		"createEmphWith:with:" : "jh 6/12/2021 17:14",
 		"currentCloser" : "jh 6/12/2021 12:52",
 		"currentCloser:" : "mf 6/14/2021 18:17",
 		"currentOpener" : "jh 6/12/2021 12:52",
 		"currentOpener:" : "mf 6/14/2021 18:17",
-		"decideEmphType" : "jh 6/20/2021 20:41",
-		"delimiterManager" : "mf 6/22/2021 13:03",
-		"delimiterManager:" : "mf 6/22/2021 13:03",
+		"decideEmphType" : "mf 6/23/2021 15:42",
 		"delimiterTypeCount" : "jh 6/22/2021 22:31",
 		"delimiters" : "mf 6/6/2021 16:49",
 		"delimiters:" : "jh 6/11/2021 20:19",

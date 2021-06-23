@@ -8,8 +8,7 @@
 	"instvars" : [
 		"delimiters",
 		"inlineElements",
-		"previousChar",
-		"delimiterManager" ],
+		"previousChar" ],
 	"name" : "MarkdownInlineParserPhase1",
 	"pools" : [
 		 ],

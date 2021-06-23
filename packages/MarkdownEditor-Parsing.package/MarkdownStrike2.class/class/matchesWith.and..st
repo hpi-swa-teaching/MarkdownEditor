@@ -1,4 +1,4 @@
-accessing
+delimiter matching
 matchesWith: anOpeningDelimiter and: aClosingDelimiter
 
 	((self delimiterTypes includes: anOpeningDelimiter type)

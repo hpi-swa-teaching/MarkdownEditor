@@ -1,5 +1,5 @@
 add to inline elements
-addLinkOrImageFrom: aString with: aLinkType
+addReferenceFrom: aString with: aLinkType
 
 	| matcher parserForLinkTypeChildren linkType |
 	self previousChar: aString last.

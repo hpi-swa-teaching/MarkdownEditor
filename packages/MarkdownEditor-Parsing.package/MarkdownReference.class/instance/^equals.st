@@ -1,5 +1,4 @@
 comparing
 = aContainerBlock
 
-	^ (super = aContainerBlock) 
-		and: self path = aContainerBlock path
+	^ self path = aContainerBlock path

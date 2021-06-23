@@ -1,4 +1,4 @@
-parsing
+helper
 handle: aDelimiterRun isNotADelimiterFrom: aRawString
 
 	self addStringFrom: 
