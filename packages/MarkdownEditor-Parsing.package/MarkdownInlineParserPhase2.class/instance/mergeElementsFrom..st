@@ -3,7 +3,7 @@ mergeElementsFrom: aCollection
 
 	| mergedElements lastElement |
 	
-	mergedElements := LinkedList new.	
+	mergedElements := MarkdownLinkedList new.	
 	lastElement := aCollection first.
 	mergedElements add: lastElement.
 	

@@ -2,7 +2,7 @@ clean up
 castRemainingDelimitersFrom: aCollection
 
 	| result |
-	result := LinkedList new.
+	result := MarkdownLinkedList new.
 	aCollection
 		doWithIndex: [:inlineElement :index |
 			(inlineElement class = MarkdownDelimiter)

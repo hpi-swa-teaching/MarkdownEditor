@@ -1,8 +1,8 @@
 initialize
 initialize
 
-	self delimiters: LinkedList new.
-	self inlineElements: LinkedList new.
+	self delimiters: MarkdownLinkedList new.
+	self inlineElements: MarkdownLinkedList new.
 	self previousChar: ' '.
 	self delimiterManager: MarkdownDelimiterManager new.
 	self delimiterManager forAll: MarkdownEmphasis2 put: #processPossibleDelimitersFrom:.
