@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"email" ],
+		"email",
+		"path" ],
 	"name" : "MarkdownAutolink",
 	"pools" : [
 		 ],
-	"super" : "MarkdownReference",
+	"super" : "Object",
 	"type" : "normal" }

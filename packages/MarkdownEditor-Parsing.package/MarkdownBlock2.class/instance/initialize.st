@@ -1,4 +1,4 @@
-initialisation
+initialize-release
 initialize
 
 	self beOpen

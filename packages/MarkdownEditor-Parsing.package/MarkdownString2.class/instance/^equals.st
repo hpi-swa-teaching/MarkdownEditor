@@ -1,4 +1,4 @@
-helpers
+comparing
 = anotherString
 
 	^ (self class = anotherString class)

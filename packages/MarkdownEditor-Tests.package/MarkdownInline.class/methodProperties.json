@@ -57,6 +57,8 @@
 		"testParseLinkWithText" : "jh 6/23/2021 12:00",
 		"testParseLinkWithinLink" : "jh 6/23/2021 12:00",
 		"testParseLinkWithoutText" : "jh 6/23/2021 12:00",
+		"testParseNestedAutolink" : "mf 6/23/2021 16:37",
+		"testParseNestedAutolink2" : "mf 6/23/2021 16:48",
 		"testParseNotAutolink" : "mf 6/23/2021 15:08",
 		"testParsePlainText" : "jh 6/23/2021 12:02",
 		"testParsePlainText2" : "jh 6/23/2021 12:02",

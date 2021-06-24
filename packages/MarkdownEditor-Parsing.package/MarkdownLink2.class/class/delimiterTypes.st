@@ -1,4 +1,4 @@
-accessing
+delimiter matching
 delimiterTypes
 
 	^ CharacterSet newFrom: {$[}

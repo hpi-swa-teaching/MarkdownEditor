@@ -1,4 +1,4 @@
-helper
+helpers - reference
 cleanUpForImage
 
 	self inlineElements last removeLast.

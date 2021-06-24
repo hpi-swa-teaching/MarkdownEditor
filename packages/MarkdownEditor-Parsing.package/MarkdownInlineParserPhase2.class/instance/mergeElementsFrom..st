@@ -2,11 +2,9 @@ clean up
 mergeElementsFrom: aCollection
 
 	| mergedElements lastElement |
-	
 	mergedElements := MarkdownLinkedList new.	
 	lastElement := aCollection first.
 	mergedElements add: lastElement.
-	
 	aCollection
 		allButFirstDo: [:element | 
 			(element class = lastElement class)

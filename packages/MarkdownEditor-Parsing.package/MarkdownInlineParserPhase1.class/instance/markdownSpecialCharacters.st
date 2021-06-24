@@ -1,4 +1,4 @@
-helper
+constants
 markdownSpecialCharacters
 
-	^ CharacterSet newFrom: '*[!~_<'
+	^ CharacterSet newFrom: '*[]!~_<>'

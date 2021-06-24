@@ -1,6 +1,6 @@
-helper
+helpers - autolink
 isAutolinkEmailFrom: aRawString
 
-	(aRawString matchesRegex: '\S+@\S+')
+	(aRawString matchesRegex: self emailRegex)
 		ifTrue: [^ true]
 		ifFalse: [^ false]

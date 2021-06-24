@@ -1,7 +1,7 @@
 add to inline elements
-addAutolinkType: aSymbol from: aRawString
+addAutolinkType: aSymbol from: aPath
 
 	| autolink |
-	autolink := MarkdownAutolink newFrom: aSymbol and: aRawString.
+	autolink := MarkdownAutolink newWith: aSymbol and: aPath.
 	self inlineElements add: autolink.
 	self previousChar: $>

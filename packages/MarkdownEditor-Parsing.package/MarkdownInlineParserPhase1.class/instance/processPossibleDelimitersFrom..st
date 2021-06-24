@@ -3,7 +3,7 @@ processPossibleDelimitersFrom: aRawString
 
 	| delimiterType paddedDelimiterRun |
 	delimiterType := aRawString first.
-	paddedDelimiterRun := self onePaddedDelimiterRunFrom: aRawString with: delimiterType.
+	paddedDelimiterRun := self createPaddedDelimiterRunFrom: aRawString with: delimiterType.
 	(paddedDelimiterRun matchesRegex: '\s.*\s')
 		ifTrue: [^ self handle: paddedDelimiterRun isNotADelimiterFrom: aRawString].
 	(self doesPunctuationRuleApplyFor: paddedDelimiterRun with: delimiterType)

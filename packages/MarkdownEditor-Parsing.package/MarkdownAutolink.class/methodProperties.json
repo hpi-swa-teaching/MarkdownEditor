@@ -1,12 +1,11 @@
 {
 	"class" : {
-		"newFrom:" : "mf 6/23/2021 15:00",
-		"newFrom:and:" : "mf 6/23/2021 15:01" },
+		"delimiterTypes" : "mf 6/23/2021 15:59",
+		"newWith:and:" : "mf 6/24/2021 09:49" },
 	"instance" : {
+		"=" : "mf 6/23/2021 18:50",
 		"beEmail" : "jh 6/23/2021 12:20",
 		"beNotEmail" : "jh 6/23/2021 12:20",
-		"children" : "jh 6/23/2021 12:13",
-		"children:" : "jh 6/23/2021 12:14",
-		"delimiterTypes" : "jh 6/23/2021 12:12",
 		"initialize" : "jh 6/23/2021 12:22",
-		"isEmail" : "jh 6/23/2021 12:19" } }
+		"path" : "mf 6/23/2021 18:49",
+		"path:" : "mf 6/23/2021 18:50" } }

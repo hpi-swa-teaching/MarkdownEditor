@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"delimiterTypes" : "mf 6/23/2021 16:00",
+		"newFrom:" : "mf 6/23/2021 16:04" },
 	"instance" : {
 		"=" : "mf 6/23/2021 15:10",
-		"delimiterTypes" : "jh 6/22/2021 17:49",
 		"path" : "mf 6/22/2021 15:38",
 		"path:" : "mf 6/22/2021 15:38" } }

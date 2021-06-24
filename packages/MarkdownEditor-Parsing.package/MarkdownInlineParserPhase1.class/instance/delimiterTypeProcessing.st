@@ -1,4 +1,4 @@
-helper
+constants
 delimiterTypeProcessing
 
 	^ Dictionary newFrom: {

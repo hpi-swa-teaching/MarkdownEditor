@@ -1,15 +1,9 @@
 parsing
 processAutolinksFrom: aRawString
 
-	| possibleLink possibleLinkRange |
-	possibleLinkRange := (aRawString allRangesOfRegexMatches: '<[^<>]*>') first.
-	possibleLink := aRawString copyFrom: possibleLinkRange start + 1 to: possibleLinkRange stop - 1.
-	possibleLinkRange start = 1 
-		ifTrue: [(self isAutolinkURIFrom: possibleLink)
-					ifTrue: [self addAutolinkType: #beNotEmail from: possibleLink.
-							^ aRawString copyFrom: possibleLinkRange stop + 1 to: aRawString size].
-				(self isAutolinkEmailFrom: possibleLink)
-					ifTrue: [self addAutolinkType: #beEmail from: possibleLink.
-							^ aRawString copyFrom: possibleLinkRange stop + 1 to: aRawString size].
-				^ self processStringFrom: aRawString]
+	| possiblePath possiblePathRange |
+	possiblePathRange := (aRawString allRangesOfRegexMatches: '<[^<>]*>') first.
+	possiblePath := aRawString copyFrom: possiblePathRange start + 1 to: possiblePathRange stop - 1.
+	(self notIncludesAutolinkOpeners: possiblePathRange)
+		ifTrue: [^ self decideAutolinkTextMatchesFrom: aRawString with: possiblePath and: possiblePathRange]
 		ifFalse: [^ self processStringFrom: aRawString]
