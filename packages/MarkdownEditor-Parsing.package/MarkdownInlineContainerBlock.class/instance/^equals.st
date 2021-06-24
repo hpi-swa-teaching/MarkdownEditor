@@ -2,6 +2,8 @@ comparing
 = aContainerBlock
 
 	| size |
+	self class = aContainerBlock class
+		ifFalse: [^ false].
 	(size := self children size) = aContainerBlock children size
 		ifFalse: [^ false].
 	1 to: size do:

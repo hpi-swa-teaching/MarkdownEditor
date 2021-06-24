@@ -1,7 +1,7 @@
 initialize-release
 initialize
 
-	potentialCloser := false.
-	potentialOpener := false.
-	valid := false.
-	originalOpenerAndCloser := false
+	self beNotPotentialCloser.
+	self beNotPotentialOpener.
+	self beInvalid.
+	self beNotOriginalOpenerAndCloser

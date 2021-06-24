@@ -1,9 +1,9 @@
 helpers - emphasis
 doesPunctuationRuleApplyFor: aPaddedDelimiterRun with: aType
 
-	(((aPaddedDelimiterRun first asString matchesRegex: '[^\s', self punctuationCharacterRegex,']') 
+	(((aPaddedDelimiterRun first asString matchesRegex: self noPunctuationOrWhiteSpaceRegex) 
 		and: [self punctuationCharsInclude: aPaddedDelimiterRun last])
-	or: [(aPaddedDelimiterRun last asString matchesRegex: '[^\s', self punctuationCharacterRegex,']') 
+	or: [(aPaddedDelimiterRun last asString matchesRegex: self noPunctuationOrWhiteSpaceRegex) 
 		and: [self punctuationCharsInclude: aPaddedDelimiterRun first]])
-		ifTrue: [^ true]
-		ifFalse: [^ false]
+			ifTrue: [^ true]
+			ifFalse: [^ false]

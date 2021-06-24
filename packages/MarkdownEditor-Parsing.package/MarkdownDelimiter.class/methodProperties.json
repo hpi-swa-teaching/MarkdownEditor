@@ -2,9 +2,12 @@
 	"class" : {
 		"newFrom:" : "jh 6/12/2021 12:58" },
 	"instance" : {
-		"=" : "jh 6/23/2021 11:51",
+		"=" : "jh 6/24/2021 12:47",
 		"asMarkdownString" : "jh 6/12/2021 14:16",
+		"beInvalid" : "jh 6/24/2021 14:51",
+		"beNotOriginalOpenerAndCloser" : "jh 6/24/2021 14:52",
 		"beNotPotentialCloser" : "jh 6/12/2021 18:08",
+		"beNotPotentialOpener" : "jh 6/24/2021 14:51",
 		"beOriginalOpenerAndCloser" : "mf 6/19/2021 13:18",
 		"bePotentialCloser" : "mf 6/10/2021 14:35",
 		"bePotentialOpener" : "jh 6/11/2021 07:30",
@@ -12,7 +15,7 @@
 		"count" : "jh 6/9/2021 16:07",
 		"count:" : "mf 6/10/2021 12:42",
 		"decreaseCountBy:" : "jh 6/11/2021 16:50",
-		"initialize" : "mf 6/19/2021 13:22",
+		"initialize" : "jh 6/24/2021 14:52",
 		"inlineIndex" : "mf 6/19/2021 13:18",
 		"inlineIndex:" : "mf 6/19/2021 13:19",
 		"isOriginalOpenerAndCloser" : "mf 6/19/2021 13:21",

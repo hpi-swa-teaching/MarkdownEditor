@@ -3,9 +3,12 @@ process: aBalancedBracketCollection for: aReferenceType from: aRawString
 
 	aBalancedBracketCollection do:
 		[:bracketPair | | enclosedLink |
-		enclosedLink := ((aRawString copyFrom: (bracketPair y + 1) to: aRawString size) allRangesOfRegexMatches: '^\([ \t]*[^\)\s]*[ \t]*\)').
+		enclosedLink := self findEnclosedLinkFrom: aRawString and: bracketPair.
 		enclosedLink
-			ifNotEmpty: [bracketPair x = 1
-				ifTrue: [^ self findCloserIndexFrom: aRawString with: bracketPair and: enclosedLink andAddWith: aReferenceType]
+			ifNotEmpty: [(self isOpenBracketAtOneFrom: bracketPair)
+				ifTrue: [ | endLinkIndex |
+						endLinkIndex := self findCloserIndexFrom: enclosedLink and: bracketPair.
+						self addReferenceFrom: (aRawString copyFrom: bracketPair x to: endLinkIndex) with: aReferenceType.
+						^ aRawString copyFrom: endLinkIndex + 1 to: aRawString size]
 				ifFalse: [^ self processStringFrom: aRawString]]].
 	^ self processStringFrom: aRawString

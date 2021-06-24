@@ -1,5 +1,5 @@
 helpers - emphasis
-punctuationCharacterRegex
+punctuationCharactersAsRegex
 
 	| stream |
 	stream := String new writeStream.

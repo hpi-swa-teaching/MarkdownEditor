@@ -8,5 +8,7 @@ processPossibleDelimitersFrom: aRawString
 		ifTrue: [^ self handle: paddedDelimiterRun isNotADelimiterFrom: aRawString].
 	(self doesPunctuationRuleApplyFor: paddedDelimiterRun with: delimiterType)
 		ifTrue: [self handlePunctuationRuleFrom: paddedDelimiterRun]
-    		ifFalse:[	self addDelimiterFrom: paddedDelimiterRun].
+    		ifFalse:[(self doesAlternativeEmphasisRuleApplyFor: paddedDelimiterRun with: delimiterType)
+				ifTrue: [^ self processStringFrom: aRawString].
+				self addDelimiterFrom: paddedDelimiterRun].
       ^ aRawString copyFrom: paddedDelimiterRun size - 1 to: aRawString size

@@ -6,6 +6,7 @@ testParseAutolink3
 	
 	link := MarkdownAutolink new.
 	link path: 'squeak@hpi.de'.
+	link beEmail.
 	expectedOutput := MarkdownLinkedList newFrom: {link}.
 	
 	self assert: expectedOutput equals: output

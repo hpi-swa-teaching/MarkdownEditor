@@ -4,6 +4,6 @@ processStringFrom: aRawString
 	aRawString doWithIndex: 
 		[:char :index | (index = 1)
 			ifFalse: [(self markdownSpecialCharacters includes: char)
-						ifTrue: [^ self processDelimitersAsStringFrom: aRawString with: index]]].	
+						ifTrue: [^ self processUpToSpecialCharacterAt: index with: aRawString]]].	
 	self addStringFrom: aRawString.
 	^ ''

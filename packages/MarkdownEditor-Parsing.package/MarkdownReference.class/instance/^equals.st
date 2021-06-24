@@ -1,4 +1,5 @@
 comparing
-= aContainerBlock
+= anotherReference
 
-	^ self path = aContainerBlock path
+	^ super = anotherReference
+		and: [self path = anotherReference path]

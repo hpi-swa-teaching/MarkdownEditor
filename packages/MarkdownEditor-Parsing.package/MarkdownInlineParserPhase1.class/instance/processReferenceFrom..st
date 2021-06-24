@@ -5,6 +5,6 @@ processReferenceFrom: aRawString
 	
 	referenceType := self decideReferenceType.
 	balancedBracketCollection := self calculateBalancedBracketCollectionFrom: aRawString.
-	(balancedBracketCollection isEmpty or: [(balancedBracketCollection last x = 1) not])
+	(balancedBracketCollection isEmpty or: [(self isOpenBracketAtOneFrom: balancedBracketCollection last) not])
 		ifTrue: [^ self processStringFrom: aRawString].
 	^ self process: balancedBracketCollection for: referenceType from: aRawString

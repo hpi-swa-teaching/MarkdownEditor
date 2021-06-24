@@ -1,4 +1,4 @@
 delimiter matching
-imageChar
+imageCharacter
 
-	^ '!'
+	^ $!

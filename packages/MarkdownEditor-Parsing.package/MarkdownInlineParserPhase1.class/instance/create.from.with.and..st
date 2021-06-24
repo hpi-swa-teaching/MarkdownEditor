@@ -3,5 +3,6 @@ create: aBalancedBracketCollection from: anOpenBracketStack with: aChar and: anI
 
 	aChar caseOf: {
 		[$[] -> [anOpenBracketStack push: anIndex].
-		[$]] -> [self if: anOpenBracketStack notEmptyAddTo: aBalancedBracketCollection popAt: anIndex]}
+		[$]] -> [anOpenBracketStack 
+					isEmpty ifFalse: [aBalancedBracketCollection add: anOpenBracketStack pop @ anIndex]]}
 		otherwise: []
