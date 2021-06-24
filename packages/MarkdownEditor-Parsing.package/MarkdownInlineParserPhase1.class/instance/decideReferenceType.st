@@ -1,6 +1,6 @@
 helpers - reference
 decideReferenceType
 
-	self previousChar = '!'
+	self previousChar = MarkdownImage imageChar
 		ifTrue: [^ MarkdownImage]
 		ifFalse: [^ MarkdownLink2]

@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"URIRegex" : "mf 6/24/2021 12:00",
 		"delimiterTypes" : "mf 6/23/2021 15:59",
+		"emailRegex" : "mf 6/24/2021 12:02",
 		"newWith:and:" : "mf 6/24/2021 09:49" },
 	"instance" : {
 		"=" : "mf 6/23/2021 18:50",

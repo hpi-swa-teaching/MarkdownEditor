@@ -9,8 +9,7 @@
 		"delimiters",
 		"inlineElements",
 		"currentOpener",
-		"currentCloser",
-		"delimiterManager" ],
+		"currentCloser" ],
 	"name" : "MarkdownInlineParserPhase2",
 	"pools" : [
 		 ],

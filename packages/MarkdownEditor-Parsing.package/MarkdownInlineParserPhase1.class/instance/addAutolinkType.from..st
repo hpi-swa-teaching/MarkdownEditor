@@ -4,4 +4,4 @@ addAutolinkType: aSymbol from: aPath
 	| autolink |
 	autolink := MarkdownAutolink newWith: aSymbol and: aPath.
 	self inlineElements add: autolink.
-	self previousChar: $>
+	self previousChar: MarkdownAutolink delimiterTypes

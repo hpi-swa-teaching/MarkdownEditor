@@ -1,11 +1,6 @@
 parse
 handleNoOpeningDelimiter
 
-	"self delimiters:
-		(LinkedList newFrom:
-			(self delimiters
-				copyFrom: (self delimiters indexOf: self currentCloser)
-				to: self delimiters size))."
 	self currentCloser beNotPotentialCloser.       
     	self currentCloser isPotentialOpener
       	ifFalse: [self delimiters remove: self currentCloser].
