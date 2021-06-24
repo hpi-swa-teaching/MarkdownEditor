@@ -1,12 +1,11 @@
 clean up
 castRemainingDelimitersFrom: aCollection
 
-	| result |
-	result := LinkedList new.
-	aCollection 
-		doWithIndex: [:inlineElement :index | 
+	| list |
+	list := MarkdownLinkedList new.
+	aCollection
+		doWithIndex: [:inlineElement :index |
 			(inlineElement class = MarkdownDelimiter)
-				ifTrue: [(inlineElement count = 0)
-							ifFalse: [result add: inlineElement asMarkdownString]]
-				ifFalse: [result add: inlineElement]].
-	^ result
+  				ifTrue: [self removeDelimiterAndAdd: inlineElement to: list]
+				ifFalse: [list add: inlineElement]].
+	^ list

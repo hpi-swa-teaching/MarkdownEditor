@@ -1,17 +1,14 @@
 parsing
-processPossibleDelimitersFrom: aRawString 
+processPossibleDelimitersFrom: aRawString
 
-	| currentDelimiter noDelimiter |
-	
-	(self previousChar matchesRegex: '\s')
-		ifTrue: [(aRawString matchesRegex: '^(\**\s).*')
-				ifTrue: [noDelimiter := aRawString allRegexMatches: '^\**\s'.
-						self addStringFrom: noDelimiter first.
-						((noDelimiter first size + 1) > (aRawString size - 1))
-							ifTrue: [^ ''].
-						^ aRawString copyFrom: noDelimiter first size + 1 to: aRawString size - 1]].
-	
-	currentDelimiter := aRawString allRegexMatches: '^\**.'.
-	self addDelimiterFrom: self previousChar, currentDelimiter first.
-		
-	^ aRawString copyFrom: currentDelimiter first size to: aRawString size - 1
+	| delimiterType paddedDelimiterRun |
+	delimiterType := aRawString first.
+	paddedDelimiterRun := self createPaddedDelimiterRunFrom: aRawString with: delimiterType.
+	(paddedDelimiterRun matchesRegex: '\s.*\s')
+		ifTrue: [^ self handle: paddedDelimiterRun isNotADelimiterFrom: aRawString].
+	(self doesPunctuationRuleApplyFor: paddedDelimiterRun with: delimiterType)
+		ifTrue: [self handlePunctuationRuleFrom: paddedDelimiterRun]
+    		ifFalse:[(self doesAlternativeEmphasisRuleApplyFor: paddedDelimiterRun with: delimiterType)
+				ifTrue: [^ self processStringFrom: aRawString].
+				self addDelimiterFrom: paddedDelimiterRun].
+      ^ aRawString copyFrom: paddedDelimiterRun size - 1 to: aRawString size

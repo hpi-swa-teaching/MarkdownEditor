@@ -1,6 +1,6 @@
-parsing
+initialize-release
 initialize
 
-	self delimiters: LinkedList new.
-	self inlineElements: LinkedList new.
+	self delimiters: MarkdownLinkedList new.
+	self inlineElements: MarkdownLinkedList new.
 	self previousChar: ' '

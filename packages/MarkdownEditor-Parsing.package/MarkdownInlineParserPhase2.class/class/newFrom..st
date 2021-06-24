@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFrom: aFirstPhaseInlineParser
 
 	^ self new

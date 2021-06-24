@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"path" ],
+		 ],
 	"name" : "MarkdownImage",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineContainterBlock",
+	"super" : "MarkdownReference",
 	"type" : "normal" }

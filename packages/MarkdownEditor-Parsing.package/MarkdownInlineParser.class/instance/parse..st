@@ -1,10 +1,9 @@
 parsing - inline
 parse: aRawString
 
-	firstPhase := MarkdownInlineParserPhase1 new.
-	firstPhase parse: aRawString.
+	self firstPhase: MarkdownInlineParserPhase1 new.
+	self firstPhase parse: aRawString.
+	self secondPhase: (MarkdownInlineParserPhase2 newFrom: firstPhase).
+	self secondPhase parse.
 	
-	secondPhase := MarkdownInlineParserPhase2 newFrom: firstPhase.
-	secondPhase parse.
-	
-	^ secondPhase inlineElements
+	^ self secondPhase inlineElements

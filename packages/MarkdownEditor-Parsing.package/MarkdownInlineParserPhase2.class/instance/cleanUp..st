@@ -2,6 +2,6 @@ clean up
 cleanUp: aCollection
 
 	| result |
-	result := LinkedList new.
+	result := MarkdownLinkedList new.
 	result := self castRemainingDelimitersFrom: aCollection.
 	^ self mergeElementsFrom: result

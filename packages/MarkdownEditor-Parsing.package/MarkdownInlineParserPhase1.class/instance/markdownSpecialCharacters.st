@@ -1,4 +1,4 @@
-helper
+constants
 markdownSpecialCharacters
 
-	^ CharacterSet newFrom: '*[!'
+	^ CharacterSet newFrom: self delimiterTypeProcessing keys

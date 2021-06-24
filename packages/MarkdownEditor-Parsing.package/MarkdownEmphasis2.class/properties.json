@@ -10,5 +10,5 @@
 	"name" : "MarkdownEmphasis2",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineContainterBlock",
+	"super" : "MarkdownInlineContainerBlock",
 	"type" : "normal" }

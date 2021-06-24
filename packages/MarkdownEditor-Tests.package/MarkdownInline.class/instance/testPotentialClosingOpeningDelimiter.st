@@ -1,4 +1,4 @@
-test - delimiters
+tests - delimiters
 testPotentialClosingOpeningDelimiter
 
 	| output expectedOutput |
@@ -8,4 +8,5 @@ testPotentialClosingOpeningDelimiter
 		type: $*;
 		bePotentialOpener;
 		bePotentialCloser.
+
 	self assert: expectedOutput equals: output

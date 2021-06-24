@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"URIRegex" : "mf 6/24/2021 12:00",
+		"closeCharacter" : "jh 6/24/2021 13:45",
+		"delimiterTypes" : "mf 6/23/2021 15:59",
+		"emailRegex" : "mf 6/24/2021 12:02",
+		"newWith:and:" : "mf 6/24/2021 09:49" },
+	"instance" : {
+		"=" : "jh 6/24/2021 13:42",
+		"beEmail" : "jh 6/23/2021 12:20",
+		"beNotEmail" : "jh 6/23/2021 12:20",
+		"initialize" : "jh 6/23/2021 12:22",
+		"isEmail" : "jh 6/24/2021 12:44",
+		"path" : "mf 6/23/2021 18:49",
+		"path:" : "mf 6/23/2021 18:50" } }
