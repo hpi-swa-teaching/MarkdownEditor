@@ -1,9 +1,20 @@
-tests
+new html parser
 testConvertBlockquote
 
-	| blockquote html |
-	
-	blockquote :=self createBlockFrom: '> Alea Iacta Est'.
-	html := htmlConverter convertBlockquote: blockquote.
-	
-	self assert: (('<blockquote>', Character cr, ' Alea Iacta Est</blockquote>', Character cr) = html).
+	| output |
+	parser parse: '> hello', Character cr, '> this is a', Character cr,'> blockquote test'.
+	output :=  (htmlConverter convertToHtml: parser document).
+	self assert:   
+'<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<blockquote>
+<p>hello
+this is a
+blockquote test</p>
+</blockquote>
+</body>
+</html>'
+		equals: output.

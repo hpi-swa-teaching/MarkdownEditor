@@ -1,9 +1,16 @@
-tests
+new html parser
 testConvertLink
 
-	| link |
-	
-	link := MarkdownLink new content: 'Klick hier'.
-	link url: 'example.com'.
-	
-	self assert: (MarkdownHtmlConverter new convertLink: link) = '<a href="example.com">Klick hier</a>'
+	| output |
+	parser parse: '[test](https://hpi.de)'.
+	output :=  (htmlConverter convertToHtml: parser document).
+	self assert:   
+'<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p><a href="https://hpi.de">test</a></p>
+</body>
+</html>'
+		equals: output.

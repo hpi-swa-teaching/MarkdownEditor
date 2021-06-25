@@ -1,6 +1,6 @@
 parsing
 parse: aString
-	Transcript clear. 
+	"Transcript clear." 
 	self document: MarkdownDocument new.
 	self basicLastMatchedBlock: self document.
 	aString
@@ -11,4 +11,4 @@ parse: aString
 						(aString copyFrom: start to: endWithoutDelimiters)
 								startingAt: self document))].
 	self startInlineParsing.
-	Transcript show: self document asString.
+	"Transcript show: self document asString."

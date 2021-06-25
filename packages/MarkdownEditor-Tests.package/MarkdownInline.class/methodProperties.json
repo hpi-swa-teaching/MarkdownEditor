@@ -50,6 +50,7 @@
 		"testParseEmphStrongWithLineBreaks" : "jh 6/23/2021 12:02",
 		"testParseImage" : "jh 6/23/2021 12:02",
 		"testParseImage2" : "jh 6/24/2021 14:22",
+		"testParseImage3" : "jh 6/25/2021 11:43",
 		"testParseLink" : "jh 6/23/2021 12:01",
 		"testParseLinkWithEmphasis" : "jh 6/23/2021 12:01",
 		"testParseLinkWithLineBreak" : "jh 6/23/2021 12:01",
