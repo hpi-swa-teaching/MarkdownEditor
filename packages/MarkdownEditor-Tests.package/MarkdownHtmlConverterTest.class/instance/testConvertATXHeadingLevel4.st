@@ -1,16 +1,9 @@
 new html parser
 testConvertATXHeadingLevel4
 
-	| output |
+	| output expectedOutput |
 	parser parse: '#### Heading 4'.
 	output :=  (htmlConverter convertToHtml: parser document).
-	self assert:   
-'<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<h4>Heading 4</h4>
-</body>
-</html>'
-		equals: output.
+	expectedOutput := self fullHtmlDocumentFrom: '<h4>Heading 4</h4>'.
+	
+	self assert: expectedOutput equals: output

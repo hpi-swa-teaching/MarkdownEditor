@@ -1,4 +1,4 @@
-newhtml 
+new html converter
 convertToHtml: aMarkdownDocument
 
 	^ String streamContents: [:htmlStream | 

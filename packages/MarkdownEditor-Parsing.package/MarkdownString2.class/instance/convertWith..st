@@ -1,4 +1,4 @@
-as yet unclassified
+html
 convertWith: anHtmlConverter
 
 	^ anHtmlConverter convertMarkdownStringWith: self

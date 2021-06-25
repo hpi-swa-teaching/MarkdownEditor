@@ -1,16 +1,9 @@
 new html parser
 testConvertBoldText
 
-	| output |
+	| output expectedOutput |
 	parser parse: '**hello**'.
 	output :=  (htmlConverter convertToHtml: parser document).
-	self assert:   
-'<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<p><strong>hello</strong></p>
-</body>
-</html>'
-		equals: output.
+	expectedOutput := self fullHtmlDocumentFrom: '<p><strong>hello</strong></p>'.
+	
+	self assert: expectedOutput equals: output

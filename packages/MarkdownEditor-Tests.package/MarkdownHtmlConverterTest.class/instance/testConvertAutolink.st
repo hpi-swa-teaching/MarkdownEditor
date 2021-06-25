@@ -1,16 +1,9 @@
 new html parser
 testConvertAutolink
 
-	| output |
+	| output expectedOutput |
 	parser parse: '<https://hpi.de>'.
 	output :=  (htmlConverter convertToHtml: parser document).
-	self assert:   
-'<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<p><a href="https://hpi.de">https://hpi.de</a></p>
-</body>
-</html>'
-		equals: output.
+	expectedOutput := self fullHtmlDocumentFrom: '<p><a href="https://hpi.de">https://hpi.de</a></p>'.
+	
+	self assert: expectedOutput equals: output

@@ -1,16 +1,9 @@
 new html parser
 testConvertItalicText
 
-	| output |
+	| output expectedOutput |
 	parser parse: '*hello*'.
 	output :=  (htmlConverter convertToHtml: parser document).
-	self assert:   
-'<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<p><em>hello</em></p>
-</body>
-</html>'
-		equals: output.
+	expectedOutput := self fullHtmlDocumentFrom: '<p><em>hello</em></p>'.
+	
+	self assert: expectedOutput equals: output
