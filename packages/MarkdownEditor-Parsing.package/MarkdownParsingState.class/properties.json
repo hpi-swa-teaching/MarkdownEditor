@@ -11,7 +11,9 @@
 		"lastMatchedContainer",
 		"currentLine",
 		"tip",
-		"allBlocksClosed" ],
+		"oldTip",
+		"allBlocksClosed",
+		"newBlock" ],
 	"name" : "MarkdownParsingState",
 	"pools" : [
 		 ],
