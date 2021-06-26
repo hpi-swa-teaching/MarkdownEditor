@@ -8,7 +8,8 @@ testConvertBlockquote
 '<blockquote>
 <p>hello
 this is a
-blockquote test</p>'.
+blockquote test</p>
+</blockquote>'.
 	expectedOutput := self fullHtmlDocumentFrom: blockquoteHtml.
 	
 	self assert: expectedOutput equals: output

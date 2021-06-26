@@ -1,4 +1,4 @@
-as yet unclassified
+html
 htmlOpeningTag
 	
 	^ '<strong>'
