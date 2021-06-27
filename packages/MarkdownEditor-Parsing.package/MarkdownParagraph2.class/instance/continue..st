@@ -1,5 +1,5 @@
 applying
-remainsOpenIn: aString
+continue: aString
 	
 	^ nil
 	"| matcher |

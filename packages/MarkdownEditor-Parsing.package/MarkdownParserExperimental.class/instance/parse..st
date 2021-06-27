@@ -7,4 +7,6 @@ parse: aString
 		lastMatchedContainer: self state document.
 		
 	aString lineIndicesDo: [:start :endWithoutDelimiters :end |
-		self parse: (aString copyFrom: start to: end)]
+		self parseLine: (aString copyFrom: start to: end)].
+	
+	[self finalize: self tip] whileTrue: [self tip notNil]

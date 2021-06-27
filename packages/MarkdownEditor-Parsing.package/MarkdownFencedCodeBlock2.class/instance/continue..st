@@ -1,5 +1,5 @@
 applying
-remainsOpenIn: aString
+continue: aString
 	
 	
 	(aString matchesRegex: '\s{0,3}', self openingFence, self openingFence first, '*')

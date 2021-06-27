@@ -9,7 +9,8 @@
 		"isOrdered",
 		"isLoose",
 		"listMarker",
-		"startNumber" ],
+		"startNumber",
+		"indent" ],
 	"name" : "MarkdownList2",
 	"pools" : [
 		 ],
