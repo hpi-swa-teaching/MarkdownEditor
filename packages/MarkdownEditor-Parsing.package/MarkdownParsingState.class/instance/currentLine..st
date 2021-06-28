@@ -1,3 +1,4 @@
 accessing
-currentLine: anObject
-	currentLine := anObject
+currentLine: aString
+	
+	currentLine := aString

@@ -2,6 +2,7 @@ parsing
 parse: aString
 	
 	self state 
+		charPos: 1;
 		document: MarkdownDocument new;
 		tip: self state document;
 		lastMatchedContainer: self state document.

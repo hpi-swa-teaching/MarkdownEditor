@@ -13,7 +13,8 @@
 		"tip",
 		"oldTip",
 		"allBlocksClosed",
-		"newBlock" ],
+		"newBlock",
+		"charPos" ],
 	"name" : "MarkdownParsingState",
 	"pools" : [
 		 ],
