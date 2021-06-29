@@ -1,4 +1,4 @@
 html
 convertWith: anHtmlConverter
 
-	^ anHtmlConverter convertMarkdownStringWith: self
+	^ self content

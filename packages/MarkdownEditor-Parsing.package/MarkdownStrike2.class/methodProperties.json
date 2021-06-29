@@ -4,5 +4,7 @@
 		"matchesWith:and:" : "mf 6/23/2021 15:45",
 		"requiredCount" : "mf 6/23/2021 15:46" },
 	"instance" : {
+		"completeTextElementFrom:" : "jh 6/29/2021 16:25",
 		"htmlClosingTag" : "jh 6/25/2021 09:10",
-		"htmlOpeningTag" : "jh 6/25/2021 09:10" } }
+		"htmlOpeningTag" : "jh 6/25/2021 09:10",
+		"textEmphasis" : "jh 6/29/2021 16:30" } }

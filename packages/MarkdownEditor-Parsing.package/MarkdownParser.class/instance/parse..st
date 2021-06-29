@@ -12,3 +12,4 @@ parse: aString
 								startingAt: self document))].
 	self startInlineParsing.
 	"Transcript show: self document asString."
+	^ self document

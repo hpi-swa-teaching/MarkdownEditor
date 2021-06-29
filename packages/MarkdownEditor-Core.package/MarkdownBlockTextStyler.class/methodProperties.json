@@ -2,13 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildAttributeRunsFrom:" : "jst 6/28/2019 14:06",
+		"buildAttributeRunsFrom:" : "jh 6/28/2021 21:43",
 		"buildBlockStructureFrom:" : "jst 7/4/2019 19:20",
 		"createLines:" : "azi 6/1/2020 15:40",
+		"document" : "jh 6/29/2021 15:35",
+		"document:" : "jh 6/29/2021 15:35",
+		"handleWhiteSpacesWith:and:" : "jh 6/29/2021 15:42",
 		"initialize" : "MAS 6/1/2020 17:49",
 		"parse:" : "jko 6/21/2019 14:20",
 		"privateFormat:" : "jst 6/28/2019 14:02",
-		"privateStyle:" : "LL 6/10/2021 16:05",
+		"privateStyle:" : "jh 6/29/2021 17:00",
 		"reset" : "jst 6/28/2019 14:03",
+		"styleContainerBlockWith:" : "jh 6/29/2021 16:52",
+		"styleDocumentWith:" : "jh 6/29/2021 16:04",
+		"styleInlineContainerWith:" : "jh 6/29/2021 16:52",
+		"styleLeafBlockWith:" : "jh 6/29/2021 16:58",
 		"styleSettings" : "cg 7/5/2020 12:19",
 		"styleSettings:" : "jh 5/18/2021 13:30" } }

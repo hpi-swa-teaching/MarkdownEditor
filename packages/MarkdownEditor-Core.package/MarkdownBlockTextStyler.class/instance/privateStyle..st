@@ -1,7 +1,9 @@
-styling
+as yet unclassified
 privateStyle: aText
 
-	| blocks |
-	blocks := self parse: aText asString.
-	aText runs: (self buildAttributeRunsFrom: blocks).
-	MarkdownParser new parse: aText asString.
+	| text |
+	self document: (MarkdownParser new parse: aText string).
+	text := self styleDocumentWith: self document.
+	(aText runs size = text runs size) not
+		ifTrue: [text := self handleWhiteSpacesWith: aText and: text.	self halt.].
+	aText runs: text runs

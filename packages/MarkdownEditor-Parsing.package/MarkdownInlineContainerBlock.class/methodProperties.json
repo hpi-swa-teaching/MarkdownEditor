@@ -3,10 +3,13 @@
 		 },
 	"instance" : {
 		"=" : "jh 6/24/2021 12:50",
+		"applyStylingWith:" : "jh 6/29/2021 16:22",
 		"children" : "jh 6/8/2021 15:51",
 		"children:" : "mf 6/22/2021 13:22",
+		"completeTextElementFrom:" : "jh 6/29/2021 16:32",
 		"convertWith:" : "jh 6/25/2021 09:08",
 		"extractString" : "jh 6/25/2021 18:12",
 		"htmlClosingTag" : "jh 6/25/2021 18:00",
 		"htmlOpeningTag" : "jh 6/25/2021 17:59",
-		"initialize" : "jh 6/23/2021 12:22" } }
+		"initialize" : "jh 6/23/2021 12:22",
+		"textEmphasis" : "jh 6/29/2021 16:30" } }

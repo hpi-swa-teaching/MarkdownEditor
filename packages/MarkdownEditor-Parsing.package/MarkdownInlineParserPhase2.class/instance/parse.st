@@ -1,6 +1,7 @@
 parse
 parse
 
+	self removeInvalidDelimiters.
 	self delimiters
 		ifNotEmpty: [self parseInline].	
 	self inlineElements

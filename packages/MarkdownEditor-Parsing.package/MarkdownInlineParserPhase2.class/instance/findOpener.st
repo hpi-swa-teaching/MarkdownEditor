@@ -6,5 +6,5 @@ findOpener
 	(potentialOpenerPosition = 0)
 		ifTrue: [^ self checkExclusionOfDivisibleByThreeRule].
 	opener := self delimiters at: potentialOpenerPosition.
-	opener inlineIndex: (self inlineIndexOf: opener).
+	opener inlineIndex: (self inlineElements markdownIndexOf: opener).
 	^ opener
