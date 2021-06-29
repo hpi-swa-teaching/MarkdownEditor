@@ -22,7 +22,6 @@
 		"testBlockStructureParagraphInterruptedByHeading" : "jst 6/10/2019 13:30",
 		"testBlockStructureTwoParagraphs" : "jst 6/10/2019 13:33",
 		"testBlockStructureUnclosedCodeBlock" : "jst 6/7/2019 14:42",
-		"testBoldWithChildren" : "jh 6/29/2021 09:13",
 		"testEmptyBlockStructure" : "jst 6/3/2019 18:23",
 		"testEmptyHeading" : "jh 5/29/2021 08:59",
 		"testEmptyHeadingWithFollowingLine" : "jh 5/29/2021 08:59",
@@ -32,4 +31,5 @@
 		"testHeadingWithFollowingLineDoesNotContinueEmphasis" : "jh 5/29/2021 09:00",
 		"testIsReusable" : "6/19/2019 16:09:00",
 		"testParagraphFollowingParagraphDoesNotContinueEmphasis" : "jh 5/29/2021 09:00",
-		"testReturnsUnmodifiedText" : "jh 5/29/2021 09:00" } }
+		"testReturnsUnmodifiedText" : "jh 5/29/2021 09:00",
+		"testWhy1" : "jh 6/29/2021 20:28" } }

@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"newFrom:" : "JE 6/16/2021 13:08" },
+		"newFrom:" : "jh 6/29/2021 22:47" },
 	"instance" : {
 		"applyOnLine:" : "C.H. 6/14/2021 17:20",
+		"applyStylingWith:" : "jh 6/29/2021 22:48",
 		"htmlClosingTag" : "mf 6/26/2021 13:58",
-		"htmlOpeningTag" : "mf 6/26/2021 13:58" } }
+		"htmlOpeningTag" : "mf 6/26/2021 13:58",
+		"indentation" : "jh 6/29/2021 22:46",
+		"indentation:" : "jh 6/29/2021 22:46" } }

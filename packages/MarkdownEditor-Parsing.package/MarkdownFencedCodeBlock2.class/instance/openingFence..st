@@ -1,4 +1,4 @@
 accessing
-openingFence: aCharacter
+openingFence: aString
 
-	openingFence := aCharacter
+	openingFence := aString

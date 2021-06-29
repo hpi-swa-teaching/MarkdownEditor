@@ -3,5 +3,8 @@
 		"newFrom:" : "LL 6/7/2021 18:15" },
 	"instance" : {
 		"applyOnLine:" : "JE 6/16/2021 13:13",
+		"completeTextElementFrom:" : "jh 6/29/2021 20:21",
+		"fontSize" : "jh 6/29/2021 20:17",
 		"htmlClosingTag" : "jh 6/25/2021 17:52",
-		"htmlOpeningTag" : "jh 6/25/2021 12:11" } }
+		"htmlOpeningTag" : "jh 6/25/2021 12:11",
+		"textColor" : "jh 6/29/2021 20:19" } }

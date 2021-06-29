@@ -1,4 +1,4 @@
 as yet unclassified
 applyStylingWith: aMarkdownStyler
 
-	^ aMarkdownStyler applyStylingWith: self
+	^ aMarkdownStyler styleContainerBlockWith: self

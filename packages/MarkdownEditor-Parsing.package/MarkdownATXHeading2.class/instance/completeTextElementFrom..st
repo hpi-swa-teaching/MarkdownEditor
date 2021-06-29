@@ -1,7 +1,6 @@
 styling
 completeTextElementFrom: aText
 
-	
 	| prefixText |
 	prefixText := ''.
 	self level timesRepeat: [prefixText := prefixText, '#'].

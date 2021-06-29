@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"openingFence",
+		"closingFence",
 		"indention",
-		"info" ],
+		"info",
+		"openingFence" ],
 	"name" : "MarkdownFencedCodeBlock2",
 	"pools" : [
 		 ],
