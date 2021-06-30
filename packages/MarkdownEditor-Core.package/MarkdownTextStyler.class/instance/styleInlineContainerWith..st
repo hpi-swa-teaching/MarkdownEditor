@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 styleInlineContainerWith: aMarkdownInlineContainer
 
 	| text |

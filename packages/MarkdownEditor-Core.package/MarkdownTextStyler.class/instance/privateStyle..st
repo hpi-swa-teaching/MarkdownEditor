@@ -1,9 +1,9 @@
-as yet unclassified
+styling
 privateStyle: aText
 
 	| text |
 	self document: (MarkdownParser new parse: aText string).
 	text := self styleDocumentWith: self document.
-	aText = text
-		ifFalse: [text := self handleWhiteSpacesWith: aText and: text. self halt].
+	aText size = text size
+		ifFalse: [text := self handleWhiteSpacesWith: aText and: text].
 	aText runs: text runs

@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"assert:isParsedStructureOf:" : "jko 6/22/2019 17:37",
-		"setUp" : "jko 6/22/2019 17:37",
+		"setUp" : "jh 6/30/2021 09:14",
 		"testBlockStructureCodeBlock" : "jst 6/7/2019 14:47",
 		"testBlockStructureCodeBlockFollowedByParagraph" : "jst 6/10/2019 11:31",
 		"testBlockStructureCodeBlockNotInterruptedByCommentBlock" : "jko 6/29/2019 00:01",
@@ -25,6 +25,8 @@
 		"testEmptyBlockStructure" : "jst 6/3/2019 18:23",
 		"testEmptyHeading" : "jh 5/29/2021 08:59",
 		"testEmptyHeadingWithFollowingLine" : "jh 5/29/2021 08:59",
+		"testHandleWhiteSpaces" : "jh 6/30/2021 07:59",
+		"testHandleWhiteSpaces2" : "jh 6/30/2021 08:58",
 		"testHeadingFollowedByParagraphWithInlineEmphasis" : "jh 5/29/2021 08:59",
 		"testHeadingWithContent" : "jh 5/29/2021 08:59",
 		"testHeadingWithFollowingLine" : "jh 5/29/2021 08:59",
