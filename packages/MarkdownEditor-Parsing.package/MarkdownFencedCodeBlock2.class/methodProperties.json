@@ -4,8 +4,9 @@
 		"newFrom:" : "JE 6/16/2021 13:21",
 		"tildesMatchFor:" : "C.H. 6/5/2021 18:16" },
 	"instance" : {
-		"applyOnLine:" : "C.H. 6/23/2021 11:08",
-		"continue:" : "C.H. 6/27/2021 21:58",
+		"acceptsLines" : "C.H. 6/29/2021 09:53",
+		"continue:" : "C.H. 6/29/2021 10:05",
+		"finalize:" : "C.H. 6/29/2021 11:03",
 		"indention" : "JE 6/16/2021 13:20",
 		"indention:" : "JE 6/16/2021 13:20",
 		"info" : "JE 6/16/2021 13:20",

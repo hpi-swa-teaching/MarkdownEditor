@@ -7,6 +7,6 @@ continue: aParsingState
 	
 	matcher := RxMatcher forString: '\s{', self container indent, '}(.*)|(\s*)'.
 	(matcher matches: aParsingState currentLine)
-	ifTrue: [aParsingState currentLine: (matcher subexpressions: 2).
+	ifTrue: [aParsingState reduceCurrentLineTo: (matcher subexpressions: 2).
 		^ 0].
 	^ 1

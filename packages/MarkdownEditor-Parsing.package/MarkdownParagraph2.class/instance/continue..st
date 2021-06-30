@@ -1,10 +1,5 @@
 applying
-continue: aString
-	
-	^ nil
-	"| matcher |
-	matcher := RxMatcher forString: '\s*(.*[^\s]+)\s*'.
-	(matcher matches: aString)
-		ifTrue: [self content: self content, ((matcher subexpressions: 2) at: 1 ifAbsent: ['']).
-			^'']
-		ifFalse: [^nil]"
+continue: aParsingState
+    
+    aParsingState currentLine isAllSeparators ifTrue: [^1].
+    ^ 0

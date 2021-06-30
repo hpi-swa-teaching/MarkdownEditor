@@ -1,0 +1,4 @@
+newStrat
+acceptsLines
+	
+	^ self subclassResponsibility

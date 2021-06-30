@@ -1,4 +1,0 @@
-applying
-continue
-
-	^ 1
