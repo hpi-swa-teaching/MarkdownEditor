@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "MK 6/18/2020 11:10",
 	"instvars" : [
-		"document" ],
+		"document",
+		"styleSettings" ],
 	"name" : "MarkdownTextStyler",
 	"pools" : [
 		 ],
