@@ -1,4 +1,6 @@
 initialisation
 initialize
 	
-	self beOpen
+	self 
+		beOpen;
+		content: ''

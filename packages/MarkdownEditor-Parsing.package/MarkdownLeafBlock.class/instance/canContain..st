@@ -1,0 +1,4 @@
+accessing
+canContain: aMarkdownBlock
+
+	^ false

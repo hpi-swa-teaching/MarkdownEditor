@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"createNew:" : "C.H. 6/30/2021 15:44",
 		"newFrom:" : "LL 6/7/2021 18:15" },
 	"instance" : {
 		"acceptsLines" : "C.H. 6/29/2021 09:50",
+		"canContain:" : "C.H. 6/30/2021 15:34",
 		"continue:" : "C.H. 6/29/2021 09:25" } }

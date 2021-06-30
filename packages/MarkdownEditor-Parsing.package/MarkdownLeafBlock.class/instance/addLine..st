@@ -1,4 +1,4 @@
 accessing
 addLine: aString
 
-	content add: aString
+	self content: self content, aString
