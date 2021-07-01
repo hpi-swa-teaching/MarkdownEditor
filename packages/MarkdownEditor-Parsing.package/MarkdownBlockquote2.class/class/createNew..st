@@ -5,6 +5,6 @@ createNew: aParsingState
 	matcher := RxMatcher forString: '\s{0,3}>\s?(.*)'.
 	(matcher matches: aParsingState currentLine)
 		ifTrue: [aParsingState newBlock: self new.
-			aParsingState reduceCurrentLineTo: (matcher subexpressions: 2).
+			aParsingState reduceCurrentLineTo: (matcher subexpressions: 2) first.
 			^ 1].
 	^ 0

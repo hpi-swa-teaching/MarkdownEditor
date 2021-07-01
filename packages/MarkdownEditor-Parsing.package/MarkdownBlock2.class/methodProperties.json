@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"newFrom:" : "C.H. 6/3/2021 16:41" },
+		"createNew:" : "C.H. 7/1/2021 12:02" },
 	"instance" : {
 		"acceptsLines" : "C.H. 6/29/2021 09:50",
-		"addChild:" : "C.H. 6/25/2021 08:37",
+		"adaptToDocumentWith:" : "C.H. 7/1/2021 12:17",
+		"addChild:" : "C.H. 7/1/2021 15:21",
 		"asString" : "C.H. 6/14/2021 16:33",
 		"beClosed" : "JE 6/16/2021 13:07",
 		"beOpen" : "JE 6/16/2021 13:07",
@@ -12,5 +13,5 @@
 		"container:" : "C.H. 6/23/2021 17:13",
 		"continue:" : "C.H. 6/26/2021 20:23",
 		"finalize:" : "C.H. 6/29/2021 10:13",
-		"initialize" : "C.H. 6/30/2021 16:16",
+		"initialize" : "C.H. 7/1/2021 14:53",
 		"isOpen" : "JE 6/16/2021 13:06" } }

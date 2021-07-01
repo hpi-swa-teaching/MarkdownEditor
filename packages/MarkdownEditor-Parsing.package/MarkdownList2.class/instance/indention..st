@@ -1,3 +1,3 @@
 accessing
-indent: anObject
+indention: anObject
 	indent := anObject

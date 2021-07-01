@@ -1,4 +1,4 @@
 phase 1
 consumeContinuationMarkers
 
-	self consumeMarkersWithBlock: self document.
+	self consumeMarkersWithBlock: self state document.

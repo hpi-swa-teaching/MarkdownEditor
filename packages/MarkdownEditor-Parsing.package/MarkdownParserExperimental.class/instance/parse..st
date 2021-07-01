@@ -1,6 +1,6 @@
 parsing
 parse: aString
-	
+
 	self state 
 		charPos: 1;
 		document: MarkdownDocument new;
@@ -10,4 +10,8 @@ parse: aString
 	aString lineIndicesDo: [:start :endWithoutDelimiters :end |
 		self parseLine: (aString copyFrom: start to: end)].
 	
-	[self finalize: self tip] whileTrue: [self tip notNil]
+	[self state tip notNil] whileTrue: [self finalize: self state tip].
+	Transcript clear.
+	Transcript show: self state document asString.
+	self halt.
+	^ self state document

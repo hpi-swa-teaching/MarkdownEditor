@@ -1,4 +1,4 @@
 constants
 pragraphClass
 
-	^MarkdownParagraph
+	^MarkdownParagraph2
