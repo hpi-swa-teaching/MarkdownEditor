@@ -1,4 +1,4 @@
-new html converter
+converting
 convertLeafBlockWith: aMarkdownLeaf
 
 	^ String streamContents: [:inlineStream | 

@@ -1,4 +1,4 @@
-new html converter
+converting
 convertImageWith: aMarkdownImage
 
 	^ aMarkdownImage htmlTag

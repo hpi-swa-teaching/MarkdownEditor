@@ -1,4 +1,4 @@
-utility
+helper
 convertColorToRGBA: aColor
 	
 	| roundedAlpha |

@@ -3,5 +3,8 @@
 		"delimiterTypes" : "mf 6/23/2021 16:00" },
 	"instance" : {
 		"completeTextElementFrom:" : "jh 6/29/2021 16:35",
+		"getAbsoluteUrlFromPath:" : "jh 7/1/2021 10:02",
 		"htmlClosingTag" : "jh 6/25/2021 11:58",
-		"htmlOpeningTag" : "jh 6/25/2021 11:59" } }
+		"htmlOpeningTag" : "jh 6/25/2021 11:59",
+		"openUrl" : "jh 7/1/2021 09:59",
+		"textAttributes" : "jh 7/1/2021 10:00" } }

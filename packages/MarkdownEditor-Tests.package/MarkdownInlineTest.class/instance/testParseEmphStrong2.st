@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphStrong2
 	
 	| output expectedOutput emph str |
-	output := parser parse: '**Hello** World'.
+	output := parser parseInline: '**Hello** World'.
 	emph := MarkdownBold2 new.
 	emph children add: (MarkdownString2 newFrom: 'Hello').
 	str := MarkdownString2 newFrom: ' World'.

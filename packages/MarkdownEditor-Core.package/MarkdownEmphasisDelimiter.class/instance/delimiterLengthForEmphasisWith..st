@@ -1,4 +1,0 @@
-attribute
-delimiterLengthForEmphasisWith: aMarkdownEmphasisDelimiter
-
-	self subclassResponsibility

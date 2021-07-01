@@ -1,1 +1,0 @@
-I represent a string during inline parsing to identify the inline structure.

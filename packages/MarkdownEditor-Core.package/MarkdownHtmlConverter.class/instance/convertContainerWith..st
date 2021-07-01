@@ -1,4 +1,4 @@
-new html converter
+converting
 convertContainerWith: aMarkdownContainer
 	
 	^ String streamContents: [:htmlStream | 

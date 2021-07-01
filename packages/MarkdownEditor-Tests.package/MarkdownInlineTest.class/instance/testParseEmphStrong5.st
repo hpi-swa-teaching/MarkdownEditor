@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphStrong5
 	
 	| output expectedOutput emph |
-	output := parser parse: '____hello__'.
+	output := parser parseInline: '____hello__'.
 	emph := MarkdownBold2 new.
 	emph children add: (MarkdownString2 newFrom: 'hello').
 	expectedOutput := MarkdownLinkedList newFrom: {(MarkdownString2 newFrom: '__'). emph}.

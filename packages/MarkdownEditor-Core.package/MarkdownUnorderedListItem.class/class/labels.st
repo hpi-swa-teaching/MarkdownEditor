@@ -1,4 +1,0 @@
-constants
-labels
-
-	^ MarkdownUnorderedList labels

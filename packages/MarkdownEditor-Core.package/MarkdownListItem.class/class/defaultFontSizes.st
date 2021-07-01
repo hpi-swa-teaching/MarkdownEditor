@@ -1,4 +1,0 @@
-constants
-defaultFontSizes
-
-	^ MarkdownList defaultFontSizes

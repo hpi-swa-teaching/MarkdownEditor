@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphItalic
 	
 	| output expectedOutput emph |
-	output := parser parse: '*hello*'.
+	output := parser parseInline: '*hello*'.
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: 'hello').
 	expectedOutput := MarkdownLinkedList newFrom: {emph}.

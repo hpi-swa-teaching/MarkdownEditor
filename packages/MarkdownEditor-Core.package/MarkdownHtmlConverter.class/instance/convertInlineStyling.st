@@ -1,4 +1,4 @@
-new html converter
+converting
 convertInlineStyling
 
 	^ '<head>', Character cr,'</head>', Character cr

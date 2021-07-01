@@ -2,7 +2,7 @@ tests - links
 testParseLinkAndImage
 	
 	| expectedOutput link output str str2 str3 emph image |
-	output := parser parse: 'Lorem ipsum dolor sit amet. [**funny link**](https://hpi.de) et ![funny picture](example.png) Stet clita kasd gubergren.'.
+	output := parser parseInline: 'Lorem ipsum dolor sit amet. [**funny link**](https://hpi.de) et ![funny picture](example.png) Stet clita kasd gubergren.'.
 	str := MarkdownString2 newFrom: 'Lorem ipsum dolor sit amet. '.
 	str2 := MarkdownString2 newFrom: ' et '.
 	str3 := MarkdownString2 newFrom: ' Stet clita kasd gubergren.'.

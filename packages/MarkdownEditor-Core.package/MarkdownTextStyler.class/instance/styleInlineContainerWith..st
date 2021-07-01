@@ -6,5 +6,5 @@ styleInlineContainerWith: aMarkdownInlineContainer
 		inject: Text new
 		into: [:combinedText :child | combinedText, (child applyStylingWith: self)].
 	text := aMarkdownInlineContainer completeTextElementFrom: text.
-	text addAttribute: aMarkdownInlineContainer textEmphasis.
+	text addAllAttributes: aMarkdownInlineContainer textAttributes.
 	^ text

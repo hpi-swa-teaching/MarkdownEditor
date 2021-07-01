@@ -1,4 +1,0 @@
-constants
-maximumLevel
-
-	^ 3

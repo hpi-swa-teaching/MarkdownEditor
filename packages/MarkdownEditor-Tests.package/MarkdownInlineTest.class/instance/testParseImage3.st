@@ -2,7 +2,7 @@ tests - image
 testParseImage3
 	
 	| output expectedOutput image emph |
-	output := parser parse: '![*hello*](testdump.jpg)'.
+	output := parser parseInline: '![*hello*](testdump.jpg)'.
 	image := MarkdownImage new.
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: 'hello').

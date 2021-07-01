@@ -10,5 +10,5 @@
 	"name" : "MarkdownInlineContainerBlock",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MarkdownInlineElement2",
 	"type" : "normal" }

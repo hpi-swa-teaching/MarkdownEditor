@@ -2,7 +2,7 @@ tests - links
 testParseNestedLink2
 	
 	| expectedOutput link output str str2 str3 str4 emph |
-	output := parser parse: '[hpi *[italic [more italic](https://hpi.de)](https://hpi2.de)*](https://hpi3.de)'.
+	output := parser parseInline: '[hpi *[italic [more italic](https://hpi.de)](https://hpi2.de)*](https://hpi3.de)'.
 	str := MarkdownString2 newFrom: '[hpi '.
 	emph := MarkdownItalic2 new.
 	str2 := MarkdownString2 newFrom: '[italic '.

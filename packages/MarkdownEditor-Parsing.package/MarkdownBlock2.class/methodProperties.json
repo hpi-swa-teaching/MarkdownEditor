@@ -1,6 +1,12 @@
 {
 	"class" : {
-		"newFrom:" : "C.H. 6/3/2021 16:41" },
+		"blockCategory" : "jh 7/1/2021 10:43",
+		"canChangeFontColor" : "jh 7/1/2021 10:43",
+		"canChangeFontSize" : "jh 7/1/2021 10:43",
+		"defaultFontColors" : "jh 7/1/2021 10:37",
+		"defaultFontSizes" : "jh 7/1/2021 10:36",
+		"labels" : "jh 7/1/2021 10:59",
+		"newFrom:" : "jh 7/1/2021 10:59" },
 	"instance" : {
 		"applyOnLine:" : "JE 6/16/2021 13:06",
 		"applyStylingWith:" : "jh 6/29/2021 16:15",

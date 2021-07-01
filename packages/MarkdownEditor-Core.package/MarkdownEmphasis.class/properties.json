@@ -10,5 +10,5 @@
 	"name" : "MarkdownEmphasis",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineElement",
+	"super" : "AnObsoleteMarkdownInlineElement",
 	"type" : "normal" }

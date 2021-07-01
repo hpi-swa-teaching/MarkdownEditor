@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphItalicAlternativeDelimiter
 	
 	| output expectedOutput emph |
-	output := parser parse: '_hello_'.
+	output := parser parseInline: '_hello_'.
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: 'hello').
 	expectedOutput := MarkdownLinkedList newFrom: {emph}.

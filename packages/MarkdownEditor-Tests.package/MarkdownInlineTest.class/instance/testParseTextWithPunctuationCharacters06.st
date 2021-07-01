@@ -2,7 +2,7 @@ tests - punctuation characters
 testParseTextWithPunctuationCharacters06
 
 	| expectedOutput output str emph emph2 |
-	output := parser parse: 'plain text-***(italic and bold)***'.
+	output := parser parseInline: 'plain text-***(italic and bold)***'.
 	str := MarkdownString2 newFrom: 'plain text-'.
 	emph := MarkdownItalic2 new.
 	emph2 := MarkdownBold2 new.

@@ -1,0 +1,4 @@
+styling
+textAttribute
+
+	^ TextEmphasis bold

@@ -1,4 +1,4 @@
-new html parser
+tests - inline
 testConvertItalicText
 
 	| output expectedOutput |

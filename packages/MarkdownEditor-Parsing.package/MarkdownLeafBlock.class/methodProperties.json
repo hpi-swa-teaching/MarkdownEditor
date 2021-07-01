@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"defaultFontColors" : "jh 7/1/2021 10:55",
+		"defaultFontSizes" : "jh 7/1/2021 10:54" },
 	"instance" : {
 		"applyStylingWith:" : "jh 6/29/2021 15:49",
 		"asStringWithIndent:" : "LL 6/16/2021 15:02",

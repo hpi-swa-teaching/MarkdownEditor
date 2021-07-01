@@ -1,4 +1,4 @@
-new html parser
+tests - blocks
 testConvertOrderdListsNested
 
 	| output expectedOutput listHtml |

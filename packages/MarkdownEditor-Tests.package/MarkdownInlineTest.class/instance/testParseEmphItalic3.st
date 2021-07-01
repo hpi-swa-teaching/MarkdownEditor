@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphItalic3
 	
 	| output expectedOutput emph str str2 |
-	output := parser parse: 'Plain*Italic*Plain'.
+	output := parser parseInline: 'Plain*Italic*Plain'.
 	str := MarkdownString2 newFrom: 'Plain'.
 	emph := MarkdownItalic2 new.
 	emph children add: (MarkdownString2 newFrom: 'Italic').

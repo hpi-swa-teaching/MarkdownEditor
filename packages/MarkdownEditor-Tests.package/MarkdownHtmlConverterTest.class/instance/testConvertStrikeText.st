@@ -1,4 +1,4 @@
-new html parser
+tests - inline
 testConvertStrikeText
 
 	| output expectedOutput |

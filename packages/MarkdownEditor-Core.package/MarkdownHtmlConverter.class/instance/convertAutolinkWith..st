@@ -1,4 +1,4 @@
-new html converter
+converting
 convertAutolinkWith: aMarkdownAutolink
 
 	^ String streamContents: [:htmlStream | 

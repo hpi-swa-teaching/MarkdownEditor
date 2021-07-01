@@ -1,4 +1,4 @@
-new html parser
+tests - blocks
 testConvertParagraphComplex
 
 	| output expectedOutput |

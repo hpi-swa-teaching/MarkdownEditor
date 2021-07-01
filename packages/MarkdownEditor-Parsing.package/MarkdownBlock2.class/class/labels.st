@@ -1,0 +1,4 @@
+accessing
+labels
+
+	^ self subclassResponsibility
