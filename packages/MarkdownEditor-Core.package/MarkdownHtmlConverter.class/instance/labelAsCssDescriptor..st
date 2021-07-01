@@ -1,4 +1,4 @@
-convertStyle
+convert styling
 labelAsCssDescriptor: aLabel
 	
 	| dictionary |

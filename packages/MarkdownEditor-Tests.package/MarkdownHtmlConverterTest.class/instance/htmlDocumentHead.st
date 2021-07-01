@@ -3,6 +3,7 @@ htmlDocumentHead
 
 ^ '<!DOCTYPE html>
 <html>
-<head>
-</head>
+<head>', Character cr,
+(htmlConverter convertStyleSettings: self styleSettingsForHtmlTests), Character cr,
+'</head>
 <body>', Character cr

@@ -1,4 +1,4 @@
-convertStyle
+convert styling
 convertOrderedListStyleSettings: aStyleSettings
 	| orderedList |
 	

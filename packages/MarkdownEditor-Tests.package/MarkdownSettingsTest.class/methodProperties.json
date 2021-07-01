@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blockStylerOf:for:" : "jh 7/1/2021 11:41",
+		"setUp" : "jh 7/1/2021 12:13",
+		"tearDown" : "jh 7/1/2021 12:13",
+		"testApplyChanges" : "jh 7/1/2021 11:46",
+		"testCancelChanges" : "jh 7/1/2021 11:46",
+		"testCancelChangesOnClosing" : "jh 7/1/2021 11:46",
+		"testChangeMultipleEditors" : "jh 7/1/2021 11:45",
+		"testCloseMarkdownOptions" : "jh 7/1/2021 11:45",
+		"testCreateMarkdownOptions" : "jh 7/1/2021 11:45",
+		"testLoadSettings" : "jh 7/1/2021 11:45",
+		"testMultipleEditors" : "jh 7/1/2021 11:44",
+		"testNoWindowIsDefaultMorph" : "jh 7/1/2021 11:44",
+		"testOpenWindowIfNotPresent" : "jh 7/1/2021 11:44",
+		"testUnregisterEditor" : "jh 7/1/2021 11:44" } }

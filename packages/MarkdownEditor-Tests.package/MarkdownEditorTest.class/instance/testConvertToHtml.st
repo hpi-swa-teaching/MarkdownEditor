@@ -90,5 +90,5 @@ testConvertToHtml
 </body>
 </html>'.
 	
-	self assert: (exportView submorphs first text) equals: expectedHtml.
+	self assert: expectedHtml equals: (exportView submorphs first text string) .
 	exportView delete

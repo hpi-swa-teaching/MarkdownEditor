@@ -6,10 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"htmlConverter",
-		"parser",
-		"oldStyleSettings" ],
-	"name" : "MarkdownHtmlConverterTest",
+		"toolbuilder",
+		"toolbuilderSettings",
+		"window",
+		"editor",
+		"originalSettings",
+		"settings" ],
+	"name" : "MarkdownSettingsTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

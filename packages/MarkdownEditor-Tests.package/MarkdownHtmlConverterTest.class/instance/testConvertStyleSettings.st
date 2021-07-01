@@ -1,16 +1,8 @@
-need to be implemented
+tests - color
 testConvertStyleSettings
 
-	| styleSettings expectedCss convertedStyle |
-	
-	styleSettings := self styleSettingsForHtmlTests.
-	styleSettings fontSizes: (styleSettings fontSizes at: 'Heading 3' put: 46; yourself).
-	styleSettings fontColors: (styleSettings fontColors at: 'Paragraph' put: Color red; yourself).
-	styleSettings fontSizes: (styleSettings fontSizes at: 'Unord. List 3+' put: 46; yourself).
-	styleSettings fontColors: (styleSettings fontColors at: 'Blockquote' put: Color red; yourself).
-	
-	convertedStyle := MarkdownHtmlConverter new convertStyleSettings: styleSettings.
-	
+	| css expectedCss |
+	css := htmlConverter convertStyleSettings: self styleSettingsForHtmlTests.
 	expectedCss := '<style>
 		h1 {
 			font-size: 34px;
@@ -23,7 +15,7 @@ testConvertStyleSettings
 		}
 
 		h3 {
-			font-size: 46px;
+			font-size: 22px;
 			color: rgba(0, 0, 0, 1.0); 
 		}
 
@@ -43,17 +35,17 @@ testConvertStyleSettings
 		}
 
 		p {
-			font-size: 14px;
-			color: rgba(255, 0, 0, 1.0); 
+			font-size: 12px;
+			color: rgba(0, 0, 0, 1.0); 
 		}
 
 		blockquote {
 			font-size: 10px;
-			color: rgba(255, 0, 0, 1.0); 
+			color: rgba(0, 0, 255, 1.0); 
 		}
 
 		code {
-			font-size: 14px;
+			font-size: 12px;
 		}
 
 		ol {
@@ -82,8 +74,8 @@ testConvertStyleSettings
 		}
 
 		ul ul ul {
-			font-size: 46px;
+			font-size: 10px;
 			color: rgba(0, 0, 0, 1.0); 
 		}
 </style>'.
-	self assert: (expectedCss = convertedStyle)
+	self assert: expectedCss equals: css
