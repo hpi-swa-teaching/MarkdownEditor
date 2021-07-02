@@ -9,8 +9,8 @@ testChangeMultipleEditors
 	(self blockStylerOf: settings for: 'Paragraph') handleSliderChangeTo: 18.
 	(self blockStylerOf: settings for: 'Paragraph') fontColorPicker adjustTo: Color green.
 	
-	styleSettings := editor blockTextStyler styleSettings.
-	styleSettings2 := editor2 blockTextStyler styleSettings.
+	styleSettings := editor textStyler styleSettings.
+	styleSettings2 := editor2 textStyler styleSettings.
 	self assert: settings newStyleSettings equals: styleSettings.
 	self assert: styleSettings equals: styleSettings2.
 	

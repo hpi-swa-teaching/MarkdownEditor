@@ -5,8 +5,8 @@ testMultipleEditors
 	
 	editor2 := MarkdownEditor new.
 	window2 := toolbuilder open: editor2.
-	styleSettings := editor blockTextStyler styleSettings.
-	styleSettings2 := editor2 blockTextStyler styleSettings.
+	styleSettings := editor textStyler styleSettings.
+	styleSettings2 := editor2 textStyler styleSettings.
 	self assert: styleSettings equals: styleSettings2.
 	
 	window2 delete

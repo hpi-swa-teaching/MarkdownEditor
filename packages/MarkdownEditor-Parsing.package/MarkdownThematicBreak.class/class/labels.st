@@ -1,4 +1,4 @@
 accessing
 labels
 
-	^ {'thematic break'}
+	^ {'Thematic break'}

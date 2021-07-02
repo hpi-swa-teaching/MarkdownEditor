@@ -1,4 +1,4 @@
 style settings
 currentTextColorAt: aMarkdownBlock
 
-	^ self UniqueInstance currentStyleSettings fontColors at: aMarkdownBlock
+	^ self UniqueInstance newStyleSettings fontColors at: aMarkdownBlock

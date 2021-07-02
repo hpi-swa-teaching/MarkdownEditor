@@ -1,0 +1,1 @@
+I represent a Markdown emphasis over a range of characters. The applied styling is expressed through my textAttribute and colorAttribute.

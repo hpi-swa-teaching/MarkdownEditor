@@ -10,7 +10,7 @@
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "jh 7/1/2021 11:49",
 		"testBuildingEditorReturnsWindow" : "JE 5/26/2021 13:17",
 		"testBuildingEditorTextMorphReturnsSpec" : "JE 5/26/2021 13:17",
-		"testConvertToHtml" : "jh 7/1/2021 11:51",
+		"testConvertToHtml" : "jh 7/2/2021 09:59",
 		"testCreateNewEditorInstanceInWorld" : "JE 6/1/2021 16:07",
 		"testCurrentFilePath" : "JE 5/26/2021 13:17",
 		"testFileEnding" : "JE 5/26/2021 13:16",

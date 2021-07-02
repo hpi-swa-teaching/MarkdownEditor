@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 sameTextFrom: aText and: anotherText
 
 	| count |

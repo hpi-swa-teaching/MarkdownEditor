@@ -1,4 +1,4 @@
 accessing
-blockTextStyler
+textStyler
 
 	^ self textMorph styler

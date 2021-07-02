@@ -2,7 +2,7 @@ tests - window
 testConvertToHtml
 
 	| expectedHtml exportView |
-	editor blockTextStyler styleSettings: self styleSettingsForHtmlTests.
+	editor textStyler styleSettings: self styleSettingsForHtmlTests.
 	editor markdownText: 'Hallo'; convertToHTML.
 	exportView := World submorphs detect: [:morph | morph isKindOf: MarkdownHtmlExportView]. 
 	

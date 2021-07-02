@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "jst 7/10/2019 15:42",
 	"instvars" : [
-		"document",
 		"markdownText",
 		"textMorph",
 		"currentFilePath",

@@ -7,6 +7,8 @@
 		"newUnorderedFrom:" : "LL 6/16/2021 15:05" },
 	"instance" : {
 		"applyOnLine:" : "LL 6/18/2021 16:46",
+		"completeTextElementFrom:" : "jh 7/2/2021 11:00",
+		"fontSize" : "jh 7/2/2021 10:24",
 		"htmlClosingTag" : "jh 6/25/2021 17:58",
 		"htmlOpeningTag" : "jh 6/25/2021 17:54",
 		"indention" : "JE 6/16/2021 13:16",
@@ -16,4 +18,5 @@
 		"listMarker" : "LL 6/16/2021 15:00",
 		"listMarker:" : "LL 6/16/2021 15:00",
 		"number" : "LL 6/16/2021 15:00",
-		"number:" : "LL 6/16/2021 15:00" } }
+		"number:" : "jh 7/2/2021 11:01",
+		"textColor" : "jh 7/2/2021 10:25" } }

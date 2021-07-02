@@ -1,4 +1,4 @@
 style settings
 currentFontSizeAt: aMarkdownBlock
 
-	^ self UniqueInstance currentStyleSettings fontSizes at: aMarkdownBlock
+	^ self UniqueInstance newStyleSettings fontSizes at: aMarkdownBlock
