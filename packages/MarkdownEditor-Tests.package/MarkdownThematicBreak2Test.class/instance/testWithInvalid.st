@@ -11,4 +11,4 @@ testWithInvalid
 				{'___a___'. false}.
 				{'a----'. false}. 
 				{'***a'. false}}.
-	self testList: testList.
+	self testList: testList

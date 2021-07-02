@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testApplyOnLine" : "C.H. 6/11/2021 11:57",
+		"testApplyOnLine" : "mf 7/1/2021 14:04",
 		"testEmptyHeading" : "C.H. 6/12/2021 20:20",
 		"testHeadingLevel" : "C.H. 6/5/2021 11:56",
 		"testInvalidHeading" : "C.H. 6/5/2021 12:00",
-		"testList:" : "C.H. 6/5/2021 11:47",
+		"testList:" : "mf 7/1/2021 14:04",
 		"testOptionalClosingSequence" : "C.H. 6/14/2021 15:08",
 		"testRemovingIndention" : "C.H. 6/6/2021 11:57",
 		"testValidIndention" : "C.H. 6/5/2021 12:30" } }

@@ -1,0 +1,4 @@
+accessing
+defaultFontSizes
+
+	^ MarkdownList defaultFontSizes

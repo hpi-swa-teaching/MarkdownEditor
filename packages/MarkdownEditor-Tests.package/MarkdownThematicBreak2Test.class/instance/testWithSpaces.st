@@ -7,4 +7,4 @@ testWithSpaces
 				{'-     -      -      -'. true}.
 				{'__ _  ___            '. true}. 
 				{'   _____'. true}}.
-	self testList: testList.
+	self testList: testList

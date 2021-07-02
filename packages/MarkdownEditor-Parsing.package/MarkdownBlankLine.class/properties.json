@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indentation" ],
+	"name" : "MarkdownBlankLine",
+	"pools" : [
+		 ],
+	"super" : "MarkdownLeafBlock",
+	"type" : "normal" }

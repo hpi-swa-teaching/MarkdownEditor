@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"characterMatchingWith:and:" : "mf 7/1/2021 14:45",
 		"document" : "jh 6/29/2021 15:35",
 		"document:" : "jh 6/29/2021 15:35",
-		"handleWhiteSpacesWith:and:" : "jh 6/30/2021 08:55",
+		"handleWhiteSpacesWith:and:" : "mf 7/1/2021 15:20",
 		"insert:at:in:" : "jh 6/30/2021 09:03",
 		"privateFormat:" : "jst 6/28/2019 14:02",
 		"privateStyle:" : "jh 6/30/2021 15:56",
 		"reset" : "jst 6/28/2019 14:03",
+		"sameTextFrom:and:" : "mf 7/1/2021 15:02",
 		"styleContainerBlockWith:" : "jh 6/29/2021 16:52",
 		"styleDocumentWith:" : "jh 6/29/2021 16:04",
 		"styleInlineContainerWith:" : "jh 7/1/2021 09:45",

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"blockCategory" : "jh 7/1/2021 10:38",
+		"defaultFontColors" : "jh 7/1/2021 10:50",
+		"defaultFontSizes" : "jh 7/1/2021 10:49",
+		"labels" : "jh 7/1/2021 10:39",
+		"newFrom:" : "mf 7/1/2021 13:42" },
+	"instance" : {
+		"addItem:" : "LL 6/16/2021 15:03",
+		"applyOnLine:" : "mf 7/1/2021 13:42",
+		"htmlClosingTag" : "jh 6/25/2021 17:53",
+		"htmlOpeningTag" : "jh 6/25/2021 17:53",
+		"isLoose" : "LL 6/16/2021 15:03",
+		"isLoose:" : "LL 6/16/2021 15:03",
+		"isOrdered" : "LL 6/16/2021 15:03",
+		"isOrdered:" : "LL 6/16/2021 15:03",
+		"listMarker" : "LL 6/16/2021 15:03",
+		"listMarker:" : "LL 6/16/2021 15:03",
+		"startNumber" : "LL 6/16/2021 15:03",
+		"startNumber:" : "LL 6/16/2021 15:03" } }

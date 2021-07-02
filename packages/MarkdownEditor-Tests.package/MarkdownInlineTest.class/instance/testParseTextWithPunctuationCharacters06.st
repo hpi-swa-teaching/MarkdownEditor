@@ -3,10 +3,10 @@ testParseTextWithPunctuationCharacters06
 
 	| expectedOutput output str emph emph2 |
 	output := parser parseInline: 'plain text-***(italic and bold)***'.
-	str := MarkdownString2 newFrom: 'plain text-'.
-	emph := MarkdownItalic2 new.
-	emph2 := MarkdownBold2 new.
-	emph2 children add: (MarkdownString2 newFrom: '(italic and bold)').
+	str := MarkdownString newFrom: 'plain text-'.
+	emph := MarkdownItalic new.
+	emph2 := MarkdownBold new.
+	emph2 children add: (MarkdownString newFrom: '(italic and bold)').
 	emph children add: emph2.
 	expectedOutput := MarkdownLinkedList newFrom: {str. emph}.
 	

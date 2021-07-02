@@ -3,7 +3,7 @@ testList: anOrderedCollection
 	
 	| thematicBreak |
 	anOrderedCollection do: [:testTupel | 
-		thematicBreak := MarkdownThematicBreak2 newFrom: testTupel first.
+		thematicBreak := MarkdownThematicBreak newFrom: testTupel first.
 		testTupel second
-			ifTrue: [self assert: (thematicBreak isKindOf: MarkdownThematicBreak2)]
+			ifTrue: [self assert: (thematicBreak isKindOf: MarkdownThematicBreak)]
 			ifFalse: [self assert: nil equals: thematicBreak]]

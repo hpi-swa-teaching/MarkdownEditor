@@ -4,4 +4,4 @@ testBlankLine
 	| testList |
 	testList := {{'        	'. ''}.
 				{''. ''}}.
-	self testList: testList.
+	self testList: testList

@@ -5,7 +5,7 @@
 		"setUp" : "JE 5/19/2021 12:38",
 		"styleSettingsForHtmlTests" : "jh 5/29/2021 11:43",
 		"tearDown" : "jh 5/29/2021 11:07",
-		"testApplyTheme" : "jh 5/31/2021 17:17",
+		"testApplyTheme" : "mf 7/1/2021 14:00",
 		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "jst 6/29/2019 14:39",
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "jh 7/1/2021 11:49",
 		"testBuildingEditorReturnsWindow" : "JE 5/26/2021 13:17",

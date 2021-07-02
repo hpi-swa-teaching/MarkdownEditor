@@ -3,4 +3,4 @@ decideReferenceType
 
 	self previousChar = MarkdownImage imageCharacter asString
 		ifTrue: [^ MarkdownImage]
-		ifFalse: [^ MarkdownLink2]
+		ifFalse: [^ MarkdownLink]

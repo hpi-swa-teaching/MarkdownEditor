@@ -8,4 +8,4 @@ testDefault
 				{'************'. true}. 
 				{'-----------'. true}.
 				{'__________'. true}}.
-	self testList: testList.
+	self testList: testList

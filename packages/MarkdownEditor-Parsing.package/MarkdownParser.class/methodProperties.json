@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTextToLastOpenBlock:" : "LL 6/18/2021 16:41",
+		"addTextToLastOpenBlock:" : "mf 7/1/2021 13:43",
 		"basicLastMatchedBlock:" : "LL 6/19/2021 13:20",
-		"blockChecklist" : "LL 6/16/2021 15:06",
+		"blockChecklist" : "mf 7/1/2021 13:43",
 		"closeOpenBlocks:startingAt:" : "LL 6/19/2021 13:22",
 		"createNewBlocks:" : "LL 6/19/2021 13:21",
 		"document" : "C.H. 6/12/2021 17:49",
@@ -12,9 +12,9 @@
 		"firstUnmatchedBlock" : "LL 6/11/2021 13:51",
 		"firstUnmatchedBlock:" : "LL 6/11/2021 13:51",
 		"lastMatchedBlock" : "LL 6/11/2021 12:29",
-		"lastMatchedBlock:" : "LL 6/19/2021 13:21",
+		"lastMatchedBlock:" : "mf 7/1/2021 13:42",
 		"lastOpenBlock" : "C.H. 6/14/2021 17:00",
-		"lastOpenBlockStartingFrom:" : "LL 6/18/2021 17:03",
+		"lastOpenBlockStartingFrom:" : "mf 7/1/2021 13:42",
 		"parse:" : "jh 6/28/2021 22:13",
 		"parseInline:" : "jh 6/30/2021 09:12",
 		"startInlineParsing" : "jh 7/1/2021 09:52" } }

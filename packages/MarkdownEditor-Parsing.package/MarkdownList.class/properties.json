@@ -1,0 +1,17 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isOrdered",
+		"isLoose",
+		"listMarker",
+		"startNumber" ],
+	"name" : "MarkdownList",
+	"pools" : [
+		 ],
+	"super" : "MarkdownContainerBlock",
+	"type" : "normal" }

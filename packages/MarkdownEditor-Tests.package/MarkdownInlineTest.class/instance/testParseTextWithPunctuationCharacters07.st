@@ -3,6 +3,6 @@ testParseTextWithPunctuationCharacters07
 
 	| expectedOutput output |
 	output := parser parseInline: '*(*plain text)'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString2 newFrom: '*(*plain text)'}.
+	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString newFrom: '*(*plain text)'}.
 	
 	self assert: expectedOutput equals: output

@@ -4,7 +4,7 @@ testNotADelimiter
 	| expectedOutput |
 	firstPhase previousChar: ' '. 
 	firstPhase processPossibleDelimitersFrom: '** '.
-	expectedOutput := MarkdownString2 newFrom: '**'.
+	expectedOutput := MarkdownString newFrom: '**'.
 
 	self assert: expectedOutput equals: firstPhase inlineElements first
 	

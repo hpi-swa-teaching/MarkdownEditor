@@ -6,4 +6,4 @@ testIndention
 				{'   -    test test'. 8. 'test test'}.
 				{'   -     test test'. 5. '    test test'}.
 				{'   -       test test'. 5. '      test test'}.}.
-	self testList: testList.
+	self testList: testList

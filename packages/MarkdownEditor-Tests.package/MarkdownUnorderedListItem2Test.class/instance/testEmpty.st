@@ -4,4 +4,4 @@ testEmpty
 	| testList |
 	testList := {{'- '. 2. ''}.
 				{'-'. 2. ''}}.
-	self testList: testList.
+	self testList: testList

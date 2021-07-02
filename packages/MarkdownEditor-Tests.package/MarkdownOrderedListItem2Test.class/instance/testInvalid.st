@@ -7,4 +7,4 @@ testInvalid
 				{'    1. test'}.
 				{'-1. test'}.
 				{'1 test'}}.
-	self testList: testList.
+	self testList: testList

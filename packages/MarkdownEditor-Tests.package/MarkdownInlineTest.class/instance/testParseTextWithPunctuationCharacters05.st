@@ -3,9 +3,9 @@ testParseTextWithPunctuationCharacters05
 
 	| expectedOutput output str emph |
 	output := parser parseInline: 'plain text-*(italic)*'.
-	str := MarkdownString2 newFrom: 'plain text-'.
-	emph := MarkdownItalic2 new.
-	emph children add: (MarkdownString2 newFrom: '(italic)').
+	str := MarkdownString newFrom: 'plain text-'.
+	emph := MarkdownItalic new.
+	emph children add: (MarkdownString newFrom: '(italic)').
 	expectedOutput := MarkdownLinkedList newFrom: {str. emph}.
 	
 	self assert: expectedOutput equals: output

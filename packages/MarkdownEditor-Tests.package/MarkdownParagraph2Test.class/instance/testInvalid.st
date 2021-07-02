@@ -3,4 +3,4 @@ testInvalid
 	
 	| testList |
 	testList := {{'    test'}}.
-	self testList: testList.
+	self testList: testList

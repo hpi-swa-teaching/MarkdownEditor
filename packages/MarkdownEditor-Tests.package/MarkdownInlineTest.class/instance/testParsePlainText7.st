@@ -3,6 +3,6 @@ testParsePlainText7
 
 	| expectedOutput output |
 	output := parser parseInline: '_Hello World*'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString2 newFrom: '_Hello World*'}.
+	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString newFrom: '_Hello World*'}.
 	
 	self assert: expectedOutput equals: output

@@ -4,10 +4,11 @@ handleWhiteSpacesWith: aGroundTruthText and: aComparingText
 	| lastSameCharacters text |
 	self assert: aGroundTruthText size > aComparingText size.
 	text := aComparingText.
-	[lastSameCharacters := aGroundTruthText string charactersExactlyMatching: text string.
+	[lastSameCharacters := self characterMatchingWith: aGroundTruthText and: text.
 	text := self insert: (aGroundTruthText at: lastSameCharacters + 1) 
 		at: lastSameCharacters
 		in: text.
-	] doWhileFalse: [text = aGroundTruthText].
+	] doWhileFalse: [self sameTextFrom: text and: aGroundTruthText].
+	self assert: aGroundTruthText size = text size.
 	^ text
 	

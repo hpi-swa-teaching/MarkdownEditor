@@ -8,7 +8,7 @@ processLink: aBalancedBracketCollection from: aRawString
 			ifNotEmpty: [(self isOpenBracketAtOneFrom: bracketPair)
 				ifTrue: [ | endLinkIndex |
 						endLinkIndex := self findCloserIndexFrom: enclosedLink and: bracketPair.
-						self addReferenceFrom: (aRawString copyFrom: bracketPair x to: endLinkIndex) with: MarkdownLink2.
+						self addReferenceFrom: (aRawString copyFrom: bracketPair x to: endLinkIndex) with: MarkdownLink.
 						^ aRawString copyFrom: endLinkIndex + 1 to: aRawString size]
 				ifFalse: [^ self processStringFrom: aRawString]]].
 	^ self processStringFrom: aRawString
