@@ -6,4 +6,4 @@ parseIndention: aString
 	(matcher matches: aString)
 	ifFalse: [^ 0].
 	^ ((matcher subexpressions: 3) at: 1 
-                        ifAbsent: [(matcher subexpressions: 5) at: 1 ifAbsent: [' ']]) size.
+                        ifAbsent: [(matcher subexpressions: 4) at: 1 ifAbsent: [' ']]) size.

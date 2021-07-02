@@ -1,4 +1,4 @@
 accessing
 asStringWithIndent: aString
 
-	^ aString, 'a', self class, ' with inlines: ', self inlines 
+	^ aString, 'a', self class, ' with content: ', self content 

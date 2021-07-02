@@ -1,4 +1,5 @@
 applying
 finalize: aParsingState
-
-	self info: (self content lines) first.
+	
+	(self content lines) 
+	ifNotEmpty: [self info: (self content lines) first]

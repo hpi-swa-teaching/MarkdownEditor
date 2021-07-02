@@ -1,6 +1,6 @@
 phase 3
 processRemainderOfLine
-	self halt.
+	
 	self lazyContinuation
 	ifFalse: [self closeUnmatchedBlocks.
 		"self updateLastLineBlank."

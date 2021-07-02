@@ -7,7 +7,7 @@ parseListMarker: aParsingState
 	isOrdered := false.
 	matcher := RxMatcher forString: '(\s{0,', maxIndent,'}([0-9]{1,9})(\.|\)))(.*)'.
 	(matcher matches: aParsingState currentLine)
-	ifTrue: [start := (matcher subexpressions: 3) asNumber.
+	ifTrue: [start := (matcher subexpressions: 3) first asNumber.
 		isOrdered := true]
 	ifFalse: [matcher := RxMatcher forString: '(\s{0,', maxIndent,'}((-|\+|\*)))(.*)'].
 	(matcher matches: aParsingState currentLine)

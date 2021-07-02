@@ -13,5 +13,5 @@ parse: aString
 	[self state tip notNil] whileTrue: [self finalize: self state tip].
 	Transcript clear.
 	Transcript show: self state document asString.
-	self halt.
+	
 	^ self state document

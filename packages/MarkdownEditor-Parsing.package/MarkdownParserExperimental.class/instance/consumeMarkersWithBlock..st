@@ -8,9 +8,11 @@ consumeMarkersWithBlock: aMarkdownBlock
 	result := aMarkdownBlock continue: self state.
 	
 	result = 0 "matched - keep going"
-	ifTrue: [(aMarkdownBlock isKindOf: MarkdownLeafBlock) & aMarkdownBlock children notEmpty
+	ifTrue: [((aMarkdownBlock isKindOf: MarkdownLeafBlock) not and: [aMarkdownBlock children notEmpty])
 		ifFalse: [self state allBlocksClosed: self state container == self state oldTip.
+			self state lastMatchedContainer: self state container.
 			^self lookForNewBlockStarts].
+		self state container: self state container children last.
 		^self consumeMarkersWithBlock: aMarkdownBlock children last].
 	
 	result = 1 "not matched - continue with phase 2"

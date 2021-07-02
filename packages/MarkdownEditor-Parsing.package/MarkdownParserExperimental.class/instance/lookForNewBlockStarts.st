@@ -15,6 +15,6 @@ lookForNewBlockStarts
 			self state newBlock adaptToDocumentWith: self state.
 			self state container: self state tip.
 			^self processRemainderOfLine]].
-	
+
 	^self processRemainderOfLine
 	
