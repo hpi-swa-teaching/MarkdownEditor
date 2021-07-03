@@ -7,13 +7,15 @@
 		"newWith:and:" : "mf 6/24/2021 09:49" },
 	"instance" : {
 		"=" : "jh 6/24/2021 13:42",
-		"applyStylingWith:" : "jh 6/29/2021 16:34",
+		"applyStylingWith:" : "mf 7/3/2021 15:18",
 		"beEmail" : "jh 6/23/2021 12:20",
 		"beNotEmail" : "jh 6/23/2021 12:20",
 		"convertWith:" : "jh 6/25/2021 12:01",
+		"getAbsoluteUrlFromPath:" : "mf 7/3/2021 15:14",
 		"htmlClosingTag" : "jh 6/25/2021 12:06",
 		"htmlOpeningTag" : "jh 6/25/2021 12:06",
 		"initialize" : "jh 6/23/2021 12:22",
 		"isEmail" : "jh 6/24/2021 12:44",
+		"openUrl" : "mf 7/3/2021 15:13",
 		"path" : "mf 6/23/2021 18:49",
 		"path:" : "mf 6/23/2021 18:50" } }

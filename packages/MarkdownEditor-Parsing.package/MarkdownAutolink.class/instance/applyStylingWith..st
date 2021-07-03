@@ -3,5 +3,5 @@ applyStylingWith: aMarkdownStyler
 
 	| text |
 	text := ('<', self path, '>') asText.
-	text addAttribute: TextEmphasis underlined.
+	text addAllAttributes: {(PluggableTextAttribute evalBlock: self openUrl). TextEmphasis underlined}.
 	^ text
