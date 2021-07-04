@@ -1,4 +1,0 @@
-accessing
-defaultFontSizes
-
-	^ {10}

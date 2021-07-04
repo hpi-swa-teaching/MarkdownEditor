@@ -11,5 +11,5 @@
 	"name" : "MarkdownLeafBlock",
 	"pools" : [
 		 ],
-	"super" : "MarkdownBlock2",
+	"super" : "MarkdownBlock",
 	"type" : "normal" }

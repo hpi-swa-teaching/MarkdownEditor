@@ -3,4 +3,4 @@ addStringFrom: aRawString
 
 	self previousChar: aRawString last.
 	self inlineElements 
-		add: (MarkdownString2 newFrom: aRawString)
+		add: (MarkdownString newFrom: aRawString)

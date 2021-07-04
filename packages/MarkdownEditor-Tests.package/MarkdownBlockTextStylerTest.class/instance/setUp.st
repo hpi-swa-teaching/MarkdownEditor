@@ -1,4 +1,4 @@
 running
 setUp
 
-	blockTextStyler := MarkdownBlockTextStyler new
+	blockTextStyler := MarkdownTextStyler new

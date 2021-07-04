@@ -1,4 +1,4 @@
 helper
 processEmphasisFor: aRawString
 
-	^ MarkdownString2 newFrom: aRawString
+	^ MarkdownString newFrom: aRawString

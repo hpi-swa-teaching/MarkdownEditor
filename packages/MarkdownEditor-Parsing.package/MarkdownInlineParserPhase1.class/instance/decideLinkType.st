@@ -3,4 +3,4 @@ decideLinkType
 
 	self previousChar = '!'
 		ifTrue: [^ MarkdownImage]
-		ifFalse: [^ MarkdownLink2]
+		ifFalse: [^ MarkdownLink]

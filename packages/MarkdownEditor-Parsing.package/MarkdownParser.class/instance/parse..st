@@ -1,15 +1,16 @@
 parsing
 parse: aString
-	Transcript clear. 
-	self document: MarkdownDocument new.
-	self basicLastMatchedBlock: self document.
-	aString
-		lineIndicesDo: [:start :endWithoutDelimiters :end | 			
-			self addTextToLastOpenBlock:
-				(self createNewBlocks:
-					(self closeOpenBlocks: 
-						(aString copyFrom: start to: endWithoutDelimiters)
-								startingAt: self document))].
-	self startInlineParsing.
-	self halt.
-	Transcript show: self document asString.
+
+	self state 
+		charPos: 1;
+		document: (MarkdownDocument new startPosition: 0);
+		tip: self state document;
+		lastMatchedContainer: self state document.
+		
+	aString lineIndicesDo: [:start :endWithoutDelimiters :end |
+		self parseLine: (aString copyFrom: start to: end)].
+	
+	[self state tip notNil] whileTrue: [self finalize: self state tip].
+	Transcript clear.
+	Transcript show: self state document asString.
+	^ self state document

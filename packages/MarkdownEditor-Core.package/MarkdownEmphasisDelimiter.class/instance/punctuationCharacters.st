@@ -1,4 +1,0 @@
-constants
-punctuationCharacters
-
-	self subclassResponsibility

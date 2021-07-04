@@ -15,5 +15,5 @@
 	"name" : "MarkdownDelimiter",
 	"pools" : [
 		 ],
-	"super" : "MarkdownInlineElement2",
+	"super" : "MarkdownInlineElement",
 	"type" : "normal" }

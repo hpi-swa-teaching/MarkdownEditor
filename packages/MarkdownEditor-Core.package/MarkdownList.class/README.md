@@ -1,1 +1,0 @@
-I am a list in Markdown. I am aggregated by list items.
