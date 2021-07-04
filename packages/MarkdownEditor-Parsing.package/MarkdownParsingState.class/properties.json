@@ -1,0 +1,22 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"document",
+		"container",
+		"lastMatchedContainer",
+		"currentLine",
+		"tip",
+		"oldTip",
+		"allBlocksClosed",
+		"newBlock",
+		"charPos" ],
+	"name" : "MarkdownParsingState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

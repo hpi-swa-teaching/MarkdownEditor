@@ -1,4 +1,4 @@
-accessing
+debugging
 asStringWithIndent: aString
 
 	^ (self children 

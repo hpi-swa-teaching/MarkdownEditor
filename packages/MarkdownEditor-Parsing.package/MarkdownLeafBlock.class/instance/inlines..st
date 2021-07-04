@@ -1,3 +1,4 @@
 accessing
-inlines: anObject
-	inlines := anObject
+inlines: aList
+
+	inlines := aList

@@ -1,3 +1,4 @@
 accessing
-isLoose: anObject
-	isLoose := anObject
+isLoose: aBoolean
+
+	isLoose := aBoolean

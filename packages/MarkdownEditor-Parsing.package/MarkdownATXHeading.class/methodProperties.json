@@ -1,15 +1,16 @@
 {
 	"class" : {
 		"blockCategory" : "jh 7/1/2021 10:44",
+		"createNew:" : "mf 7/4/2021 14:31",
 		"defaultFontColors" : "jh 7/1/2021 10:44",
 		"defaultFontSizes" : "jh 7/1/2021 10:44",
 		"labels" : "jh 7/1/2021 10:44",
-		"newFrom:" : "C.H. 6/14/2021 15:13",
-		"newWithClosingTagFrom:" : "JE 6/16/2021 13:08",
-		"newWithOutClosingTagFrom:" : "JE 6/16/2021 13:08" },
+		"newWithClosingTagFrom:" : "mf 7/4/2021 14:32",
+		"newWithOutClosingTagFrom:" : "mf 7/4/2021 14:32" },
 	"instance" : {
-		"applyOnLine:" : "C.H. 6/11/2021 11:57",
+		"acceptsLines" : "mf 7/4/2021 14:33",
 		"completeTextElementFrom:" : "jh 6/29/2021 21:04",
+		"continue:" : "mf 7/4/2021 14:33",
 		"fontSize" : "jh 6/29/2021 16:47",
 		"htmlClosingTag" : "jh 6/25/2021 12:23",
 		"htmlOpeningTag" : "jh 6/25/2021 12:18",

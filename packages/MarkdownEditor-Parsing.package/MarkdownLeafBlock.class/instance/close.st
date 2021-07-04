@@ -1,4 +1,0 @@
-accessing
-close
-	
-	self beClosed

@@ -1,3 +1,4 @@
 accessing
-listMarker: anObject
-	listMarker := anObject
+listMarker: aString
+
+	listMarker := aString

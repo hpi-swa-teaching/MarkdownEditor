@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 completeTextElementFrom: aText
 	
 	^ '>' asText, aText

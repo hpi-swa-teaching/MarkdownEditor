@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"labels" : "jh 7/1/2021 10:40",
-		"newFrom:" : "C.H. 6/12/2021 18:19" },
+		"labels" : "jh 7/1/2021 10:40" },
 	"instance" : {
-		"applyOnLine:" : "JE 6/16/2021 13:25",
+		"acceptsLines" : "mf 7/4/2021 14:37",
 		"completeTextElementFrom:" : "jh 6/29/2021 17:01",
+		"continue:" : "mf 7/4/2021 14:38",
 		"fontSize" : "jh 6/29/2021 16:48",
 		"htmlClosingTag" : "jh 6/25/2021 08:46",
 		"htmlOpeningTag" : "jh 6/25/2021 08:18",

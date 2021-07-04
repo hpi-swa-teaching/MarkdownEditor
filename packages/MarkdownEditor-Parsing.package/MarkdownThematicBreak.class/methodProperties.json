@@ -1,10 +1,9 @@
 {
 	"class" : {
-		"labels" : "jh 7/2/2021 10:19",
-		"newFrom:" : "LL 6/16/2021 15:05",
-		"startsWith:" : "C.H. 6/3/2021 16:35" },
+		"createNew:" : "mf 7/4/2021 14:39",
+		"labels" : "jh 7/1/2021 11:00" },
 	"instance" : {
-		"applyOnLine:" : "C.H. 6/11/2021 12:08",
+		"acceptsLines" : "mf 7/4/2021 14:40",
+		"continue:" : "mf 7/4/2021 14:40",
 		"htmlClosingTag" : "jh 6/25/2021 17:44",
-		"htmlOpeningTag" : "jh 6/25/2021 17:44",
-		"remainsOpenIn:" : "C.H. 6/3/2021 15:40" } }
+		"htmlOpeningTag" : "jh 6/25/2021 17:44" } }

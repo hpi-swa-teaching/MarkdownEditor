@@ -1,4 +1,4 @@
-accessing
+debugging
 asString
 
 	^ self asStringWithIndent: ''

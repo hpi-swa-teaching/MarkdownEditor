@@ -1,3 +1,4 @@
 accessing
-startNumber: anObject
-	startNumber := anObject
+startNumber: aNumber
+
+	startNumber := aNumber

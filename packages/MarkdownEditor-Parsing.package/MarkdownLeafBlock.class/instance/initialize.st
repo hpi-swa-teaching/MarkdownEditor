@@ -1,5 +1,5 @@
-as yet unclassified
+initialize-release
 initialize
 
 	super initialize.
-	self inlines: OrderedCollection new
+	self content: ''

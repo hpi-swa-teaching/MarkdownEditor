@@ -1,4 +1,0 @@
-applying
-applyOnLine: aString
-
-	^ aString

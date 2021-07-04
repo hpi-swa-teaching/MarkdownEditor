@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"innerLine",
 		"children" ],
 	"name" : "MarkdownContainerBlock",
 	"pools" : [

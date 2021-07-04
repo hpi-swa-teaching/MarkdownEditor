@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 applyStylingWith: aMarkdownStyler
 
 	^ aMarkdownStyler styleLeafBlockWith: self

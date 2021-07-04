@@ -1,0 +1,4 @@
+accessing
+lastChild
+
+	^ self subclassResponsibility
