@@ -1,4 +1,3 @@
 accessing
 innerLine
-
 	^ innerLine

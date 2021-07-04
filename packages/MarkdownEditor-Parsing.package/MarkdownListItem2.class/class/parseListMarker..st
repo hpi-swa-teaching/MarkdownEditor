@@ -1,19 +1,21 @@
-as yet unclassified
+parsing
 parseListMarker: aParsingState
 	
-	| matcher length start isOrdered marker remains maxIndent|
-	maxIndent := 3.
-	aParsingState container class = MarkdownList2 ifTrue: [maxIndent := 1000].
-	isOrdered := false.
-	matcher := RxMatcher forString: '(\s{0,', maxIndent,'}([0-9]{1,9})(\.|\)))(.*)'.
+	| matcher listData |
+	listData := Dictionary new.
+	listData at: #isOrdered put: false.
+	listData at: #start put: nil.
+	matcher := self orderedMarkerMatcher: aParsingState.
 	(matcher matches: aParsingState currentLine)
-	ifTrue: [start := (matcher subexpressions: 3) first asNumber.
-		isOrdered := true]
-	ifFalse: [matcher := RxMatcher forString: '(\s{0,', maxIndent,'}((-|\+|\*)))(.*)'].
+	ifTrue: [listData at: #start put: (matcher subexpressions: 3) first asNumber.
+		listData at: #isOrdered put: true]
+	ifFalse: [matcher := self unorderdMarkerMatcher: aParsingState].
 	(matcher matches: aParsingState currentLine)
 	ifFalse: [^ nil].
-	length := (matcher subexpressions: 2) first size.
-	marker := (matcher subexpressions: 4) first.
-	remains := (matcher subexpressions: 5) first.
-	^ {isOrdered. start. length. marker. remains}
+	^ listData 
+		at: #length put: (matcher subexpressions: 2) first size;
+		at: #marker put: (matcher subexpressions: 4) first;
+		at: #remains put: (matcher subexpressions: 5) first;
+		yourself.
+	
 		

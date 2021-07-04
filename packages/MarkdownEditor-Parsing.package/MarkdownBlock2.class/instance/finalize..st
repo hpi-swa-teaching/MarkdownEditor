@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 finalize: aParsingState
 
-	^ self
+	self endPosition: aParsingState charPos - 1.

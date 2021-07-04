@@ -5,4 +5,4 @@ parseLine: aString
 		oldTip: self state tip;
 		container: self state document;
 		currentLine: aString.
-	self consumeContinuationMarkers.
+	self consumeContinuationMarkers2.

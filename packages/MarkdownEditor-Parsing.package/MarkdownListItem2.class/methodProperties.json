@@ -1,11 +1,17 @@
 {
 	"class" : {
-		"createNew:" : "C.H. 7/2/2021 15:09",
+		"checkBlankAfterParagraph:" : "C.H. 7/4/2021 11:39",
+		"createNew:" : "C.H. 7/4/2021 12:03",
+		"maxPaddingWith:" : "C.H. 7/4/2021 11:05",
+		"newFrom:" : "C.H. 7/4/2021 11:45",
+		"orderedMarkerMatcher:" : "C.H. 7/4/2021 11:12",
 		"parseIndention:" : "C.H. 7/2/2021 14:03",
-		"parseListMarker:" : "C.H. 7/2/2021 15:15" },
+		"parseListMarker:" : "C.H. 7/4/2021 11:31",
+		"parseWithState:" : "C.H. 7/4/2021 11:59",
+		"unorderdMarkerMatcher:" : "C.H. 7/4/2021 11:12" },
 	"instance" : {
 		"acceptsLines" : "C.H. 6/29/2021 09:52",
-		"adaptToDocumentWith:" : "C.H. 7/2/2021 13:54",
+		"adaptToDocumentWith:" : "C.H. 7/4/2021 10:22",
 		"canContain:" : "C.H. 6/30/2021 15:35",
 		"continue:" : "C.H. 7/2/2021 14:57",
 		"indention" : "JE 6/16/2021 13:16",

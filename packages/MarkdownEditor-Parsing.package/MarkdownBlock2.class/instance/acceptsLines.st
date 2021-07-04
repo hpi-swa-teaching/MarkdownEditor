@@ -1,4 +1,4 @@
-newStrat
+accessing
 acceptsLines
 	
 	^ self subclassResponsibility

@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newFrom:" : "LL 6/16/2021 15:04" },
+		 },
 	"instance" : {
 		"acceptsLines" : "C.H. 6/29/2021 09:52",
 		"addItem:" : "LL 6/16/2021 15:03",
 		"canContain:" : "C.H. 6/30/2021 15:35",
 		"continue:" : "C.H. 6/26/2021 20:26",
-		"finalize:" : "C.H. 6/29/2021 10:56",
+		"finalize:" : "C.H. 7/4/2021 10:22",
 		"indention" : "C.H. 7/1/2021 14:40",
 		"indention:" : "C.H. 7/1/2021 14:40",
 		"isLoose" : "LL 6/16/2021 15:03",

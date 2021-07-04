@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 continue: aString
 
 	^ 0

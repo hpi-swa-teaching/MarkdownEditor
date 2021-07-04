@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 appendChild: aMarkdownBlock
 
 	aMarkdownBlock container: self.

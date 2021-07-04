@@ -1,4 +1,4 @@
-accessing
+initialisation
 initialize
 
 	super initialize.

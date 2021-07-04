@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 canContain: aMarkdownBlock
 
 	^ aMarkdownBlock class ~= MarkdownListItem2

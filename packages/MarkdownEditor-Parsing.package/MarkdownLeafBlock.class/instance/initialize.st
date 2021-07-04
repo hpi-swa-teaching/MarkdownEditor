@@ -1,4 +1,4 @@
-as yet unclassified
+initialisation
 initialize
 
 	super initialize.

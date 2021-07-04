@@ -1,6 +1,7 @@
-as yet unclassified
+applying
 finalize: aParsingState
-	
+
+	super finalize: aParsingState
 	"check for blank lines between childs or subchilds"
 	"self children withIndexDo: [:child :index | 
 		self isLoose: 

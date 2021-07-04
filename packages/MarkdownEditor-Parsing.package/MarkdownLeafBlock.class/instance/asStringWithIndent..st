@@ -1,4 +1,4 @@
-accessing
+debugging
 asStringWithIndent: aString
 
-	^ aString, 'a', self class, ' with content: ', self content 
+	^ aString, 'a', self class, ' range: (', self startPosition, ', ', self endPosition, ') with content: ', self content 

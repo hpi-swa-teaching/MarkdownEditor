@@ -5,9 +5,9 @@ createNew: aParsingState
 		newHeading := ((self newWithOutClosingTagFrom: aParsingState currentLine) 
 			ifNil: [self newWithClosingTagFrom: aParsingState currentLine])
 		ifNil: [^ 0].
-		aParsingState 
-			newBlock: newHeading;
-			reduceCurrentLineTo: ''.
+		newHeading startPosition: aParsingState charPos.
+		aParsingState newBlock: newHeading.
+		aParsingState newBlock innerLine: ''.
 		^ 2.
 		
 		

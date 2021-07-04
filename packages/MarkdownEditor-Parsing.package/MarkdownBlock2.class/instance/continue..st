@@ -1,4 +1,4 @@
-newStrat
+applying
 continue: aParserState
 	
 	^ self subclassResponsibility

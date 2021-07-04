@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 addItem: aMarkdownListItem2
 	aMarkdownListItem2 isOrdered 
 		ifTrue: [aMarkdownListItem2 number: 
