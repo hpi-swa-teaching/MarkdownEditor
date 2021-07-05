@@ -5,7 +5,7 @@
 		"labels" : "jh 7/1/2021 10:45" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:36",
-		"completeTextElementFrom:" : "jh 6/30/2021 07:57",
+		"completeTextElementFrom:" : "jh 7/5/2021 09:20",
 		"continue:" : "mf 7/4/2021 14:38",
 		"finalize:" : "mf 7/4/2021 14:36",
 		"fontSize" : "jh 6/29/2021 21:11",
@@ -15,6 +15,7 @@
 		"indention:" : "JE 6/16/2021 13:20",
 		"info" : "JE 6/16/2021 13:20",
 		"info:" : "JE 6/16/2021 13:20",
+		"initialize" : "jh 7/5/2021 09:23",
 		"openingFence" : "JE 6/16/2021 13:21",
 		"openingFence:" : "jh 6/29/2021 22:02",
 		"textColor" : "jh 6/29/2021 21:12" } }
