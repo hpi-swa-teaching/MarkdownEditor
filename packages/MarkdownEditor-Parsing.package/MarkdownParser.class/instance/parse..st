@@ -9,7 +9,7 @@ parse: aString
 	aString lineIndicesDo: [:start :endWithoutDelimiters :end |
 		self parseLine: (aString copyFrom: start to: end)].
 	[self state tip notNil] whileTrue: [self finalize: self state tip].
-	self parseInlineFrom: self state document.
+	self startInlineParsing.
 	Transcript clear.
 	Transcript show: self state document asString.
 	^ self state document
