@@ -15,7 +15,9 @@
 		"acceptsLines" : "mf 7/4/2021 14:25",
 		"adaptToDocumentWith:" : "mf 7/4/2021 14:24",
 		"canContain:" : "mf 7/4/2021 14:25",
+		"completeTextElementFrom:" : "mf 7/4/2021 20:31",
 		"continue:" : "mf 7/4/2021 14:25",
+		"fontSize" : "mf 7/4/2021 20:31",
 		"htmlClosingTag" : "jh 6/25/2021 17:58",
 		"htmlOpeningTag" : "jh 6/25/2021 17:54",
 		"indention" : "JE 6/16/2021 13:16",
@@ -26,4 +28,5 @@
 		"listMarker:" : "LL 6/16/2021 15:00",
 		"matchesList:" : "mf 7/4/2021 14:25",
 		"number" : "LL 6/16/2021 15:00",
-		"number:" : "LL 6/16/2021 15:00" } }
+		"number:" : "LL 6/16/2021 15:00",
+		"textColor" : "mf 7/4/2021 20:31" } }

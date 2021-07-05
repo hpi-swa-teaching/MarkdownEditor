@@ -8,8 +8,10 @@
 		"acceptsLines" : "mf 7/4/2021 14:13",
 		"addItem:" : "mf 7/4/2021 14:13",
 		"canContain:" : "mf 7/4/2021 14:14",
+		"completeTextElementFrom:" : "mf 7/4/2021 20:30",
 		"continue:" : "mf 7/4/2021 14:14",
 		"finalize:" : "mf 7/4/2021 14:14",
+		"fontSize" : "mf 7/4/2021 20:30",
 		"htmlClosingTag" : "jh 6/25/2021 17:53",
 		"htmlOpeningTag" : "jh 6/25/2021 17:53",
 		"indention" : "mf 7/4/2021 14:12",
@@ -21,4 +23,5 @@
 		"listMarker" : "mf 7/4/2021 14:10",
 		"listMarker:" : "mf 7/4/2021 14:11",
 		"startNumber" : "mf 7/4/2021 14:10",
-		"startNumber:" : "mf 7/4/2021 14:10" } }
+		"startNumber:" : "mf 7/4/2021 14:10",
+		"textColor" : "mf 7/4/2021 20:30" } }
