@@ -6,6 +6,9 @@ styleLeafBlockWith: aMarkdownLeaf
 		inject: Text new
 		into: [:combinedText :inline | combinedText, (inline applyStylingWith: self)].
 	text := aMarkdownLeaf completeTextElementFrom: text.
-	text := self addAttribuesFrom: aMarkdownLeaf to: text.
-	^ text
-	
+	self addAttributesFrom: text from: aMarkdownLeaf startPosition to: aMarkdownLeaf endPosition.
+	"leaf block styling"
+	self text 
+		addAllAttributes: (aMarkdownLeaf textAttributes)
+		from: (aMarkdownLeaf startPosition)
+		to: (aMarkdownLeaf endPosition)

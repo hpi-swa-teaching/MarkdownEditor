@@ -2,17 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAttribuesFrom:to:" : "mf 7/6/2021 12:22",
-		"characterMatchingWith:and:" : "mf 7/1/2021 14:45",
+		"addAttributesFrom:from:to:" : "jh 7/6/2021 21:58",
 		"document" : "jh 6/29/2021 15:35",
 		"document:" : "jh 6/29/2021 15:35",
-		"handleWhiteSpacesWith:and:" : "jh 7/2/2021 11:01",
-		"insert:at:in:" : "jh 6/30/2021 09:03",
 		"privateFormat:" : "jst 6/28/2019 14:02",
-		"privateStyle:" : "C.H. 7/6/2021 16:34",
+		"privateStyle:" : "jh 7/6/2021 22:13",
 		"reset" : "jst 6/28/2019 14:03",
-		"sameTextFrom:and:" : "mf 7/1/2021 15:02",
-		"styleContainerBlockWith:" : "jh 7/5/2021 09:22",
-		"styleDocumentWith:" : "jh 6/29/2021 16:04",
+		"resetStylingIn:" : "jh 7/6/2021 21:54",
+		"styleContainerBlockWith:" : "jh 7/6/2021 22:10",
+		"styleDocumentWith:" : "jh 7/6/2021 22:05",
 		"styleInlineContainerWith:" : "mf 7/6/2021 12:57",
-		"styleLeafBlockWith:" : "mf 7/5/2021 23:20" } }
+		"styleLeafBlockWith:" : "jh 7/6/2021 22:09",
+		"text" : "jh 7/6/2021 22:12",
+		"text:" : "jh 7/6/2021 22:12" } }

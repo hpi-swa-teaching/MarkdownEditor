@@ -1,6 +1,6 @@
 instance creation
 createNew: aParsingState
-
+	
 	| matcher |
 	matcher := RxMatcher forString: '\s{0,3}>\s?(.*)'.
 	(matcher matches: aParsingState currentLine)

@@ -1,11 +1,9 @@
 styling
 styleContainerBlockWith: aMarkdownContainer
 
-	| text |
-	text := aMarkdownContainer children 
-		inject: Text new
-		into: [:combinedText :child | combinedText, (child applyStylingWith: self)].
-	text := aMarkdownContainer completeTextElementFrom: text.
-	text := self addAttribuesFrom: aMarkdownContainer to: text.
-	^ text
-	
+	aMarkdownContainer children 
+		do: [:child | child applyStylingWith: self].
+	self text 
+		addAllAttributes: (aMarkdownContainer textAttributes)
+		from: (aMarkdownContainer startPosition)
+		to: (aMarkdownContainer endPosition)
