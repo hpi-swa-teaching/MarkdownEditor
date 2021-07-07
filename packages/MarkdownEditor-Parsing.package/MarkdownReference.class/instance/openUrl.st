@@ -1,4 +1,4 @@
-clickable
+as yet unclassified
 openUrl
 
 	^ [:model || mime  url|

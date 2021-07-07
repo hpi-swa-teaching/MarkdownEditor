@@ -1,4 +1,4 @@
-clickable
+as yet unclassified
 getAbsoluteUrlFromPath: aString 
 
 	^(Url schemeNameForString: self path)

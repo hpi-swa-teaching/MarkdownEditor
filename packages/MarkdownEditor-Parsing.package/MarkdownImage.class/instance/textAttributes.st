@@ -1,4 +1,0 @@
-styling
-textAttributes
-
-	^ {TextEmphasis underlined}
