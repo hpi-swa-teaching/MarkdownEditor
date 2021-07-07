@@ -1,6 +1,7 @@
 styling
 addAttributesFrom: aText from: aStartPosition to: anEndPosition
 
+	"fixme: all text attributes are always packed on start position of leaf block!"
 	"copy inline styling"
 	aText runs doWithIndex: [:stylingAttribute :index | 
 		stylingAttribute ifNotEmpty: 

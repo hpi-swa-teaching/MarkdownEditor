@@ -3,7 +3,7 @@ testList: anOrderedCollection
 	
 	| codeBlock |
 	anOrderedCollection do: [:testTupel | 
-		codeBlock := MarkdownFencedCodeBlock2 newFrom: testTupel first.
+		codeBlock := MarkdownFencedCodeBlock newFrom: testTupel first.
 		testTupel size = 1 
 			ifTrue: [self assert: nil equals: codeBlock]
 			ifFalse: [self assert: testTupel second equals: codeBlock info.

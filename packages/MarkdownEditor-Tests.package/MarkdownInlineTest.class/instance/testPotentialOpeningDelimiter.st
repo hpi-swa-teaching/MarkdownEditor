@@ -2,10 +2,11 @@ tests - delimiters
 testPotentialOpeningDelimiter
 
 	| output expectedOutput |
-	output := MarkdownDelimiter newFrom: ' **t'.
+	output := MarkdownDelimiter newFromPadded: ' **t'.
 	expectedOutput := MarkdownDelimiter new.
 	expectedOutput count: 2;
 		type: $*;
-		bePotentialOpener.
+		bePotentialOpener;
+		beValid.
 
 	self assert: expectedOutput equals: output

@@ -3,7 +3,7 @@ testInvalidClosingFence
 
 	| testList testBlock cr |
 	cr := Character cr.
-	testBlock := MarkdownFencedCodeBlock2 newFrom: '````'.
+	testBlock := MarkdownFencedCodeBlock newFrom: '````'.
 	testList := {{'test'. ''. 'test'. true}.
 				{'```'. ''. 'test', cr, '```'. true}.
 				{'~~~'. ''. 'test', cr, '```', cr, '~~~'. true}.

@@ -2,7 +2,7 @@ tests - delimiters
 testNotOriginalOpenerAndCloser
 
 	| output expectedOutput |
-	output := MarkdownDelimiter newFrom: ' **t'.
+	output := MarkdownDelimiter newFromPadded: ' **t'.
 	expectedOutput := MarkdownDelimiter new.
 	expectedOutput beOriginalOpenerAndCloser.
 	

@@ -1,0 +1,4 @@
+styling
+completeTextElementFrom: aText
+	
+	^ aText

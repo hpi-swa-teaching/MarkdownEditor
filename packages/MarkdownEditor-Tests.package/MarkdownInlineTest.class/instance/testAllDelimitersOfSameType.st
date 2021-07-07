@@ -2,9 +2,9 @@ tests - delimiters
 testAllDelimitersOfSameType
 
 	| del1 del2 del3 |
-	del1 := MarkdownDelimiter newFrom: ' **t'.
-	del2 := MarkdownDelimiter newFrom: 't~~ '.
-	del3 := MarkdownDelimiter newFrom: ' ***t'.
+	del1 := MarkdownDelimiter newFromPadded: ' **t'.
+	del2 := MarkdownDelimiter newFromPadded: 't~~ '.
+	del3 := MarkdownDelimiter newFromPadded: ' ***t'.
 
 	secondPhase delimiters: (MarkdownLinkedList newFrom: {del1. del3}).
 	self assert: false equals: secondPhase areOnlyDifferentDelimiterTypesLeft.

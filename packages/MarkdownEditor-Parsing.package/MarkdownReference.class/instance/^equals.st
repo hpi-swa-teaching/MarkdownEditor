@@ -1,5 +1,4 @@
 comparing
-= anotherReference
+= anInlineContainer
 
-	^ super = anotherReference
-		and: [self path = anotherReference path]
+	^ super = anInlineContainer and: [ self path = anInlineContainer path]

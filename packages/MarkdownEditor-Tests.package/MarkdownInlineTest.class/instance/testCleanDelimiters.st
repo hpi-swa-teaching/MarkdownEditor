@@ -2,8 +2,8 @@ tests - delimiters
 testCleanDelimiters
 
 	| del1 del2 |
- 	del1 := MarkdownDelimiter newFrom: 't**t'.
-	del2 := MarkdownDelimiter newFrom: 't~~t'.
+ 	del1 := MarkdownDelimiter newFromPadded: 't**t'.
+	del2 := MarkdownDelimiter newFromPadded: 't~~t'.
 	secondPhase delimiters: MarkdownLinkedList new.
 	secondPhase delimiters 
 		add: del1;

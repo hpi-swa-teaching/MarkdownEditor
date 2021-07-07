@@ -2,10 +2,11 @@ tests - delimiters
 testPotentialClosingDelimiter
 
 	| output expectedOutput |
-	output := MarkdownDelimiter newFrom: 't** '.
+	output := MarkdownDelimiter newFromPadded: 't** '.
 	expectedOutput := MarkdownDelimiter new.
 	expectedOutput count: 2;
 		type: $*;
-		bePotentialCloser.
+		bePotentialCloser;
+		beValid.
 
 	self assert: expectedOutput equals: output

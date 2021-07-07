@@ -4,6 +4,9 @@
 		"labels" : "jh 7/1/2021 11:00" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:40",
+		"completeTextElementFrom:" : "jh 7/7/2021 09:06",
 		"continue:" : "mf 7/4/2021 14:40",
+		"fontSize" : "jh 7/7/2021 09:07",
 		"htmlClosingTag" : "jh 6/25/2021 17:44",
-		"htmlOpeningTag" : "jh 6/25/2021 17:44" } }
+		"htmlOpeningTag" : "jh 6/25/2021 17:44",
+		"textColor" : "jh 7/7/2021 09:08" } }

@@ -1,5 +1,5 @@
 instance creation
-newFrom: aString
+newFromPadded: aString
 
 	| type |
 	type := aString second.

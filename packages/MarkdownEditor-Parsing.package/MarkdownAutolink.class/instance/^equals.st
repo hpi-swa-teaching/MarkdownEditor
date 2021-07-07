@@ -1,6 +1,8 @@
 comparing
-= aContainerBlock
+= aMarkdownInlineElement
 
-	^ self class = aContainerBlock class
-		and: [self path = aContainerBlock path]
-		and: [self isEmail = aContainerBlock isEmail]
+	self == aMarkdownInlineElement
+		ifTrue: [ ^ true ].
+	self class = aMarkdownInlineElement class
+		ifFalse: [ ^ false ].
+	^ self isEmail = aMarkdownInlineElement isEmail and: [ self path = aMarkdownInlineElement path ]
