@@ -11,6 +11,4 @@ parse: aString
 		self parseLine: (aString copyFrom: start to: end)].
 	[self state tip notNil] whileTrue: [self finalize: self state tip].
 	self startInlineParsing.
-	Transcript clear.
-	Transcript show: self state document asString.
 	^ self state document

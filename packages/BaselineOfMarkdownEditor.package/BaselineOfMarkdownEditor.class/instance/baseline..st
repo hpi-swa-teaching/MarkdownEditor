@@ -18,5 +18,5 @@ baseline: spec
 					spec requires: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'SwaLint')].
 				
 			spec
-				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'MarkdownEditor-Parsing');
+				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'MarkdownEditor-Parsing' 'MarkdownEditor-Tests');
 				group: 'tests' with: #('MarkdownEditor-Tests')].
