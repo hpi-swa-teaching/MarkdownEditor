@@ -10,6 +10,7 @@ yellowButtonMenuItems
 			{'save as...' translated.	#saveAsFileDialog}.
 			#-.
 			{'convert to html' translated. #convertToHTML}.
+			{'open parsing tree' translated. #openParsingTree}.
 			#-.
 			{'appearance...' translated. #openSettings}
 		}.
