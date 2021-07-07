@@ -5,6 +5,10 @@
 		"initialize" : "lpf 6/13/2019 12:23",
 		"open" : "kgr 4/29/2019 13:18" },
 	"instance" : {
+		"applyBold" : "F.S 6/9/2021 10:46",
+		"applyInlineOnSelectionWith:" : "F.S 6/9/2021 11:16",
+		"applyItalic" : "F.S 6/9/2021 10:44",
+		"applyStrikeout" : "F.S 6/9/2021 10:46",
 		"applyUserInterfaceTheme" : "jh 5/30/2021 15:58",
 		"buildEditorTextMorphWith:" : "jh 6/30/2021 09:14",
 		"buildWith:" : "jh 5/31/2021 17:44",
@@ -33,10 +37,12 @@
 		"saveTextInModel" : "jh 6/28/2021 22:07",
 		"textMorph" : "cg 7/5/2020 12:21",
 		"textMorph:" : "cg 7/5/2020 12:21",
+		"textSelected" : "JE 6/16/2021 16:32",
 		"textStyler" : "jh 7/2/2021 09:59",
 		"window" : "jh 6/28/2021 22:07",
 		"window:" : "jh 5/27/2021 09:41",
 		"windowSpecsFor:" : "F.S 5/26/2021 11:35",
 		"windowTitle" : "MK 5/11/2020 19:00",
-		"yellowButtonMenu:" : "jh 7/2/2021 10:01",
-		"yellowButtonMenuItems" : "F.S 5/26/2021 12:12" } }
+		"yellowButtonMenu:" : "JE 6/16/2021 16:33",
+		"yellowButtonMenuItems" : "JE 6/16/2021 16:33",
+		"yellowButtonMenuItemsSelection" : "JE 6/16/2021 16:31" } }
