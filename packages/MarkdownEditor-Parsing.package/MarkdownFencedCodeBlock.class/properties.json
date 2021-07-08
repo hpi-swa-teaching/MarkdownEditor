@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"closingFence",
 		"indention",
 		"info",
 		"openingFence" ],

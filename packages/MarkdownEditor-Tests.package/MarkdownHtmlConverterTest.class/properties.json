@@ -7,8 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"htmlConverter",
+		"oldStyleSettings",
 		"parser",
-		"oldStyleSettings" ],
+		"parsingState" ],
 	"name" : "MarkdownHtmlConverterTest",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 html
 htmlOpeningTag
 	
-	^ '<blockquote>'
+	^ '<blockquote>', Character cr

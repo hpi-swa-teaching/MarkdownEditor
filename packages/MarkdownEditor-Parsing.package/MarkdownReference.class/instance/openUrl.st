@@ -1,4 +1,4 @@
-clickable
+as yet unclassified
 openUrl
 
 	^ [:model || mime  url|
@@ -6,6 +6,5 @@ openUrl
 			ifNotEmpty: [
 				url := self getAbsoluteUrlFromPath: model currentFilePath.
 				mime := url retrieveContents.
-				self halt.
 				mime
 					ifNotNil: [MarkdownUrlContentDisplay openWithMime: mime]]]

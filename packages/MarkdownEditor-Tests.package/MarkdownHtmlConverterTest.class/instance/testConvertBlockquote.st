@@ -3,7 +3,7 @@ testConvertBlockquote
 
 	| output blockquoteHtml expectedOutput |
 	parser parse: '> hello', Character cr, '> this is a', Character cr,'> blockquote test'.
-	output :=  (htmlConverter convertToHtml: parser document).
+	output :=  (htmlConverter convertToHtml: parsingState document).
 	blockquoteHtml :=
 '<blockquote>
 <p>hello
