@@ -16,7 +16,6 @@
 		"beClosed" : "JE 6/16/2021 13:07",
 		"beOpen" : "JE 6/16/2021 13:07",
 		"canContain:" : "mf 7/4/2021 13:55",
-		"close" : "LL 6/15/2021 10:45",
 		"closeUnsuitableFor:withState:" : "mf 7/4/2021 14:00",
 		"completeTextElementFrom:" : "jh 6/29/2021 16:53",
 		"container" : "mf 7/4/2021 13:57",
