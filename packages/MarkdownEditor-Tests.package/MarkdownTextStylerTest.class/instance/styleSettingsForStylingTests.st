@@ -1,5 +1,5 @@
-running
-styleSettingsForHtmlTests
+constants
+styleSettingsForStylingTests
 
 	| styleSettings |
 	

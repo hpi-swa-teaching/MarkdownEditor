@@ -1,4 +1,0 @@
-styling
-textAttribute
-
-	^ TextEmphasis bold
