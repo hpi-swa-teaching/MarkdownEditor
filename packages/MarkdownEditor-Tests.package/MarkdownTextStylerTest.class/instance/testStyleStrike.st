@@ -8,5 +8,5 @@ testStyleStrike
 	fontColor := self styleSettingsForStylingTests fontColors at: 'Paragraph'.
 	emphasis := TextEmphasis struckOut.
 	self
-		assertRunsValues: {self textAttributesFor: fontColor and: fontSize and: emphasis}
+		assertRunsValues: {(self textAttributesFor: fontColor and: fontSize) union: {emphasis}}
 		areStyleOf: text

@@ -1,4 +1,0 @@
-styling
-completeTextElementFrom: aText
-
-	^ aText

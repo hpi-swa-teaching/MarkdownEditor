@@ -8,5 +8,5 @@ testStyleBold2
 	fontColor := self styleSettingsForStylingTests fontColors at: 'Paragraph'.
 	emphasis := TextEmphasis bold.
 	self
-		assertRunsValues: {self textAttributesFor: fontColor and: fontSize and: emphasis}
+		assertRunsValues: {(self textAttributesFor: fontColor and: fontSize) union: {emphasis}}
 		areStyleOf: text
