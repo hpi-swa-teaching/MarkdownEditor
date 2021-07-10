@@ -1,12 +1,9 @@
 yellowButtonMenu
-yellowButtonMenuItemsSelection
+addFindReplaceItemsTo: aMenu
 
-	| entries |
-	entries := OrderedCollection withAll:
+	| inline|
+	inline := OrderedCollection withAll:
 		{
-			{'italic' translated.	   #applyItalic}.
-			{'bold' translated.		   #applyBold}.
-			{'strikeout' translated. #applyStrikeout}.
 			#-.
 			{'find...(f)' translated. #find}.
 			{'find again (g)' translated. #findAgain}.
@@ -14,4 +11,6 @@ yellowButtonMenuItemsSelection
 			{'do/replace again (j)' translated. #again}.
 			{'find and replace all' translated. #findAndReplaceAll}
 		}.
-	^ entries
+	^ aMenu 
+		addList: inline;
+		yourself
