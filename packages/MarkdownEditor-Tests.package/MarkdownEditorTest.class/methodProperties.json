@@ -13,6 +13,7 @@
 		"testApplyInlineWithSpaces" : "F.S 6/9/2021 11:55",
 		"testApplyTheme" : "jh 5/31/2021 17:17",
 		"testApplyThemeDoesNotThrowErrorForInlineStyling" : "F.S 6/9/2021 11:40",
+		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : " 7/10/2021 17:37:02",
 		"testBuildingEditorReturnsWindow" : "JE 5/26/2021 13:17",
 		"testBuildingEditorTextMorphReturnsSpec" : "JE 5/26/2021 13:17",
 		"testConvertToHtml" : "jh 5/29/2021 11:42",
@@ -29,4 +30,4 @@
 		"testWindowClose" : "JE 6/1/2021 16:09",
 		"testWindowCreation" : "JE 5/26/2021 13:14",
 		"testWindowLabel" : "JE 5/26/2021 13:14",
-		"testYellowButtonMenuExists" : "JE 5/26/2021 13:14" } }
+		"testYellowButtonMenuExists" : "F.S 7/10/2021 18:41" } }
