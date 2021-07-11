@@ -11,4 +11,4 @@ processPossibleDelimitersFrom: aRawString
     		ifFalse:[(self doesAlternativeEmphasisRuleApplyFor: paddedDelimiterRun with: delimiterType)
 				ifTrue: [^ self processStringFrom: aRawString].
 				self addDelimiterFrom: paddedDelimiterRun].
-      ^ aRawString copyFrom: paddedDelimiterRun size - 1 to: aRawString size
+	^ aRawString allButFirst: paddedDelimiterRun size - 2

@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"type",
-		"inlineIndex",
 		"count",
+		"inlineIndex",
+		"originalOpenerAndCloser",
 		"potentialCloser",
 		"potentialOpener",
-		"valid",
-		"originalOpenerAndCloser" ],
+		"type",
+		"valid" ],
 	"name" : "MarkdownDelimiter",
 	"pools" : [
 		 ],

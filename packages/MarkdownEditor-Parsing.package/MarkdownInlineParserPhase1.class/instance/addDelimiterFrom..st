@@ -4,5 +4,4 @@ addDelimiterFrom: aString
 	| delimiter |
 	delimiter := MarkdownDelimiter newFromPadded: aString.
 	self delimiters add: delimiter.
-	self inlineElements add: delimiter.
-	self previousChar: delimiter type
+	self addToInlineElements: delimiter

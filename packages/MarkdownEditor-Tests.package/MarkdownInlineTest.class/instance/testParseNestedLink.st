@@ -1,12 +1,10 @@
 tests - links
 testParseNestedLink
 	
-	| expectedOutput link output str str2 |
-	output := parser parseInline: '[[this is a link](hpi.de) and this is text](hpi.de)'.
-	str := MarkdownString newFrom: '['.
+	| expectedOutput link output |
+	output := parser parseInline: '[<squeak@hpi.de>](hpi.de)'.
 	link := MarkdownLink newFrom: 'hpi.de'.
-	link children add: (MarkdownString newFrom: 'this is a link').
-	str2 := MarkdownString newFrom: ' and this is text](hpi.de)'.
-	expectedOutput := MarkdownLinkedList newFrom: {str. link. str2}.
+	link children add: (MarkdownAutolink newWith: #beEmail and: 'squeak@hpi.de').
+	expectedOutput := MarkdownLinkedList newFrom: {link}.
 	
 	self assert: expectedOutput equals: output

@@ -2,9 +2,9 @@ helpers - autolink
 decideAutolinkTextMatchesFrom: aRawString with: aPossiblePath and: aPossiblePathRange
 
 	(aPossiblePath matchesRegex: MarkdownAutolink URIRegex)
-		ifTrue: [self addAutolinkType: #beNotEmail from: aPossiblePath.
-				^ aRawString copyFrom: aPossiblePathRange stop + 1 to: aRawString size].
+		ifTrue: [self addToInlineElements: (MarkdownAutolink newWith: #beNotEmail and: aPossiblePath).
+				^ aRawString allButFirst: aPossiblePathRange stop].
 	(aPossiblePath matchesRegex: MarkdownAutolink emailRegex)
-		ifTrue: [self addAutolinkType: #beEmail from: aPossiblePath.
-				^ aRawString copyFrom: aPossiblePathRange stop + 1 to: aRawString size].
+		ifTrue: [self addToInlineElements: (MarkdownAutolink newWith: #beEmail and: aPossiblePath).
+				^ aRawString allButFirst: aPossiblePathRange stop].
 	^ self processStringFrom: aRawString
