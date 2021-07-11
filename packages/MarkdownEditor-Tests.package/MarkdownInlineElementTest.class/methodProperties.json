@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCodeNoWhitespaceStripping" : "jh 7/11/2021 19:45",
+		"testCodeNoWhitespaceStripping2" : "jh 7/11/2021 19:45",
+		"testCodeWhitespaceCharacterCr" : "jh 7/11/2021 19:45",
+		"testCodeWhitespaceStripping" : "jh 7/11/2021 19:45",
+		"testCodeWhitespaceStripping2" : "jh 7/11/2021 19:45",
+		"testCodeWhitespaceStripping3" : "jh 7/11/2021 19:45",
+		"testCodeWhitespaceStripping4" : "jh 7/11/2021 19:44" } }

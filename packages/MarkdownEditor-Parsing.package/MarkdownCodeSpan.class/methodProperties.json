@@ -1,12 +1,16 @@
 {
 	"class" : {
-		"newFrom:" : "jh 7/11/2021 12:03" },
+		"newFrom:fenceLength:" : "jh 7/11/2021 19:52" },
 	"instance" : {
-		"=" : "jh 7/11/2021 11:20",
+		"=" : "jh 7/11/2021 19:27",
+		"applyStylingWith:" : "jh 7/11/2021 20:02",
 		"content" : "jh 7/8/2021 13:47",
 		"content:" : "jh 7/8/2021 13:47",
-		"handleWhiteSpaces" : "jh 7/11/2021 12:37",
+		"convertWith:" : "jh 7/11/2021 20:10",
+		"handleWhiteSpaces" : "jh 7/11/2021 19:35",
 		"hash" : "jh 7/11/2021 11:20",
+		"htmlClosingTag" : "jh 7/11/2021 20:11",
+		"htmlOpeningTag" : "jh 7/11/2021 20:11",
 		"lastChar" : "jh 7/11/2021 11:26",
 		"totalLength" : "jh 7/11/2021 11:20",
 		"totalLength:" : "jh 7/11/2021 11:20" } }

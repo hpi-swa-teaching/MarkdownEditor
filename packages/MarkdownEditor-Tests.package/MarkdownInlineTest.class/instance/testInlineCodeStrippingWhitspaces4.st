@@ -1,8 +1,11 @@
 tests - inline code
 testInlineCodeStrippingWhitspaces4
 
-	| expectedOutput output |
+	| expectedOutput output code |
 	output := parser parseInline: '`  `'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownCodeSpan newFrom: '  '}.
+	code := MarkdownCodeSpan new
+		content: '  ';
+		totalLength: 4.
+	expectedOutput := MarkdownLinkedList newFrom: {code}.
 	
 	self assert: expectedOutput equals: output

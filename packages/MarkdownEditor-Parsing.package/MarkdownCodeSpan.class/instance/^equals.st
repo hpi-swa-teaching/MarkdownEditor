@@ -1,9 +1,9 @@
 comparing
-= anObject
-	"Answer whether the receiver and anObject represent the same object."
+= aMarkdownInlineElement
 
-	self == anObject
+	self == aMarkdownInlineElement
 		ifTrue: [ ^ true ].
-	self class = anObject class
+	self class = aMarkdownInlineElement class
 		ifFalse: [ ^ false ].
-	^ self content = anObject content and: [ self totalLength = anObject totalLength ]
+	^ self content = aMarkdownInlineElement content 
+		and: [ self totalLength = aMarkdownInlineElement totalLength ]

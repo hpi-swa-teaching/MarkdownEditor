@@ -1,8 +1,11 @@
 tests - inline code
 testInlineCode
 
-	| expectedOutput output |
+	| expectedOutput output code |
 	output := parser parseInline: '`test`'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownCodeSpan newFrom: 'test'}.
+	code := MarkdownCodeSpan new
+		content: 'test';
+		totalLength: 6.
+	expectedOutput := MarkdownLinkedList newFrom: {code}.
 	
 	self assert: expectedOutput equals: output

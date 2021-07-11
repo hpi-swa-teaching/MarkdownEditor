@@ -1,4 +1,4 @@
 html
 convertWith: anHtmlConverter
 
-	^ anHtmlConverter convertAutolinkWith: self
+	^ self htmlOpeningTag, self path, self htmlClosingTag
