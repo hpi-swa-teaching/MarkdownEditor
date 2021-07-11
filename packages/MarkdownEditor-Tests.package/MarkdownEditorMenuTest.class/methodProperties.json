@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JE 5/19/2021 12:38",
+		"styleSettingsForHtmlTests" : "jh 5/29/2021 11:43",
+		"tearDown" : "jh 5/29/2021 11:07",
+		"testApplyAutoLink" : "JE 7/11/2021 17:19",
+		"testApplyBlockquote" : "JE 7/11/2021 17:18",
+		"testApplyHeading" : "JE 7/11/2021 17:17",
+		"testApplyImageDestination" : "JE 7/11/2021 17:21",
+		"testApplyImageText" : "JE 7/11/2021 17:23",
+		"testApplyInline" : "JE 7/11/2021 16:58",
+		"testApplyInlineEmptyCharacter" : "JE 7/11/2021 16:59",
+		"testApplyInlineIntervalInText" : "JE 7/11/2021 16:59",
+		"testApplyInlineNested" : "JE 7/11/2021 17:00",
+		"testApplyInlineSingleCharacter" : "JE 7/11/2021 17:00",
+		"testApplyLinkDestination" : "JE 7/11/2021 17:24",
+		"testApplyLinkText" : "JE 7/11/2021 17:23",
+		"testSelectionMenuIsDifferent" : "JE 7/11/2021 17:13",
+		"testYellowButtonMenuExists" : "JE 7/11/2021 17:08",
+		"testYellowButtonMenuSelectionExists" : "JE 7/11/2021 17:10" } }

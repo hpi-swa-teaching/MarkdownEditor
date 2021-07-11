@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"newFor:" : "JE 7/11/2021 16:31" },
+	"instance" : {
+		"addExportItemsTo:" : "JE 7/11/2021 16:53",
+		"addFileItemsTo:" : "JE 7/11/2021 16:52",
+		"addFindReplaceItemsTo:" : "JE 7/11/2021 16:50",
+		"addHeadingMenuItemsTo:" : "JE 7/11/2021 16:35",
+		"addInlineItemsTo:" : "JE 7/11/2021 16:56",
+		"addLinkMenuItemsTo:" : "JE 7/11/2021 16:36",
+		"addMenuItemsSelectionTo:" : "JE 7/11/2021 16:51",
+		"addMenuItemsTo:" : "JE 7/11/2021 16:54",
+		"applyAutoLink" : "JE 7/11/2021 16:38",
+		"applyBlockquote" : "JE 7/11/2021 16:38",
+		"applyHeadingAt:" : "JE 7/11/2021 16:45",
+		"applyImageDestination" : "JE 7/11/2021 17:22",
+		"applyImageText" : "JE 7/11/2021 17:22",
+		"applyInlineOnSelectionWith:" : "JE 7/11/2021 16:40",
+		"applyLinkDestination" : "JE 7/11/2021 17:24",
+		"applyLinkText" : "JE 7/11/2021 17:24",
+		"findAndReplaceAll" : "JE 7/11/2021 17:31",
+		"pluggableTextMorph" : "JE 7/11/2021 16:31",
+		"pluggableTextMorph:" : "JE 7/11/2021 16:31",
+		"textSelected" : "JE 7/11/2021 16:57",
+		"yellowButtonMenu:" : "JE 7/11/2021 16:50" } }
