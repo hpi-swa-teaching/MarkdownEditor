@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MarkdownATXHeading2Test",
+		"parser" ],
+	"name" : "MarkdownBlockTestCase",
 	"pools" : [
 		 ],
-	"super" : "MarkdownBlockTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -13,7 +13,7 @@
 		"testApplyInlineWithSpaces" : "F.S 6/9/2021 11:55",
 		"testApplyTheme" : "mf 7/1/2021 14:00",
 		"testApplyThemeDoesNotThrowErrorForInlineStyling" : "F.S 6/9/2021 11:40",
-		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : " 7/7/2021 10:29:43",
+		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "7/7/2021 10:29:43",
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "jh 7/1/2021 11:49",
 		"testBuildingEditorReturnsWindow" : "JE 5/26/2021 13:17",
 		"testBuildingEditorTextMorphReturnsSpec" : "JE 5/26/2021 13:17",
