@@ -1,3 +1,3 @@
 accessing
-isOrdered: anObject
-	isOrdered := anObject
+isOrdered: aBoolean
+	isOrdered := aBoolean

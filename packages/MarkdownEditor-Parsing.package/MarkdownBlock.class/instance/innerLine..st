@@ -1,4 +1,4 @@
 accessing
-innerLine: anInnerLine
+innerLine: aString
 
-	innerLine := anInnerLine
+	innerLine := aString

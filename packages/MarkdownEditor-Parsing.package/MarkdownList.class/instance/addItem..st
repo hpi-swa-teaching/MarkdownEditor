@@ -1,7 +1,7 @@
 applying
-addItem: aMarkdownListItem2
+addItem: aMarkdownListItem
 
-	aMarkdownListItem2 isOrdered 
-		ifTrue: [aMarkdownListItem2 number: 
+	aMarkdownListItem isOrdered 
+		ifTrue: [aMarkdownListItem number: 
 			self startNumber + self children size - 1].
-	self children add: aMarkdownListItem2
+	self children add: aMarkdownListItem

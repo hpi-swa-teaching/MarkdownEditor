@@ -1,3 +1,4 @@
 accessing
-innerStartPosition: anObject
-	innerStartPosition := anObject
+innerStartPosition: aNumber
+
+	innerStartPosition := aNumber

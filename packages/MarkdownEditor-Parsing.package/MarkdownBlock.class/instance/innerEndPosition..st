@@ -1,3 +1,4 @@
 accessing
-innerEndPosition: anObject
-	innerEndPosition := anObject
+innerEndPosition: aNumber
+
+	innerEndPosition := aNumber

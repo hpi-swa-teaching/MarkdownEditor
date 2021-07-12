@@ -1,4 +1,4 @@
 accessing
-newBlock: aBlock
+newBlock: aMarkdownBlock
 
-	newBlock := aBlock
+	newBlock := aMarkdownBlock

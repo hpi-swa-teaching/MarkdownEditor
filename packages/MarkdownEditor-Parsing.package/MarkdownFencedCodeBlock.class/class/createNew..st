@@ -2,7 +2,7 @@ instance creation
 createNew: aParsingState
 	
 	| matcher |
-	matcher := RxMatcher forString: '((\s*)(`{3,1000}(?!.*`)|~{3,1000}))(.*)'.
+	matcher := RxMatcher forString: '((\s{0,3})(`{3,1000}(?!.*`)|~{3,1000}))(.*)'.
 	(matcher matches: aParsingState currentLine)
 		ifTrue: [aParsingState newBlock: 
 				(self new

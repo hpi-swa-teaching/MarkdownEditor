@@ -1,9 +1,9 @@
 applying
-addChild: aBlock withState: aParsingState
+addChild: aMarkdownBlock withState: aParsingState
 
-	(self canContain: aBlock) 
+	(self canContain: aMarkdownBlock) 
 		ifFalse: [self finalize: aParsingState.
 			self beClosed. 
-			^ self container addChild: aBlock withState: aParsingState].
-	self appendChild: aBlock.
-	^ aBlock
+			^ self container addChild: aMarkdownBlock withState: aParsingState].
+	self appendChild: aMarkdownBlock.
+	^ aMarkdownBlock

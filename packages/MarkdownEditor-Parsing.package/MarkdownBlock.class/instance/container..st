@@ -1,4 +1,4 @@
 accessing
-container: aContainer
+container: aMarkdownContainerBlock
 
-	container := aContainer
+	container := aMarkdownContainerBlock

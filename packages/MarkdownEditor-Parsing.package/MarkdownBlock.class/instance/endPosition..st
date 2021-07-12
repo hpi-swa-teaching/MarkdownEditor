@@ -1,4 +1,4 @@
 accessing
-endPosition: aPosition
+endPosition: aNumber
 
-	endPosition := aPosition
+	endPosition := aNumber

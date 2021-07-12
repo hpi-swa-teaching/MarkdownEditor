@@ -1,8 +1,8 @@
 phase 2
-finalize: block
+finalize: aMarkdownBlock
 
 	| parent |
-	parent := block container.
-	block beClosed.
-	block finalize: self state.
+	parent := aMarkdownBlock container.
+	aMarkdownBlock beClosed.
+	aMarkdownBlock finalize: self state.
 	self state tip: parent

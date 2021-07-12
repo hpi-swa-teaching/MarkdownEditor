@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBlankLine" : "mf 7/1/2021 14:08",
+		"testContinueDefault" : "LL 7/12/2021 22:31",
+		"testContinueEmpty" : "LL 7/12/2021 22:32",
+		"testDefault" : "mf 7/1/2021 14:08",
+		"testInvalid" : "mf 7/1/2021 14:08",
+		"testList:" : "LL 7/12/2021 22:25" } }

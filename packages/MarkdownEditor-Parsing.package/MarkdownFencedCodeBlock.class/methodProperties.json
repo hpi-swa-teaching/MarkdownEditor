@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"canChangeFontColor" : "jh 7/1/2021 10:46",
-		"createNew:" : "mf 7/4/2021 14:34",
+		"createNew:" : "LL 7/12/2021 22:10",
 		"labels" : "jh 7/1/2021 10:45" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:36",
 		"completeTextElementFrom:" : "mf 7/6/2021 12:28",
-		"continue:" : "C.H. 7/9/2021 18:40",
+		"continue:" : "LL 7/12/2021 22:26",
 		"finalize:" : "mf 7/4/2021 14:36",
 		"fontSize" : "jh 6/29/2021 21:11",
 		"htmlClosingTag" : "jh 6/25/2021 17:42",

@@ -1,4 +1,4 @@
 applying
-continue: aParserState
+continue: aParsingState
 	
 	^ self subclassResponsibility
