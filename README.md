@@ -11,7 +11,7 @@
 ## Features
 
 The editor works like a normal workspace, but highlights the Markdown as you type. You can save the text as usual and also copy into and from the window.  
-It is by no means feature complete. But the aspects we included, are conforming to the [Commonmark Spec Version 0.3](https://spec.commonmark.org/) [Width Github flavoured Additions](https://github.github.com/gfm/). 
+It is by no means feature complete. But the aspects we included, are conforming to the [Commonmark Spec Version 0.3](https://spec.commonmark.org/) [with Github flavoured Additions](https://github.github.com/gfm/). 
 
 - [x] Realtime syntax highlighting
 - [x] ATX-Headings
