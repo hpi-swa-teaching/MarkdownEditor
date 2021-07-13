@@ -6,7 +6,8 @@ testInlineCodeInLinks2
 	link := MarkdownLink newFrom: '/foo'.
 	code := MarkdownCodeSpan new
 		content: 'code in a link';
-		totalLength: 16.
+		fenceLength: 1;
+		rawContent: 'code in a link'.
 	link children add: code.
 	expectedOutput := MarkdownLinkedList newFrom: { link }.
 	

@@ -5,7 +5,8 @@ testInlineCodeInLinks4
 	output := parser parseInline: '`[not a link`](/foo)'.
 	code := MarkdownCodeSpan new
 		content: '[not a link';
-		totalLength: 13.
+		fenceLength: 1;
+		rawContent: '[not a link'.
 	str := MarkdownString newFrom: '](/foo)'.
 	expectedOutput := MarkdownLinkedList newFrom: { code. str }.
 	

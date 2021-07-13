@@ -5,6 +5,7 @@ testCodeWhitespaceStripping3
 	codeSpan := MarkdownCodeSpan newFrom: '  t  ' fenceLength: 0.
 	expectedCodeSpan := MarkdownCodeSpan new.
 	expectedCodeSpan content: ' t ';
-		totalLength: 5.
+		fenceLength: 0;
+		rawContent: '  t  '.
 		
 	self assert: expectedCodeSpan equals: codeSpan

@@ -6,7 +6,8 @@ testInlineCodeInLinks
 	str := MarkdownString newFrom: '[not a '.
 	code := MarkdownCodeSpan new
 		content: 'link](/foo';
-		totalLength: 12.
+		fenceLength: 1;
+		rawContent: 'link](/foo'.
 	str2 := MarkdownString newFrom: ')'.
 	expectedOutput := MarkdownLinkedList newFrom: {str. code. str2}.
 	

@@ -1,16 +1,18 @@
 {
 	"class" : {
-		"newFrom:fenceLength:" : "mf 7/13/2021 13:00" },
+		"newFrom:fenceLength:" : "jh 7/13/2021 15:42" },
 	"instance" : {
-		"=" : "jh 7/11/2021 19:27",
-		"applyStylingWith:" : "jh 7/11/2021 20:02",
+		"=" : "jh 7/13/2021 15:43",
+		"applyStylingWith:" : "jh 7/13/2021 11:57",
 		"content" : "mf 7/13/2021 12:54",
 		"content:" : "mf 7/13/2021 12:54",
 		"convertWith:" : "jh 7/11/2021 20:10",
+		"fenceLength" : "jh 7/13/2021 11:54",
+		"fenceLength:" : "jh 7/13/2021 11:54",
 		"handleWhiteSpaces" : "mf 7/13/2021 12:54",
-		"hash" : "jh 7/11/2021 11:20",
+		"hash" : "jh 7/13/2021 15:43",
 		"htmlClosingTag" : "jh 7/11/2021 20:11",
 		"htmlOpeningTag" : "jh 7/11/2021 20:11",
 		"lastChar" : "jh 7/11/2021 11:26",
-		"totalLength" : "mf 7/13/2021 12:53",
-		"totalLength:" : "mf 7/13/2021 12:53" } }
+		"rawContent" : "jh 7/13/2021 15:37",
+		"rawContent:" : "jh 7/13/2021 15:37" } }

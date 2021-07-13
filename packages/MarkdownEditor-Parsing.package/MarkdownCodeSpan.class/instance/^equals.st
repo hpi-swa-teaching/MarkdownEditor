@@ -1,9 +1,10 @@
 comparing
-= aMarkdownInlineElement
+= aMarkdownCodeSpan
+	"Answer whether the receiver and anObject represent the same object."
 
-	self == aMarkdownInlineElement
+	self == aMarkdownCodeSpan
 		ifTrue: [ ^ true ].
-	self class = aMarkdownInlineElement class
+	self class = aMarkdownCodeSpan class
 		ifFalse: [ ^ false ].
-	^ self content = aMarkdownInlineElement content 
-		and: [ self totalLength = aMarkdownInlineElement totalLength ]
+	^ self content = aMarkdownCodeSpan content
+		and: [ self fenceLength = aMarkdownCodeSpan fenceLength and: [ self rawContent = aMarkdownCodeSpan rawContent ] ]

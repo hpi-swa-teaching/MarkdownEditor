@@ -5,7 +5,8 @@ testInlineCode2
 	output := parser parseInline: '`te*s*t`'.
 	code := MarkdownCodeSpan new
 		content: 'te*s*t';
-		totalLength: 8.
+		fenceLength: 1;
+		rawContent: 'te*s*t'.
 	expectedOutput := MarkdownLinkedList newFrom: {code}.
 	
 	self assert: expectedOutput equals: output

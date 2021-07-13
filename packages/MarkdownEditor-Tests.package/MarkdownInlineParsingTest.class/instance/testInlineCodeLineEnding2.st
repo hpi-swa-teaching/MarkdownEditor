@@ -5,7 +5,8 @@ testInlineCodeLineEnding2
 	output := parser parseInline: ('``', Character cr, '     test', Character cr, 'squeak', Character cr, '``').
 	code := MarkdownCodeSpan new
 		content: 'test squeak';
-		totalLength: 22.
+		fenceLength: 2;
+		rawContent: '', Character cr, '     test', Character cr, 'squeak', Character cr.
 	expectedOutput := MarkdownLinkedList newFrom: {code}.
 	
 	self assert: expectedOutput equals: output

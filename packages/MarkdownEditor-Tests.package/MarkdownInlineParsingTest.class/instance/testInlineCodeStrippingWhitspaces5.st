@@ -5,7 +5,8 @@ testInlineCodeStrippingWhitspaces5
 	output := parser parseInline: '`test    test`'.
 	code := MarkdownCodeSpan new
 		content: 'test    test';
-		totalLength: 14.
+		fenceLength: 1;
+		rawContent: 'test    test'.
 	expectedOutput := MarkdownLinkedList newFrom: {code}.
 	
 	self assert: expectedOutput equals: output

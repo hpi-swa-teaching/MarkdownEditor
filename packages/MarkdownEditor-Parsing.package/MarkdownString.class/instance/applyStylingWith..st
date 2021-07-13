@@ -1,4 +1,4 @@
 styling
 applyStylingWith: aMarkdownStyler
 
-	^ self content asText
+	^ self content asText printHtmlString
