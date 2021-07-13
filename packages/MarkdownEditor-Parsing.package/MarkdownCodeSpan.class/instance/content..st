@@ -1,3 +1,4 @@
 accessing
-content: anObject
-	content := anObject
+content: aString
+
+	content := aString

@@ -9,7 +9,7 @@
 		"parser",
 		"firstPhase",
 		"secondPhase" ],
-	"name" : "MarkdownInlineTest",
+	"name" : "MarkdownInlineDelimiterTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

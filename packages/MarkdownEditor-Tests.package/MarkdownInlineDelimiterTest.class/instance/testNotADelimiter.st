@@ -7,4 +7,3 @@ testNotADelimiter
 	expectedOutput := MarkdownString newFrom: '**'.
 
 	self assert: expectedOutput equals: firstPhase inlineElements first
-	

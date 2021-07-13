@@ -1,3 +1,4 @@
 accessing
-totalLength: anObject
-	totalLength := anObject
+totalLength: aLength
+
+	totalLength := aLength
