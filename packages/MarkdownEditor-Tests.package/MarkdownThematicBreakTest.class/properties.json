@@ -10,5 +10,5 @@
 	"name" : "MarkdownThematicBreakTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MarkdownBlockTestCase",
 	"type" : "normal" }

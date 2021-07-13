@@ -2,8 +2,7 @@ tests - singeLines
 testBlockNesting
 
 	| document |
-	document := MarkdownDocument newFrom: ''.
-	document := ((MarkdownParser new document: document) parse: '> - # test') document.
+	document := (MarkdownParser new) parse: '> - # test'.
 	self assert: MarkdownBlockquote equals: (document := document children first) class.
 	self assert: MarkdownList equals: (document := document children first) class.
 	self assert: MarkdownListItem equals: (document := document children first) class.

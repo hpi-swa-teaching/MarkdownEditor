@@ -6,13 +6,16 @@ testDefault
 		openingFence: '```';
 		indention: 0;
 		yourself.
-	testList := {{'test'. 0. 'test'. true}.
-	{'test'. 0. 'test', Character cr, 'test'. true}.
-	{'```'. 2. 'test', Character cr, 'test'. false}}.
+	testList := {{'test'. 0. true}.
+	{'test'. 0. true}.
+	{'```'. 2. false}}.
 	self testList: testList onBlock: testBlock.
 	
-	testBlock := MarkdownFencedCodeBlock newFrom: '~~~'.
-	testList := {{'test'. 0. 'test'. true}.
-	{'test'. 0. 'test', Character cr, 'test'. true}.
-	{'~~~'. 2. 'test', Character cr, 'test'. false}}.
+	testBlock := (MarkdownFencedCodeBlock new)
+		openingFence: '~~~';
+		indention: 0;
+		yourself.
+	testList := {{'test'. 0. true}.
+	{'test'. 0. true}.
+	{'~~~'. 2. false}}.
 	self testList: testList onBlock: testBlock.

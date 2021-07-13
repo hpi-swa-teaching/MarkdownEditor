@@ -10,5 +10,5 @@
 	"name" : "MarkdownFencedCodeBlockTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MarkdownBlockTestCase",
 	"type" : "normal" }

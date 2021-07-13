@@ -7,11 +7,11 @@ testInvalidClosingFence
 		openingFence: '````';
 		indention: 0;
 		yourself.
-	testList := {{'test'. ''. 'test'. true}.
-				{'```'. ''. 'test', cr, '```'. true}.
-				{'~~~'. ''. 'test', cr, '```', cr, '~~~'. true}.
-				{'``` ``'. ''. 'test', cr, '```', cr, '~~~', cr, '``` ``'. true}.
-				{'``` squeak'. ''. 'test', cr, '```', cr, '~~~', cr, '``` ``', cr, '``` squeak'. true}.
-				{'    ````'. ''. 'test', cr, '```', cr, '~~~', cr, '``` ``', cr, '``` squeak', cr, '    ````'. true}.
-				{'````'. ''. 'test', cr, '```', cr, '~~~', cr, '``` ``', cr, '``` squeak', cr, '    ````'. false}}.
+	testList := {{'test'. 0. true}.
+				{'```'. 0. true}.
+				{'~~~'. 0. true}.
+				{'``` ``'. 0. true}.
+				{'``` squeak'. 0. true}.
+				{'    ````'. 0. true}.
+				{'````'. 2. false}}.
 	self testList: testList onBlock: testBlock.

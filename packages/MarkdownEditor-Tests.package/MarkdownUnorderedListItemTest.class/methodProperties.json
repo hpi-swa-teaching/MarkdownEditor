@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testApplyDefault" : "LL 7/12/2021 22:51",
-		"testApplyEmptyLine" : "LL 7/12/2021 22:52",
+		"testContinueDefault" : "LL 7/13/2021 17:28",
+		"testContinueEmptyLine" : "LL 7/13/2021 17:28",
 		"testDefault" : "mf 7/1/2021 14:10",
 		"testEmpty" : "mf 7/1/2021 14:10",
 		"testIndention" : "mf 7/1/2021 14:10",

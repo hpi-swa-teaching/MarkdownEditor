@@ -1,5 +1,5 @@
 tests - lineAdding
-testApplyEmptyLine
+testContinueEmptyLine
 
 	| testList testBlock |
 	testBlock := (MarkdownListItem new)

@@ -1,5 +1,5 @@
 tests - lineAdding
-testApplyOnLine
+testContinue
 
 	| heading state |
 	state := (MarkdownParsingState new) 

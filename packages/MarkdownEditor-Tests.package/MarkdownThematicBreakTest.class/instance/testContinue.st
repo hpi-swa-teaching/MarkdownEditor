@@ -1,5 +1,5 @@
 tests - lineAdding
-testApplyOnLine
+testContinue
 
 	| thematicBreak state |
 	state := (MarkdownParsingState new) currentLine: 'test'.

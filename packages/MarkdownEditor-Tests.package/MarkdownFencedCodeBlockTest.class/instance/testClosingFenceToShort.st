@@ -6,8 +6,8 @@ testClosingFenceToShort
 		openingFence: '````';
 		indention: 0;
 		yourself.
-	testList := {{'test'. ''. 'test'. true}.
-	{'```'. ''. 'test', Character cr, '```'. true}.
-	{'~~~'. ''. 'test', Character cr, '```', Character cr, '~~~'. true}.
-	{'````'. ''. 'test', Character cr, '```', Character cr, '~~~'. false}}.
+	testList := {{'test'. 0. true}.
+	{'```'. 0. true}.
+	{'~~~'. 0. true}.
+	{'````'. 2. false}}.
 	self testList: testList onBlock: testBlock.

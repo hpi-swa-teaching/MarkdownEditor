@@ -1,5 +1,5 @@
 tests - lineAdding
-testApplyEmptyLine
+testContinueDefault
 
 	| testList testBlock |
 	testBlock := (MarkdownListItem new)
@@ -7,6 +7,6 @@ testApplyEmptyLine
 		innerLine: 'test';
 		container: (MarkdownList new indention: 2);
 		yourself.
-	testList := {{''. 1}.
-				{'  test test'. 0}}.
+	testList := {{'  test test'. 0}.
+				{'     test test'. 0}}.
 	self testList: testList onBlock: testBlock
