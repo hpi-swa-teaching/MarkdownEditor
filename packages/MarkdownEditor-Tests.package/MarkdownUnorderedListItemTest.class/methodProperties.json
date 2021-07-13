@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testContinueDefault" : "LL 7/13/2021 17:28",
+		"testContinueDefault" : "LL 7/13/2021 22:00",
 		"testContinueEmptyLine" : "LL 7/13/2021 17:28",
 		"testDefault" : "mf 7/1/2021 14:10",
 		"testEmpty" : "mf 7/1/2021 14:10",
 		"testIndention" : "mf 7/1/2021 14:10",
 		"testInvalid" : "mf 7/1/2021 14:10",
 		"testInvalidIndention" : "LL 7/12/2021 22:52",
+		"testIsLoose" : "LL 7/13/2021 22:00",
 		"testList:" : "LL 7/12/2021 22:50",
 		"testList:onBlock:" : "LL 7/12/2021 22:50" } }

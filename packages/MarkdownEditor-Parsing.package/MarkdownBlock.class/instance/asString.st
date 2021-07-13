@@ -1,4 +1,0 @@
-debugging
-asString
-
-	^ self asStringWithIndent: ''
