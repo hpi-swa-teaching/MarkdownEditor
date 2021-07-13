@@ -21,5 +21,3 @@ styleSettingsForHtmlTests
 		at: 'Unord. List 2' put: Color black;
 		at: 'Unord. List 3+' put: Color black.
 	^ styleSettings
-	
-	

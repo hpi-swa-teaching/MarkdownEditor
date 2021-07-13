@@ -11,7 +11,7 @@ testConvertUnorderdListsNested
 	- Level 2
 	- Level 2
 * Level 1'.
-	output :=  (htmlConverter convertToHtml: parser document).
+	output :=  (htmlConverter convertToHtml: parsingState document).
 	listHtml := '<ul>
 <li>Level 1</li>
 <li>Level 1

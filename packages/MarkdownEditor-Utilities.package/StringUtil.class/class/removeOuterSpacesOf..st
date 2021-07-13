@@ -7,5 +7,6 @@ removeOuterSpacesOf: aString
 	first := aString findFirst: [:c | c ~= Character space].
 	first = 0 ifTrue: [^ ''].
 	^ aString copyFrom: first to: last.
+	
 
 	

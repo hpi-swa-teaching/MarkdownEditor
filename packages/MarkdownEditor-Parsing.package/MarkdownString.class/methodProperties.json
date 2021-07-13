@@ -4,11 +4,13 @@
 	"instance" : {
 		"=" : "jh 7/6/2021 22:52",
 		"append:" : "jh 6/12/2021 13:49",
-		"applyStylingWith:" : "jh 6/28/2021 22:41",
+		"applyStylingWith:" : "jh 7/12/2021 15:15",
 		"content" : "jh 6/8/2021 16:38",
 		"content:" : "jh 6/8/2021 16:38",
 		"convertWith:" : "jh 6/29/2021 08:06",
 		"extractString" : "jh 6/25/2021 18:08",
 		"hash" : "jh 7/6/2021 22:49",
 		"isEmpty" : "jh 6/13/2021 14:06",
-		"removeLast" : "jh 6/13/2021 14:06" } }
+		"lastChar" : "jh 7/11/2021 11:29",
+		"removeLast" : "jh 7/11/2021 12:02",
+		"totalLength" : "jh 7/13/2021 18:49" } }

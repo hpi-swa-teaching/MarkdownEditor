@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mf 7/13/2021 14:07",
+		"testAllDelimitersOfSameType" : "mf 7/13/2021 14:03",
+		"testAllDelimitersOnlyOpenerCloser" : "mf 7/13/2021 14:03",
+		"testBuildDelimiterStack" : "mf 7/13/2021 14:02",
+		"testBuildDelimiterStackWithText" : "mf 7/13/2021 14:02",
+		"testCastingDelimiters" : "mf 7/13/2021 14:03",
+		"testCleanDelimiters" : "mf 7/13/2021 14:03",
+		"testNoClosingDelimiter" : "mf 7/13/2021 14:03",
+		"testNoOpeningDelimiter" : "mf 7/13/2021 14:03",
+		"testNotADelimiter" : "mf 7/13/2021 14:04",
+		"testNotOriginalOpenerAndCloser" : "mf 7/13/2021 14:04",
+		"testOriginalOpenerAndCloser" : "mf 7/13/2021 14:04",
+		"testPotentialClosingDelimiter" : "mf 7/13/2021 14:04",
+		"testPotentialClosingDelimiter2" : "mf 7/13/2021 14:04",
+		"testPotentialClosingDelimiter3" : "mf 7/13/2021 14:04",
+		"testPotentialClosingOpeningDelimiter" : "mf 7/13/2021 14:04",
+		"testPotentialOpeningDelimiter" : "mf 7/13/2021 14:04",
+		"testPotentialOpeningDelimiter2" : "mf 7/13/2021 14:04",
+		"testPotentialOpeningDelimiter3" : "mf 7/13/2021 14:05" } }

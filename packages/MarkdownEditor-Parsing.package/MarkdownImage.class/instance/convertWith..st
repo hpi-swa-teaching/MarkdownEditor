@@ -1,4 +1,4 @@
 html
 convertWith: anHtmlConverter
 
-	^ anHtmlConverter convertImageWith: self
+	^ '<img src="', self path, '" alt="', self altText, '" />'

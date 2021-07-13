@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 textAttributes
 
-	^ {(PluggableTextAttribute evalBlock: self openUrl). TextEmphasis underlined}
+	^ {(MarkdownClickableAttribute newFrom: self path). TextEmphasis underlined}

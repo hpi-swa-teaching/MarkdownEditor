@@ -5,9 +5,9 @@
 		"labels" : "jh 7/1/2021 10:45" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:36",
-		"completeTextElementFrom:" : "mf 7/6/2021 12:28",
-		"continue:" : "LL 7/12/2021 22:26",
-		"finalize:" : "mf 7/4/2021 14:36",
+		"applyStylingWith:" : "jh 7/13/2021 15:26",
+		"continue:" : "C.H. 7/8/2021 10:19",
+		"finalize:" : "jh 7/13/2021 12:15",
 		"fontSize" : "jh 6/29/2021 21:11",
 		"htmlClosingTag" : "jh 6/25/2021 17:42",
 		"htmlOpeningTag" : "mf 6/26/2021 13:19",
@@ -18,4 +18,4 @@
 		"initialize" : "jh 7/7/2021 08:53",
 		"openingFence" : "JE 6/16/2021 13:21",
 		"openingFence:" : "jh 6/29/2021 22:02",
-		"textColor" : "jh 6/29/2021 21:12" } }
+		"textAttributes" : "jh 7/8/2021 21:37" } }

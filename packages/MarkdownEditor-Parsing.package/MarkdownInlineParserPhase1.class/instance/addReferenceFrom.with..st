@@ -7,5 +7,4 @@ addReferenceFrom: aRawString with: aReferenceType
 	matcher := RxMatcher forString: '\[(.*)\]\((.*)\)'.
 	(matcher matches: aRawString)
 		ifTrue: [reference := self createReferenceFrom: matcher with: aReferenceType.
-				self inlineElements add: reference].
-	self previousChar: aRawString last
+				self addToInlineElements: reference]
