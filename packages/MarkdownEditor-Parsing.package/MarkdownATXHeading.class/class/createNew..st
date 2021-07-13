@@ -8,7 +8,6 @@ createNew: aParsingState
 	newHeading 
 		startPosition: aParsingState charPos;
 		innerStartPosition: newHeading startPosition + (aParsingState currentLine findString: newHeading content) -1;
-		innerEndPosition: newHeading innerStartPosition + newHeading content size - 1;
 		content: (StringUtil unescape: {$#} in: newHeading content).
 	aParsingState newBlock: newHeading.
 	aParsingState newBlock innerLine: ''.

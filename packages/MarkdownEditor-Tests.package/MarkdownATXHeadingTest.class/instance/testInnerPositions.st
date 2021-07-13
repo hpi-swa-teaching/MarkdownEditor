@@ -8,9 +8,9 @@ testInnerPositions
 #      lkasfaöf  \#'.
 
 	testDict := Dictionary newFrom: {#children -> 
-			{Dictionary newFrom: {#innerStartPosition -> 4.#innerEndPosition -> 8}.
-			Dictionary newFrom: {#innerStartPosition -> 13.#innerEndPosition -> 19}.
-			Dictionary newFrom: {#innerStartPosition -> 24.#innerEndPosition -> 23}.
-			Dictionary newFrom: {#innerStartPosition -> 44.#innerEndPosition -> 55}}}.
+			{Dictionary newFrom: {#innerStartPosition -> 4}.
+			Dictionary newFrom: {#innerStartPosition -> 13}.
+			Dictionary newFrom: {#innerStartPosition -> 24}.
+			Dictionary newFrom: {#innerStartPosition -> 44}}}.
 			
 	self testParsingTree: parsingTree with: testDict
