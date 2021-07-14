@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyStylingWith:" : "jh 7/1/2021 09:34",
+		"applyStylingWith:" : "jh 7/14/2021 08:33",
 		"convertWith:" : "jh 7/1/2021 09:35",
+		"endPosition" : "jh 7/14/2021 08:24",
 		"htmlClosingTag" : "jh 7/1/2021 09:35",
 		"htmlOpeningTag" : "jh 7/1/2021 09:36",
 		"lastChar" : "jh 7/11/2021 11:25",
-		"startPosition" : "jh 7/13/2021 18:50",
-		"startPosition:" : "jh 7/13/2021 18:50",
+		"startPosition" : "jh 7/14/2021 08:13",
+		"startPosition:" : "jh 7/14/2021 08:13",
+		"textAttributes" : "jh 7/14/2021 08:34",
 		"totalLength" : "jh 7/13/2021 18:41" } }

@@ -1,6 +1,5 @@
 comparing
 = anotherDelimiter
-	"Answer whether the receiver and anObject represent the same object."
 
 	self == anotherDelimiter
 		ifTrue: [ ^ true ].
