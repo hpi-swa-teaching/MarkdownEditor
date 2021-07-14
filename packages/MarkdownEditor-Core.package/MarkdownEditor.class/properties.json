@@ -9,7 +9,8 @@
 		"markdownText",
 		"textMorph",
 		"currentFilePath",
-		"window" ],
+		"window",
+		"markdownMenu" ],
 	"name" : "MarkdownEditor",
 	"pools" : [
 		 ],

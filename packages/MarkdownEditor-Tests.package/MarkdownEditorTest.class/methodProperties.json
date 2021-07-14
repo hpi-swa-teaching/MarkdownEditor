@@ -13,7 +13,7 @@
 		"testApplyInlineWithSpaces" : "F.S 6/9/2021 11:55",
 		"testApplyTheme" : "mf 7/1/2021 14:00",
 		"testApplyThemeDoesNotThrowErrorForInlineStyling" : "F.S 6/9/2021 11:40",
-		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "7/7/2021 10:29:43",
+		"testApplyingThemeDoesNotThrowErrorForBlockStyling" : "7/10/2021 17:37:02",
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "jh 7/1/2021 11:49",
 		"testBuildingEditorReturnsWindow" : "JE 5/26/2021 13:17",
 		"testBuildingEditorTextMorphReturnsSpec" : "JE 5/26/2021 13:17",
@@ -30,5 +30,4 @@
 		"testTextPersistenceForInlineStyling" : "jh 7/1/2021 11:49",
 		"testWindowClose" : "JE 6/1/2021 16:09",
 		"testWindowCreation" : "JE 5/26/2021 13:14",
-		"testWindowLabel" : "JE 5/26/2021 13:14",
-		"testYellowButtonMenuExists" : "JE 5/26/2021 13:14" } }
+		"testWindowLabel" : "JE 5/26/2021 13:14" } }

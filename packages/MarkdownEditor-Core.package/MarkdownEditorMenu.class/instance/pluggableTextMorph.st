@@ -1,0 +1,4 @@
+accessing
+pluggableTextMorph
+
+	^ pluggableTextMorph
