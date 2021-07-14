@@ -1,6 +1,4 @@
 text interaction
 applyFencedCodeBlock
 
-	| selection |
-	selection := self pluggableTextMorph textMorph selection.
-	self pluggableTextMorph replaceSelectionWith: '```', Character cr, selection, Character cr, '```'
+	self surroundSelectionWith: ('```', Character cr) and: (Character cr asString, '```')
