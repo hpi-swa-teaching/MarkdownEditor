@@ -2,7 +2,7 @@ text interaction
 applyInlineOnSelectionWith: aDelimiter
 
 	| selection matcher prefix suffix content |
-	selection := self textMorph textMorph selection.
+	selection := self pluggableTextMorph textMorph selection.
 	matcher := RxMatcher forString: '(\s*)(\S.*\S|\S)(\s*)'.
 	(matcher matches: selection) ifFalse: [^ nil].
 	
@@ -10,4 +10,4 @@ applyInlineOnSelectionWith: aDelimiter
  	content := matcher subexpression: 3.
 	suffix := matcher subexpression: 4.
 	
-	self textMorph replaceSelectionWith: prefix, aDelimiter, content, aDelimiter, suffix
+	self pluggableTextMorph replaceSelectionWith: prefix, aDelimiter, content, aDelimiter, suffix

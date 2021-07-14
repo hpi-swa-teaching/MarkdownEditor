@@ -1,11 +1,11 @@
 tests - inline styling
-testApplyInlineSingleCharacter
+testApplyInline
 
 	| content prefix suffix|
 	prefix := '    '.
 	suffix := '  '.
-	content := 'A'.
+	content := 'Inline Test Example'.
 	editor markdownText: prefix, content, suffix.
 	editor textMorph selectAll.
-	editor applyItalic.
+	editor markdownMenu applyInlineOnSelectionWith: '*'.
 	self assert: (prefix, '*', content, '*', suffix) asText equals: editor textMorph text

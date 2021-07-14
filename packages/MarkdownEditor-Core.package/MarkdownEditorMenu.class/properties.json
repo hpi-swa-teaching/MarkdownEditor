@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pluggableTextMorph" ],
+	"name" : "MarkdownEditorMenu",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
