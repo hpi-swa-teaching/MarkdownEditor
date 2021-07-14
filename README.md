@@ -46,7 +46,7 @@ During development, we set up some guidelines for coding. If you want to contrib
 ## History
 This is a project developed for the Software Engineering course, started during summer term 2019 - continued during
 summer term 2020 and 2021.  
-Developers: Julian Egbert, Marie Fischer, Felix Gohla, Kira Grammel, Clara Granzow, Conrad Halle, Judith Herrmann, Maximilian Kleissl, Henok Lachmann, Lucas Liebe, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Finn Schöllkopf, Jakob Stigloher, Adrian Ziupka.
+Developers: Julian Egbert, Marie Fischer, Felix Gohla, Kira Grammel, Clara Granzow, Conrad Halle, Judith Herrmann, Maximilian Kleissl, Henok Lachmann, Lucas Liebe, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Finn Schöllkopf, Jakob Stigloher, Adrian Ziupka.  
 When continuing this project, please feel free to add your names to the list. 😊
 
 <!-- References -->
