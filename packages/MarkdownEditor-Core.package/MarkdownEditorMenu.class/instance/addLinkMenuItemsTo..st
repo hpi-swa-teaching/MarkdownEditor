@@ -2,10 +2,10 @@ yellowButtonMenu
 addLinkMenuItemsTo: aMenu
 
 	^ aMenu 
-		add: '[...]()' action: [self applyLinkText];
-		add: '[](...)' action: [self applyLinkDestination];
-		add: '<...>' action: [self applyAutoLink];
+		add: '[...]()' action: [self surroundSelectionWith: '[' and: ']()'];
+		add: '[](...)' action: [self surroundSelectionWith: '[](' and: ')'];
+		add: '<...>' action: [self surroundSelectionWith: '<' and: '>'];
 		addLine;
-		add: '![...]()' action: [self applyImageText];
-		add: '![](...)' action: [self applyImageDestination];
+		add: '![...]()' action: [self surroundSelectionWith: '![' and: ']()'];
+		add: '![](...)' action: [self surroundSelectionWith: '![](' and: ')'];
 		yourself
