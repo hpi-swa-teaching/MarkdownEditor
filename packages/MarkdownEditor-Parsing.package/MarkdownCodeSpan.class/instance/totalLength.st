@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 totalLength
 
 	^ self rawContent size + (self fenceLength * 2)

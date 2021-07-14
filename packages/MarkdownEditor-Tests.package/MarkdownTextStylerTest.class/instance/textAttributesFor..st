@@ -7,4 +7,4 @@ textAttributesFor: aFontSize
 		pointSize: aFontSize
 		emphasis: TextEmphasis normal emphasisCode.
 	
-	 ^ {(UnextendableTextFontReference toFont: font)}
+	 ^ {UnextendableTextFontReference toFont: font}

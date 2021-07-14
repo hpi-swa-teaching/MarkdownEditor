@@ -1,4 +1,4 @@
-accessing
-totalLength
+styling
+textAttributes
 
 	^ self subclassResponsibility
