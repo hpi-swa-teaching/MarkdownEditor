@@ -1,4 +1,4 @@
 styling
 applyStylingWith: aMarkdownStyler
 
-	^ aMarkdownStyler styleContainerBlockWith: self
+	^ aMarkdownStyler styleInlineContainerBlockWith: self
