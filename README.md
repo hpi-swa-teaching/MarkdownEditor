@@ -28,7 +28,18 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [ ] Highlight escaped characters
 
 ## How To Install
-	@@ -41,14 +43,10 @@ After that, you can open the Editor via the *"App"*-menu:
+You can install the **MarkdownEditor** by opening any text field, pasting the following snippet and execute a *Do-It*:
+
+```smalltalk
+Metacello new
+	baseline: 'MarkdownEditor';
+	repository: 'github://hpi-swa-teaching/MarkdownEditor:master/packages';
+	load
+```
+
+After that, you can open the Editor via the *"App"*-menu:  
+![Opening Markdown Editor](screenshots/how-to-open.png)
+
 ## Contributing
 During development, we set up some guidelines for coding. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
