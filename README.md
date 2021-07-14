@@ -11,44 +11,31 @@
 ## Features
 
 The editor works like a normal workspace, but highlights the Markdown as you type. You can save the text as usual and also copy into and from the window.  
-It is by no means feature complete. But the aspects we included, are conforming to the [Github Flavored Markdown Specification](https://github.github.com/gfm/). 
+It is by no means feature complete. But the aspects we included, are conforming to the [Commonmark Spec Version 0.3](https://spec.commonmark.org/) [Width Github flavoured Additions](https://github.github.com/gfm/). 
 
 - [x] Realtime syntax highlighting
 - [x] ATX-Headings
-- [x] Bold & Italics
+- [x] Bold, Italics & Strikethrough
 - [x] Smalltalk code blocks
-- [x] HTML comment blocks
 - [x] Unordered lists
 - [x] Ordered lists
 - [x] URLs
 - [x] Blockquotes
-- [ ] Images
+- [x] Images
+- [x] Thematic Breaks
+- [x] Rightclick Menu for Feature Exploration
+- [x] Document Outline Tree
 - [ ] Highlight escaped characters
 
 ## How To Install
-You can install the **MarkdownEditor** by opening any text field, pasting the following snippet and execute a *Do-It*:
-
-```smalltalk
-Metacello new
-	baseline: 'MarkdownEditor';
-	repository: 'github://hpi-swa-teaching/MarkdownEditor:master/packages';
-	load
-```
-
-After that, you can open the Editor via the *"App"*-menu:  
-![Opening Markdown Editor](screenshots/how-to-open.png)
-
+	@@ -41,14 +43,10 @@ After that, you can open the Editor via the *"App"*-menu:
 ## Contributing
 During development, we set up some guidelines for coding. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Travis
-As of now there are issues with reporting the coverage from Github-Actions to Coveralls, which is why we still have 
-Travis configured to report the coverage from there. Travis should be removed as soon as these problems are resolved. 
-
 ## History
 This is a project developed for the Software Engineering course, started during summer term 2019 - continued during
-summer term 2020.  
-Developers: Felix Gohla, Kira Grammel, Clara Granzow, Maximilian Kleissl, Henok Lachmann, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Jakob Stigloher, Adrian Ziupka  
+summer term 2020 and 2021.  
+Developers: Felix Gohla, Kira Grammel, Clara Granzow, Maximilian Kleissl, Henok Lachmann, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Jakob Stigloher, Adrian Ziupka, Julian Egbert, Marie Fischer, Conrad Halle, Judith Herrmann, Lucas Liebe, Finn Schöllkopf  
 When continuing this project, please feel free to add your names to the list. 😊
 
 <!-- References -->
