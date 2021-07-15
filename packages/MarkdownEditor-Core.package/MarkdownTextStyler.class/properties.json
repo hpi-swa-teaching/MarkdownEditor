@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "MK 6/18/2020 11:10",
 	"instvars" : [
-		"currentOffset",
 		"document",
 		"text" ],
 	"name" : "MarkdownTextStyler",

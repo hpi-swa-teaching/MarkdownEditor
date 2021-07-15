@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 startPosition: aNumber
 
 	startPosition := aNumber

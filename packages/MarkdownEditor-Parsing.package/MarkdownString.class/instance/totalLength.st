@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 totalLength
 
 	^ self content size

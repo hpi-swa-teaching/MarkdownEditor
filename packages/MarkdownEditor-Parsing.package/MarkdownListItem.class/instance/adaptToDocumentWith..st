@@ -1,8 +1,8 @@
 applying
 adaptToDocumentWith: aParsingState
 	
-	(self matchesList: aParsingState container) not & 
-	(aParsingState tip class ~= MarkdownList)
+	((self matchesList: aParsingState container) not and: [
+	aParsingState tip class ~= MarkdownList])
 	ifTrue: [aParsingState tip: 
 		(aParsingState tip addChild: MarkdownList new withState: aParsingState).
 		aParsingState tip

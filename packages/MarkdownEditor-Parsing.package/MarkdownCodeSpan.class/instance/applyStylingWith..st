@@ -9,6 +9,4 @@ applyStylingWith: aMarkdownStyler
 	code := self rawContent asText.
 	styler privateStyle: code.
 	fence := Text new: self fenceLength.
-	aMarkdownStyler addAttributesFrom:  (fence, code, fence) 
-		from: self startPosition 
-		to: self endPosition
+	^ fence, code, fence

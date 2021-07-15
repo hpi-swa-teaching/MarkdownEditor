@@ -1,9 +1,11 @@
 styling
 styleLeafBlockWith: aMarkdownLeaf
 
-	self currentOffset: aMarkdownLeaf startPosition.
-	aMarkdownLeaf inlines
-		do: [:inline | inline applyStylingWith: self].
+	| inlineText |
+	inlineText := self styleInlinesOf: aMarkdownLeaf.
+	self copyAttributesFrom: inlineText 
+		from: aMarkdownLeaf startPosition 
+		to: aMarkdownLeaf endPosition.
 	self text 
 		addAllAttributes: (aMarkdownLeaf textAttributes)
 		from: (aMarkdownLeaf startPosition)

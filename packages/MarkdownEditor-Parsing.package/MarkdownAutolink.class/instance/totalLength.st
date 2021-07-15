@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 totalLength
 
 	^ self path size + 2

@@ -2,7 +2,7 @@ phase 3
 processRemainderOfLine
 	
 	self lazyContinuation
-	ifFalse: [self closeUnmatchedBlocks.
+		ifFalse: [self closeUnmatchedBlocks.
 			"self updateLastLineBlank."
 			self blankLine 
 				ifTrue: [self state reduceCurrentLineTo: ''.

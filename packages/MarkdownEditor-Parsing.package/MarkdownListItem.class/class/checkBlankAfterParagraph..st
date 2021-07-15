@@ -2,4 +2,4 @@ parsing
 checkBlankAfterParagraph: aParsingState
 
 	^ aParsingState currentLine isAllSeparators 
-		& (aParsingState container class = MarkdownParagraph)
+		and: [aParsingState container class = MarkdownParagraph]

@@ -1,4 +1,4 @@
 styling
 applyStylingWith: aMarkdownStyler
 
-	^ aMarkdownStyler styleInlinesWith: self
+	self subclassResponsibility

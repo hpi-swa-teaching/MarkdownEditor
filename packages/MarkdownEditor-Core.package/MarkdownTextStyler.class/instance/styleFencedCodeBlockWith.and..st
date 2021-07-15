@@ -4,7 +4,10 @@ styleFencedCodeBlockWith: aMarkdownFencedCodeBlock and: aStyler
 	| code |
 	code := aMarkdownFencedCodeBlock content asText.
 	aStyler privateStyle: code.
-	self addAttributesFrom: code 
+	self copyAttributesFrom: code 
 		from: aMarkdownFencedCodeBlock startPosition + (aMarkdownFencedCodeBlock openingFence size)
 		to: aMarkdownFencedCodeBlock endPosition.
-	self text addAllAttributes: aMarkdownFencedCodeBlock textAttributes
+	self text 
+		addAllAttributes: aMarkdownFencedCodeBlock textAttributes
+		from: aMarkdownFencedCodeBlock startPosition
+		to: aMarkdownFencedCodeBlock endPosition
