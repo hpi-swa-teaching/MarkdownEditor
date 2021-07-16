@@ -2,7 +2,7 @@ helper
 isCharSkippableAt: anIndex
 
 	| line indexInLine |
-	(self text at: anIndex) = Character cr
+	((self text at: anIndex) = Character cr or: [(self text at: anIndex) = Character tab])
 		ifTrue: [^ false].
 	(self text at: anIndex) isSeparator
 		ifFalse: [^ false].

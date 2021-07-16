@@ -9,8 +9,11 @@ testStyleFencedCodeBlock
 		classOrMetaClass: self class;
 		parseAMethod: true;
 		yourself).
-	styler privateStyle: text.
+	styler privateStyle: 'some code' asText.
 	fontSize := self styleSettingsForStylingTests fontSizes at: 'Code'.
 	self
-		assertRunsValues: {(self textAttributesFor: fontSize) union: {text runs}}
+		assertRunsValues: 
+			{(self textAttributesFor: fontSize).
+			(self textAttributesFor: fontSize) union: {text runs}.
+			(self textAttributesFor: fontSize)}
 		areStyleOf: text

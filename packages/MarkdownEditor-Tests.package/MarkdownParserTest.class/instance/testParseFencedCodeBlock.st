@@ -6,7 +6,7 @@ testParseFencedCodeBlock
 	fencedCodeBlock := MarkdownFencedCodeBlock new.
 	document := MarkdownDocument new.
 		document beClosed;
-		startPosition: 0;
+		startPosition: 1;
 		endPosition: 17;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
 	fencedCodeBlock beClosed;

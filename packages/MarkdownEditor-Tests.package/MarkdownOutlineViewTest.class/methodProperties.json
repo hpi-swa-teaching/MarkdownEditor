@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"sampleDocument" : "jh 7/16/2021 12:00",
+		"setUp" : "jh 7/16/2021 11:57",
+		"tearDown" : "jh 7/16/2021 12:00",
+		"testGetNextIndentationLevelContainer" : "jh 7/16/2021 11:55",
+		"testWindowLabel" : "jh 7/16/2021 11:55" } }

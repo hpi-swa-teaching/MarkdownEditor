@@ -1,5 +1,5 @@
 tests - container
-testStyleHeadingTematicBreak
+testStyleThematicBreak
 
 	| text fontColor fontSize |
 	text := '***' asText.

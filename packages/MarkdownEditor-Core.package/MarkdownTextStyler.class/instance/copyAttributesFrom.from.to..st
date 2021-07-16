@@ -2,7 +2,7 @@ helper
 copyAttributesFrom: aText from: aStartPosition to: anEndPosition
 
 	| indexInCopyTextRuns absoluteIndex |
-	indexInCopyTextRuns := 1.
+	indexInCopyTextRuns := 1.	
 	(self textRunsFrom: aStartPosition to: anEndPosition)
 		doWithIndex: [:stylingAttributes :index|
 			absoluteIndex := index + aStartPosition - 1.

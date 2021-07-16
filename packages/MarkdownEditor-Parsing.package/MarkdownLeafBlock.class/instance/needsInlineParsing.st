@@ -1,0 +1,4 @@
+parsing
+needsInlineParsing
+
+	^ true

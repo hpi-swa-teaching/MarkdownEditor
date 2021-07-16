@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"canChangeFontColor" : "jh 7/1/2021 10:46",
-		"createNew:" : "jh 7/14/2021 15:00",
+		"createNew:" : "jh 7/16/2021 08:24",
 		"labels" : "jh 7/1/2021 10:45" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:36",
@@ -20,6 +20,7 @@
 		"info" : "JE 6/16/2021 13:20",
 		"info:" : "JE 6/16/2021 13:20",
 		"initialize" : "jh 7/7/2021 08:53",
+		"needsInlineParsing" : "jh 7/15/2021 17:42",
 		"openingFence" : "JE 6/16/2021 13:21",
 		"openingFence:" : "jh 6/29/2021 22:02",
 		"textAttributes" : "jh 7/8/2021 21:37" } }
