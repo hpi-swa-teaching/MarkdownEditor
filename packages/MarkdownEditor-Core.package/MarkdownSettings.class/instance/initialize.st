@@ -6,5 +6,6 @@ initialize
 	self blockStylerMorphs: OrderedCollection new;
 		window: self noWindow;
 		initializeBlockStylerMorphs;
+		settingsVersion: self class settingsVersion;
 		currentStyleSettings: MarkdownStyleSettings default
 	
