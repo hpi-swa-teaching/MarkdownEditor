@@ -1,4 +1,5 @@
 view
 treeRepresentation
 
-	^ self subclassResponsibility
+	^ {'start:', String tab, self startPosition. 
+		'end:', String tab, self endPosition}

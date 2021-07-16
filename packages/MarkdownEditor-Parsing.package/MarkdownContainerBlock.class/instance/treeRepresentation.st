@@ -1,4 +1,7 @@
 view
 treeRepresentation
 
-	^ self children
+	| copiedChildren |
+	copiedChildren := self children copy.
+	super treeRepresentation addAllFirstTo: copiedChildren.
+	^ copiedChildren

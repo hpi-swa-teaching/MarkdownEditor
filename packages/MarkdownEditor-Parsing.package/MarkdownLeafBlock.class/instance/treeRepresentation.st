@@ -1,4 +1,7 @@
 view
 treeRepresentation
 
-	^ self inlines
+	| copiedInlines |
+	copiedInlines := self inlines copy.
+	super treeRepresentation addAllFirstTo: copiedInlines.
+	^ copiedInlines
