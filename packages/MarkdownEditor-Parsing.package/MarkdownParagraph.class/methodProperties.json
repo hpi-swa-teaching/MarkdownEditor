@@ -2,10 +2,12 @@
 	"class" : {
 		"labels" : "jh 7/1/2021 10:40" },
 	"instance" : {
+		"=" : "jh 7/17/2021 11:12",
 		"acceptsLines" : "mf 7/4/2021 14:37",
 		"addLine:" : "jh 7/15/2021 09:45",
 		"continue:" : "mf 7/4/2021 14:38",
 		"fontSize" : "jh 6/29/2021 16:48",
+		"hash" : "jh 7/17/2021 11:12",
 		"htmlClosingTag" : "jh 6/25/2021 08:46",
 		"htmlOpeningTag" : "jh 6/25/2021 08:18",
 		"textColor" : "jh 6/29/2021 16:48" } }

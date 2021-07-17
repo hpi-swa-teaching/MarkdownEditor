@@ -8,6 +8,7 @@
 		"defaultFontSizes" : "jh 7/1/2021 10:36",
 		"labels" : "jh 7/1/2021 10:59" },
 	"instance" : {
+		"=" : "jh 7/17/2021 11:13",
 		"acceptsLines" : "mf 7/4/2021 13:55",
 		"adaptToDocumentWith:" : "jh 7/16/2021 08:47",
 		"addChild:withState:" : "LL 7/12/2021 21:56",
@@ -24,6 +25,7 @@
 		"finalize:" : "C.H. 7/10/2021 16:18",
 		"font" : "jh 6/29/2021 15:59",
 		"fontSize" : "jh 6/29/2021 16:00",
+		"hash" : "jh 7/17/2021 11:15",
 		"htmlClosingTag" : "jh 6/25/2021 17:50",
 		"htmlOpeningTag" : "jh 6/25/2021 17:50",
 		"initialize" : "JE 6/16/2021 13:08",

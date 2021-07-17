@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"=" : "jh 7/17/2021 11:14",
 		"appendChild:" : "mf 7/4/2021 14:02",
 		"applyStylingWith:" : "jh 7/10/2021 13:10",
 		"children" : "JE 6/16/2021 13:11",
 		"children:" : "JE 6/16/2021 13:11",
 		"convertWith:" : "jh 6/25/2021 08:58",
+		"hash" : "jh 7/17/2021 11:15",
 		"initialize" : "JE 6/16/2021 13:12",
 		"lastChild" : "mf 7/4/2021 14:02",
 		"leafBlocks" : "mf 7/4/2021 14:03",

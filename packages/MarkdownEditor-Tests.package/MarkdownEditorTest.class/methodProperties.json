@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JE 5/19/2021 12:38",
-		"styleSettingsForHtmlTests" : "jh 5/29/2021 11:43",
-		"tearDown" : "jh 5/29/2021 11:07",
+		"setUp" : "jh 7/16/2021 20:57",
+		"styleSettingsForHtmlTests" : "jh 7/16/2021 21:07",
+		"tearDown" : "jh 7/16/2021 20:57",
 		"testApplyInline" : "F.S 6/9/2021 11:55",
 		"testApplyInlineEmptyCharacter" : "F.S 6/9/2021 11:55",
 		"testApplyInlineIntervalInText" : "F.S 6/9/2021 11:55",
@@ -17,7 +17,7 @@
 		"testApplyingThemeDoesNotThrowErrorForInlineStyling" : "jh 7/1/2021 11:49",
 		"testBuildingEditorReturnsWindow" : "JE 5/26/2021 13:17",
 		"testBuildingEditorTextMorphReturnsSpec" : "JE 5/26/2021 13:17",
-		"testConvertToHtml" : "jh 7/2/2021 09:59",
+		"testConvertToHtml" : "jh 7/16/2021 21:10",
 		"testCreateNewEditorInstanceInWorld" : "JE 6/1/2021 16:07",
 		"testCurrentFilePath" : "JE 5/26/2021 13:17",
 		"testFileEnding" : "JE 5/26/2021 13:16",
