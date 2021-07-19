@@ -2,7 +2,7 @@ yellowButtonMenu
 addMenuItemsSingleSelectionTo: aMenu
 
 	^ self
-			addInlineItemsTo: aMenu;
-			addSingleInlineItemsTo: aMenu;
-		 	addFindReplaceItemsTo: aMenu;
-		 	yourself
+		addInlineItemsTo: aMenu;
+		addSingleInlineItemsTo: aMenu;
+		addFindReplaceItemsTo: aMenu;
+		yourself
