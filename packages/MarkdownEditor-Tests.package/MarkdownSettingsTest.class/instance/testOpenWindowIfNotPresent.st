@@ -1,4 +1,4 @@
-tests
+tests - open close
 testOpenWindowIfNotPresent
 
 	| settingsWindow | 

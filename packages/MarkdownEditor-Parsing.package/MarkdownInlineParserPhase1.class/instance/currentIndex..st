@@ -1,3 +1,4 @@
 accessing
-currentIndex: anObject
-	currentIndex := anObject
+currentIndex: aNumber
+
+	currentIndex := aNumber
