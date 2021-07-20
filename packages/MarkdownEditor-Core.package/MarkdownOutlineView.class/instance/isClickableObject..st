@@ -1,4 +1,4 @@
-as yet unclassified
+clickable
 isClickableObject: anObject
 
 	^ anObject isKindOf: MarkdownBlock

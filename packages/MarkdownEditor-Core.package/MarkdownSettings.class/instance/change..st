@@ -2,5 +2,4 @@ event handling
 change: aStyleSettings
 
 	self editors
-		do: [:editor | 
-			editor saveTextInModel]
+		do: [:editor | editor saveTextInModel]

@@ -11,7 +11,10 @@ exampleHtml2
 <p>Lorem ipsum dolor
 sit amet.</p>
 <ul>
-<li>Qui <em>quodsi iracundia</em></li>
-<li>aliquando id</li>
+<li><p>Qui <em>quodsi iracundia</em>
+</p>
+</li>
+<li><p>aliquando id</p>
+</li>
 </ul>
 </blockquote>'

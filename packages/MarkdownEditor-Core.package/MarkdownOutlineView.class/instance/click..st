@@ -1,4 +1,4 @@
-as yet unclassified
+clickable
 click: aTreeObject
 
 	(self isClickableObject: aTreeObject)

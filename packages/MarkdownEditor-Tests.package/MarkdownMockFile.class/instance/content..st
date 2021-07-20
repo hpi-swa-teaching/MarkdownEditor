@@ -1,4 +1,4 @@
 accessing
 content: anObject
 
-	content := anObject.
+	content := anObject

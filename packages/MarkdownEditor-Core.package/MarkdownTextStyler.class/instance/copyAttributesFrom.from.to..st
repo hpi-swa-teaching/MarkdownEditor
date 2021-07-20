@@ -8,7 +8,7 @@ copyAttributesFrom: aText from: aStartPosition to: anEndPosition
 			absoluteIndex := index + aStartPosition - 1.
 			(self isCharSkippableAt: absoluteIndex)
 				ifFalse: [ | attributes | 
-					attributes := aText attributesAt: indexInCopyTextRuns.
-					indexInCopyTextRuns := indexInCopyTextRuns + 1.
-					attributes 
-						ifNotEmpty: [self addAttributes: attributes at: absoluteIndex]]]
+						attributes := aText attributesAt: indexInCopyTextRuns.
+						indexInCopyTextRuns := indexInCopyTextRuns + 1.
+						attributes 
+							ifNotEmpty: [self addAttributes: attributes at: absoluteIndex]]]

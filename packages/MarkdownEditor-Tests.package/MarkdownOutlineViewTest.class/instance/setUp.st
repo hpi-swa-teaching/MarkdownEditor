@@ -1,5 +1,10 @@
 as yet unclassified
 setUp
 
-	outlineWindow := MarkdownOutlineView openWith: self sampleDocument.
+	| editor toolbuilder |
+	editor := MarkdownEditor new.
+	toolbuilder := ToolBuilder default.
+	window := toolbuilder open: editor.
+	editor textStyler document: self sampleDocument.
+	outlineWindow := MarkdownOutlineView openFor: editor.
 	outlineModel := outlineWindow model

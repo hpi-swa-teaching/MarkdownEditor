@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"sampleDocument" : "jh 7/17/2021 11:10",
-		"setUp" : "jh 7/16/2021 11:57",
-		"tearDown" : "jh 7/16/2021 12:00",
+		"setUp" : "mf 7/20/2021 21:20",
+		"tearDown" : "mf 7/20/2021 21:19",
 		"testGetNextIndentationLevelContainer" : "jh 7/17/2021 11:19",
 		"testMarkdownDocumentExists" : "jh 7/17/2021 11:00",
 		"testMarkdownDocumentIsRoot" : "jh 7/17/2021 11:04",
