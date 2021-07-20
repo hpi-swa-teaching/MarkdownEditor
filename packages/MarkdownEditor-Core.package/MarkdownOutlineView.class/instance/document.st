@@ -1,4 +1,4 @@
 accessing
 document
 
-	^ {document}
+	^ {self editor document}

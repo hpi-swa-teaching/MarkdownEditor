@@ -1,4 +1,4 @@
 yellowButtonMenu
 openParsingTree
 
-	^ MarkdownOutlineView openWith: self document
+	^ MarkdownOutlineView openFor: self

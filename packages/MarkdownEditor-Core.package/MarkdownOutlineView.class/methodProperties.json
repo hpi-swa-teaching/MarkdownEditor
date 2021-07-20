@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"openWith:" : "jh 7/16/2021 09:36" },
+		"openFor:" : "F.S 7/20/2021 13:33" },
 	"instance" : {
 		"buildWith:" : "jh 7/16/2021 12:05",
-		"document" : "jh 7/16/2021 09:40",
-		"document:" : "jh 7/16/2021 11:39",
+		"click:" : "F.S 7/20/2021 14:20",
+		"document" : "F.S 7/20/2021 13:43",
+		"editor" : "F.S 7/20/2021 13:30",
+		"editor:" : "F.S 7/20/2021 13:30",
 		"getNextIndentationLevel:" : "jh 7/17/2021 11:34",
+		"isClickableObject:" : "F.S 7/20/2021 14:19",
 		"label" : "jh 7/16/2021 09:44",
-		"treeSpec:" : "jh 7/16/2021 14:20",
+		"treeSpec:" : "F.S 7/20/2021 13:25",
 		"windowSpec:" : "jh 7/16/2021 12:03" } }
