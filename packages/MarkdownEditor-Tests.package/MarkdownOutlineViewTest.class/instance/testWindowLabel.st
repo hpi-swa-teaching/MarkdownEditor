@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWindowLabel
 
 	self assert: 'Markdown Document Outline' equals: outlineModel label

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testGetNextIndentationLevelContainer
 
 	| paragraph expectedCollection |
@@ -6,8 +6,8 @@ testGetNextIndentationLevelContainer
 		startPosition: 1;
 		endPosition: 5;
 		yourself.
-	expectedCollection := {'start:', String tab, paragraph startPosition.
-		'end:', String tab, paragraph endPosition. 
+	expectedCollection := {'start', String tab, sampleDocument startPosition.
+		'end', String tab, sampleDocument endPosition. 
 		paragraph} asOrderedCollection.
 	self assert: expectedCollection
-		equals: (outlineModel getNextIndentationLevel: self sampleDocument)
+		equals: (outlineModel getNextIndentationLevel: sampleDocument)

@@ -2,13 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"sampleDocument" : "jh 7/17/2021 11:10",
-		"setUp" : "mf 7/20/2021 21:20",
+		"configureSampleDocument" : "jh 7/21/2021 10:48",
+		"setUp" : "jh 7/21/2021 10:44",
 		"tearDown" : "mf 7/20/2021 21:19",
-		"testGetNextIndentationLevelContainer" : "jh 7/17/2021 11:19",
+		"testGetNextIndentationLevelContainer" : "jh 7/21/2021 10:54",
 		"testMarkdownDocumentExists" : "jh 7/17/2021 11:00",
 		"testMarkdownDocumentIsRoot" : "jh 7/17/2021 11:04",
 		"testMarkdownParagraphExists" : "jh 7/17/2021 11:06",
+		"testTreeRepresentationAutolink" : "jh 7/21/2021 10:33",
+		"testTreeRepresentationHeading" : "jh 7/21/2021 10:53",
+		"testTreeRepresentationReference" : "jh 7/21/2021 10:26",
 		"testWindowLabel" : "jh 7/16/2021 11:55",
 		"tree" : "jh 7/17/2021 11:01",
 		"treeItems" : "jh 7/17/2021 10:55" } }
