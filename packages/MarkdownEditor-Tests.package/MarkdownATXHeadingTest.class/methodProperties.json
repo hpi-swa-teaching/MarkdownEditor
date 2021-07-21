@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAcceptLine" : "LL 7/13/2021 21:48",
+		"testContinue" : "LL 7/13/2021 17:28",
+		"testEmptyHeading" : "C.H. 6/12/2021 20:20",
+		"testHeadingLevel" : "C.H. 6/5/2021 11:56",
+		"testInnerPositions" : "LL 7/13/2021 18:09",
+		"testInvalidHeading" : "C.H. 6/5/2021 12:00",
+		"testList:" : "LL 7/12/2021 21:58",
+		"testOptionalClosingSequence" : "C.H. 6/14/2021 15:08",
+		"testOuterPositions" : "C.H. 7/10/2021 09:19",
+		"testRemovingIndention" : "C.H. 6/6/2021 11:57",
+		"testValidIndention" : "C.H. 6/5/2021 12:30" } }

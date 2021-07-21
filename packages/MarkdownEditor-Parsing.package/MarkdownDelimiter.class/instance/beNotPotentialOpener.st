@@ -1,0 +1,4 @@
+accessing
+beNotPotentialOpener
+
+	potentialOpener := false

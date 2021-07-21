@@ -1,0 +1,4 @@
+constants
+delimiterTypeCount
+
+	^ 3

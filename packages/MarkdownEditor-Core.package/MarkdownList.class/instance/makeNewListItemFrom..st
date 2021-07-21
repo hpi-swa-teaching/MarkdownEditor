@@ -1,4 +1,0 @@
-creating
-makeNewListItemFrom: aMarkdownLine
-
-	self subclassResponsibility

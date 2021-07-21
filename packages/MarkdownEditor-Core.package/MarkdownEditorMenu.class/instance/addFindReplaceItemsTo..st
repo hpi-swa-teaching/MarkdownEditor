@@ -11,6 +11,6 @@ addFindReplaceItemsTo: aMenu
 			{'do/replace again (j)' translated. #again}
 		}.
 	^ aMenu 
-			addList: inline;
-			add: 'find and replace all' action: [self findAndReplaceAll];
-			yourself
+		addList: inline;
+		add: 'find and replace all' action: [self findAndReplaceAll];
+		yourself

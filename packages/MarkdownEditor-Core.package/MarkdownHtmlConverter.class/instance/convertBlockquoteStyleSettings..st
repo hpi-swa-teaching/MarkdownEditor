@@ -1,4 +1,4 @@
-convertStyle
+convert styling
 convertBlockquoteStyleSettings: aStyleSettings
 	| paragraph |
 	

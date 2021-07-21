@@ -1,0 +1,4 @@
+accessing
+lastChar
+
+	^ self type

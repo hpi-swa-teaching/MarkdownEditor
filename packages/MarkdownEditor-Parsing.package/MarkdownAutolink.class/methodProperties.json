@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"URIRegex" : "mf 6/24/2021 12:00",
+		"closeCharacter" : "jh 6/24/2021 13:45",
+		"delimiterTypes" : "mf 6/23/2021 15:59",
+		"emailRegex" : "mf 6/24/2021 12:02",
+		"newWith:and:" : "mf 6/24/2021 09:49" },
+	"instance" : {
+		"=" : "jh 7/7/2021 08:56",
+		"applyStylingWith:" : "jh 7/15/2021 12:39",
+		"beEmail" : "jh 6/23/2021 12:20",
+		"beNotEmail" : "jh 6/23/2021 12:20",
+		"convertWith:" : "jh 7/11/2021 20:13",
+		"hash" : "jh 7/6/2021 22:46",
+		"htmlClosingTag" : "jh 6/25/2021 12:06",
+		"htmlOpeningTag" : "jh 6/25/2021 12:06",
+		"initialize" : "jh 6/23/2021 12:22",
+		"isEmail" : "jh 6/24/2021 12:44",
+		"lastChar" : "jh 7/11/2021 11:25",
+		"path" : "mf 6/23/2021 18:49",
+		"path:" : "mf 6/23/2021 18:50",
+		"textAttributes" : "jh 7/14/2021 08:33",
+		"totalLength" : "jh 7/13/2021 18:43",
+		"treeRepresentation" : "jh 7/21/2021 10:29" } }

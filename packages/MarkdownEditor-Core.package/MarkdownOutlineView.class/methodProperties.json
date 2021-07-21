@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"openFor:" : "F.S 7/20/2021 13:33" },
+	"instance" : {
+		"buildWith:" : "jh 7/16/2021 12:05",
+		"click:" : "F.S 7/20/2021 14:24",
+		"document" : "F.S 7/20/2021 13:43",
+		"editor" : "F.S 7/20/2021 13:30",
+		"editor:" : "F.S 7/20/2021 13:30",
+		"getNextIndentationLevel:" : "jh 7/21/2021 10:41",
+		"isClickableObject:" : "F.S 7/20/2021 14:19",
+		"label" : "jh 7/16/2021 09:44",
+		"treeSpec:" : "jh 7/21/2021 10:55",
+		"windowSpec:" : "mf 7/20/2021 20:36" } }

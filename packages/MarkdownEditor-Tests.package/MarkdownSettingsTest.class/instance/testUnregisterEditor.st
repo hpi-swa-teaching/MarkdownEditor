@@ -1,4 +1,4 @@
-tests
+tests - open close
 testUnregisterEditor
 
 	| editor2 |

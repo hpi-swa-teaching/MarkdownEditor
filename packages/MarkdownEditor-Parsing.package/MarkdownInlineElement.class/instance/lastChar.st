@@ -1,0 +1,4 @@
+constants
+lastChar
+
+	^ self subclassResponsibility

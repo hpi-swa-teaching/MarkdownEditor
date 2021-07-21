@@ -1,0 +1,17 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sampleDocument",
+		"window",
+		"outlineWindow",
+		"outlineModel" ],
+	"name" : "MarkdownOutlineViewTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

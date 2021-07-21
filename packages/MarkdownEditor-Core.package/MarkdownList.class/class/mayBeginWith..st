@@ -1,4 +1,0 @@
-testing
-mayBeginWith: aMarkdownLine
-
- 	^ false

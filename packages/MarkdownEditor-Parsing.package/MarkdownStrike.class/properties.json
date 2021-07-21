@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownStrike",
+	"pools" : [
+		 ],
+	"super" : "MarkdownEmphasis",
+	"type" : "normal" }

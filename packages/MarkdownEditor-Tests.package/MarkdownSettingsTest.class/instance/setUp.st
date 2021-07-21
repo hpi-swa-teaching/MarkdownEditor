@@ -1,12 +1,11 @@
 running
 setUp
 
-	originalSettings := MarkdownSettings UniqueInstance currentStyleSettings.
+	originalSettings := MarkdownSettings currentStyleSettings.
 	MarkdownSettings deleteInstance.
 	MarkdownSettings open.
 	settings := MarkdownSettings UniqueInstance.
 	
 	editor := MarkdownEditor new.
 	toolbuilder := ToolBuilder default.
-	window := toolbuilder open: editor.
-	
+	window := toolbuilder open: editor

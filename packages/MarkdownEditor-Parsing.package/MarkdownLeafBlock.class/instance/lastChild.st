@@ -1,0 +1,4 @@
+applying
+lastChild
+
+	^ nil

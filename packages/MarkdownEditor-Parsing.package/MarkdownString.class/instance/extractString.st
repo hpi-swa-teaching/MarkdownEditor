@@ -1,0 +1,4 @@
+helpers
+extractString
+
+	^ self content

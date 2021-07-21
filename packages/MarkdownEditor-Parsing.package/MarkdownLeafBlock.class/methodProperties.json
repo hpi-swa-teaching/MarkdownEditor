@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultFontColors" : "jh 7/1/2021 10:55",
+		"defaultFontSizes" : "jh 7/1/2021 10:54" },
+	"instance" : {
+		"=" : "jh 7/17/2021 11:16",
+		"addLine:" : "mf 7/4/2021 14:29",
+		"applyStylingWith:" : "jh 6/29/2021 15:49",
+		"canContain:" : "mf 7/4/2021 14:29",
+		"content" : "JE 6/16/2021 13:17",
+		"content:" : "jh 6/29/2021 10:44",
+		"convertWith:" : "jh 6/25/2021 08:58",
+		"hash" : "jh 7/17/2021 11:17",
+		"initialize" : "jh 7/5/2021 08:46",
+		"inlines" : "mf 7/4/2021 14:27",
+		"inlines:" : "mf 7/4/2021 14:28",
+		"lastChild" : "mf 7/4/2021 14:29",
+		"leafBlocks" : "LL 6/16/2021 14:57",
+		"needsInlineParsing" : "jh 7/15/2021 17:41",
+		"treeRepresentation" : "jh 7/16/2021 17:58" } }

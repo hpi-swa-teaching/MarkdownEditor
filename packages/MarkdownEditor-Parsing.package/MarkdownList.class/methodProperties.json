@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"blockCategory" : "jh 7/1/2021 10:38",
+		"defaultFontColors" : "jh 7/1/2021 10:50",
+		"defaultFontSizes" : "jh 7/1/2021 10:49",
+		"labels" : "jh 7/1/2021 10:39" },
+	"instance" : {
+		"acceptsLines" : "mf 7/4/2021 14:13",
+		"canContain:" : "mf 7/4/2021 14:14",
+		"continue:" : "mf 7/4/2021 14:14",
+		"finalize:" : "mf 7/4/2021 14:14",
+		"fontSize" : "mf 7/4/2021 20:30",
+		"htmlClosingTag" : "jh 6/25/2021 17:53",
+		"htmlOpeningTag" : "jh 6/25/2021 17:53",
+		"indention" : "mf 7/4/2021 14:12",
+		"indention:" : "mf 7/4/2021 14:13",
+		"isLoose" : "mf 7/4/2021 14:10",
+		"isLoose:" : "mf 7/4/2021 14:10",
+		"isOrdered" : "mf 7/4/2021 14:10",
+		"isOrdered:" : "mf 7/4/2021 14:10",
+		"listMarker" : "mf 7/4/2021 14:10",
+		"listMarker:" : "mf 7/4/2021 14:11",
+		"startNumber" : "mf 7/4/2021 14:10",
+		"startNumber:" : "mf 7/4/2021 14:10",
+		"textColor" : "mf 7/4/2021 20:30" } }

@@ -1,4 +1,0 @@
-export
-croppedContent
-	
-	self subclassResponsibility

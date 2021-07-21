@@ -2,7 +2,6 @@ content
 addStylerMorphsFor: aCategory 
 
 	| blockStylerMorphsToAdd |
-	
 	blockStylerMorphsToAdd := self blockStylerMorphs
 				select: [:stylerMorph | stylerMorph classCategory = aCategory].
 	blockStylerMorphsToAdd

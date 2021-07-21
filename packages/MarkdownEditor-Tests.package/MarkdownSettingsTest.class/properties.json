@@ -15,5 +15,5 @@
 	"name" : "MarkdownSettingsTest",
 	"pools" : [
 		 ],
-	"super" : "MarkdownTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
