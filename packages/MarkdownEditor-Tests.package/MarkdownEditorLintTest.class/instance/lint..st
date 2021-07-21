@@ -1,7 +1,7 @@
 Utils
 lint: aLinterRule
 
-	|testRunner testObjects |
+	| testRunner testObjects |
 	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
 	testObjects := self findTestObjects.
 	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
