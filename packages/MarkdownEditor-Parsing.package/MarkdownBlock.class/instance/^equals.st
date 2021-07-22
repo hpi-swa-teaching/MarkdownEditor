@@ -9,10 +9,8 @@ comparing
 			and: [ 
 		self endPosition = anotherMarkdownBlock endPosition
 			and: [ 
-		self container = anotherMarkdownBlock container
-			and: [ 
 		self isOpen = anotherMarkdownBlock isOpen
 			and: [ 
 		self innerStartPosition = anotherMarkdownBlock innerStartPosition 
 			and: [ 
-		self startPosition = anotherMarkdownBlock startPosition ] ] ] ] ]
+		self startPosition = anotherMarkdownBlock startPosition ] ] ] ]

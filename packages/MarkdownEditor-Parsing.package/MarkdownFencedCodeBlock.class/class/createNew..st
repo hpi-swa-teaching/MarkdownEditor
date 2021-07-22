@@ -9,8 +9,9 @@ createNew: aParsingState
 					indention: ((matcher subexpression: 3) size);
 					openingFence: (matcher subexpression: 4);
 					startPosition: aParsingState charPos;
-					info: (matcher subexpression: 7);
+					info: (matcher subexpression: 7) withBlanksTrimmed;
+					innerStartPosition: aParsingState charPos + (matcher subexpression: 7) size + (matcher subexpression: 4) size;
 					yourself).
-				aParsingState newBlock innerLine: (matcher subexpressions: 7) first.
+				aParsingState newBlock innerLine: (matcher subexpression: 7).
 				^ 2].
 	^ 0

@@ -1,16 +1,14 @@
 {
 	"class" : {
 		"canChangeFontColor" : "jh 7/1/2021 10:46",
-		"createNew:" : "jh 7/16/2021 08:24",
+		"createNew:" : "jh 7/21/2021 13:36",
 		"labels" : "jh 7/1/2021 10:45" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:36",
+		"adaptToDocumentWith:" : "jh 7/21/2021 13:52",
 		"applyStylingWith:" : "jh 7/13/2021 15:26",
-		"codeContent" : "jh 7/14/2021 14:27",
-		"codeEndPosition" : "jh 7/14/2021 14:57",
-		"codeStartPosition" : "jh 7/14/2021 14:57",
 		"continue:" : "C.H. 7/8/2021 10:19",
-		"finalize:" : "jh 7/13/2021 12:15",
+		"finalize:" : "jh 7/21/2021 13:00",
 		"firstLineSize" : "jh 7/14/2021 14:54",
 		"fontSize" : "jh 6/29/2021 21:11",
 		"htmlClosingTag" : "jh 6/25/2021 17:42",
@@ -23,4 +21,5 @@
 		"needsInlineParsing" : "jh 7/15/2021 17:42",
 		"openingFence" : "JE 6/16/2021 13:21",
 		"openingFence:" : "jh 6/29/2021 22:02",
-		"textAttributes" : "jh 7/8/2021 21:37" } }
+		"textAttributes" : "jh 7/8/2021 21:37",
+		"treeRepresentation" : "jh 7/21/2021 16:11" } }
