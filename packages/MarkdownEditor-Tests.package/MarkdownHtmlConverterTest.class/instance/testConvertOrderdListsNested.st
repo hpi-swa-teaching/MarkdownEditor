@@ -9,24 +9,24 @@ testConvertOrderdListsNested
 	2. Level 2
 		1. Level 3
 	3. Level 2
-	5. Level 2
+	4. Level 2
 3. Level 1'.
 	output :=  (htmlConverter convertToHtml: parsingState document).
 	listHtml := '<ol>
-<li>Level 1</li>
-<li>Level 1
+<li><p>Level 1</p></li>
+<li><p>Level 1</p>
 <ol>
-<li>Level 2</li>
-<li>Level 2
+<li><p>Level 2</li>
+<li><p>Level 2</p>
 <ol>
-<li>Level 3</li>
+<li><p>Level 3</p></li>
 </ol>
 </li>
-<li>Level 2</li>
-<li>Level 2</li>
+<li><p>Level 2</p></li>
+<li><p>Level 2</p></li>
 </ol>
 </li>
-<li>Level 1</li>
+<li><p>Level 1</p></li>
 </ol>'.
 	expectedOutput := self fullHtmlDocumentFrom: listHtml.
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+tests - fencedCodeBlocks
 testParseFencedCodeBlock3
 
 	| output fencedCodeBlock document str |

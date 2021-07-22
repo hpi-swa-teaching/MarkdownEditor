@@ -12,9 +12,9 @@ comparing
 				and: [ 
 					self content = anObject content
 						and: [ 
-							self container = anObject container
-								and: [ 
+							"self container = anObject container
+								and: [ "
 									self isOpen = anObject isOpen
 										and: [ 
 											self endPosition = anObject endPosition
-												and: [ self startPosition = anObject startPosition and: [ self innerStartPosition = anObject innerStartPosition ] ] ] ] ] ] ]
+												and: [ self startPosition = anObject startPosition and: [ self innerStartPosition = anObject innerStartPosition ] ] ] ] ] ] "]"
