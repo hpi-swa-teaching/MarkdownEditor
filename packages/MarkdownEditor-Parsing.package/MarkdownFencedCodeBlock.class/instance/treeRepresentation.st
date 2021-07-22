@@ -3,5 +3,5 @@ treeRepresentation
 
 	| copy |
 	copy := super treeRepresentation.
-	{'info', String tab, self info. self innerStartPosition} addAllFirstTo: copy.
+	{'info', String tab, self info} addAllFirstTo: copy.
 	^ copy
