@@ -19,7 +19,7 @@ testParseFencedCodeBlock2
 		innerStartPosition: 14;
 		content: 'some code', Character cr;
 		inlines: (MarkdownLinkedList newFrom: {str});
-		indention: 0;
+		indentation: 0;
 		info: 'smalltalk';
 		openingFence: '```'.
 	self assert: document equals: output

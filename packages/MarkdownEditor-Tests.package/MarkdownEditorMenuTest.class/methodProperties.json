@@ -12,7 +12,7 @@
 		"testApplyInlineIntervalInText" : "JE 7/11/2021 16:59",
 		"testApplyInlineNested" : "JE 7/11/2021 17:00",
 		"testApplyInlineSingleCharacter" : "JE 7/11/2021 17:00",
-		"testFencedCodeBlock" : "F.S 7/12/2021 20:03",
+		"testFencedCodeBlock" : "jh 7/22/2021 14:44",
 		"testSelectionMenuIsDifferent" : "F.S 7/12/2021 20:05",
 		"testSurroundSelection" : "JE 7/14/2021 13:05",
 		"testYellowButtonMenuExists" : "JE 7/11/2021 17:08",

@@ -1,10 +1,12 @@
 tests - inline code
 testInlineCodeInAutolinks
 
-	| expectedOutput output |
+	| expectedOutput output autolink |
 	output := parser parseInline: '<http://foo.bar.`baz>`'.
+	autolink := MarkdownAutolink newWith: #beNotEmail and: 'http://foo.bar.`baz'.
+	autolink startPosition: 1.
 	expectedOutput := MarkdownLinkedList 
-		newFrom: {MarkdownAutolink newWith: #beNotEmail and: 'http://foo.bar.`baz'.
-			MarkdownString newFrom: '`'}.
+		newFrom: {autolink.
+			MarkdownString newFrom: '`' startingAt: 22}.
 	
 	self assert: expectedOutput equals: output

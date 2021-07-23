@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"newFrom:" : "jh 6/7/2021 16:25" },
+		"newFrom:" : "jh 6/7/2021 16:25",
+		"newFrom:startingAt:" : "jh 7/23/2021 09:58" },
 	"instance" : {
-		"=" : "jh 7/6/2021 22:52",
+		"=" : "jh 7/23/2021 09:50",
 		"append:" : "jh 6/12/2021 13:49",
 		"applyStylingWith:" : "jh 7/14/2021 09:03",
 		"content" : "jh 6/8/2021 16:38",
 		"content:" : "jh 6/8/2021 16:38",
 		"convertWith:" : "jh 6/29/2021 08:06",
 		"extractString" : "jh 6/25/2021 18:08",
-		"hash" : "jh 7/6/2021 22:49",
+		"hash" : "jh 7/23/2021 09:51",
 		"isEmpty" : "jh 6/13/2021 14:06",
 		"lastChar" : "jh 7/11/2021 11:29",
 		"removeLast" : "jh 7/11/2021 12:02",

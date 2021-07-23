@@ -6,7 +6,7 @@ createNew: aParsingState
 	(matcher matches: aParsingState currentLine)
 		ifTrue: [aParsingState newBlock:
 				(self new
-					indention: ((matcher subexpression: 3) size);
+					indentation: ((matcher subexpression: 3) size);
 					openingFence: (matcher subexpression: 4);
 					startPosition: aParsingState charPos;
 					info: (matcher subexpression: 8) withBlanksTrimmed;

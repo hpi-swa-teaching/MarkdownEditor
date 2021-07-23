@@ -1,4 +1,4 @@
 accessing
-indention: aNumber
+indentation: aNumber
 
 	indention := aNumber

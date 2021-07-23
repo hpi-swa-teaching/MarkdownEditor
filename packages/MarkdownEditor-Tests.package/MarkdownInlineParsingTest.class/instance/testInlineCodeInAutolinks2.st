@@ -6,8 +6,9 @@ testInlineCodeInAutolinks2
 	code := MarkdownCodeSpan new
 		content: '<http://foo.bar.';
 		fenceLength: 1;
-		rawContent: '<http://foo.bar.'.
-	str := MarkdownString newFrom: 'baz>`'.
+		rawContent: '<http://foo.bar.';
+		startPosition: 1.
+	str := MarkdownString newFrom: 'baz>`' startingAt: 19.
 	expectedOutput := MarkdownLinkedList newFrom: { code. str }.
 	
 	self assert: expectedOutput equals: output

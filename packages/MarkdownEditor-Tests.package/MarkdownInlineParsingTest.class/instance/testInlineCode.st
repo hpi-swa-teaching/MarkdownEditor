@@ -6,7 +6,8 @@ testInlineCode
 	code := MarkdownCodeSpan new
 		content: 'test';
 		rawContent: 'test';
-		fenceLength: 1.
+		fenceLength: 1;
+		startPosition: 1.
 	expectedOutput := MarkdownLinkedList newFrom: {code}.
 	
 	self assert: expectedOutput equals: output

@@ -6,7 +6,7 @@ adaptToDocumentWith: aParsingState
 	ifTrue: [aParsingState tip: 
 		(aParsingState tip addChild: MarkdownList new withState: aParsingState).
 		aParsingState tip
-			indention: self indention;
+			indentation: self indentation;
 			isOrdered: self isOrdered;
 			listMarker: self listMarker;
 			startNumber: self number;

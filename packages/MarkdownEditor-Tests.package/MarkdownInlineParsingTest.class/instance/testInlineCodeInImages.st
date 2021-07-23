@@ -3,12 +3,13 @@ testInlineCodeInImages
 
 	| expectedOutput output code str str2 |
 	output := parser parseInline: '![not a `image](/foo`)'.
-	str := MarkdownString newFrom: '![not a '.
+	str := MarkdownString newFrom: '![not a ' startingAt: 1.
 	code := MarkdownCodeSpan new
 		content: 'image](/foo';
 		fenceLength: 1;
-		rawContent: 'image](/foo'.
-	str2 := MarkdownString newFrom: ')'.
+		rawContent: 'image](/foo';
+		startPosition: 9.
+	str2 := MarkdownString newFrom: ')' startingAt: 22.
 	expectedOutput := MarkdownLinkedList newFrom: {str. code. str2}.
 	
 	self assert: expectedOutput equals: output

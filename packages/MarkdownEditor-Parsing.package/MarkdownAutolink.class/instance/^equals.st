@@ -1,8 +1,8 @@
 comparing
-= aMarkdownInlineElement
+= anotherMarkdownInlineElement
 
-	self == aMarkdownInlineElement
-		ifTrue: [ ^ true ].
-	self class = aMarkdownInlineElement class
-		ifFalse: [ ^ false ].
-	^ self isEmail = aMarkdownInlineElement isEmail and: [ self path = aMarkdownInlineElement path ]
+	^ super = anotherMarkdownInlineElement 
+		and: [
+			self isEmail = anotherMarkdownInlineElement isEmail 
+		and: [ 
+			self path = anotherMarkdownInlineElement path ]]

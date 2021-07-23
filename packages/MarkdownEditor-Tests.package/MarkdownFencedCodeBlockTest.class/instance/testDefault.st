@@ -4,7 +4,7 @@ testDefault
 	| testList testBlock |
 	testBlock := (MarkdownFencedCodeBlock new)
 		openingFence: '```';
-		indention: 0;
+		indentation: 0;
 		yourself.
 	testList := {{'test'. 0. true}.
 	{'test'. 0. true}.
@@ -13,7 +13,7 @@ testDefault
 	
 	testBlock := (MarkdownFencedCodeBlock new)
 		openingFence: '~~~';
-		indention: 0;
+		indentation: 0;
 		yourself.
 	testList := {{'test'. 0. true}.
 	{'test'. 0. true}.

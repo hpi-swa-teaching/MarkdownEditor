@@ -1,4 +1,6 @@
 comparing
 = anInlineContainer
 
-	^ super = anInlineContainer and: [ self path = anInlineContainer path]
+	^ super = anInlineContainer 
+		and: [ 
+			self path = anInlineContainer path]

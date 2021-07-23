@@ -5,7 +5,7 @@ testRemovingIndention
 	cr := Character cr.
 	testBlock := (MarkdownFencedCodeBlock new)
 		openingFence: '````';
-		indention: 3;
+		indentation: 3;
 		yourself.
 	testList := {{'test'. 0. true}.
 				{'```'. 0. true}.

@@ -11,5 +11,5 @@ testList: anOrderedCollection
 			ifTrue: [self assert: 0 equals: codeBlock]
 			ifFalse: [self assert: 2 equals: codeBlock.
 				self assert: testTupel second equals: state newBlock innerLine.
-				self assert: testTupel third equals: state newBlock indention.
+				self assert: testTupel third equals: state newBlock indentation.
 				self assert: testTupel fourth equals: state newBlock openingFence]]
