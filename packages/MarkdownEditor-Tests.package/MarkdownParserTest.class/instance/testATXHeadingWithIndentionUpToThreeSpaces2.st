@@ -9,7 +9,7 @@ testATXHeadingWithIndentionUpToThreeSpaces2
 		startPosition: 1;
 		endPosition: 12;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'Level 2'.
+	str := MarkdownString newFrom: 'Level 2' startingAt: 1.
 	str startPosition: 1.
 	heading beClosed;
 		container: document;
@@ -19,5 +19,5 @@ testATXHeadingWithIndentionUpToThreeSpaces2
 		innerStartPosition: 6;
 		content: 'Level 2';
 		inlines: (MarkdownLinkedList newFrom: {str});
-		level: 1.
+		level: 2.
 	self assert: document equals: output

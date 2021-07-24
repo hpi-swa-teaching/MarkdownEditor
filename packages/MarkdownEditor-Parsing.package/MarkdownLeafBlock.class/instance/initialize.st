@@ -2,5 +2,6 @@ initialize-release
 initialize
 
 	super initialize.
-	self content: ''.
-	self inlines: OrderedCollection new
+	self content: '';
+		inlines: OrderedCollection new;
+		innerStartPosition: 0

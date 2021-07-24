@@ -9,7 +9,7 @@ testATXHeading3
 		startPosition: 1;
 		endPosition: 11;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'Level 3'.
+	str := MarkdownString newFrom: 'Level 3' startingAt: 1.
 	str startPosition: 1.
 	heading beClosed;
 		container: document;
@@ -19,5 +19,5 @@ testATXHeading3
 		innerStartPosition: 5;
 		content: 'Level 3';
 		inlines: (MarkdownLinkedList newFrom: {str});
-		level: 1.
+		level: 3.
 	self assert: document equals: output

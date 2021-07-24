@@ -9,8 +9,7 @@ testNoATXHeading3
 		startPosition: 1;
 		endPosition: 7;
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: '## foo'.
-	str startPosition: 1.
+	str := MarkdownString newFrom: '\## foo' startingAt: 1.
 	paragraph beClosed;
 		container: document;
 		startPosition: 1;

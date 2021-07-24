@@ -3,6 +3,6 @@ testInlineContainerBlockHash
 
 	| hash expectedHash |
 	hash := (MarkdownInlineContainerBlock new) hash.
-	expectedHash := (MarkdownLinkedList new) hash.
+	expectedHash := nil hash bitXor: (MarkdownLinkedList new) hash.
 	
 	self assert: expectedHash equals: hash

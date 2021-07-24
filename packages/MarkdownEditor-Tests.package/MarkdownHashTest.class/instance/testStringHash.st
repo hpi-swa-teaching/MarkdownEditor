@@ -1,8 +1,7 @@
 tests - hash
 testStringHash
 
-	| hash expectedHash |
+	| hash |
 	hash := (MarkdownString new) hash.
-	expectedHash := nil hash.
 	
-	self assert: expectedHash equals: hash
+	self assert: 0 equals: hash
