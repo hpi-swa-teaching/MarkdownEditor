@@ -4,7 +4,9 @@ testParseEmphItalic5
 	| output expectedOutput emph |
 	output := parser parseInline: '___hello_'.
 	emph := MarkdownItalic new.
-	emph children add: (MarkdownString newFrom: 'hello').
-	expectedOutput := MarkdownLinkedList newFrom: {(MarkdownString newFrom: '__'). emph}.
+	emph startPosition: 3.
+	emph children add: (MarkdownString newFrom: 'hello' startingAt: 4).
+	expectedOutput := MarkdownLinkedList newFrom: 
+		{(MarkdownString newFrom: '__' startingAt: 1). emph}.
 	
 	self assert: expectedOutput equals: output

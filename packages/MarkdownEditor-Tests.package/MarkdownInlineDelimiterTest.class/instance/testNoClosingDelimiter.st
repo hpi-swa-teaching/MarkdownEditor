@@ -3,6 +3,7 @@ testNoClosingDelimiter
 
     | expectedOutput output |
     output := parser parseInline: '*this is a test without closing delimiter'.
-    expectedOutput := MarkdownLinkedList newFrom: {MarkdownString newFrom:  '*this is a test without closing delimiter'}.
+    expectedOutput := MarkdownLinkedList newFrom: 
+	{MarkdownString newFrom:  '*this is a test without closing delimiter' startingAt: 1}.
 
     self assert: expectedOutput equals: output

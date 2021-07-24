@@ -5,4 +5,4 @@ asMarkdownString
 	content := ''.
 	self count
 		timesRepeat: [content := content , self type asString].
-	^ MarkdownString newFrom: content
+	^ MarkdownString newFrom: content startingAt: self startPosition

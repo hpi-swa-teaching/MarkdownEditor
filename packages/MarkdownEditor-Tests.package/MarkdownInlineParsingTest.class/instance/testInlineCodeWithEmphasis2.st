@@ -6,7 +6,9 @@ testInlineCodeWithEmphasis2
 	code := MarkdownCodeSpan new
 		content: '*';
 		fenceLength: 1;
-		rawContent: '*'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString newFrom: '*test'. code}.
+		rawContent: '*';
+		startPosition: 6.
+	expectedOutput := MarkdownLinkedList 
+		newFrom: {MarkdownString newFrom: '*test' startingAt: 1. code}.
 	
 	self assert: expectedOutput equals: output

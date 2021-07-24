@@ -10,6 +10,6 @@ testInlineCodeInImages
 		rawContent: 'image](/foo';
 		startPosition: 9.
 	str2 := MarkdownString newFrom: ')' startingAt: 22.
-	expectedOutput := MarkdownLinkedList newFrom: {str. code. str2}.
+	expectedOutput := MarkdownLinkedList newFrom: { str. code. str2 }.
 	
 	self assert: expectedOutput equals: output

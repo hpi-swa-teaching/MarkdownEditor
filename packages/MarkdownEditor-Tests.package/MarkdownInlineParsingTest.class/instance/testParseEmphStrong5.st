@@ -3,8 +3,10 @@ testParseEmphStrong5
 	
 	| output expectedOutput emph |
 	output := parser parseInline: '____hello__'.
-	emph := MarkdownBold new.
-	emph children add: (MarkdownString newFrom: 'hello').
-	expectedOutput := MarkdownLinkedList newFrom: {(MarkdownString newFrom: '__'). emph}.
+	emph := MarkdownBold new 
+		startPosition: 3.
+	emph children add: (MarkdownString newFrom: 'hello' startingAt: 5).
+	expectedOutput := MarkdownLinkedList newFrom: 
+		{(MarkdownString newFrom: '__' startingAt: 1). emph}.
 	
 	self assert: expectedOutput equals: output

@@ -4,7 +4,9 @@ testParseAutolink4
 	| output expectedOutput link |
 	output := parser parseInline: '__a<http://foo.bar/?q=__>'.
 	link := MarkdownAutolink new.
-	link path: 'http://foo.bar/?q=__'.
-	expectedOutput := MarkdownLinkedList newFrom: {(MarkdownString newFrom: '__a').link}.
+	link path: 'http://foo.bar/?q=__';
+		startPosition: 4.
+	expectedOutput := MarkdownLinkedList 
+		newFrom: {(MarkdownString newFrom: '__a' startingAt: 1).link}.
 	
 	self assert: expectedOutput equals: output

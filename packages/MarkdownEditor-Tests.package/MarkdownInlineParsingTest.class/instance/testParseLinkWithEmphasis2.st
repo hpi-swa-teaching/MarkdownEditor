@@ -5,8 +5,9 @@ testParseLinkWithEmphasis2
 	output := parser parseInline: '*[this is a test*](hpi.de)'.
 	
 	link := MarkdownLink newFrom: 'hpi.de'.
-	link children add: (MarkdownString newFrom: 'this is a test*').
-	str := (MarkdownString newFrom: '*').
+	link startPosition: 2.
+	link children add: (MarkdownString newFrom: 'this is a test*' startingAt: 1).
+	str := (MarkdownString newFrom: '*' startingAt: 1).
 	expectedOutput := MarkdownLinkedList newFrom: 
 		{str. link}.
 	

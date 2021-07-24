@@ -3,6 +3,7 @@ testParseEmphDivisibleByThree1
     
 	| output expectedOutput |
  	output := parser parseInline: '*this is just plain**text'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString newFrom: '*this is just plain**text'}.
+	expectedOutput := MarkdownLinkedList newFrom: 
+		{MarkdownString newFrom: '*this is just plain**text' startingAt: 1}.
 
 	self assert: expectedOutput equals: output

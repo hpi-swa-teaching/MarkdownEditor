@@ -4,10 +4,12 @@ testInlineCodeInImages2
 	| expectedOutput output code image |
 	output := parser parseInline: '![`code in an image`](/foo)'.
 	image := MarkdownImage newFrom: '/foo'.
+	image startPosition: 1.
 	code := MarkdownCodeSpan new
 		content: 'code in an image';
 		fenceLength: 1;
-		rawContent: 'code in an image'.
+		rawContent: 'code in an image';
+		startPosition: 1.
 	image children add: code.
 	expectedOutput := MarkdownLinkedList newFrom: { image }.
 	

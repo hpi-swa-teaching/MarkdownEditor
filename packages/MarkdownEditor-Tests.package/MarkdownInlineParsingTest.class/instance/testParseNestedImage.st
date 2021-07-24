@@ -3,12 +3,14 @@ testParseNestedImage
 	
 	| output expectedOutput image image2 str |
 	output := parser parseInline: '![hpi ![hpi2](https://hpi2.de)](https://hpi.de)'.
-	image := MarkdownImage new.
-	image path: 'https://hpi.de'.
-	str := MarkdownString newFrom: 'hpi '.
-	image2 := MarkdownImage new.
-	image2 path: 'https://hpi2.de'.
-	image2 children add: (MarkdownString newFrom: 'hpi2').
+	image := MarkdownImage new
+		startPosition: 1;
+		path: 'https://hpi.de'.
+	str := MarkdownString newFrom: 'hpi ' startingAt: 1.
+	image2 := MarkdownImage new
+		startPosition: 5;
+		path: 'https://hpi2.de'.
+	image2 children add: (MarkdownString newFrom: 'hpi2' startingAt: 1).
 	image children 
 		add: str;
 		add: image2.

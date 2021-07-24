@@ -3,14 +3,17 @@ testParseEmphNested5
     
 	| output expectedOutput emphItalic emphItalic2 link |
 	output := parser parseInline: '*hello world [*this is a link*](hpi.de)*'.
-	emphItalic := MarkdownItalic new.
-	emphItalic2 := MarkdownItalic new.
-	emphItalic2 children add: (MarkdownString newFrom: 'this is a link').
+	emphItalic := MarkdownItalic new
+		startPosition: 1.
+	emphItalic2 := MarkdownItalic new
+		startPosition: 1.
+	emphItalic2 children add: (MarkdownString newFrom: 'this is a link' startingAt: 2).
 	link := MarkdownLink new.
-	link path: 'hpi.de'.
+	link path: 'hpi.de';
+		startPosition: 14.
 	link children add: emphItalic2.
 	emphItalic children
-		add: (MarkdownString newFrom: 'hello world ');
+		add: (MarkdownString newFrom: 'hello world ' startingAt: 2);
 		add: link.
 	expectedOutput := MarkdownLinkedList newFrom: {emphItalic}.
 	

@@ -3,6 +3,7 @@ testNotInlineCode2
 
 	| expectedOutput output |
 	output := parser parseInline: '`test'.
-	expectedOutput := MarkdownLinkedList newFrom: {MarkdownString newFrom: '`test'}.
+	expectedOutput := MarkdownLinkedList 
+		newFrom: {MarkdownString newFrom: '`test' startingAt: 1}.
 	
 	self assert: expectedOutput equals: output

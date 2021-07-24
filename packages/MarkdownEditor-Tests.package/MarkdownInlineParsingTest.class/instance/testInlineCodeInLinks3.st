@@ -4,10 +4,12 @@ testInlineCodeInLinks3
 	| expectedOutput output code str |
 	output := parser parseInline: '[not a link]`(/foo)`'.
 	str := MarkdownString newFrom: '[not a link]'.
+	str startPosition: 1.
 	code := MarkdownCodeSpan new
 		content: '(/foo)';
 		fenceLength: 1;
-		rawContent: '(/foo)'.
+		rawContent: '(/foo)';
+		startPosition: 13.
 	expectedOutput := MarkdownLinkedList newFrom: { str. code }.
 	
 	self assert: expectedOutput equals: output
