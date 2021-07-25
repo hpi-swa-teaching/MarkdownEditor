@@ -1,22 +1,21 @@
 tests - ATXHeading
-testATXHeading4
+testATXHeadingEmpty2
 
-	| output document heading str |
-	output := parser parse: '#### Level 4'.
+	| output document heading |
+	output := parser parse: '#'.
 	heading := MarkdownATXHeading new.
 	document := MarkdownDocument new.
 		document beClosed;
 		startPosition: 1;
-		endPosition: 12;
+		endPosition: 1;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'Level 4' startingAt: 1.
 	heading beClosed;
 		container: document;
 		startPosition: 1;
-		endPosition: 12;
+		endPosition: 1;
 		innerLine: '';
-		innerStartPosition: 6;
-		content: 'Level 4';
-		inlines: (MarkdownLinkedList newFrom: {str});
-		level: 4.
+		innerStartPosition: 0;
+		content: '';
+		level: 1.
+	
 	self assert: document equals: output

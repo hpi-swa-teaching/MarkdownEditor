@@ -10,7 +10,6 @@ testATXHeading6
 		endPosition: 14;
 		children: (OrderedCollection newFrom: {heading}).
 	str := MarkdownString newFrom: 'Level 6' startingAt: 1.
-	str startPosition: 1.
 	heading beClosed;
 		container: document;
 		startPosition: 1;

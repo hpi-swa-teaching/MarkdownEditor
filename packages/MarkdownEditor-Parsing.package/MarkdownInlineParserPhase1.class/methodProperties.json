@@ -23,7 +23,7 @@
 		"evaluateForCodeSpan:and:" : "jh 7/11/2021 11:41",
 		"findCloserIndexFrom:and:" : "mf 6/23/2021 19:24",
 		"findEnclosedLinkFrom:and:" : "jh 7/11/2021 11:48",
-		"handle:isNotADelimiterFrom:" : "jh 7/11/2021 11:50",
+		"handle:isNotADelimiterFrom:" : "mf 7/25/2021 01:24",
 		"handle:isNotCodeSpanWith:" : "jh 7/11/2021 11:45",
 		"handlePunctuationRuleFrom:" : "jh 7/11/2021 11:53",
 		"initialize" : "jh 7/13/2021 18:39",

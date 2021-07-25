@@ -3,7 +3,7 @@ testOpenMarkdownOptions
 
 	| optionsMenu |
 	
-	optionsMenu := editor openSettings.
+	optionsMenu := editor openSettings openInWorld.
 
 	self assert: (World submorphs includes: optionsMenu).
 	optionsMenu delete

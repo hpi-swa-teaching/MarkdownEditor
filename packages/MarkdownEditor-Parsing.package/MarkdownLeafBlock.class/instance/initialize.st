@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self content: '';
-		inlines: OrderedCollection new;
+		inlines: MarkdownLinkedList new;
 		innerStartPosition: 0

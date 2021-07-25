@@ -6,7 +6,5 @@ handle: aDelimiterRun isNotADelimiterFrom: aRawString
 			(aDelimiterRun 
 				copyFrom: 2 
 				to: aDelimiterRun size - 1)).
-	(self is: aDelimiterRun biggerThan: aRawString)
-		ifTrue: [^ '']
-		ifFalse: [^ aRawString 
-					allButFirst: aDelimiterRun size - 2]
+	 ^ aRawString 
+				allButFirst: aDelimiterRun size - 2

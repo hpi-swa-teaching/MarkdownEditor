@@ -1,4 +1,4 @@
-yellowButtonMenu
+export
 openParsingTree
 
 	^ MarkdownOutlineView openFor: self

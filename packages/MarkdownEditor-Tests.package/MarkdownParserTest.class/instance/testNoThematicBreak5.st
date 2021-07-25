@@ -1,21 +1,21 @@
-tests - ATXHeading
-testATXHeadingWithNoIndentionUpToThreeSpaces
+tests - thematic break
+testNoThematicBreak5
 
 	| output document code str |
-	output := parser parse: '    # Level 1'.
+	output := parser parse: '    ***'.
 	code := MarkdownFencedCodeBlock new.
 	document := MarkdownDocument new.
 		document beClosed;
 		startPosition: 1;
-		endPosition: 13;
+		endPosition: 7;
 		children: (OrderedCollection newFrom: {code}).
-	str := MarkdownString newFrom: '# Level 1' startingAt: 1.
+	str := MarkdownString newFrom: '***' startingAt: 1.
 	code beClosed;
 		container: document;
 		startPosition: 1;
-		endPosition: 13;
+		endPosition: 7;
 		innerLine: nil;
 		innerStartPosition: 5;
-		content: '# Level 1';
+		content: '***';
 		inlines: (MarkdownLinkedList newFrom: {str}).
 	self assert: document equals: output

@@ -9,8 +9,7 @@ testATXHeadingWithLeadingAndTraillingSpaces
 		startPosition: 1;
 		endPosition: 24;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'Level 1'.
-	str startPosition: 1.
+	str := MarkdownString newFrom: 'Level 1' startingAt: 1.
 	heading beClosed;
 		container: document;
 		startPosition: 1;

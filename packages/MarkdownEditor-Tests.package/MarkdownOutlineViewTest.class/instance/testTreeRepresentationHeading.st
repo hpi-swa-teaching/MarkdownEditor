@@ -2,7 +2,7 @@ tests
 testTreeRepresentationHeading
 
 	| heading expected inline |
-	inline := MarkdownLinkedList newFrom: {MarkdownString newFrom: 'hello'}.
+	inline := MarkdownLinkedList newFrom: {MarkdownString newFrom: 'hello' startingAt: 1}.
 	heading := MarkdownATXHeading new
 		startPosition: 1;
 		endPosition: 7;
@@ -15,4 +15,4 @@ testTreeRepresentationHeading
 		'start', String tab, '1'.
 		'end', String tab, '7'.
 		inline}.
-	self assert: expected equals: heading treeRepresentation
+	self assert: expected equals: heading treeRepresentation asOrderedCollection
