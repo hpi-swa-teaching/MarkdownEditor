@@ -1,13 +1,13 @@
 tests - hash
-testDelimiterHash
+testDelimiterHash4
 
 	| del expectedHash |
-	del := MarkdownDelimiter newFromPadded: 't**t'.
+	del := MarkdownDelimiter newFromPadded: ' __t'.
 	expectedHash := true hash 
-		bitXor: (true hash 
+		bitXor: (false hash 
 		bitXor: (2 hash 
 		bitXor: (true hash 
-		bitXor: ($* hash 
+		bitXor: ($_ hash 
 		bitXor: (nil hash 
-		bitXor: true hash))))).
+		bitXor: false hash))))).
 	self assert: expectedHash equals: del hash

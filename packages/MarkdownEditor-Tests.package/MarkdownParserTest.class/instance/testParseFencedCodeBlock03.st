@@ -1,5 +1,5 @@
 tests - fencedCodeBlocks
-testParseFencedCodeBlock3
+testParseFencedCodeBlock03
 
 	| output fencedCodeBlock document str |
 	output := parser parse: '```smalltalk this', Character cr, 'some code', Character cr,'```'.

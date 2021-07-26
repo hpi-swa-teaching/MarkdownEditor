@@ -1,25 +1,25 @@
 tests - fencedCodeBlocks
-testParseFencedCodeBlock2
+testParseFencedCodeBlock07
 
 	| output fencedCodeBlock document str |
-	output := parser parse: '```smalltalk', Character cr, 'some code', Character cr,'```'.
+	output := parser parse: '```', Character cr, 'aaa', Character cr, '~~~', Character cr, '```'.
 	fencedCodeBlock := MarkdownFencedCodeBlock new.
 	document := MarkdownDocument new.
 		document beClosed;
 		startPosition: 1;
-		endPosition: 26;
+		endPosition: 15;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
-	str := MarkdownString newFrom: 'some code', Character cr.
+	str := MarkdownString newFrom: 'aaa', Character cr, '~~~', Character cr.
 	str startPosition: 1.
 	fencedCodeBlock beClosed;
 		container: document;
 		startPosition: 1;
-		endPosition: 26;
-		innerLine: 'smalltalk', Character cr;
-		innerStartPosition: 14;
-		content: 'some code', Character cr;
+		endPosition: 15;
+		innerLine: Character cr asString;
+		innerStartPosition: 5;
+		content: 'aaa', Character cr, '~~~', Character cr;
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		indentation: 0;
-		info: 'smalltalk';
+		info: '';
 		openingFence: '```'.
 	self assert: document equals: output

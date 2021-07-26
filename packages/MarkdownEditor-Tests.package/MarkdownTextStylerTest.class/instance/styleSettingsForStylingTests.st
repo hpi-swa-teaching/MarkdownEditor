@@ -6,7 +6,6 @@ styleSettingsForStylingTests
 	styleSettings := MarkdownStyleSettings default.
 	styleSettings fontColors
 		at: 'Blockquote' put: Color blue;
-		at: 'Comment' put: Color lightGray;
 		at: 'Heading 1' put: Color black;
 		at: 'Heading 2' put: Color black;
 		at: 'Heading 3' put: Color black;

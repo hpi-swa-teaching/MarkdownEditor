@@ -1,6 +1,8 @@
 phase 2
 lookForNewBlockStarts
 
+	self state oldTip class = MarkdownFencedCodeBlock
+		ifTrue: [^ self processRemainderOfLine].
 	self blockChecklist do: [:class || result | 
 		result := class createNew: self state.
 		
@@ -11,5 +13,5 @@ lookForNewBlockStarts
 		result = 2 "matched leaf block - we are done"
 		ifTrue: [self incorporateNewBlock.
 			^ self processRemainderOfLine]].
-
+	
 	^ self processRemainderOfLine

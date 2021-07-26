@@ -1,10 +1,10 @@
 tests - hash
-testDelimiterHash
+testDelimiterHash3
 
 	| del expectedHash |
-	del := MarkdownDelimiter newFromPadded: 't**t'.
-	expectedHash := true hash 
-		bitXor: (true hash 
+	del := MarkdownDelimiter newFromPadded: 't** '.
+	expectedHash := false hash 
+		bitXor: (false hash 
 		bitXor: (2 hash 
 		bitXor: (true hash 
 		bitXor: ($* hash 
