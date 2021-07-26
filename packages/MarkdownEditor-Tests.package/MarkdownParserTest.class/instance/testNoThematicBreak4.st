@@ -17,5 +17,5 @@ testNoThematicBreak4
 		innerLine: nil;
 		innerStartPosition: 1;
 		content: 'Foo', Character cr, '***';
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	self assert: document equals: output

@@ -8,4 +8,10 @@
 		"testCodeWhitespaceStripping" : "jh 7/13/2021 15:53",
 		"testCodeWhitespaceStripping2" : "jh 7/13/2021 15:40",
 		"testCodeWhitespaceStripping3" : "jh 7/13/2021 15:53",
-		"testCodeWhitespaceStripping4" : "jh 7/13/2021 15:53" } }
+		"testCodeWhitespaceStripping4" : "jh 7/13/2021 15:53",
+		"testTotalLengthAutolink" : "jh 7/26/2021 10:54",
+		"testTotalLengthCodeSpan" : "jh 7/26/2021 10:53",
+		"testTotalLengthEmphasis" : "jh 7/26/2021 10:48",
+		"testTotalLengthImage" : "jh 7/26/2021 10:58",
+		"testTotalLengthLink" : "jh 7/26/2021 10:56",
+		"testTotalLengthString" : "jh 7/26/2021 10:59" } }

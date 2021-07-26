@@ -7,7 +7,5 @@ convertStyleSettings: aStyleSettings
 		(self convertBlockquoteStyleSettings: aStyleSettings),
 		(self convertCodeBlockStyleSettings: aStyleSettings),
 		(self convertListStyleSettings: aStyleSettings),
-		"(self convertOrderedListStyleSettings: aStyleSettings),"
-		"(self convertUnorderedListStyleSettings: aStyleSettings),"
 		'</style>'.
 		

@@ -1,7 +1,7 @@
 convert styling
 convertHeadingStyleSettings: aStyleSettings
+
 	| heading |
-	
 	heading := ''.
 	MarkdownATXHeading labels do: [:label |  heading := heading, '
 		h', label last asString, ' {

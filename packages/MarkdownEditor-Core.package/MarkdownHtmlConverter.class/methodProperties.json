@@ -2,16 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"convertBlockquoteStyleSettings:" : "jh 7/2/2021 09:54",
-		"convertCodeBlockStyleSettings:" : "jh 7/2/2021 09:54",
+		"convertBlockquoteStyleSettings:" : "jh 7/26/2021 13:01",
+		"convertCodeBlockStyleSettings:" : "jh 7/26/2021 13:02",
 		"convertColorToRGBA:" : "jh 7/1/2021 12:11",
 		"convertContainerWith:" : "jh 6/25/2021 11:37",
 		"convertHead" : "jh 7/1/2021 12:30",
-		"convertHeadingStyleSettings:" : "jh 7/2/2021 09:53",
-		"convertLeafBlockWith:" : "jh 6/25/2021 09:04",
-		"convertLeafBlockWithoutTraillingBlanks:" : "mf 7/23/2021 00:01",
+		"convertHeadingStyleSettings:" : "jh 7/26/2021 13:02",
+		"convertLeafBlockWith:" : "jh 7/26/2021 12:46",
 		"convertListStyleSettings:" : "jh 7/2/2021 09:54",
 		"convertParagraphStyleSettings:" : "jh 7/2/2021 09:54",
-		"convertStyleSettings:" : "jh 7/1/2021 12:03",
+		"convertStyleSettings:" : "jh 7/26/2021 12:57",
 		"convertToHtml:" : "jh 7/1/2021 12:30",
 		"labelAsCssDescriptor:" : "azi 8/6/2020 08:09" } }

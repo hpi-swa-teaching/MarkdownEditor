@@ -1,11 +1,11 @@
 running
 setUp
 
-	| editor toolbuilder |
+	| editorWindow |
 	sampleDocument := self configureSampleDocument.
-	editor := MarkdownEditor new.
-	toolbuilder := ToolBuilder default.
-	window := toolbuilder open: editor.
-	editor textStyler document: sampleDocument.
+	editorWindow := MarkdownEditor open.
+	editor := editorWindow model.
+	editor textMorph changeText: 'hello' asText.
+	"editor textStyler document: sampleDocument."
 	outlineWindow := MarkdownOutlineView openFor: editor.
 	outlineModel := outlineWindow model

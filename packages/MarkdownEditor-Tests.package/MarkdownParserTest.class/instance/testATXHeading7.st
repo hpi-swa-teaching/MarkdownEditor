@@ -25,7 +25,7 @@ testATXHeading7
 		innerLine: '';
 		innerStartPosition: 9;
 		content: 'foo';
-		inlines: (MarkdownLinkedList newFrom: {str});
+		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 2.
 	break2 beClosed;
 		container: document;

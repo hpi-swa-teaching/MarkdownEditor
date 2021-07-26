@@ -5,7 +5,7 @@ processReferenceFrom: aRawString
 	
 	referenceType := self decideReferenceType.
 	balancedBracketCollection := self calculateBalancedBracketCollectionFrom: aRawString.
-	(balancedBracketCollection isEmpty "or: [(self isOpenBracketAtOneFrom: balancedBracketCollection last) not]")
+	(balancedBracketCollection isEmpty)
 		ifTrue: [^ self processStringFrom: aRawString].
 	referenceType = MarkdownLink
 		ifTrue: [^ self processLink: balancedBracketCollection from: aRawString]

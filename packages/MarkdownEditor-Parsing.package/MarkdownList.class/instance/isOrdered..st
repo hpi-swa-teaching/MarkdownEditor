@@ -1,4 +1,4 @@
 accessing
 isOrdered: aBoolean
 
-	isOrdered := aBoolean
+	ordered := aBoolean

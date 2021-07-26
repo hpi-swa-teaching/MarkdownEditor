@@ -1,0 +1,4 @@
+accessing
+beNotLoose
+
+	loose := false

@@ -17,6 +17,6 @@ testATXHeading5
 		innerLine: '';
 		innerStartPosition: 7;
 		content: 'Level 5';
-		inlines: (MarkdownLinkedList newFrom: {str});
+		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 5.
 	self assert: document equals: output

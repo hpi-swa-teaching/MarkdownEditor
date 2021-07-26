@@ -2,5 +2,5 @@ comparing
 = anotherMarkdownLeafBlock
 
 	^ super = anotherMarkdownLeafBlock 
-		and: [self inlines = anotherMarkdownLeafBlock inlines 
+		and: [self inlineElements = anotherMarkdownLeafBlock inlineElements 
 			and: [ self content = anotherMarkdownLeafBlock content ]]

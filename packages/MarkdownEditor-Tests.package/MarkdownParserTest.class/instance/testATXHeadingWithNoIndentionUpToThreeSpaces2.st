@@ -17,5 +17,5 @@ testATXHeadingWithNoIndentionUpToThreeSpaces2
 		innerLine: nil;
 		innerStartPosition: 1;
 		content: 'foo', Character cr, '# Level 1';
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	self assert: document equals: output

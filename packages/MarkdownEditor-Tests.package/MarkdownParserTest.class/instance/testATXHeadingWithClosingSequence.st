@@ -18,7 +18,7 @@ testATXHeadingWithClosingSequence
 		innerLine: '';
 		innerStartPosition: 4;
 		content: 'foo';
-		inlines: (MarkdownLinkedList newFrom: {str});
+		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 2.
 	str2 := MarkdownString newFrom: 'bar' startingAt: 1.
 	heading2 beClosed;
@@ -28,6 +28,6 @@ testATXHeadingWithClosingSequence
 		innerLine: '';
 		innerStartPosition: 17;
 		content: 'bar';
-		inlines: (MarkdownLinkedList newFrom: {str2});
+		inlineElements: (MarkdownLinkedList newFrom: {str2});
 		level: 3.
 	self assert: document equals: output

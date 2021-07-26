@@ -20,6 +20,6 @@ testATXHeadingWithEmphasis
 		innerLine: '';
 		innerStartPosition: 3;
 		content: '**Level 1**';
-		inlines: (MarkdownLinkedList newFrom: {strong});
+		inlineElements: (MarkdownLinkedList newFrom: {strong});
 		level: 1.
 	self assert: document equals: output

@@ -16,6 +16,6 @@ testParseParagraph
 		endPosition: 13;
 		innerLine: nil;
 		innerStartPosition: 2;
-		content: 'hello world', Character cr;
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		content: 'hello world';
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	self assert: document equals: output

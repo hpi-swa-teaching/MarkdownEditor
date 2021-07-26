@@ -2,5 +2,5 @@ tests - creation
 testIsLoose
 
 	| list |
-	list := (MarkdownList new) isLoose: false.
+	list := (MarkdownList new) beNotLoose.
 	self assert: false equals: list isLoose

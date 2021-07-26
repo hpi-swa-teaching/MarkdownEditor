@@ -10,6 +10,6 @@ continue: aParsingState
 			^ 2]
 	ifFalse: [aParsingState reduceCurrentLineTo: 
 			(StringUtil 
-				removeNLeadingSpaces: self indentation 
-				from: aParsingState currentLine).
+				remove: self indentation 
+				LeadingSpacesFrom: aParsingState currentLine).
 			^ 0]

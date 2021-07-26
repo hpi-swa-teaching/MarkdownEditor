@@ -17,6 +17,6 @@ testATXHeadingWithClosingSequence3
 		innerLine: '';
 		innerStartPosition: 5;
 		content: 'foo';
-		inlines: (MarkdownLinkedList newFrom: {str});
+		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 3.
 	self assert: document equals: output

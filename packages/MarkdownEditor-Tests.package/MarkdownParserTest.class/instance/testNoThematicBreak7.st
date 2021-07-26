@@ -17,5 +17,5 @@ testNoThematicBreak7
 		innerLine: nil;
 		innerStartPosition: 1;
 		content: 'a------';
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	self assert: document equals: output

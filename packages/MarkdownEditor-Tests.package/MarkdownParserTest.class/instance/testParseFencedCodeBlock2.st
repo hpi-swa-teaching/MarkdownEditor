@@ -18,7 +18,7 @@ testParseFencedCodeBlock2
 		innerLine: 'smalltalk', Character cr;
 		innerStartPosition: 14;
 		content: 'some code', Character cr;
-		inlines: (MarkdownLinkedList newFrom: {str});
+		inlineElements: (MarkdownLinkedList newFrom: {str});
 		indentation: 0;
 		info: 'smalltalk';
 		openingFence: '```'.

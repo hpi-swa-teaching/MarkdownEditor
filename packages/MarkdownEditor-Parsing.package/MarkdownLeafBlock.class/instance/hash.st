@@ -1,4 +1,4 @@
 comparing
 hash
 
-	^ super hash bitXor: (self inlines hash bitXor: self content hash)
+	^ super hash bitXor: (self inlineElements hash bitXor: self content hash)

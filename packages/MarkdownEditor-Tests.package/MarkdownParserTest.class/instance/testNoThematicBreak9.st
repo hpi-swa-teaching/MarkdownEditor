@@ -20,5 +20,5 @@ testNoThematicBreak9
 		innerLine: nil;
 		innerStartPosition: 2;
 		content: '*-*';
-		inlines: (MarkdownLinkedList newFrom: {emph}).
+		inlineElements: (MarkdownLinkedList newFrom: {emph}).
 	self assert: document equals: output

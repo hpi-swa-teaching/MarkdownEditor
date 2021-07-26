@@ -23,7 +23,7 @@ testThematicBreak12
 		innerStartPosition: nil;
 		indentation: 2;
 		isOrdered: false;
-		listMarker: '-';
+		listMarker: '*';
 		children: (OrderedCollection newFrom: {element}).
 	element beClosed;
 		container: list;
@@ -33,17 +33,17 @@ testThematicBreak12
 		innerStartPosition: nil;
 		indentation: 2;
 		isOrdered: false;
-		listMarker: '-';
+		listMarker: '*';
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: 'foo', Character cr startingAt: 1.
+	str := MarkdownString newFrom: 'foo' startingAt: 1.
 	paragraph beClosed;
 		container: document;
 		startPosition: 3;
 		endPosition: 6;
 		innerLine: nil;
 		innerStartPosition: 3;
-		content: 'foo', Character cr;
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		content: 'foo';
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	break beClosed;
 		container: document;
 		startPosition: 7;
@@ -69,7 +69,7 @@ testThematicBreak12
 		innerStartPosition: nil;
 		indentation: 2;
 		isOrdered: false;
-		listMarker: '-';
+		listMarker: '*';
 		children: (OrderedCollection newFrom: {paragraph2}).
 	str2 := MarkdownString newFrom: 'bar' startingAt: 1.
 	paragraph2 beClosed;
@@ -79,5 +79,5 @@ testThematicBreak12
 		innerLine: nil;
 		innerStartPosition: 15;
 		content: 'bar';
-		inlines: (MarkdownLinkedList newFrom: {str2}).
+		inlineElements: (MarkdownLinkedList newFrom: {str2}).
 	self assert: document equals: output

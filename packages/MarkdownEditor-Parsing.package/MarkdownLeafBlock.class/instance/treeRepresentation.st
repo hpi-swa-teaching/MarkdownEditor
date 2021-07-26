@@ -1,7 +1,7 @@
 view
 treeRepresentation
 
-	| copiedInlines |
-	copiedInlines := self inlines copy.
-	super treeRepresentation addAllFirstTo: copiedInlines.
-	^ copiedInlines
+	| copiedInlineElements |
+	copiedInlineElements := self inlineElements copy.
+	super treeRepresentation addAllFirstTo: copiedInlineElements.
+	^ copiedInlineElements

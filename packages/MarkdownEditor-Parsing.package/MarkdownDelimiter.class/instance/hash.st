@@ -12,4 +12,5 @@ hash
 			(self type hash 
 		bitXor: 
 			(self inlineIndex hash 
-		bitXor: self isPotentialCloser hash)))))
+		bitXor: 
+			self isPotentialCloser hash)))))

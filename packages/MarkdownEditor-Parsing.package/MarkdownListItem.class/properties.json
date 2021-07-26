@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"number",
-		"indention",
 		"isOrdered",
-		"listMarker" ],
+		"listMarker",
+		"indentation" ],
 	"name" : "MarkdownListItem",
 	"pools" : [
 		 ],

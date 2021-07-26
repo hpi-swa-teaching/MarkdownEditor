@@ -1,3 +1,4 @@
 accessing
-fenceLength: anObject
-	fenceLength := anObject
+fenceLength: aNumber
+
+	fenceLength := aNumber

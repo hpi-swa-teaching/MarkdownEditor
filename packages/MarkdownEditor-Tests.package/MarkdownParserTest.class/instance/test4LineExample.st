@@ -6,11 +6,10 @@ test4LineExample
 	self assert: MarkdownBlockquote equals: (document := document children last) class.
 	self assert: MarkdownParagraph equals: document children first class.
 	self assert: 'Lorem ipsum dolor
-sit amet.
-' equals: document children first content.
+sit amet.' equals: document children first content.
 	self assert: MarkdownList equals: (document := document children last) class.
 	self assert: MarkdownParagraph equals: document children last children first class.
 	self assert: MarkdownListItem equals: (document := document children first) class.
 	self assert: MarkdownParagraph equals: (document := document children first) class.
-	self assert: MarkdownItalic equals: document inlines second class.
-	self assert: 'quodsi iracundia' equals: document inlines second children first content
+	self assert: MarkdownItalic equals: document inlineElements second class.
+	self assert: 'quodsi iracundia' equals: document inlineElements second children first content

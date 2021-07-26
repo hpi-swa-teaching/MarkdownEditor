@@ -1,4 +1,4 @@
-need to be implemented
+tests - color
 testConvertToRGBA
 
 	| color convertedColor |

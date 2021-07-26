@@ -1,4 +1,4 @@
-tests
+tests - treeRepresentation
 testTreeRepresentationHeading
 
 	| heading expected inline |
@@ -8,7 +8,7 @@ testTreeRepresentationHeading
 		endPosition: 7;
 		level: 2;
 		yourself.
-	heading inlines add: inline.
+	heading inlineElements add: inline.
 	
 	expected := OrderedCollection newFrom: 
 		{'level', String tab, '2'. 

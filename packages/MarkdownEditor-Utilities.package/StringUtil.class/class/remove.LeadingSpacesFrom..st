@@ -1,5 +1,5 @@
 replacing
-removeNLeadingSpaces: aNumber from: aString
+remove: aNumber LeadingSpacesFrom: aString
 
 	| first |
 	first := aString indexOfAnyOf: (CharacterSet withAll: {Character space}) complement startingAt: 1.

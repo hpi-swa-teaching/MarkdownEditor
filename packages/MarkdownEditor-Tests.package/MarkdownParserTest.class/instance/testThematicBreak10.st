@@ -11,15 +11,15 @@ testThematicBreak10
 		startPosition: 1;
 		endPosition: 11;
 		children: (OrderedCollection newFrom: {paragraph. break. paragraph2}).
-	str := MarkdownString newFrom: 'Foo', Character cr startingAt: 1.
+	str := MarkdownString newFrom: 'Foo' startingAt: 1.
 	paragraph beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 4;
 		innerLine: nil;
 		innerStartPosition: 1;
-		content: 'Foo', Character cr;
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		content: 'Foo';
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	break beClosed;
 		container: document;
 		startPosition: 5;
@@ -35,5 +35,5 @@ testThematicBreak10
 		innerLine: nil;
 		innerStartPosition: 9;
 		content: 'bar';
-		inlines: (MarkdownLinkedList newFrom: {str2}).
+		inlineElements: (MarkdownLinkedList newFrom: {str2}).
 	self assert: document equals: output

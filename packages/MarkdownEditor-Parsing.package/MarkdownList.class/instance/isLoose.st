@@ -1,4 +1,4 @@
 accessing
 isLoose
 
-	^ isLoose
+	^ loose

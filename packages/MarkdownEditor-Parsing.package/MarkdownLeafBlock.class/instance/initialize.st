@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self content: '';
-		inlines: MarkdownLinkedList new;
+		inlineElements: MarkdownLinkedList new;
 		innerStartPosition: 0

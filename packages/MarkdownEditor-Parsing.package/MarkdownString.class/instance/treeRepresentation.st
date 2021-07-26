@@ -1,4 +1,4 @@
-as yet unclassified
+view
 treeRepresentation
 
-	^ {self content. self startPosition}
+	^ {self content}

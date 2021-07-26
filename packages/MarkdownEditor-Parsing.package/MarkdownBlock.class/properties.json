@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isOpen",
 		"container",
-		"startPosition",
 		"endPosition",
 		"innerStartPosition",
-		"innerLine" ],
+		"innerLine",
+		"startPosition",
+		"open" ],
 	"name" : "MarkdownBlock",
 	"pools" : [
 		 ],

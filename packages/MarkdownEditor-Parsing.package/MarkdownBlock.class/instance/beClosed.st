@@ -1,4 +1,4 @@
 accessing
 beClosed
 
-	isOpen := false
+	open := false

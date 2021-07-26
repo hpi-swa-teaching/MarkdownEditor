@@ -3,7 +3,6 @@ processRemainderOfLine
 	
 	self lazyContinuation
 		ifFalse: [self closeUnmatchedBlocks.
-			"self updateLastLineBlank."
 			self blankLine 
 				ifTrue: [self state reduceCurrentLineTo: ''.
 						  ^ self].

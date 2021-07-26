@@ -1,5 +1,5 @@
 running
 tearDown
 
-	window delete.
+	editor handleClose.
 	outlineWindow delete

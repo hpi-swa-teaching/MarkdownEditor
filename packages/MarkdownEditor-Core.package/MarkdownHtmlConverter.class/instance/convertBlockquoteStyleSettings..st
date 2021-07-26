@@ -1,7 +1,7 @@
 convert styling
 convertBlockquoteStyleSettings: aStyleSettings
+
 	| paragraph |
-	
 	paragraph := '
 		blockquote {
 			font-size: ', (aStyleSettings fontSizes at: MarkdownBlockquote labels first), 'px;

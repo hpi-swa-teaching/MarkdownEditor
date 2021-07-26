@@ -1,7 +1,7 @@
 styling
 styleLeafBlockWith: aMarkdownLeaf
 
-	aMarkdownLeaf inlines 
+	aMarkdownLeaf inlineElements 
 		ifNotEmpty: [| inlineText |
 			inlineText := self styleInlinesOf: aMarkdownLeaf.
 			self copyAttributesFrom: inlineText 

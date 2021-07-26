@@ -32,15 +32,15 @@ testThematicBreak13
 		isOrdered: false;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: 'foo', Character cr startingAt: 1.
+	str := MarkdownString newFrom: 'foo' startingAt: 1.
 	paragraph beClosed;
 		container: document;
 		startPosition: 3;
 		endPosition: 6;
 		innerLine: nil;
 		innerStartPosition: 3;
-		content: 'foo', Character cr;
-		inlines: (MarkdownLinkedList newFrom: {str}).
+		content: 'foo';
+		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	break beClosed;
 		container: document;
 		startPosition: 7;
