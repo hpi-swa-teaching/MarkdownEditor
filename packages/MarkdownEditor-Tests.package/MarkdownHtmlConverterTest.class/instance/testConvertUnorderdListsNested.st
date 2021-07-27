@@ -5,28 +5,34 @@ testConvertUnorderdListsNested
 	parser 
 		parse: '* Level 1
 * Level 1
-	- Level 2
-	- Level 2
-		- Level 3
-	- Level 2
-	- Level 2
+    - Level 2
+    - Level 2
+        - Level 3
+    - Level 2
+    - Level 2
 * Level 1'.
 	output :=  (htmlConverter convertToHtml: parsingState document).
 	listHtml := '<ul>
-<li>Level 1</li>
-<li>Level 1
+<li><p>Level 1</p>
+</li>
+<li><p>Level 1</p>
 <ul>
-<li>Level 2</li>
-<li>Level 2
+<li><p>Level 2</p>
+</li>
+<li><p>Level 2</p>
 <ul>
-<li>Level 3</li>
+<li><p>Level 3</p>
+</li>
 </ul>
 </li>
-<li>Level 2</li>
-<li>Level 2</li>
+<li><p>Level 2</p>
+</li>
+<li><p>Level 2</p>
+</li>
 </ul>
 </li>
-<li>Level 1</li>
+<li><p>Level 1</p>
+</li>
 </ul>'.
 	expectedOutput := self fullHtmlDocumentFrom: listHtml.
 	
