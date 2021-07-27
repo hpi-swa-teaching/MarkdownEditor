@@ -1,9 +1,8 @@
 tests - fencedCodeBlocks
 testParseNoFencedCodeBlock
 
-	| output fencedCodeBlock document paragraph inlineCode |
+	| output  document paragraph inlineCode |
 	output := parser parse: '``', Character cr, 'foo', Character cr, '``'.
-	fencedCodeBlock := MarkdownFencedCodeBlock new.
 	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
 		document beClosed;

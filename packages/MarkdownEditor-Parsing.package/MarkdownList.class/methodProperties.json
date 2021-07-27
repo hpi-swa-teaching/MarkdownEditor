@@ -6,10 +6,10 @@
 		"labels" : "jh 7/1/2021 10:39" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:13",
+		"applyStylingWith:" : "jh 7/27/2021 16:41",
 		"beNotLoose" : "jh 7/26/2021 09:54",
 		"canContain:" : "mf 7/4/2021 14:14",
 		"continue:" : "mf 7/4/2021 14:14",
-		"fontSize" : "mf 7/4/2021 20:30",
 		"htmlClosingTag" : "jh 6/25/2021 17:53",
 		"htmlOpeningTag" : "jh 6/25/2021 17:53",
 		"indentation" : "jh 7/26/2021 12:43",
@@ -21,4 +21,4 @@
 		"listMarker:" : "mf 7/4/2021 14:11",
 		"startNumber" : "mf 7/4/2021 14:10",
 		"startNumber:" : "mf 7/4/2021 14:10",
-		"textColor" : "mf 7/4/2021 20:30" } }
+		"treeRepresentation" : "jh 7/27/2021 15:52" } }
