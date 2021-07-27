@@ -5,12 +5,14 @@ testATXHeading4
 	output := parser parse: '#### Level 4'.
 	heading := MarkdownATXHeading new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 12;
 		children: (OrderedCollection newFrom: {heading}).
 	str := MarkdownString newFrom: 'Level 4' startingAt: 6.
-	heading beClosed;
+	heading
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 12;
@@ -19,4 +21,5 @@ testATXHeading4
 		content: 'Level 4';
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 4.
+		
 	self assert: document equals: output

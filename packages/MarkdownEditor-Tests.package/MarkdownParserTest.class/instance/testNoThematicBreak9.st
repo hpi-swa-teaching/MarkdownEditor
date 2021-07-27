@@ -5,7 +5,8 @@ testNoThematicBreak9
 	output := parser parse: ' *-*'.
 	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 4;
 		children: (OrderedCollection newFrom: {paragraph}).
@@ -13,7 +14,8 @@ testNoThematicBreak9
 	emph := MarkdownItalic new.
 	emph startPosition: 2.
 	emph children: (MarkdownLinkedList newFrom: {str}).
-	paragraph beClosed;
+	paragraph
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 4;
@@ -21,4 +23,5 @@ testNoThematicBreak9
 		innerStartPosition: 2;
 		content: '*-*';
 		inlineElements: (MarkdownLinkedList newFrom: {emph}).
+	
 	self assert: document equals: output

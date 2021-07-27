@@ -5,15 +5,18 @@ testThematicBreak05
 	output := parser parse: '  ***'.
 	break := MarkdownThematicBreak new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 5;
 		children: (OrderedCollection newFrom: {break}).
-	break beClosed;
+	break
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 5;
 		innerLine: '';
 		innerStartPosition: 6;
 		content: ''.
+	
 	self assert: document equals: output

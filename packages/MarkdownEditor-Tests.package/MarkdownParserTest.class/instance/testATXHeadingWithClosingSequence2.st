@@ -7,12 +7,14 @@ testATXHeadingWithClosingSequence2
 	heading := MarkdownATXHeading new.
 	heading2 := MarkdownATXHeading new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 53;
 		children: (OrderedCollection newFrom: {heading. heading2}).
 	str := MarkdownString newFrom: 'foo' startingAt: 3.
-	heading beClosed;
+	heading
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 41;
@@ -22,7 +24,8 @@ testATXHeadingWithClosingSequence2
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 1.
 	str2 := MarkdownString newFrom: 'bar' startingAt: 48.
-	heading2 beClosed;
+	heading2
+		beClosed;
 		container: document;
 		startPosition: 42;
 		endPosition: 53;
@@ -31,4 +34,5 @@ testATXHeadingWithClosingSequence2
 		content: 'bar';
 		inlineElements: (MarkdownLinkedList newFrom: {str2});
 		level: 5.
+		
 	self assert: document equals: output

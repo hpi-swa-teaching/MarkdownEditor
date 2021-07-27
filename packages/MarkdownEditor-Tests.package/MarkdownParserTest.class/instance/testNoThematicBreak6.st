@@ -5,12 +5,14 @@ testNoThematicBreak6
 	output := parser parse: '_ _ _ _ a'.
 	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 9;
 		children: (OrderedCollection newFrom: {paragraph}).
 	str := MarkdownString newFrom: '_ _ _ _ a' startingAt: 1.
-	paragraph beClosed;
+	paragraph
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 9;
@@ -18,4 +20,5 @@ testNoThematicBreak6
 		innerStartPosition: 1;
 		content: '_ _ _ _ a';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
+	
 	self assert: document equals: output

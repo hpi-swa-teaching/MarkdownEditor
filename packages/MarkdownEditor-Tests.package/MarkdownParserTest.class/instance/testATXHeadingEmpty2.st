@@ -5,11 +5,13 @@ testATXHeadingEmpty2
 	output := parser parse: '#'.
 	heading := MarkdownATXHeading new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 1;
 		children: (OrderedCollection newFrom: {heading}).
-	heading beClosed;
+	heading
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 1;
@@ -17,5 +19,5 @@ testATXHeadingEmpty2
 		innerStartPosition: 0;
 		content: '';
 		level: 1.
-	
+		
 	self assert: document equals: output

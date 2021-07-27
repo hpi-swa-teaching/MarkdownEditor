@@ -5,7 +5,8 @@ testParseNoFencedCodeBlock
 	output := parser parse: '``', Character cr, 'foo', Character cr, '``'.
 	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document 
+		beClosed;
 		startPosition: 1;
 		endPosition: 9;
 		children: (OrderedCollection newFrom: {paragraph}).
@@ -14,7 +15,8 @@ testParseNoFencedCodeBlock
 		rawContent: (Character cr asString, 'foo', Character cr);
 		fenceLength: 2;
 		startPosition: 1.
-	paragraph beClosed;
+	paragraph 
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 9;
@@ -22,4 +24,5 @@ testParseNoFencedCodeBlock
 		innerStartPosition: 1;
 		content: '``', Character cr, 'foo', Character cr, '``';
 		inlineElements: (MarkdownLinkedList newFrom: {inlineCode}).
+		
 	self assert: document equals: output

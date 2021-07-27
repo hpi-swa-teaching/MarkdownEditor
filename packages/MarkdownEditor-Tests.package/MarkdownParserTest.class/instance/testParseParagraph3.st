@@ -6,12 +6,14 @@ testParseParagraph3
 	paragraph := MarkdownParagraph new.
 	paragraph2 := MarkdownParagraph new.
 	document := MarkdownDocument new.
-	document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 16;
 		children: (OrderedCollection newFrom: {paragraph. paragraph2}).
 	str := MarkdownString newFrom: 'aaa', Character cr, 'bbb' startingAt: 1.
-	paragraph beClosed;
+	paragraph
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 8;
@@ -20,7 +22,8 @@ testParseParagraph3
 		content: 'aaa', Character cr, 'bbb';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
 	str2 := MarkdownString newFrom: 'ccc', Character cr, 'ddd' startingAt: 10.
-	paragraph2 beClosed;
+	paragraph2
+		beClosed;
 		container: document;
 		startPosition: 10;
 		endPosition: 16;
@@ -28,4 +31,5 @@ testParseParagraph3
 		innerStartPosition: 10;
 		content: 'ccc', Character cr, 'ddd';
 		inlineElements: (MarkdownLinkedList newFrom: {str2}).
+		
 	self assert: document equals: output

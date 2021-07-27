@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"canChangeFontColor" : "jh 7/1/2021 10:46",
-		"createNew:" : "jh 7/23/2021 09:37",
+		"createNew:" : "mf 7/28/2021 00:15",
 		"labels" : "jh 7/1/2021 10:45" },
 	"instance" : {
 		"=" : "jh 7/23/2021 09:39",
@@ -9,8 +9,8 @@
 		"adaptToDocumentWith:" : "jh 7/21/2021 13:52",
 		"applyStylingWith:" : "jh 7/13/2021 15:26",
 		"canContainFurtherBlocks" : "mf 7/27/2021 11:51",
-		"continue:" : "mf 7/26/2021 23:40",
-		"finalize:" : "jh 7/22/2021 13:57",
+		"continue:" : "mf 7/28/2021 00:27",
+		"finalize:" : "mf 7/28/2021 00:30",
 		"firstLineSize" : "jh 7/14/2021 14:54",
 		"fontSize" : "jh 6/29/2021 21:11",
 		"htmlClosingTag" : "jh 6/25/2021 17:42",

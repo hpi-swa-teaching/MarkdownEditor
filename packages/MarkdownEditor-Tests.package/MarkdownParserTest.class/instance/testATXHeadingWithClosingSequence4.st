@@ -5,12 +5,14 @@ testATXHeadingWithClosingSequence4
 	output := parser parse: '### foo ### b'.
 	heading := MarkdownATXHeading new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 13;
 		children: (OrderedCollection newFrom: {heading}).
 	str := MarkdownString newFrom: 'foo ### b' startingAt: 5.
-	heading beClosed;
+	heading
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 13;
@@ -19,4 +21,5 @@ testATXHeadingWithClosingSequence4
 		content: 'foo ### b';
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 3.
+		
 	self assert: document equals: output

@@ -5,12 +5,14 @@ testParseFencedCodeBlock03
 	output := parser parse: '```smalltalk this', Character cr, 'some code', Character cr,'```'.
 	fencedCodeBlock := MarkdownFencedCodeBlock new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document 
+		beClosed;
 		startPosition: 1;
 		endPosition: 31;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
 	str := MarkdownString newFrom: 'some code', Character cr startingAt: 19.
-	fencedCodeBlock beClosed;
+	fencedCodeBlock
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 31;
@@ -21,4 +23,5 @@ testParseFencedCodeBlock03
 		indentation: 0;
 		info: 'smalltalk';
 		openingFence: '```'.
+		
 	self assert: document equals: output

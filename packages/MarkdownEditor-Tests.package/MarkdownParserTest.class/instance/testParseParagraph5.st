@@ -5,12 +5,14 @@ testParseParagraph5
 	output := parser parse: ' hello world', Character cr, Character cr.
 	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 14;
 		children: (OrderedCollection newFrom: {paragraph}).
 	str := MarkdownString newFrom: 'hello world' startingAt: 2.
-	paragraph beClosed;
+	paragraph
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 13;
@@ -18,4 +20,5 @@ testParseParagraph5
 		innerStartPosition: 2;
 		content: 'hello world';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
+		
 	self assert: document equals: output

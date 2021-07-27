@@ -2,18 +2,20 @@ tests - fencedCodeBlocks
 testParseFencedCodeBlock10
 
 	| output fencedCodeBlock document str |
-	output := parser parse: '````', Character cr, 'aaa', Character cr, '```', Character cr, '````'.
+	output := parser parse: '````', Character cr, 'aaa', Character cr, '```', Character cr, '``````'.
 	fencedCodeBlock := MarkdownFencedCodeBlock new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
-		endPosition: 17;
+		endPosition: 19;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
 	str := MarkdownString newFrom: 'aaa', Character cr, '```', Character cr startingAt: 6.
-	fencedCodeBlock beClosed;
+	fencedCodeBlock
+		beClosed;
 		container: document;
 		startPosition: 1;
-		endPosition: 17;
+		endPosition: 19;
 		innerLine: Character cr asString;
 		innerStartPosition: 6;
 		content: 'aaa', Character cr, '```', Character cr;
@@ -21,4 +23,5 @@ testParseFencedCodeBlock10
 		indentation: 0;
 		info: '';
 		openingFence: '````'.
+		
 	self assert: document equals: output

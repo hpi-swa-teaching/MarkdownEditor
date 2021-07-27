@@ -1,6 +1,6 @@
 applying
 finalize: aParsingState
-	
+
 	super finalize: aParsingState.
 	self info 
 		ifNotEmpty: [ | endOfLineIndex |

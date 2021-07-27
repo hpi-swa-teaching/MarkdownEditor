@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addLine" : "mf 7/4/2021 14:54",
+		"addLine" : "mf 7/28/2021 00:34",
 		"addParagraph" : "mf 7/4/2021 14:54",
 		"blankLine" : "mf 7/4/2021 14:55",
 		"blockChecklist" : "mf 7/4/2021 14:50",
@@ -18,7 +18,7 @@
 		"parseInlineStringFrom:with:" : "jh 7/27/2021 10:43",
 		"parseLine:" : "C.H. 7/6/2021 17:02",
 		"pragraphClass" : "mf 7/4/2021 14:50",
-		"processRemainderOfLine" : "jh 7/26/2021 12:56",
+		"processRemainderOfLine" : "mf 7/28/2021 01:18",
 		"startInlineParsing" : "jh 7/27/2021 10:17",
 		"state" : "mf 7/4/2021 14:48",
 		"state:" : "mf 7/4/2021 14:48" } }

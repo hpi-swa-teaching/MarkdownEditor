@@ -11,11 +11,13 @@ testThematicBreak12
 	paragraph := MarkdownParagraph new.
 	paragraph2 := MarkdownParagraph new.
 	document := MarkdownDocument new.
-		document beClosed;
+	document
+		beClosed;
 		startPosition: 1;
 		endPosition: 17;
 		children: (OrderedCollection newFrom: {list. break. list2}).
-	list beClosed;
+	list
+		beClosed;
 		container: document;
 		startPosition: 1;
 		endPosition: 6;
@@ -25,7 +27,8 @@ testThematicBreak12
 		isOrdered: false;
 		listMarker: '*';
 		children: (OrderedCollection newFrom: {element}).
-	element beClosed;
+	element
+		beClosed;
 		container: list;
 		startPosition: 1;
 		endPosition: 6;
@@ -36,7 +39,8 @@ testThematicBreak12
 		listMarker: '*';
 		children: (OrderedCollection newFrom: {paragraph}).
 	str := MarkdownString newFrom: 'foo' startingAt: 3.
-	paragraph beClosed;
+	paragraph
+		beClosed;
 		container: document;
 		startPosition: 3;
 		endPosition: 6;
@@ -44,14 +48,16 @@ testThematicBreak12
 		innerStartPosition: 3;
 		content: 'foo';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
-	break beClosed;
+	break
+		beClosed;
 		container: document;
 		startPosition: 7;
 		endPosition: 12;
 		innerLine: '';
 		innerStartPosition: 13;
 		content: ''.
-	list2 beClosed;
+	list2
+		beClosed;
 		container: document;
 		startPosition: 13;
 		endPosition: 17;
@@ -61,7 +67,8 @@ testThematicBreak12
 		isOrdered: false;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {element2}).
-	element2 beClosed;
+	element2
+		beClosed;
 		container: list;
 		startPosition: 13;
 		endPosition: 17;
@@ -72,7 +79,8 @@ testThematicBreak12
 		listMarker: '*';
 		children: (OrderedCollection newFrom: {paragraph2}).
 	str2 := MarkdownString newFrom: 'bar' startingAt: 15.
-	paragraph2 beClosed;
+	paragraph2
+		beClosed;
 		container: document;
 		startPosition: 15;
 		endPosition: 17;
@@ -80,4 +88,5 @@ testThematicBreak12
 		innerStartPosition: 15;
 		content: 'bar';
 		inlineElements: (MarkdownLinkedList newFrom: {str2}).
+	
 	self assert: document equals: output
