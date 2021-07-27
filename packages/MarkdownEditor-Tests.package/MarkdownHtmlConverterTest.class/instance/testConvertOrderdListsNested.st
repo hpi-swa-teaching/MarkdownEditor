@@ -12,15 +12,15 @@ testConvertOrderdListsNested
     4. Level 2
 3. Level 1'.
 	output :=  (htmlConverter convertToHtml: parsingState document).
-	listHtml := '<ol>
+	listHtml := '<ol start="1">
 <li><p>Level 1</p>
 </li>
 <li><p>Level 1</p>
-<ol>
+<ol start="1">
 <li><p>Level 2</p>
 </li>
 <li><p>Level 2</p>
-<ol>
+<ol start="1">
 <li><p>Level 3</p>
 </li>
 </ol>

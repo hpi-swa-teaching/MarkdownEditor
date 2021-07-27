@@ -1,15 +1,13 @@
 tests - blocks
-testConvertOrderdList
+testConvertOrderdList2
 
 	| output expectedOutput listHtml |
-	parser parse: '1. ListItem 1', Character cr, '2. ListItem 2', Character cr,'3. ListItem 3'.
+	parser parse: '5. ListItem 1', Character cr, '5. ListItem 2'.
 	output :=  (htmlConverter convertToHtml: parsingState document).
-	listHtml := '<ol start="1">
+	listHtml := '<ol start="5">
 <li><p>ListItem 1</p>
 </li>
 <li><p>ListItem 2</p>
-</li>
-<li><p>ListItem 3</p>
 </li>
 </ol>'.
 	expectedOutput := self fullHtmlDocumentFrom: listHtml.
