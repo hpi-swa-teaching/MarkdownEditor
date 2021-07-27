@@ -3,7 +3,7 @@ testParseEmphDivisibleByThree4
     
 	| output expectedOutput emph str |
 	"the affectedbyThreeRuleCloser can be opener again"
-	output := parser parseInline: '*this is just plain text *this should be**bold**'.
+	output := parser parseInline: '*this is just plain text *this should be**bold**' with: 1.
 	str := MarkdownString newFrom: '*this is just plain text *this should be'  startingAt: 1.
 	emph := MarkdownBold new.
 	emph startPosition: 41.

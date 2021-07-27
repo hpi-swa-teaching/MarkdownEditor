@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphStrikeAndItalic2
 	
 	| output expectedOutput emph emph2 |
-	output := parser parseInline: '_~~hello~~_'.
+	output := parser parseInline: '_~~hello~~_' with: 1.
 	emph2 := MarkdownStrike new
 		startPosition: 2.
 	emph2 children add: (MarkdownString newFrom: 'hello' startingAt: 4).

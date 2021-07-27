@@ -2,7 +2,7 @@ tests - nested emphasis
 testParseEmphNested6
     
 	| output expectedOutput emphItalic |
-	output := parser parseInline: '*foo _bar* baz_'.
+	output := parser parseInline: '*foo _bar* baz_' with: 1.
 	emphItalic := MarkdownItalic new
 		startPosition: 1.
 	emphItalic children add: (MarkdownString newFrom: 'foo _bar' startingAt: 2).

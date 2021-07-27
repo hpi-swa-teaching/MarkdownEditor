@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphStrong3
 	
 	| output expectedOutput emph str emph2 emph3 str2 |
-	output := parser parseInline: 'hello******world*********squeak'.
+	output := parser parseInline: 'hello******world*********squeak' with: 1.
 	str := MarkdownString newFrom: 'hello' startingAt: 1.
 	emph := MarkdownBold new
 		startPosition: 6.

@@ -2,7 +2,7 @@ tests - punctuation characters
 testParseTextWithPunctuationCharacters07
 
 	| expectedOutput output |
-	output := parser parseInline: '*(*plain text)'.
+	output := parser parseInline: '*(*plain text)' with: 1.
 	expectedOutput := MarkdownLinkedList newFrom: 
 		{MarkdownString newFrom: '*(*plain text)' startingAt: 1}.
 	

@@ -2,7 +2,7 @@ tests - links
 testParseLinkWithEmphasis
 	
 	| expectedOutput link boldLabel str str2 output |
-	output := parser parseInline: 'start of test [**hello world**](hpi.de) end of test'.
+	output := parser parseInline: 'start of test [**hello world**](hpi.de) end of test' with: 1.
 	boldLabel := MarkdownBold new
 		startPosition: 16. 
 	boldLabel children add: (MarkdownString newFrom: 'hello world' startingAt: 18).

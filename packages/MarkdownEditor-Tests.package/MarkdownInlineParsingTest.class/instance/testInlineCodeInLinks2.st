@@ -2,7 +2,7 @@ tests - inline code
 testInlineCodeInLinks2
 
 	| expectedOutput output code link |
-	output := parser parseInline: '[`code in a link`](/foo)'.
+	output := parser parseInline: '[`code in a link`](/foo)' with: 1.
 	link := MarkdownLink newFrom: '/foo'.
 	link startPosition: 1.
 	code := MarkdownCodeSpan new

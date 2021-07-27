@@ -2,7 +2,7 @@ tests - nested emphasis
 testParseEmphNested3
     
 	| output expectedOutput emph emphBold |
-	output := parser parseInline: '_(__this should be strong and italic__)_'.
+	output := parser parseInline: '_(__this should be strong and italic__)_' with: 1.
 	emphBold := MarkdownBold new
 		startPosition: 3.
 	emphBold children add: (MarkdownString newFrom: 'this should be strong and italic' startingAt: 5).

@@ -2,7 +2,7 @@ tests - punctuation characters
 testParseTextWithPunctuationCharacters08
 
 	| expectedOutput output emph emph2 |
-	output := parser parseInline: '*(*italic text*)*'.
+	output := parser parseInline: '*(*italic text*)*' with: 1.
 	emph :=  MarkdownItalic new
 		startPosition: 1.
 	emph2 :=  MarkdownItalic new

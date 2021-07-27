@@ -2,7 +2,8 @@ tests - inline code
 testInlineCodeLineEnding3
 
 	| expectedOutput output code |
-	output := parser parseInline: '``', Character cr, '     test   ', Character cr, 'squeak', Character cr, '``'.
+	output := parser parseInline: 
+		'``', Character cr, '     test   ', Character cr, 'squeak', Character cr, '``' with: 1.
 	code := MarkdownCodeSpan new
 		content: 'test    squeak';
 		fenceLength: 2;

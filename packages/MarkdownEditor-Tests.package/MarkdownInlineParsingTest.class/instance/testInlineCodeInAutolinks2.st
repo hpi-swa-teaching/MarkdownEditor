@@ -2,7 +2,7 @@ tests - inline code
 testInlineCodeInAutolinks2
 
 	| expectedOutput output code str |
-	output := parser parseInline: '`<http://foo.bar.`baz>`'.
+	output := parser parseInline: '`<http://foo.bar.`baz>`' with: 1.
 	code := MarkdownCodeSpan new
 		content: '<http://foo.bar.';
 		fenceLength: 1;

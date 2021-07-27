@@ -2,7 +2,7 @@ tests - inline code
 testInlineCodeStrippingWhitspaces3
 
 	| expectedOutput output code |
-	output := parser parseInline: '` a`'.
+	output := parser parseInline: '` a`' with: 1.
 	code := MarkdownCodeSpan new
 		content: ' a';
 		fenceLength: 1;

@@ -2,7 +2,7 @@ tests - inline code
 testInlineCode2
 
 	| expectedOutput output code |
-	output := parser parseInline: '`te*s*t`'.
+	output := parser parseInline: '`te*s*t`' with: 1.
 	code := MarkdownCodeSpan new
 		content: 'te*s*t';
 		fenceLength: 1;

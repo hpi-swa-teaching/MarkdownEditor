@@ -2,7 +2,7 @@ tests - nested emphasis
 testParseEmphNested1
 	
 	| output expectedOutput emph emphBold |
-	output := parser parseInline: '*__hello__*'.
+	output := parser parseInline: '*__hello__*' with: 1.
 	emph := MarkdownItalic new.
 	emph startPosition: 1.
 	emphBold := MarkdownBold new.

@@ -2,7 +2,7 @@ tests - inline code
 testInlineCodeInLinks3
 
 	| expectedOutput output code str |
-	output := parser parseInline: '[not a link]`(/foo)`'.
+	output := parser parseInline: '[not a link]`(/foo)`' with: 1.
 	str := MarkdownString newFrom: '[not a link]'.
 	str startPosition: 1.
 	code := MarkdownCodeSpan new

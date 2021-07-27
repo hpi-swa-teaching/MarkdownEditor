@@ -2,7 +2,7 @@ tests - image
 testParseImage2
 	
 	| output expectedOutput image emph |
-	output := parser parseInline: '**hello**![hello](testdump.jpg)'.
+	output := parser parseInline: '**hello**![hello](testdump.jpg)' with: 1.
 	image := MarkdownImage new
 		startPosition: 10.
 	image path: 'testdump.jpg'.

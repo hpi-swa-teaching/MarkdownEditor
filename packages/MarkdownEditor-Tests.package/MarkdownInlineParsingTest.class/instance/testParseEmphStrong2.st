@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphStrong2
 	
 	| output expectedOutput emph str |
-	output := parser parseInline: '**Hello** World'.
+	output := parser parseInline: '**Hello** World' with: 1.
 	emph := MarkdownBold new
 		startPosition: 1.
 	emph children add: (MarkdownString newFrom: 'Hello' startingAt: 3).

@@ -2,7 +2,7 @@ tests - autolinks
 testParseNestedAutolink
 	
 	| output expectedOutput str str2 link |
-	output := parser parseInline: '<https://www.<https://www.hpi.de>>'.
+	output := parser parseInline: '<https://www.<https://www.hpi.de>>' with: 1.
 	str := MarkdownString newFrom: '<https://www.' startingAt: 1.
 	str2 := MarkdownString newFrom: '>' startingAt: 34.
 	link := MarkdownAutolink new

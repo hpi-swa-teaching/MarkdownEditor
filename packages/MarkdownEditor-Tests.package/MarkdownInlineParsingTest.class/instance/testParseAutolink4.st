@@ -2,7 +2,7 @@ tests - autolinks
 testParseAutolink4
 	
 	| output expectedOutput link |
-	output := parser parseInline: '__a<http://foo.bar/?q=__>'.
+	output := parser parseInline: '__a<http://foo.bar/?q=__>' with: 1.
 	link := MarkdownAutolink new.
 	link path: 'http://foo.bar/?q=__';
 		startPosition: 4.

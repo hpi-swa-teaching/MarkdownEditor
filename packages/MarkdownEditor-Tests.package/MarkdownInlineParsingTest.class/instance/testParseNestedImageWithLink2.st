@@ -2,7 +2,7 @@ tests - image
 testParseNestedImageWithLink2
 	
 	| expectedOutput image link output str str2 str3 str4 |
-	output := parser parseInline: 'string ![[[hpi](https://hpi.de)](https://hpi2.de)](https://hpi3.de) string'.
+	output := parser parseInline: 'string ![[[hpi](https://hpi.de)](https://hpi2.de)](https://hpi3.de) string' with: 1.
 	image := MarkdownImage new
 		startPosition: 8.
 	image path: 'https://hpi3.de'.

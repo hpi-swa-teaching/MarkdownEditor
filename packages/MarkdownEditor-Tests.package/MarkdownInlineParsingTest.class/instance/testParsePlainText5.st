@@ -2,7 +2,7 @@ tests - emphasis
 testParsePlainText5
 
 	| expectedOutput output |
-	output := parser parseInline: '__(__Hello World)'.
+	output := parser parseInline: '__(__Hello World)' with: 1.
 	expectedOutput := MarkdownLinkedList newFrom: 
 		{MarkdownString newFrom: '__(__Hello World)' startingAt: 1}.
 	

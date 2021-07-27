@@ -2,7 +2,7 @@ tests - nested emphasis
 testParseEmphNested5
     
 	| output expectedOutput emphItalic emphItalic2 link |
-	output := parser parseInline: '*hello world [*this is a link*](hpi.de)*'.
+	output := parser parseInline: '*hello world [*this is a link*](hpi.de)*' with: 1.
 	emphItalic := MarkdownItalic new
 		startPosition: 1.
 	emphItalic2 := MarkdownItalic new

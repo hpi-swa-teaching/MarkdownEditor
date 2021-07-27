@@ -2,7 +2,7 @@ tests - inline code
 testInlineCodeInImages2
 
 	| expectedOutput output code image |
-	output := parser parseInline: '![`code in an image`](/foo)'.
+	output := parser parseInline: '![`code in an image`](/foo)' with: 1.
 	image := MarkdownImage newFrom: '/foo'.
 	image startPosition: 1.
 	code := MarkdownCodeSpan new

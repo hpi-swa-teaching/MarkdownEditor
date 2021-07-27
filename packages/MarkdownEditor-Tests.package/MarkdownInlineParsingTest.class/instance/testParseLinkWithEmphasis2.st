@@ -2,7 +2,7 @@ tests - links
 testParseLinkWithEmphasis2
 	
 	| expectedOutput link str output |
-	output := parser parseInline: '*[this is a test*](hpi.de)'.
+	output := parser parseInline: '*[this is a test*](hpi.de)' with: 1.
 	
 	link := MarkdownLink newFrom: 'hpi.de'.
 	link startPosition: 2.

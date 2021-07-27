@@ -2,7 +2,7 @@ tests - emphasis
 testParseEmphStrongAlternativeDelimiter3
 	
 	| output expectedOutput emph emph2 |
-	output := parser parseInline: '__hello, __from__, squeak__'.
+	output := parser parseInline: '__hello, __from__, squeak__' with: 1.
 	emph := MarkdownBold new
 		startPosition: 1.
 	emph2 := MarkdownBold new

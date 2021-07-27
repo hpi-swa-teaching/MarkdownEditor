@@ -2,7 +2,7 @@ tests - inline code
 testInlineCode3
 
 	| expectedOutput output code str |
-	output := parser parseInline: '`test``test``'.
+	output := parser parseInline: '`test``test``' with: 1.
 	str := MarkdownString newFrom: '`test' startingAt: 1.
 	code := MarkdownCodeSpan new
 		content: 'test';

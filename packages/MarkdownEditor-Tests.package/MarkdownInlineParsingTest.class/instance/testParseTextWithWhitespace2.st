@@ -2,7 +2,7 @@ tests - emphasis
 testParseTextWithWhitespace2
 
 	| expectedOutput output |
-	output := parser parseInline: '* Hello World *'.
+	output := parser parseInline: '* Hello World *' with: 1.
 	expectedOutput := MarkdownLinkedList newFrom: 
 		{MarkdownString newFrom: '* Hello World *' startingAt: 1}.
 	
