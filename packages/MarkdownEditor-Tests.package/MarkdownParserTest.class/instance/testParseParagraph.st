@@ -9,7 +9,7 @@ testParseParagraph
 		startPosition: 1;
 		endPosition: 13;
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: 'hello world' startingAt: 1.
+	str := MarkdownString newFrom: 'hello world' startingAt: 2.
 	paragraph beClosed;
 		container: document;
 		startPosition: 1;

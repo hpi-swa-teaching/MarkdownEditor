@@ -6,5 +6,7 @@ createReferenceFrom: aRegexMatcher with: aReferenceType
 		path: (aRegexMatcher subexpression: 3);
 		yourself.
 	parserForReferenceChildren := MarkdownParser new.
-	reference addChildrenFrom: (parserForReferenceChildren parseInline: (aRegexMatcher subexpression: 2)).
+	reference addChildrenFrom: 
+		(parserForReferenceChildren parseInline: 
+			(aRegexMatcher subexpression: 2) with: self currentIndex + aReferenceType delimiterCount).
 	^ reference

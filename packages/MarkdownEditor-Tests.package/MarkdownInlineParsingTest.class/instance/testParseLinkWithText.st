@@ -6,7 +6,7 @@ testParseLinkWithText
 	
 	link := MarkdownLink newFrom: 'hpi.de'.
 	link startPosition: 15.
-	link children add: (MarkdownString newFrom: 'hello world' startingAt: 1).
+	link children add: (MarkdownString newFrom: 'hello world' startingAt: 16).
 	expectedOutput := MarkdownLinkedList newFrom: 
 		{(MarkdownString newFrom: 'start of test ' startingAt: 1). 
 			link. 

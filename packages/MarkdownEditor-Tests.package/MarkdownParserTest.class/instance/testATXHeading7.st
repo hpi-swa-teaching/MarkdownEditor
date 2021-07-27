@@ -17,7 +17,7 @@ testATXHeading7
 		endPosition: 5;
 		innerLine: '';
 		innerStartPosition: 6.
-	str := MarkdownString newFrom: 'foo' startingAt: 1.
+	str := MarkdownString newFrom: 'foo' startingAt: 9.
 	heading beClosed;
 		container: document;
 		startPosition: 6;

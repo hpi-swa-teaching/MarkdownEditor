@@ -7,15 +7,15 @@ testParseLinkAndImage
 	str2 := MarkdownString newFrom: ' et ' startingAt: 61.
 	str3 := MarkdownString newFrom: ' Stet clita kasd gubergren.' startingAt: 94.
 	emph := MarkdownBold new
-		startPosition: 1.
-	emph children add: (MarkdownString newFrom: 'funny link' startingAt: 3).
+		startPosition: 30.
+	emph children add: (MarkdownString newFrom: 'funny link' startingAt: 32).
 	link := MarkdownLink newFrom: 'https://hpi.de'.
 	link addChildrenFrom: {emph};
 		startPosition: 29.
 	image := MarkdownImage new
 		startPosition: 65.
 	image path: 'example.png'.
-	image children add: (MarkdownString newFrom: 'funny picture' startingAt: 1).
+	image children add: (MarkdownString newFrom: 'funny picture' startingAt: 67).
 	expectedOutput := MarkdownLinkedList newFrom: {str. link. str2. image. str3}.
 	
 	self assert: expectedOutput equals: output

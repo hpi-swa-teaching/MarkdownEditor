@@ -32,7 +32,7 @@ testThematicBreak13
 		isOrdered: false;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: 'foo' startingAt: 1.
+	str := MarkdownString newFrom: 'foo' startingAt: 3.
 	paragraph beClosed;
 		container: document;
 		startPosition: 3;

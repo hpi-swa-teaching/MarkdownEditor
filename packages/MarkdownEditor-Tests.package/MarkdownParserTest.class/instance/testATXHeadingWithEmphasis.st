@@ -9,10 +9,10 @@ testATXHeadingWithEmphasis
 		startPosition: 1;
 		endPosition: 13;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'Level 1' startingAt: 3.
+	str := MarkdownString newFrom: 'Level 1' startingAt: 5.
 	strong := MarkdownBold new.
 	strong children add: str.
-	strong startPosition: 1.
+	strong startPosition: 3.
 	heading beClosed;
 		container: document;
 		startPosition: 1;

@@ -27,7 +27,7 @@ testThematicBreak10
 		innerLine: '';
 		innerStartPosition: 9;
 		content: ''.
-	str2 := MarkdownString newFrom: 'bar' startingAt: 1.
+	str2 := MarkdownString newFrom: 'bar' startingAt: 9.
 	paragraph2 beClosed;
 		container: document;
 		startPosition: 9;

@@ -19,7 +19,7 @@ testParseParagraph2
 		innerStartPosition: 1;
 		content: 'aaa';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
-	str2 := MarkdownString newFrom: 'bbb' startingAt: 1.
+	str2 := MarkdownString newFrom: 'bbb' startingAt: 6.
 	paragraph2 beClosed;
 		container: document;
 		startPosition: 6;

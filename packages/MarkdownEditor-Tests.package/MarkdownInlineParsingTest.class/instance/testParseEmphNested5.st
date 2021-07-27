@@ -6,8 +6,8 @@ testParseEmphNested5
 	emphItalic := MarkdownItalic new
 		startPosition: 1.
 	emphItalic2 := MarkdownItalic new
-		startPosition: 1.
-	emphItalic2 children add: (MarkdownString newFrom: 'this is a link' startingAt: 2).
+		startPosition: 15.
+	emphItalic2 children add: (MarkdownString newFrom: 'this is a link' startingAt: 16).
 	link := MarkdownLink new.
 	link path: 'hpi.de';
 		startPosition: 14.

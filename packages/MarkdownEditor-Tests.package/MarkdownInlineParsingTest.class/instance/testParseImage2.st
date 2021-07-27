@@ -6,7 +6,7 @@ testParseImage2
 	image := MarkdownImage new
 		startPosition: 10.
 	image path: 'testdump.jpg'.
-	image children add: (MarkdownString newFrom: 'hello' startingAt: 1).
+	image children add: (MarkdownString newFrom: 'hello' startingAt: 12).
 	emph := MarkdownBold new
 		startPosition: 1.
 	emph children add: (MarkdownString newFrom: 'hello' startingAt: 3).

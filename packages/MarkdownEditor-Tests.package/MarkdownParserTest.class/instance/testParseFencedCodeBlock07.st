@@ -9,8 +9,7 @@ testParseFencedCodeBlock07
 		startPosition: 1;
 		endPosition: 15;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
-	str := MarkdownString newFrom: 'aaa', Character cr, '~~~', Character cr.
-	str startPosition: 1.
+	str := MarkdownString newFrom: 'aaa', Character cr, '~~~', Character cr startingAt: 5.
 	fencedCodeBlock beClosed;
 		container: document;
 		startPosition: 1;

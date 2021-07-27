@@ -9,7 +9,7 @@ testATXHeadingWithClosingSequence4
 		startPosition: 1;
 		endPosition: 13;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'foo ### b' startingAt: 1.
+	str := MarkdownString newFrom: 'foo ### b' startingAt: 5.
 	heading beClosed;
 		container: document;
 		startPosition: 1;

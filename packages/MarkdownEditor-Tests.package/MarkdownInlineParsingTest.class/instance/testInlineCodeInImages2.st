@@ -9,7 +9,7 @@ testInlineCodeInImages2
 		content: 'code in an image';
 		fenceLength: 1;
 		rawContent: 'code in an image';
-		startPosition: 1.
+		startPosition: 3.
 	image children add: code.
 	expectedOutput := MarkdownLinkedList newFrom: { image }.
 	

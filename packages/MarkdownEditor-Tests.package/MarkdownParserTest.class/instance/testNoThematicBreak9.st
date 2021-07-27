@@ -9,9 +9,9 @@ testNoThematicBreak9
 		startPosition: 1;
 		endPosition: 4;
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: '-' startingAt: 2.
+	str := MarkdownString newFrom: '-' startingAt: 3.
 	emph := MarkdownItalic new.
-	emph startPosition: 1.
+	emph startPosition: 2.
 	emph children: (MarkdownLinkedList newFrom: {str}).
 	paragraph beClosed;
 		container: document;

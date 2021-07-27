@@ -9,7 +9,7 @@ testInlineCodeInLinks2
 		content: 'code in a link';
 		fenceLength: 1;
 		rawContent: 'code in a link';
-		startPosition: 1.
+		startPosition: 2.
 	link children add: code.
 	expectedOutput := MarkdownLinkedList newFrom: { link }.
 	

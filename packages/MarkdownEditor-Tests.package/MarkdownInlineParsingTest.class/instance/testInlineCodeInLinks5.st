@@ -5,7 +5,7 @@ testInlineCodeInLinks5
 	output := parser parseInline: '[a link](`/foo)`'.
 	link := MarkdownLink newFrom: '`/foo'.
 	link startPosition: 1.
-	link children add: (MarkdownString newFrom: 'a link' startingAt: 1).
+	link children add: (MarkdownString newFrom: 'a link' startingAt: 2).
 	str := MarkdownString newFrom: '`' startingAt: 16.
 	expectedOutput := MarkdownLinkedList newFrom: { link. str }.
 	

@@ -35,7 +35,7 @@ testThematicBreak11
 		isOrdered: false;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: 'foo' startingAt: 1.
+	str := MarkdownString newFrom: 'foo' startingAt: 3.
 	paragraph beClosed;
 		container: document;
 		startPosition: 3;
@@ -71,7 +71,7 @@ testThematicBreak11
 		isOrdered: false;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {paragraph2}).
-	str2 := MarkdownString newFrom: 'bar' startingAt: 1.
+	str2 := MarkdownString newFrom: 'bar' startingAt: 13.
 	paragraph2 beClosed;
 		container: document;
 		startPosition: 13;

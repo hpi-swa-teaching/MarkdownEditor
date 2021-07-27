@@ -9,7 +9,7 @@ testATXHeading4
 		startPosition: 1;
 		endPosition: 12;
 		children: (OrderedCollection newFrom: {heading}).
-	str := MarkdownString newFrom: 'Level 4' startingAt: 1.
+	str := MarkdownString newFrom: 'Level 4' startingAt: 6.
 	heading beClosed;
 		container: document;
 		startPosition: 1;

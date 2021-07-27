@@ -6,11 +6,11 @@ testParseNestedImage
 	image := MarkdownImage new
 		startPosition: 1;
 		path: 'https://hpi.de'.
-	str := MarkdownString newFrom: 'hpi ' startingAt: 1.
+	str := MarkdownString newFrom: 'hpi ' startingAt: 3.
 	image2 := MarkdownImage new
-		startPosition: 5;
+		startPosition: 7;
 		path: 'https://hpi2.de'.
-	image2 children add: (MarkdownString newFrom: 'hpi2' startingAt: 1).
+	image2 children add: (MarkdownString newFrom: 'hpi2' startingAt: 9).
 	image children 
 		add: str;
 		add: image2.

@@ -7,8 +7,8 @@ testParseImage3
 		startPosition: 1;
 		path: 'testdump.jpg'.
 	emph := MarkdownItalic new
-		startPosition: 1.
-	emph children add: (MarkdownString newFrom: 'hello' startingAt: 2).
+		startPosition: 3.
+	emph children add: (MarkdownString newFrom: 'hello' startingAt: 4).
 	image children add: emph.
 	expectedOutput := MarkdownLinkedList newFrom: {image}.
 	

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "jh 7/26/2021 21:04" },
 	"instance" : {
 		"addDelimiterFrom:" : "jh 7/11/2021 11:32",
 		"addReferenceFrom:with:" : "mf 7/14/2021 12:39",
@@ -10,7 +10,7 @@
 		"create:from:with:and:" : "jh 6/24/2021 14:12",
 		"createCodeSpanFrom:with:and:" : "jh 7/11/2021 19:52",
 		"createPaddedDelimiterRunFrom:with:" : "mf 6/24/2021 09:26",
-		"createReferenceFrom:with:" : "jh 7/1/2021 09:26",
+		"createReferenceFrom:with:" : "jh 7/27/2021 10:20",
 		"currentIndex" : "jh 7/18/2021 17:46",
 		"currentIndex:" : "jh 7/18/2021 17:46",
 		"decideAutolinkTextMatchesFrom:with:and:" : "jh 7/11/2021 11:47",

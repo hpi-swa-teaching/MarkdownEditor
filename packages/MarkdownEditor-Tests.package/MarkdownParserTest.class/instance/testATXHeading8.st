@@ -20,7 +20,7 @@ testATXHeading8
 		innerStartPosition: 1;
 		content: 'Foo bar';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
-	str2 := MarkdownString newFrom: 'baz' startingAt: 1.
+	str2 := MarkdownString newFrom: 'baz' startingAt: 11.
 	heading beClosed;
 		container: document;
 		startPosition: 9;
@@ -30,7 +30,7 @@ testATXHeading8
 		content: 'baz';
 		inlineElements: (MarkdownLinkedList newFrom: {str2});
 		level: 1.
-	str3 := MarkdownString newFrom: 'Bar foo' startingAt: 1.
+	str3 := MarkdownString newFrom: 'Bar foo' startingAt: 15.
 	paragraph2 beClosed;
 		container: document;
 		startPosition: 15;

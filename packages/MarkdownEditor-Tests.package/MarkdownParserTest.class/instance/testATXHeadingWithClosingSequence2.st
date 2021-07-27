@@ -11,7 +11,7 @@ testATXHeadingWithClosingSequence2
 		startPosition: 1;
 		endPosition: 53;
 		children: (OrderedCollection newFrom: {heading. heading2}).
-	str := MarkdownString newFrom: 'foo' startingAt: 1.
+	str := MarkdownString newFrom: 'foo' startingAt: 3.
 	heading beClosed;
 		container: document;
 		startPosition: 1;
@@ -21,7 +21,7 @@ testATXHeadingWithClosingSequence2
 		content: 'foo';
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 1.
-	str2 := MarkdownString newFrom: 'bar' startingAt: 1.
+	str2 := MarkdownString newFrom: 'bar' startingAt: 48.
 	heading2 beClosed;
 		container: document;
 		startPosition: 42;

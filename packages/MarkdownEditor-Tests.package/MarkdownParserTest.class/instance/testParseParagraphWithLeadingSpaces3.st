@@ -9,7 +9,7 @@ testParseParagraphWithLeadingSpaces3
 		startPosition: 1;
 		endPosition: 10;
 		children: (OrderedCollection newFrom: {paragraph}).
-	str := MarkdownString newFrom: 'aaa', Character cr, 'bbb' startingAt: 1.
+	str := MarkdownString newFrom: 'aaa', Character cr, 'bbb' startingAt: 4.
 	paragraph beClosed;
 		container: document;
 		startPosition: 1;
