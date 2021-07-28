@@ -7,7 +7,7 @@ mergeElementsFrom: aCollection
 	mergedElements add: lastElement.
 	aCollection 
 		allButFirstDo: [:element | 
-			(element class = lastElement class)
+			(element isAppendable and: [(element class = lastElement class)])
 					ifTrue: [lastElement append: element]
 					ifFalse: [mergedElements add: element.
 							lastElement := element]].

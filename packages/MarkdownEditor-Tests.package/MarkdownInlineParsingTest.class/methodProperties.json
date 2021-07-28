@@ -115,4 +115,5 @@
 		"testParseTextWithPunctuationCharacters11" : "jh 7/27/2021 13:25",
 		"testParseTextWithWhitespace" : "jh 7/27/2021 13:25",
 		"testParseTextWithWhitespace2" : "jh 7/27/2021 13:25",
-		"testParseTextWithWhitespace3" : "jh 7/27/2021 13:25" } }
+		"testParseTextWithWhitespace3" : "jh 7/27/2021 13:25",
+		"testParseTwoImages" : "jh 7/28/2021 20:54" } }

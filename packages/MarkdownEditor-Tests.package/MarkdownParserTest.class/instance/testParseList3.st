@@ -26,7 +26,7 @@ testParseList3
 		container: list;
 		startPosition: 1;
 		endPosition: 10;
-		innerLine: '', Character cr;
+		innerLine: '  ', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph});
 		beUnordered;

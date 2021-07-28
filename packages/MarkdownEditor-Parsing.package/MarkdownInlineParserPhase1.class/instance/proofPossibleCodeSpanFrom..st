@@ -1,5 +1,5 @@
-add to inline elements
-proofePossibleCodeSpanFrom: aRawString
+helpers - code
+proofPossibleCodeSpanFrom: aRawString
 
 	| matcher |
 	matcher := RxMatcher forString: '.*(`.*`).*'.

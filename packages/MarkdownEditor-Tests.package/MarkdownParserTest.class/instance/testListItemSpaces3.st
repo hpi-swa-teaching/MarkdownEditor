@@ -20,7 +20,7 @@ testListItemSpaces3
 		startPosition: 1;
 		endPosition: 28;
 		innerStartPosition: 6;
-		innerLine: '> 1. one', Character cr;
+		innerLine: '> 1.  one', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {blockquote2}).
 	blockquote2 
@@ -28,7 +28,7 @@ testListItemSpaces3
 		startPosition: 6;
 		endPosition: 28;
 		innerStartPosition: 8;
-		innerLine: '1. one', Character cr;
+		innerLine: '1.  one', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {list}).	
 	list 
@@ -49,6 +49,7 @@ testListItemSpaces3
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph. paragraph2});
 		beOrdered;
+		number: 1;
 		listMarker: '.';
 		indentation: 4.
 	paragraph 

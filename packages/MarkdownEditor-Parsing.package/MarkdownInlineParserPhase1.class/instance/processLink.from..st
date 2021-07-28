@@ -6,13 +6,7 @@ processLink: aBalancedBracketCollection from: aRawString
 		enclosedLink := self findEnclosedLinkFrom: aRawString and: bracketPair.
 		enclosedLink
 			ifNotEmpty: [(self isOpenBracketAtOneFrom: bracketPair)
-				ifTrue: [ | endLinkIndex matcher anotherMatcher |
-						endLinkIndex := self findCloserIndexFrom: enclosedLink and: bracketPair.
-						matcher := RxMatcher forString: '\[(.*)\]\((.*)\).*'.
-						anotherMatcher := RxMatcher forString: '\[(.*`.*`.*)\]\((.*)\).*'.
-						((matcher matches: aRawString) and:[((matcher subexpression: 2) asString includes: $`) and: [(anotherMatcher matches: aRawString) not]])
-							ifTrue: [^ self proofePossibleCodeSpanFrom: aRawString]
-							ifFalse: [self addReferenceFrom: (aRawString copyFrom: bracketPair x to: endLinkIndex) with: MarkdownLink.
-									^ aRawString copyFrom: endLinkIndex + 1 to: aRawString size]]
+				ifTrue: [	^ self processPossible: MarkdownLink with: bracketPair 
+						from: aRawString and: enclosedLink]
 				ifFalse: [^ self processStringFrom: aRawString]]].
 	^ self processStringFrom: aRawString
