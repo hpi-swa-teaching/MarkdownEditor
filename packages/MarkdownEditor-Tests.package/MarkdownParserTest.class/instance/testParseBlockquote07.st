@@ -34,7 +34,7 @@ testParseBlockquote07
 		indentation: 2;
 		listMarker: '-';
 		startNumber: nil;
-		isOrdered: false.
+		beUnordered.
 	listItem 
 		container: list;
 		startPosition: 3;
@@ -43,7 +43,7 @@ testParseBlockquote07
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph});
 		number: nil;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '-';
 		indentation: 2.
 	str := MarkdownString newFrom: 'foo' startingAt: 5.
@@ -64,7 +64,7 @@ testParseBlockquote07
 		indentation: 2;
 		listMarker: '-';
 		startNumber: nil;
-		isOrdered: false.
+		beUnordered.
 	listItem2 container: list;
 		startPosition: 9;
 		endPosition: 13;
@@ -72,7 +72,7 @@ testParseBlockquote07
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph2});
 		number: nil;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '-';
 		indentation: 2.
 	str2 := MarkdownString newFrom: 'bar' startingAt: 11.

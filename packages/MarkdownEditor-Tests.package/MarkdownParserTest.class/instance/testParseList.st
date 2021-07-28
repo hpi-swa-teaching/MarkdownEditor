@@ -32,7 +32,7 @@ testParseList
 		container: list;
 		startPosition: 1;
 		endPosition: 6;
-		innerLine: 'foo';
+		innerLine: 'foo', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph});
 		beUnordered;
@@ -51,14 +51,14 @@ testParseList
 		container: list;
 		startPosition: 7;
 		endPosition: 12;
-		innerLine: 'bar';
+		innerLine: 'bar', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph2});
 		beUnordered;
 		listMarker: '-';
 		indentation: 2.
 	paragraph2
-		container: listItem;
+		container: listItem2;
 		startPosition: 9;
 		endPosition: 12;
 		innerStartPosition: 9;
@@ -73,9 +73,9 @@ testParseList
 		beClosed;
 		children: (OrderedCollection newFrom: {listItem3});
 		indentation: 2;
-		listMarker: '-';
+		listMarker: '+';
 		beUnordered.
-	listItem 
+	listItem3
 		container: list2;
 		startPosition: 13;
 		endPosition: 17;
@@ -83,10 +83,10 @@ testParseList
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph3});
 		beUnordered;
-		listMarker: '-';
+		listMarker: '+';
 		indentation: 2.
-	paragraph 
-		container: listItem;
+	paragraph3
+		container: listItem3;
 		startPosition: 15;
 		endPosition: 17;
 		innerStartPosition: 15;
@@ -94,3 +94,5 @@ testParseList
 		content: 'baz';
 		inlineElements: (MarkdownLinkedList newFrom: 
 			{MarkdownString newFrom: 'baz' startingAt: 15}).
+			
+	self assert: document equals: output

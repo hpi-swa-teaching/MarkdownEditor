@@ -1,8 +1,8 @@
 tests - lists
-testNoList
+testNoList2
 
 	| document output paragraph paragraph2 |
-	output := parser parse: '-one', Character cr, Character cr, '2.two'.
+	output := parser parse: '   one', Character cr, Character cr, 'two'.
 	paragraph := MarkdownParagraph new.
 	paragraph2 := MarkdownParagraph new.
 	document := MarkdownDocument new
@@ -11,21 +11,23 @@ testNoList
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph. paragraph2});
 		yourself.
-	paragraph container: document;
+	paragraph 
+		container: document;
 		startPosition: 1;
-		endPosition: 5;
-		innerStartPosition: 1;
+		endPosition: 7;
+		innerStartPosition: 4;
 		beClosed;
-		content: '-one';
+		content: 'one';
 		inlineElements: (MarkdownLinkedList newFrom: 
-			{MarkdownString newFrom: '-one' startingAt: 1}).
-	paragraph2 container: document;
-		startPosition: 7;
+			{MarkdownString newFrom: 'one' startingAt: 4}).
+	paragraph2 
+		container: document;
+		startPosition: 9;
 		endPosition: 11;
-		innerStartPosition: 7;
+		innerStartPosition: 9;
 		beClosed;
-		content: '2.two';
+		content: 'two';
 		inlineElements: (MarkdownLinkedList newFrom: 
-			{MarkdownString newFrom: '2.two' startingAt: 7}).
+			{MarkdownString newFrom: 'two' startingAt: 9}).
 	
 	self assert: document equals: output

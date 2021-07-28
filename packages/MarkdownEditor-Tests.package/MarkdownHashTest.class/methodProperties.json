@@ -14,5 +14,7 @@
 		"testDelimiterHash6" : "mf 7/27/2021 00:31",
 		"testInlineContainerBlockHash" : "jh 7/24/2021 17:35",
 		"testLeafBlockHash" : "mf 7/27/2021 00:46",
+		"testListHash" : "jh 7/28/2021 14:22",
+		"testListItemHash" : "jh 7/28/2021 14:19",
 		"testReferenceHash" : "jh 7/24/2021 17:34",
 		"testStringHash" : "jh 7/24/2021 17:30" } }
