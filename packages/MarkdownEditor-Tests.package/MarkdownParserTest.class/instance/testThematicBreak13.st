@@ -21,7 +21,7 @@ testThematicBreak13
 		innerLine: nil;
 		innerStartPosition: nil;
 		indentation: 2;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {element}).
 	element
@@ -32,7 +32,7 @@ testThematicBreak13
 		innerLine: 'foo', Character cr;
 		innerStartPosition: nil;
 		indentation: 2;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '-';
 		children: (OrderedCollection newFrom: {paragraph}).
 	str := MarkdownString newFrom: 'foo' startingAt: 3.

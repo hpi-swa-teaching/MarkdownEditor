@@ -13,24 +13,27 @@ testListItemSpaces2
 		beClosed;
 		children: (OrderedCollection newFrom: {list});
 		yourself.
-	list container: document;
+	list 
+		container: document;
 		startPosition: 1;
 		endPosition: 20;
 		beClosed;
 		children: (OrderedCollection newFrom: {listItem});
 		indentation: 6;
 		listMarker: '-';
-		isOrdered: false.
-	listItem container: list;
+		beUnordered.
+	listItem 
+		container: list;
 		startPosition: 1;
 		endPosition: 20;
 		innerLine: 'one', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph. paragraph2});
-		isOrdered: false;
+		beUnordered;
 		listMarker: '-';
 		indentation: 6.
-	paragraph container: listItem;
+	paragraph 
+		container: listItem;
 		startPosition: 7;
 		endPosition: 10;
 		innerStartPosition: 7;
@@ -38,7 +41,8 @@ testListItemSpaces2
 		content: 'one';
 		inlineElements: (MarkdownLinkedList newFrom: 
 			{MarkdownString newFrom: 'one' startingAt: 7}).
-	paragraph2 container: listItem;
+	paragraph2 
+		container: listItem;
 		startPosition: 18;
 		endPosition: 20;
 		innerStartPosition: 18;

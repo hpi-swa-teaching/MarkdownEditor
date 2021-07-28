@@ -24,7 +24,7 @@ testThematicBreak12
 		innerLine: nil;
 		innerStartPosition: nil;
 		indentation: 2;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '*';
 		children: (OrderedCollection newFrom: {element}).
 	element
@@ -35,7 +35,7 @@ testThematicBreak12
 		innerLine: 'foo', Character cr;
 		innerStartPosition: nil;
 		indentation: 2;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '*';
 		children: (OrderedCollection newFrom: {paragraph}).
 	str := MarkdownString newFrom: 'foo' startingAt: 3.
@@ -64,8 +64,8 @@ testThematicBreak12
 		innerLine: nil;
 		innerStartPosition: nil;
 		indentation: 2;
-		isOrdered: false;
-		listMarker: '-';
+		beUnordered;
+		listMarker: '*';
 		children: (OrderedCollection newFrom: {element2}).
 	element2
 		beClosed;
@@ -75,7 +75,7 @@ testThematicBreak12
 		innerLine: 'bar';
 		innerStartPosition: nil;
 		indentation: 2;
-		isOrdered: false;
+		beUnordered;
 		listMarker: '*';
 		children: (OrderedCollection newFrom: {paragraph2}).
 	str2 := MarkdownString newFrom: 'bar' startingAt: 15.

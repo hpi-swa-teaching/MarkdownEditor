@@ -7,7 +7,7 @@ adaptToDocumentWith: aParsingState
 		(aParsingState tip addChild: MarkdownList new withState: aParsingState).
 		aParsingState tip
 			indentation: self indentation;
-			isOrdered: self isOrdered;
+			copyOrderedState: self isOrdered;
 			listMarker: self listMarker;
 			startNumber: self number;
 			startPosition: self startPosition].

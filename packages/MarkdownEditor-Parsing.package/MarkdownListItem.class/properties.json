@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"number",
-		"isOrdered",
+		"indentation",
 		"listMarker",
-		"indentation" ],
+		"number",
+		"ordered" ],
 	"name" : "MarkdownListItem",
 	"pools" : [
 		 ],

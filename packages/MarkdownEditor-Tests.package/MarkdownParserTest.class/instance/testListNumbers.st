@@ -12,7 +12,8 @@ testListNumbers
 		beClosed;
 		children: (OrderedCollection newFrom: {list});
 		yourself.
-	list container: document;
+	list 
+		container: document;
 		startPosition: 1;
 		endPosition: 13;
 		beClosed;
@@ -20,17 +21,20 @@ testListNumbers
 		indentation: 11;
 		listMarker: '.';
 		startNumber: 123456789;
-		isOrdered: true.
-	listItem container: list;
+		beOrdered.
+	listItem 
+		container: list;
 		startPosition: 1;
 		endPosition: 13;
 		innerLine: 'ok';
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph});
-		isOrdered: true;
+		beOrdered;
 		listMarker: '.';
+		number: 123456789;
 		indentation: 11.
-	paragraph container: listItem;
+	paragraph 
+		container: listItem;
 		startPosition: 12;
 		endPosition: 13;
 		innerStartPosition: 12;

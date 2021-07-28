@@ -11,7 +11,8 @@ testNoList
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph. paragraph2});
 		yourself.
-	paragraph container: document;
+	paragraph 
+		container: document;
 		startPosition: 1;
 		endPosition: 5;
 		innerStartPosition: 1;
@@ -19,7 +20,8 @@ testNoList
 		content: '-one';
 		inlineElements: (MarkdownLinkedList newFrom: 
 			{MarkdownString newFrom: '-one' startingAt: 1}).
-	paragraph2 container: document;
+	paragraph2 
+		container: document;
 		startPosition: 7;
 		endPosition: 11;
 		innerStartPosition: 7;

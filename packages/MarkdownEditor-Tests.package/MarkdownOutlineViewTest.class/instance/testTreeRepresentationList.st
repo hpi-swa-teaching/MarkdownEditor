@@ -13,7 +13,7 @@ testTreeRepresentationList
 		container: list;
 		startPosition: 1;
 		endPosition: 8;
-		isOrdered: true;
+		beOrdered;
 		listMarker: '.';
 		children: (OrderedCollection newFrom: {paragraph})
 		yourself.
@@ -21,7 +21,7 @@ testTreeRepresentationList
 		endPosition: 8;
 		indentation: 3;
 		listMarker: '.';
-		isOrdered: true;
+		beOrdered;
 		children: (OrderedCollection newFrom: {listItem})
 		yourself.
 	expected := OrderedCollection newFrom: 

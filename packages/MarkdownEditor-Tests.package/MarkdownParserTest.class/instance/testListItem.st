@@ -14,7 +14,8 @@ testListItem
 		beClosed;
 		children: (OrderedCollection newFrom: {list});
 		yourself.
-	list container: document;
+	list 
+		container: document;
 		startPosition: 1;
 		endPosition: 57;
 		beClosed;
@@ -22,18 +23,20 @@ testListItem
 		indentation: 4;
 		listMarker: '.';
 		startNumber: 1;
-		isOrdered: true.
-	listItem container: list;
+		beOrdered.
+	listItem 
+		container: list;
 		startPosition: 1;
 		endPosition: 57;
 		innerLine: 'A paragraph', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph. blockquote});
 		number: 1;
-		isOrdered: true;
+		beOrdered;
 		listMarker: '.';
 		indentation: 4.
-	paragraph container: listItem;
+	paragraph 
+		container: listItem;
 		startPosition: 5;
 		endPosition: 36;
 		innerStartPosition: 5;
@@ -41,14 +44,16 @@ testListItem
 		content: 'A paragraph', Character cr, 'with two lines.';
 		inlineElements: (MarkdownLinkedList newFrom: 
 			{MarkdownString newFrom: 'A paragraph', Character cr, 'with two lines.' startingAt: 5}).
-	blockquote container: listItem;
+	blockquote 
+		container: listItem;
 		startPosition: 42;
 		endPosition: 57;
 		innerStartPosition: 44;
 		innerLine: 'A block quote.';
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph2}).
-	paragraph2 container: blockquote;
+	paragraph2 
+		container: blockquote;
 		startPosition: 44;
 		endPosition: 57;
 		innerStartPosition: 44;
@@ -56,4 +61,5 @@ testListItem
 		content: 'A block quote.';
 		inlineElements: (MarkdownLinkedList newFrom: 
 			{MarkdownString newFrom: 'A block quote.' startingAt: 44}).
+			
 	self assert: document equals: output

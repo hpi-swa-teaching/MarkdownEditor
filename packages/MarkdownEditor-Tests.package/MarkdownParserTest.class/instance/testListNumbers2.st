@@ -10,7 +10,8 @@ testListNumbers2
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph});
 		yourself.
-	paragraph container: document;
+	paragraph 
+		container: document;
 		startPosition: 1;
 		endPosition: 18;
 		innerStartPosition: 1;
