@@ -3,5 +3,5 @@ openStream: aStream
 
 	aStream ifNotNil: [
 		self currentFilePath: aStream name.
-		self textMorph setText: aStream contentsOfEntireFile.
+		self textMorph setText: (self getContentOf: aStream).
 		self saveTextInModel]

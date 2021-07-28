@@ -6,4 +6,4 @@ putTextOn: aStream
 	self saveTextInModel.
 	text := self textMorph text asString.
 	
-	aStream nextPutAll: text.
+	aStream nextPutAll: text
