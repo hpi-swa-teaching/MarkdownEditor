@@ -1,4 +1,4 @@
-tests - fencedCodeBlocks
+tests - fencedCodeBlock
 testParseNoFencedCodeBlock2
 
 	| output  document paragraph inlineCode |

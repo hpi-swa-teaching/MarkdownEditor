@@ -1,4 +1,4 @@
-tests - fencedCodeBlocks
+tests - fencedCodeBlock
 testParseFencedCodeBlock10
 
 	| output fencedCodeBlock document str |

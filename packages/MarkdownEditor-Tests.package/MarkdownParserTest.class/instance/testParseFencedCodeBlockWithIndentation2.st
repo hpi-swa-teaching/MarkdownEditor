@@ -1,4 +1,4 @@
-tests - fencedCodeBlocks
+tests - fencedCodeBlock
 testParseFencedCodeBlockWithIndentation2
 
 	| output fencedCodeBlock document str |

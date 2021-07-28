@@ -1,4 +1,4 @@
-tests - fencedCodeBlocks
+tests - fencedCodeBlock
 testParseFencedCodeBlock13
 
 	| output blockquote fencedCodeBlock document paragraph str str2 |
