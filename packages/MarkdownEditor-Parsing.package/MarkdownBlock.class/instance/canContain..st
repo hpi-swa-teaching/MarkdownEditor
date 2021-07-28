@@ -1,4 +1,4 @@
-accessing
+applying
 canContain: aMarkdownBlock
 
 	^ self subclassResponsibility

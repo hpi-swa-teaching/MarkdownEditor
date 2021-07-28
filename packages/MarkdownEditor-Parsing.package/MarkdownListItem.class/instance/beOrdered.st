@@ -1,4 +1,0 @@
-accessing
-beOrdered
-
-	ordered := true

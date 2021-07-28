@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"number" ],
-	"name" : "MarkdownListItem",
+		"indentation",
+		"listMarker",
+		"ordered" ],
+	"name" : "MarkdownListElement",
 	"pools" : [
 		 ],
-	"super" : "MarkdownListElement",
+	"super" : "MarkdownContainerBlock",
 	"type" : "normal" }
