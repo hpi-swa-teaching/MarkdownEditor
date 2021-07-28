@@ -1,4 +1,4 @@
-as yet unclassified
+inserting
 insert: aText into: anotherText afterPosition: position
 
 	| firstHalf secondHalf |

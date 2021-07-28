@@ -3,7 +3,7 @@ newFrom: aRawString fenceLength: aNumber
 
 	| codeSpan |
 	codeSpan := self new
-		content: aRawString;
+		code: aRawString;
 		rawContent: aRawString copy;
 		fenceLength: aNumber;
 		yourself.

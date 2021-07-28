@@ -1,20 +1,22 @@
 {
 	"class" : {
-		"newFrom:fenceLength:" : "jh 7/13/2021 15:42" },
+		"newFrom:fenceLength:" : "jh 7/28/2021 16:08" },
 	"instance" : {
-		"=" : "jh 7/23/2021 09:46",
+		"=" : "jh 7/28/2021 16:06",
 		"applyStylingWith:" : "jh 7/15/2021 11:20",
-		"content" : "mf 7/13/2021 12:54",
-		"content:" : "mf 7/13/2021 12:54",
-		"convertWith:" : "jh 7/11/2021 20:10",
+		"code" : "jh 7/28/2021 16:06",
+		"code:" : "jh 7/28/2021 16:07",
+		"convertWith:" : "jh 7/28/2021 16:06",
+		"extractString" : "jh 7/28/2021 16:24",
 		"fenceLength" : "jh 7/26/2021 10:51",
 		"fenceLength:" : "jh 7/26/2021 10:51",
-		"handleWhiteSpaces" : "mf 7/13/2021 12:54",
-		"hash" : "jh 7/23/2021 09:48",
+		"handleWhiteSpaces" : "jh 7/28/2021 16:08",
+		"hash" : "jh 7/28/2021 16:07",
 		"htmlClosingTag" : "jh 7/11/2021 20:11",
 		"htmlOpeningTag" : "jh 7/11/2021 20:11",
 		"lastChar" : "jh 7/11/2021 11:26",
 		"rawContent" : "jh 7/13/2021 15:37",
 		"rawContent:" : "jh 7/13/2021 15:37",
+		"textAttributes" : "jh 7/28/2021 16:33",
 		"totalLength" : "jh 7/13/2021 18:45",
-		"treeRepresentation" : "jh 7/16/2021 20:48" } }
+		"treeRepresentation" : "jh 7/28/2021 16:07" } }

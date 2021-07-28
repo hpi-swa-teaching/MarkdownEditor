@@ -1,5 +1,5 @@
 building
-windowSpec: aBuilder
+windowSpecFor: aBuilder
 
 	^ aBuilder pluggableWindowSpec new
 		model: self;

@@ -5,7 +5,7 @@ testInlineCode3
 	output := parser parseInline: '`test``test``' with: 1.
 	str := MarkdownString newFrom: '`test' startingAt: 1.
 	code := MarkdownCodeSpan new
-		content: 'test';
+		code: 'test';
 		fenceLength: 2;
 		rawContent: 'test';
 		startPosition: 6.

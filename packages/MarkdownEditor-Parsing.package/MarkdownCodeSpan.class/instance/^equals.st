@@ -3,7 +3,7 @@ comparing
 	
 	^ super = anotherMarkdownInlineElement 
 		and: [
-			self content = anotherMarkdownInlineElement content
+			self code = anotherMarkdownInlineElement code
 		and: [ 
 			self fenceLength = anotherMarkdownInlineElement fenceLength 
 		and: [ 

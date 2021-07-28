@@ -6,7 +6,7 @@ testInlineCodeInLinks2
 	link := MarkdownLink newFrom: '/foo'.
 	link startPosition: 1.
 	code := MarkdownCodeSpan new
-		content: 'code in a link';
+		code: 'code in a link';
 		fenceLength: 1;
 		rawContent: 'code in a link';
 		startPosition: 2.

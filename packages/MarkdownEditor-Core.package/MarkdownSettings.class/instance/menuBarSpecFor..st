@@ -1,7 +1,7 @@
 building
-buildMenuBarWith: aBuilder
+menuBarSpecFor: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		 layout: #horizontal;
-		 children: (self menubarContent: aBuilder);
+		 children: (self menuBarContentSpecFor: aBuilder);
 		 yourself

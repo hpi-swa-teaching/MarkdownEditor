@@ -6,7 +6,7 @@ testInlineCodeInLinks3
 	str := MarkdownString newFrom: '[not a link]'.
 	str startPosition: 1.
 	code := MarkdownCodeSpan new
-		content: '(/foo)';
+		code: '(/foo)';
 		fenceLength: 1;
 		rawContent: '(/foo)';
 		startPosition: 13.

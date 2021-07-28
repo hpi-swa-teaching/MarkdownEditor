@@ -2,6 +2,6 @@ styling
 applyStylingWith: aMarkdownStyler
 
 	| text |
-	text := ('<', self path, '>') asText.
+	text := ('<', self autolinkPath, '>') asText.
 	text addAllAttributes: self textAttributes.
 	^ text

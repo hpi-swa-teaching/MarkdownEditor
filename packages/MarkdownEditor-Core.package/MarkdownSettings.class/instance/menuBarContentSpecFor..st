@@ -1,5 +1,5 @@
 building
-menubarContent: aBuilder
+menuBarContentSpecFor: aBuilder
 			
 	^ {aBuilder pluggableButtonSpec new
 			label: 'General';

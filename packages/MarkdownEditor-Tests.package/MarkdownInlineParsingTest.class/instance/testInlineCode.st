@@ -4,7 +4,7 @@ testInlineCode
 	| expectedOutput output code |
 	output := parser parseInline: '`test`' with: 1.
 	code := MarkdownCodeSpan new
-		content: 'test';
+		code: 'test';
 		rawContent: 'test';
 		fenceLength: 1;
 		startPosition: 1.

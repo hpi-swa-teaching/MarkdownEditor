@@ -2,13 +2,16 @@
 	"class" : {
 		"openFor:" : "F.S 7/20/2021 13:33" },
 	"instance" : {
-		"buildWith:" : "jh 7/16/2021 12:05",
-		"click:" : "jh 7/26/2021 10:35",
-		"document" : "F.S 7/20/2021 13:43",
+		"buildWith:" : "jh 7/28/2021 15:56",
+		"click:" : "jh 7/28/2021 15:36",
+		"document" : "jh 7/28/2021 15:36",
 		"editor" : "F.S 7/20/2021 13:30",
 		"editor:" : "F.S 7/20/2021 13:30",
-		"getNextIndentationLevel:" : "jh 7/21/2021 10:41",
+		"getNextIndentationLevel:" : "jh 7/28/2021 15:35",
+		"initialExtent" : "jh 7/20/2021 13:15",
 		"isClickableObject:" : "F.S 7/20/2021 14:19",
 		"label" : "jh 7/16/2021 09:44",
-		"treeSpec:" : "jh 7/21/2021 10:55",
-		"windowSpec:" : "mf 7/20/2021 20:36" } }
+		"layoutFrame" : "jh 7/28/2021 15:45",
+		"overallSpecFor:" : "jh 7/28/2021 15:50",
+		"treeSpecFor:" : "jh 7/28/2021 15:49",
+		"windowSpecFor:" : "jh 7/28/2021 15:50" } }

@@ -4,7 +4,7 @@ testInlineCodeWithEmphasis
 	| expectedOutput output code |
 	output := parser parseInline: '`te*s*t`' with: 1.
 	code := MarkdownCodeSpan new
-		content: 'te*s*t';
+		code: 'te*s*t';
 		fenceLength: 1;
 		rawContent: 'te*s*t';
 		startPosition: 1.

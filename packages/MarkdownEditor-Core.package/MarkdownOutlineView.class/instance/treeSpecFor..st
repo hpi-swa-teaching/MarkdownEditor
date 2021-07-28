@@ -1,5 +1,5 @@
 building
-treeSpec: aBuilder
+treeSpecFor: aBuilder
 
 	^ aBuilder pluggableTreeSpec new
 		model: self;

@@ -7,7 +7,7 @@ testParseNestedAutolink
 	str2 := MarkdownString newFrom: '>' startingAt: 34.
 	link := MarkdownAutolink new
 		startPosition: 14;
-		path: 'https://www.hpi.de'.
+		autolinkPath: 'https://www.hpi.de'.
 	expectedOutput := MarkdownLinkedList newFrom: {str. link. str2}.
 	
 	self assert: expectedOutput equals: output

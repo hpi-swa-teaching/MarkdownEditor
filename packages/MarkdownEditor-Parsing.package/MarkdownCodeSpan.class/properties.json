@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content",
 		"fenceLength",
-		"rawContent" ],
+		"rawContent",
+		"code" ],
 	"name" : "MarkdownCodeSpan",
 	"pools" : [
 		 ],

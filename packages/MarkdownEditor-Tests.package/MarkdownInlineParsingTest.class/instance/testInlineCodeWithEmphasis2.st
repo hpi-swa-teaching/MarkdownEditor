@@ -4,7 +4,7 @@ testInlineCodeWithEmphasis2
 	| expectedOutput output code |
 	output := parser parseInline: '*test`*`' with: 1.
 	code := MarkdownCodeSpan new
-		content: '*';
+		code: '*';
 		fenceLength: 1;
 		rawContent: '*';
 		startPosition: 6.

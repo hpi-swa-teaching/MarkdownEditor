@@ -1,0 +1,4 @@
+styling
+extractString
+
+	^ self autolinkPath

@@ -6,7 +6,7 @@ testInlineCodeInImages2
 	image := MarkdownImage newFrom: '/foo'.
 	image startPosition: 1.
 	code := MarkdownCodeSpan new
-		content: 'code in an image';
+		code: 'code in an image';
 		fenceLength: 1;
 		rawContent: 'code in an image';
 		startPosition: 3.

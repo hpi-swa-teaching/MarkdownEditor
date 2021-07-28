@@ -1,5 +1,5 @@
 building
-buildContentWith: aBuilder
+contentSpecFor: aBuilder
 
 	^ aBuilder pluggableScrollPaneSpec new model: self;
 		 name: #content;

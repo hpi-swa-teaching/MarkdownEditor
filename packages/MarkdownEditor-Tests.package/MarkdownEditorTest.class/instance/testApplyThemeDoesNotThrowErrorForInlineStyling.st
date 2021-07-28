@@ -3,6 +3,6 @@ testApplyThemeDoesNotThrowErrorForInlineStyling
 
 	| textMorph |
 	textMorph := toolbuilder build: (MarkdownEditor new
-		buildEditorTextMorphWith: toolbuilder).
+		editorTextMorphSpecFor: toolbuilder).
 	textMorph styler: (MarkdownTextStyler new view: textMorph).
 	self shouldnt: [textMorph applyUserInterfaceTheme] raise: Error

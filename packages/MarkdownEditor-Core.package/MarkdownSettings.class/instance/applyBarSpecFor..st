@@ -1,7 +1,7 @@
 building
-buildApplyBarWith: aBuilder
+applyBarSpecFor: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		 layout: #horizontal;
-		 children: (self applyBarContent: aBuilder);
+		 children: (self applyBarContentSpecFor: aBuilder);
 		 yourself

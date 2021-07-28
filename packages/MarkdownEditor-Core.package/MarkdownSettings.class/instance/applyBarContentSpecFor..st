@@ -1,5 +1,5 @@
 building
-applyBarContent: aBuilder
+applyBarContentSpecFor: aBuilder
 			
 	^ {aBuilder pluggableButtonSpec new
 			label: 'Apply';

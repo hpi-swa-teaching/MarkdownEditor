@@ -11,8 +11,11 @@
 		"convertWith:" : "jh 7/25/2021 20:22",
 		"extractString" : "jh 6/25/2021 18:08",
 		"hash" : "jh 7/23/2021 09:51",
+		"htmlClosingTag" : "jh 7/28/2021 16:31",
+		"htmlOpeningTag" : "jh 7/28/2021 16:32",
 		"isEmpty" : "jh 6/13/2021 14:06",
 		"lastChar" : "jh 7/11/2021 11:29",
 		"removeLast" : "jh 7/11/2021 12:02",
+		"textAttributes" : "jh 7/28/2021 16:34",
 		"totalLength" : "jh 7/13/2021 18:49",
 		"treeRepresentation" : "jh 7/26/2021 21:17" } }

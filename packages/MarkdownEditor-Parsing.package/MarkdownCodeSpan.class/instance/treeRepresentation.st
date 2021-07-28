@@ -1,4 +1,4 @@
 view
 treeRepresentation
 
-	^ {self content}
+	^ {self code}

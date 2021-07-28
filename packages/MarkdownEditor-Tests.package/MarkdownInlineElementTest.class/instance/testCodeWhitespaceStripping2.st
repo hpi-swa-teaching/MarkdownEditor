@@ -4,7 +4,7 @@ testCodeWhitespaceStripping2
 	| codeSpan expectedCodeSpan |
 	codeSpan := MarkdownCodeSpan newFrom: 't    ', Character cr, 't' fenceLength: 0.
 	expectedCodeSpan := MarkdownCodeSpan new.
-	expectedCodeSpan content: 't     t';
+	expectedCodeSpan code: 't     t';
 		fenceLength: 0;
 		rawContent: 't    ', Character cr, 't'.
 		

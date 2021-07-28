@@ -3,7 +3,7 @@ hash
 
 	^ super hash 
 		bitXor: 
-			(self content hash
+			(self code hash
 		bitXor: 
 			(self fenceLength hash 
 		bitXor: 

@@ -11,7 +11,7 @@ testParseNoFencedCodeBlock4
 		endPosition: 14;
 		children: (OrderedCollection newFrom: {paragraph}).
 	inlineCode := MarkdownCodeSpan new
-		content: 'aa';
+		code: 'aa';
 		rawContent: ' aa ';
 		fenceLength: 3;
 		startPosition: 1.

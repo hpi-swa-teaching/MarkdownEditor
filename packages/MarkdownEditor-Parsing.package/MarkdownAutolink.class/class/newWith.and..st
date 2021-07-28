@@ -3,5 +3,5 @@ newWith: aSymbol and: aRawString
 
 	^ self new 
 		perform: aSymbol;
-		path: aRawString;
+		autolinkPath: aRawString;
 		yourself

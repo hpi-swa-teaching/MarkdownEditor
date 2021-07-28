@@ -5,4 +5,4 @@ comparing
 		and: [
 			self isEmail = anotherMarkdownInlineElement isEmail 
 		and: [ 
-			self path = anotherMarkdownInlineElement path ]]
+			self autolinkPath = anotherMarkdownInlineElement autolinkPath ]]

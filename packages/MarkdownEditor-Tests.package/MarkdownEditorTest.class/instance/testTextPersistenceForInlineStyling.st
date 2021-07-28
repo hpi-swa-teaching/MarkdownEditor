@@ -3,7 +3,7 @@ testTextPersistenceForInlineStyling
 
 	| textMorph |
 	textMorph := toolbuilder build: (MarkdownEditor new
-		buildEditorTextMorphWith: toolbuilder).
+		editorTextMorphSpecFor: toolbuilder).
 	textMorph
 		styler: (MarkdownTextStyler new view: textMorph);
 		replaceSelectionWith: 'I like trains.';

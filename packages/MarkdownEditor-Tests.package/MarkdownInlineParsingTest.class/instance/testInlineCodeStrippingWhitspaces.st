@@ -4,7 +4,7 @@ testInlineCodeStrippingWhitspaces
 	| expectedOutput output code |
 	output := parser parseInline: '` `` `' with: 1.
 	code := MarkdownCodeSpan new
-		content: '``';
+		code: '``';
 		fenceLength: 1;
 		rawContent: ' `` ';
 		startPosition: 1.

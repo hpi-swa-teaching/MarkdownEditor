@@ -1,4 +1,4 @@
 html
 convertWith: anHtmlConverter
 
-	^self htmlOpeningTag, self content, self htmlClosingTag
+	^self htmlOpeningTag, self code, self htmlClosingTag
