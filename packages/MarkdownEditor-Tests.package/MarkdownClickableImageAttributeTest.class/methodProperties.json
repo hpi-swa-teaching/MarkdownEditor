@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LL 7/29/2021 17:58",
-		"testIsActingOnClick" : "LL 7/29/2021 17:59" } }
+		"imageMock" : "LL 7/29/2021 18:23",
+		"setUp" : "LL 7/29/2021 18:32",
+		"testIsActingOnClick" : "LL 7/29/2021 18:21",
+		"testShowOn" : "LL 7/29/2021 18:34",
+		"testcreateTextAnchorWithMaxExtent" : "LL 7/29/2021 18:39" } }

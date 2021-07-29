@@ -7,4 +7,6 @@ show: anImage On: aModel
 		yourself).
 	oldText := aModel textMorph text.
 	
-	aModel textMorph setText: (TextUtil insert: newText into: oldText afterPosition: self position + self text size - 1)
+	aModel textMorph setText: (TextUtil insert: newText into: oldText afterPosition: self position + self text size - 1).
+	
+	^ aModel textMorph text
