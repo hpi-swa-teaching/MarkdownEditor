@@ -3,6 +3,8 @@ testCodeSpanHash
 
 	| hash expectedHash |
 	hash := (MarkdownCodeSpan new) hash.
-	expectedHash := nil hash bitXor: (nil hash bitXor: (nil hash bitXor: nil hash)).
+	expectedHash := nil hash bitXor: (nil hash 
+		bitXor: (nil hash 
+		bitXor: nil hash)).
 	
 	self assert: expectedHash equals: hash
