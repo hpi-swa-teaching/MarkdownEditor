@@ -1,5 +1,5 @@
 running
 htmlDocumentTail
 
-^ '</body>
+	^ '</body>
 </html>'

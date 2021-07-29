@@ -1,8 +1,7 @@
 tests - lineAdding
 testRemovingIndention
 
-	| testList testBlock cr |
-	cr := Character cr.
+	| testList testBlock |
 	testBlock := (MarkdownFencedCodeBlock new)
 		openingFence: '````';
 		indentation: 3;

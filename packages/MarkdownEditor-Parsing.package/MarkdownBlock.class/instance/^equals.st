@@ -2,15 +2,11 @@ comparing
 = anotherMarkdownBlock
 
 	self == anotherMarkdownBlock
-		ifTrue: [ ^ true ].
+		ifTrue: [^ true].
 	self class = anotherMarkdownBlock class
-		ifFalse: [ ^ false ].
+		ifFalse: [^ false].
 	^ self innerLine = anotherMarkdownBlock innerLine
-			and: [ 
-		self endPosition = anotherMarkdownBlock endPosition
 			and: [ 
 		self isOpen = anotherMarkdownBlock isOpen
 			and: [ 
-		self innerStartPosition = anotherMarkdownBlock innerStartPosition 
-			and: [ 
-		self startPosition = anotherMarkdownBlock startPosition ] ] ] ]
+		self comparePosition: anotherMarkdownBlock]]

@@ -1,10 +1,9 @@
 tests - blockquote
 testParseBlockquote10
 
-	| output blockquote document paragraph |
+	| output blockquote document |
 	output := parser parse: '>'.
 	blockquote := MarkdownBlockquote new.
-	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
 	document
 		beClosed;

@@ -8,4 +8,4 @@ createCodeSpanFrom: aRawString with: anOpeningFenceInterval and: aClosingFenceIn
 			to: (aClosingFenceInterval start - 1))
 		fenceLength: anOpeningFenceInterval extent + 1.
 	self addToInlineElements: codeSpan.
-	^ aRawString allButFirst: aClosingFenceInterval stop. 
+	^ aRawString allButFirst: aClosingFenceInterval stop

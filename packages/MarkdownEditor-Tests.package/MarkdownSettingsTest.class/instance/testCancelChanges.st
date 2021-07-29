@@ -12,7 +12,7 @@ testCancelChanges
 	newRuns := (text addAttribute: (TextColor color: originalTextColor negated)) runs.
 	
 	self assert: originalTextColor negated equals: self colorOfFirstCharInText.
-	self assert:newRuns equals: editor textMorph text runs.
+	self assert: newRuns equals: editor textMorph text runs.
 	
 	settings handleCancel.
 	self assert: expectedRuns equals: (editor textStyler text runs)

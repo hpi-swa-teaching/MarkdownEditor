@@ -6,6 +6,7 @@ testStyleHeadingLevel6
 	textStyler privateStyle: text.
 	fontSize := self styleSettingsForStylingTests fontSizes at: 'Heading 6'.
 	fontColor := self styleSettingsForStylingTests fontColors at: 'Heading 6'.
+	
 	self
 		assertRunsValues: {self textAttributesFor: fontColor and: fontSize}
 		areStyleOf: text

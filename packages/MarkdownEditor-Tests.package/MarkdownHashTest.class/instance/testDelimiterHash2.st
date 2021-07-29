@@ -10,4 +10,5 @@ testDelimiterHash2
 		bitXor: ($* hash 
 		bitXor: (nil hash 
 		bitXor: false hash))))).
+		
 	self assert: expectedHash equals: del hash

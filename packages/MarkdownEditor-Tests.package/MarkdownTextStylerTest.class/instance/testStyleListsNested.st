@@ -1,7 +1,7 @@
 tests - container
 testStyleListsNested
 
-	| text fontColor fontSize |
+	| text |
 	text := '1. lvl1
     1. lvl2
         1. lvl*3*

@@ -1,13 +1,12 @@
 tests - lists
 testListItemSpaces4
 
-	| document list output blockquote listItem paragraph paragraph2 |
+	| document list output listItem paragraph paragraph2 |
 	output := parser parse: '- one', Character cr, Character cr, Character cr,'  two'.
 	list := MarkdownList new.
 	listItem := MarkdownListItem new.
 	paragraph := MarkdownParagraph new.
 	paragraph2 := MarkdownParagraph new.
-	blockquote := MarkdownBlockquote new.
 	document := MarkdownDocument new
 		startPosition: 1;
 		endPosition: 13;

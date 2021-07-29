@@ -6,4 +6,4 @@ treeRepresentation
 	self isEmail
 		ifTrue: [description := 'E-Mail']
 		ifFalse: [description := 'Link'].
-	^ {description. self autolinkPath}
+	^ {description. self path}

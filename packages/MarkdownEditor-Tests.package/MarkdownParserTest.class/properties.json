@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser",
-		"parsingState" ],
+		"parser" ],
 	"name" : "MarkdownParserTest",
 	"pools" : [
 		 ],

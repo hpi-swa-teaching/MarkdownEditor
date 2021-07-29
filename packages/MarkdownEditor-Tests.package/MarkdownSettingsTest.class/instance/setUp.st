@@ -7,5 +7,4 @@ setUp
 	settings := MarkdownSettings UniqueInstance.
 	
 	editor := MarkdownEditor new.
-	toolbuilder := ToolBuilder default.
-	window := toolbuilder open: editor
+	window := (ToolBuilder default) open: editor

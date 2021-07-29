@@ -9,5 +9,4 @@ parseWithState: aParsingState
 	listData at: #length put: (listData at: #length) + indention.
 	listData at: #remains put: ((listData at: #remains) 
 		ifNotEmpty: [(listData at: #remains) allButFirst: indention]).
-	
 	^ listData

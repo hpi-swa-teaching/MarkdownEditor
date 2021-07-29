@@ -1,4 +1,4 @@
 applying
 canContain: aMarkdownBlock
 
-	^ aMarkdownBlock class ~= MarkdownListItem
+	^ aMarkdownBlock class ~= self class

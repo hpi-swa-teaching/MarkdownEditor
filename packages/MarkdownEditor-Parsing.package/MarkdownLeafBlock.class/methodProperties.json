@@ -5,11 +5,12 @@
 	"instance" : {
 		"=" : "jh 7/26/2021 12:46",
 		"addLine:" : "mf 7/28/2021 00:33",
+		"appendChild:" : "mf 7/28/2021 23:47",
 		"applyStylingWith:" : "jh 6/29/2021 15:49",
 		"canContain:" : "mf 7/4/2021 14:29",
 		"content" : "JE 6/16/2021 13:17",
 		"content:" : "jh 6/29/2021 10:44",
-		"convertWith:" : "jh 6/25/2021 08:58",
+		"convertWith:" : "mf 7/28/2021 23:49",
 		"hash" : "jh 7/26/2021 12:46",
 		"initialize" : "jh 7/26/2021 12:47",
 		"inlineElements" : "jh 7/26/2021 12:46",

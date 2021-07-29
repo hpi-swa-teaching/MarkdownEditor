@@ -5,6 +5,6 @@ createTextAnchorWith: aBinaryStream maxExtent: aPoint
 	image := Form fromBinaryStream: aBinaryStream.
 	newSize := aPoint x min: image extent x.
 	image := image scaledToSize: newSize - 10.
-	^TextAnchor new 
+	^ TextAnchor new 
 		anchoredMorph: image;
-		yourself.
+		yourself

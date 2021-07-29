@@ -9,5 +9,4 @@ buildWith: aBuilder
 	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
 	self configureCloseButton.
 	self showStylerMorphsFor: 'General'.
-	
 	^ window

@@ -1,12 +1,11 @@
 tests - blockquote
 testParseBlockquote07
 
-	| output blockquote document paragraph paragraph2 str str2 break list listItem list2 listItem2 |
+	| output blockquote document paragraph paragraph2 str str2 list listItem list2 listItem2 |
 	output := parser parse: '> - foo', Character cr, '- bar'.
 	blockquote := MarkdownBlockquote new.
 	paragraph := MarkdownParagraph new.
 	paragraph2 := MarkdownParagraph new.
-	break := MarkdownThematicBreak new.
 	list := MarkdownList new.
 	listItem := MarkdownListItem new.
 	list2 := MarkdownList new.

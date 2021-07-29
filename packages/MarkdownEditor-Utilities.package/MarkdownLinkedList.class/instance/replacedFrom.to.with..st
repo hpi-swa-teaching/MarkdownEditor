@@ -1,5 +1,5 @@
 copying
 replacedFrom: aStartIndex to: anEndIndex with: anObject
 
-	^ (MarkdownLinkedList newFrom: 
+	^ (self class newFrom: 
 			(self copyReplaceFrom: aStartIndex to: anEndIndex with: {anObject}))

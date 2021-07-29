@@ -5,4 +5,4 @@ hash
 		bitXor: 
 			(self isEmail hash 
 		bitXor: 
-			self autolinkPath hash)
+			self path hash)

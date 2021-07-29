@@ -78,4 +78,5 @@ testConvertStyleSettings
 			color: rgba(0, 0, 0, 1.0); 
 		}
 </style>'.
+
 	self assert: expectedCss equals: css

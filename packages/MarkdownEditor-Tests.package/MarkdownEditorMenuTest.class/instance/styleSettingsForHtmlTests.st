@@ -20,5 +20,3 @@ styleSettingsForHtmlTests
 	styleSettings fontColors at: 'Unord. List 2' put: Color black.
 	styleSettings fontColors at: 'Unord. List 3+' put: Color black.
 	^ styleSettings
-	
-	

@@ -15,4 +15,5 @@ testTreeRepresentationFencedCodeBlock
 		'start', String tab, '1'.
 		'end', String tab, '27'.
 		str}.
+		
 	self assert: expected equals: fencedCodeBlock treeRepresentation asOrderedCollection

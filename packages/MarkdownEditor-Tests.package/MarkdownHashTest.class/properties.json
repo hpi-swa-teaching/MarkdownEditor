@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser",
-		"firstPhase",
-		"secondPhase" ],
+		 ],
 	"name" : "MarkdownHashTest",
 	"pools" : [
 		 ],

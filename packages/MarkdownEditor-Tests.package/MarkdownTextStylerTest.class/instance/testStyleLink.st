@@ -8,6 +8,7 @@ testStyleLink
 	fontColor := self styleSettingsForStylingTests fontColors at: 'Paragraph'.
 	plugAttr := MarkdownClickableAttribute newFrom: 'hpi.de'.
 	emphasis := TextEmphasis underlined.
+	
 	self
 		assertRunsValues: {(self textAttributesFor: fontColor and: fontSize) union: {emphasis. plugAttr}}
 		areStyleOf: text

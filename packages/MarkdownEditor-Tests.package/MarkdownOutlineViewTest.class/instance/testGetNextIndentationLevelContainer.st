@@ -15,5 +15,6 @@ testGetNextIndentationLevelContainer
 	expectedCollection := {'start', String tab, sampleDocument startPosition.
 		'end', String tab, sampleDocument endPosition. 
 		paragraph} asOrderedCollection.
+	
 	self assert: expectedCollection
 		equals: (outlineModel getNextIndentationLevel: sampleDocument)

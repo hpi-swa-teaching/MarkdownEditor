@@ -3,7 +3,7 @@ adaptToTheme
 
 	self color: Color transparent.
 	
-	(self simpleColorChoosers at: 1) 
+	(self simpleColorChoosers first) 
 		color: MarkdownStyleSettings themeFontColor;
 		borderColor: MarkdownStyleSettings themeFontColor;
 		arguments: {MarkdownStyleSettings themeFontColor}

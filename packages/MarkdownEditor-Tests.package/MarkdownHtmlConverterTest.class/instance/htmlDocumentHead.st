@@ -1,7 +1,7 @@
 running
 htmlDocumentHead
 
-^ '<!DOCTYPE html>
+	^ '<!DOCTYPE html>
 <html>
 <head>', Character cr,
 (htmlConverter convertStyleSettings: self styleSettingsForHtmlTests), Character cr,

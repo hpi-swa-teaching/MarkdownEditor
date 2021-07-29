@@ -10,6 +10,6 @@ isCharSkippableAt: anIndex
 		ifTrue: [^ true].
 	
 	line := self text asString lineCorrespondingToIndex: anIndex.
-	indexInLine := self realtiveIndexInLineCorrespondingTo: anIndex.
+	indexInLine := self relativeIndexInLineCorrespondingTo: anIndex.
 	^ ((line first: indexInLine) isAllSeparators) 
 		or: [(line allButFirst: indexInLine) isAllSeparators]

@@ -15,4 +15,5 @@ testTreeRepresentationHeading
 		'start', String tab, '1'.
 		'end', String tab, '7'.
 		inline}.
+		
 	self assert: expected equals: heading treeRepresentation asOrderedCollection

@@ -2,7 +2,7 @@ comparing
 = aMarkdownClickableAttribute
 
 	self == aMarkdownClickableAttribute
-		ifTrue: [ ^ true ].
+		ifTrue: [^ true].
 	self class = aMarkdownClickableAttribute class
-		ifFalse: [ ^ false ].
+		ifFalse: [^ false].
 	^ self path = aMarkdownClickableAttribute path

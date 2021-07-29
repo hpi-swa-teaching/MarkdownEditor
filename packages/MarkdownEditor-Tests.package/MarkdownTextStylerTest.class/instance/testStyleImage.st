@@ -8,6 +8,7 @@ testStyleImage
 	fontColor := self styleSettingsForStylingTests fontColors at: 'Paragraph'.
 	plugAttr := MarkdownClickableImageAttribute newFrom: 'sampleImage.png'.
 	emphasis := TextEmphasis underlined.
+	
 	self
 		assertRunsValues: {(self textAttributesFor: fontColor and: fontSize) union: {emphasis. plugAttr}}
 		areStyleOf: text

@@ -7,5 +7,5 @@ convertStyleSettings: aStyleSettings
 		(self convertBlockquoteStyleSettings: aStyleSettings),
 		(self convertCodeBlockStyleSettings: aStyleSettings),
 		(self convertListStyleSettings: aStyleSettings),
-		'</style>'.
+		'</style>'
 		

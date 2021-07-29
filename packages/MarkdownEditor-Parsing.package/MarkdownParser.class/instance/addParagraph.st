@@ -3,7 +3,7 @@ addParagraph
 	
 	self state container: 
 		(self state tip addChild: 
-			(self pragraphClass new 
+			(self paragraphClass new 
 				startPosition: self state charPos;
 				yourself) withState: self state).
 	self state tip: self state container.

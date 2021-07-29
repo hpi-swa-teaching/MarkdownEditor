@@ -8,4 +8,5 @@ testApplyInlineNested
 	editor markdownMenu applyInlineOnSelectionWith: '*'.
 	editor markdownMenu applyInlineOnSelectionWith: '~~'.
 	editor markdownMenu applyInlineOnSelectionWith: '**'.
+	
 	self assert: ('**~~*', content, '*~~**') asText equals: editor textMorph text

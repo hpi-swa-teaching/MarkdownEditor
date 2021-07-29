@@ -1,10 +1,9 @@
 tests - blockquote
 testParseBlockquote11
 
-	| output blockquote document paragraph |
+	| output blockquote document |
 	output := parser parse: '>', Character cr, '>  ', Character cr, '> '.
 	blockquote := MarkdownBlockquote new.
-	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new.
 	document
 		beClosed;

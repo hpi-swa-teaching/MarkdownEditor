@@ -7,5 +7,6 @@ testContinue
 		charPos: 0;
 		yourself.
 	heading := MarkdownATXHeading new.
+	
 	self assert: 1 equals: (heading continue: state).
-	self assert: '' equals: heading content.
+	self assert: '' equals: heading content

@@ -1,7 +1,7 @@
 example documents
 exampleHtml2
 
-^ '<h1>Heading 1</h1>
+	^ '<h1>Heading 1</h1>
 <h2>Heading 2.1</h2>
 <p><em><strong>Lorem ipsum dolor</strong></em> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo*dolores** et ea rebum. <strong>Stet clita</strong> kasd gubergren,<em>no sea</em> takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 <h2>Heading 2.2</h2>

@@ -1,4 +1,4 @@
 html
 convertWith: anHtmlConverter
 
-	^ anHtmlConverter convertLeafBlockWith: self.
+	^ anHtmlConverter convertLeafBlockWith: self

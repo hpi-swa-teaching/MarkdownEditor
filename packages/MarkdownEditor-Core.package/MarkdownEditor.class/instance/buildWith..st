@@ -10,5 +10,4 @@ buildWith: aBuilder
 	self registerSettings;
 		configureCloseButton.
 	self window setProperty: #noUserInterfaceTheme toValue: true.
-	 
 	^ window

@@ -18,6 +18,7 @@ testStyleFencedCodeBlock
 							array at: 1 put: run first.
 							array at: 2 put: ((self textAttributesFor: fontSize) first).
 							styleCollection add: array].
+						
 	self
 		assertRunsValues: 
 			"{(self textAttributesFor: fontSize).

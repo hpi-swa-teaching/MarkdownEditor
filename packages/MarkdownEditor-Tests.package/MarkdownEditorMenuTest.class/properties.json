@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"toolbuilder",
-		"window",
 		"editor" ],
 	"name" : "MarkdownEditorMenuTest",
 	"pools" : [

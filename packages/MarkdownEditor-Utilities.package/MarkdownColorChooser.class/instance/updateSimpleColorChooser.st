@@ -3,7 +3,7 @@ updateSimpleColorChooser
 
 	| yOffset yIncrement xIncrement boxInRow|
 	
-	boxInRow := (self totalSimpleColorChooser /  2).
+	boxInRow := (self totalSimpleColorChooser / 2).
 	yIncrement := self calculateOffsetFor: 2 boxesWith: self height.
 	yOffset := yIncrement.
 	

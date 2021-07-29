@@ -10,4 +10,5 @@ testParseEmphNested1
 	emphBold children add: (MarkdownString newFrom: 'hello' startingAt: 4).
 	emph children add: emphBold.
 	expectedOutput := MarkdownLinkedList newFrom: {emph}.
+	
 	self assert: expectedOutput equals: output

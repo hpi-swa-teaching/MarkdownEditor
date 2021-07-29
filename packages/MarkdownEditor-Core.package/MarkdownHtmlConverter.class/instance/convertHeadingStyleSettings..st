@@ -8,5 +8,4 @@ convertHeadingStyleSettings: aStyleSettings
 			font-size: ', (aStyleSettings fontSizes at: label), 'px;
 			color: ', (self convertColorToRGBA: (aStyleSettings fontColors at: label)), '; 
 		}', Character cr].
-	
 	^ heading

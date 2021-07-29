@@ -1,4 +1,4 @@
 accessing
 totalLength
 
-	^ self autolinkPath size + 2
+	^ self path size + 2

@@ -36,5 +36,3 @@ styleSettingsForHtmlTests
 	styleSettings fontSizes at: 'Unord. List 2' put: 12.
 	styleSettings fontSizes at: 'Unord. List 3+' put: 10.
 	^ styleSettings
-	
-	

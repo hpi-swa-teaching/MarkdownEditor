@@ -1,4 +1,4 @@
 styling
 extractString
 
-	^ self autolinkPath
+	^ self path

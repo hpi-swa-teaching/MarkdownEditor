@@ -1,4 +1,4 @@
 styling
 textAttributes
 
-	^ {MarkdownClickableAttribute newFrom: self autolinkPath. TextEmphasis underlined}
+	^ {MarkdownClickableAttribute newFrom: self path. TextEmphasis underlined}

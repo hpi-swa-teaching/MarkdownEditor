@@ -2,7 +2,6 @@ running
 styleSettingsForHtmlTests
 
 	| styleSettings |
-	
 	styleSettings := MarkdownStyleSettings default.
 	styleSettings fontColors
 		at: 'Blockquote' put: Color blue;

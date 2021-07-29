@@ -1,5 +1,5 @@
 yellowButtonMenu
-addMenuItemsMuliSelectionTo: aMenu
+addMenuItemsMultiSelectionTo: aMenu
 
 	^ self
 		addInlineItemsTo: aMenu;

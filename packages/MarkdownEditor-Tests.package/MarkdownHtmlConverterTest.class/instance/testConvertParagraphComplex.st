@@ -7,4 +7,4 @@ testConvertParagraphComplex
 	expectedOutput := 
 		self fullHtmlDocumentFrom: '<p>nothing <em>italic</em> <strong>bold</strong> <strong>bold<em>bold-and-italic</em></strong></p>'.
 	
-	self assert: expectedOutput equals: output.
+	self assert: expectedOutput equals: output

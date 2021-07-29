@@ -8,4 +8,5 @@ testApplyHeading
 	editor markdownText: prefix, content, suffix.
 	editor textMorph selectAll.
 	editor markdownMenu applyHeadingAt: 1.
+	
 	self assert: ('# ', content, Character cr) asText equals: editor textMorph text

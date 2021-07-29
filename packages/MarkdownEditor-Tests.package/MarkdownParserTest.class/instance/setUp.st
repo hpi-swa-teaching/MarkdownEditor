@@ -1,5 +1,4 @@
 running
 setUp
 
-	parser := MarkdownParser new.
-	parsingState := parser state
+	parser := MarkdownParser new

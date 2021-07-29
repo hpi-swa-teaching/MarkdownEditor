@@ -1,8 +1,7 @@
 tests - lineAdding
 testInvalidClosingFence
 
-	| testList testBlock cr |
-	cr := Character cr.
+	| testList testBlock |
 	testBlock := (MarkdownFencedCodeBlock new)
 		openingFence: '````';
 		indentation: 0;
