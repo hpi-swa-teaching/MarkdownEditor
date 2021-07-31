@@ -6,5 +6,5 @@ findAndReplaceAll
 	self pluggableTextMorph findReplace. "Opens UI that requests Input"
 	continue := true.
 	[continue] whileTrue: [
-		continue := self pluggableTextMorph handleEdit: [self pluggableTextMorph textMorph editor again]]
+		continue := self pluggableTextMorph handleEdit: [self textMorph editor again]]
 	

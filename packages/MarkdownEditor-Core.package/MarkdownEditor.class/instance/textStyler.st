@@ -1,4 +1,4 @@
 accessing
 textStyler
 
-	^ self textMorph styler
+	^ self pluggableTextMorph styler

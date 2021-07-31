@@ -2,7 +2,7 @@ text interaction
 applyHeadingAt: aLevel
 
 	| selection matcher prefix content |
-	selection := self pluggableTextMorph textMorph selection.
+	selection := self textMorph selection.
 	matcher := RxMatcher forString: '(#*)(\s*)(\S.*\S|\S)(\s*)'.
 	(matcher matches: selection) ifFalse: [^ nil].
 	

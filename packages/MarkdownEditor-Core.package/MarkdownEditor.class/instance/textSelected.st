@@ -1,4 +1,4 @@
 text interaction
 textSelected
 
-	^ (self textMorph textMorph selection = '') not
+	^ self textMorph selection notEmpty

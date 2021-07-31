@@ -5,7 +5,7 @@ buildWith: aBuilder
 	windowSpec := self buildWindowWith: aBuilder specs: (self overallSpecFor: aBuilder).
 	windowSpec name: #windowMorph.
 	window := aBuilder build: windowSpec.
-	self textMorph: (aBuilder widgetAt: #textMorph).
+	self pluggableTextMorph: (aBuilder widgetAt: #textMorph).
 	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
 	self registerSettings;
 		configureCloseButton.
