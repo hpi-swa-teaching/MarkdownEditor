@@ -5,8 +5,7 @@ buildWith: aBuilder
 	windowSpec := self buildWindowWith: aBuilder specs: (self overallSpecFor: aBuilder).
 	windowSpec name: #windowMorph.
 	window := aBuilder build: windowSpec.
-	self contentMorph: (aBuilder widgetAt: #content ifAbsent: []).
-	self window: (aBuilder widgetAt: #windowMorph ifAbsent: []).
+	
+	self setPropertiesOfSettingsFrom: aBuilder.
 	self configureCloseButton.
-	self showStylerMorphsFor: 'General'.
 	^ window

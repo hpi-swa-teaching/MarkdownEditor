@@ -3,19 +3,19 @@ menuBarContentSpecFor: aBuilder
 			
 	^ {aBuilder pluggableButtonSpec new
 			label: 'General';
-			model: self;
+			model: self settings;
 			enabled: true;
-			action: [self showStylerMorphsFor: 'General'];
+			action: [self settings showStylerMorphsFor: 'General'];
 			yourself.
 		aBuilder pluggableButtonSpec new
 			label: 'Headings';
-			model: self;
+			model: self settings;
 			enabled: true;
-			action: [self showStylerMorphsFor: 'Headings'];
+			action: [self settings showStylerMorphsFor: 'Headings'];
 			yourself.
 		aBuilder pluggableButtonSpec new
 			label: 'Lists';
-			model: self;
+			model: self settings;
 			enabled: true;
-			action: [self showStylerMorphsFor: 'Lists'];
+			action: [self settings showStylerMorphsFor: 'Lists'];
 			yourself}
