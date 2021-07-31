@@ -1,5 +1,5 @@
-event handling
-change: aStyleSettings
+update
+change
 
 	self editors
 		do: [:editor | editor saveTextInModel]

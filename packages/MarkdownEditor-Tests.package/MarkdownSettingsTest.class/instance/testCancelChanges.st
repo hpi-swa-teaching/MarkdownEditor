@@ -8,7 +8,7 @@ testCancelChanges
 	originalTextColor := self colorOfFirstCharInText.
 	
 	settings newStyleSettings fontColors at: 'Paragraph' put: originalTextColor negated.
-	settings change: settings newStyleSettings.
+	settings change.
 	newRuns := (text addAttribute: (TextColor color: originalTextColor negated)) runs.
 	
 	self assert: originalTextColor negated equals: self colorOfFirstCharInText.
