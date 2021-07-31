@@ -5,7 +5,6 @@ setUp
 	sampleDocument := self configureSampleDocument.
 	editorWindow := MarkdownEditor open.
 	editor := editorWindow model.
-	editor textMorph changeText: 'hello' asText.
-	"editor textStyler document: sampleDocument."
+	editor textMorph changeText: self defaultText.
 	outlineWindow := MarkdownOutlineView openFor: editor.
 	outlineModel := outlineWindow model
