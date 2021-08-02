@@ -1,0 +1,4 @@
+applying
+notAcceptsBlankLine
+	
+	^ true

@@ -6,7 +6,8 @@ styleLeafBlockWith: aMarkdownLeaf
 			inlineText := self styleInlinesOf: aMarkdownLeaf.
 			self copyAttributesFrom: inlineText 
 				from: aMarkdownLeaf innerStartPosition 
-				to: aMarkdownLeaf endPosition].
+				to: aMarkdownLeaf endPosition
+				with: false].
 	self text 
 		addAllAttributes: (aMarkdownLeaf textAttributes)
 		from: (aMarkdownLeaf startPosition)

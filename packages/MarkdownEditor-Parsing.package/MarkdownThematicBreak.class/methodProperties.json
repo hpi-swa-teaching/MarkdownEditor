@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"createNew:" : "mf 7/4/2021 14:39",
-		"labels" : "jh 7/1/2021 11:00" },
+		"createNew:" : "jh 8/1/2021 17:24",
+		"labels" : "jh 7/1/2021 11:00",
+		"newFrom:" : "jh 8/1/2021 17:24",
+		"thematicBreakRegExMatcher" : "jh 8/1/2021 17:23" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:40",
 		"continue:" : "mf 7/4/2021 14:40",

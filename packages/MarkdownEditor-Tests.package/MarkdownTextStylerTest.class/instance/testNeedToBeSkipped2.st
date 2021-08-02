@@ -2,4 +2,4 @@ tests - helper
 testNeedToBeSkipped2
 
 	textStyler text: '    ' asText.
-	self assert: true equals: (textStyler isCharSkippableAt: 1)
+	self assert: false equals: (textStyler isCharNotSkippableAt: 1)

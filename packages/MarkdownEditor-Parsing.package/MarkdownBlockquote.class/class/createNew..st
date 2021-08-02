@@ -2,12 +2,8 @@ instance creation
 createNew: aParsingState
 	
 	| matcher |
-	matcher := RxMatcher forString: '\s{0,3}>\s?(.*)'.
+	matcher := self blockquoteRegExMatcher.
 	(matcher matches: aParsingState currentLine)
-		ifTrue: [aParsingState newBlock: 
-				(self new
-					startPosition: aParsingState charPos;
-					yourself).
-				aParsingState newBlock innerLine: (matcher subexpressions: 2) first.
+		ifTrue: [aParsingState newBlock: (self newFrom: matcher and: aParsingState).
 				^ 1].
 	^ 0

@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"createNew:" : "mf 7/28/2021 22:36",
+		"blockquoteRegExMatcher" : "jh 8/1/2021 17:26",
+		"createNew:" : "jh 8/1/2021 17:28",
 		"defaultFontColors" : "jh 7/1/2021 10:38",
 		"defaultFontSizes" : "jh 7/1/2021 10:35",
-		"labels" : "jh 7/1/2021 10:34" },
+		"labels" : "jh 7/1/2021 10:34",
+		"newFrom:and:" : "jh 8/1/2021 17:28" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:05",
 		"canContain:" : "mf 7/4/2021 14:05",

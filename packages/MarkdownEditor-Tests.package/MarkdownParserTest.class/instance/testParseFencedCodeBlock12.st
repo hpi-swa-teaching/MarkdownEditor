@@ -10,7 +10,7 @@ testParseFencedCodeBlock12
 		startPosition: 1;
 		endPosition: 14;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
-	str := MarkdownString newFrom: '```', Character cr, 'aaa' startingAt: 7.
+	str := MarkdownString newFrom: '', Character cr, '```', Character cr, 'aaa' startingAt: 7.
 	fencedCodeBlock
 		beClosed;
 		container: document;
@@ -18,7 +18,7 @@ testParseFencedCodeBlock12
 		endPosition: 14;
 		innerLine: Character cr asString;
 		innerStartPosition: 7;
-		content: '```', Character cr, 'aaa';
+		content: '', Character cr, '```', Character cr, 'aaa';
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		indentation: 0;
 		info: '';

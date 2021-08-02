@@ -10,7 +10,7 @@ testParseFencedCodeBlock24
 		startPosition: 1;
 		endPosition: 16;
 		children: (OrderedCollection newFrom: {fencedCodeBlock}).
-	str := MarkdownString newFrom: '  ', Character cr startingAt: 10.
+	str := MarkdownString newFrom: '', Character cr, '  ', Character cr startingAt: 10.
 	fencedCodeBlock 
 		beClosed;
 		container: document;
@@ -18,7 +18,7 @@ testParseFencedCodeBlock24
 		endPosition: 16;
 		innerLine: 'shell', Character cr;
 		innerStartPosition: 10;
-		content: '  ', Character cr;
+		content: '', Character cr, '  ', Character cr;
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		indentation: 0;
 		info: 'shell';

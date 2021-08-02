@@ -1,15 +1,15 @@
 helper
-isCharSkippableAt: anIndex
+isCharNotSkippableAt: anIndex
 
 	| line indexInLine |
 	((self text at: anIndex) = Character cr or: [(self text at: anIndex) = Character tab])
-		ifTrue: [^ false].
-	(self text at: anIndex) isSeparator
-		ifFalse: [^ false].
-	self text asString isAllSeparators
 		ifTrue: [^ true].
+	(self text at: anIndex) isSeparator
+		ifFalse: [^ true].
+	self text asString isAllSeparators
+		ifTrue: [^ false].
 	
 	line := self text asString lineCorrespondingToIndex: anIndex.
 	indexInLine := self relativeIndexInLineCorrespondingTo: anIndex.
-	^ ((line first: indexInLine) isAllSeparators) 
-		or: [(line allButFirst: indexInLine) isAllSeparators]
+	^ (((line first: indexInLine) isAllSeparators) 
+		or: [(line allButFirst: indexInLine) isAllSeparators]) not
