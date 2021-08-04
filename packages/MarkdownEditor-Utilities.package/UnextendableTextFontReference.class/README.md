@@ -1,1 +1,3 @@
-I am a TextFontReference but I am not extendable. Therefore I do not cause glitches when being used in environments with different font sizes.
+An UnextendableTextFontReference is a TextFontReference but it is not extendable. Therefore it does not cause glitches when being used in environments with different font sizes.
+
+Instance Variables

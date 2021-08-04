@@ -1,4 +1,4 @@
 accessing
-currentCloser: anEmphasisCloser
+currentCloser: anEmphasisDelimiter
 
-	currentCloser := anEmphasisCloser
+	currentCloser := anEmphasisDelimiter

@@ -1,0 +1,3 @@
+A TextUtil is a helper class for text operations that are still missing in Squeak.
+
+Instance Variables

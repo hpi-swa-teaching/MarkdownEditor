@@ -1,4 +1,4 @@
 accessing
-children: anOrderedCollection
+children: aMarkdownLinkedList
 
-	children := anOrderedCollection
+	children := aMarkdownLinkedList

@@ -1,9 +1,9 @@
 testLoop
 testList: anOrderedCollection onBlock: aMarkdownBlock
 	
-	anOrderedCollection do: [:testTupel || state |
+	anOrderedCollection do: [:aTestTupel || state |
 		state := (MarkdownParsingState new)
-			currentLine: testTupel first;
+			currentLine: aTestTupel first;
 			charPos: 0;
 			yourself.
-		self assert: testTupel second equals: (aMarkdownBlock continue: state)]
+		self assert: aTestTupel second equals: (aMarkdownBlock continue: state)]

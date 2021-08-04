@@ -1,4 +1,4 @@
-A MarkdownColorChooser is a Tool for choosing colors. If you want to be informed when color changes become a dependent
+A MarkdownColorChooser is a tool for choosing colors.
 
 Instance Variables
 	advancedColorPicker:		<aColorPickerMorph>
