@@ -4,13 +4,14 @@
 	"instance" : {
 		"applyBarContentSpecFor:" : "jh 7/31/2021 09:51",
 		"applyBarSpecFor:" : "jh 7/28/2021 15:53",
-		"buildWith:" : "jh 7/31/2021 11:23",
-		"configureCloseButton" : "jh 7/31/2021 09:58",
+		"buildWith:" : "JE 8/4/2021 14:41",
+		"configureCloseButton" : "JE 8/4/2021 14:59",
 		"contentSpecFor:" : "jh 7/31/2021 09:55",
-		"menuBarContentSpecFor:" : "jh 7/31/2021 09:54",
+		"menuBarContentSpecFor:" : "JE 8/4/2021 14:45",
 		"menuBarHeight" : "JE 5/31/2021 19:38",
+		"menuBarItemFor:called:" : "JE 8/4/2021 14:44",
 		"menuBarSpecFor:" : "jh 7/28/2021 15:53",
-		"overallSpecFor:" : "jh 7/28/2021 15:51",
+		"overallSpecFor:" : "JE 8/4/2021 14:46",
 		"setPropertiesOfSettingsFrom:" : "jh 7/31/2021 11:22",
 		"settings" : "jh 7/31/2021 11:38",
 		"settings:" : "jh 7/31/2021 11:38" } }

@@ -1,4 +1,4 @@
-formatting
+private
 privateFormat: aText
 
 	^ aText

@@ -1,8 +1,7 @@
-building
+toolbuilder
 configureCloseButton
 
 	| box |
-	
 	self window deleteCloseBox.
 	box := (self window createBox: SystemWindow closeBoxImage)
 			setBalloonText: 'close this window' translated.

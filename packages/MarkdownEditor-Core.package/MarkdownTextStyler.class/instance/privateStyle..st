@@ -1,4 +1,4 @@
-styling
+private
 privateStyle: aText
 
 	self document: (MarkdownParser new parse: aText string).

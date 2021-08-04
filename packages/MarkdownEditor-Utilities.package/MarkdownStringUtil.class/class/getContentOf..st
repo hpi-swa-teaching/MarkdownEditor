@@ -1,4 +1,4 @@
-open / save
+reading
 getContentOf: aStream
 
 	| contents |

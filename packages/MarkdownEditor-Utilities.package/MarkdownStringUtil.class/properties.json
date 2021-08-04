@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "hsl 7/8/2020 11:07",
 	"instvars" : [
 		 ],
-	"name" : "TextUtil",
+	"name" : "MarkdownStringUtil",
 	"pools" : [
 		 ],
 	"super" : "Object",

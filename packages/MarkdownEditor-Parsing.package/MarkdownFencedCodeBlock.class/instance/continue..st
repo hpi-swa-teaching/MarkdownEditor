@@ -9,7 +9,7 @@ continue: aParsingState
 					aParsingState tip: self container.
 					^ 2]
 			ifFalse: [aParsingState reduceCurrentLineTo: 
-						(StringUtil 
+						(MarkdownStringUtil 
 							remove: self indentation 
 							LeadingSpacesFrom: aParsingState currentLine).
 					^ 0]

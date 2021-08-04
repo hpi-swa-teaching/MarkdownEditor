@@ -1,4 +1,4 @@
-constants
+toolbuilder
 windowTitle
 
 	^ 'Content Viewer'

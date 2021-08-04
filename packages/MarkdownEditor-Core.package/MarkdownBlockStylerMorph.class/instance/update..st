@@ -1,4 +1,4 @@
-changing
+updating
 update: aColor
 
 	self styleSettings fontColors at: self classLabel text put: aColor.
