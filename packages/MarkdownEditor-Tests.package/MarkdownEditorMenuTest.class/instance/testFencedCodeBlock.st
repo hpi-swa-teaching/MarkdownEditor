@@ -3,7 +3,7 @@ testFencedCodeBlock
 
 	| content |
 	content := 'first line', Character cr, 'second line'.
-	editor textMorph changeText: content asText.
-	editor textMorph selectAll.
+	editor pluggableTextMorph changeText: content asText.
+	editor pluggableTextMorph selectAll.
 	editor markdownMenu applyFencedCodeBlock.
-	self assert: ('```', Character cr, content, Character cr, '```') asText equals: editor textMorph text
+	self assert: ('```', Character cr, content, Character cr, '```') asText equals: editor pluggableTextMorph text

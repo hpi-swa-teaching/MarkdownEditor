@@ -1,4 +1,4 @@
 accessing
-mime: anObject
+mime: aMimeDocument
 
-	mime := anObject
+	mime := aMimeDocument

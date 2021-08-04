@@ -6,7 +6,7 @@ testApplyInlineSingleCharacter
 	suffix := '  '.
 	content := 'A'.
 	editor markdownText: prefix, content, suffix.
-	editor textMorph selectAll.
+	editor pluggableTextMorph selectAll.
 	editor markdownMenu applyInlineOnSelectionWith: '*'.
 	
-	self assert: (prefix, '*', content, '*', suffix) asText equals: editor textMorph text
+	self assert: (prefix, '*', content, '*', suffix) asText equals: editor pluggableTextMorph text

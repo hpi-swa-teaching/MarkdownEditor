@@ -4,8 +4,8 @@ testSelectionMenuIsDifferent
 	| normalMenu singleSelectionMenu |
 	normalMenu := editor yellowButtonMenu: MenuMorph new.
 	editor markdownText: 'Hello World'.
-	editor textMorph selectAll.
+	editor pluggableTextMorph selectAll.
 	singleSelectionMenu := editor yellowButtonMenu: MenuMorph new.
 	
-	self assert: [(normalMenu items literalEqual: singleSelectionMenu items) not]
+	self assert: [(self itemsIn: normalMenu items equal: singleSelectionMenu items) not]
 	

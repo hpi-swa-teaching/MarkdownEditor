@@ -6,6 +6,6 @@ testApplyInlineEmptyCharacter
 	suffix := '  '.
 	content := ''.
 	editor markdownText: prefix, content, suffix.
-	editor textMorph selectAll.
+	editor pluggableTextMorph selectAll.
 	editor applyItalic.
-	self assert: (prefix, content, suffix) asText equals: editor textMorph text
+	self assert: (prefix, content, suffix) asText equals: editor pluggableTextMorph text
