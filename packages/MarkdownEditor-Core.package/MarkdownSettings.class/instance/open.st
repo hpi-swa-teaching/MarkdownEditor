@@ -1,6 +1,6 @@
 event handling
 open
 
-	self change: self currentStyleSettings.
+	self change.
 	self ifWindowNotPresent: [MarkdownSettingsBuilder openFor: self].
 	^ self window
