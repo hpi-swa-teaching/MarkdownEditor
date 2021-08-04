@@ -1,0 +1,4 @@
+applying
+acceptsLines
+	
+	^ self subclassResponsibility

@@ -1,0 +1,4 @@
+accessing
+isPotentialOpener
+
+	^ potentialOpener

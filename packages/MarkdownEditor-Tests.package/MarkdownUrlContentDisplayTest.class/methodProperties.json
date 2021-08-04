@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"imageMock" : "LL 5/19/2021 16:25",
-		"setUp" : "C.H. 5/28/2021 11:45",
+		"setUp" : "mf 7/1/2021 14:11",
 		"tearDown" : "C.H. 5/28/2021 11:45",
-		"testApplyTheme" : "jh 5/31/2021 17:26",
-		"testChangeTheme" : "mf 5/29/2021 20:06",
+		"testApplyTheme" : "mf 7/29/2021 00:28",
+		"testChangeTheme" : "mf 7/1/2021 14:11",
 		"testLoadBasis" : "LL 5/19/2021 16:00",
 		"testLoadImage" : "LL 5/19/2021 16:31",
 		"testLoadText1" : "LL 5/19/2021 15:59",

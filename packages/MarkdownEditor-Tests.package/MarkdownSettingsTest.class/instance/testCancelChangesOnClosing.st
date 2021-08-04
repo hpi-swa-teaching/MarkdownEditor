@@ -1,29 +1,19 @@
-tests
+tests - apply cancel
 testCancelChangesOnClosing
 
-	| paragraphBlock styleSettings oldStyleSettings|
+	| expectedRuns originalTextColor newRuns text closeBox |
+	editor pluggableTextMorph changeText: 'hello' asText.
+	expectedRuns := editor textStyler text runs.
+	text := editor pluggableTextMorph text deepCopy.
+	originalTextColor := self colorOfFirstCharInText.
 	
-	oldStyleSettings := settings currentStyleSettings.
-		
-	(self blockStylerOf: settings for: 'Paragraph') handleSliderChangeTo: 17.
-	(self blockStylerOf: settings for: 'Paragraph') fontColorPicker adjustTo: Color green.
+	settings newStyleSettings fontColors at: 'Paragraph' put: originalTextColor negated.
+	settings change.
+	newRuns := (text addAttribute: (TextColor color: originalTextColor negated)) runs.
 	
-	styleSettings := editor blockTextStyler styleSettings.
+	self assert: originalTextColor negated equals: self colorOfFirstCharInText.
+	self assert: newRuns equals: editor pluggableTextMorph text runs.
 	
-	paragraphBlock := MarkdownParagraph 
-		newFrom: (MarkdownLine newFrom: 'i like', Character cr with: styleSettings).
-	paragraphBlock append: (MarkdownLine newFrom: 'patterns' with: styleSettings).
-	self 
-		assertRuns: {20}
-		values: {{TextColor color: Color green. self fontSized: 17}}
-		areStyleOf: paragraphBlock asText.
-
-	MarkdownSettings close.
-	styleSettings := editor blockTextStyler styleSettings.
-	paragraphBlock styleSettings: styleSettings. "not needed in project because of block text styler"
-	
-	 self 
-		assertRuns: {20}
-		values: {{TextColor color: (oldStyleSettings fontColors at: 'Paragraph'). 
-					self fontSized: (oldStyleSettings fontSizes at: 'Paragraph')}}
-		areStyleOf: paragraphBlock asText.
+	closeBox := self closeBoxOfSettings.
+	closeBox doButtonAction.
+	self assert: expectedRuns equals: (editor textStyler text runs)

@@ -1,6 +1,6 @@
 running
 tearDown
 
-	settings close.
+	settings closeMarkdownOptions.
 	window delete.
-	MarkdownSettings UniqueInstance currentStyleSettings: originalSettings.
+	MarkdownSettings currentStyleSettings: originalSettings

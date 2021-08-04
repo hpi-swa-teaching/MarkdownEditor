@@ -10,6 +10,6 @@ testChangeTheme
 	theme1 applyTo: display asOrderedCollection.
 	theme2 applyTo: display asOrderedCollection.
 	
-	self assert: display showContent first color = MarkdownStyleSettings themeFontColor.
+	self assert: display showContent first color = MarkdownStyleSettings themeFontColor
 	
 	

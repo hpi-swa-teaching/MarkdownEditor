@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testContinueDefault" : "jh 7/23/2021 09:37",
+		"testContinueEmptyLine" : "jh 7/23/2021 09:37",
+		"testDefault" : "mf 7/1/2021 14:10",
+		"testEmpty" : "mf 7/1/2021 14:10",
+		"testIndention" : "mf 7/1/2021 14:10",
+		"testInvalid" : "mf 7/1/2021 14:10",
+		"testInvalidIndention" : "jh 7/23/2021 09:37",
+		"testList:" : "jh 7/23/2021 09:37",
+		"testList:onBlock:" : "LL 7/12/2021 22:50" } }

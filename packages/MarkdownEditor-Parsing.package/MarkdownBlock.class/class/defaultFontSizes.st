@@ -1,0 +1,4 @@
+accessing
+defaultFontSizes
+
+	^ self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editor" ],
+	"name" : "MarkdownOutlineView",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

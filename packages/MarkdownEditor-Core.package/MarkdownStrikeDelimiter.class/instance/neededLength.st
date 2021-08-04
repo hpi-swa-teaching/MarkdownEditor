@@ -1,4 +1,0 @@
-constants
-neededLength
-
-	^ 2

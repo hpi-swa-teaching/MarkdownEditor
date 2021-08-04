@@ -1,4 +1,4 @@
-test - open / close
+tests - open / close
 testSaveAndOpen
 
 	| file content |
@@ -12,4 +12,5 @@ testSaveAndOpen
 	editor := MarkdownEditor new.
 	window := toolbuilder open: editor.
 	editor openStream: file.
+	
 	self assert: (editor markdownText) equals: content

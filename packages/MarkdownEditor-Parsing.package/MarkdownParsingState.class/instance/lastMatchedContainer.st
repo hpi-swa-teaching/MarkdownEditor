@@ -1,0 +1,4 @@
+accessing
+lastMatchedContainer
+
+	^ lastMatchedContainer

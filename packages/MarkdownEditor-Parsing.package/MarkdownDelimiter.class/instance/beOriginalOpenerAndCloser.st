@@ -1,0 +1,4 @@
+accessing
+beOriginalOpenerAndCloser
+
+    originalOpenerAndCloser := true

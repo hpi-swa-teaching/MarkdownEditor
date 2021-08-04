@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"blockquoteRegExMatcher" : "jh 8/1/2021 17:26",
+		"createNew:" : "jh 8/1/2021 17:28",
+		"defaultFontColors" : "jh 7/1/2021 10:38",
+		"defaultFontSizes" : "jh 7/1/2021 10:35",
+		"labels" : "jh 7/1/2021 10:34",
+		"newFrom:and:" : "jh 8/1/2021 17:28" },
+	"instance" : {
+		"acceptsLines" : "mf 7/4/2021 14:05",
+		"canContain:" : "mf 7/4/2021 14:05",
+		"continue:" : "mf 7/28/2021 22:35",
+		"fontSize" : "jh 6/29/2021 20:17",
+		"htmlClosingTag" : "jh 6/25/2021 17:52",
+		"htmlOpeningTag" : "jh 7/8/2021 14:24",
+		"textColor" : "jh 6/29/2021 20:19" } }

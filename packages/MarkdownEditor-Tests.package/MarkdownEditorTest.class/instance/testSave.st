@@ -1,4 +1,4 @@
-test - open / close
+tests - open / close
 testSave
 
 	| content file |

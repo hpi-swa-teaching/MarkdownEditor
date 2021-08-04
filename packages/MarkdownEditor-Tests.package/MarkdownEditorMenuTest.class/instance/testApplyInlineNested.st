@@ -4,8 +4,9 @@ testApplyInlineNested
 	| content |
 	content := 'Inline Test Example'.
 	editor markdownText: content.
-	editor textMorph selectAll.
+	editor pluggableTextMorph selectAll.
 	editor markdownMenu applyInlineOnSelectionWith: '*'.
 	editor markdownMenu applyInlineOnSelectionWith: '~~'.
 	editor markdownMenu applyInlineOnSelectionWith: '**'.
-	self assert: ('**~~*', content, '*~~**') asText equals: editor textMorph text
+	
+	self assert: ('**~~*', content, '*~~**') asText equals: editor pluggableTextMorph text

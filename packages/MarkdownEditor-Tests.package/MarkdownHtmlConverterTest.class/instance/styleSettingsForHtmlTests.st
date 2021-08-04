@@ -1,8 +1,7 @@
-tests
+running
 styleSettingsForHtmlTests
 
 	| styleSettings |
-	
 	styleSettings := MarkdownStyleSettings default.
 	styleSettings fontColors
 		at: 'Blockquote' put: Color blue;
@@ -21,5 +20,3 @@ styleSettingsForHtmlTests
 		at: 'Unord. List 2' put: Color black;
 		at: 'Unord. List 3+' put: Color black.
 	^ styleSettings
-	
-	

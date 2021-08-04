@@ -1,0 +1,4 @@
+styling
+textColor
+
+	^ self subclassResponsibility

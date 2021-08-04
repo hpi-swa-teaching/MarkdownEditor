@@ -1,0 +1,4 @@
+constants
+paragraphClass
+
+	^ MarkdownParagraph

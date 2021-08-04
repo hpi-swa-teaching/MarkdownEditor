@@ -1,4 +1,5 @@
 running
 tearDown
 
-	editor handleClose
+	editor handleClose.
+	MarkdownSettings currentStyleSettings: originalStyleSettings

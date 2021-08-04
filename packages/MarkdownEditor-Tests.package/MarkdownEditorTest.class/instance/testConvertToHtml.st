@@ -2,14 +2,14 @@ tests - window
 testConvertToHtml
 
 	| expectedHtml exportView |
-	editor blockTextStyler styleSettings: self styleSettingsForHtmlTests.
-	editor markdownText: 'Hallo'; convertToHTML.
+	editor textStyler privateStyle: 'Hello World' asText.
+	editor convertToHTML.
 	exportView := World submorphs detect: [:morph | morph isKindOf: MarkdownHtmlExportView]. 
 	
 	expectedHtml := '<!DOCTYPE html>
 <html>
 <head>
-	<style>
+<style>
 		h1 {
 			font-size: 34px;
 			color: rgba(0, 0, 0, 1.0); 
@@ -41,7 +41,7 @@ testConvertToHtml
 		}
 
 		p {
-			font-size: 14px;
+			font-size: 12px;
 			color: rgba(0, 0, 0, 1.0); 
 		}
 
@@ -51,7 +51,7 @@ testConvertToHtml
 		}
 
 		code {
-			font-size: 14px;
+			font-size: 12px;
 		}
 
 		ol {
@@ -86,9 +86,9 @@ testConvertToHtml
 </style>
 </head>
 <body>
-<p>Hallo</p>
+<p>Hello World</p>
 </body>
 </html>'.
 	
-	self assert: (exportView submorphs first text) equals: expectedHtml.
+	self assert: expectedHtml equals: (exportView submorphs first text string) .
 	exportView delete

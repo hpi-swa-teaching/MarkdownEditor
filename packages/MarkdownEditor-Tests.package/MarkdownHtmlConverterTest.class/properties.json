@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"htmlConverter" ],
+		"htmlConverter",
+		"oldStyleSettings",
+		"parser",
+		"parsingState" ],
 	"name" : "MarkdownHtmlConverterTest",
 	"pools" : [
 		 ],

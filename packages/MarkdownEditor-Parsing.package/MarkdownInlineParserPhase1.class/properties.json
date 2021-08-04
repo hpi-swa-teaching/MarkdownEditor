@@ -1,0 +1,17 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"currentIndex",
+		"delimiters",
+		"inlineElements",
+		"previousChar" ],
+	"name" : "MarkdownInlineParserPhase1",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

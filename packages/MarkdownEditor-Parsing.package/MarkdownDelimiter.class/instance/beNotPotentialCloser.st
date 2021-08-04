@@ -1,0 +1,4 @@
+accessing
+beNotPotentialCloser
+
+	potentialCloser := false

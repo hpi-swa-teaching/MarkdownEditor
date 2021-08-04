@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"imageMock" : "LL 7/29/2021 18:23",
+		"setUp" : "JE 7/31/2021 12:02",
+		"testIsActingOnClick" : "LL 7/29/2021 18:21",
+		"testShowOn" : "LL 7/29/2021 18:34",
+		"testcreateTextAnchorWithMaxExtent" : "LL 7/29/2021 18:39" } }

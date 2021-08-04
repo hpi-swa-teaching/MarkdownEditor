@@ -1,4 +1,0 @@
-testing
-mayBeginWith: aCharacter
-
-	^ aCharacter = $[

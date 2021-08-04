@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mf 7/29/2021 01:40",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownLinkedList",
+	"pools" : [
+		 ],
+	"super" : "LinkedList",
+	"type" : "normal" }

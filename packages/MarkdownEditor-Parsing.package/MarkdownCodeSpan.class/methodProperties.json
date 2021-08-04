@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"newFrom:fenceLength:" : "jh 7/28/2021 16:08" },
+	"instance" : {
+		"=" : "jh 7/28/2021 16:06",
+		"applyStylingWith:" : "mf 7/29/2021 01:17",
+		"code" : "jh 7/28/2021 16:06",
+		"code:" : "jh 7/28/2021 16:07",
+		"convertWith:" : "jh 7/28/2021 16:06",
+		"extractString" : "jh 7/28/2021 16:24",
+		"fenceLength" : "jh 7/26/2021 10:51",
+		"fenceLength:" : "jh 7/26/2021 10:51",
+		"handleWhiteSpaces" : "jh 7/28/2021 16:08",
+		"hash" : "jh 7/28/2021 16:07",
+		"htmlClosingTag" : "jh 7/11/2021 20:11",
+		"htmlOpeningTag" : "jh 7/11/2021 20:11",
+		"lastChar" : "jh 7/11/2021 11:26",
+		"rawContent" : "jh 7/13/2021 15:37",
+		"rawContent:" : "jh 7/13/2021 15:37",
+		"textAttributes" : "jh 7/28/2021 16:33",
+		"totalLength" : "jh 7/13/2021 18:45",
+		"treeRepresentation" : "jh 7/28/2021 16:07" } }

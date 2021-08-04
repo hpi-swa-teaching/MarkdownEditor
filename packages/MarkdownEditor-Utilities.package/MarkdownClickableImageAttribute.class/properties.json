@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"text" ],
+	"name" : "MarkdownClickableImageAttribute",
+	"pools" : [
+		 ],
+	"super" : "MarkdownClickableAttribute",
+	"type" : "normal" }

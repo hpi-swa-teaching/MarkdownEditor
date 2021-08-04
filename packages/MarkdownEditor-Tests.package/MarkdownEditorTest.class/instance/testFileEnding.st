@@ -1,4 +1,4 @@
-test - open / close
+tests - open / close
 testFileEnding
 
 	self assert: 'md' equals: editor fileEnding.

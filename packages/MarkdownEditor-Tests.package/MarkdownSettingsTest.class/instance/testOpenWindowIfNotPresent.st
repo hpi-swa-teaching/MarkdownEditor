@@ -1,4 +1,4 @@
-tests
+tests - open close
 testOpenWindowIfNotPresent
 
 	| settingsWindow | 
@@ -9,5 +9,4 @@ testOpenWindowIfNotPresent
 	
 	settings ifWindowNotPresent: [MarkdownSettings open].
 	settingsWindow := 	settings window.
-	self assert: (World submorphs includes: settingsWindow).
-	
+	self assert: (World submorphs includes: settingsWindow)

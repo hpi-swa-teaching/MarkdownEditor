@@ -3,7 +3,7 @@ testTextPersistenceForBlockStyling
 
 	| textMorph |
 	textMorph := toolbuilder build: (MarkdownEditor new
-		buildEditorTextMorphWith: toolbuilder).
+		editorTextMorphSpecFor: toolbuilder).
 	textMorph
 		replaceSelectionWith: 'I like trains.';
 		accept.

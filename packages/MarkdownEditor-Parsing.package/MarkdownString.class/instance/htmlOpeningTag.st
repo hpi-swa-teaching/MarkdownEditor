@@ -1,0 +1,4 @@
+html
+htmlOpeningTag
+	
+	^ self shouldNotImplement

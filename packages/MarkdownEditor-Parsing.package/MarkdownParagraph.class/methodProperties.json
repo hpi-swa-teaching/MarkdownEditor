@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"labels" : "jh 7/1/2021 10:40" },
+	"instance" : {
+		"acceptsLines" : "mf 7/4/2021 14:37",
+		"addLine:" : "jh 7/24/2021 17:56",
+		"continue:" : "mf 7/4/2021 14:38",
+		"finalize:" : "jh 7/25/2021 20:42",
+		"fontSize" : "jh 6/29/2021 16:48",
+		"htmlClosingTag" : "jh 6/25/2021 08:46",
+		"htmlOpeningTag" : "jh 6/25/2021 08:18",
+		"textColor" : "jh 6/29/2021 16:48" } }
