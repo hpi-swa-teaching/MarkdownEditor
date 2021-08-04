@@ -21,7 +21,6 @@
 		"testNoBrainClass" : "mas 6/19/2020 21:44",
 		"testNoComplexMethods" : "MK 6/19/2020 19:23",
 		"testNoContainsAReturnInAnEnsureBlock" : "MK 7/3/2020 22:34",
-		"testNoDataClass" : "mas 6/19/2020 21:43",
 		"testNoDebuggingCodeLeftInMethods" : "MK 7/3/2020 22:15",
 		"testNoDoesntUseTheResultOfAYourselfMessage" : "MK 7/3/2020 21:51",
 		"testNoEmptyExceptionHandler" : "MK 7/3/2020 22:35",
