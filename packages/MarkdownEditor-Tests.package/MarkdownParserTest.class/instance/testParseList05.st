@@ -1,5 +1,5 @@
 tests - lists
-testParseList5
+testParseList05
 
 	| output document list listItem paragraph listItem2 listItem3 paragraph3 |
 	output := parser parse: '1. foo

@@ -1,6 +1,6 @@
 tests - lists
 testListItemSpaces3
-"i dont get why this is failing"
+
 	| document list output blockquote listItem paragraph paragraph2 blockquote2 |
 	output := parser parse: '   > > 1.  one', Character cr, '>>', Character cr, '>>     two'.
 	list := MarkdownList new.

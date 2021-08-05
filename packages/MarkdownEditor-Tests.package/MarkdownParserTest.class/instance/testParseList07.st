@@ -1,9 +1,9 @@
 tests - lists
-testParseList8
+testParseList07
 
 	| output document list listItem paragraph blockquote blockquote2 |
 	output := parser parse: '> 1. > Blockquote
-> continued here.'.
+continued here.'.
 	list := MarkdownList new.
 	listItem := MarkdownListItem new.
 	blockquote := MarkdownBlockquote new.
@@ -11,13 +11,13 @@ testParseList8
 	paragraph := MarkdownParagraph new.
 	document := MarkdownDocument new
 		startPosition: 1;
-		endPosition: 35;
+		endPosition: 33;
 		beClosed;
 		children: (OrderedCollection newFrom: {blockquote});
 		yourself.
 	blockquote
 		startPosition: 1;
-		endPosition: 35;
+		endPosition: 33;
 		beClosed;
 		innerStartPosition: 3;
 		innerLine: '1. > Blockquote', Character cr;
@@ -25,7 +25,7 @@ testParseList8
 	list 
 		container: blockquote;
 		startPosition: 3;
-		endPosition: 35;
+		endPosition: 33;
 		beClosed;
 		children: (OrderedCollection newFrom: {listItem});
 		indentation: 3;
@@ -35,7 +35,7 @@ testParseList8
 	listItem 
 		container: list;
 		startPosition: 3;
-		endPosition: 35;
+		endPosition: 33;
 		innerLine: '> Blockquote', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {blockquote2});
@@ -46,7 +46,7 @@ testParseList8
 	blockquote2
 		container: listItem;
 		startPosition: 6;
-		endPosition: 35;
+		endPosition: 33;
 		innerStartPosition: 8;
 		beClosed;
 		innerLine: 'Blockquote', Character cr;
@@ -54,7 +54,7 @@ testParseList8
 	paragraph 
 		container: blockquote2;
 		startPosition: 8;
-		endPosition: 35;
+		endPosition: 33;
 		innerStartPosition: 8;
 		beClosed;
 		content: 'Blockquote', Character cr, 'continued here.';

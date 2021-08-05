@@ -1,32 +1,26 @@
 tests - lists
-testParseList2
+testParseList04
 
-	| output document list listItem paragraph listItem2 listItem3 paragraph3 code |
-	output := parser parse: '-
-  foo
+	| output document list listItem paragraph listItem2 listItem3 paragraph3 |
+	output := parser parse: '- foo
 -
-  ```
-  bar
-  ```
--
-      baz'.
+- bar'.
 	list := MarkdownList new.
 	listItem := MarkdownListItem new.
 	listItem2 := MarkdownListItem new.
 	listItem3 := MarkdownListItem new.
 	paragraph := MarkdownParagraph new.
 	paragraph3 := MarkdownParagraph new.
-	code := MarkdownFencedCodeBlock new.
 	document := MarkdownDocument new
 		startPosition: 1;
-		endPosition: 39;
+		endPosition: 13;
 		beClosed;
 		children: (OrderedCollection newFrom: {list});
 		yourself.
 	list 
 		container: document;
 		startPosition: 1;
-		endPosition: 39;
+		endPosition: 13;
 		beClosed;
 		children: (OrderedCollection newFrom: {listItem. listItem2. listItem3});
 		indentation: 2;
@@ -35,8 +29,8 @@ testParseList2
 	listItem 
 		container: list;
 		startPosition: 1;
-		endPosition: 8;
-		innerLine: '';
+		endPosition: 6;
+		innerLine: 'foo', Character cr;
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph});
 		beUnordered;
@@ -44,41 +38,27 @@ testParseList2
 		indentation: 2.
 	paragraph 
 		container: listItem;
-		startPosition: 5;
-		endPosition: 8;
-		innerStartPosition: 5;
+		startPosition: 3;
+		endPosition: 6;
+		innerStartPosition: 3;
 		beClosed;
 		content: 'foo';
 		inlineElements: (MarkdownLinkedList newFrom: 
-			{MarkdownString newFrom: 'foo' startingAt: 5}).
-	listItem2 
+			{MarkdownString newFrom: 'foo' startingAt: 3}).
+	listItem2
 		container: list;
-		startPosition: 9;
-		endPosition: 28;
+		startPosition: 7;
+		endPosition: 8;
 		innerLine: '';
 		beClosed;
-		children: (OrderedCollection newFrom: {code});
 		beUnordered;
 		listMarker: '-';
 		indentation: 2.
-	code
-		container: listItem2;
-		startPosition: 13;
-		endPosition: 28;
-		innerStartPosition: 17;
-		innerLine: '', Character cr;
-		beClosed;
-		content: 'bar', Character cr;
-		indentation: 0;
-		info: '';
-		openingFence: '```';
-		inlineElements: (MarkdownLinkedList newFrom: 
-			{MarkdownString newFrom: 'bar', Character cr startingAt: 17}).
 	listItem3
 		container: list;
-		startPosition: 29;
-		endPosition: 39;
-		innerLine: '';
+		startPosition: 9;
+		endPosition: 13;
+		innerLine: 'bar';
 		beClosed;
 		children: (OrderedCollection newFrom: {paragraph3});
 		beUnordered;
@@ -86,12 +66,12 @@ testParseList2
 		indentation: 2.
 	paragraph3
 		container: listItem3;
-		startPosition: 33;
-		endPosition: 39;
-		innerStartPosition: 37;
+		startPosition: 11;
+		endPosition: 13;
+		innerStartPosition: 11;
 		beClosed;
-		content: 'baz';
+		content: 'bar';
 		inlineElements: (MarkdownLinkedList newFrom: 
-			{MarkdownString newFrom: 'baz' startingAt: 37}).
+			{MarkdownString newFrom: 'bar' startingAt: 11}).
 			
 	self assert: document equals: output

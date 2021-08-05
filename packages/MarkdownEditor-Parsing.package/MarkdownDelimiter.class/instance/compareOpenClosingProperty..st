@@ -1,5 +1,5 @@
 comparing
-comparePotentialOpenerAndCloser: anotherDelimiter
+compareOpenClosingProperty: anotherDelimiter
 
 	^ self isPotentialOpener = anotherDelimiter isPotentialOpener
 			and: [
