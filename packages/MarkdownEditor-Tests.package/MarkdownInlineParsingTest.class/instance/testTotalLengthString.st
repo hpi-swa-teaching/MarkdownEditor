@@ -1,4 +1,4 @@
-string
+tests - length
 testTotalLengthString
 
 	| str |

@@ -1,4 +1,4 @@
-autolinks
+tests - length
 testTotalLengthAutolink
 
 	| autolink |

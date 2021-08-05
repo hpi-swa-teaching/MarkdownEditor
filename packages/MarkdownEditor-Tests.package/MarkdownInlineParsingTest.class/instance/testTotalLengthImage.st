@@ -1,4 +1,4 @@
-reference
+tests - length
 testTotalLengthImage
 
 	| image |
