@@ -1,0 +1,1 @@
+A MarkdownLink represents a link after parsing.

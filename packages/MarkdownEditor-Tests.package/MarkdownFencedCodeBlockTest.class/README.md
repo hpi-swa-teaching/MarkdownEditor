@@ -1,0 +1,1 @@
+A MarkdownFencedCodeBlockTest tests fenced code blocks.
