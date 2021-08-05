@@ -18,12 +18,12 @@ foo
     paragraph 
         container: document;
         startPosition: 1;
-        endPosition: 7;
+        endPosition: 6;
         innerStartPosition: 1;
         beClosed;
-        content: 'foo', Character cr, '', Character cr;
+        content: 'foo', Character cr, '*';
         inlineElements: (MarkdownLinkedList newFrom: 
-            {MarkdownString newFrom: 'foo', Character cr, '', Character cr startingAt: 1}).
+            {MarkdownString newFrom: 'foo', Character cr, '*' startingAt: 1}).
     paragraph2 
         container: document;
         startPosition: 8;

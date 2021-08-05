@@ -27,13 +27,13 @@ testParseList9
         endPosition: 29;
         beClosed;
         children: (OrderedCollection newFrom: {listItem. listItem2. listItem3. listItem4});
-        indentation: 2;
+        indentation: 5;
         listMarker: '-';
         beUnordered.
     listItem 
         container: list;
-        startPosition: 3;
-        endPosition: 35;
+        startPosition: 1;
+        endPosition: 6;
         innerLine: 'foo', Character cr;
         beClosed;
         children: (OrderedCollection newFrom: {paragraph});
@@ -51,7 +51,7 @@ testParseList9
     listItem2
         container: list;
         startPosition: 7;
-        endPosition: 35;
+        endPosition: 13;
         innerLine: 'bar', Character cr;
         beClosed;
         children: (OrderedCollection newFrom: {paragraph2});
