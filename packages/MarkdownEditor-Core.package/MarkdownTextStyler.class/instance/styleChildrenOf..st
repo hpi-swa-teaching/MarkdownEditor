@@ -1,5 +1,5 @@
 styling
-styleChildrenFrom: aMarkdownContainer
+styleChildrenOf: aMarkdownContainer
 
 	aMarkdownContainer children 
 		do: [:child | child applyStylingWith: self]
