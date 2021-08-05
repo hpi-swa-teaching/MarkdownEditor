@@ -6,6 +6,8 @@ createNew: aParsingState
 		ifTrue: [^ 0].
 	(listData := self parseWithState: aParsingState)
 		ifNil: [^ 0].
+	aParsingState container class = MarkdownParagraph & ((listData at: #remains) = '')
+		ifTrue: [^ 0].
 	"a list item that follows a Paragraph may only begin with a 1" 
 	aParsingState container class = MarkdownParagraph & (listData at: #isOrdered)
 		==> ((listData at: #start) = 1)
