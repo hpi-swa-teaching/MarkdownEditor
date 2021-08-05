@@ -1,4 +1,4 @@
-code span
+tests - inline code
 testCodeWhitespaceStripping4
 
 	| codeSpan expectedCodeSpan |
