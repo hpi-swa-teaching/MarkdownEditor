@@ -1,3 +1,1 @@
 A MarkdownImage represents an image after parsing.
-
-Instance Variables

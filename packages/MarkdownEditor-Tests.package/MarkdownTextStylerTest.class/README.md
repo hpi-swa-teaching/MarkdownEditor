@@ -2,7 +2,7 @@ A MarkdownTextStylerTest tests the text styler.
 
 Instance Variables
 	originalStyleSettings:		<MarkdownSettings>
-	textStyler:		<MarkdownTextStyler>
+	textStyler:					<MarkdownTextStyler>
 
 originalStyleSettings
 	- are the style settings before the user changes the style settings

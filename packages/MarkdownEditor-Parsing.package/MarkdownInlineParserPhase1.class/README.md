@@ -1,19 +1,19 @@
-A MarkdownInlineParserPhase1 handles the creation of delimiters, references, autolinks, code spans and strings.
+A MarkdownInlineParserPhase1 is a method object, parsing references, autolinks, code spans and finding delimiters.
 
 Instance Variables
 	currentIndex:		<SmallInteger>
-	delimiters:		<MarkdownLinkedList>
+	delimiters:			<MarkdownLinkedList>
 	inlineElements:		<MarkdownLinkedList>
 	previousChar:		<ByteString>
 
 currentIndex
-	- xxxxx
+	- current absolute index in text. Use newWith: to initialize a parser with offset.
 
 delimiters
-	- is a MarkdownLinkList of created delimiters
+	- a list of all found delimiters.
 
 inlineElements
-	- is a MarkdownLinkList of created inline elements
+	- a list of all current inline elements.
 
 previousChar
-	- is used to detect whether an image or a link is being parsed
+	- last character necessary for differentiate image and link

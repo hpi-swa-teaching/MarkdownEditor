@@ -6,10 +6,10 @@ Instance Variables
 	rawContent:		<ByteString>
 
 code
-	- is the parsed text with stripped white spaces
+	- is the parsed text with stripped white spaces according to spec
 
 fenceLength
 	- is the length of the fence
 
 rawContent
-	- is the text between the fences before parsing
+	- is the text between the fences without stripping

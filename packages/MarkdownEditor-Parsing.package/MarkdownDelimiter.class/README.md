@@ -1,35 +1,37 @@
 A MarkdownDelimiter represents a delimiter during the inline parsing phases.
 
 Instance Variables
-	count:		<SmallInteger>
-	inlineIndex:		<SmallInteger>
+	count:							<SmallInteger>
+	inlineIndex:						<SmallInteger>
 	originalOpenerAndCloser:		<Boolean>
-	potentialCloser:		<Boolean>
-	potentialOpener:		<Boolean>
-	startPosition:		<SmallInteger>
-	type:		<Character>
-	valid:		<Boolean>
+	potentialCloser:					<Boolean>
+	potentialOpener:				<Boolean>
+	startPosition:					<SmallInteger>
+	type:							<Character>
+	valid:							<Boolean>
 
 count
-	- indicates the number of delimiters, e.g. one * for italic or two * for bold
+	- number of delimiter symbols
 
 inlineIndex
-	- xxxxx
+	- temporarily valid index of delimiter in list of all inline elements
 
 originalOpenerAndCloser
-	- is a boolean indicating whether a delimiter is an original opening delimiter and an original closing delimiter
+	- expresses if a delimiter is originally designed to be open and close an emphasis. 
+	It is determined by the delimiter itself and should not be set from outside.
 
 potentialCloser
-	- is a boolean indicating whether a delimiter is an potential closing delimiter
+	- expresses if a delimiter is able to close an emphasis span.
 
 potentialOpener
-	- is a boolean indicating whether a delimiter is an potential opening delimiter
+	- expresses if a delimiter is able to open an emphasis span.
 
 startPosition
-	- is the start position in the Markdown text
+	- absolute start position within the text.
 
 type
-	- is the type of the delimiter like *, _ or ~
+	- determines what emphasis it belongs to, current types are: $~, $*, $_
 
 valid
-	- is a boolean value that indicates whether a delimiter is valid or invalid, e.g. the delimiter is invalid if the devisible by three rule applies
+	- creating a delimiter with new will generate an invalid delimiter, 
+	if you want a valid delimiter you should use newFrom:.

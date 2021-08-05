@@ -4,4 +4,4 @@ Instance Variables
 	startNumber:		<SmallInteger>
 
 startNumber
-	- xxxxx
+	- number the lists startes with. Only set if list is ordered

@@ -2,10 +2,10 @@ A MarkdownBlockStylerMorph offers an UI to change a block's font size and font c
 
 Instance Variables
 	classCategory:		<String>
-	classLabel:		<TextMorph>
+	classLabel:			<TextMorph>
 	fontColorPicker:		<MarkdownColorChooser>
 	fontSizeSlider:		<MarkdownSlider>
-	sliderLabel:		<TextMorph>
+	sliderLabel:			<TextMorph>
 	styleSettings:		<MarkdownStyleSettings>
 
 classCategory
@@ -15,7 +15,7 @@ classLabel
 	- is the name of the block
 
 fontColorPicker
-	- is used to select the colour of the block and consists of a standard color selector and a color selector
+	- is used to select the color of the block
 
 fontSizeSlider
 	- is used to select the font size

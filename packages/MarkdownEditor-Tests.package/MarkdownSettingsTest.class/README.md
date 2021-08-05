@@ -1,10 +1,10 @@
 A MarkdownSettingsTest test settings.
 
 Instance Variables
-	editor:		<MarkdownEditor>
+	editor:					<MarkdownEditor>
 	originalSettings:		<MarkdownSettings>
-	settings:		<MarkdownSettings>
-	window:		<PluggableSystemWindow>
+	settings:				<MarkdownSettings>
+	window:				<PluggableSystemWindow>
 
 editor
 	- is the editor that contains Markdown text

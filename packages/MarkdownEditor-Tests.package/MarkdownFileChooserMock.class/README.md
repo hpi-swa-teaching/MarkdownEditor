@@ -2,8 +2,8 @@ A MarkdownFileChooserMock is a mock file.
 
 Instance Variables
 	initializeCalled:		<Boolean>
-	openCalled:		<Boolean>
-	suffixes:		<Object>
+	openCalled:			<Boolean>
+	suffixes:			<Object>
 
 initializeCalled
 	- xxxxx

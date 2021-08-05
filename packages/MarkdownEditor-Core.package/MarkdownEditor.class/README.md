@@ -3,15 +3,16 @@ A MarkdownEditor provides a simple text area for writing Markdown documents, for
 Instance Variables
 	currentFilePath:		<ByteString>
 	markdownMenu:		<MarkdownEditorMenu>
-	markdownText:		<Text>
-	pluggableTextMorph:		<PluggableTextMorphPlus>
-	window:		<PluggableSystemWindow>
+	markdownText:			<Text>
+	pluggableTextMorph:	<PluggableTextMorphPlus>
+	window:				<PluggableSystemWindow>
 
 currentFilePath
 	- is the current file path used to open and save files
 
 markdownMenu
-	- is the menu with which a user can interact with the editor, e.g. open the settings menu and display the parsing tree
+	- is the yellowbutton menu with which a user can interact with the editor, 
+	e.g. open the settings menu and display the parsing tree
 
 markdownText
 	- is the text that a user writes in the editor

@@ -2,8 +2,8 @@ A MarkdownInlineParsingTest tests inline parsing.
 
 Instance Variables
 	firstPhase:		<MarkdownInlineParserPhase1>
-	parser:		<MarkdownParser>
-	secondPhase:		<MarkdownInlineParserPhase2>
+	parser:			<MarkdownParser>
+	secondPhase:	<MarkdownInlineParserPhase2>
 
 firstPhase
 	- parses the Markdown text with the first phase of inline parsing

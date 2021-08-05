@@ -2,7 +2,7 @@ A MarkdownClickableAttributeTest tests clickable attributes.
 
 Instance Variables
 	attribute:		<MarkdownClickableAttribute>
-	editor:		<MarkdownEditor>
+	editor:			<MarkdownEditor>
 
 attribute
 	- is an attribute which is clickable

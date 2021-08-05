@@ -1,7 +1,7 @@
-A MarkdownListItem represents a list item in the document tree after parsing.
+A MarkdownListItem represents a list item contained by a list in the document tree after parsing.
 
 Instance Variables
 	number:		<SmallInteger>
 
 number
-	- xxxxx
+	- number of list item. only set if list item is ordered

@@ -1,19 +1,19 @@
-A MarkdownInlineParserPhase2 handles the creation of emphasis.
+A MarkdownInlineParserPhase2 is a method object, evaluating delimiters and parsing emphasises.
 
 Instance Variables
 	currentCloser:		<MarkdownDelimiter>
 	currentOpener:		<MarkdownDelimiter>
-	delimiters:		<MarkdownLinkedList>
+	delimiters:			<MarkdownLinkedList>
 	inlineElements:		<MarkdownLinkedList>
 
 currentCloser
-	- could be a closing delimiter for emphasis
+	- possible current closer of a possible emphasis
 
 currentOpener
-	- could be a opening delimiter for emphasis
+	- possible current opener of a possible emphasis
 
 delimiters
-	- is a MarkdownLinkList of created delimiters
+	- found list of delimiters
 
 inlineElements
-	- is a MarkdownLinkList of created inline elements
+	- list of all inline elements

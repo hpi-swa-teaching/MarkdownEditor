@@ -2,7 +2,7 @@ A MarkdownTextStyler styles all blocks of parsed Markdown text.
 
 Instance Variables
 	document:		<MarkdownDocument>
-	text:		<Text>
+	text:			<Text>
 
 document
 	- is the parsed Markdown text in tree structure

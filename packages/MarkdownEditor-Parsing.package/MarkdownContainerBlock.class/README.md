@@ -4,4 +4,4 @@ Instance Variables
 	children:		<OrderedCollection>
 
 children
-	- is a collection of leaf blocks
+	- is a collection of blocks

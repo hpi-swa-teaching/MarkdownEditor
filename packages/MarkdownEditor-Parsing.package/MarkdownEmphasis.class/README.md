@@ -1,3 +1,1 @@
-A MarkdownEmphasis represent a MarkdownEmphasis over a range of characters after parsing. The applied styling is expressed through my textAttribute and colorAttribute.
-
-Instance Variables
+A MarkdownInlineContainerBlock is an inline element and super class for all inline elements defining an emphasis, such as italic, bold ore struck out. It is defined over a reange of characters in a text.

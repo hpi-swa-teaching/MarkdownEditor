@@ -1,3 +1,1 @@
 A MarkdownBold contains bold text after parsing.
-
-Instance Variables

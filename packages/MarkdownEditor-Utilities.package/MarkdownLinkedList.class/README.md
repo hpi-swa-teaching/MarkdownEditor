@@ -5,5 +5,3 @@ With linkOf: ifAbsent: it is possible to get the link of the exact Object. Use t
 markdownIndexOf gets the index of the exact element in a list.
 
 copiedFrom:to: and replacedFrom:to: are just small helpers to return a MarkdownLinkedList instead of another Collection.
-
-Instance Variables

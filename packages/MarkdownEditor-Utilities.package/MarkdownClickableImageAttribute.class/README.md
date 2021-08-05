@@ -2,7 +2,7 @@ A MarkdownClickableImageAttribute is a styling attribute that allows a user to c
 
 Instance Variables
 	position:		<SmallInteger>
-	text:		<Text>
+	text:			<Text>
 
 position
 	- is the position of the image in the Markdown text

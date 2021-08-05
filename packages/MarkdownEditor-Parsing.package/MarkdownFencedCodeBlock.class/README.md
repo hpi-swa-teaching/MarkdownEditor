@@ -2,7 +2,7 @@ A MarkdownFencedCodeBlock represents a fenced code block in the document tree af
 
 Instance Variables
 	indentation:		<SmallInteger>
-	info:		<ByteString>
+	info:				<ByteString>
 	openingFence:		<ByteString>
 
 indentation
@@ -12,4 +12,5 @@ info
 	- is a string indicating the programming language used in the fenced code block
 
 openingFence
-	- is the opening fence of the fenced code block and consists of a sequence of at least three consecutive backtick characters or tildes
+	- is the opening fence of the fenced code block and 
+	consists of a sequence of at least three consecutive backtick characters or tildes

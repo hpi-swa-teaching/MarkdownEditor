@@ -1,10 +1,10 @@
 A MarkdownEditorTest tests the editor.
 
 Instance Variables
-	editor:		<MarkdownEditor>
+	editor:						<MarkdownEditor>
 	originalStyleSettings:		<MarkdownSettings>
-	toolbuilder:		<ToolBuilder>
-	window:		<PluggableSystemWindow>
+	toolbuilder:					<ToolBuilder>
+	window:					<PluggableSystemWindow>
 
 editor
 	- is the editor that contains Markdown text

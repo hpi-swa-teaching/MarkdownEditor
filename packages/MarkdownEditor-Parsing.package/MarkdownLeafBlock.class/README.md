@@ -1,7 +1,7 @@
 A MarkdownLeafBlock represents a leaf block in the document tree after parsing.
 
 Instance Variables
-	content:		<ByteString>
+	content:			<ByteString>
 	inlineElements:		<MarkdownLinkedList>
 
 content
