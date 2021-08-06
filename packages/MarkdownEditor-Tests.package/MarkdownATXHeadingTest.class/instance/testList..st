@@ -10,5 +10,5 @@ testList: anOrderedCollection
 		testTupel size = 1 
 			ifTrue: [self assert: #failedMatch equals: heading]
 			ifFalse: [self assert: #matchedLeaf equals: heading.
-				self assert: testTupel second equals: state newBlock level.
-				self assert: testTupel third equals: state newBlock content]]
+					self assert: testTupel second equals: state newBlock level.
+					self assert: testTupel third equals: state newBlock content]]
