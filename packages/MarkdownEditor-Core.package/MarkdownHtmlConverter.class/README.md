@@ -1,2 +1,1 @@
-I convert markdown code to HTML (see comment).
-Note: Implemented in a double dispatch manner. That is why the converter has this much knowledge of the different blocks, but it also causes the linter to complain about a violation of the Law of Demeter. This design is intented.
+A MarkdownHtmlConverter converts Markdown text into HTML. It is implemented as a double dispatch. This is why the converter has so much knowledge about the different blocks, but it also causes the linter to complain about a violation of the Law of Demeter. This construction is intentional.

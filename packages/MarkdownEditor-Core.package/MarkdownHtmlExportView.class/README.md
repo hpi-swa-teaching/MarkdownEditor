@@ -1,1 +1,1 @@
-I display the converted HTML lines.
+A MarkdownHtmlExportView displays the converted HTML lines.

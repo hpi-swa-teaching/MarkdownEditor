@@ -1,14 +1,14 @@
 A MarkdownDelimiter represents a delimiter during the inline parsing phases.
 
 Instance Variables
-	count:							<SmallInteger>
-	inlineIndex:						<SmallInteger>
-	originalOpenerAndCloser:		<Boolean>
-	potentialCloser:					<Boolean>
-	potentialOpener:				<Boolean>
-	startPosition:					<SmallInteger>
-	type:							<Character>
-	valid:							<Boolean>
+	count:										<SmallInteger>
+	inlineIndex:								<SmallInteger>
+	originalOpenerAndCloser:	<Boolean>
+	potentialCloser:						<Boolean>
+	potentialOpener:					<Boolean>
+	startPosition:							<SmallInteger>
+	type:											<Character>
+	valid:											<Boolean>
 
 count
 	- number of delimiter symbols
