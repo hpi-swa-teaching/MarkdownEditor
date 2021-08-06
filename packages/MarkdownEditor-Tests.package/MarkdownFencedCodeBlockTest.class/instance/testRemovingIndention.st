@@ -11,4 +11,4 @@ testRemovingIndention
 				{' t e s t'. #matched. true}.
 				{'      test'. #matched. true}.
 				{' ````'. #endOfLine. false}}.
-	self testList: testList onBlock: testBlock.
+	self testList: testList onBlock: testBlock

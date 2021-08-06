@@ -2,7 +2,6 @@ tests - open close
 testCreateMarkdownOptions
 	
 	| buttons |
-
 	buttons := settings dependents select: [:morph | morph isKindOf: PluggableButtonMorph].
 	
 	self assert: buttons size = 5.

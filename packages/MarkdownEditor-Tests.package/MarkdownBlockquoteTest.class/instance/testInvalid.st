@@ -4,4 +4,4 @@ testInvalid
 	| testList |
 	testList := {{'    > test'}.
 				 {'test'}}.
-	self testList: testList.
+	self testList: testList

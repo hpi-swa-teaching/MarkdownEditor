@@ -18,4 +18,5 @@ testThematicBreak02
 		innerLine: '';
 		innerStartPosition: 4;
 		content: ''.
+		
 	self assert: document equals: output

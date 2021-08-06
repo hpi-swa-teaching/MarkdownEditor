@@ -22,4 +22,5 @@ testATXHeadingWithEmphasis
 		content: '**Level 1**';
 		inlineElements: (MarkdownLinkedList newFrom: {strong});
 		level: 1.
+		
 	self assert: document equals: output

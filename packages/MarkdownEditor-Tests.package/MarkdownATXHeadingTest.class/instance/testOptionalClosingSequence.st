@@ -9,4 +9,4 @@ testOptionalClosingSequence
 				{'### test###'. 3. 'test###'}.
 				{'## test #\##'. 2. 'test ###'}.
 				{'# test \#'. 1. 'test #'}}.
-	self testList: testList.
+	self testList: testList

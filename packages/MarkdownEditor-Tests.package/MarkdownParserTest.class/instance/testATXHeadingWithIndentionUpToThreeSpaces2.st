@@ -19,4 +19,5 @@ testATXHeadingWithIndentionUpToThreeSpaces2
 		content: 'Level 2';
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 2.
+		
 	self assert: document equals: output

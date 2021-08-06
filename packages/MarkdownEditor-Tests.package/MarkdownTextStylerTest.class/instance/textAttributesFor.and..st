@@ -6,5 +6,4 @@ textAttributesFor: aColor and: aFontSize
 		familyName: 'BitstreamVeraSans'
 		pointSize: aFontSize
 		emphasis: TextEmphasis normal emphasisCode.
-	
 	 ^ {(UnextendableTextFontReference toFont: font). TextColor color: aColor}

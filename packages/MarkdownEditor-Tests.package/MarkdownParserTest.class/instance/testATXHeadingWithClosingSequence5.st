@@ -19,4 +19,5 @@ testATXHeadingWithClosingSequence5
 		content: 'foo#';
 		inlineElements: (MarkdownLinkedList newFrom: {str});
 		level: 1.
+		
 	self assert: document equals: output

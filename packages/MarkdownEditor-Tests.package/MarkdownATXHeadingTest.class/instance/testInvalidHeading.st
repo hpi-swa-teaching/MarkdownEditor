@@ -5,4 +5,4 @@ testInvalidHeading
 	testList := {{'#test'}. 
 				{'\## foo'}.
 				{'    # foo'}}.
-	self testList: testList.
+	self testList: testList

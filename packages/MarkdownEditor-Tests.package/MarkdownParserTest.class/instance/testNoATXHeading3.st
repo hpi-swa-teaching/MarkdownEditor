@@ -18,4 +18,5 @@ testNoATXHeading3
 		innerStartPosition: 1;
 		content: '\## foo';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
+		
 	self assert: document equals: output

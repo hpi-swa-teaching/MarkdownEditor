@@ -5,4 +5,4 @@ testContinueDefault
 	testList := {{'> # test'. '# test'}.
 				{'   >test'. 'test'}.
 				{'>     test'. '    test'}}.
-	self testListContinue: testList.
+	self testListContinue: testList

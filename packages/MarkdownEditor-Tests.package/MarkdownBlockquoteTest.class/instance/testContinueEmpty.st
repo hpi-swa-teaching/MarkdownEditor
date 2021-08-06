@@ -4,4 +4,4 @@ testContinueEmpty
 	| testList |
 	testList := {{'>'. ''}.
 	                   {'  >    '. '   '}}.
-	self testListContinue: testList.
+	self testListContinue: testList

@@ -3,6 +3,7 @@ testChangeTheme
 
 	| display theme1 theme2 |
 	display := (MarkdownUrlContentDisplay new mime: (MIMEDocument content: 'test')).
+	
 	self assert: display showContent first color = MarkdownStyleSettings themeFontColor.
 	
 	theme1 := SqueakTheme new.

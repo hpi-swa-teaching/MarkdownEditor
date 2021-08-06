@@ -4,7 +4,6 @@ testStyleFencedCodeBlock
 	| text fontSize styler testText expectedRuns |
 	text := ('```', Character cr, 'some code', Character cr, '```') asText.
 	textStyler privateStyle: text.
-
 	testText := 'some code' asText.
 	styler := (SHTextStylerST80 new
         classOrMetaClass: self class;

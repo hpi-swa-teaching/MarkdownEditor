@@ -2,7 +2,6 @@ tests - menu
 testSelectionMenuIsDifferent2
 
 	| singleSelectionMenu multiSelectionMenu |
-
 	editor markdownText: 'first line', Character cr, 'second line'.
 	editor pluggableTextMorph selectionInterval: (1 to: 10).
 	singleSelectionMenu := editor yellowButtonMenu: MenuMorph new.

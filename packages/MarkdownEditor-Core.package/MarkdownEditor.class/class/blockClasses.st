@@ -1,9 +1,9 @@
 accessing
 blockClasses
 
-	^ { MarkdownBlockquote.
+	^ {MarkdownBlockquote.
 		MarkdownList.
 		MarkdownATXHeading.
 		MarkdownFencedCodeBlock.
 		MarkdownParagraph.
-		MarkdownThematicBreak } asOrderedCollection
+		MarkdownThematicBreak} asOrderedCollection

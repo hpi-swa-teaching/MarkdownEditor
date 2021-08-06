@@ -6,4 +6,4 @@ windowSpecFor: aBuilder
 		children: OrderedCollection new;
 		label: #label;
 		extent: self initialExtent;
-		yourself.
+		yourself

@@ -6,6 +6,7 @@ testList: anOrderedCollection onBlock: aMarkdownBlock
 			currentLine: testTupel first;
 			charPos: 0;
 			yourself. 
+			
 		self assert: testTupel second equals: (aMarkdownBlock continue: state).
 		self assert: testTupel third equals: aMarkdownBlock isOpen]
 				

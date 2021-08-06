@@ -9,7 +9,6 @@ testTreeRepresentationHeading
 		level: 2;
 		yourself.
 	heading inlineElements add: inline.
-	
 	expected := OrderedCollection newFrom: 
 		{'level', String tab, '2'. 
 		'start', String tab, '1'.

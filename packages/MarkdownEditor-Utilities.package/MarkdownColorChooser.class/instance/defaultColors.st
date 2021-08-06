@@ -1,7 +1,7 @@
 accessing
 defaultColors
 
-	^ { MarkdownStyleSettings themeFontColor. 
+	^ {MarkdownStyleSettings themeFontColor. 
 		Color black. 
 		Color white. 
 		Color red.

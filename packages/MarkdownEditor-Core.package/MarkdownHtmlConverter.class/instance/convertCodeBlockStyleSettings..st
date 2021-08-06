@@ -6,5 +6,4 @@ convertCodeBlockStyleSettings: aStyleSettings
 		code {
 			font-size: ', (aStyleSettings fontSizes at: MarkdownFencedCodeBlock labels first), 'px;
 		}', Character cr.
-	
 	^ codeBlock

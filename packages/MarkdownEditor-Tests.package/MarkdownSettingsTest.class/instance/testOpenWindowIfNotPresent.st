@@ -2,7 +2,6 @@ tests - open close
 testOpenWindowIfNotPresent
 
 	| settingsWindow | 
-	
 	settingsWindow := settings window.
 	settings closeMarkdownOptions.
 	self deny: (World submorphs includes: settingsWindow).

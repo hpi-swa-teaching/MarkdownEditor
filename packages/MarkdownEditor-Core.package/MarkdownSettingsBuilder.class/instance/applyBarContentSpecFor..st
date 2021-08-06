@@ -12,4 +12,4 @@ applyBarContentSpecFor: aBuilder
 			model: self settings;
 			enabled: true;
 			action: #handleCancel;
-			yourself }
+			yourself}

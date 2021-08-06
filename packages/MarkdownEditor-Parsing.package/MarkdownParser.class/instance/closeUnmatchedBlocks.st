@@ -1,5 +1,6 @@
 phase 2
 closeUnmatchedBlocks
+
 	"finalize and close all unmatched blocks"
 	"tip and oldTip remain on the container of the last closed block"
 	| parent |

@@ -77,4 +77,5 @@ testParseList10
 		beClosed;
 		inlineElements: (MarkdownLinkedList newFrom: 
 			{MarkdownString newFrom: 'bar' startingAt: 14}).
+			
 	self assert: document equals: output

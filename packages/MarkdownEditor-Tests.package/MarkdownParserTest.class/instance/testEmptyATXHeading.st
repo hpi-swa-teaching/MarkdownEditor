@@ -18,4 +18,5 @@ testEmptyATXHeading
 		content: '';
 		inlineElements: (MarkdownLinkedList new);
 		level: 1.
+		
 	self assert: document equals: output

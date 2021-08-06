@@ -5,4 +5,4 @@ testDefault
 	testList := {{'> # test'. '# test'}.
 				{'   >test'. 'test'}.
 				{'>     test'. '    test'}}.
-	self testList: testList.
+	self testList: testList

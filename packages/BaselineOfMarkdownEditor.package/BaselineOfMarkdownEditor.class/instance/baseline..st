@@ -20,4 +20,4 @@ baseline: spec
 				
 			spec
 				group: 'default' with: #('MarkdownEditor-Core' 'MarkdownEditor-Utilities' 'MarkdownEditor-Parsing' 'MarkdownEditor-Tests' 'BaselineOfMarkdownEditor');
-				group: 'tests' with: #('MarkdownEditor-Tests')].
+				group: 'tests' with: #('MarkdownEditor-Tests')]

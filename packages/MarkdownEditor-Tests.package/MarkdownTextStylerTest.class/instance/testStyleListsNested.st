@@ -14,6 +14,7 @@ testStyleListsNested
 	fontColor3 := self styleSettingsForStylingTests fontColors at: 'Unord. List 3+'.
 	fontSizeParagraph := self styleSettingsForStylingTests fontSizes at: 'Paragraph'.
 	fontColorParagraph := self styleSettingsForStylingTests fontColors at: 'Paragraph'.
+	
 	self
 		assertRunsValues: {self textAttributesFor: fontColor1 and: fontSize1. 
 			self textAttributesFor: fontColorParagraph and: fontSizeParagraph. 

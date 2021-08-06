@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"closeCharacter" : "jh 6/24/2021 13:45",
 		"delimiterTypes" : "mf 6/23/2021 15:59",
-		"emailRegex" : "mf 6/24/2021 12:02",
+		"emailRegex" : "mf 8/6/2021 11:54",
 		"newWith:and:" : "mf 7/28/2021 22:28",
 		"uriRegex" : "mf 7/28/2021 23:10" },
 	"instance" : {

@@ -18,4 +18,4 @@ testDefault
 	testList := {{'test'. #matched. true}.
 	{'test'. #matched. true}.
 	{'~~~'. #endOfLine. false}}.
-	self testList: testList onBlock: testBlock.
+	self testList: testList onBlock: testBlock

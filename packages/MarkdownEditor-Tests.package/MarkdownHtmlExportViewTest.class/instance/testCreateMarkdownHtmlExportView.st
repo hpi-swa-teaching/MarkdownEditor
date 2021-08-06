@@ -8,5 +8,5 @@ testCreateMarkdownHtmlExportView
 	exportView abandon.
 	
 	self assert: pluggableTextMorphs size = 1.
-	self assert: pluggableTextMorphs first text = '<!DOCTYPE html><html>Some HTML</html>'.
+	self assert: pluggableTextMorphs first text = '<!DOCTYPE html><html>Some HTML</html>'
 	

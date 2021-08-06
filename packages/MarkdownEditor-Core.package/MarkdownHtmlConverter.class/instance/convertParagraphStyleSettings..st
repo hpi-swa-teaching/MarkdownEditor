@@ -1,7 +1,7 @@
 convert styling
 convertParagraphStyleSettings: aStyleSettings
+
 	| paragraph |
-	
 	paragraph := '
 		p {
 			font-size: ', (aStyleSettings fontSizes at: MarkdownParagraph labels first), 'px;

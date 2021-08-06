@@ -19,4 +19,5 @@ testNoATXHeading2
 		innerStartPosition: 1;
 		content: '#1 Level 1';
 		inlineElements: (MarkdownLinkedList newFrom: {str}).
+		
 	self assert: document equals: output

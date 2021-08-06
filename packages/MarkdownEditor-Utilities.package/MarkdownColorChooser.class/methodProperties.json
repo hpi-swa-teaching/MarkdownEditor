@@ -2,18 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"adaptToTheme" : "mf 7/29/2021 00:58",
+		"adaptToTheme" : "mf 8/6/2021 11:42",
 		"adjustTo:" : "jh 5/28/2021 22:14",
 		"advancedColorPicker" : "jh 5/23/2021 15:53",
-		"advancedColorPicker:" : "jh 5/25/2021 16:23",
+		"advancedColorPicker:" : "mf 8/6/2021 11:42",
 		"advancedPickerOffset" : "jh 6/1/2021 10:59",
 		"advancedPickerWidth" : "jh 6/1/2021 10:59",
 		"calculateOffsetFor:boxesWith:" : "jh 6/1/2021 10:04",
-		"defaultColors" : "jh 5/26/2021 14:08",
-		"extent:" : "jh 6/1/2021 11:40",
+		"defaultColors" : "mf 8/6/2021 11:42",
+		"extent:" : "mf 8/6/2021 11:42",
 		"initialize" : "jh 6/1/2021 10:57",
 		"initializeAdvancedColorPicker" : "jh 6/1/2021 10:17",
-		"initializeColorBoxWith:" : "jh 6/1/2021 10:58",
+		"initializeColorBoxWith:" : "mf 8/6/2021 11:43",
 		"initializeSimpleColorChooser" : "jh 6/1/2021 10:57",
 		"simpleChooserWidth" : "jh 6/1/2021 10:59",
 		"simpleColorChoosers" : "jh 5/24/2021 15:43",
@@ -21,5 +21,5 @@
 		"simpleColorChoosersSize" : "jh 6/1/2021 09:56",
 		"totalSimpleColorChooser" : "jh 6/1/2021 11:00",
 		"updateAdvancedColorPicker" : "jh 6/1/2021 11:50",
-		"updateSimpleColorChooser" : "mf 7/29/2021 01:31",
-		"updateSimpleColorCooserPositionsWith:and:and:for:" : "jh 6/1/2021 11:26" } }
+		"updateSimpleColorChooser" : "mf 8/6/2021 11:43",
+		"updateSimpleColorCooserPositionsWith:and:and:for:" : "mf 8/6/2021 11:44" } }

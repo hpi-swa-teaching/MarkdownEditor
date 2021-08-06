@@ -1,7 +1,7 @@
 yellowButtonMenu
 addMenuItemsTo: aMenu
 
-    ^ self
+	^ self
 		addFileItemsTo: aMenu;
 		addFindReplaceItemsTo: aMenu;
 		addExportItemsTo: aMenu;

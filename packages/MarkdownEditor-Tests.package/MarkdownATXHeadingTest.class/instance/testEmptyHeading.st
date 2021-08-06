@@ -6,4 +6,4 @@ testEmptyHeading
 				{'## '. 2. ''}.
 				{'### ###'. 3. ''}. 
 				{'###                   '. 3. ''}}.
-	self testList: testList.
+	self testList: testList

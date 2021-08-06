@@ -2,7 +2,6 @@ tests - open close
 testUnregisterEditor
 
 	| editor2 |
-	
 	editor2 := MarkdownEditor open.
 	self assert: (settings editors includes: editor2 model).
 	

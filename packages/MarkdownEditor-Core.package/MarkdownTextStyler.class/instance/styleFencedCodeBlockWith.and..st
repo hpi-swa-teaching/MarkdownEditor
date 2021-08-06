@@ -4,7 +4,8 @@ styleFencedCodeBlockWith: aMarkdownFencedCodeBlock and: aStyler
 	| code |
 	code := ((aMarkdownFencedCodeBlock inlineElements first) content) asText.
 	aStyler privateStyle: code.
-	self copyAttributesFrom: code 
+	self 
+		copyAttributesFrom: code 
 		from: aMarkdownFencedCodeBlock innerStartPosition
 		to: aMarkdownFencedCodeBlock endPosition
 		with: true.

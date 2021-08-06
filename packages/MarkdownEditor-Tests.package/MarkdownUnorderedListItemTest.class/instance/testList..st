@@ -11,4 +11,4 @@ testList: anOrderedCollection
 		testTupel size = 1 
 			ifTrue: [self assert: #failedMatch equals: listItem]
 			ifFalse: [self assert: testTupel second equals: state newBlock indentation.
-				self assert: testTupel third equals: state newBlock innerLine]]
+					self assert: testTupel third equals: state newBlock innerLine]]

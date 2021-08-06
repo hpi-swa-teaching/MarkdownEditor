@@ -2,10 +2,8 @@ tests
 testSimpleBoxPositions
 
 	| positions |
-	
 	chooser width: 250.
 	chooser height: 70.
-		
 	positions := OrderedCollection new.
 	simpleChoosers do: [:box | positions add: box position].
 	

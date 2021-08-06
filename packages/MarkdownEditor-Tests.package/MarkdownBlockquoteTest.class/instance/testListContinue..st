@@ -10,4 +10,4 @@ testListContinue: anOrderedCollection
 		testTupel size = 1
 			ifTrue: [self assert: #failedMatch equals: blockquote]
 			ifFalse: [self assert: #matched equals: blockquote.
-				self assert: testTupel second equals: state currentLine]]
+					self assert: testTupel second equals: state currentLine]]

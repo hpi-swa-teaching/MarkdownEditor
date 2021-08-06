@@ -10,4 +10,4 @@ testInvalid
 				{'test```'}.
 				{'``` aa ```'}.
 				{'``` ```'}}.
-	self testList: testList.
+	self testList: testList

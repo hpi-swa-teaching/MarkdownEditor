@@ -3,6 +3,7 @@ test4LineExample
 
 	| document |
 	document := (MarkdownParser new) parse: '> Lorem ipsum dolor', Character cr, ' sit amet.', Character cr, '> - Qui *quodsi iracundia*', Character cr, '> - aliquando id'.
+	
 	self assert: MarkdownBlockquote equals: (document := document children last) class.
 	self assert: MarkdownParagraph equals: document children first class.
 	self assert: 'Lorem ipsum dolor

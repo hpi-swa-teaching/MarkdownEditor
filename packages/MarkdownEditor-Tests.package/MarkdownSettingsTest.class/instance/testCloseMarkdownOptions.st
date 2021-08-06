@@ -2,7 +2,6 @@ tests - open close
 testCloseMarkdownOptions
 
 	| settingsWindow |
-	
 	settingsWindow := settings window.
 	self assert: (World submorphs includes: settingsWindow).
 	

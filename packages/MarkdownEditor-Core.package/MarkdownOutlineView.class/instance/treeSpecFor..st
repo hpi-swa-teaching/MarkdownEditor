@@ -11,4 +11,4 @@ treeSpecFor: aBuilder
 					item preferredWidthOfColumn: 1]) max].
 				nil "take all the space"};
 		frame: (0 @ 0 corner: 1 @ 1);
-		yourself.
+		yourself

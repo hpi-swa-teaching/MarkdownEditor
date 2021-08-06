@@ -2,7 +2,6 @@ test - color
 testSliderColorNoChange
 
 	| slider |
-	
 	slider := MarkdownSlider new.
 	slider mdslider color: Color red.
 	slider applyUserInterfaceTheme.
