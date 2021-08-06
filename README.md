@@ -1,4 +1,4 @@
-# MarkdownEditor 
+# MarkdownEditor
 
 [![CI-Test][github_actions_test_badge]][github_actions_url]
 [![CI-Lint][github_actions_lint_badge]][github_actions_url]
@@ -28,7 +28,16 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] Custom visualization options
 
 ## How To Install
+
 You can install the **MarkdownEditor** by opening any text field, pasting the following snippet and execute a *Do-It*:
+
+```smalltalk
+Installer mc
+  http: 'https://github.com/hpi-swa-teaching/MarkdownEditor/releases';
+  install: 'MarkdownEditor'.
+```
+
+Alternatively, if you have Metacello installed in your Squeak-Image, you can install the **MarkdownEditor** with:
 
 ```smalltalk
 Metacello new
@@ -37,21 +46,16 @@ Metacello new
 	load
 ```
 
-Alternatively you can install the **MarkdownEditor** with:
-```smalltalk
-Installer mc
-  http: 'https://github.com/hpi-swa-teaching/MarkdownEditor/releases';
-  install: 'MarkdownEditor'.
-```
-
 After that, you can open the Editor via the *"App"*-menu:
 
 ![Opening Markdown Editor](screenshots/how-to-open.png)
 
 ## Contributing
+
 During development, we set up some guidelines for coding. If you want to contribute, please have a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## History
+
 This is a project developed for the Software Engineering course, started during summer term 2019 - continued during
 summer term 2020 and 2021.  
 Developers: Julian Egbert, Marie Fischer, Felix Gohla, Kira Grammel, Clara Granzow, Conrad Halle, Judith Herrmann, Maximilian Kleissl, Henok Lachmann, Lucas Liebe, Jonas Kordt, Lara Pfennigschmidt, Martin Schilling, Finn Schöllkopf, Jakob Stigloher, Adrian Ziupka.  
