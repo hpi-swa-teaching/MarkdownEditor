@@ -1,4 +1,4 @@
 applying
 continue: aParsingState
 
-	^ 0
+	^ #matched

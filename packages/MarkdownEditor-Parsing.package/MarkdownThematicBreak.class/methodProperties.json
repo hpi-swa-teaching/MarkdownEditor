@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"createNew:" : "jh 8/1/2021 17:24",
+		"createNew:" : "JE 8/6/2021 10:20",
 		"labels" : "jh 7/1/2021 11:00",
 		"newFrom:" : "jh 8/1/2021 17:24",
 		"thematicBreakRegExMatcher" : "jh 8/1/2021 17:23" },
 	"instance" : {
 		"acceptsLines" : "mf 7/4/2021 14:40",
-		"continue:" : "mf 7/4/2021 14:40",
+		"continue:" : "JE 8/6/2021 10:17",
 		"fontSize" : "jh 7/7/2021 09:07",
 		"htmlClosingTag" : "jh 6/25/2021 17:44",
 		"htmlOpeningTag" : "jh 6/25/2021 17:44",

@@ -13,7 +13,6 @@
 		"testCloseMarkdownOptions" : "jh 5/29/2021 12:48",
 		"testCreateMarkdownOptions" : "mf 7/29/2021 00:59",
 		"testLabel" : "7/21/2021 13:44:50",
-		"testLabelForCategories" : "7/21/2021 13:44:50",
 		"testLabelForGeneral" : "mf 7/29/2021 00:25",
 		"testLabelForHeadings" : "mf 7/29/2021 00:25",
 		"testLabelForLists" : "mf 7/29/2021 00:25",
@@ -22,5 +21,6 @@
 		"testShowStylerMorphsGeneral" : "7/21/2021 13:44:50",
 		"testShowStylerMorphsHeadings" : "7/21/2021 13:44:50",
 		"testShowStylerMorphsLists" : "7/21/2021 13:44:50",
+		"testSliderLabel" : "jh 8/5/2021 11:05",
 		"testUnregisterEditor" : "jh 5/29/2021 13:11",
 		"testVersionUpdate" : "mf 7/29/2021 01:19" } }

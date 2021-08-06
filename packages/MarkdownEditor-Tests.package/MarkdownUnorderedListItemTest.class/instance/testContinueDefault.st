@@ -7,6 +7,6 @@ testContinueDefault
 		innerLine: 'test';
 		container: (MarkdownList new indentation: 2);
 		yourself.
-	testList := {{'  test test'. 0}.
-				{'     test test'. 0}}.
+	testList := {{'  test test'. #matched}.
+				{'     test test'. #matched}}.
 	self testList: testList onBlock: testBlock

@@ -1,11 +1,14 @@
 {
-	"class" : {
-		"newFrom:at:for:" : "LL 7/13/2021 22:31" },
-	"instance" : {
-		"actOnClickFor:" : "LL 7/13/2021 23:05",
-		"createTextAnchorWith:maxExtent:" : "mf 7/28/2021 23:50",
-		"position" : "mf 8/4/2021 16:17",
-		"position:" : "mf 8/4/2021 16:17",
-		"show:On:" : "JE 7/31/2021 12:09",
-		"text" : "mf 8/4/2021 16:17",
-		"text:" : "mf 8/4/2021 16:17" } }
+    "class": {
+        "newFrom:at:for:": "LL 7/13/2021 22:31"
+    },
+    "instance": {
+        "actOnClickFor:": "LL 7/13/2021 23:05",
+        "createTextAnchorWith:maxExtent:": "mf 7/28/2021 23:50",
+        "position": "mf 8/4/2021 16:17",
+        "position:": "mf 8/4/2021 16:17",
+        "show:On:": "JE 8/4/2021 15:16",
+        "text": "mf 8/4/2021 16:17",
+        "text:": "mf 8/4/2021 16:17"
+    }
+}

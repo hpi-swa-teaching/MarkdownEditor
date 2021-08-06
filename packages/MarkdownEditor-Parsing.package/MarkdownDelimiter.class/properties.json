@@ -1,21 +1,20 @@
 {
-	"category" : "MarkdownEditor-Parsing",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "jh 8/5/2021 08:49",
-	"instvars" : [
-		"count",
-		"inlineIndex",
-		"originalOpenerAndCloser",
-		"potentialCloser",
-		"potentialOpener",
-		"startPosition",
-		"type",
-		"valid" ],
-	"name" : "MarkdownDelimiter",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+    "category": "MarkdownEditor-Parsing",
+    "classinstvars": [],
+    "classvars": [],
+    "commentStamp": "jh 8/5/2021 15:12",
+    "instvars": [
+        "count",
+        "inlineIndex",
+        "originalOpenerAndCloser",
+        "potentialCloser",
+        "potentialOpener",
+        "startPosition",
+        "type",
+        "valid"
+    ],
+    "name": "MarkdownDelimiter",
+    "pools": [],
+    "super": "Object",
+    "type": "normal"
+}

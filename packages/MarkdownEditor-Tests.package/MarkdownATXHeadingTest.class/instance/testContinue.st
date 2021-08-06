@@ -8,5 +8,5 @@ testContinue
 		yourself.
 	heading := MarkdownATXHeading new.
 	
-	self assert: 1 equals: (heading continue: state).
+	self assert: #failedMatch equals: (heading continue: state).
 	self assert: '' equals: heading content

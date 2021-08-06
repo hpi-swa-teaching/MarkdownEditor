@@ -7,6 +7,6 @@ show: anImage On: aModel
 		yourself).
 	oldText := aModel pluggableTextMorph text.
 	
-	aModel pluggableTextMorph setText: (TextUtil insert: newText into: oldText afterPosition: self position + self text size - 1).
+	aModel pluggableTextMorph setText: (MarkdownTextUtil insert: newText into: oldText afterPosition: self position + self text size - 1).
 	
 	^ aModel textMorph text
