@@ -1,8 +1,8 @@
 A MarkdownOutlineViewTest tests the outline view.
 
 Instance Variables
-	editor:				<MarkdownEditor>
-	outlineModel:		<MarkdownOutlineView>
+	editor:						<MarkdownEditor>
+	outlineModel:			<MarkdownOutlineView>
 	outlineWindow:		<PluggableSystemWindow>
 	sampleDocument:	<MarkdownOutlineView>
 

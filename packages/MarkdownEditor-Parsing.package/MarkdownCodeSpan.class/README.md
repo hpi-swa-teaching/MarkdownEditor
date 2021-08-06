@@ -1,8 +1,8 @@
 A MarkdownCodeSpan represents a code span in the document tree after parsing.
 
 Instance Variables
-	code:		<ByteString>
-	fenceLength:		<SmallInteger>
+	code:					<ByteString>
+	fenceLength:	<SmallInteger>
 	rawContent:		<ByteString>
 
 code

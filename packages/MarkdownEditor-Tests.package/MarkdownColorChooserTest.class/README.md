@@ -2,7 +2,7 @@ A MarkdownColorChooserTest tests the color chooser.
 
 Instance Variables
 	advancedPicker:		<ColorPickerMorph>
-	chooser:				<MarkdownColorChooser>
+	chooser:					<MarkdownColorChooser>
 	simpleChoosers:		<OrderedCollection>
 
 advancedPicker

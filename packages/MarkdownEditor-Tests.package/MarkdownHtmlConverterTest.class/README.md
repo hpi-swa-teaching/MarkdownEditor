@@ -3,8 +3,8 @@ A MarkdownHtmlConverterTest tests conversion of Markdown text to HTML.
 Instance Variables
 	htmlConverter:		<MarkdownHtmlConverter>
 	oldStyleSettings:	<MarkdownStyleSettings>
-	parser:				<MarkdownParser>
-	parsingState:		<MarkdownParsingState>
+	parser:						<MarkdownParser>
+	parsingState:			<MarkdownParsingState>
 
 htmlConverter
 	- is the converter that converts the Markdown text

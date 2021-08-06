@@ -1,7 +1,7 @@
 A MarkdownUrlContentDisplay displays the content of the accessed websites, images or file system.
 
 Instance Variables
-	contentText:		<TextMorph>
+	contentText:	<TextMorph>
 	mime:				<MIMEDocument>
 
 contentText

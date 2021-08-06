@@ -1,3 +1,1 @@
-A BaselineOfMarkdownEditor is the baseline of the MarkdownEditor.
-
-Instance Variables
+BaselineOfMarkdownEditor is the baseline of the MarkdownEditor.

@@ -1,9 +1,9 @@
 A MarkdownFencedCodeBlock represents a fenced code block in the document tree after parsing.
 
 Instance Variables
-	indentation:		<SmallInteger>
-	info:				<ByteString>
-	openingFence:		<ByteString>
+	indentation:			<SmallInteger>
+	info:						<ByteString>
+	openingFence:	<ByteString>
 
 indentation
 	- is the indetation of the fenced code block

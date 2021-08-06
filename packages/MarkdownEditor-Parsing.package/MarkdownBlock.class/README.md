@@ -1,12 +1,12 @@
 A MarkdownBlock represents a block in the document tree after parsing.
 
 Instance Variables
-	container:			<MarkdownContainerBlock>
-	endPosition:		<SmallInteger>
-	innerLine:			<ByteString>
+	container:					<MarkdownContainerBlock>
+	endPosition:				<SmallInteger>
+	innerLine:					<ByteString>
 	innerStartPosition:	<SmallInteger>
-	open:				<Boolean>
-	startPosition:		<SmallInteger>
+	open:							<Boolean>
+	startPosition:			<SmallInteger>
 
 container
 	- is the container of a leaf block

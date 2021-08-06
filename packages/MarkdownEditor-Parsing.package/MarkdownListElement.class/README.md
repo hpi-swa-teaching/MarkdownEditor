@@ -1,9 +1,9 @@
 A MarkdownListElement super class for all elements belonging to a list.
 
 Instance Variables
-	indentation:	<SmallInteger>
+	indentation:		<SmallInteger>
 	listMarker:		<ByteString>
-	ordered:		<Boolean>
+	ordered:			<Boolean>
 
 indentation
 	- is the indetation of the list element
