@@ -1,4 +1,4 @@
 colors
 themeFontColor
 
-	^ UserInterfaceTheme current properties at: (PluggableTextMorph -> #textColor)
+	^ UserInterfaceTheme current properties at: (DialogWindow -> #textColor)

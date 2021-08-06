@@ -8,6 +8,6 @@ testList: anOrderedCollection
 			yourself.
 		blockquote := MarkdownBlockquote createNew: state.
 		testTupel size = 1 
-			ifTrue: [self assert: #failedMatch equals: blockquote]
-			ifFalse: [self assert: #matchedContainer equals: blockquote.
+			ifTrue: [self assert: 0 equals: blockquote]
+			ifFalse: [self assert: 1 equals: blockquote.
 				self assert: testTupel second equals: state newBlock innerLine]]

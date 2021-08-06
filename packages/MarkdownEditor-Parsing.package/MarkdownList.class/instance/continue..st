@@ -1,4 +1,4 @@
 applying
 continue: aString
 
-	^ #matched
+	^ 0

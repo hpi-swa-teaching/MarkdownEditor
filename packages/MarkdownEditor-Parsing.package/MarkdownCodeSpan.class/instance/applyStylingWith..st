@@ -1,6 +1,12 @@
 styling
 applyStylingWith: aMarkdownStyler
 
-	| fence |
+	| styler inlineCode fence |
+	styler := (SHTextStylerST80 new
+		classOrMetaClass: self class;
+		parseAMethod: true;
+		yourself).
+	inlineCode := self rawContent asText.
+	styler privateStyle: inlineCode.
 	fence := Text new: self fenceLength.
-	^ fence, self rawContent asText, fence
+	^ fence, inlineCode, fence

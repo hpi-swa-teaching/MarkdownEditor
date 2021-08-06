@@ -1,4 +1,4 @@
-initialize-release
+initialize
 initialize
 
 	self editors: OrderedCollection new.

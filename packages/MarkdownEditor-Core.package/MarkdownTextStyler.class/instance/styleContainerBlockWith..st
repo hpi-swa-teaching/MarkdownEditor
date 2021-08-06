@@ -1,7 +1,7 @@
 styling
 styleContainerBlockWith: aMarkdownContainer
 
-	self styleChildrenOf: aMarkdownContainer.
+	self styleChildrenFrom: aMarkdownContainer.
 	self text 
 		addAllAttributes: (aMarkdownContainer textAttributes)
 		from: (aMarkdownContainer startPosition)

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCodeNoWhitespaceStripping" : "jh 7/28/2021 16:08",
+		"testCodeNoWhitespaceStripping2" : "jh 7/28/2021 16:08",
+		"testCodeWhitespaceCharacterCr" : "jh 7/28/2021 16:08",
+		"testCodeWhitespaceStripping" : "jh 7/28/2021 16:08",
+		"testCodeWhitespaceStripping2" : "jh 7/28/2021 16:08",
+		"testCodeWhitespaceStripping3" : "jh 7/28/2021 16:08",
+		"testCodeWhitespaceStripping4" : "jh 7/28/2021 16:08",
+		"testTotalLengthAutolink" : "mf 7/28/2021 22:28",
+		"testTotalLengthBold" : "mf 7/29/2021 00:22",
+		"testTotalLengthCodeSpan" : "jh 7/26/2021 10:53",
+		"testTotalLengthImage" : "jh 7/26/2021 10:58",
+		"testTotalLengthItalic" : "mf 7/29/2021 00:22",
+		"testTotalLengthLink" : "jh 7/26/2021 10:56",
+		"testTotalLengthStrike" : "mf 7/29/2021 00:23",
+		"testTotalLengthString" : "jh 7/26/2021 10:59" } }

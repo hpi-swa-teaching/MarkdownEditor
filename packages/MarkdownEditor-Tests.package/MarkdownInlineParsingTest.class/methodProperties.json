@@ -3,13 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "jh 7/1/2021 09:24",
-		"testCodeNoWhitespaceStripping" : "jh 8/5/2021 15:08",
-		"testCodeNoWhitespaceStripping2" : "jh 8/5/2021 15:07",
-		"testCodeWhitespaceCharacterCr" : "jh 8/5/2021 15:07",
-		"testCodeWhitespaceStripping" : "jh 8/5/2021 15:07",
-		"testCodeWhitespaceStripping2" : "jh 8/5/2021 15:07",
-		"testCodeWhitespaceStripping3" : "jh 8/5/2021 15:06",
-		"testCodeWhitespaceStripping4" : "jh 8/5/2021 15:06",
 		"testDelimiterDivisibleByThreeRule" : "mf 7/29/2021 00:38",
 		"testDelimiterDivisibleByThreeRule2" : "mf 7/29/2021 00:01",
 		"testDelimiterDivisibleByThreeRule3" : "mf 7/29/2021 00:02",
@@ -133,12 +126,4 @@
 		"testParseTextWithWhitespace" : "jh 7/27/2021 13:25",
 		"testParseTextWithWhitespace2" : "jh 7/27/2021 13:25",
 		"testParseTextWithWhitespace3" : "jh 7/27/2021 13:25",
-		"testParseTwoImages" : "jh 7/28/2021 20:54",
-		"testTotalLengthAutolink" : "jh 8/5/2021 15:05",
-		"testTotalLengthBold" : "jh 8/5/2021 15:05",
-		"testTotalLengthCodeSpan" : "jh 8/5/2021 15:05",
-		"testTotalLengthImage" : "jh 8/5/2021 15:05",
-		"testTotalLengthItalic" : "jh 8/5/2021 15:05",
-		"testTotalLengthLink" : "jh 8/5/2021 15:05",
-		"testTotalLengthStrike" : "jh 8/5/2021 15:05",
-		"testTotalLengthString" : "jh 8/5/2021 15:06" } }
+		"testParseTwoImages" : "jh 7/28/2021 20:54" } }

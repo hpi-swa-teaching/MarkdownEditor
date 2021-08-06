@@ -1,4 +1,4 @@
 applying
 continue: aParsingState
 
-	^ #failedMatch
+	^ 1

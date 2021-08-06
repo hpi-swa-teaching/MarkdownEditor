@@ -8,5 +8,5 @@ testInvalidIndention
 		innerLine: 'test';
 		container: (MarkdownList new indentation: 3);
 		yourself.
-	testList := {{'  test test'. #failedMatch}}.
+	testList := {{'  test test'. 1}}.
 	self testList: testList onBlock: testBlock

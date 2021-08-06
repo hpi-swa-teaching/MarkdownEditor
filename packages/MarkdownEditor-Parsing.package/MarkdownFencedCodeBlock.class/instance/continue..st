@@ -7,9 +7,9 @@ continue: aParsingState
 					self finalize: aParsingState. 
 					self beClosed.
 					aParsingState tip: self container.
-					^ #endOfLine]
+					^ 2]
 			ifFalse: [aParsingState reduceCurrentLineTo: 
-						(MarkdownStringUtil 
+						(StringUtil 
 							remove: self indentation 
 							LeadingSpacesFrom: aParsingState currentLine).
-					^ #matched]
+					^ 0]

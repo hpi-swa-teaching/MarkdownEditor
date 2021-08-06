@@ -5,11 +5,11 @@ lookForNewBlockStarts
 		ifFalse: [^ self processRemainderOfLine].
 	self blockChecklist do: [:class || result | 
 		result := class createNew: self state.
-		result = #matchedContainer
+		result = 1 "matched container block - try again for the rest of the line"
 			ifTrue: [self incorporateNewBlock.
 				^ self lookForNewBlockStarts].
 		
-		result = #matchedLeaf
+		result = 2 "matched leaf block - we are done"
 			ifTrue: [self incorporateNewBlock.
 				^ self processRemainderOfLine]].
 	^ self processRemainderOfLine

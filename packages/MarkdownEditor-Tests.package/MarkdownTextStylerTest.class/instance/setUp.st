@@ -3,5 +3,4 @@ setUp
 
 	textStyler := MarkdownTextStyler new.
 	originalStyleSettings := MarkdownSettings currentStyleSettings.
-	MarkdownSettings currentStyleSettings: self styleSettingsForStylingTests.
-	MarkdownSettings UniqueInstance newStyleSettings: self styleSettingsForStylingTests
+	MarkdownSettings currentStyleSettings: self styleSettingsForStylingTests

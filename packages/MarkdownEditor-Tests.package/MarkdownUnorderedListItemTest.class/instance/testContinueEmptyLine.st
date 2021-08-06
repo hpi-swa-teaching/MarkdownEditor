@@ -7,6 +7,6 @@ testContinueEmptyLine
 		innerLine: 'test';
 		container: (MarkdownList new indentation: 2);
 		yourself.
-	testList := {{''. #failedMatch}.
-				{'  test test'. #matched}}.
+	testList := {{''. 1}.
+				{'  test test'. 0}}.
 	self testList: testList onBlock: testBlock

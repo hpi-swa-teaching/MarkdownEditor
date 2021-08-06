@@ -1,4 +1,4 @@
 tests - lineAdding
 testContinue
 
-	self assert: #matched equals: (MarkdownDocument new continue: (MarkdownParsingState new))
+	self assert: 0 equals: (MarkdownDocument new continue: (MarkdownParsingState new))

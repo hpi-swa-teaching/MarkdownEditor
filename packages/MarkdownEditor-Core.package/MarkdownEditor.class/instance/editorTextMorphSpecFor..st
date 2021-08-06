@@ -1,4 +1,4 @@
-toolbuilder
+building
 editorTextMorphSpecFor: aBuilder
 
 	^ aBuilder pluggableTextSpec new

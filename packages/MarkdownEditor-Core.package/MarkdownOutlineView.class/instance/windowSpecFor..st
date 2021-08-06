@@ -5,5 +5,4 @@ windowSpecFor: aBuilder
 		model: self;
 		children: OrderedCollection new;
 		label: #label;
-		extent: self initialExtent;
-		yourself.
+		extent: self initialExtent

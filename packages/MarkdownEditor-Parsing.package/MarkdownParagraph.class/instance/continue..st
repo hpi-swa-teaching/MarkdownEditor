@@ -1,5 +1,5 @@
 applying
 continue: aParsingState
     
-	aParsingState currentLine isAllSeparators ifTrue: [^ #failedMatch].
-	^ #matched
+	aParsingState currentLine isAllSeparators ifTrue: [^1].
+	^ 0

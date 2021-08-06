@@ -25,7 +25,7 @@ It is by no means feature complete. But the aspects we included, are conforming 
 - [x] Thematic Breaks
 - [x] Rightclick Menu for Feature Exploration
 - [x] Document Outline Tree
-- [x] Custom visualization options
+- [ ] Highlight escaped characters
 
 ## How To Install
 You can install the **MarkdownEditor** by opening any text field, pasting the following snippet and execute a *Do-It*:
@@ -37,15 +37,7 @@ Metacello new
 	load
 ```
 
-Alternatively you can install the **MarkdownEditor** with:
-```smalltalk
-Installer mc
-  http: 'https://github.com/hpi-swa-teaching/MarkdownEditor/releases';
-  install: 'MarkdownEditor'.
-```
-
-After that, you can open the Editor via the *"App"*-menu:
-
+After that, you can open the Editor via the *"App"*-menu:  
 ![Opening Markdown Editor](screenshots/how-to-open.png)
 
 ## Contributing

@@ -3,18 +3,16 @@ createNew: aParsingState
 	
 	| listData |
 	(self checkBlankAfterParagraph: aParsingState)
-		ifTrue: [^ #failedMatch].
+		ifTrue: [^ 0].
 	(listData := self parseWithState: aParsingState)
-		ifNil: [^ #failedMatch].
-	aParsingState container class = MarkdownParagraph & ((listData at: #remains) = '')
-		ifTrue: [^ #failedMatch].
+		ifNil: [^ 0].
 	"a list item that follows a Paragraph may only begin with a 1" 
 	aParsingState container class = MarkdownParagraph & (listData at: #isOrdered)
 		==> ((listData at: #start) = 1)
-			ifFalse: [^ #failedMatch].
+			ifFalse: [^ 0].
 	aParsingState newBlock: 
 		((self newFrom: listData)
 			startPosition: aParsingState charPos;
 			innerLine: (listData at: #remains);
 			yourself).
-	^ #matchedContainer
+	^ 1

@@ -8,7 +8,7 @@ testList: anOrderedCollection
 			yourself.
 		heading := MarkdownATXHeading createNew: state.
 		testTupel size = 1 
-			ifTrue: [self assert: #failedMatch equals: heading]
-			ifFalse: [self assert: #matchedLeaf equals: heading.
+			ifTrue: [self assert: 0 equals: heading]
+			ifFalse: [self assert: 2 equals: heading.
 				self assert: testTupel second equals: state newBlock level.
 				self assert: testTupel third equals: state newBlock content]]

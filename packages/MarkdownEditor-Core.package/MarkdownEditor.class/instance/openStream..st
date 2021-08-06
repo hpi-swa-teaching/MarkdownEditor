@@ -3,5 +3,5 @@ openStream: aStream
 
 	aStream ifNotNil: [
 		self currentFilePath: aStream name.
-		self pluggableTextMorph setText: (MarkdownStringUtil getContentOf: aStream).
+		self pluggableTextMorph setText: (self getContentOf: aStream).
 		self saveTextInModel]
