@@ -1,4 +1,4 @@
 styling
 applyStylingWith: aMarkdownStyler
 
-	^ aMarkdownStyler styleChildrenFrom: self
+	^ aMarkdownStyler styleChildrenOf: self

@@ -6,4 +6,4 @@ comparing
 	self class = anotherDelimiter class
 		ifFalse: [^ false].
 	^ (self compareState: anotherDelimiter)
-		and: [self comparePotentialOpenerAndCloser: anotherDelimiter]
+		and: [self compareOpenClosingProperty: anotherDelimiter]

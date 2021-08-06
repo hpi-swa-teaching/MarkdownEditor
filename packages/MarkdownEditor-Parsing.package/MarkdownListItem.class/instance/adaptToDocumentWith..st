@@ -5,12 +5,8 @@ adaptToDocumentWith: aParsingState
 	aParsingState tip class ~= MarkdownList])
 	ifTrue: [aParsingState tip: 
 		(aParsingState tip addChild: MarkdownList new withState: aParsingState).
-		aParsingState tip
-			indentation: self indentation;
-			copyOrderedState: self isOrdered;
-			listMarker: self listMarker;
-			startNumber: self number;
-			startPosition: self startPosition].
+		self configureNewListIn: aParsingState].
+	aParsingState tip indentation: self indentation.
 	aParsingState tip addChild: self withState: aParsingState.
 	aParsingState tip: self.
 	aParsingState reduceCurrentLineTo: self innerLine

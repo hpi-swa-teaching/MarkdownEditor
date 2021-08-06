@@ -1,10 +1,10 @@
 styling
-styleListItemWith: aMarkdownList
+styleListItemWith: aMarkdownListItem
 
 	self text 
-		addAllAttributes: (aMarkdownList textAttributes)
-		from: (aMarkdownList startPosition)
-		to: (aMarkdownList endPosition).
-	aMarkdownList children 
+		addAllAttributes: (aMarkdownListItem textAttributes)
+		from: (aMarkdownListItem startPosition)
+		to: (aMarkdownListItem endPosition).
+	aMarkdownListItem children 
 		do: [:child | child applyStylingWith: self]
 	

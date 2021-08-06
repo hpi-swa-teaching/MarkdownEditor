@@ -1,0 +1,1 @@
+A MarkdownSliderTest tests the slider.
