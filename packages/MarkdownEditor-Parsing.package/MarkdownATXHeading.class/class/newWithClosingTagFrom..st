@@ -5,7 +5,7 @@ newWithClosingTagFrom: aString
 	matcher := RxMatcher forString: '\s{0,3}(#{1,6})(\s+(.*\S)\s+#+\s*|[#\s]*)'.
 	(matcher matches: aString)
 		ifTrue: [^ self new
-				level: ((matcher subexpressions: 2) first size);
+				level: ((matcher subexpression: 2) size);
 				addLine: ((matcher subexpressions: 4) at: 1 ifAbsent: ['']);
 				beClosed;
 				yourself].
