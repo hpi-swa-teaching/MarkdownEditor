@@ -8,6 +8,6 @@ testListContinue: anOrderedCollection
 			yourself.
 		blockquote := (MarkdownBlockquote new) continue: state.
 		testTupel size = 1
-			ifTrue: [self assert: 1 equals: blockquote]
-			ifFalse: [self assert: 0 equals: blockquote.
+			ifTrue: [self assert: #failedMatch equals: blockquote]
+			ifFalse: [self assert: #matched equals: blockquote.
 				self assert: testTupel second equals: state currentLine]]

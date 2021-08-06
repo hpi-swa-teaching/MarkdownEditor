@@ -6,9 +6,9 @@ testRemovingIndention
 		openingFence: '````';
 		indentation: 3;
 		yourself.
-	testList := {{'test'. 0. true}.
-				{'```'. 0. true}.
-				{' t e s t'. 0. true}.
-				{'      test'. 0. true}.
-				{' ````'. 2. false}}.
+	testList := {{'test'. #matched. true}.
+				{'```'. #matched. true}.
+				{' t e s t'. #matched. true}.
+				{'      test'. #matched. true}.
+				{' ````'. #endOfLine. false}}.
 	self testList: testList onBlock: testBlock.

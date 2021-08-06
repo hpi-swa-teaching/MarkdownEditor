@@ -9,6 +9,6 @@ testList: anOrderedCollection
 			yourself.
 		listItem := MarkdownListItem createNew: state.
 		testTupel size = 1 
-			ifTrue: [self assert: 0 equals: listItem]
+			ifTrue: [self assert: #failedMatch equals: listItem]
 			ifFalse: [self assert: testTupel second equals: state newBlock indentation.
 				self assert: testTupel third equals: state newBlock innerLine]]

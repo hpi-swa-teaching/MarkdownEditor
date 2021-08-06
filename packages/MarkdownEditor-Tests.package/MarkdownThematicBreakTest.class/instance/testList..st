@@ -8,5 +8,5 @@ testList: anOrderedCollection
 			yourself.
 		thematicBreak := MarkdownThematicBreak createNew: state.
 		testTupel second
-			ifTrue: [self assert: 2 equals: thematicBreak]
-			ifFalse: [self assert: 0 equals: thematicBreak]]
+			ifTrue: [self assert: #matchedLeaf equals: thematicBreak]
+			ifFalse: [self assert: #failedMatch equals: thematicBreak]]
