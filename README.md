@@ -33,7 +33,7 @@ You can install the **MarkdownEditor** by opening any text field, pasting the fo
 
 ```smalltalk
 Installer mc
-  http: 'https://github.com/hpi-swa-teaching/MarkdownEditor/releases';
+  http: 'https://github.com/hpi-swa-teaching/MarkdownEditor/releases/latest';
   install: 'MarkdownEditor'.
 ```
 
