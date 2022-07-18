@@ -2,17 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"blankLine" : "jko 7/4/2019 17:02",
-		"testAppend" : "jst 7/11/2019 17:58",
-		"testBlankLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:50",
-		"testBlankLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:50",
-		"testBlankLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:51",
-		"testConvertingToTextUsesInlineStyler" : "azi 6/13/2020 04:07",
-		"testTextLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:54",
-		"testTextLineIsExtendableWithTextLine" : "jko 5/27/2019 15:55",
-		"testTextLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:54",
-		"testWhitespaceLineIsExtendableWithBlankLine" : "jko 5/27/2019 15:52",
-		"testWhitespaceLineIsExtendableWithWhitespaceLine" : "jko 5/27/2019 15:53",
-		"testWhitespaceLineIsNotExtendableWithTextLine" : "jko 5/27/2019 15:53",
-		"textLine" : "jko 7/4/2019 17:02",
-		"whitespaceLine" : "jko 7/4/2019 17:01" } }
+		"testContinueDefault" : "mf 8/6/2021 12:00",
+		"testContinueEmpty" : "mf 8/6/2021 12:00" } }

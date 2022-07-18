@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"newFor:" : "JE 7/11/2021 16:31" },
+	"instance" : {
+		"addExportItemsTo:" : "jh 7/19/2021 17:05",
+		"addFileItemsTo:" : "jh 7/19/2021 17:04",
+		"addFindReplaceItemsTo:" : "jh 7/19/2021 17:06",
+		"addHeadingMenuItemsTo:" : "JE 7/11/2021 16:35",
+		"addInlineItemsTo:" : "JE 7/14/2021 13:04",
+		"addLinkMenuItemsTo:" : "JE 7/14/2021 13:02",
+		"addMenuItemsMultiSelectionTo:" : "mf 7/29/2021 01:42",
+		"addMenuItemsSingleSelectionTo:" : "jh 7/19/2021 17:05",
+		"addMenuItemsTo:" : "mf 8/6/2021 11:36",
+		"addMultiInlineItemsTo:" : "F.S 7/12/2021 19:13",
+		"addSingleInlineItemsTo:" : "F.S 7/12/2021 19:16",
+		"applyFencedCodeBlock" : "JE 7/14/2021 12:49",
+		"applyHeadingAt:" : "JE 8/4/2021 14:37",
+		"applyInlineOnSelectionWith:" : "JE 8/4/2021 14:38",
+		"findAndReplaceAll" : "JE 7/31/2021 12:12",
+		"isMultilineSelection" : "JE 7/31/2021 12:12",
+		"pluggableTextMorph" : "JE 7/11/2021 16:31",
+		"pluggableTextMorph:" : "JE 7/11/2021 16:31",
+		"surroundSelectionWith:and:" : "JE 7/31/2021 12:12",
+		"textMorph" : "JE 7/31/2021 12:12",
+		"textSelected" : "JE 7/31/2021 12:13",
+		"yellowButtonMenu:" : "JE 7/31/2021 11:21" } }

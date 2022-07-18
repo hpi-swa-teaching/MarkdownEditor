@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jh 8/5/2021 08:47",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownParagraph",
+	"pools" : [
+		 ],
+	"super" : "MarkdownLeafBlock",
+	"type" : "normal" }

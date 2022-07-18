@@ -1,0 +1,16 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JE 8/6/2021 11:29",
+	"instvars" : [
+		"indentation",
+		"info",
+		"openingFence" ],
+	"name" : "MarkdownFencedCodeBlock",
+	"pools" : [
+		 ],
+	"super" : "MarkdownLeafBlock",
+	"type" : "normal" }

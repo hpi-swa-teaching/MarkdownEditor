@@ -1,0 +1,1 @@
+A MarkdownDocumentTest tests documents.

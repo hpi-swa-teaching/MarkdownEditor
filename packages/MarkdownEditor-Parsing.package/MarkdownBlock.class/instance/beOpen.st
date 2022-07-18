@@ -1,0 +1,4 @@
+accessing
+beOpen
+
+	open := true

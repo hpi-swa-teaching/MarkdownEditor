@@ -1,10 +1,9 @@
-convertStyle
+convert styling
 convertCodeBlockStyleSettings: aStyleSettings
+
 	| codeBlock |
-	
 	codeBlock := '
 		code {
-			font-size: ', (aStyleSettings fontSizes at: MarkdownCodeBlock labels first), 'px;
+			font-size: ', (aStyleSettings fontSizes at: MarkdownFencedCodeBlock labels first), 'px;
 		}', Character cr.
-	
 	^ codeBlock

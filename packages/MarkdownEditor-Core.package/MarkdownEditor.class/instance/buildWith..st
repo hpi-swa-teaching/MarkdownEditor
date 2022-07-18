@@ -1,10 +1,12 @@
-building
+toolbuilder
 buildWith: aBuilder
 
-	| windowSpec window |
-	windowSpec := self buildWindowWith: aBuilder specs: (self windowSpecsFor: aBuilder).
-	window := aBuilder build: windowSpec.
-	self textMorph: (aBuilder widgetAt: #textMorph).
-	self createSettings.
-	 
-	^ window
+	| windowSpec |
+	windowSpec := self buildWindowWith: aBuilder specs: (self overallSpecFor: aBuilder).
+	windowSpec name: #windowMorph.
+	self window: (aBuilder build: windowSpec).
+	self pluggableTextMorph: (aBuilder widgetAt: #textMorph).
+	self registerSettings;
+		configureCloseButton.
+	self window setProperty: #noUserInterfaceTheme toValue: true.
+	^ self window

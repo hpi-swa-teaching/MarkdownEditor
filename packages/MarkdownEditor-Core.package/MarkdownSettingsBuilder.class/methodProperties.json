@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"openFor:" : "jh 7/31/2021 09:20" },
+	"instance" : {
+		"applyBarContentSpecFor:" : "mf 8/6/2021 11:39",
+		"applyBarSpecFor:" : "jh 7/28/2021 15:53",
+		"buildWith:" : "JE 8/4/2021 14:41",
+		"configureCloseButton" : "JE 8/4/2021 14:59",
+		"contentSpecFor:" : "jh 7/31/2021 09:55",
+		"menuBarContentSpecFor:" : "JE 8/4/2021 14:45",
+		"menuBarHeight" : "JE 5/31/2021 19:38",
+		"menuBarItemFor:called:" : "JE 8/4/2021 14:44",
+		"menuBarSpecFor:" : "jh 7/28/2021 15:53",
+		"overallSpecFor:" : "JE 8/4/2021 14:46",
+		"setPropertiesOfSettingsFrom:" : "jh 7/31/2021 11:22",
+		"settings" : "jh 7/31/2021 11:38",
+		"settings:" : "jh 7/31/2021 11:38" } }

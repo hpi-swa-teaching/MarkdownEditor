@@ -1,4 +1,4 @@
 accessing
-setSuffixes: anObject
+setSuffixes: aCollection
 
-	self suffixes: anObject
+	suffixes := aCollection

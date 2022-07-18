@@ -4,10 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JE 8/6/2021 11:30",
 	"instvars" : [
 		"toolbuilder",
-		"window" ],
+		"window",
+		"editor",
+		"originalStyleSettings" ],
 	"name" : "MarkdownEditorTest",
 	"pools" : [
 		 ],

@@ -1,9 +1,9 @@
-tests
+tests - inline
 testConvertLink
 
-	| link |
+	| output expectedOutput |
+	parser parse: '[test](https://hpi.de)'.
+	output :=  (htmlConverter convertToHtml: parsingState document).
+	expectedOutput := self fullHtmlDocumentFrom: '<p><a href="https://hpi.de">test</a></p>'.
 	
-	link := MarkdownLink new content: 'Klick hier'.
-	link url: 'example.com'.
-	
-	self assert: (MarkdownHtmlConverter new convertLink: link) = '<a href="example.com">Klick hier</a>'
+	self assert: expectedOutput equals: output

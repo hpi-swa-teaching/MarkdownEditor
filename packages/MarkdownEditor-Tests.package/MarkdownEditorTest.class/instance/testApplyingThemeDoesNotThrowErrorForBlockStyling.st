@@ -3,5 +3,6 @@ testApplyingThemeDoesNotThrowErrorForBlockStyling
 
 	| textMorph |
 	textMorph := toolbuilder build: (MarkdownEditor new
-		buildEditorTextMorphWith: toolbuilder).
+		editorTextMorphSpecFor: toolbuilder).
+		
 	self shouldnt: [textMorph applyUserInterfaceTheme] raise: Error

@@ -1,0 +1,16 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JE 8/6/2021 11:29",
+	"instvars" : [
+		"fenceLength",
+		"rawContent",
+		"code" ],
+	"name" : "MarkdownCodeSpan",
+	"pools" : [
+		 ],
+	"super" : "MarkdownInlineElement",
+	"type" : "normal" }

@@ -4,11 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JE 8/6/2021 11:34",
 	"instvars" : [
-		 ],
+		"window",
+		"editor",
+		"originalSettings",
+		"settings" ],
 	"name" : "MarkdownSettingsTest",
 	"pools" : [
 		 ],
-	"super" : "MarkdownTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

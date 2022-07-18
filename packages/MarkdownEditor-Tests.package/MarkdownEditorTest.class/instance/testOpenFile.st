@@ -1,25 +1,14 @@
-test - open / close
+tests - open / close
 testOpenFile
 
-	| editor fileChooser |
-
-	window delete.
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
-	FileDirectory default deleteFileNamed: 'testOpenFile.mde'.
+	| fileChooser |
 	
-	editor markdownText: '# Heading'.
-	editor saveAsFile: 'testOpenFile.mde'.
-	
-	window delete.
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
 	fileChooser := MarkdownFileChooserMock new.
 	
-	self assert: (fileChooser initializeCalled = false).
+	self assert: fileChooser initializeCalled not.
 	editor openFile: fileChooser.
-	self assert: (fileChooser initializeCalled = true).
-	self assert: (fileChooser suffixes = {'mde'}).
-	self assert: (fileChooser openCalled = true).
-	
-	FileDirectory default deleteFileNamed: 'testOpenFile.mde'.
+	self assert: fileChooser initializeCalled .
+	self assert: (fileChooser suffixes = {'md'}).
+	self assert: fileChooser openCalled.
+	self assert: editor markdownText equals: MarkdownMockFile defaultContent.
+	self assert: editor currentFilePath equals: MarkdownMockFile defaultName

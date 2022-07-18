@@ -1,5 +1,8 @@
 running
 setUp
 
-	window := MarkdownEditor open.
-	toolbuilder := ToolBuilder default
+	editor := MarkdownEditor new.
+	toolbuilder := ToolBuilder default.
+	window := toolbuilder open: editor.
+	originalStyleSettings := MarkdownSettings currentStyleSettings.
+	MarkdownSettings currentStyleSettings: self styleSettingsForHtmlTests

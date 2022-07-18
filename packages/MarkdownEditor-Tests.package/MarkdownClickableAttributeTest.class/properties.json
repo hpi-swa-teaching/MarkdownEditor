@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jh 8/5/2021 09:03",
+	"instvars" : [
+		"attribute",
+		"editor" ],
+	"name" : "MarkdownClickableAttributeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

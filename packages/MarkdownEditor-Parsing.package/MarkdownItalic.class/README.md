@@ -1,0 +1,1 @@
+A MarkdownItalic contains italic text after parsing.

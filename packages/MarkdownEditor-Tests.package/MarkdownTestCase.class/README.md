@@ -1,1 +1,0 @@
-I provide convenient testing methods for Markdown styling.

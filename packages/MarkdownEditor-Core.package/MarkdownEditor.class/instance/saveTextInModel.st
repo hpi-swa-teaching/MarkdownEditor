@@ -1,4 +1,4 @@
 update
 saveTextInModel
 
-	self textMorph acceptTextInModel
+	self pluggableTextMorph acceptTextInModel

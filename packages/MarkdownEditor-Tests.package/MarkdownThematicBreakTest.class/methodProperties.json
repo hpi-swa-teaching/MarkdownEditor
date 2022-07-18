@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAcceptLine" : "LL 7/13/2021 22:03",
+		"testContinue" : "mf 8/6/2021 12:01",
+		"testDefault" : "mf 7/1/2021 14:10",
+		"testList:" : "JE 8/6/2021 10:28",
+		"testWithInvalid" : "mf 7/1/2021 14:10",
+		"testWithSpaces" : "mf 7/1/2021 14:10" } }

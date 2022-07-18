@@ -1,0 +1,1 @@
+A MarkdownThematicBreakTest tests thematic breaks.

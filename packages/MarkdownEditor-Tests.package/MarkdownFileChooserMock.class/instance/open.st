@@ -1,5 +1,5 @@
-initialize
+initialize-release
 open
 
 	self openCalled: true.
-	^ MultiByteFileStream newFrom: (FileStream fileNamed: 'testOpenFile.mde')
+	^ MarkdownMockFile new

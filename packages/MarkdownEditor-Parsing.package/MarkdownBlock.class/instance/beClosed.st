@@ -1,0 +1,4 @@
+accessing
+beClosed
+
+	open := false

@@ -1,6 +1,5 @@
-test - open / close
+tests - open / close
 testFileEnding
 
-	| editor |
-	editor := MarkdownEditor new.
-	self assert: editor fileEnding equals: 'mde'
+	self assert: 'md' equals: editor fileEnding.
+	self assert: (editor defaultFilename endsWith: editor fileEnding)

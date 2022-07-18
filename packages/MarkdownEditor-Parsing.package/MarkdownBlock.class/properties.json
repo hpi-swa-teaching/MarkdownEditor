@@ -1,0 +1,19 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JE 8/6/2021 11:29",
+	"instvars" : [
+		"container",
+		"endPosition",
+		"innerStartPosition",
+		"innerLine",
+		"startPosition",
+		"open" ],
+	"name" : "MarkdownBlock",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

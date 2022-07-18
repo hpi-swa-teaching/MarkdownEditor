@@ -1,0 +1,4 @@
+accessing
+leafBlocks
+	
+	^ self subclassResponsibility

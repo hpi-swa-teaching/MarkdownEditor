@@ -1,0 +1,1 @@
+A MarkdownEmphasis is an inline element and super class for all inline elements defining an emphasis, such as italic, bold ore struck out. It is defined over a reange of characters in a text.

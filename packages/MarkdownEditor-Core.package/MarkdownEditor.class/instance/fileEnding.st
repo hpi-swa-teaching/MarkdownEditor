@@ -1,4 +1,4 @@
-open / save
+constants
 fileEnding
 
-	^ 'mde'
+	^ 'md'

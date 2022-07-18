@@ -1,0 +1,4 @@
+view
+treeRepresentation
+
+	^ {self content}

@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mf 8/4/2021 23:11",
+	"instvars" : [
+		"email",
+		"path" ],
+	"name" : "MarkdownAutolink",
+	"pools" : [
+		 ],
+	"super" : "MarkdownInlineElement",
+	"type" : "normal" }

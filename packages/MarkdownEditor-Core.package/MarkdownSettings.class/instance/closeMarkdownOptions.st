@@ -1,4 +1,5 @@
 event handling
 closeMarkdownOptions
 	
-	self abandon.
+	self window delete.
+	self window: self noWindow

@@ -1,7 +1,6 @@
-test - open / close
+tests - open / close
 testCurrentFilePath
 
-	| editor |
-	editor := MarkdownEditor new.
 	editor currentFilePath: 'Test test'.
-	self assert: editor currentFilePath equals: 'Test test'
+	
+	self assert: 'Test test' equals: editor currentFilePath

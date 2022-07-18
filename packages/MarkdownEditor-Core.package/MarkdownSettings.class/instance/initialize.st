@@ -1,13 +1,10 @@
-initialize
+initialize-release
 initialize
 
-	super initialize.
-	self blockStylerMorphs: OrderedCollection new.
-	self contentMorph: ScrollPane new.
-	self addMorph: self contentMorph frame: (0@0 corner: 1@1).
-	
-	self initializeBlockStylerMorphs.
-	self initializeTabs.
-	self initializeActions
-	
+	self editors: OrderedCollection new.
+	self blockStylerMorphs: OrderedCollection new;
+		initializeBlockStylerMorphs;
+		window: self noWindow;
+		settingsVersion: self class settingsVersion;
+		currentStyleSettings: MarkdownStyleSettings default
 	

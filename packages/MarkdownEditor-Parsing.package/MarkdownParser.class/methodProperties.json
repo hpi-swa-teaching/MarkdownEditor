@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addLine" : "mf 7/28/2021 00:34",
+		"addParagraph" : "mf 7/29/2021 01:43",
+		"blankLine" : "mf 7/4/2021 14:55",
+		"blockChecklist" : "mf 7/4/2021 14:50",
+		"closeUnmatchedBlocks" : "mf 8/6/2021 12:32",
+		"consumeContinuationMarkers" : "JE 8/6/2021 10:19",
+		"finalize:" : "LL 7/12/2021 21:50",
+		"incorporateNewBlock" : "mf 7/4/2021 14:54",
+		"initialize" : "mf 7/4/2021 14:50",
+		"lazyContinuation" : "mf 8/6/2021 13:38",
+		"lookForNewBlockStarts" : "JE 8/6/2021 10:19",
+		"paragraphClass" : "mf 7/29/2021 01:43",
+		"parse:" : "LL 7/13/2021 18:23",
+		"parseInline:with:" : "jh 7/26/2021 21:04",
+		"parseInlineStringFrom:with:" : "jh 7/27/2021 10:43",
+		"parseLine:" : "C.H. 7/6/2021 17:02",
+		"processRemainderOfLine" : "jh 8/1/2021 17:31",
+		"startInlineParsing" : "jh 7/27/2021 10:17",
+		"state" : "mf 7/4/2021 14:48",
+		"state:" : "mf 7/4/2021 14:48" } }

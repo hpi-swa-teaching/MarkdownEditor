@@ -4,9 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JE 8/6/2021 11:32",
 	"instvars" : [
-		"htmlConverter" ],
+		"htmlConverter",
+		"oldStyleSettings",
+		"parser",
+		"parsingState" ],
 	"name" : "MarkdownHtmlConverterTest",
 	"pools" : [
 		 ],

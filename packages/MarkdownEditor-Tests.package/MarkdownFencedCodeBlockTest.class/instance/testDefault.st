@@ -1,0 +1,21 @@
+tests - lineAdding
+testDefault 
+
+	| testList testBlock |
+	testBlock := (MarkdownFencedCodeBlock new)
+		openingFence: '```';
+		indentation: 0;
+		yourself.
+	testList := {{'test'. #matched. true}.
+	{'test'. #matched. true}.
+	{'```'. #endOfLine. false}}.
+	self testList: testList onBlock: testBlock.
+	
+	testBlock := (MarkdownFencedCodeBlock new)
+		openingFence: '~~~';
+		indentation: 0;
+		yourself.
+	testList := {{'test'. #matched. true}.
+	{'test'. #matched. true}.
+	{'~~~'. #endOfLine. false}}.
+	self testList: testList onBlock: testBlock

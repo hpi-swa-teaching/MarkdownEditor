@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"blockCategory" : "jh 7/1/2021 10:38",
+		"defaultFontColors" : "jh 7/1/2021 10:50",
+		"defaultFontSizes" : "jh 7/1/2021 10:49",
+		"labels" : "jh 7/1/2021 10:39" },
+	"instance" : {
+		"=" : "mf 7/28/2021 23:15",
+		"applyStylingWith:" : "jh 8/5/2021 11:25",
+		"canContain:" : "mf 7/4/2021 14:14",
+		"continue:" : "JE 8/6/2021 10:16",
+		"fontSize" : "jh 7/28/2021 16:39",
+		"hash" : "mf 7/28/2021 23:14",
+		"htmlClosingTag" : "jh 6/25/2021 17:53",
+		"htmlOpeningTag" : "jh 7/27/2021 21:45",
+		"startNumber" : "mf 7/4/2021 14:10",
+		"startNumber:" : "mf 7/4/2021 14:10",
+		"textColor" : "jh 7/28/2021 16:38",
+		"treeRepresentation" : "jh 7/27/2021 15:52" } }

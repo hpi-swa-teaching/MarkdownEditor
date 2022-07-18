@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"delimiterTypes" : "mf 6/23/2021 15:59",
+		"emailRegex" : "mf 8/6/2021 11:54",
+		"newWith:and:" : "mf 7/28/2021 22:28",
+		"uriRegex" : "mf 7/28/2021 23:10" },
+	"instance" : {
+		"=" : "mf 7/28/2021 22:26",
+		"applyStylingWith:" : "mf 7/28/2021 22:25",
+		"beEmail" : "jh 6/23/2021 12:20",
+		"beNotEmail" : "jh 6/23/2021 12:20",
+		"convertWith:" : "mf 7/28/2021 22:26",
+		"extractString" : "mf 7/28/2021 22:26",
+		"hash" : "mf 7/28/2021 22:26",
+		"htmlClosingTag" : "jh 6/25/2021 12:06",
+		"htmlOpeningTag" : "mf 7/28/2021 22:26",
+		"initialize" : "jh 6/23/2021 12:22",
+		"isEmail" : "jh 6/24/2021 12:44",
+		"lastChar" : "jh 7/11/2021 11:25",
+		"path" : "mf 7/28/2021 22:24",
+		"path:" : "mf 7/28/2021 22:25",
+		"textAttributes" : "mf 7/28/2021 22:26",
+		"totalLength" : "mf 7/28/2021 22:26",
+		"treeRepresentation" : "mf 7/28/2021 22:26" } }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"getContentOf:" : "JE 8/4/2021 15:13",
+		"remove:LeadingSpacesFrom:" : "jh 7/25/2021 20:57",
+		"removeOuterSpacesOf:" : "mf 7/29/2021 00:14",
+		"unescape:in:" : "jh 6/29/2021 10:26" },
+	"instance" : {
+		 } }

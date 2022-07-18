@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mf 8/4/2021 16:23",
+	"instvars" : [
+		"path" ],
+	"name" : "MarkdownClickableAttribute",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"type" : "normal" }

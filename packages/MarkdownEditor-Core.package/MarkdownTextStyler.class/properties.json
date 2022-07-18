@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JE 8/6/2021 10:55",
+	"instvars" : [
+		"document",
+		"text" ],
+	"name" : "MarkdownTextStyler",
+	"pools" : [
+		 ],
+	"super" : "SHTextStyler",
+	"type" : "normal" }

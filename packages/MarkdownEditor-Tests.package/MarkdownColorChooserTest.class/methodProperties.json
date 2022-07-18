@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"boxPositionsForWidth250AndHeight70" : "jh 6/1/2021 11:25",
+		"boxPositionsForWidth400AndHeight80" : "jh 6/1/2021 11:40",
+		"setUp" : "jh 6/1/2021 11:32",
+		"tearDown" : "jh 6/1/2021 11:12",
+		"testLayoutProportions" : "JE 6/2/2021 15:11",
+		"testNumberOfSimpleChoosersIs6" : "JE 6/2/2021 15:11",
+		"testSimpleBoxPositions" : "mf 8/6/2021 12:02",
+		"testSimpleBoxPositionsExtent" : "mf 8/6/2021 12:02",
+		"testSimpleColorChooserSizeIs15" : "JE 6/2/2021 15:08" } }

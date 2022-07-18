@@ -1,4 +1,4 @@
-initialize
+initialize-release
 initializeBlockStylerMorphs
 
 	MarkdownEditor blockClasses do:

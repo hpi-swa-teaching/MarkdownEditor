@@ -1,0 +1,4 @@
+html
+altText
+	
+	^ self extractString

@@ -1,23 +1,18 @@
-tests
+tests - apply cancel
 testCancelChanges
 
-	| options paragraphBlock styleSettings |
+	| expectedRuns originalTextColor newRuns text |
+	editor pluggableTextMorph changeText: 'hello' asText.
+	expectedRuns := editor textStyler text runs.
+	text := editor pluggableTextMorph text deepCopy.
+	originalTextColor := self colorOfFirstCharInText.
 	
-	options := MarkdownSettings new
-		currentStyleSettings: MarkdownStyleSettings default;
-		onChange: [:newStyleSettings | styleSettings := newStyleSettings].
-		
-	(self blockStylerOf: options for: 'Paragraph') handleSliderChangeTo: 17.
-	paragraphBlock := MarkdownParagraph 
-		newFrom: (MarkdownLine newFrom: 'i like', Character cr with: styleSettings).
-	paragraphBlock append: (MarkdownLine newFrom: 'patterns' with: styleSettings).
-	self 
-		assertRuns: {20}
-		values: {{TextColor color: Color black. self fontSized: 17}}
-		areStyleOf: paragraphBlock asText.
-	options handleCancel.
-	paragraphBlock styleSettings: styleSettings. "not needed in project because of block text styler"
-	self 
-		assertRuns: {20}
-		values: {{TextColor color: Color black. self fontSized: 14}}
-		areStyleOf: paragraphBlock asText.
+	settings newStyleSettings fontColors at: 'Paragraph' put: originalTextColor negated.
+	settings change.
+	newRuns := (text addAttribute: (TextColor color: originalTextColor negated)) runs.
+	
+	self assert: originalTextColor negated equals: self colorOfFirstCharInText.
+	self assert: newRuns equals: editor pluggableTextMorph text runs.
+	
+	settings handleCancel.
+	self assert: expectedRuns equals: (editor textStyler text runs)

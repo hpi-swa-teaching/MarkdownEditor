@@ -1,10 +1,8 @@
 export
 convertToHTML
 
-	| blocks htmlConverter html |
-	self textMorph accept.
+	| htmlConverter html |
+	self pluggableTextMorph accept.
 	htmlConverter := MarkdownHtmlConverter new.
-	blocks := self blockTextStyler parse: self textMorph getText asString.
-	html := htmlConverter convert: blocks with: self blockTextStyler styleSettings.
-	
-	MarkdownHtmlExportView openWith: html.
+	html := htmlConverter convertToHtml: self textStyler document.
+	MarkdownHtmlExportView openWith: html

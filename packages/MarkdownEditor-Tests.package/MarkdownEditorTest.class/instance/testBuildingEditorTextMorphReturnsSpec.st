@@ -2,7 +2,6 @@ tests - window
 testBuildingEditorTextMorphReturnsSpec
 
 	| spec |
-	spec := MarkdownEditor new buildEditorTextMorphWith: toolbuilder.
+	spec := MarkdownEditor new editorTextMorphSpecFor: toolbuilder.
+	
 	self assert: (spec isKindOf: PluggableTextSpec)
-	
-	

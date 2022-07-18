@@ -7,5 +7,4 @@ parseBinary
 			self scanPast: #binary.
 			self
 				parseTerm;
-				parseUnary ]
-			
+				parseUnary]

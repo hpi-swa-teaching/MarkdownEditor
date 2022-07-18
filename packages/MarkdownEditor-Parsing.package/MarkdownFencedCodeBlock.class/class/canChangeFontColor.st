@@ -1,0 +1,4 @@
+accessing
+canChangeFontColor
+
+	^ false

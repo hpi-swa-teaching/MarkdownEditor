@@ -1,0 +1,4 @@
+toolbuilder
+windowTitle
+
+	^ 'Content Viewer'

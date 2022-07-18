@@ -2,13 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "mas 7/7/2020 13:09",
+		"initialize" : "JE 5/18/2021 17:23",
 		"initializeAsDialogBox" : "mas 7/7/2020 13:05",
-		"initializeCalled" : "mas 7/7/2020 13:03",
-		"initializeCalled:" : "mas 7/7/2020 13:03",
-		"open" : "mas 7/7/2020 14:26",
-		"openCalled" : "mas 7/7/2020 13:09",
-		"openCalled:" : "mas 7/7/2020 13:09",
-		"setSuffixes:" : "mas 7/7/2020 13:05",
-		"suffixes" : "mas 7/7/2020 13:03",
-		"suffixes:" : "mas 7/7/2020 13:04" } }
+		"initializeCalled" : "JE 5/18/2021 17:20",
+		"initializeCalled:" : "JE 5/18/2021 17:22",
+		"open" : "JE 5/18/2021 17:29",
+		"openCalled" : "JE 5/18/2021 17:20",
+		"openCalled:" : "JE 5/18/2021 17:22",
+		"setSuffixes:" : "JE 8/6/2021 11:31",
+		"suffixes" : "JE 5/18/2021 17:20" } }

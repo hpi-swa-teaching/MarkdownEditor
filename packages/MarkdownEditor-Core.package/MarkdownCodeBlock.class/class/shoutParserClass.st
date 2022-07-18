@@ -1,4 +1,0 @@
-ShoutCore-Parsing
-shoutParserClass
-
-	^ WeakSmalltalkParser

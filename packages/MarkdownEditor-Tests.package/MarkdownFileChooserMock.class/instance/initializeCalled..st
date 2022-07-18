@@ -1,3 +1,4 @@
 accessing
-initializeCalled: anObject
-	initializeCalled := anObject
+initializeCalled: aBoolean
+
+	initializeCalled := aBoolean

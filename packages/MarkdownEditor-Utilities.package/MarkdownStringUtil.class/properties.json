@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JE 8/6/2021 11:02",
+	"instvars" : [
+		 ],
+	"name" : "MarkdownStringUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,11 +1,8 @@
 tests - window
 testOpenMarkdownOptions
 
-	| editor window optionsMenu |
-	
-	editor := MarkdownEditor new.
-	window := toolbuilder open: editor.
-	optionsMenu := editor openSettings.
+	| optionsMenu |
+	optionsMenu := editor openSettings openInWorld.
+
 	self assert: (World submorphs includes: optionsMenu).
-	window delete.
 	optionsMenu delete

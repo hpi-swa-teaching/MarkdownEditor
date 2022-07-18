@@ -1,4 +1,0 @@
-accessing
-labels
-
-	^ MarkdownOrderedList labels

@@ -1,0 +1,15 @@
+{
+	"category" : "MarkdownEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JE 8/6/2021 11:34",
+	"instvars" : [
+		"mime",
+		"contentText" ],
+	"name" : "MarkdownUrlContentDisplay",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

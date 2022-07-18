@@ -1,4 +1,0 @@
-accessing
-defaultFontColors
-
-	^ {Color black}

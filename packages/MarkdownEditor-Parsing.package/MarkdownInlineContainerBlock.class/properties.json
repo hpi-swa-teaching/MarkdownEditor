@@ -1,0 +1,14 @@
+{
+	"category" : "MarkdownEditor-Parsing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mf 8/4/2021 23:12",
+	"instvars" : [
+		"children" ],
+	"name" : "MarkdownInlineContainerBlock",
+	"pools" : [
+		 ],
+	"super" : "MarkdownInlineElement",
+	"type" : "normal" }

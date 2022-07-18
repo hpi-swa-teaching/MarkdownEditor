@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jh 8/5/2021 09:02",
 	"instvars" : [
 		 ],
 	"name" : "MarkdownParagraphTest",
 	"pools" : [
 		 ],
-	"super" : "MarkdownTestCase",
+	"super" : "MarkdownBlockTestCase",
 	"type" : "normal" }
