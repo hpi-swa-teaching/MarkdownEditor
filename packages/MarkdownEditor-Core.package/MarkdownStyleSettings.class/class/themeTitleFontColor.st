@@ -1,4 +1,4 @@
 colors
 themeTitleFontColor
 
-	^ UserInterfaceTheme current properties at: (DialogWindow -> #titleTextColor)
+	^ UserInterfaceTheme current get: #titleTextColor for: DialogWindow

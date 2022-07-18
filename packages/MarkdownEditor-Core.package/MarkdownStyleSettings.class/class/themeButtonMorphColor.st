@@ -1,4 +1,4 @@
 colors
 themeButtonMorphColor
 
-	^ UserInterfaceTheme current properties at: (PluggableButtonMorph -> #color)
+	^ UserInterfaceTheme current get: #color for: PluggableButtonMorph
